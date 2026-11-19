@@ -1,0 +1,46 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="draw" class="full draw" />
+    <ui:Label name="loading" text="전장에 입장하는 중…" class="loading" picking-mode="Ignore" />
+    <ui:VisualElement name="battle" class="full" picking-mode="Ignore">
+        <ui:VisualElement class="hud top">
+            <ui:VisualElement class="row top-row">
+                <ui:Label name="resources" class="resources" />
+                <ui:Label name="population" class="population" />
+            </ui:VisualElement>
+            <ui:VisualElement class="row scores">
+                <ui:Label name="own-hall" class="own" />
+                <ui:Label name="clock" class="clock" />
+                <ui:Label name="enemy-hall" class="enemy" />
+            </ui:VisualElement>
+            <ui:VisualElement class="briefing" picking-mode="Ignore">
+                <ui:Label name="quest" picking-mode="Ignore" />
+                <ui:Label name="notice" picking-mode="Ignore" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Button name="pause" text="메뉴  Esc" class="pause" />
+        <ui:VisualElement class="hud controls">
+            <ui:VisualElement class="row controls-title">
+                <ui:Label name="king-status" />
+                <ui:Button name="center" text="왕 시점  Space" />
+            </ui:VisualElement>
+            <ui:VisualElement class="row slots">
+                <ui:Button name="skill-0" class="skill" />
+                <ui:Button name="skill-1" class="skill" />
+                <ui:Button name="skill-2" class="skill" />
+                <ui:Button name="skill-3" class="skill" />
+            </ui:VisualElement>
+            <ui:VisualElement class="row slots">
+                <ui:Button name="action-0" text="1  제재소&#10;나무 35 · 돌 15" />
+                <ui:Button name="action-1" text="2  훈련소&#10;나무 60 · 돌 35" />
+                <ui:Button name="action-2" text="3  주민&#10;나무 25" />
+                <ui:Button name="action-3" text="4  병사&#10;나무 15 · 돌 8 · 구리 4 · 철 3 · 미네랄 1" />
+            </ui:VisualElement>
+            <ui:Label name="help" />
+        </ui:VisualElement>
+        <ui:VisualElement class="hud map">
+            <ui:Label text="전장 지도" />
+            <ui:VisualElement name="minimap" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
+

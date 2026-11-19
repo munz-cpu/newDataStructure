@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="modal" class="full modal">
+        <ui:VisualElement class="modal-card">
+            <ui:Label name="modal-title" />
+            <ui:Label name="modal-copy" />
+            <ui:Button name="resume" text="계속하기" class="primary" />
+            <ui:Button name="leave" text="타이틀로 돌아가기" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
+

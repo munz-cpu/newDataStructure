@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:VisualElement name="menu" class="full menu">
+        <ui:VisualElement class="title-card">
+            <ui:Label text="신들의 전쟁" class="title" />
+            <ui:Label text="마을을 세우고 적 마을회관을 무너뜨리세요." class="subtitle" />
+            <ui:Label text="왕의 직업" class="section-title" />
+            <ui:VisualElement class="row classes">
+                <ui:Button name="class-0" text="수호자" />
+                <ui:Button name="class-1" text="추적자" />
+                <ui:Button name="class-2" text="예언자" />
+            </ui:VisualElement>
+            <ui:Label name="class-info" class="class-info" />
+            <ui:Button name="solo" text="AI 연습전 시작" class="primary" />
+            <ui:VisualElement class="rule" />
+            <ui:Label text="참가 코드 대전  ·  1 대 1" class="section-title" />
+            <ui:TextField name="address" label="호스트 IPv4" placeholder-text="자동 감지" max-length="15" />
+            <ui:VisualElement class="row code-row">
+                <ui:TextField name="code" label="참가 코드" placeholder-text="18자" max-length="18" />
+                <ui:Button name="copy" text="복사" />
+            </ui:VisualElement>
+            <ui:VisualElement class="row classes">
+                <ui:Button name="host" text="방 만들기" />
+                <ui:Button name="join" text="코드로 참가" />
+                <ui:Button name="cancel" text="취소" />
+            </ui:VisualElement>
+            <ui:Label name="room-status" class="room-status" />
+            <ui:Label text="같은 네트워크에서 바로 연결됩니다. 외부에서 참가하려면 호스트의 공인 IPv4와 TCP 27841 포트 연결이 필요합니다." class="network-note" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
+

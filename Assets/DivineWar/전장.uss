@@ -1,0 +1,73 @@
+.unity-ui-document__root { color: #f0e7ce; font-size: 15px; }
+.full { position: absolute; left: 0; right: 0; top: 0; bottom: 0; }
+#draw { overflow: hidden; }
+.loading { position: absolute; align-self: center; top: 46%; padding: 12px 20px; color: #f7d98b; background-color: #192b30; }
+.row { flex-direction: row; align-items: center; }
+.menu { justify-content: center; align-items: flex-start; padding-left: 7%; background-color: rgba(11, 19, 20, 0.46); }
+.title-card, .modal-card, .hud {
+    background-color: rgba(16, 27, 29, 0.94);
+    border-width: 1px;
+    border-color: #566553;
+    border-top-color: #b09c67;
+}
+.title-card { width: 505px; padding: 28px; }
+.title { font-size: 58px; -unity-font-style: bold; color: #f7d98b; margin: 0; }
+.subtitle { margin-top: 0; margin-bottom: 20px; color: #d1c8aa; }
+.section-title { color: #e3ca8c; -unity-font-style: bold; font-size: 16px; margin-bottom: 8px; }
+Button {
+    color: #eae6d5;
+    background-color: #253c3c;
+    border-width: 1px;
+    border-color: #50645d;
+    border-radius: 0;
+    padding: 8px 11px;
+    margin: 0;
+    min-height: 34px;
+}
+Button:hover { background-color: #3a5551; border-color: #a1caba; }
+Button:active, Button.chosen { background-color: #365b54; border-color: #85cfc0; color: #f8eed3; }
+Button.primary { background-color: #bc9853; border-color: #e5bf73; color: #182324; -unity-font-style: bold; }
+Button.primary:hover { background-color: #e0bf77; }
+.classes > Button { flex-grow: 1; margin-right: 5px; }
+.classes > Button:last-child { margin-right: 0; }
+.class-info { margin: 8px 0 13px; color: #a5c2b4; white-space: normal; min-height: 23px; }
+#solo { min-height: 44px; }
+.rule { height: 1px; background-color: #455348; margin: 19px 0 13px; }
+.title-card TextField { margin: 0 0 5px; min-height: 33px; }
+TextField > Label { min-width: 92px; color: #cdc7b1; }
+.unity-text-field__input { background-color: #101e22; color: #f0e7ce; border-color: #53635a; border-radius: 0; padding-left: 8px; }
+.code-row { align-items: flex-start; }
+#code { flex-grow: 1; }
+#copy { min-height: 32px; margin-left: 6px; }
+.room-status { min-height: 22px; margin-top: 8px; color: #efd38d; white-space: normal; }
+.network-note { font-size: 13px; color: #a5b3a5; margin: 5px 0 0; white-space: normal; }
+.top { position: absolute; top: 11px; left: 13px; padding: 7px 11px; min-width: 495px; }
+.top-row { justify-content: space-between; }
+.resources { -unity-font-style: bold; color: #f4d291; }
+.population { color: #bdd0bd; margin-left: 19px; font-size: 13px; }
+.scores { justify-content: space-between; margin-top: 2px; }
+.own { color: #8adfd2; }
+.enemy { color: #ffaa8b; }
+.clock { color: #efe3bc; -unity-font-style: bold; }
+.pause { position: absolute; top: 11px; right: 13px; }
+.briefing { margin-top: 5px; padding-top: 5px; border-top-width: 1px; border-top-color: #48594f; font-size: 13px; }
+#notice { color: #e9c779; margin: 0; }
+.controls { position: absolute; bottom: 11px; left: 13px; right: 235px; padding: 8px 10px 6px; max-width: 730px; }
+.controls-title { justify-content: space-between; margin-bottom: 4px; }
+#king-status { -unity-font-style: bold; color: #f1d392; }
+#center { min-height: 23px; padding: 2px 8px; font-size: 12px; }
+.slots { margin-bottom: 5px; align-items: stretch; }
+.slots > Button { flex: 1 1 0; margin-right: 5px; white-space: normal; font-size: 13px; padding: 4px 4px; }
+.slots > Button:last-child { margin-right: 0; }
+.slots > Button.skill { min-height: 26px; opacity: 1; color: #9aaba7; background-color: #1a3035; }
+.slots > Button.skill.ready { color: #a1e0cf; border-color: #548d7b; }
+#help { color: #bbc8b6; font-size: 12px; white-space: normal; margin: 0; }
+.map { position: absolute; bottom: 11px; right: 13px; padding: 6px; width: 208px; }
+.map > Label { color: #e1d0a2; font-size: 12px; margin: 0 0 4px; }
+#minimap { height: 112px; background-color: #344e44; overflow: hidden; }
+.modal { justify-content: center; align-items: center; background-color: rgba(9, 15, 17, 0.65); }
+.modal-card { width: 410px; padding: 23px; }
+#modal-title { font-size: 43px; color: #f2d18b; -unity-font-style: bold; }
+#modal-copy { white-space: normal; margin-bottom: 15px; }
+.modal-card > Button { margin-top: 6px; }
+
