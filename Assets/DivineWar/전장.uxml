@@ -1,5 +1,4 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements">
-    <Style src="전장.uss" />
-    <ui:VisualElement name="draw" />
-    <ui:VisualElement name="minimap" />
+    <ui:VisualElement name="draw" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0; overflow: hidden; display: none;" />
+    <ui:VisualElement name="minimap" style="position: absolute; overflow: hidden; display: none; background-color: #344e44; background-size: 100% 100%;" />
 </ui:UXML>
