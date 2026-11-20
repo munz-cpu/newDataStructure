@@ -15,8 +15,11 @@ public sealed class 신들의전쟁 : MonoBehaviour
 {
     [SerializeField] Camera 전장카메라;
     [SerializeField] SpriteRenderer[] 슬롯;
+    [SerializeField] Sprite[] 왕대기프레임, 왕이동프레임, 왕공격프레임;
+    [SerializeField] Sprite[] 주민방향프레임, 주민동작프레임;
     [SerializeField] SpriteRenderer 건설미리보기;
     [SerializeField] 자원지점[] 자원들;
+    [SerializeField] Transform 장식지형;
     [SerializeField] Tilemap 바닥타일맵, 장애물타일맵;
     [SerializeField] Transform[] 시작지점들;
 
@@ -39,6 +42,8 @@ public sealed class 신들의전쟁 : MonoBehaviour
     readonly List<Vector2> 내왕경로 = new();
     readonly List<RaycastResult> HUD충돌 = new();
     readonly int[] 표시된쿨다운 = new int[4];
+    readonly 왕그림상태[] 왕그림들 = new 왕그림상태[2];
+    readonly 주민그림상태[] 주민그림들 = new 주민그림상태[전장규칙.전체칸];
     PointerEventData HUD포인터;
     Rect 미니맵범위;
     VisualElement 뿌리, 전장표시, 지도;
@@ -49,6 +54,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
     Material 호버재질, 주민선택재질;
     SpriteRenderer[] 자원그림;
     전장안개 안개;
+    전장그림자 그림자들;
 
     전장규칙 규칙;
     전장상태 상태;
@@ -66,15 +72,33 @@ public sealed class 신들의전쟁 : MonoBehaviour
     bool 키보드이동, 주민자동해제;
     string 연결종료 = "", 팝업제목, 팝업본문;
 
+    struct 왕그림상태
+    {
+        public bool 표시중;
+        public Vector2 위치;
+        public int 방향;
+        public float 이동여운, 이전공격대기, 공격여운, 동작시간;
+        public Sprite[] 프레임;
+    }
+
+    struct 주민그림상태
+    {
+        public bool 표시중;
+        public int 방향;
+        public float 이동여운, 걷기거리, 튀는시간, 이전공격대기, 이전체력;
+    }
+
     void OnEnable()
     {
         if (!Application.isEditor) Application.runInBackground = true;
         뿌리 = GetComponent<UIDocument>().rootVisualElement;
+        뿌리.StretchToParentSize();
         전장표시 = 뿌리.Q("draw");
         지도 = 뿌리.Q("minimap");
         미니맵범위 = default;
         안개 ??= new 전장안개(transform);
         안개.보이기 = true;
+        if (그림자들 != null) 그림자들.보이기 = true;
         지도.style.backgroundColor = new StyleColor(new Color32(52, 78, 68, 255));
         지도.style.backgroundImage = new StyleBackground(안개.탐사지도);
         건축목록표시(false);
@@ -103,6 +127,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
     {
         길찾기 = new 격자길찾기(바닥타일맵, 장애물타일맵);
         자원그림 = Array.ConvertAll(자원들, 지점 => 지점.오브젝트.GetComponent<SpriteRenderer>());
+        그림자들 = new 전장그림자(transform, 슬롯, 자원그림, 장식지형);
         var 셰이더 = Resources.Load<Shader>("전장 호버 윤곽");
         if (셰이더 != null)
         {
@@ -150,6 +175,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
     void OnDisable()
     {
         if (안개 != null) 안개.보이기 = false;
+        if (그림자들 != null) 그림자들.보이기 = false;
         if (건설커서 != null) 건설커서.gameObject.SetActive(false);
         if (전장표시 != null)
         {
@@ -192,6 +218,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
     void OnDestroy()
     {
         안개?.Dispose();
+        그림자들?.Dispose();
         if (호버윤곽 != null) Destroy(호버윤곽.gameObject);
         if (호버재질 != null) Destroy(호버재질);
         if (주민윤곽 != null)
@@ -566,7 +593,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
             if (대상 == null || !대상.생존 || !그림.enabled || 그림.sortingOrder <= 앞) continue;
             Vector2 간격 = 위치 - (Vector2)그림.transform.position;
             float 반너비 = 대상.건물 ? 1f : .42f;
-            float 높이 = 대상.건물 ? 1.9f : 1f;
+            float 높이 = 대상.건물 ? 1.9f : 대상.종류 == 대상종류.주민 ? 1.18f : 1f;
             if (Mathf.Abs(간격.x) > 반너비 || 간격.y < -.25f || 간격.y > 높이) continue;
             앞 = 그림.sortingOrder;
             결과 = i;
@@ -693,6 +720,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
             var 그림 = 슬롯[i];
             if (대상 == null || !대상.생존)
             {
+                if (대상?.종류 == 대상종류.왕) 왕그림들[대상.팀] = default;
                 그림.enabled = false;
                 선택부대.Remove(i);
                 if (주민윤곽?[i] != null) 주민윤곽[i].enabled = false;
@@ -700,6 +728,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
             }
             if (!안개.탐사됨(대상.위치))
             {
+                if (대상.종류 == 대상종류.왕) 왕그림들[대상.팀] = default;
                 그림.enabled = false;
                 continue;
             }
@@ -707,11 +736,15 @@ public sealed class 신들의전쟁 : MonoBehaviour
             Vector3 목표 = 대상.위치;
             그림.transform.position = 규칙 != null || !그림.enabled || Vector3.Distance(현재, 목표) > 2
                 ? 목표 : Vector3.MoveTowards(현재, 목표, 초 * 6);
+            if (대상.종류 == 대상종류.주민 && 주민방향프레임?.Length == 16)
+                주민그림갱신(i, 대상, 그림, 그림.transform.position - 현재, 일시정지 ? 0 : 초);
+            else 그림.flipX = !대상.건물 && 대상.왼쪽;
             그림.enabled = true;
             그림.sortingOrder = (int)(-그림.transform.position.y * 80) + 1600;
-            그림.flipX = !대상.건물 && 대상.왼쪽;
+            if (대상.종류 == 대상종류.왕) 왕그림갱신(대상, 그림, 일시정지 ? 0 : 초);
             그림.color = 대상.효과시간 > 0 ? new Color(1, .8f, .67f)
-                : 대상.완공대기 > 0 ? new Color(1, 1, 1, .57f) : 대상.종류 == 대상종류.왕 ? (대상.팀 == 0 ? 청록 : 적색) : Color.white;
+                : 대상.완공대기 > 0 ? new Color(1, 1, 1, .57f)
+                : 대상.종류 == 대상종류.왕 ? Color.Lerp(Color.white, 대상.팀 == 0 ? 청록 : 적색, .68f) : Color.white;
             if (주민윤곽 == null) continue;
             if (대상.종류 == 대상종류.주민 && 선택부대.Contains(i))
             {
@@ -720,7 +753,121 @@ public sealed class 신들의전쟁 : MonoBehaviour
             }
             else if (주민윤곽[i] != null) 주민윤곽[i].enabled = false;
         }
+        그림자들?.반영(상태.대상들, 안개);
         건설미리보기갱신();
+    }
+
+    void 주민그림갱신(int 슬롯번호, 전장대상 주민, SpriteRenderer 그림, Vector2 이동, float 초)
+    {
+        const int 걷기프레임수 = 6;
+        const int 방향당프레임 = 걷기프레임수 + 3;
+        const float 보폭주기거리 = 1.20f;
+        const float 튀는길이 = .30f;
+
+        ref var 동작 = ref 주민그림들[슬롯번호];
+        if (!그림.enabled || !동작.표시중)
+            동작 = new 주민그림상태 { 표시중 = true, 방향 = 2 };
+        else
+        {
+            동작.튀는시간 = Mathf.Max(0, 동작.튀는시간 - 초);
+            if (이동.sqrMagnitude > .000001f)
+            {
+                if (동작.이동여운 <= 0) 동작.걷기거리 = 0;
+                동작.이동여운 = .12f;
+                동작.걷기거리 = Mathf.Repeat(동작.걷기거리 + 이동.magnitude, 보폭주기거리);
+                동작.방향 = 스프라이트방향(이동);
+            }
+            else 동작.이동여운 = Mathf.Max(0, 동작.이동여운 - 초);
+
+            int 채집터 = 주민.채집터;
+            if (채집터 >= 0 && 채집터 < 자원들.Length && 주민.공격대기 > 동작.이전공격대기 + .12f)
+            {
+                var 채집방향 = (Vector2)자원들[채집터].오브젝트.position - 주민.위치;
+                if (채집방향.sqrMagnitude < 1.38f * 1.38f)
+                {
+                    if (채집방향.sqrMagnitude > .000001f) 동작.방향 = 스프라이트방향(채집방향);
+                    동작.튀는시간 = 튀는길이;
+                }
+            }
+            if (주민.체력 < 동작.이전체력) 동작.튀는시간 = 튀는길이;
+        }
+        동작.이전공격대기 = 주민.공격대기;
+        동작.이전체력 = 주민.체력;
+
+        int 방향번호 = 주민.팀 * 8 + 동작.방향;
+        var 프레임 = 주민방향프레임[방향번호];
+        if (주민동작프레임?.Length == 16 * 방향당프레임)
+        {
+            int 시작 = 방향번호 * 방향당프레임;
+            if (동작.튀는시간 > 0)
+            {
+                int 단계 = Mathf.Min(4, (int)((1 - 동작.튀는시간 / 튀는길이) * 5));
+                프레임 = 주민동작프레임[시작 + 걷기프레임수 + 2 - Mathf.Abs(2 - 단계)];
+            }
+            else if (동작.이동여운 > 0)
+            {
+                int 단계 = Mathf.Min(걷기프레임수 - 1, (int)(동작.걷기거리 / 보폭주기거리 * 걷기프레임수));
+                프레임 = 주민동작프레임[시작 + 단계];
+            }
+        }
+        if (프레임 != 그림.sprite) 그림.sprite = 프레임;
+        그림.flipX = false;
+    }
+
+    void 왕그림갱신(전장대상 왕, SpriteRenderer 그림, float 초)
+    {
+        const int 방향당프레임 = 15;
+        const int 전체프레임 = 8 * 방향당프레임;
+        const float 공격길이 = .55f;
+        if (왕대기프레임?.Length != 전체프레임 || 왕이동프레임?.Length != 전체프레임
+            || 왕공격프레임?.Length != 전체프레임) return;
+
+        ref var 동작 = ref 왕그림들[왕.팀];
+        if (동작.표시중)
+        {
+            var 이동 = 왕.위치 - 동작.위치;
+            동작.이동여운 = Mathf.Max(0, 동작.이동여운 - 초);
+            동작.공격여운 = Mathf.Max(0, 동작.공격여운 - 초);
+            if (이동.sqrMagnitude > .000001f)
+            {
+                // 시뮬레이션과 네트워크 위치 갱신 사이에도 달리기를 이어간다.
+                동작.이동여운 = .12f;
+                동작.방향 = 스프라이트방향(이동);
+            }
+            if (왕.공격대기 > 0 && 왕.공격대기 > 동작.이전공격대기)
+            {
+                동작.공격여운 = 공격길이;
+                if (왕.표적 >= 0 && 상태.대상들[왕.표적] is { } 적)
+                {
+                    var 공격방향 = 적.위치 - 왕.위치;
+                    if (공격방향.sqrMagnitude > .000001f) 동작.방향 = 스프라이트방향(공격방향);
+                }
+            }
+        }
+        else
+        {
+            동작.표시중 = true;
+            동작.방향 = 왕.왼쪽 ? 4 : 0;
+        }
+        동작.위치 = 왕.위치;
+        동작.이전공격대기 = 왕.공격대기;
+
+        bool 공격중 = 동작.공격여운 > 0;
+        bool 이동중 = 동작.이동여운 > 0;
+        var 프레임 = 공격중 ? 왕공격프레임 : 이동중 ? 왕이동프레임 : 왕대기프레임;
+        float 반복길이 = 이동중 ? .6f : 1.2f;
+        동작.동작시간 = 동작.프레임 == 프레임 ? (동작.동작시간 + 초) % 반복길이 : 0;
+        동작.프레임 = 프레임;
+        float 진행률 = 공격중 ? 1 - 동작.공격여운 / 공격길이 : 동작.동작시간 / 반복길이;
+        int 번호 = Mathf.Min((int)(진행률 * 방향당프레임), 방향당프레임 - 1);
+        그림.sprite = 프레임[동작.방향 * 방향당프레임 + 번호];
+        그림.flipX = false;
+    }
+
+    static int 스프라이트방향(Vector2 방향)
+    {
+        // 스프라이트 시트의 행은 오른쪽부터 시계 방향으로 배치되어 있다.
+        return (Mathf.RoundToInt(-Mathf.Atan2(방향.y, 방향.x) * Mathf.Rad2Deg / 45f) + 8) % 8;
     }
 
     void 건설미리보기갱신()
@@ -912,7 +1059,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
                     네모(펜, new Rect(점.x - 12, 점.y - 3, 24, 6), new Color(.21f, .83f, .72f, .32f), 청록);
             }
             if (!선택 && !대상.건물 && 대상.종류 != 대상종류.왕 && 대상.체력 >= 대상.최대체력) continue;
-            float 높이 = 대상.건물 ? 2.12f : 1.15f;
+            float 높이 = 대상.건물 ? 2.12f : 대상.종류 == 대상종류.주민 ? 1.35f : 1.15f;
             var 위 = 위치변환(위치 + Vector2.up * 높이);
             if (!전장표시.contentRect.Contains(위)) continue;
             float 폭 = 대상.건물 ? 49 : 27;
