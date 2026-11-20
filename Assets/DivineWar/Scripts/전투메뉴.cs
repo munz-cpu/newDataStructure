@@ -1,6 +1,10 @@
 using System;
+using System.Collections;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.UIElements;
+using Button = UnityEngine.UI.Button;
 
 public static class 전투글꼴
 {
@@ -14,37 +18,96 @@ public static class 전투글꼴
     }
 }
 
-[RequireComponent(typeof(UIDocument))]
+static class 메뉴등장
+{
+    public static IEnumerator 재생(RectTransform 카드, CanvasGroup 페이드대상, Vector2 기본위치)
+    {
+        const float 거리 = 16;
+        const float 재생시간 = .26f;
+        float 시작 = Time.unscaledTime;
+        while (true)
+        {
+            float 진행 = Mathf.Clamp01((Time.unscaledTime - 시작) / 재생시간);
+            float 남은비율 = 1 - 진행;
+            남은비율 = 남은비율 * 남은비율 * 남은비율;
+            카드.anchoredPosition = 기본위치 - Vector2.up * (거리 * 남은비율);
+            페이드대상.alpha = 1 - 남은비율;
+            if (진행 >= 1) yield break;
+            yield return null;
+        }
+    }
+}
+
 public sealed class 전투메뉴 : MonoBehaviour
 {
-    [SerializeField] StyleSheet 화면스타일;
+    [SerializeField] CanvasGroup 모달;
+    [SerializeField] RectTransform 메뉴카드;
+    [SerializeField] GameObject 이동설정;
+    [SerializeField] Button 재개버튼, 나가기버튼;
+    [SerializeField] 메뉴버튼 클릭이동버튼, 키보드이동버튼;
+    [SerializeField] TMP_Text 제목표시, 본문표시;
 
-    VisualElement 뿌리;
-    Button 재개버튼;
-    Label 제목표시, 본문표시;
-    public event Action 재개, 나가기;
+    Coroutine 등장;
+    Vector2 카드위치;
+    메뉴버튼 주민자동해제버튼;
+    TMP_Text 주민자동해제문구;
+    public event Action 재개, 나가기, 주민자동해제전환;
+    public event Action<bool> 이동방식선택;
 
-    void OnEnable()
+    void Awake()
     {
-        뿌리 = GetComponent<UIDocument>().rootVisualElement;
-        뿌리.styleSheets.Add(화면스타일);
-        전투글꼴.적용(뿌리);
-        제목표시 = 뿌리.Q<Label>("modal-title");
-        본문표시 = 뿌리.Q<Label>("modal-copy");
-        재개버튼 = 뿌리.Q<Button>("resume");
-        재개버튼.clicked += () => 재개?.Invoke();
-        뿌리.Q<Button>("leave").clicked += () => 나가기?.Invoke();
+        카드위치 = 메뉴카드.anchoredPosition;
+        주민자동해제버튼 = Instantiate(클릭이동버튼, 메뉴카드, false);
+        주민자동해제버튼.name = "주민 명령 후 자동 해제";
+        주민자동해제버튼.transform.SetSiblingIndex(재개버튼.transform.GetSiblingIndex());
+        주민자동해제버튼.gameObject.AddComponent<LayoutElement>().preferredHeight =
+            ((RectTransform)클릭이동버튼.transform).rect.height;
+        주민자동해제문구 = 주민자동해제버튼.GetComponent<TMP_Text>();
+        주민자동해제버튼.onClick.AddListener(주민자동해제선택);
+        클릭이동버튼.onClick.AddListener(클릭이동선택);
+        키보드이동버튼.onClick.AddListener(키보드이동선택);
+        재개버튼.onClick.AddListener(재개선택);
+        나가기버튼.onClick.AddListener(나가기선택);
         숨기기();
+    }
+
+    void OnDisable() => 숨기기();
+
+    void 클릭이동선택() => 이동방식선택?.Invoke(false);
+    void 키보드이동선택() => 이동방식선택?.Invoke(true);
+    void 주민자동해제선택() => 주민자동해제전환?.Invoke();
+    void 재개선택() => 재개?.Invoke();
+    void 나가기선택() => 나가기?.Invoke();
+
+    public void 이동방식표시(bool 키보드이동)
+    {
+        클릭이동버튼.선택표시(!키보드이동);
+        키보드이동버튼.선택표시(키보드이동);
+    }
+
+    public void 주민자동해제표시(bool 켜짐)
+    {
+        주민자동해제버튼.선택표시(켜짐);
+        주민자동해제문구.text = 켜짐 ? "주민 명령 후 자동 해제  ·  켜짐" : "주민 명령 후 자동 해제  ·  꺼짐";
     }
 
     public void 보이기(string 제목, string 본문, bool 재개가능)
     {
         제목표시.text = 제목;
         본문표시.text = 본문;
-        재개버튼.style.display = 재개가능 ? DisplayStyle.Flex : DisplayStyle.None;
-        뿌리.style.display = DisplayStyle.Flex;
+        재개버튼.gameObject.SetActive(재개가능);
+        이동설정.SetActive(재개가능);
+        주민자동해제버튼.gameObject.SetActive(재개가능);
+        모달.gameObject.SetActive(true);
+        if (등장 != null) StopCoroutine(등장);
+        등장 = StartCoroutine(메뉴등장.재생(메뉴카드, 모달, 카드위치));
     }
 
-    public void 숨기기() => 뿌리.style.display = DisplayStyle.None;
+    public void 숨기기()
+    {
+        if (등장 != null) StopCoroutine(등장);
+        등장 = null;
+        if (모달 != null) 모달.gameObject.SetActive(false);
+    }
 }
 

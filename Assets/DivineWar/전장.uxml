@@ -23,24 +23,65 @@
                 <ui:Label name="king-status" />
                 <ui:Button name="center" text="왕 시점  Space" />
             </ui:VisualElement>
-            <ui:VisualElement class="row slots">
-                <ui:Button name="skill-0" class="skill" />
-                <ui:Button name="skill-1" class="skill" />
-                <ui:Button name="skill-2" class="skill" />
-                <ui:Button name="skill-3" class="skill" />
+            <ui:VisualElement class="row skill-bar">
+                <ui:VisualElement name="skill-0" class="skill skill-q" picking-mode="Ignore">
+                    <ui:Label class="skill-key" text="Q" picking-mode="Ignore" />
+                    <ui:VisualElement class="skill-icon" picking-mode="Ignore" />
+                    <ui:Label class="skill-name" picking-mode="Ignore" />
+                    <ui:Label class="skill-time" picking-mode="Ignore" />
+                </ui:VisualElement>
+                <ui:VisualElement name="skill-1" class="skill skill-w" picking-mode="Ignore">
+                    <ui:Label class="skill-key" text="W" picking-mode="Ignore" />
+                    <ui:VisualElement class="skill-icon" picking-mode="Ignore" />
+                    <ui:Label class="skill-name" picking-mode="Ignore" />
+                    <ui:Label class="skill-time" picking-mode="Ignore" />
+                </ui:VisualElement>
+                <ui:VisualElement name="skill-2" class="skill skill-e" picking-mode="Ignore">
+                    <ui:Label class="skill-key" text="E" picking-mode="Ignore" />
+                    <ui:VisualElement class="skill-icon" picking-mode="Ignore" />
+                    <ui:Label class="skill-name" picking-mode="Ignore" />
+                    <ui:Label class="skill-time" picking-mode="Ignore" />
+                </ui:VisualElement>
+                <ui:VisualElement name="skill-3" class="skill skill-r" picking-mode="Ignore">
+                    <ui:Label class="skill-key" text="R" picking-mode="Ignore" />
+                    <ui:VisualElement class="skill-icon" picking-mode="Ignore" />
+                    <ui:Label class="skill-name" picking-mode="Ignore" />
+                    <ui:Label class="skill-time" picking-mode="Ignore" />
+                </ui:VisualElement>
             </ui:VisualElement>
             <ui:VisualElement class="row slots">
-                <ui:Button name="action-0" text="1  제재소&#10;나무 35 · 돌 15" />
-                <ui:Button name="action-1" text="2  훈련소&#10;나무 60 · 돌 35" />
                 <ui:Button name="action-2" text="3  주민&#10;나무 25" />
                 <ui:Button name="action-3" text="4  병사&#10;나무 15 · 돌 8 · 구리 4 · 철 3 · 미네랄 1" />
             </ui:VisualElement>
             <ui:Label name="help" />
         </ui:VisualElement>
-        <ui:VisualElement class="hud map">
-            <ui:Label text="전장 지도" />
-            <ui:VisualElement name="minimap" />
+        <ui:VisualElement class="right-hud" picking-mode="Ignore">
+            <ui:VisualElement name="build-panel" class="hud build-panel">
+                <ui:Label text="건축" class="section-title" />
+                <ui:Button name="action-0" class="build-option">
+                    <ui:VisualElement class="build-preview" picking-mode="Ignore" />
+                    <ui:VisualElement picking-mode="Ignore">
+                        <ui:Label text="1  제재소" class="build-name" picking-mode="Ignore" />
+                        <ui:Label text="나무 35 · 돌 15" class="build-cost" picking-mode="Ignore" />
+                    </ui:VisualElement>
+                </ui:Button>
+                <ui:Button name="action-1" class="build-option">
+                    <ui:VisualElement class="build-preview" picking-mode="Ignore" />
+                    <ui:VisualElement picking-mode="Ignore">
+                        <ui:Label text="2  훈련소" class="build-name" picking-mode="Ignore" />
+                        <ui:Label text="나무 60 · 돌 35" class="build-cost" picking-mode="Ignore" />
+                    </ui:VisualElement>
+                </ui:Button>
+            </ui:VisualElement>
+            <ui:VisualElement class="hud map">
+                <ui:Label text="전장 지도" />
+                <ui:VisualElement name="minimap" />
+            </ui:VisualElement>
+            <ui:Button name="build-toggle" class="build-toggle" tooltip="건축 목록 열기/닫기" focusable="false">
+                <ui:VisualElement class="hammer-icon" picking-mode="Ignore" />
+            </ui:Button>
         </ui:VisualElement>
+        <ui:VisualElement name="build-cursor" class="hammer-icon" picking-mode="Ignore" />
     </ui:VisualElement>
 </ui:UXML>
 

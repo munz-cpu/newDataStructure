@@ -83,10 +83,11 @@ public sealed class 참가연결 : IDisposable
 
     public bool 받기(out string 내용) => 수신함.TryDequeue(out 내용);
 
-    public void 보내기(string 내용)
+    public bool 보내기(string 내용)
     {
-        if (!연결됨 || 송신함.Count >= 96) return;
+        if (!연결됨 || 송신함.Count >= 96) return false;
         송신함.Enqueue(내용);
+        return true;
     }
 
     public void 상태보내기(string 내용)

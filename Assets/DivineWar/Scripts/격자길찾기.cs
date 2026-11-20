@@ -112,6 +112,36 @@ public sealed class 격자길찾기
 
     public void 초기화(이동경로 경로) => 경로.지도버전 = -1;
 
+    public void 남은경로추가(이동경로 경로, Vector2 현재, Vector2 목적, List<Vector2> 결과)
+    {
+        if (경로.지도버전 != 지도버전 || 경로.목적칸 != 위치칸(목적)) return;
+        Vector2 끝 = 현재;
+        for (int i = 경로.다음칸; i < 경로.지점들.Count; i++)
+        {
+            끝 = 경로.지점들[i];
+            결과.Add(끝);
+        }
+        if (끝 != 목적 && 통행가능(경로.목적칸) && 위치칸(끝) == 경로.목적칸)
+            결과.Add(목적);
+    }
+
+    public Vector2 방향이동(Vector2 지금, Vector2 목표)
+    {
+        int 현재칸 = 위치칸(지금);
+        var 가로 = new Vector2(목표.x, 지금.y);
+        var 세로 = new Vector2(지금.x, 목표.y);
+        bool 가로가능 = 통과(가로), 세로가능 = 통과(세로);
+        if (가로가능 && 세로가능 && 통과(목표)) return 목표;
+        if (가로가능 && 가로 != 지금) return 가로;
+        return 세로가능 ? 세로 : 지금;
+
+        bool 통과(Vector2 위치)
+        {
+            int 칸 = 위치칸(위치);
+            return 칸 >= 0 && (칸 == 현재칸 || 통행가능(칸));
+        }
+    }
+
     public void 구하기(Vector2 시작위치, Vector2 목표위치, List<Vector2> 결과)
     {
         결과.Clear();
