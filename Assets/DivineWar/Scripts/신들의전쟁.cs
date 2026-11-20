@@ -711,7 +711,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
             그림.sortingOrder = (int)(-그림.transform.position.y * 80) + 1600;
             그림.flipX = !대상.건물 && 대상.왼쪽;
             그림.color = 대상.효과시간 > 0 ? new Color(1, .8f, .67f)
-                : 대상.완공대기 > 0 ? new Color(1, 1, 1, .57f) : Color.white;
+                : 대상.완공대기 > 0 ? new Color(1, 1, 1, .57f) : 대상.종류 == 대상종류.왕 ? (대상.팀 == 0 ? 청록 : 적색) : Color.white;
             if (주민윤곽 == null) continue;
             if (대상.종류 == 대상종류.주민 && 선택부대.Contains(i))
             {
