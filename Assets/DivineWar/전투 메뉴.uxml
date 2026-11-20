@@ -6,7 +6,7 @@
             <ui:VisualElement name="movement-settings">
                 <ui:Label text="왕 이동 방식" class="section-title" />
                 <ui:VisualElement class="row movement-options">
-                    <ui:Button name="move-click" text="마우스 우클릭" />
+                    <ui:Button name="move-click" text="마우스 클릭" />
                     <ui:Button name="move-wasd" text="WASD" />
                 </ui:VisualElement>
             </ui:VisualElement>

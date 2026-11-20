@@ -439,6 +439,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
         if (마우스 == null || !Application.isFocused) return;
         현재마우스 = 마우스.position.ReadValue();
         Vector2 위치 = 전장좌표(현재마우스);
+        if (마우스.rightButton.wasPressedThisFrame && 전장가리킴(현재마우스)) 우클릭명령(위치);
         if (키 != null)
         {
             if (키.spaceKey.wasPressedThisFrame) 시점복귀();
@@ -464,9 +465,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
     {
         if (!전투중 || 패널열림 || 입력.pointerType != UnityEngine.UIElements.PointerType.mouse) return;
         현재마우스 = 화면좌표(입력.localPosition);
-        if (입력.button == 1)
-            우클릭명령(전장좌표(현재마우스));
-        else if (입력.button == 0)
+        if (입력.button == 0)
         {
             드래그중 = true;
             누른위치 = 현재마우스;
@@ -530,6 +529,11 @@ public sealed class 신들의전쟁 : MonoBehaviour
                 명령전달(명령종류.공격, 위치, 대상번호);
                 return;
             }
+            if (대상.종류 == 대상종류.왕)
+            {
+                선택부대.Clear();
+                return;
+            }
             if (대상.종류 is 대상종류.병사 or 대상종류.주민)
             {
                 선택부대.Clear();
@@ -537,7 +541,11 @@ public sealed class 신들의전쟁 : MonoBehaviour
                 return;
             }
         }
-        if (선택부대.Count == 0) return;
+        if (선택부대.Count == 0)
+        {
+            if (대상번호 < 0 && !키보드이동) 명령전달(명령종류.이동, 위치);
+            return;
+        }
 
         var 부대 = new int[선택부대.Count];
         선택부대.CopyTo(부대);
@@ -801,7 +809,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
         알림.text = 팀.알림시간 > 0 ? 팀.알림 : 팀.모집종류 >= 0 ? $"모집 진행 중   {Mathf.CeilToInt(팀.모집대기)}초" : "";
         알림.gameObject.SetActive(알림.text.Length > 0);
         도움.text = 배치 >= 0 ? "좌클릭 설치  ·  우클릭 / Esc 취소  ·  회관 반경 8" :
-            $"{(키보드이동 ? "WASD" : "우클릭")} 왕 이동  ·  드래그 선택  ·  좌클릭 명령 / 공격  ·  Space 왕 시점   |   선택 {선택부대.Count}";
+            $"{(키보드이동 ? "WASD" : "바닥 클릭")} 왕 이동  ·  드래그 선택  ·  좌클릭 명령 / 공격  ·  Space 왕 시점   |   선택 {선택부대.Count}";
         if (배치 < 0 && 선택부대.Count > 0) 도움.text += "  ·  Esc 선택 해제";
         if (배치 < 0 && 선택부대.Count == 1)
         {
