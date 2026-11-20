@@ -9,6 +9,7 @@ Shader "Divine War/Battle Fog"
     SubShader
     {
         Tags { "Queue" = "Transparent" "RenderType" = "Transparent" "RenderPipeline" = "UniversalPipeline" }
+        Blend SrcAlpha OneMinusSrcAlpha, One OneMinusSrcAlpha
         Cull Off
         ZWrite Off
 
@@ -40,9 +41,18 @@ Shader "Divine War/Battle Fog"
 
             half4 Frag(Varyings input) : SV_Target
             {
-                clip(SAMPLE_TEXTURE2D(_Exploration, sampler_Exploration, input.uv).a - 0.5);
-                float2 patternUV = frac(input.uv * float2(12, 7));
-                return half4(SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, patternUV).rgb, 1);
+                half cell = SAMPLE_TEXTURE2D(_Exploration, sampler_Exploration, input.uv).a;
+                half softEdge = SAMPLE_TEXTURE2D(_Exploration, sampler_LinearClamp, input.uv).a;
+                // Extend the soft edge into explored ground while unexplored cells stay opaque.
+                half opacity = lerp(cell, 1.0, smoothstep(0.0, 0.30, softEdge - cell));
+                clip(opacity - 0.001);
+
+                float2 mistUV = input.uv * float2(3.6, 3.2);
+                float2 drift = _Time.y * float2(0.009, 0.003);
+                float2 fineUV = mistUV * float2(1.5, 1.9) + float2(0.37, 0.18);
+                half3 mist = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, frac(mistUV + drift)).rgb;
+                half3 haze = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, frac(fineUV - drift * 1.4)).rgb;
+                return half4(lerp(mist, haze, 0.30), opacity);
             }
             ENDHLSL
         }

@@ -1,10 +1,14 @@
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
 using UnityEngine.Tilemaps;
+using UnityEngine.UI;
 using UnityEngine.UIElements;
+using Image = UnityEngine.UI.Image;
 
 [RequireComponent(typeof(UIDocument))]
 public sealed class 신들의전쟁 : MonoBehaviour
@@ -12,10 +16,19 @@ public sealed class 신들의전쟁 : MonoBehaviour
     [SerializeField] Camera 전장카메라;
     [SerializeField] SpriteRenderer[] 슬롯;
     [SerializeField] SpriteRenderer 건설미리보기;
-    [SerializeField] StyleSheet 전장스타일;
     [SerializeField] 자원지점[] 자원들;
     [SerializeField] Tilemap 바닥타일맵, 장애물타일맵;
     [SerializeField] Transform[] 시작지점들;
+
+    [SerializeField] GraphicRaycaster 전장HUD;
+    [SerializeField] GameObject 전투, 입장대기, 건축목록;
+    [SerializeField] RectTransform 미니맵영역, 건설커서;
+    [SerializeField] 메뉴버튼 건축버튼;
+    [SerializeField] 메뉴버튼[] 행동버튼;
+    [SerializeField] Image[] 건축미리보기;
+    [SerializeField] CanvasGroup[] 스킬표시;
+    [SerializeField] TMP_Text[] 스킬시간표시;
+    [SerializeField] TMP_Text 자원표시, 병력표시, 시계, 내회관, 적회관, 왕상태, 임무, 알림, 도움, 돌진키표시;
 
     const string 이동방식설정키 = "DivineWar.KeyboardMovement";
     const string 주민자동해제설정키 = "DivineWar.DeselectWorkersAfterOrder";
@@ -24,15 +37,11 @@ public sealed class 신들의전쟁 : MonoBehaviour
     static readonly Color 적색 = new(1, .49f, .45f);
     readonly HashSet<int> 선택부대 = new();
     readonly List<Vector2> 내왕경로 = new();
-    readonly Button[] 행동버튼 = new Button[4];
-    readonly VisualElement[] 스킬칸 = new VisualElement[4];
-    readonly Label[] 스킬시간표시 = new Label[4];
+    readonly List<RaycastResult> HUD충돌 = new();
     readonly int[] 표시된쿨다운 = new int[4];
-    VisualElement 뿌리, 전투, 전장표시, 지도, 입장대기;
-    VisualElement 건축목록, 건설커서;
-    Button 건축버튼;
-    Label 자원표시, 병력표시, 시계, 내회관, 적회관, 왕상태, 임무, 알림, 도움;
-    Label 돌진키표시;
+    PointerEventData HUD포인터;
+    Rect 미니맵범위;
+    VisualElement 뿌리, 전장표시, 지도;
     격자길찾기 길찾기;
     전투메뉴 메뉴;
     SpriteRenderer 호버윤곽;
@@ -61,63 +70,32 @@ public sealed class 신들의전쟁 : MonoBehaviour
     {
         if (!Application.isEditor) Application.runInBackground = true;
         뿌리 = GetComponent<UIDocument>().rootVisualElement;
-        if (전장스타일 != null) 뿌리.styleSheets.Add(전장스타일);
-        전투글꼴.적용(뿌리);
-        전투 = 뿌리.Q("battle");
-        입장대기 = 뿌리.Q("loading");
         전장표시 = 뿌리.Q("draw");
         지도 = 뿌리.Q("minimap");
+        미니맵범위 = default;
         안개 ??= new 전장안개(transform);
         안개.보이기 = true;
+        지도.style.backgroundColor = new StyleColor(new Color32(52, 78, 68, 255));
         지도.style.backgroundImage = new StyleBackground(안개.탐사지도);
-        지도.style.backgroundSize = new BackgroundSize(Length.Percent(100), Length.Percent(100));
-        자원표시 = 뿌리.Q<Label>("resources");
-        병력표시 = 뿌리.Q<Label>("population");
-        시계 = 뿌리.Q<Label>("clock");
-        내회관 = 뿌리.Q<Label>("own-hall");
-        적회관 = 뿌리.Q<Label>("enemy-hall");
-        왕상태 = 뿌리.Q<Label>("king-status");
-        임무 = 뿌리.Q<Label>("quest");
-        알림 = 뿌리.Q<Label>("notice");
-        도움 = 뿌리.Q<Label>("help");
-        건축목록 = 뿌리.Q("build-panel");
-        건축버튼 = 뿌리.Q<Button>("build-toggle");
-        건축버튼.clicked += 건축목록전환;
-        건설커서 = 뿌리.Q("build-cursor");
-        var 망치 = new StyleBackground(Resources.Load<Texture2D>("hammer"));
-        건축버튼.Q(className: "hammer-icon").style.backgroundImage = 망치;
-        건설커서.style.backgroundImage = 망치;
         건축목록표시(false);
-        for (int i = 0; i < 4; i++)
-        {
-            int 번호 = i;
-            행동버튼[i] = 뿌리.Q<Button>("action-" + i);
-            행동버튼[i].focusable = false;
-            행동버튼[i].clicked += () => 행동고르기(번호);
-            스킬칸[i] = 뿌리.Q("skill-" + i);
-            스킬칸[i].Q<Label>(className: "skill-name").text = 전장규칙.스킬이름[i];
-            var 아이콘 = Resources.Load<Texture2D>($"SkillIcons/skill-{"qwer"[i]}");
-            스킬칸[i].Q(className: "skill-icon").style.backgroundImage = new StyleBackground(아이콘);
-            스킬시간표시[i] = 스킬칸[i].Q<Label>(className: "skill-time");
-            표시된쿨다운[i] = 0;
-        }
-        돌진키표시 = 스킬칸[1].Q<Label>(className: "skill-key");
+        Array.Clear(표시된쿨다운, 0, 표시된쿨다운.Length);
+        foreach (var 시간 in 스킬시간표시) 시간.gameObject.SetActive(false);
         키보드이동 = PlayerPrefs.GetInt(이동방식설정키) == 1;
         주민자동해제 = PlayerPrefs.GetInt(주민자동해제설정키, 1) == 1;
         이동방식갱신();
-        뿌리.Q<Button>("pause").clicked += 메뉴전환;
-        뿌리.Q<Button>("center").clicked += 시점복귀;
         전장표시.generateVisualContent += 전장그리기;
         전장표시.RegisterCallback<PointerDownEvent>(전장누르기);
         전장표시.RegisterCallback<PointerUpEvent>(전장떼기);
-        전장표시.RegisterCallback<PointerCaptureOutEvent>(_ => 드래그중 = false);
+        전장표시.RegisterCallback<PointerCaptureOutEvent>(전장캡처해제);
         지도.generateVisualContent += 지도그리기;
         지도.RegisterCallback<PointerDownEvent>(지도누르기);
         지도.RegisterCallback<PointerMoveEvent>(지도끌기);
         지도.RegisterCallback<PointerUpEvent>(지도떼기);
         지도.RegisterCallback<PointerCancelEvent>(지도취소);
         지도.RegisterCallback<PointerCaptureOutEvent>(지도캡처해제);
-        표시(전투, false);
+        입장대기.SetActive(true);
+        전투.SetActive(false);
+        표시(지도, false);
         표시(전장표시, false);
     }
 
@@ -172,8 +150,14 @@ public sealed class 신들의전쟁 : MonoBehaviour
     void OnDisable()
     {
         if (안개 != null) 안개.보이기 = false;
-        if (건축버튼 != null) 건축버튼.clicked -= 건축목록전환;
-        if (건설커서 != null) 표시(건설커서, false);
+        if (건설커서 != null) 건설커서.gameObject.SetActive(false);
+        if (전장표시 != null)
+        {
+            전장표시.generateVisualContent -= 전장그리기;
+            전장표시.UnregisterCallback<PointerDownEvent>(전장누르기);
+            전장표시.UnregisterCallback<PointerUpEvent>(전장떼기);
+            전장표시.UnregisterCallback<PointerCaptureOutEvent>(전장캡처해제);
+        }
         if (지도 != null)
         {
             지도누름해제();
@@ -222,11 +206,12 @@ public sealed class 신들의전쟁 : MonoBehaviour
     void 화면전환()
     {
         전투중 = true;
-        표시(입장대기, false);
-        표시(전투, true);
+        입장대기.SetActive(false);
+        전투.SetActive(true);
         표시(전장표시, true);
+        표시(지도, true);
         for (int i = 0; i < 2; i++)
-            행동버튼[i].Q(className: "build-preview").style.backgroundImage = new StyleBackground(건물그림(i));
+            건축미리보기[i].sprite = 건물그림(i);
         전장카메라.orthographicSize = 7.8f;
         시점복귀();
         전장카메라.transform.position = 카메라한계(내왕().위치);
@@ -343,15 +328,17 @@ public sealed class 신들의전쟁 : MonoBehaviour
 
     void 탐사갱신()
     {
-        if (!안개.갱신(상태.대상들, 내팀, Time.unscaledTime)) return;
-        if (지도.panel != null) RuntimePanelUtils.SetTextureDirty(지도.panel, 안개.탐사지도);
-        for (int i = 0; i < 자원그림.Length; i++)
-            if (자원그림[i] != null) 자원그림[i].forceRenderingOff = !안개.탐사됨(자원들[i].오브젝트.position);
+        float 현재시간 = Time.unscaledTime;
+        if (안개.갱신(상태.대상들, 내팀, 현재시간))
+            for (int i = 0; i < 자원그림.Length; i++)
+                if (자원그림[i] != null) 자원그림[i].forceRenderingOff = !안개.탐사됨(자원들[i].오브젝트.position);
+        if (안개.페이드갱신(현재시간) && 지도.panel != null)
+            RuntimePanelUtils.SetTextureDirty(지도.panel, 안개.탐사지도);
     }
 
     전장대상 내왕() => 상태.대상들[전장규칙.왕번호(내팀)];
 
-    void 메뉴전환()
+    public void 메뉴전환()
     {
         if (!전투중 || 상태.승자 >= 0 || 연결종료.Length > 0) return;
         if (패널열림)
@@ -417,16 +404,16 @@ public sealed class 신들의전쟁 : MonoBehaviour
         이동방향재전송 = .12f;
     }
 
-    void 행동고르기(int 번호)
+    public void 행동고르기(int 번호)
     {
-        if (패널열림) return;
+        if (!전투중 || 패널열림) return;
         if (번호 < 2) 배치 = 배치 == 번호 ? -1 : 번호;
         else 명령전달(명령종류.모집, 값: 번호 - 2);
     }
 
-    bool 건축목록열림 => 건축목록.style.display == DisplayStyle.Flex;
+    bool 건축목록열림 => 건축목록.activeSelf;
 
-    void 건축목록전환()
+    public void 건축목록전환()
     {
         if (!전투중 || 패널열림) return;
         bool 열기 = !건축목록열림;
@@ -436,8 +423,8 @@ public sealed class 신들의전쟁 : MonoBehaviour
 
     void 건축목록표시(bool 열기)
     {
-        표시(건축목록, 열기);
-        건축버튼.EnableInClassList("chosen", 열기);
+        건축목록.SetActive(열기);
+        건축버튼.선택표시(열기);
     }
 
     Sprite 건물그림(int 종류) => 슬롯[전장규칙.왕번호(내팀) + 2 + 종류 * 2].sprite;
@@ -507,7 +494,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
             return;
         }
         if (!전장표시.contentRect.Contains(입력.localPosition)) return;
-        if (전장표시.panel.Pick(입력.position) != 전장표시) return;
+        if (!전장가리킴(현재마우스)) return;
         Vector2 위치 = 전장좌표(현재마우스);
         if (배치 >= 0)
         {
@@ -518,6 +505,8 @@ public sealed class 신들의전쟁 : MonoBehaviour
         }
         클릭(위치);
     }
+
+    void 전장캡처해제(PointerCaptureOutEvent 입력) => 드래그중 = false;
 
     void 범위선택(Rect 범위)
     {
@@ -604,8 +593,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
     {
         if (패널열림 || 배치 >= 0 || !Application.isFocused || Mouse.current == null
             || (드래그중 && Vector2.Distance(누른위치, 현재마우스) > 9)) return null;
-        var 패널 = 전장표시.panel;
-        if (패널 == null || 패널.Pick(화면변환(현재마우스)) != 전장표시) return null;
+        if (!전장가리킴(현재마우스)) return null;
 
         var 위치 = 전장좌표(현재마우스);
         int 번호 = 클릭대상(위치);
@@ -657,7 +645,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
         윤곽.sortingOrder = 원본.sortingOrder - 1;
     }
 
-    void 시점복귀()
+    public void 시점복귀()
     {
         if (!지도포인터.HasValue) 자동추적 = true;
     }
@@ -732,15 +720,14 @@ public sealed class 신들의전쟁 : MonoBehaviour
         if (배치 < 0 || 패널열림 || !Application.isFocused || Mouse.current == null || 전장표시.panel == null)
         {
             건설미리보기.enabled = false;
-            표시(건설커서, false);
+            건설커서.gameObject.SetActive(false);
             return;
         }
 
-        Vector2 포인터 = 화면변환(현재마우스);
-        건설미리보기.enabled = 전장표시.panel.Pick(포인터) == 전장표시;
+        건설미리보기.enabled = 전장가리킴(현재마우스);
         if (!건설미리보기.enabled)
         {
-            표시(건설커서, false);
+            건설커서.gameObject.SetActive(false);
             return;
         }
 
@@ -748,17 +735,46 @@ public sealed class 신들의전쟁 : MonoBehaviour
         if (!안개.탐사됨(위치))
         {
             건설미리보기.enabled = false;
-            표시(건설커서, false);
+            건설커서.gameObject.SetActive(false);
             return;
         }
         건설미리보기.sprite = 건물그림(배치);
         건설미리보기.transform.position = 위치;
         건설미리보기.color = 가능 ? new Color(.6f, 1, .85f, .58f) : new Color(1, .38f, .35f, .58f);
-        표시(건설커서, 가능);
+        건설커서.gameObject.SetActive(가능);
         if (!가능) return;
 
-        Vector2 커서위치 = 전투.WorldToLocal(포인터) + new Vector2(12, 12);
-        건설커서.style.translate = new Translate(Mathf.Round(커서위치.x), Mathf.Round(커서위치.y), 0);
+        var 부모 = (RectTransform)건설커서.parent;
+        RectTransformUtility.ScreenPointToLocalPointInRectangle(부모, 현재마우스, null, out var 커서위치);
+        건설커서.anchoredPosition = 커서위치 - new Vector2(부모.rect.xMin, 부모.rect.yMax) + new Vector2(12, -12);
+    }
+
+    bool 전장가리킴(Vector2 화면)
+    {
+        if (전장표시.panel == null || 전장표시.panel.Pick(화면변환(화면)) != 전장표시) return false;
+        if (EventSystem.current == null) return true;
+        HUD포인터 ??= new PointerEventData(EventSystem.current);
+        HUD포인터.position = 화면;
+        HUD충돌.Clear();
+        전장HUD.Raycast(HUD포인터, HUD충돌);
+        return HUD충돌.Count == 0;
+    }
+
+    void LateUpdate()
+    {
+        if (!전투중 || 뿌리.panel == null) return;
+
+        // 미니맵의 픽셀 영역을 씬에 배치한 RectTransform에 맞춘다.
+        var 영역 = 미니맵영역.rect;
+        var 시작 = 화면변환(RectTransformUtility.WorldToScreenPoint(null, 미니맵영역.TransformPoint(영역.min)));
+        var 끝 = 화면변환(RectTransformUtility.WorldToScreenPoint(null, 미니맵영역.TransformPoint(영역.max)));
+        var 범위 = 사각형(시작, 끝);
+        if (범위 == 미니맵범위) return;
+        미니맵범위 = 범위;
+        지도.style.left = 범위.x;
+        지도.style.top = 범위.y;
+        지도.style.width = 범위.width;
+        지도.style.height = 범위.height;
     }
 
     void 정보갱신()
@@ -783,7 +799,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
             _ => "심부름 완료   적 마을회관을 무너뜨리세요."
         };
         알림.text = 팀.알림시간 > 0 ? 팀.알림 : 팀.모집종류 >= 0 ? $"모집 진행 중   {Mathf.CeilToInt(팀.모집대기)}초" : "";
-        표시(알림, 알림.text.Length > 0);
+        알림.gameObject.SetActive(알림.text.Length > 0);
         도움.text = 배치 >= 0 ? "좌클릭 설치  ·  우클릭 / Esc 취소  ·  회관 반경 8" :
             $"{(키보드이동 ? "WASD" : "우클릭")} 왕 이동  ·  드래그 선택  ·  좌클릭 명령 / 공격  ·  Space 왕 시점   |   선택 {선택부대.Count}";
         if (배치 < 0 && 선택부대.Count > 0) 도움.text += "  ·  Esc 선택 해제";
@@ -799,14 +815,14 @@ public sealed class 신들의전쟁 : MonoBehaviour
         for (int i = 0; i < 4; i++)
         {
             int 남은초 = Mathf.CeilToInt(팀.쿨다운[i]);
-            스킬칸[i].EnableInClassList("ready", 남은초 == 0 && 왕.생존);
+            스킬표시[i].alpha = 남은초 == 0 && 왕.생존 ? 1 : .45f;
             if (표시된쿨다운[i] != 남은초)
             {
                 표시된쿨다운[i] = 남은초;
                 스킬시간표시[i].text = 남은초 > 0 ? $"{남은초}초" : "";
-                표시(스킬시간표시[i], 남은초 > 0);
+                스킬시간표시[i].gameObject.SetActive(남은초 > 0);
             }
-            행동버튼[i].EnableInClassList("chosen", i == 배치);
+            행동버튼[i].선택표시(i == 배치);
         }
     }
 
@@ -832,18 +848,18 @@ public sealed class 신들의전쟁 : MonoBehaviour
         float 경과 = Time.unscaledTime - 명령표시시작;
         if (경과 >= 명령표시길이) return;
 
-        float 남은낙하 = 1 - Mathf.Clamp01(경과 / .16f);
-        var 끝 = 위치 - Vector2.up * ((2 + 20 * 남은낙하 * 남은낙하 * 남은낙하) * 배율);
+        float 남은낙하 = 1 - Mathf.Clamp01(경과 / .19f);
+        var 끝 = 위치 - Vector2.up * ((2 + 24 * 남은낙하 * 남은낙하 * 남은낙하) * 배율);
         float 불투명도 = 1 - Mathf.InverseLerp(.3f, 명령표시길이, 경과);
 
         펜.BeginPath();
         펜.MoveTo(끝);
-        펜.LineTo(끝 + new Vector2(-8, -8) * 배율);
-        펜.LineTo(끝 + new Vector2(-3, -8) * 배율);
-        펜.LineTo(끝 + new Vector2(-3, -16) * 배율);
-        펜.LineTo(끝 + new Vector2(3, -16) * 배율);
-        펜.LineTo(끝 + new Vector2(3, -8) * 배율);
-        펜.LineTo(끝 + new Vector2(8, -8) * 배율);
+        펜.LineTo(끝 + new Vector2(-10, -10) * 배율);
+        펜.LineTo(끝 + new Vector2(-4, -10) * 배율);
+        펜.LineTo(끝 + new Vector2(-4, -20) * 배율);
+        펜.LineTo(끝 + new Vector2(4, -20) * 배율);
+        펜.LineTo(끝 + new Vector2(4, -10) * 배율);
+        펜.LineTo(끝 + new Vector2(10, -10) * 배율);
         펜.ClosePath();
         펜.fillColor = new Color(1, 1, 1, 불투명도);
         펜.Fill();
@@ -941,7 +957,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
         펜.lineWidth = 3.5f;
         펜.strokeColor = new Color(.05f, .09f, .1f, .8f);
         펜.Stroke();
-        펜.lineWidth = 1.6f;
+        펜.lineWidth = 2;
         펜.strokeColor = Color.white;
         펜.Stroke();
     }

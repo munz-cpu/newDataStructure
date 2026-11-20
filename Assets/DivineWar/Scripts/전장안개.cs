@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 sealed class 전장안개 : IDisposable
@@ -8,11 +9,14 @@ sealed class 전장안개 : IDisposable
     const int 칸밀도 = 2;
     const float 시야반경 = 6;
     const float 갱신간격 = .1f;
+    const float 안개걷힘시간 = .55f;
     static readonly Color32 미탐사 = new(15, 20, 30, 255);
 
     readonly int 너비 = (int)전장범위.width * 칸밀도;
     readonly int 높이 = (int)전장범위.height * 칸밀도;
     readonly Color32[] 픽셀;
+    readonly bool[] 탐사한칸;
+    readonly List<(int 번호, float 시작시간)> 걷히는칸 = new();
     readonly Material 재질;
     readonly Sprite 구름;
     readonly SpriteRenderer 안개그림;
@@ -23,6 +27,7 @@ sealed class 전장안개 : IDisposable
     public 전장안개(Transform 부모)
     {
         픽셀 = new Color32[너비 * 높이];
+        탐사한칸 = new bool[픽셀.Length];
         Array.Fill(픽셀, 미탐사);
         탐사지도 = new Texture2D(너비, 높이, TextureFormat.RGBA32, false)
         {
@@ -56,7 +61,7 @@ sealed class 전장안개 : IDisposable
     {
         int x = Mathf.FloorToInt((위치.x - 전장범위.xMin) * 칸밀도);
         int y = Mathf.FloorToInt((위치.y - 전장범위.yMin) * 칸밀도);
-        return x >= 0 && x < 너비 && y >= 0 && y < 높이 && 픽셀[y * 너비 + x].a == 0;
+        return x >= 0 && x < 너비 && y >= 0 && y < 높이 && 탐사한칸[y * 너비 + x];
     }
 
     public bool 갱신(전장대상[] 대상들, int 내팀, float 현재시간)
@@ -79,12 +84,32 @@ sealed class 전장안개 : IDisposable
             {
                 int 번호 = y * 너비 + x;
                 var 차이 = new Vector2(x + .5f, y + .5f) - 중심;
-                if (픽셀[번호].a == 0 || 차이.sqrMagnitude > 반경 * 반경) continue;
-                픽셀[번호] = default;
+                if (탐사한칸[번호] || 차이.sqrMagnitude > 반경 * 반경) continue;
+                탐사한칸[번호] = true;
+                걷히는칸.Add((번호, 현재시간));
                 변경 = true;
             }
         }
 
+        return 변경;
+    }
+
+    public bool 페이드갱신(float 현재시간)
+    {
+        bool 변경 = false;
+        int 완료한칸 = 0;
+        foreach (var (번호, 시작시간) in 걷히는칸)
+        {
+            float 진행률 = (현재시간 - 시작시간) / 안개걷힘시간;
+            if (진행률 >= 1) 완료한칸++;
+            byte 불투명도 = (byte)Mathf.RoundToInt(Mathf.SmoothStep(255, 0, 진행률));
+            if (픽셀[번호].a == 불투명도) continue;
+            픽셀[번호].a = 불투명도;
+            변경 = true;
+        }
+
+        // 발견한 순서로 추가하므로 완료한 칸은 항상 목록 앞에 있다.
+        if (완료한칸 > 0) 걷히는칸.RemoveRange(0, 완료한칸);
         if (!변경) return false;
         탐사지도.SetPixels32(픽셀);
         탐사지도.Apply();

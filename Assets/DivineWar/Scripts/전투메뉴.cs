@@ -3,20 +3,6 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
-using Button = UnityEngine.UI.Button;
-
-public static class 전투글꼴
-{
-    static Font 글꼴;
-
-    public static void 적용(VisualElement 뿌리)
-    {
-        if (글꼴 == null)
-            글꼴 = Font.CreateDynamicFontFromOSFont(new[] { "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans CJK KR", "Arial" }, 22);
-        if (글꼴 != null) 뿌리.style.unityFont = 글꼴;
-    }
-}
 
 static class 메뉴등장
 {
@@ -44,25 +30,17 @@ public sealed class 전투메뉴 : MonoBehaviour
     [SerializeField] RectTransform 메뉴카드;
     [SerializeField] GameObject 이동설정;
     [SerializeField] Button 재개버튼, 나가기버튼;
-    [SerializeField] 메뉴버튼 클릭이동버튼, 키보드이동버튼;
-    [SerializeField] TMP_Text 제목표시, 본문표시;
+    [SerializeField] 메뉴버튼 클릭이동버튼, 키보드이동버튼, 주민자동해제버튼;
+    [SerializeField] TMP_Text 제목표시, 본문표시, 주민자동해제문구;
 
     Coroutine 등장;
     Vector2 카드위치;
-    메뉴버튼 주민자동해제버튼;
-    TMP_Text 주민자동해제문구;
     public event Action 재개, 나가기, 주민자동해제전환;
     public event Action<bool> 이동방식선택;
 
     void Awake()
     {
         카드위치 = 메뉴카드.anchoredPosition;
-        주민자동해제버튼 = Instantiate(클릭이동버튼, 메뉴카드, false);
-        주민자동해제버튼.name = "주민 명령 후 자동 해제";
-        주민자동해제버튼.transform.SetSiblingIndex(재개버튼.transform.GetSiblingIndex());
-        주민자동해제버튼.gameObject.AddComponent<LayoutElement>().preferredHeight =
-            ((RectTransform)클릭이동버튼.transform).rect.height;
-        주민자동해제문구 = 주민자동해제버튼.GetComponent<TMP_Text>();
         주민자동해제버튼.onClick.AddListener(주민자동해제선택);
         클릭이동버튼.onClick.AddListener(클릭이동선택);
         키보드이동버튼.onClick.AddListener(키보드이동선택);
