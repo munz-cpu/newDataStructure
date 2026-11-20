@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum 대상종류 { 왕, 회관, 제재소, 훈련소, 주민, 병사 }
-public enum 명령종류 { 이동, 공격, 부대이동, 채집, 건설, 모집, 스킬, 방향이동 }
+public enum 대상종류 { 왕, 회관, 제재소, 훈련소, 주민, 병사, 나무울타리, 돌울타리 }
+public enum 명령종류 { 이동, 공격, 부대이동, 채집, 건설, 모집, 스킬, 방향이동, 왕채집, 주민추첨 }
 public enum 왕직업 { 수호자, 추적자, 예언자 }
 
 [Serializable]
@@ -13,6 +13,7 @@ public sealed class 전장명령
     public Vector2 위치;
     public int 값;
     public int[] 부대;
+    public bool 세로;
 }
 
 [Serializable]
@@ -23,15 +24,17 @@ public sealed class 전장대상
     public Vector2 위치, 목적지;
     public float 체력, 최대체력, 공격대기, 효과시간, 방패시간, 재등장, 완공대기;
     public int 표적 = -1, 채집터 = -1;
-    public bool 이동중, 왼쪽;
+    public bool 이동중, 왼쪽, 세로;
     public bool 생존 => 체력 > 0;
-    public bool 건물 => 종류 is 대상종류.회관 or 대상종류.제재소 or 대상종류.훈련소;
+    public bool 울타리 => 종류 is 대상종류.나무울타리 or 대상종류.돌울타리;
+    public bool 건물 => 울타리 || 종류 is 대상종류.회관 or 대상종류.제재소 or 대상종류.훈련소;
 }
 
 [Serializable]
 public sealed class 진영상태
 {
     public int[] 재화 = new int[5];
+    public int[] 자원별채집횟수;
     public float[] 쿨다운 = new float[4];
     public 왕직업 직업;
     public int 심부름;
@@ -40,6 +43,8 @@ public sealed class 진영상태
     public Vector2 스킬위치;
     public bool 채집완료, 제재완료, 모집완료, 진격완료;
     public int 모집종류 = -1;
+    public int 주민투자, 주민추첨결과번호, 주민추첨인원;
+    public string 주민추첨결과;
 }
 
 [Serializable]
@@ -64,15 +69,50 @@ public sealed class 전장규칙
     public const int 병력제한 = 16;
     public const int 주민제한 = 6;
     public const int 진영칸 = 28;
-    public const int 전체칸 = 진영칸 * 2;
+    public const int 울타리시작칸 = 진영칸 * 2;
+    public const int 울타리제한 = 16;
+    public const int 전체칸 = 울타리시작칸 + 울타리제한 * 2;
+    internal const int 나무울타리건설 = 4, 돌울타리건설 = 5;
+    internal const float 울타리건설시간 = 3f;
+    public const float 채집거리 = 1.38f;
+    internal const float 주민추첨시간 = 1.4f;
+
+    internal readonly struct 주민투자단계
+    {
+        public readonly string 이름;
+        public readonly int 나무, 돌, 실패율, 보통인원, 대박률, 대박인원;
+
+        public 주민투자단계(string 이름, int 나무, int 돌, int 실패율, int 보통인원, int 대박률, int 대박인원)
+        {
+            this.이름 = 이름;
+            this.나무 = 나무;
+            this.돌 = 돌;
+            this.실패율 = 실패율;
+            this.보통인원 = 보통인원;
+            this.대박률 = 대박률;
+            this.대박인원 = 대박인원;
+        }
+
+        public int 추첨인원(int 눈금) => 눈금 < 실패율 ? 0 : 눈금 >= 100 - 대박률 ? 대박인원 : 보통인원;
+    }
+
+    static readonly 주민투자단계[] 주민투자단계들 =
+    {
+        new("소액 투자", 25, 0, 15, 1, 0, 0),
+        new("모험 투자", 50, 10, 35, 2, 20, 3),
+        new("대담한 투자", 85, 25, 55, 2, 20, 5)
+    };
+    internal static IReadOnlyList<주민투자단계> 주민투자목록 => 주민투자단계들;
     public static readonly string[] 재화이름 = { "나무", "돌", "구리", "철", "미네랄" };
     public static readonly string[] 스킬이름 = { "징벌", "돌진", "회복", "신벌" };
     public static readonly int[][] 비용 =
     {
         new[] { 35, 15, 0, 0, 0 }, new[] { 60, 35, 0, 0, 0 },
-        new[] { 25, 0, 0, 0, 0 }, new[] { 15, 8, 4, 3, 1 }
+        new[] { 25, 0, 0, 0, 0 }, new[] { 15, 8, 4, 3, 1 },
+        new[] { 8, 0, 0, 0, 0 }, new[] { 0, 10, 0, 0, 0 }
     };
     static readonly float[] 스킬시간 = { 5, 8, 12, 30 };
+    public static float 스킬쿨다운길이(int 번호) => 스킬시간[번호];
 
     readonly 자원지점[] 자원들;
     readonly 격자길찾기 길찾기;
@@ -84,6 +124,7 @@ public sealed class 전장규칙
     public 전장상태 상태 { get; }
     public static int 왕번호(int 팀) => 팀 * 진영칸;
     public static int 회관번호(int 팀) => 왕번호(팀) + 1;
+    internal static bool 울타리건설인가(int 종류) => 종류 is 나무울타리건설 or 돌울타리건설;
 
     public void 왕이동경로복사(int 팀, List<Vector2> 결과)
     {
@@ -142,9 +183,9 @@ public sealed class 전장규칙
         }
     }
 
-    static 진영상태 새진영(왕직업 직업) => new()
+    진영상태 새진영(왕직업 직업) => new()
     {
-        직업 = 직업, 재화 = new[] { 125, 75, 16, 10, 5 }, 알림 = ""
+        직업 = 직업, 재화 = new[] { 125, 75, 16, 10, 5 }, 알림 = "", 자원별채집횟수 = new int[자원들.Length]
     };
 
     전장대상 배치(int 번호, int 팀, 대상종류 종류, Vector2 위치, float 체력)
@@ -179,7 +220,7 @@ public sealed class 전장규칙
         return 합계;
     }
 
-    static Vector2 제한(Vector2 위치) => new(Mathf.Clamp(위치.x, -22.8f, 22.8f), Mathf.Clamp(위치.y, -12.7f, 12.7f));
+    Vector2 제한(Vector2 위치) => 길찾기.전장안쪽(위치);
 
     void 메시지(int 팀, string 문장)
     {
@@ -249,13 +290,19 @@ public sealed class 전장규칙
                     왕.표적 = 내용.값;
                 }
                 break;
+            case 명령종류.왕채집:
+                if (왕.생존 && 내용.값 >= 0 && 내용.값 < 자원들.Length)
+                {
+                    왕방향입력[팀] = default;
+                    채집지정(왕, 내용.값);
+                }
+                break;
             case 명령종류.채집:
                 if (내용.값 < 0 || 내용.값 >= 자원들.Length) return;
                 foreach (var 주민 in 내부대(팀, 내용.부대))
                 {
                     if (주민.종류 != 대상종류.주민) continue;
-                    이동지정(주민, 자원들[내용.값].오브젝트.position);
-                    주민.채집터 = 내용.값;
+                    채집지정(주민, 내용.값);
                 }
                 break;
             case 명령종류.부대이동:
@@ -268,10 +315,13 @@ public sealed class 전장규칙
                 }
                 break;
             case 명령종류.건설:
-                건설(팀, 내용.값, 위치);
+                건설(팀, 내용.값, 위치, 내용.세로);
                 break;
             case 명령종류.모집:
-                모집(팀, 내용.값);
+                if (내용.값 == 1) 모집(팀, 내용.값);
+                break;
+            case 명령종류.주민추첨:
+                주민추첨시작(팀, 내용.값);
                 break;
             case 명령종류.스킬:
                 if (왕.생존) 시전(팀, 왕, 내용.값, 위치);
@@ -299,6 +349,12 @@ public sealed class 전장규칙
         유닛.이동중 = true;
     }
 
+    void 채집지정(전장대상 유닛, int 번호)
+    {
+        이동지정(유닛, 자원들[번호].오브젝트.position);
+        유닛.채집터 = 번호;
+    }
+
     void 방향이동지정(int 팀, 전장대상 왕, Vector2 방향)
     {
         if (!왕.생존 || Mathf.Abs(방향.x) > 1 || Mathf.Abs(방향.y) > 1) return;
@@ -311,41 +367,64 @@ public sealed class 전장규칙
         {
             왕.이동중 = false;
             왕.표적 = -1;
+            왕.채집터 = -1;
             길찾기.초기화(경로들[왕번호(팀)]);
         }
         // 입력 갱신이 끊겨도 왕이 계속 움직이지 않게 한다.
         왕방향입력[팀] = (방향.normalized, 상태.시간 + .36f);
     }
 
-    void 건설(int 팀, int 종류, Vector2 위치)
+    void 건설(int 팀, int 종류, Vector2 위치, bool 세로 = false)
     {
-        if (종류 < 0 || 종류 > 1) return;
         위치 = 길찾기.중심정렬(위치);
-        var 건물 = (대상종류)(종류 + (int)대상종류.제재소);
         string 오류 = 건설오류(상태, 길찾기, 자원들, 팀, 종류, 위치, out int 칸);
         if (오류 != null) { 메시지(팀, 오류); return; }
+        var (건물, 체력) = 종류 switch
+        {
+            0 => (대상종류.제재소, 210),
+            1 => (대상종류.훈련소, 320),
+            나무울타리건설 => (대상종류.나무울타리, 125),
+            _ => (대상종류.돌울타리, 240)
+        };
         비용차감(팀, 종류);
-        배치(칸, 팀, 건물, 위치, 종류 == 0 ? 210 : 320).완공대기 = 6;
+        var 새건물 = 배치(칸, 팀, 건물, 위치, 체력);
+        새건물.세로 = 새건물.울타리 && 세로;
+        새건물.완공대기 = 새건물.울타리 ? 울타리건설시간 : 6;
     }
 
     internal static bool 건설가능(전장상태 상태, 격자길찾기 길찾기, 자원지점[] 자원들,
         int 팀, int 종류, Vector2 위치, out Vector2 배치위치)
     {
-        배치위치 = 길찾기.중심정렬(제한(위치));
+        배치위치 = 길찾기.중심정렬(길찾기.전장안쪽(위치));
         return 상태.승자 < 0 && 건설오류(상태, 길찾기, 자원들, 팀, 종류, 배치위치, out _) == null;
     }
 
     static string 건설오류(전장상태 상태, 격자길찾기 길찾기, 자원지점[] 자원들,
         int 팀, int 종류, Vector2 위치, out int 칸)
     {
-        칸 = 빈칸(상태, 팀, (대상종류)(종류 + (int)대상종류.제재소));
+        칸 = -1;
+        bool 울타리 = 울타리건설인가(종류);
+        if (!울타리 && 종류 is not (0 or 1)) return "지을 수 없는 건물입니다.";
+        if (울타리)
+        {
+            int 시작 = 울타리시작칸 + 팀 * 울타리제한;
+            for (int i = 시작; i < 시작 + 울타리제한; i++)
+                if (상태.대상들[i] is not { 생존: true }) { 칸 = i; break; }
+        }
+        else 칸 = 빈칸(상태, 팀, 종류 == 0 ? 대상종류.제재소 : 대상종류.훈련소);
         var 회관 = 상태.대상들[회관번호(팀)];
-        if (칸 < 0) return "이 건물은 최대 2채입니다.";
+        if (칸 < 0) return 울타리 ? $"울타리는 두 종류를 합쳐 최대 {울타리제한}칸입니다." : "이 건물은 최대 2채입니다.";
         if (Vector2.Distance(위치, 회관.위치) > 8 || !길찾기.정적통행가능(위치))
             return "회관 반경 8 안의 땅에 배치하세요.";
         foreach (var 대상 in 상태.대상들)
-            if (대상 != null && 대상.생존 && 대상.건물 && Vector2.Distance(대상.위치, 위치) < 2.15f)
+        {
+            if (대상 is not { 생존: true }) continue;
+            if (울타리 && 길찾기.중심정렬(대상.위치) == 위치)
+                return "비어 있는 칸에 울타리를 배치하세요.";
+            if (대상.건물 && !(울타리 && 대상.울타리)
+                && Vector2.Distance(대상.위치, 위치) < (울타리 || 대상.울타리 ? 1.5f : 2.15f))
                 return "다른 건물과 간격이 필요합니다.";
+        }
         foreach (var 지점 in 자원들)
             if (Vector2.Distance(지점.오브젝트.position, 위치) < 1.55f)
                 return "자원 지점과 간격이 필요합니다.";
@@ -363,6 +442,84 @@ public sealed class 전장규칙
         if (!지불(팀, 종류 + 2)) return;
         진영.모집종류 = 종류;
         진영.모집대기 = 종류 == 0 ? 4 : 6;
+    }
+
+    internal static string 주민추첨오류(전장상태 상태, int 팀, 주민투자단계 단계)
+    {
+        var 진영 = 상태.진영들[팀];
+        if (!상태.대상들[회관번호(팀)].생존) return "마을회관이 파괴됐습니다.";
+        if (진영.모집종류 >= 0) return "다른 모집이 진행 중입니다.";
+        if (빈칸(상태, 팀, 대상종류.주민) < 0) return "주민 정원에 도달했습니다.";
+        return 진영.재화[0] < 단계.나무 || 진영.재화[1] < 단계.돌 ? "투자할 자원이 부족합니다." : null;
+    }
+
+    void 주민추첨시작(int 팀, int 번호)
+    {
+        if (번호 < 0 || 번호 >= 주민투자단계들.Length) return;
+        var 단계 = 주민투자단계들[번호];
+        string 오류 = 주민추첨오류(상태, 팀, 단계);
+        if (오류 != null)
+        {
+            if (상태.진영들[팀].주민투자 == 0) 주민추첨보고(팀, -1, 오류);
+            return;
+        }
+
+        var 진영 = 상태.진영들[팀];
+        진영.재화[0] -= 단계.나무;
+        진영.재화[1] -= 단계.돌;
+        진영.주민투자 = 번호 + 1;
+        진영.모집종류 = 0;
+        진영.모집대기 = 주민추첨시간;
+    }
+
+    void 주민추첨보고(int 팀, int 인원, string 결과)
+    {
+        var 진영 = 상태.진영들[팀];
+        진영.주민추첨인원 = 인원;
+        진영.주민추첨결과 = 결과;
+        진영.주민추첨결과번호++;
+        메시지(팀, 결과);
+    }
+
+    void 주민추첨완료(int 팀)
+    {
+        var 진영 = 상태.진영들[팀];
+        var 단계 = 주민투자단계들[진영.주민투자 - 1];
+        진영.주민투자 = 0;
+        int 추첨인원 = 단계.추첨인원(난수.Next(100));
+        if (추첨인원 == 0)
+        {
+            주민추첨보고(팀, 0, "꽝! 투자한 자원을 잃었습니다.");
+            return;
+        }
+
+        int 인원 = Mathf.Min(추첨인원, 주민제한 - 수량(상태, 팀, 대상종류.주민));
+        var 회관 = 상태.대상들[회관번호(팀)];
+        var 자리들 = new List<Vector2>(인원);
+        for (int 반경 = 1; 반경 <= 4 && 자리들.Count < 인원; 반경++)
+            for (int y = -반경; y <= 반경 && 자리들.Count < 인원; y++)
+                for (int x = -반경; x <= 반경 && 자리들.Count < 인원; x++)
+                {
+                    if (Mathf.Max(Mathf.Abs(x), Mathf.Abs(y)) != 반경) continue;
+                    var 자리 = 회관.위치 + new Vector2(x, y);
+                    if (!길찾기.통행가능(자리)) continue;
+                    if (Array.Exists(상태.대상들, 대상 => 대상 is { 생존: true }
+                        && (대상.위치 - 자리).sqrMagnitude < .36f)) continue;
+                    자리들.Add(자리);
+                }
+
+        if (자리들.Count != 인원)
+        {
+            진영.재화[0] += 단계.나무;
+            진영.재화[1] += 단계.돌;
+            주민추첨보고(팀, -1, "회관 주변에 자리가 부족해 투자금을 돌려받았습니다.");
+            return;
+        }
+
+        foreach (var 자리 in 자리들)
+            배치(빈칸(상태, 팀, 대상종류.주민), 팀, 대상종류.주민, 자리, 능력치(대상종류.주민).체력);
+        string 결과 = 인원 > 단계.보통인원 ? $"대박! 주민 {인원}명이 합류했습니다." : $"주민 {인원}명이 합류했습니다.";
+        주민추첨보고(팀, 인원, 결과);
     }
 
     전장대상 완성훈련소(int 팀)
@@ -412,6 +569,11 @@ public sealed class 전장규칙
             for (int i = 0; i < 전체칸; i++)
                 if (적인가(팀, i) && Vector2.Distance(상태.대상들[i].위치, 위치) < 반경)
                     피해(i, 번호 == 0 ? 38 : 88, 팀);
+        }
+        if (왕.채집터 >= 0)
+        {
+            왕.채집터 = -1;
+            왕.이동중 = false;
         }
         왕.효과시간 = .45f;
         진영.스킬표시시간 = .48f;
@@ -465,6 +627,7 @@ public sealed class 전장규칙
             대상.방패시간 -= 초;
             if (대상.건물)
             {
+                if (대상.울타리 && 대상.완공대기 > 0) 대상.완공대기 = Mathf.Max(0, 대상.완공대기 - 초);
                 if (대상.종류 == 대상종류.회관 && 대상.공격대기 <= 0)
                 {
                     int 침입자 = 가까운적(대상, 4.5f, true);
@@ -511,6 +674,11 @@ public sealed class 전장규칙
         if (진영.모집종류 < 0 || (진영.모집대기 -= 초) > 0) return;
         int 종류 = 진영.모집종류;
         진영.모집종류 = -1;
+        if (진영.주민투자 > 0)
+        {
+            주민추첨완료(팀);
+            return;
+        }
         var 출구 = 종류 == 0 ? 상태.대상들[회관번호(팀)] : 완성훈련소(팀);
         if (출구 == null)
         {
@@ -541,6 +709,7 @@ public sealed class 전장규칙
 
     void 유닛진행(int 번호, 전장대상 유닛, float 초)
     {
+        bool 왕 = 유닛.종류 == 대상종류.왕;
         Vector2 목적 = 유닛.목적지;
         var 능력 = 능력치(유닛.종류, 상태.진영들[유닛.팀].직업);
         float 이동거리 = (유닛.종류 switch
@@ -549,7 +718,7 @@ public sealed class 전장규칙
             대상종류.주민 => 1.98f,
             _ => 2.35f
         } + 능력.민첩 * .18f) * 초;
-        if (유닛.종류 == 대상종류.왕 && 왕방향입력[유닛.팀].만료 > 상태.시간)
+        if (왕 && 왕방향입력[유닛.팀].만료 > 상태.시간)
         {
             유닛위치갱신(유닛, 왕방향이동(유닛.위치, 왕방향입력[유닛.팀].방향, 이동거리));
             return;
@@ -563,9 +732,9 @@ public sealed class 전장규칙
             {
                 if (유닛.공격대기 <= 0)
                 {
-                    float 힘 = (유닛.종류 == 대상종류.왕 ? 8 : 3) + 2 * 능력.힘;
+                    float 힘 = (왕 ? 8 : 3) + 2 * 능력.힘;
                     피해(유닛.표적, 힘, 유닛.팀);
-                    유닛.공격대기 = 유닛.종류 == 대상종류.왕 ? .65f : .93f;
+                    유닛.공격대기 = 왕 ? .65f : .93f;
                 }
                 return;
             }
@@ -577,14 +746,18 @@ public sealed class 전장규칙
             {
                 var 지점 = 자원들[유닛.채집터];
                 목적 = 지점.오브젝트.position;
-                if (Vector2.Distance(유닛.위치, 목적) < 1.38f)
+                if ((유닛.위치 - 목적).sqrMagnitude <= 채집거리 * 채집거리)
                 {
+                    if (왕) 유닛.이동중 = false;
                     if (유닛.공격대기 <= 0)
                     {
                         int 재화 = 지점.재화번호;
-                        상태.진영들[유닛.팀].재화[재화] += 재화 < 2 ? 6 : 3;
-                        유닛.공격대기 = 3.6f - 능력.지능 * .1f;
-                        상태.진영들[유닛.팀].채집완료 = true;
+                        int 채집량 = 왕 ? 1 : 3;
+                        var 채집진영 = 상태.진영들[유닛.팀];
+                        채집진영.재화[재화] += 재화 < 2 ? 채집량 * 2 : 채집량;
+                        채집진영.자원별채집횟수[유닛.채집터]++;
+                        유닛.공격대기 = 왕 ? 2.2f : 3.6f - 능력.지능 * .1f;
+                        채집진영.채집완료 = true;
                     }
                     return;
                 }
@@ -592,7 +765,11 @@ public sealed class 전장규칙
             else if (!유닛.이동중) return;
         }
         if (길찾기.이동(경로들[번호], 유닛.위치, 목적, 이동거리, out Vector2 다음))
+        {
             유닛.이동중 = false;
+            if (왕 && 유닛.채집터 >= 0 && (다음 - 목적).sqrMagnitude > 채집거리 * 채집거리)
+                유닛.채집터 = -1;
+        }
         유닛위치갱신(유닛, 다음);
     }
 
@@ -654,7 +831,7 @@ public sealed class 전장규칙
         if (공격)
         {
             적웨이브++;
-            for (int i = 왕번호(팀) + 12; i < 전체칸; i++)
+            for (int i = 왕번호(팀) + 12; i < 왕번호(팀) + 진영칸; i++)
             {
                 var 병사 = 상태.대상들[i];
                 if (병사 != null && 병사.생존) 이동지정(병사, 제한(목적 + new Vector2(i % 4 * .4f, i % 3 * .4f)));

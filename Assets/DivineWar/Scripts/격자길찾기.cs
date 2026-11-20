@@ -26,10 +26,15 @@ public sealed class 격자길찾기
     readonly List<(int 칸, int 점수)> 후보 = new();
     int 지도버전;
 
+    public Rect 전장범위 { get; }
+
     public 격자길찾기(Tilemap 바닥, Tilemap 장애물)
     {
         this.바닥 = 바닥;
         구역 = 바닥.cellBounds;
+        var 왼쪽아래 = 바닥.CellToWorld(구역.min);
+        var 오른쪽위 = 바닥.CellToWorld(구역.max);
+        전장범위 = Rect.MinMaxRect(왼쪽아래.x, 왼쪽아래.y, 오른쪽위.x, 오른쪽위.y);
         int 칸수 = 구역.size.x * 구역.size.y;
         통행 = new bool[칸수];
         건물차단 = new bool[칸수];
@@ -47,6 +52,10 @@ public sealed class 격자길찾기
         }
     }
 
+    public Vector2 전장안쪽(Vector2 위치) => new(
+        Mathf.Clamp(위치.x, 전장범위.xMin + 1.2f, 전장범위.xMax - 1.2f),
+        Mathf.Clamp(위치.y, 전장범위.yMin + 1.3f, 전장범위.yMax - 1.3f));
+
     public Vector2 중심정렬(Vector2 위치)
     {
         int 번호 = 위치칸(위치);
@@ -62,6 +71,7 @@ public sealed class 격자길찾기
 
     Vector3Int 칸좌표(int 번호) => new(번호 % 구역.size.x + 구역.xMin, 번호 / 구역.size.x + 구역.yMin, 구역.zMin);
     bool 통행가능(int 번호) => 번호 >= 0 && 통행[번호] && !건물차단[번호];
+    internal bool 통행가능(Vector2 위치) => 통행가능(위치칸(위치));
     public bool 정적통행가능(Vector2 위치)
     {
         int 번호 = 위치칸(위치);
