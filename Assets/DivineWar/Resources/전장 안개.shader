@@ -41,18 +41,16 @@ Shader "Divine War/Battle Fog"
 
             half4 Frag(Varyings input) : SV_Target
             {
-                half cell = SAMPLE_TEXTURE2D(_Exploration, sampler_Exploration, input.uv).a;
-                half softEdge = SAMPLE_TEXTURE2D(_Exploration, sampler_LinearClamp, input.uv).a;
-                // Extend the soft edge into explored ground while unexplored cells stay opaque.
-                half opacity = lerp(cell, 1.0, smoothstep(0.0, 0.30, softEdge - cell));
+                half edge = SAMPLE_TEXTURE2D(_Exploration, sampler_LinearClamp, input.uv).a;
+                half opacity = smoothstep(0.0, 0.55, edge);
                 clip(opacity - 0.001);
 
-                float2 mistUV = input.uv * float2(3.6, 3.2);
-                float2 drift = _Time.y * float2(0.009, 0.003);
-                float2 fineUV = mistUV * float2(1.5, 1.9) + float2(0.37, 0.18);
-                half3 mist = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, frac(mistUV + drift)).rgb;
-                half3 haze = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, frac(fineUV - drift * 1.4)).rgb;
-                return half4(lerp(mist, haze, 0.30), opacity);
+                float2 drift = _Time.y * float2(0.003, 0.001);
+                float2 uv = input.uv * float2(1.6, 2.2);
+                half distant = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, uv + drift).g;
+                half nearMist = SAMPLE_TEXTURE2D(_MainTex, sampler_MainTex, uv * 1.7 - drift).g;
+                half density = saturate((distant + nearMist) * 0.7);
+                return half4(lerp(half3(0.085, 0.12, 0.14), half3(0.19, 0.24, 0.25), density), opacity);
             }
             ENDHLSL
         }
