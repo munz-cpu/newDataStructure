@@ -69,38 +69,10 @@ sealed class 전장지형 : IDisposable
     readonly HashSet<Vector3Int> 해변칸 = new();
 
     public 전장지형(Tilemap 바닥, Tilemap 장애물, Tilemap 지형맵, TileBase[] 해변타일, TileBase[] 흙타일,
-        자원지점[] 자원들, 구역[] 전술구역)
+        자원지점[] 자원들, 구역[] 전술구역, bool 그래픽표시 = true)
     {
         this.바닥 = 바닥;
         this.지형맵 = 지형맵;
-        var 그림판 = Resources.Load<Texture2D>("battle-terrain");
-        var 수풀 = new Tile[4];
-        for (int i = 0; i < 수풀.Length; i++)
-        {
-            수풀[i] = 타일(그림(그림판, i * 32, 0, 32, 24, new(.5f, .45f), 22));
-            float 옆 = (i & 1) == 0 ? -.09f : .09f;
-            float 위 = (i & 2) == 0 ? -.07f : .07f;
-            수풀[i].transform = Matrix4x4.Translate(new Vector3(옆, 위, 0));
-        }
-        var 숲바닥 = new Tile[4];
-        for (int i = 0; i < 숲바닥.Length; i++)
-            숲바닥[i] = 타일(그림(그림판, 128 + i * 24, 0, 24, 24, new(.5f, .5f)));
-        var 바위 = new[]
-        {
-            타일(그림(그림판, 0, 37, 112, 83, new(.5f, .47f), 86)),
-            타일(그림(그림판, 112, 37, 112, 83, new(.5f, .47f), 86))
-        };
-        var 물가 = new Tile[16];
-        var 습지 = new Tile[16];
-        for (int i = 0; i < 물가.Length; i++)
-        {
-            물가[i] = 타일(그림(그림판, i % 8 * 24, 120 + i / 8 * 24, 24, 24, new(.5f, .5f)));
-            습지[i] = 타일(물가[i].sprite);
-            습지[i].color = new Color(.91f, .98f, .62f);
-        }
-        var 깊은물 = 타일(물가[0].sprite);
-        깊은물.color = new Color(.78f, .86f, .91f);
-
         var 원래구역 = 바닥.cellBounds;
         var 넓힌구역 = new BoundsInt(원래구역.min - new Vector3Int(12, 7, 0), 원래구역.size + new Vector3Int(24, 14, 0));
         var 기본바닥 = Array.Find(바닥.GetTilesBlock(원래구역), 타일 => 타일 != null);
@@ -188,6 +160,35 @@ sealed class 전장지형 : IDisposable
                 if (!해변칸.Contains(칸) && !장애물.HasTile(칸) && 흙무늬.Contains(바닥.GetTile(칸)))
                     지형칸.TryAdd(칸, 종류.흙길);
         }
+
+        if (!그래픽표시) return;
+        var 그림판 = Resources.Load<Texture2D>("battle-terrain");
+        var 수풀 = new Tile[4];
+        for (int i = 0; i < 수풀.Length; i++)
+        {
+            수풀[i] = 타일(그림(그림판, i * 32, 0, 32, 24, new(.5f, .45f), 22));
+            float 옆 = (i & 1) == 0 ? -.09f : .09f;
+            float 위 = (i & 2) == 0 ? -.07f : .07f;
+            수풀[i].transform = Matrix4x4.Translate(new Vector3(옆, 위, 0));
+        }
+        var 숲바닥 = new Tile[4];
+        for (int i = 0; i < 숲바닥.Length; i++)
+            숲바닥[i] = 타일(그림(그림판, 128 + i * 24, 0, 24, 24, new(.5f, .5f)));
+        var 바위 = new[]
+        {
+            타일(그림(그림판, 0, 37, 112, 83, new(.5f, .47f), 86)),
+            타일(그림(그림판, 112, 37, 112, 83, new(.5f, .47f), 86))
+        };
+        var 물가 = new Tile[16];
+        var 습지 = new Tile[16];
+        for (int i = 0; i < 물가.Length; i++)
+        {
+            물가[i] = 타일(그림(그림판, i % 8 * 24, 120 + i / 8 * 24, 24, 24, new(.5f, .5f)));
+            습지[i] = 타일(물가[i].sprite);
+            습지[i].color = new Color(.91f, .98f, .62f);
+        }
+        var 깊은물 = 타일(물가[0].sprite);
+        깊은물.color = new Color(.78f, .86f, .91f);
 
         var 지형좌표 = new List<Vector3Int>(지형칸.Count);
         var 지형타일 = new List<TileBase>(지형칸.Count);

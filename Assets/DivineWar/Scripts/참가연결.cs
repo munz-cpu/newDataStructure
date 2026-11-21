@@ -1,237 +1,372 @@
 using System;
-using System.Collections.Concurrent;
+using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Net;
-using System.Net.NetworkInformation;
-using System.Net.Sockets;
-using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Unity.Collections;
+using Unity.Netcode;
+using Unity.Services.Authentication;
+using Unity.Services.Core;
+using Unity.Services.Core.Environments;
+using Unity.Services.Multiplayer;
+using UnityEngine;
 
 public sealed class 참가연결 : IDisposable
 {
-    public const int 포트 = 27841;
-    const int 최대길이 = 262144;
-    readonly CancellationTokenSource 종료 = new();
-    readonly ConcurrentQueue<string> 수신함 = new();
-    readonly ConcurrentQueue<string> 송신함 = new();
-    readonly bool 호스트;
-    readonly byte[] 열쇠;
-    string 다음상태;
-    TcpListener 대기열;
-    TcpClient 상대;
-    volatile bool 연결중;
-    volatile bool 닫힘;
-    volatile bool 검증됨;
-    volatile string 오류문구;
-    Task 실행작업;
-    public bool 연결됨 => 검증됨 && !닫힘;
-    public string 오류 => 오류문구;
-    public string 코드 { get; }
+#if DIVINEWAR_PRODUCTION
+    public const string 환경 = "production";
+#else
+    public const string 환경 = "development";
+#endif
+    const ushort 프로토콜 = 2;
+    const string 버전키 = "divinewarProtocol";
+    const string 명령채널 = "dw.command";
+    const string 상태채널 = "dw.state";
+    const string 확인채널 = "dw.ack";
+    const int 최대명령길이 = 2048;
+    static readonly SemaphoreSlim 세션차례 = new(1, 1);
+    static readonly UTF8Encoding 인코딩 = new(false, true);
 
-    참가연결(bool 호스트, byte[] 열쇠, IPAddress 주소)
+    sealed class 참가자
     {
-        this.호스트 = 호스트;
-        this.열쇠 = 열쇠;
-        if (호스트)
+        public ulong 번호;
+        public uint 보낸순번, 확인순번;
+        public float 마지막송신;
+        public bool 송신가능 => 보낸순번 == 확인순번;
+    }
+
+    readonly NetworkManager 관리자;
+    readonly 참가자[] 팀원 = new 참가자[2];
+    readonly Queue<(int 팀, string 내용)> 명령함 = new();
+    ISession 세션;
+    uint 받은순번;
+    bool 서버접속, 닫힘;
+    string 최신상태;
+    Task 종료작업;
+
+    public bool 전용서버 { get; }
+#if DIVINEWAR_LOCAL_QA
+    const string 로컬코드 = "LOCALQA";
+    public string 코드 => 로컬코드;
+#else
+    public string 코드 => 세션?.Code;
+#endif
+    public string 오류 { get; private set; }
+    bool 통신중 => !닫힘 && 오류 == null && 관리자 && 관리자.IsListening;
+    public bool 연결됨 => 통신중 && (전용서버 ? 팀원[0] != null && 팀원[1] != null : 서버접속);
+
+    public bool 상태전송가능
+    {
+        get
         {
-            대기열 = new TcpListener(IPAddress.Any, 포트);
-            대기열.Start(3);
-            var 데이터 = new byte[13];
-            데이터[0] = 1;
-            주소.GetAddressBytes().CopyTo(데이터, 1);
-            열쇠.CopyTo(데이터, 5);
-            코드 = Convert.ToBase64String(데이터).TrimEnd('=').Replace('+', '-').Replace('/', '_');
+            if (!전용서버 || !연결됨) return false;
+            foreach (var 참가자 in 팀원)
+            {
+                if (!참가자.송신가능 && Time.realtimeSinceStartup - 참가자.마지막송신 > 20f)
+                {
+                    오류 = "참가자의 전장 수신 응답이 없습니다.";
+                    return false;
+                }
+            }
+            return 팀원[0].송신가능 || 팀원[1].송신가능;
         }
-        실행작업 = Task.Run(() => 실행(주소));
     }
 
-    public static 참가연결 방열기(string 외부주소)
+    참가연결(NetworkManager 관리자, bool 서버)
     {
-        IPAddress 주소;
-        if (string.IsNullOrWhiteSpace(외부주소))
+        this.관리자 = 관리자;
+        전용서버 = 서버;
+        관리자.NetworkConfig.ProtocolVersion = 프로토콜;
+        관리자.OnClientStarted += 통신등록;
+        관리자.OnClientConnectedCallback += 접속;
+        관리자.OnClientDisconnectCallback += 해제;
+        관리자.OnTransportFailure += 중단;
+    }
+
+#if DIVINEWAR_DEDICATED
+    public static Task<참가연결> 서버열기Async(CancellationToken 토큰) => 시작(null, 토큰);
+#endif
+
+    public static Task<참가연결> 참가Async(string 코드, CancellationToken 토큰)
+    {
+        if (string.IsNullOrWhiteSpace(코드)) throw new FormatException("참가 코드를 입력하세요.");
+        return 시작(코드.Trim().ToUpperInvariant(), 토큰);
+    }
+
+    static async Task<참가연결> 시작(string 코드, CancellationToken 토큰)
+    {
+        await 세션차례.WaitAsync(토큰);
+        참가연결 연결 = null;
+        try
         {
-            var 후보 = from 장치 in NetworkInterface.GetAllNetworkInterfaces()
-                     where 장치.OperationalStatus == OperationalStatus.Up && 장치.NetworkInterfaceType != NetworkInterfaceType.Loopback
-                     let 속성 = 장치.GetIPProperties()
-                     from 주소정보 in 속성.UnicastAddresses
-                     where 주소정보.Address.AddressFamily == AddressFamily.InterNetwork && 주소정보.Address.GetAddressBytes()[0] != 169
-                     orderby 속성.GatewayAddresses.Any(g => g.Address.AddressFamily == AddressFamily.InterNetwork) descending,
-                         장치.NetworkInterfaceType == NetworkInterfaceType.Wireless80211 || 장치.NetworkInterfaceType == NetworkInterfaceType.Ethernet descending
-                     select 주소정보.Address;
-            주소 = 후보.FirstOrDefault() ?? IPAddress.Loopback;
+            var 관리자 = NetworkManager.Singleton;
+            if (!관리자 || 관리자.IsListening)
+                throw new InvalidOperationException("전장 네트워크가 준비되지 않았습니다.");
+            연결 = new 참가연결(관리자, 코드 == null);
+#if DIVINEWAR_LOCAL_QA
+            로컬시험시작(연결, 코드);
+#else
+            if (UnityServices.State != ServicesInitializationState.Initialized)
+            {
+                var 옵션 = new InitializationOptions().SetEnvironmentName(환경);
+                string 프로필 = Environment.GetEnvironmentVariable("DIVINEWAR_UGS_PROFILE");
+                if (!string.IsNullOrEmpty(프로필)) 옵션.SetProfile(프로필);
+                await UnityServices.InitializeAsync(옵션);
+            }
+            토큰.ThrowIfCancellationRequested();
+            if (!AuthenticationService.Instance.IsSignedIn)
+                await AuthenticationService.Instance.SignInAnonymouslyAsync();
+            토큰.ThrowIfCancellationRequested();
+
+#if DIVINEWAR_DEDICATED
+            if (연결.전용서버)
+            {
+                var 옵션 = new SessionOptions
+                {
+                    MaxPlayers = 3,
+                    IsPrivate = true,
+                    SessionProperties = new Dictionary<string, SessionProperty>
+                    {
+                        [버전키] = new SessionProperty(프로토콜.ToString(), VisibilityPropertyOptions.Member)
+                    }
+                }.WithRelayNetwork();
+                연결.세션 = await MultiplayerService.Instance.CreateSessionAsync(옵션);
+            }
+            else
+#endif
+            {
+                연결.세션 = await MultiplayerService.Instance.JoinSessionByCodeAsync(코드);
+                if (연결.세션.MaxPlayers != 3 || !연결.세션.IsPrivate ||
+                    !연결.세션.Properties.TryGetValue(버전키, out var 버전) || 버전.Value != 프로토콜.ToString())
+                    throw new InvalidOperationException("상대와 게임 버전이 다릅니다.");
+            }
+            연결.세션.Deleted += 연결.중단;
+            연결.세션.SessionHostChanged += 연결.서버변경;
+            연결.세션.RemovedFromSession += 연결.중단;
+#endif
+            토큰.ThrowIfCancellationRequested();
+            return 연결;
         }
-        else if (!IPAddress.TryParse(외부주소.Trim(), out 주소) || 주소.AddressFamily != AddressFamily.InterNetwork
-                 || 주소.Equals(IPAddress.Any) || 주소.Equals(IPAddress.Broadcast))
-            throw new FormatException("연결 주소에는 IPv4 주소를 입력하세요.");
-        byte[] 열쇠 = new byte[8];
-        using var 난수 = RandomNumberGenerator.Create();
-        난수.GetBytes(열쇠);
-        return new 참가연결(true, 열쇠, 주소);
+        catch
+        {
+            if (연결 == null) 세션차례.Release();
+            else await 연결.닫기Async();
+            throw;
+        }
     }
 
-    public static 참가연결 참가(string 코드)
+#if DIVINEWAR_LOCAL_QA
+    static void 로컬시험시작(참가연결 연결, string 코드)
     {
-        코드 = 코드.Trim();
-        if (코드.Length != 18) throw new FormatException("참가 코드 18자를 확인하세요.");
-        var 데이터 = Convert.FromBase64String(코드.Replace('-', '+').Replace('_', '/') + "==");
-        if (데이터.Length != 13 || 데이터[0] != 1) throw new FormatException("이 버전에서 사용할 수 없는 참가 코드입니다.");
-        return new 참가연결(false, 데이터.Skip(5).ToArray(), new IPAddress(데이터.Skip(1).Take(4).ToArray()));
+        if (코드 != null && 코드 != 로컬코드) throw new FormatException("로컬 검증용 참가 코드가 잘못되었습니다.");
+        ushort 포트 = 17741;
+        string 설정 = Environment.GetEnvironmentVariable("DIVINEWAR_QA_PORT");
+        if (!string.IsNullOrEmpty(설정) && (!ushort.TryParse(설정, out 포트) || 포트 == 0))
+            throw new FormatException("로컬 검증용 포트가 잘못되었습니다.");
+
+        var 전송 = 연결.관리자.NetworkConfig.NetworkTransport as Unity.Netcode.Transports.UTP.UnityTransport;
+        if (!전송) throw new InvalidOperationException("Unity Transport가 필요합니다.");
+        전송.SetConnectionData("127.0.0.1", 포트, "127.0.0.1");
+#if DIVINEWAR_DEDICATED
+        if (연결.전용서버)
+        {
+            if (!연결.관리자.StartHost()) throw new InvalidOperationException("로컬 검증 서버를 열 수 없습니다.");
+            return;
+        }
+#endif
+        if (!연결.관리자.StartClient()) throw new InvalidOperationException("로컬 검증 서버에 접속할 수 없습니다.");
+    }
+#endif
+
+    void 통신등록()
+    {
+        var 통신 = 관리자.CustomMessagingManager;
+        통신.RegisterNamedMessageHandler(명령채널, 명령수신);
+        if (전용서버) 통신.RegisterNamedMessageHandler(확인채널, 확인수신);
+        else 통신.RegisterNamedMessageHandler(상태채널, 상태수신);
     }
 
-    public bool 받기(out string 내용) => 수신함.TryDequeue(out 내용);
-
-    public bool 보내기(string 내용)
+    void 접속(ulong 번호)
     {
-        if (!연결됨 || 송신함.Count >= 96) return false;
-        송신함.Enqueue(내용);
+        if (전용서버)
+        {
+            if (번호 == NetworkManager.ServerClientId || 팀찾기(번호) >= 0) return;
+            int 팀 = Array.FindIndex(팀원, 참가자 => 참가자 == null);
+            if (팀 >= 0 && 오류 == null) 팀원[팀] = new 참가자 { 번호 = 번호 };
+            else 관리자.DisconnectClient(번호);
+        }
+        else if (번호 == 관리자.LocalClientId) 서버접속 = true;
+    }
+
+    int 팀찾기(ulong 번호)
+    {
+        for (int 팀 = 0; 팀 < 팀원.Length; 팀++)
+            if (팀원[팀]?.번호 == 번호) return 팀;
+        return -1;
+    }
+
+    void 해제(ulong 번호)
+    {
+        if (!전용서버)
+        {
+            // 다른 참가자의 알림과 내 서버 연결 종료를 구분한다.
+            if (번호 == 관리자.LocalClientId || 번호 == NetworkManager.ServerClientId) 중단();
+        }
+        else if (팀찾기(번호) >= 0) 중단();
+    }
+
+    void 서버변경(string _) => 중단();
+    void 중단() => 오류 ??= "전장 연결이 끊겼습니다.";
+
+    public bool 보내기(string 내용) => !전용서버 && 연결됨 && 명령전송(NetworkManager.ServerClientId, 내용);
+
+    public bool 팀에보내기(int 팀, string 내용) => 전용서버 && 통신중 &&
+        팀 >= 0 && 팀 < 팀원.Length && 팀원[팀] != null && 명령전송(팀원[팀].번호, 내용);
+
+    bool 명령전송(ulong 번호, string 내용)
+    {
+        if (string.IsNullOrEmpty(내용) || 내용[0] == 'S' || 인코딩.GetByteCount(내용) > 최대명령길이) return false;
+        var 바이트 = 인코딩.GetBytes(내용);
+        using var 버퍼 = new FastBufferWriter(바이트.Length, Allocator.Temp);
+        버퍼.WriteBytesSafe(바이트);
+        관리자.CustomMessagingManager.SendNamedMessage(명령채널, 번호, 버퍼, NetworkDelivery.ReliableFragmentedSequenced);
         return true;
+    }
+
+    public bool 받기(out int 팀, out string 내용)
+    {
+        if (명령함.Count > 0)
+        {
+            (팀, 내용) = 명령함.Dequeue();
+            return true;
+        }
+        팀 = -1;
+        내용 = 최신상태;
+        최신상태 = null;
+        return 내용 != null;
+    }
+
+    void 명령수신(ulong 보낸이, FastBufferReader 버퍼)
+    {
+        int 팀 = 전용서버 ? 팀찾기(보낸이) : -1;
+        if (!통신중 || (전용서버 ? 팀 < 0 : 보낸이 != NetworkManager.ServerClientId || !서버접속)) return;
+        int 길이 = 버퍼.Length - 버퍼.Position;
+        if (길이 < 1 || 길이 > 최대명령길이 || 명령함.Count >= 128)
+        {
+            오류 = "상대의 명령을 처리할 수 없습니다.";
+            return;
+        }
+        var 바이트 = new byte[길이];
+        버퍼.ReadBytesSafe(ref 바이트, 길이);
+        try
+        {
+            string 문장 = 인코딩.GetString(바이트);
+            if (문장[0] != 'S') 명령함.Enqueue((팀, 문장));
+        }
+        catch (DecoderFallbackException) { 오류 = "명령의 문자 형식이 잘못되었습니다."; }
     }
 
     public void 상태보내기(string 내용)
     {
-        if (연결됨) Interlocked.Exchange(ref 다음상태, 내용);
-    }
-
-    async Task 실행(IPAddress 주소)
-    {
+        if (!상태전송가능) return;
         try
         {
-            if (호스트)
+            byte[] 압축 = 전장상태압축.포장(내용);
+            int 원본길이 = 인코딩.GetByteCount(내용);
+            foreach (var 참가자 in 팀원)
             {
-                while (!종료.IsCancellationRequested && !검증됨)
-                {
-                    var 후보 = await 대기열.AcceptTcpClientAsync();
-                    상대 = 후보;
-                    try
-                    {
-                        후보.NoDelay = true;
-                        var 통로 = 후보.GetStream();
-                        using var 제한 = CancellationTokenSource.CreateLinkedTokenSource(종료.Token);
-                        제한.CancelAfter(3500);
-                        var 인증 = await 읽기(통로, 8, 제한.Token);
-                        if (!같은열쇠(인증)) { 후보.Close(); continue; }
-                        await 통로.WriteAsync(new byte[] { 1 }, 0, 1, 제한.Token);
-                        검증됨 = true;
-                    }
-                    catch (Exception ex) when (ex is OperationCanceledException or IOException or SocketException)
-                    {
-                        후보.Close();
-                        if (종료.IsCancellationRequested) return;
-                    }
-                }
-                대기열.Stop();
+                if (!참가자.송신가능) continue;
+                using var 버퍼 = new FastBufferWriter(8 + 압축.Length, Allocator.Temp);
+                버퍼.WriteValueSafe(++참가자.보낸순번);
+                버퍼.WriteValueSafe(원본길이);
+                버퍼.WriteBytesSafe(압축);
+                관리자.CustomMessagingManager.SendNamedMessage(상태채널, 참가자.번호, 버퍼, NetworkDelivery.ReliableFragmentedSequenced);
+                참가자.마지막송신 = Time.realtimeSinceStartup;
             }
-            else
-            {
-                상대 = new TcpClient(AddressFamily.InterNetwork);
-                연결중 = true;
-                var 연결 = 상대.ConnectAsync(주소, 포트);
-                if (await Task.WhenAny(연결, Task.Delay(5500, 종료.Token)) != 연결)
-                {
-                    _ = 연결.ContinueWith(t => _ = t.Exception, TaskContinuationOptions.OnlyOnFaulted);
-                    throw new IOException();
-                }
-                await 연결;
-                상대.NoDelay = true;
-                var 통로 = 상대.GetStream();
-                using var 제한 = CancellationTokenSource.CreateLinkedTokenSource(종료.Token);
-                제한.CancelAfter(4000);
-                await 통로.WriteAsync(열쇠, 0, 열쇠.Length, 제한.Token);
-                if ((await 읽기(통로, 1, 제한.Token))[0] != 1) throw new IOException();
-                검증됨 = true;
-            }
-            if (종료.IsCancellationRequested || 상대 == null) return;
-            연결중 = false;
-            var 스트림 = 상대.GetStream();
-            var 읽기작업 = 수신(스트림);
-            var 쓰기작업 = 송신(스트림);
-            var 먼저 = await Task.WhenAny(읽기작업, 쓰기작업);
-            닫힘 = true;
-            상대.Close();
-            try { await Task.WhenAll(읽기작업, 쓰기작업); }
-            catch (Exception) when (먼저.IsCompleted) { }
-            if (!종료.IsCancellationRequested) 오류문구 = "상대와의 연결이 끊겼습니다.";
         }
-        catch (Exception ex) when (ex is SocketException or IOException or ObjectDisposedException or OperationCanceledException or InvalidOperationException)
+        catch (InvalidDataException ex) { 오류 = ex.Message; }
+    }
+
+    void 상태수신(ulong 보낸이, FastBufferReader 버퍼)
+    {
+        if (보낸이 != NetworkManager.ServerClientId || !연결됨 || 전용서버) return;
+        int 길이 = 버퍼.Length - 버퍼.Position - 8;
+        if (길이 <= 0 || 길이 > 전장상태압축.최대압축길이)
         {
-            if (!종료.IsCancellationRequested)
-                오류문구 = 연결중 ? "방에 연결할 수 없습니다. 참가 코드와 호스트 연결을 확인하세요." : "연결을 유지할 수 없습니다.";
+            오류 = "전장 상태의 크기가 잘못되었습니다.";
+            return;
         }
+
+        버퍼.ReadValueSafe(out uint 순번);
+        버퍼.ReadValueSafe(out int 원본길이);
+        if (순번 != unchecked(받은순번 + 1)) return;
+        var 바이트 = new byte[길이];
+        버퍼.ReadBytesSafe(ref 바이트, 길이);
+        try
+        {
+            string 문장 = 전장상태압축.풀기(바이트, 원본길이);
+            if (문장[0] != 'S') throw new InvalidDataException();
+            최신상태 = 문장;
+            받은순번 = 순번;
+            using var 응답 = new FastBufferWriter(sizeof(uint), Allocator.Temp);
+            응답.WriteValueSafe(순번);
+            관리자.CustomMessagingManager.SendNamedMessage(확인채널, 보낸이, 응답);
+        }
+        catch (Exception ex) when (ex is IOException || ex is InvalidDataException || ex is DecoderFallbackException)
+        {
+            오류 = "전장 상태를 읽을 수 없습니다.";
+        }
+    }
+
+    void 확인수신(ulong 보낸이, FastBufferReader 버퍼)
+    {
+        int 팀 = 팀찾기(보낸이);
+        if (팀 < 0 || 버퍼.Length - 버퍼.Position != sizeof(uint)) return;
+        버퍼.ReadValueSafe(out uint 순번);
+        if (순번 == 팀원[팀].보낸순번) 팀원[팀].확인순번 = 순번;
+    }
+
+    public void Dispose() => _ = 닫기Async();
+
+    public Task 닫기Async() => 종료작업 ??= 종료();
+
+    async Task 종료()
+    {
+        닫힘 = true;
+        try
+        {
+            if (관리자)
+            {
+                관리자.OnClientStarted -= 통신등록;
+                관리자.OnClientConnectedCallback -= 접속;
+                관리자.OnClientDisconnectCallback -= 해제;
+                관리자.OnTransportFailure -= 중단;
+                var 통신 = 관리자.CustomMessagingManager;
+                통신?.UnregisterNamedMessageHandler(명령채널);
+                통신?.UnregisterNamedMessageHandler(전용서버 ? 확인채널 : 상태채널);
+            }
+            if (세션 != null)
+            {
+                세션.Deleted -= 중단;
+                세션.SessionHostChanged -= 서버변경;
+                세션.RemovedFromSession -= 중단;
+                if (세션.State != SessionState.Deleted && 세션.IsMember)
+                {
+                    if (전용서버 && 세션.IsHost) await 세션.AsHost().DeleteAsync();
+                    else await 세션.LeaveAsync();
+                }
+            }
+        }
+        catch (Exception ex) { Debug.LogWarning($"전장 세션 정리 실패 ({ex.GetType().Name})"); }
         finally
         {
-            닫힘 = true;
-            대기열?.Stop();
-            상대?.Close();
-        }
-    }
-
-    bool 같은열쇠(byte[] 인증)
-    {
-        int 차이 = 0;
-        for (int i = 0; i < 열쇠.Length; i++) 차이 |= 열쇠[i] ^ 인증[i];
-        return 차이 == 0;
-    }
-
-    async Task 수신(NetworkStream 통로)
-    {
-        var 헤더 = new byte[4];
-        while (!종료.IsCancellationRequested)
-        {
-            await 채우기(통로, 헤더, 종료.Token);
-            int 길이 = 헤더[0] << 24 | 헤더[1] << 16 | 헤더[2] << 8 | 헤더[3];
-            if (길이 <= 0 || 길이 > (호스트 ? 2048 : 최대길이) || 수신함.Count >= 128) throw new IOException();
-            var 바이트 = await 읽기(통로, 길이, 종료.Token);
-            수신함.Enqueue(Encoding.UTF8.GetString(바이트));
-        }
-    }
-
-    async Task 송신(NetworkStream 통로)
-    {
-        while (!종료.IsCancellationRequested && !닫힘)
-        {
-            if (!송신함.TryDequeue(out string 내용)) 내용 = Interlocked.Exchange(ref 다음상태, null);
-            if (내용 == null)
+            try
             {
-                await Task.Delay(12, 종료.Token);
-                continue;
+                if (관리자 && 관리자.IsListening && !관리자.ShutdownInProgress) 관리자.Shutdown();
+                while (관리자 && 관리자.ShutdownInProgress && Application.isPlaying) await Task.Yield();
             }
-            var 바이트 = Encoding.UTF8.GetBytes(내용);
-            int 길이 = 바이트.Length;
-            if (길이 > 최대길이) throw new IOException();
-            var 헤더 = new[] { (byte)(길이 >> 24), (byte)(길이 >> 16), (byte)(길이 >> 8), (byte)길이 };
-            await 통로.WriteAsync(헤더, 0, 헤더.Length, 종료.Token);
-            await 통로.WriteAsync(바이트, 0, 길이, 종료.Token);
+            finally { 세션차례.Release(); }
         }
-    }
-
-    static async Task<byte[]> 읽기(NetworkStream 통로, int 길이, CancellationToken 토큰)
-    {
-        var 버퍼 = new byte[길이];
-        await 채우기(통로, 버퍼, 토큰);
-        return 버퍼;
-    }
-
-    static async Task 채우기(NetworkStream 통로, byte[] 버퍼, CancellationToken 토큰)
-    {
-        int 읽은수 = 0;
-        while (읽은수 < 버퍼.Length)
-        {
-            int 수 = await 통로.ReadAsync(버퍼, 읽은수, 버퍼.Length - 읽은수, 토큰);
-            if (수 == 0) throw new EndOfStreamException();
-            읽은수 += 수;
-        }
-    }
-
-    public void Dispose()
-    {
-        if (종료.IsCancellationRequested) return;
-        종료.Cancel();
-        대기열?.Stop();
-        상대?.Close();
-        _ = 실행작업.ContinueWith(_ => 종료.Dispose(), TaskScheduler.Default);
     }
 }
-

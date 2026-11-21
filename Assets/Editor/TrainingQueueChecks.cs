@@ -95,10 +95,33 @@ public static class TrainingQueueChecks
                 for (int i = 0; i < f.State.대상들.Length; i++)
                     f.State.대상들[i] ??= new 전장대상 { 팀 = 1, 종류 = 대상종류.병사, 체력 = 105, 최대체력 = 105 };
                 string json = JsonUtility.ToJson(f.State);
-                var copy = JsonUtility.FromJson<전장상태>(json);
+                string message = "S" + json;
+                int rawBytes = Encoding.UTF8.GetByteCount(message);
+                var payload = 전장상태압축.포장(message);
+                string received = 전장상태압축.풀기(payload, rawBytes);
+                Require(received == message, "Snapshot codec changed the battle state");
+                var copy = JsonUtility.FromJson<전장상태>(received.Substring(1));
                 Require(copy.진영들[0].훈련대기인원 == 1 && copy.대상들[6].훈련소 == 4, "Training fields missing in snapshot");
-                Require(Encoding.UTF8.GetByteCount("S" + json) < 262144, "Snapshot exceeds network frame limit");
-                Results.Add("Snapshot bytes: " + Encoding.UTF8.GetByteCount("S" + json));
+                Require(rawBytes <= 전장상태압축.최대원본길이, "Snapshot exceeds network frame limit");
+                Results.Add($"Snapshot: {rawBytes} UTF-8 bytes, {payload.Length} compressed bytes");
+            });
+            Check("Snapshot size boundary and invalid declared length", () =>
+            {
+                var message = "S" + new string('x', 전장상태압축.최대원본길이 - 1);
+                var payload = 전장상태압축.포장(message);
+                Require(전장상태압축.풀기(payload, message.Length) == message, "Maximum size snapshot lost");
+                RejectInvalid(() => 전장상태압축.포장(message + "x"));
+                RejectInvalid(() => 전장상태압축.풀기(payload, message.Length - 1));
+                RejectInvalid(() => 전장상태압축.풀기(payload, message.Length + 1));
+            });
+            Check("Selected unit command JSON round trip", () =>
+            {
+                var sent = new 전장명령 { 종류 = 명령종류.주민훈련, 위치 = new Vector2(-3.5f, 16.25f),
+                    값 = 4, 부대 = new[] { 6, 7 } };
+                string wire = "C" + JsonUtility.ToJson(sent);
+                var copy = JsonUtility.FromJson<전장명령>(wire.Substring(1));
+                Require(copy.종류 == sent.종류 && copy.위치 == sent.위치 && copy.값 == sent.값 &&
+                    copy.부대.Length == 2 && copy.부대[0] == 6 && copy.부대[1] == 7, "Command fields changed");
             });
             Check("Authored renderer references", () =>
             {
@@ -115,6 +138,13 @@ public static class TrainingQueueChecks
         Directory.CreateDirectory("Temp/TrainingWork");
         File.WriteAllLines("Temp/TrainingWork/results.txt", Results);
         Debug.Log(string.Join("\n", Results));
+    }
+
+    static void RejectInvalid(Action operation)
+    {
+        try { operation(); }
+        catch (InvalidDataException) { return; }
+        throw new Exception("Expected invalid snapshot to be rejected");
     }
 
     static void Check(string name, Action test) { test(); Results.Add("PASS: " + name); }

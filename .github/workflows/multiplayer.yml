@@ -1,0 +1,144 @@
+name: Multiplayer
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      production:
+        type: boolean
+        default: false
+        description: Build production after development passes on this commit
+permissions:
+  contents: read
+
+jobs:
+  preflight:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check licensed build access
+        env:
+          FORK: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name != github.repository }}
+          HAS_LICENSE: ${{ secrets.UNITY_LICENSE != '' }}
+        run: |
+          if [[ "$FORK" == "true" ]]; then
+            echo "::error::Unity validation requires a reviewed branch in this repository. Forks have no license secrets."
+            exit 1
+          fi
+          if [[ "$HAS_LICENSE" != "true" ]]; then
+            echo "::error::Configure Unity CI licensing as described in Docs/Multiplayer.md."
+            exit 1
+          fi
+      - name: Verify production approval is configured
+        if: github.event_name == 'workflow_dispatch' && inputs.production
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          protected=$(gh api "repos/$GITHUB_REPOSITORY/environments/production" \
+            --jq 'any(.protection_rules[]?; .type == "required_reviewers" and (.reviewers | length > 0))')
+          [[ "$GITHUB_REF" == refs/heads/main && "$protected" == true ]] || {
+            echo "::error::Select main and configure required reviewers for the production environment."
+            exit 1
+          }
+
+  development:
+    needs: preflight
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: ${{ fromJSON(github.event_name == 'pull_request' && '["linux"]' || '["linux","windows","server"]') }}
+    uses: ./.github/workflows/build-player.yml
+    with:
+      stage: development
+      platform: ${{ matrix.platform }}
+      validate_only: ${{ github.event_name == 'pull_request' }}
+    secrets:
+      UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+      UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+      UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+
+  smoke:
+    needs: development
+    if: github.event_name != 'pull_request'
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { pairing: linux, runner: ubuntu-24.04 }
+          - { pairing: windows, runner: windows-2022 }
+          - { pairing: mixed, runner: ubuntu-24.04 }
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@v4
+        if: matrix.pairing != 'windows'
+        with:
+          name: DivineWar-development-linux
+          path: packages
+      - uses: actions/download-artifact@v4
+        if: matrix.pairing != 'linux'
+        with:
+          name: DivineWar-development-windows
+          path: packages
+      - uses: actions/download-artifact@v4
+        if: runner.os == 'Linux'
+        with:
+          name: DivineWar-development-server
+          path: packages
+      - uses: actions/download-artifact@v4
+        if: runner.os == 'Windows'
+        with:
+          name: windows-smoke-server
+          path: packages
+      - if: runner.os == 'Linux'
+        run: |
+          mkdir -p players/linux players/server
+          tar -C players/server -xzf packages/DivineWar-development-server.tar.gz
+          tar -C players/linux -xzf packages/DivineWar-development-linux.tar.gz
+      - name: Test two native Linux players
+        if: matrix.pairing == 'linux'
+        run: bash .github/scripts/relay-smoke.sh players/linux/DivineWar.x86_64 players/server/DivineWarServer.x86_64
+      - name: Test two native Windows players
+        if: matrix.pairing == 'windows'
+        shell: pwsh
+        run: |
+          Expand-Archive packages/DivineWar-development-windows.zip -DestinationPath players/windows
+          Expand-Archive packages/test-server.zip -DestinationPath players/server
+          ./.github/scripts/relay-smoke.ps1 players/windows/DivineWar.exe players/server/DivineWarServer.exe
+      - name: Test the Linux and Windows binaries on the dedicated server
+        if: matrix.pairing == 'mixed'
+        env:
+          WINEDEBUG: '-all'
+          WINEARCH: win64
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install --no-install-recommends -y wine wine64 xvfb xauth
+          unzip -q packages/DivineWar-development-windows.zip -d players/windows
+          xvfb-run -a bash .github/scripts/relay-smoke.sh players/linux/DivineWar.x86_64 players/server/DivineWarServer.x86_64 \
+            --windows-peer players/windows/DivineWar.exe
+
+  approve-production:
+    if: github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main' && inputs.production
+    needs: smoke
+    environment: production
+    runs-on: ubuntu-24.04
+    steps:
+      - run: echo 'Approved both production players and the dedicated server for the tested commit.'
+
+  production:
+    needs: approve-production
+    strategy:
+      matrix:
+        platform: [linux, windows, server]
+    uses: ./.github/workflows/build-player.yml
+    with:
+      stage: production
+      platform: ${{ matrix.platform }}
+    secrets:
+      UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+      UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+      UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}

@@ -106,6 +106,10 @@ public sealed class 신들의전쟁 : MonoBehaviour
     bool 지도에서명령, 지도이동클릭대기, 지도시점고정;
     bool 멀티, 전투중, 일시정지, 패널열림, 자동추적, 드래그중, 팝업재개;
     bool 키보드이동, 주민자동해제, 배치세로;
+    readonly bool[] 결과확인 = new bool[2];
+    bool 복귀중;
+    float 결과대기;
+    전장입장 입장;
     string 연결종료 = "", 팝업제목, 팝업본문;
 
     [Serializable]
@@ -144,9 +148,26 @@ public sealed class 신들의전쟁 : MonoBehaviour
         public float 시작;
     }
 
+    void Awake()
+    {
+        입장 = 전장입장.가져오기();
+        연결 = 입장?.연결;
+        멀티 = 연결 != null;
+        내팀 = 입장?.내팀 ?? 0;
+    }
+
     void OnEnable()
     {
         if (!Application.isEditor) Application.runInBackground = true;
+        지형 ??= new 전장지형(바닥타일맵, 장애물타일맵, 지형타일맵, 해변타일, 흙타일, 자원들, 전술지형, !전장입장.서버빌드);
+        길찾기 ??= new 격자길찾기(바닥타일맵, 장애물타일맵, 지형);
+        if (전장입장.서버빌드)
+        {
+            GetComponent<UIDocument>().enabled = false;
+            입장대기.SetActive(false);
+            전투.SetActive(false);
+            return;
+        }
         뿌리 = GetComponent<UIDocument>().rootVisualElement;
         뿌리.StretchToParentSize();
         전장표시 = 뿌리.Q("draw");
@@ -156,8 +177,6 @@ public sealed class 신들의전쟁 : MonoBehaviour
             종류 => 명령전달(명령종류.고기굽기, 값: 종류),
             종류 => 명령전달(명령종류.고기사용, 값: 종류));
         미니맵범위 = default;
-        지형 ??= new 전장지형(바닥타일맵, 장애물타일맵, 지형타일맵, 해변타일, 흙타일, 자원들, 전술지형);
-        길찾기 ??= new 격자길찾기(바닥타일맵, 장애물타일맵, 지형);
         안개 ??= new 전장안개(transform, 길찾기.전장범위, 지형);
         안개.보이기 = true;
         if (그림자들 != null) 그림자들.보이기 = true;
@@ -190,6 +209,13 @@ public sealed class 신들의전쟁 : MonoBehaviour
 
     void Start()
     {
+        if (전장입장.서버빌드)
+        {
+            if (연결?.전용서버 != true) { 타이틀이동(); return; }
+            규칙준비();
+            Debug.Log("[DivineWar] MATCH_STARTED");
+            return;
+        }
         if (이동클릭효과음 != null || 왕공격효과음 != null || 피격효과음 != null || 나무채집효과음 != null || 돌채집효과음 != null
             || 왕발소리?.Length > 0 || 왕흙발소리?.Length > 0)
         {
@@ -232,16 +258,17 @@ public sealed class 신들의전쟁 : MonoBehaviour
         if (메뉴씬.isLoaded) 씬준비(메뉴씬, LoadSceneMode.Additive);
         else SceneManager.LoadSceneAsync("BattleMenu", LoadSceneMode.Additive);
 
-        var 입장 = 전장입장.가져오기();
-        연결 = 입장?.연결;
-        멀티 = 연결 != null;
-        내팀 = 입장?.내팀 ?? 0;
-        if (내팀 == 1) return;
+        if (멀티) return;
+        규칙준비();
+        화면전환();
+    }
+
+    void 규칙준비()
+    {
         var 위치들 = Array.ConvertAll(시작지점들, 지점 => (Vector2)지점.position);
         규칙 = new 전장규칙(자원들, 길찾기, 위치들, 입장?.청록직업 ?? 왕직업.수호자,
             입장?.적색직업 ?? 왕직업.추적자, UnityEngine.Random.Range(0, int.MaxValue));
         상태 = 규칙.상태;
-        화면전환();
     }
 
     void 울타리슬롯준비()
@@ -367,7 +394,12 @@ public sealed class 신들의전쟁 : MonoBehaviour
     }
 
     static void 표시(VisualElement 요소, bool 켜짐) => 요소.style.display = 켜짐 ? DisplayStyle.Flex : DisplayStyle.None;
-    void 타이틀이동() => SceneManager.LoadScene("Title");
+    void 타이틀이동()
+    {
+        if (복귀중) return;
+        복귀중 = true;
+        SceneManager.LoadScene("Title");
+    }
 
     void 화면전환()
     {
@@ -394,21 +426,61 @@ public sealed class 신들의전쟁 : MonoBehaviour
         장면반영(1);
     }
 
+    void 서버갱신(float 초)
+    {
+        if (복귀중) return;
+        if (연결?.오류 != null || 연결 == null)
+        {
+            Debug.Log("[DivineWar] MATCH_INTERRUPTED");
+            타이틀이동();
+            return;
+        }
+        for (int i = 0; i < 96 && 연결.받기(out int 팀, out string 문장); i++)
+        {
+            if (팀 is < 0 or > 1) continue;
+            if (문장 == "F" && 상태.승자 >= 0) 결과확인[팀] = true;
+            else if (문장.StartsWith("C", StringComparison.Ordinal))
+            {
+                try { 규칙.명령(팀, JsonUtility.FromJson<전장명령>(문장.Substring(1))); }
+                catch (ArgumentException) { }
+            }
+        }
+        bool 진행중 = 상태.승자 < 0;
+        if (진행중) 규칙진행(초, false);
+        if (상태.승자 >= 0 && (결과확인[0] && 결과확인[1] || (결과대기 += 초) > 15f))
+        {
+            Debug.Log($"[DivineWar] MATCH_FINISHED winner={상태.승자}");
+            타이틀이동();
+            return;
+        }
+        전송시간 -= 초;
+        if (연결.상태전송가능 && (전송시간 <= 0 || 진행중 && 상태.승자 >= 0))
+        {
+            상태.청록왕경로 ??= new List<Vector2>();
+            상태.적색왕경로 ??= new List<Vector2>();
+            규칙.왕이동경로복사(0, 상태.청록왕경로);
+            규칙.왕이동경로복사(1, 상태.적색왕경로);
+            연결.상태보내기("S" + JsonUtility.ToJson(상태));
+            전송시간 = .083f;
+        }
+    }
+
+    void 규칙진행(float 초, bool 연습전)
+    {
+        시뮬누적 += 초;
+        while (시뮬누적 >= .04f)
+        {
+            규칙.진행(.04f, 연습전);
+            시뮬누적 -= .04f;
+        }
+    }
+
     void 접속갱신(float 초)
     {
         if (연결 == null) return;
         string 마지막상태 = null;
-        int 처리수 = 0;
-        while (처리수++ < 48 && 연결.받기(out string 문장))
-        {
-            if (내팀 == 1 && 문장.StartsWith("S", StringComparison.Ordinal))
-                마지막상태 = 문장;
-            else if (내팀 == 0 && 문장.StartsWith("C", StringComparison.Ordinal))
-            {
-                try { 규칙.명령(1, JsonUtility.FromJson<전장명령>(문장.Substring(1))); }
-                catch (ArgumentException) { }
-            }
-        }
+        while (연결.받기(out int 팀, out string 문장))
+            if (팀 == -1 && 문장.StartsWith("S", StringComparison.Ordinal)) 마지막상태 = 문장;
         if (마지막상태 != null)
         {
             try
@@ -417,6 +489,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
                 if (받은상태?.대상들?.Length == 전장규칙.전체칸 && 받은상태.진영들?.Length == 2)
                 {
                     상태 = 받은상태;
+                    if (상태.승자 >= 0 && !결과확인[내팀]) 결과확인[내팀] = 연결.보내기("F");
                     if (!전투중) 화면전환();
                 }
             }
@@ -424,8 +497,13 @@ public sealed class 신들의전쟁 : MonoBehaviour
         }
         if (상태?.승자 >= 0 || 연결종료.Length > 0) return;
         if (연결.오류 != null) 연결종료 = 연결.오류;
-        else if (!전투중 && (손님대기 += 초) > 12) 연결종료 = "호스트의 전장 정보를 받지 못했습니다.";
-        if (연결종료.Length > 0) 팝업표시("연결 종료", 연결종료, false);
+        else if (!전투중 && (손님대기 += 초) > 12) 연결종료 = "서버의 전장 정보를 받지 못했습니다.";
+        if (연결종료.Length > 0)
+        {
+            연결.Dispose();
+            연결 = null;
+            팝업표시("경기 중단", 연결종료, false);
+        }
     }
 
     bool 명령전달(명령종류 종류, Vector2 위치 = default, int 값 = 0, int[] 부대 = null,
@@ -467,6 +545,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
     void Update()
     {
         float 초 = Mathf.Min(Time.unscaledDeltaTime, .1f);
+        if (전장입장.서버빌드) { 서버갱신(초); return; }
         접속갱신(초);
         if (!전투중) return;
 
@@ -481,22 +560,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
             else 메뉴전환();
         }
         이동방향전송(이동방향읽기(키), 초);
-        if (규칙 != null && !일시정지 && 연결종료.Length == 0 && 상태.승자 < 0)
-        {
-            시뮬누적 += 초;
-            while (시뮬누적 >= .04f)
-            {
-                규칙.진행(.04f, !멀티);
-                시뮬누적 -= .04f;
-            }
-        }
-        if (멀티 && 내팀 == 0 && (전송시간 -= 초) <= 0)
-        {
-            상태.손님왕경로 ??= new List<Vector2>();
-            규칙.왕이동경로복사(1, 상태.손님왕경로);
-            연결?.상태보내기("S" + JsonUtility.ToJson(상태));
-            전송시간 = .083f;
-        }
+        if (규칙 != null && !일시정지 && 상태.승자 < 0) 규칙진행(초, true);
         if (상태.승자 >= 0 && 연결종료.Length == 0)
         {
             string 제목 = 상태.승자 == 내팀 ? "승리" : "패배";
@@ -1890,7 +1954,7 @@ public sealed class 신들의전쟁 : MonoBehaviour
     void 지도경로그리기(Painter2D 펜, Rect 범위)
     {
         if (규칙 != null) 규칙.왕이동경로복사(내팀, 내왕경로);
-        var 경로 = 규칙 != null ? 내왕경로 : 상태.손님왕경로;
+        var 경로 = 규칙 != null ? 내왕경로 : (내팀 == 0 ? 상태.청록왕경로 : 상태.적색왕경로);
         if (경로 == null || 경로.Count == 0) return;
 
         var 왕그림 = 슬롯[전장규칙.왕번호(내팀)];

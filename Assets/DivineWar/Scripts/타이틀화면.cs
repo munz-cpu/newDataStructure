@@ -1,4 +1,8 @@
 using System;
+using System.Threading;
+using Unity.Netcode;
+using Unity.Services.Lobbies;
+using Unity.Services.Multiplayer;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,6 +10,15 @@ using UnityEngine.UI;
 
 public sealed class 전장입장
 {
+    public static bool 서버빌드
+    {
+#if DIVINEWAR_DEDICATED
+        get => true;
+#else
+        get => false;
+#endif
+    }
+
     public 참가연결 연결;
     public 왕직업 청록직업, 적색직업;
     public int 내팀;
@@ -25,35 +38,45 @@ public sealed class 타이틀화면 : MonoBehaviour
     [SerializeField] SpriteRenderer 타이틀문장;
     [SerializeField] CanvasGroup 메뉴카드;
     [SerializeField] 메뉴버튼[] 직업버튼;
-    [SerializeField] Button 시작버튼, 호스트버튼, 참가버튼, 복사버튼, 취소버튼;
+    [SerializeField] Button 시작버튼, 참가버튼, 취소버튼;
     [SerializeField] TMP_Text 직업정보, 방상태;
-    [SerializeField] TMP_InputField 참가코드, 연결주소;
+    [SerializeField] TMP_InputField 참가코드;
+    [SerializeField] NetworkManager 통신관리자;
 
     Coroutine 등장;
     Vector2 카드위치;
     참가연결 연결;
     왕직업 고른직업;
-    bool 손님, 이동중;
-    float 시작대기;
+    CancellationTokenSource 연결시도;
+    bool 이동중, 직업보냄;
+    readonly 왕직업?[] 참가직업 = new 왕직업?[2];
+    float 시작대기, 재시도시각;
 
     void Awake()
     {
+        if (NetworkManager.Singleton == null) 통신관리자.gameObject.SetActive(true);
+        if (전장입장.서버빌드)
+        {
+            QualitySettings.vSyncCount = 0;
+            Application.targetFrameRate = 50;
+            메뉴카드.gameObject.SetActive(false);
+            return;
+        }
         카드위치 = ((RectTransform)메뉴카드.transform).anchoredPosition;
         for (int i = 0; i < 직업버튼.Length; i++)
         {
             int 번호 = i;
             직업버튼[i].onClick.AddListener(() => 직업고르기((왕직업)번호));
         }
-        시작버튼.onClick.AddListener(() => 전장이동((왕직업)UnityEngine.Random.Range(0, 3)));
-        호스트버튼.onClick.AddListener(방열기);
-        참가버튼.onClick.AddListener(방참가);
+        시작버튼.onClick.AddListener(() => 전장이동(0, 고른직업, (왕직업)UnityEngine.Random.Range(0, 3)));
+        참가버튼.onClick.AddListener(연결시작);
         취소버튼.onClick.AddListener(() => 방취소(""));
-        복사버튼.onClick.AddListener(코드복사);
     }
 
     void OnEnable()
     {
         if (!Application.isEditor) Application.runInBackground = true;
+        if (전장입장.서버빌드) return;
         등장 = StartCoroutine(메뉴등장.재생((RectTransform)메뉴카드.transform, 메뉴카드, 카드위치));
         직업고르기(고른직업);
         방취소("");
@@ -62,41 +85,68 @@ public sealed class 타이틀화면 : MonoBehaviour
     void OnDisable()
     {
         if (등장 != null) StopCoroutine(등장);
-        연결?.Dispose();
-        연결 = null;
+        연결정리();
     }
 
     void Update()
     {
-        타이틀문장.transform.position = 타이틀카메라.ViewportToWorldPoint(new Vector3(.75f, .51f, 10));
-        if (연결 == null || 이동중) return;
-        if (연결.오류 != null) { 방취소(연결.오류); return; }
-        if (!연결.연결됨) return;
-        if (손님)
+        if (이동중) return;
+        if (전장입장.서버빌드)
         {
-            연결.보내기("J" + (int)고른직업);
-            전장이동(고른직업);
+            if (연결 == null && 연결시도 == null && Time.realtimeSinceStartup >= 재시도시각) 연결시작();
+        }
+        else 타이틀문장.transform.position = 타이틀카메라.ViewportToWorldPoint(new Vector3(.75f, .51f, 10));
+        if (연결 == null) return;
+        if (연결.오류 != null) { 방취소(연결.오류); return; }
+        if (연결.전용서버)
+        {
+            서버준비갱신();
             return;
         }
-        for (int i = 0; i < 32 && 연결.받기(out string 문장); i++)
+        if (연결.연결됨 && !직업보냄)
+            직업보냄 = 연결.보내기("J" + (int)고른직업);
+        while (연결.받기(out int 팀, out string 문장))
         {
-            if (문장.Length == 2 && 문장[0] == 'J' && 문장[1] is >= '0' and <= '2')
-            {
-                전장이동((왕직업)(문장[1] - '0'));
-                return;
-            }
+            if (팀 != -1 || 문장.Length != 4 || 문장[0] != 'R' || 문장[1] is < '0' or > '1'
+                || !직업문자(문장[2]) || !직업문자(문장[3])) continue;
+            전장이동(문장[1] - '0', (왕직업)(문장[2] - '0'), (왕직업)(문장[3] - '0'));
+            return;
         }
-        if ((시작대기 += Time.unscaledDeltaTime) > 9)
-            방취소("상대의 게임 시작 응답을 받지 못했습니다.");
     }
 
-    void 전장이동(왕직업 적색직업)
+    static bool 직업문자(char 문자) => 문자 is >= '0' and <= '2';
+
+    void 서버준비갱신()
+    {
+        while (연결.받기(out int 팀, out string 문장))
+        {
+            if (팀 is 0 or 1 && 문장.Length == 2 && 문장[0] == 'J' && 직업문자(문장[1]))
+                참가직업[팀] ??= (왕직업)(문장[1] - '0');
+        }
+        if (!연결.연결됨) return;
+        if (!참가직업[0].HasValue || !참가직업[1].HasValue)
+        {
+            if ((시작대기 += Time.unscaledDeltaTime) > 30f) 방취소("플레이어의 전장 준비 시간이 초과됐습니다.");
+            return;
+        }
+        var 청록 = 참가직업[0].Value;
+        var 적색 = 참가직업[1].Value;
+        for (int 팀 = 0; 팀 < 2; 팀++)
+        {
+            if (연결.팀에보내기(팀, $"R{팀}{(int)청록}{(int)적색}")) continue;
+            방취소("전장 시작 정보를 전달하지 못했습니다.");
+            return;
+        }
+        전장이동(-1, 청록, 적색);
+    }
+
+    void 전장이동(int 팀, 왕직업 청록직업, 왕직업 적색직업)
     {
         if (이동중) return;
         이동중 = true;
         전장입장.대기 = new 전장입장
         {
-            연결 = 연결, 청록직업 = 고른직업, 적색직업 = 적색직업, 내팀 = 손님 && 연결 != null ? 1 : 0
+            연결 = 연결, 청록직업 = 청록직업, 적색직업 = 적색직업, 내팀 = 팀
         };
         연결 = null;
         SceneManager.LoadScene("Main");
@@ -109,63 +159,91 @@ public sealed class 타이틀화면 : MonoBehaviour
         for (int i = 0; i < 직업버튼.Length; i++) 직업버튼[i].선택표시(i == (int)직업);
     }
 
-    void 방열기()
+    async void 연결시작()
     {
+        if (연결시도 != null || 연결 != null || 이동중) return;
+        using var 시도 = new CancellationTokenSource();
+        연결시도 = 시도;
+        if (!전장입장.서버빌드)
+        {
+            버튼활성(false);
+            취소버튼.gameObject.SetActive(true);
+            방상태.text = "전용 서버에 연결하는 중…";
+        }
         try
         {
-            연결 = 참가연결.방열기(연결주소.text);
-            손님 = false;
-            시작대기 = 0;
-            버튼활성(false);
-            참가코드.SetTextWithoutNotify(연결.코드);
-            방상태.text = "참가 코드를 상대에게 공유하세요.";
-            복사버튼.gameObject.SetActive(true);
-            취소버튼.gameObject.SetActive(true);
+#if DIVINEWAR_DEDICATED
+            var 새연결 = await 참가연결.서버열기Async(시도.Token);
+#else
+            var 새연결 = await 참가연결.참가Async(참가코드.text.Trim(), 시도.Token);
+#endif
+            if (시도.IsCancellationRequested)
+            {
+                새연결.Dispose();
+                return;
+            }
+            연결 = 새연결;
+            if (연결.전용서버) Debug.Log($"[DivineWar] JOIN_CODE={연결.코드}");
+            else 방상태.text = "두 플레이어가 모이면 전투가 시작됩니다.";
         }
-        catch (Exception ex) when (ex is FormatException or System.Net.Sockets.SocketException or System.Net.NetworkInformation.NetworkInformationException)
+        catch (Exception 오류)
         {
-            방상태.text = ex is FormatException ? ex.Message : "방을 열 수 없습니다. TCP 27841 포트 사용 상태를 확인하세요.";
+            if (시도.IsCancellationRequested) return;
+            Debug.LogWarning($"방 연결 실패 ({오류.GetType().Name})");
+            방취소(오류안내(오류));
+        }
+        finally
+        {
+            if (연결시도 == 시도) 연결시도 = null;
         }
     }
 
-    void 방참가()
+    static string 오류안내(Exception 오류)
     {
-        try
+        for (var 원인 = 오류; 원인 != null; 원인 = 원인.InnerException)
         {
-            연결 = 참가연결.참가(참가코드.text);
-            손님 = true;
-            버튼활성(false);
-            방상태.text = "호스트에 연결하는 중…";
-            취소버튼.gameObject.SetActive(true);
+            if (원인 is LobbyServiceException { Reason: LobbyExceptionReason.LobbyFull }
+                || 원인 is SessionException { Error: SessionError.Unknown } && 원인.Message.IndexOf("full", StringComparison.OrdinalIgnoreCase) >= 0)
+                return "방이 가득 찼습니다.";
+            if (원인 is FormatException or SessionException { Error: SessionError.InvalidSessionIdentifier or SessionError.InvalidParameter })
+                return "참가 코드를 다시 확인해 주세요.";
+            if (원인 is SessionException { Error: SessionError.SessionNotFound or SessionError.SessionDeleted })
+                return "방을 찾을 수 없습니다. 코드를 확인해 주세요.";
+            if (원인 is InvalidOperationException { Message: "상대와 게임 버전이 다릅니다." }) return 원인.Message;
         }
-        catch (FormatException) { 방상태.text = "유효한 참가 코드 18자를 입력하세요."; }
-    }
-
-    void 코드복사()
-    {
-        if (연결 == null || 손님) return;
-        GUIUtility.systemCopyBuffer = 연결.코드;
-        방상태.text = "참가 코드를 복사했습니다. 상대를 기다리는 중…";
+        return "온라인 방에 연결할 수 없습니다. 네트워크를 확인하고 다시 시도해 주세요.";
     }
 
     void 방취소(string 문장)
     {
-        연결?.Dispose();
-        연결 = null;
+        연결정리();
         시작대기 = 0;
-        손님 = false;
+        직업보냄 = false;
+        if (전장입장.서버빌드)
+        {
+            Debug.LogWarning($"[DivineWar] {문장}");
+            Array.Clear(참가직업, 0, 참가직업.Length);
+            재시도시각 = Time.realtimeSinceStartup + 5f;
+            return;
+        }
         방상태.text = 문장;
-        복사버튼.gameObject.SetActive(false);
         취소버튼.gameObject.SetActive(false);
         버튼활성(true);
+    }
+
+    void 연결정리()
+    {
+        연결시도?.Cancel();
+        연결시도 = null;
+        연결?.Dispose();
+        연결 = null;
     }
 
     void 버튼활성(bool 켜짐)
     {
         시작버튼.interactable = 켜짐;
-        호스트버튼.interactable = 켜짐;
         참가버튼.interactable = 켜짐;
-        연결주소.interactable = 켜짐;
+        참가코드.readOnly = !켜짐;
         foreach (var 버튼 in 직업버튼) 버튼.interactable = 켜짐;
     }
 }

@@ -1,0 +1,69 @@
+name: Deploy dedicated server
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        type: choice
+        required: true
+        options: [development, production]
+      build_run:
+        description: Successful Multiplayer run ID on main for this commit
+        type: string
+        required: true
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  deploy:
+    if: github.ref == 'refs/heads/main'
+    environment: ${{ inputs.environment }}
+    runs-on: ubuntu-24.04
+    concurrency:
+      group: dedicated-server-${{ inputs.environment }}
+      cancel-in-progress: false
+    env:
+      TARGET: ${{ inputs.environment }}
+      RUN: ${{ inputs.build_run }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Fetch the verified server artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [[ "$RUN" =~ ^[0-9]+$ ]]
+          run_json=$(gh api "repos/$GITHUB_REPOSITORY/actions/runs/$RUN")
+          jq -e --arg sha "$GITHUB_SHA" \
+            '.head_sha == $sha and .head_branch == "main" and .conclusion == "success"
+             and .path == ".github/workflows/multiplayer.yml"
+             and (.event == "push" or .event == "workflow_dispatch")' <<< "$run_json" >/dev/null
+          if [[ "$TARGET" == production ]]; then
+            gh api "repos/$GITHUB_REPOSITORY/environments/production" \
+              --jq 'any(.protection_rules[]?; .type == "required_reviewers" and (.reviewers | length > 0))' | grep -Fx true
+          fi
+          gh run download "$RUN" --name "DivineWar-$TARGET-server" --dir "$RUNNER_TEMP/server"
+      - name: Install release and wait for room registration
+        env:
+          HOST: ${{ vars.DIVINEWAR_SSH_HOST }}
+          USERNAME: ${{ vars.DIVINEWAR_SSH_USER }}
+          PRIVATE_KEY: ${{ secrets.DIVINEWAR_SSH_KEY }}
+          KNOWN_HOSTS: ${{ secrets.DIVINEWAR_KNOWN_HOSTS }}
+        run: |
+          set -euo pipefail
+          [[ "$HOST" =~ ^[A-Za-z0-9][A-Za-z0-9.-]*$ && "$USERNAME" =~ ^[a-z_][a-z0-9_-]*$ ]]
+          [[ -n "$PRIVATE_KEY" && -n "$KNOWN_HOSTS" ]]
+          umask 077
+          mkdir -p ~/.ssh
+          printf '%s\n' "$PRIVATE_KEY" > ~/.ssh/deploy
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          opts=(-i ~/.ssh/deploy -o IdentitiesOnly=yes -o BatchMode=yes -o StrictHostKeyChecking=yes)
+          archive="$RUNNER_TEMP/server/DivineWar-$TARGET-server.tar.gz"
+          digest=$(sha256sum "$archive" | cut -d' ' -f1)
+          remote="$USERNAME@$HOST"
+          dest=$(ssh "${opts[@]}" "$remote" "mktemp /tmp/divinewar-$TARGET-XXXXXXXX")
+          [[ "$dest" =~ ^/tmp/divinewar-(development|production)-[A-Za-z0-9]+$ ]]
+          scp "${opts[@]}" "$archive" "$remote:$dest"
+          ssh "${opts[@]}" "$remote" bash -s -- "$TARGET" "$GITHUB_SHA-$RUN" "$dest" "$digest" < Ops/activate-server.sh
