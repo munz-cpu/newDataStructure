@@ -1,0 +1,171 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
+using System.Text;
+using UnityEditor;
+using UnityEngine;
+using UnityEngine.Tilemaps;
+
+// Uses authored Main scene terrain; creates only isolated battle-state data, never scene objects.
+public static class TrainingQueueChecks
+{
+    const BindingFlags Private = BindingFlags.Instance | BindingFlags.NonPublic;
+    static readonly List<string> Results = new();
+
+    [MenuItem("DivineWar/Validation/Training Queue")]
+    public static void Run()
+    {
+        Results.Clear();
+        try
+        {
+            Check("FIFO conversion and training duration", () =>
+            {
+                var f = new Fixture();
+                var first = f.Worker(6); var second = f.Worker(7);
+                first.체력 = first.최대체력 / 2;
+                f.Train(6, 7, 6);
+                Require(f.Team.훈련대기인원 == 2, "Duplicate selection queued twice");
+                Require(f.Team.재화[0] == 100000 - 30, "Training cost not reserved once per resident");
+                f.Step(5.8f);
+                Require(f.Soldiers == 0 && first.생존 && second.생존, "Training completed early");
+                f.Step(.3f);
+                Require(f.Soldiers == 1 && !first.생존 && second.생존, "FIFO order violated");
+                Require(Mathf.Abs(f.State.대상들[전장규칙.병사시작칸].체력 - 52.5f) < .01f, "Conversion healed damage");
+                f.Step(6.1f);
+                Require(f.Soldiers == 2 && !second.생존 && f.Team.훈련대기인원 == 0, "Second conversion failed");
+            });
+            Check("Travel before training", () =>
+            {
+                var f = new Fixture(); var worker = f.Worker(6);
+                worker.위치 += Vector2.right * 5;
+                f.Train(6); f.Rules.진행(.05f, false);
+                Require(f.Team.훈련남은시간 == 전장규칙.주민훈련시간, "Timer ran before arrival");
+                f.Step(20);
+                Require(f.Soldiers == 1 && !worker.생존, "Resident failed to walk to training school");
+            });
+            Check("New command cancels and refunds", () =>
+            {
+                var f = new Fixture(); var worker = f.Worker(6); f.Train(6);
+                f.Rules.명령(0, new 전장명령 { 종류 = 명령종류.부대이동, 위치 = f.Entry, 부대 = new[] { 6 } });
+                f.Rules.진행(0, false);
+                Require(f.Team.훈련대기인원 == 0 && worker.생존 && worker.훈련소 == -1, "Order did not cancel");
+                Require(f.Team.재화[0] == 100000 && f.Team.재화[4] == 100000, "Incomplete refund");
+            });
+            Check("Destroyed school releases all residents", () =>
+            {
+                var f = new Fixture(); f.Worker(6); f.Worker(7); f.Train(6, 7);
+                f.State.대상들[4].체력 = 0; f.Rules.진행(0, false);
+                Require(f.Team.훈련대기인원 == 0 && f.Team.재화[0] == 100000 && f.Soldiers == 0, "Destroyed school retained orders");
+                Require(f.State.대상들[6].훈련소 < 0 && f.State.대상들[7].훈련소 < 0, "Residents were not released");
+            });
+            Check("Dead resident and reused slot", () =>
+            {
+                var f = new Fixture(); var first = f.Worker(6); f.Worker(7); f.Train(6, 7);
+                first.체력 = 0; var replacement = f.Worker(6);
+                f.Step(6.1f);
+                Require(replacement.생존 && f.Soldiers == 1 && !f.State.대상들[7].생존, "Reused resident slot consumed old order");
+            });
+            Check("Rejected orders preserve residents and money", () =>
+            {
+                var f = new Fixture(); f.Worker(6);
+                f.Train();
+                f.Rules.명령(1, new 전장명령 { 종류 = 명령종류.주민훈련, 값 = 4, 부대 = new[] { 6 } });
+                f.State.대상들[4].완공대기 = 3; f.Train(6);
+                Require(f.Team.훈련대기인원 == 0 && f.Team.재화[0] == 100000, "Invalid order charged resources");
+                f.State.대상들[4].완공대기 = 0; f.Team.재화[4] = 0; f.Train(6);
+                Require(f.Team.훈련대기인원 == 0 && f.Team.재화[0] == 100000, "Unaffordable training partially charged");
+                f.Rules.명령(0, new 전장명령 { 종류 = 명령종류.모집, 값 = 1 }); f.Step(7);
+                Require(f.Soldiers == 0, "Old recruit command spawned a soldier");
+            });
+            Check("Population slots and reserved army capacity", () =>
+            {
+                var f = new Fixture();
+                for (int i = 0; i < 전장규칙.주민제한; i++) f.Worker(6 + i);
+                for (int i = 0; i < 전장규칙.병력제한 - 1; i++) f.Place(전장규칙.병사시작칸 + i, 0, 대상종류.병사, f.Entry + Vector2.right * 4, 105);
+                f.Train(6, 7);
+                Require(f.Team.훈련대기인원 == 1 && f.Team.재화[0] == 99985, "Queue exceeded army cap");
+                Require(전장규칙.수량(f.State, 0, 대상종류.주민) == 24 && f.Soldiers == 47, "Resident and soldier slots overlap");
+                f.Step(6.1f);
+                Require(f.Soldiers == 48 && 전장규칙.수량(f.State, 0, 대상종류.주민) == 23, "Capacity conversion failed");
+            });
+            Check("Snapshot size and training replication", () =>
+            {
+                var f = new Fixture(); f.Worker(6); f.Train(6);
+                for (int i = 0; i < f.State.대상들.Length; i++)
+                    f.State.대상들[i] ??= new 전장대상 { 팀 = 1, 종류 = 대상종류.병사, 체력 = 105, 최대체력 = 105 };
+                string json = JsonUtility.ToJson(f.State);
+                var copy = JsonUtility.FromJson<전장상태>(json);
+                Require(copy.진영들[0].훈련대기인원 == 1 && copy.대상들[6].훈련소 == 4, "Training fields missing in snapshot");
+                Require(Encoding.UTF8.GetByteCount("S" + json) < 262144, "Snapshot exceeds network frame limit");
+                Results.Add("Snapshot bytes: " + Encoding.UTF8.GetByteCount("S" + json));
+            });
+            Check("Authored renderer references", () =>
+            {
+                var source = UnityEngine.Object.FindFirstObjectByType<신들의전쟁>();
+                var renderers = (SpriteRenderer[])typeof(신들의전쟁).GetField("슬롯", Private).GetValue(source);
+                Require(renderers.Length == 전장규칙.울타리시작칸, "Authored unit slot count incorrect");
+                var unique = new HashSet<SpriteRenderer>();
+                foreach (var renderer in renderers)
+                    Require(renderer != null && renderer.sprite != null && unique.Add(renderer), "Missing or duplicate renderer");
+            });
+            Results.Add("ALL PASSED");
+        }
+        catch (Exception error) { Results.Add("FAILED: " + error); }
+        Directory.CreateDirectory("Temp/TrainingWork");
+        File.WriteAllLines("Temp/TrainingWork/results.txt", Results);
+        Debug.Log(string.Join("\n", Results));
+    }
+
+    static void Check(string name, Action test) { test(); Results.Add("PASS: " + name); }
+    static void Require(bool value, string message) { if (!value) throw new Exception(message); }
+
+    sealed class Fixture
+    {
+        public readonly 전장규칙 Rules;
+        public 전장상태 State => Rules.상태;
+        public 진영상태 Team => State.진영들[0];
+        public readonly Vector2 Entry;
+        public int Soldiers => 전장규칙.수량(State, 0, 대상종류.병사);
+
+        public Fixture()
+        {
+            var source = UnityEngine.Object.FindFirstObjectByType<신들의전쟁>();
+            Require(source != null, "Open Main scene before running checks");
+            object Field(string name) => typeof(신들의전쟁).GetField(name, Private).GetValue(source);
+            var floor = (Tilemap)Field("바닥타일맵");
+            var navigation = new 격자길찾기(floor, (Tilemap)Field("장애물타일맵"));
+            var starts = (Transform[])Field("시작지점들");
+            var bases = Array.ConvertAll(starts, t => (Vector2)t.position);
+            Rules = new 전장규칙((자원지점[])Field("자원들"), navigation, bases, 왕직업.수호자, 왕직업.수호자, 374);
+            foreach (var team in State.진영들)
+            {
+                Array.Fill(team.재화, 100000); team.제재시간 = 999999; team.심부름 = 4;
+            }
+            foreach (var unit in State.대상들)
+                if (unit != null && unit.종류 == 대상종류.주민) unit.체력 = 0;
+            Vector2 hall = State.대상들[1].위치;
+            bool found = false;
+            for (int y = -5; y <= 5 && !found; y++)
+            for (int x = -5; x <= 5 && !found; x++)
+            {
+                var p = hall + new Vector2(x, y);
+                if (x * x + y * y < 9 || !navigation.정적통행가능(p)
+                    || !navigation.정적통행가능(p + Vector2.down)
+                    || !navigation.정적통행가능(p + Vector2.down + Vector2.right * 5)) continue;
+                Place(4, 0, 대상종류.훈련소, p, 320);
+                Entry = p + Vector2.down; found = true;
+            }
+            Require(found, "No valid training fixture position");
+        }
+
+        public 전장대상 Place(int index, int team, 대상종류 kind, Vector2 point, float health)
+            => (전장대상)typeof(전장규칙).GetMethod("배치", Private).Invoke(Rules, new object[] { index, team, kind, point, health });
+        public 전장대상 Worker(int index) => Place(index, 0, 대상종류.주민, Entry, 65);
+        public void Train(params int[] workers) => Rules.명령(0, new 전장명령 { 종류 = 명령종류.주민훈련, 값 = 4, 부대 = workers });
+        public void Step(float seconds)
+        {
+            for (int i = 0; i < Mathf.RoundToInt(seconds / .05f); i++) Rules.진행(.05f, false);
+        }
+    }
+}

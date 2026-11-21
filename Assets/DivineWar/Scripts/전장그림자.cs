@@ -84,6 +84,7 @@ sealed class 전장그림자 : IDisposable
             {
                 대상종류.회관 => new Vector2(2.34f, 1.1f),
                 대상종류.제재소 or 대상종류.훈련소 => new Vector2(2.08f, .94f),
+                대상종류.나무울타리 or 대상종류.돌울타리 => new Vector2(.72f, .38f),
                 대상종류.왕 => new Vector2(1.28f, .55f),
                 _ => new Vector2(1.10f, .52f)
             };

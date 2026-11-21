@@ -1,0 +1,75 @@
+.food-toggle, .food-panel {
+    position: absolute;
+    right: 18px;
+    color: #f1d9a9;
+    border-width: 2px;
+    border-top-color: #987447;
+    border-left-color: #795b39;
+    border-right-color: #483425;
+    border-bottom-color: #483425;
+    border-radius: 2px;
+}
+.food-toggle {
+    top: 62px;
+    height: 32px;
+    padding: 0 13px;
+    background-color: #493426;
+    font-size: 16px;
+}
+.food-toggle:hover, .food-small-button:hover {
+    background-color: #6e5137;
+}
+.food-panel {
+    top: 99px;
+    width: 323px;
+    max-width: 90%;
+    padding: 9px;
+    background-color: #2b211a;
+}
+.food-title {
+    color: #f3ddab;
+    font-size: 17px;
+    margin: 0 0 6px 3px;
+}
+.food-row {
+    height: 42px;
+    margin-bottom: 3px;
+    padding: 0 3px;
+    flex-direction: row;
+    align-items: center;
+    border-bottom-width: 1px;
+    border-bottom-color: #614933;
+    background-color: #362a20;
+}
+.food-icon {
+    width: 37px;
+    height: 36px;
+    flex-shrink: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.food-description { flex-grow: 1; margin-left: 3px; }
+.food-name { color: #f1d9a9; font-size: 14px; margin: 0; }
+.food-detail { color: #c2af87; font-size: 12px; margin: 0; }
+.food-count {
+    min-width: 24px;
+    color: #efc577;
+    font-size: 15px;
+    -unity-text-align: middle-center;
+}
+.food-small-button, .food-cook-space {
+    width: 48px;
+    min-width: 48px;
+    flex-shrink: 0;
+    margin: 0 1px;
+}
+.food-small-button {
+    height: 25px;
+    color: #f0dab1;
+    border-color: #785d3f;
+    background-color: #4c3929;
+    font-size: 12px;
+}
+.food-small-button:disabled { opacity: 0.42; }
+.food-status { margin: 6px 3px 1px; white-space: normal; }
