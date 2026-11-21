@@ -64,7 +64,7 @@ public sealed class 전장상태
     public 전장대상[] 대상들;
     public 짐승상태[] 짐승들;
     public 진영상태[] 진영들;
-    public List<Vector2> 손님왕경로;
+    public List<Vector2> 청록왕경로, 적색왕경로;
     public float 시간;
     public int 승자 = -1;
 }
