@@ -20,10 +20,10 @@ public sealed class 격자길찾기
     readonly Tilemap 바닥;
     readonly BoundsInt 구역;
     readonly bool[] 통행, 건물차단, 닫힘;
-    readonly int[] 거리, 이전;
+    readonly int[] 거리, 이전, 이동비용;
     readonly int[] 건물칸;
     readonly Vector2[] 중심;
-    readonly List<(int 칸, int 점수)> 후보 = new();
+    readonly List<(int 칸, (int 전체, int 남은거리) 점수)> 후보 = new();
     int 지도버전;
 
     public Rect 전장범위 { get; }
@@ -45,6 +45,7 @@ public sealed class 격자길찾기
         닫힘 = new bool[칸수];
         거리 = new int[칸수];
         이전 = new int[칸수];
+        이동비용 = new int[칸수];
         중심 = new Vector2[칸수];
         건물칸 = new int[전장규칙.전체칸];
         Array.Fill(건물칸, -1);
@@ -52,6 +53,7 @@ public sealed class 격자길찾기
         {
             var 칸 = 칸좌표(i);
             통행[i] = 바닥.HasTile(칸) && !장애물.HasTile(칸) && 지형?.차단됨(칸) != true;
+            이동비용[i] = 지형?.이동비용(칸) ?? 전장지형.평지비용;
             중심[i] = 바닥.GetCellCenterWorld(칸);
         }
     }
@@ -82,7 +84,13 @@ public sealed class 격자길찾기
         return 번호 >= 0 && 통행[번호];
     }
 
-    internal bool 건설지형가능(Vector2 위치) => 정적통행가능(위치) && 지형?.수풀인가(위치) != true;
+    internal bool 건설지형가능(Vector2 위치) => 정적통행가능(위치) && 지형?.건설가능(위치) != false;
+
+    internal float 이동속도배율(Vector2 위치)
+    {
+        int 칸 = 위치칸(위치);
+        return 칸 < 0 ? 1 : (float)전장지형.평지비용 / 이동비용[칸];
+    }
 
     public void 건물반영(int 번호, Vector2 위치, bool 있음)
     {
@@ -184,7 +192,8 @@ public sealed class 격자길찾기
             // 이웃 열에서 더 가까운 칸이 가능한 경우에는 탐색을 계속한다.
             if (인접거리 >= 2.25f) 인접거리 = float.NegativeInfinity;
         }
-        후보추가(시작, 추정거리(칸좌표(시작), 목표좌표));
+        int 시작추정 = 추정거리(칸좌표(시작), 목표좌표);
+        후보추가(시작, (시작추정, 시작추정));
         while (후보.Count > 0)
         {
             int 지금 = 후보꺼내기();
@@ -202,12 +211,13 @@ public sealed class 격자길찾기
                 bool 대각 = 방향.x != 0 && 방향.y != 0;
                 if (대각 && (!통행가능(칸번호(좌표 + new Vector3Int(방향.x, 0, 0)))
                     || !통행가능(칸번호(좌표 + new Vector3Int(0, 방향.y, 0))))) continue;
-                int 새거리 = 거리[지금] + (대각 ? 14 : 10);
+                // 칸 중심 사이의 두 절반을 각각의 지형 비용으로 계산한다.
+                int 새거리 = 거리[지금] + (대각 ? 14 : 10) * (이동비용[지금] + 이동비용[다음]);
                 if (새거리 >= 거리[다음]) continue;
                 거리[다음] = 새거리;
                 이전[다음] = 지금;
                 int 추정 = 추정거리(칸좌표(다음), 목표좌표);
-                후보추가(다음, (새거리 + 추정) * 2048 + 추정);
+                후보추가(다음, (새거리 + 추정, 추정));
             }
         }
         for (int 칸 = 최선; 칸 != 시작; 칸 = 이전[칸]) 결과.Add(중심[칸]);
@@ -217,17 +227,17 @@ public sealed class 격자길찾기
     static int 추정거리(Vector3Int a, Vector3Int b)
     {
         int x = Mathf.Abs(a.x - b.x), y = Mathf.Abs(a.y - b.y);
-        return 10 * Mathf.Max(x, y) + 4 * Mathf.Min(x, y);
+        return (10 * Mathf.Max(x, y) + 4 * Mathf.Min(x, y)) * (2 * 전장지형.흙길비용);
     }
 
-    void 후보추가(int 칸, int 점수)
+    void 후보추가(int 칸, (int 전체, int 남은거리) 점수)
     {
         int i = 후보.Count;
         후보.Add((칸, 점수));
         while (i > 0)
         {
             int 부모 = (i - 1) / 2;
-            if (후보[부모].점수 <= 점수) break;
+            if (후보[부모].점수.CompareTo(점수) <= 0) break;
             후보[i] = 후보[부모];
             i = 부모;
         }
@@ -244,8 +254,8 @@ public sealed class 격자길찾기
         while (2 * i + 1 < 후보.Count)
         {
             int 자식 = 2 * i + 1;
-            if (자식 + 1 < 후보.Count && 후보[자식 + 1].점수 < 후보[자식].점수) 자식++;
-            if (후보[자식].점수 >= 마지막.점수) break;
+            if (자식 + 1 < 후보.Count && 후보[자식 + 1].점수.CompareTo(후보[자식].점수) < 0) 자식++;
+            if (후보[자식].점수.CompareTo(마지막.점수) >= 0) break;
             후보[i] = 후보[자식];
             i = 자식;
         }

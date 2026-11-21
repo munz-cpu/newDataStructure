@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 public sealed class 참가연결 : IDisposable
 {
     public const int 포트 = 27841;
-    const int 최대길이 = 65536;
+    const int 최대길이 = 262144;
     readonly CancellationTokenSource 종료 = new();
     readonly ConcurrentQueue<string> 수신함 = new();
     readonly ConcurrentQueue<string> 송신함 = new();

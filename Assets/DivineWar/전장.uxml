@@ -1,4 +1,50 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="project://database/Assets/DivineWar/food-inventory.uss" />
     <ui:VisualElement name="draw" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0; overflow: hidden; display: none;" />
     <ui:VisualElement name="minimap" style="position: absolute; overflow: hidden; display: none; background-color: #344e44; background-size: 100% 100%;" />
+    <ui:Button name="food-toggle" text="인벤토리 [I]" class="food-toggle" style="display: none;" />
+    <ui:VisualElement name="food-panel" class="food-panel" style="display: none;">
+        <ui:Label text="고기 인벤토리" class="food-title" />
+        <ui:VisualElement class="food-row">
+            <ui:VisualElement name="food-icon-0" class="food-icon" picking-mode="Ignore" />
+            <ui:VisualElement class="food-description" picking-mode="Ignore">
+                <ui:Label text="날돼지고기" class="food-name" />
+                <ui:Label name="food-recovery-0" class="food-detail" />
+            </ui:VisualElement>
+            <ui:Label name="food-count-0" class="food-count" text="0" />
+            <ui:Button name="food-cook-0" text="굽기" class="food-small-button" />
+            <ui:Button name="food-use-0" text="사용" class="food-small-button" />
+        </ui:VisualElement>
+        <ui:VisualElement class="food-row">
+            <ui:VisualElement name="food-icon-1" class="food-icon" picking-mode="Ignore" />
+            <ui:VisualElement class="food-description" picking-mode="Ignore">
+                <ui:Label text="날닭고기" class="food-name" />
+                <ui:Label name="food-recovery-1" class="food-detail" />
+            </ui:VisualElement>
+            <ui:Label name="food-count-1" class="food-count" text="0" />
+            <ui:Button name="food-cook-1" text="굽기" class="food-small-button" />
+            <ui:Button name="food-use-1" text="사용" class="food-small-button" />
+        </ui:VisualElement>
+        <ui:VisualElement class="food-row">
+            <ui:VisualElement name="food-icon-2" class="food-icon" picking-mode="Ignore" />
+            <ui:VisualElement class="food-description" picking-mode="Ignore">
+                <ui:Label text="익힌 돼지고기" class="food-name" />
+                <ui:Label name="food-recovery-2" class="food-detail" />
+            </ui:VisualElement>
+            <ui:Label name="food-count-2" class="food-count" text="0" />
+            <ui:VisualElement class="food-cook-space" picking-mode="Ignore" />
+            <ui:Button name="food-use-2" text="사용" class="food-small-button" />
+        </ui:VisualElement>
+        <ui:VisualElement class="food-row">
+            <ui:VisualElement name="food-icon-3" class="food-icon" picking-mode="Ignore" />
+            <ui:VisualElement class="food-description" picking-mode="Ignore">
+                <ui:Label text="익힌 닭고기" class="food-name" />
+                <ui:Label name="food-recovery-3" class="food-detail" />
+            </ui:VisualElement>
+            <ui:Label name="food-count-3" class="food-count" text="0" />
+            <ui:VisualElement class="food-cook-space" picking-mode="Ignore" />
+            <ui:Button name="food-use-3" text="사용" class="food-small-button" />
+        </ui:VisualElement>
+        <ui:Label name="food-status" text="완공된 아군 모닥불 근처에서 조리" class="food-detail food-status" />
+    </ui:VisualElement>
 </ui:UXML>
