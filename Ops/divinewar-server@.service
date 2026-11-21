@@ -1,0 +1,15 @@
+[Unit]
+Description=DivineWar dedicated match server (%i)
+After=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/divinewar/%i/current
+Environment=DIVINEWAR_UGS_PROFILE=server-%i
+ExecStart=%h/divinewar/%i/current/DivineWarServer.x86_64 -batchmode -nographics -logFile -
+Restart=on-failure
+RestartSec=10
+UMask=0077
+
+[Install]
+WantedBy=default.target

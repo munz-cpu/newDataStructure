@@ -1,0 +1,98 @@
+name: Build player
+on:
+  workflow_call:
+    inputs:
+      platform:
+        type: string
+        required: true
+      stage:
+        type: string
+        required: true
+      validate_only:
+        type: boolean
+        default: false
+    secrets:
+      UNITY_LICENSE: { required: true }
+      UNITY_EMAIL: { required: true }
+      UNITY_PASSWORD: { required: true }
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 65
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Select Linux or Windows player
+        id: target
+        env:
+          PLATFORM: ${{ inputs.platform }}
+          STAGE: ${{ inputs.stage }}
+          VALIDATE_ONLY: ${{ inputs.validate_only }}
+        run: |
+          case "$PLATFORM/$STAGE" in
+            linux/development) method=ValidateAndBuildDevelopment ;;
+            linux/production) method=Production ;;
+            windows/development) method=WindowsDevelopmentForCi ;;
+            server/development) method=ServerDevelopment ;;
+            server/production) method=ServerProduction ;;
+            windows/production) method=WindowsProduction ;;
+            *) exit 1 ;;
+          esac
+          if [[ "$VALIDATE_ONLY" == true ]]; then method=Validate; fi
+          if [[ "$PLATFORM" != windows ]]; then
+            target=StandaloneLinux64
+            module=linux-il2cpp
+          else
+            target=StandaloneWindows64
+            module=windows-mono
+          fi
+          echo "method=DivineWarBuild.$method" >> "$GITHUB_OUTPUT"
+          echo "target=$target" >> "$GITHUB_OUTPUT"
+          echo "image=unityci/editor:ubuntu-6000.6.3f1-$module-3" >> "$GITHUB_OUTPUT"
+      - uses: game-ci/unity-builder@4423ee75828dff56037d1d1cfdac6b68e3a6ba00 # v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          targetPlatform: ${{ steps.target.outputs.target }}
+          customImage: ${{ steps.target.outputs.image }}
+          versioning: None
+          buildMethod: ${{ steps.target.outputs.method }}
+      - uses: actions/upload-artifact@v4
+        if: always() && inputs.stage == 'development' && inputs.platform == 'linux'
+        with:
+          name: battle-validation
+          path: Builds/validation/battle.txt
+          if-no-files-found: ignore
+      - name: Package standalone player
+        if: '!inputs.validate_only'
+        env:
+          PLATFORM: ${{ inputs.platform }}
+          STAGE: ${{ inputs.stage }}
+        run: |
+          if [[ "$PLATFORM" == windows ]]; then
+            (cd "Builds/windows/$STAGE" && zip -qr "$GITHUB_WORKSPACE/DivineWar-$STAGE-windows.zip" . -x '*_BackUpThisFolder_ButDontShipItWithYourGame/*')
+            if [[ "$STAGE" == development ]]; then
+              (cd "Builds/windows-server/$STAGE" && zip -qr "$GITHUB_WORKSPACE/test-server.zip" . -x '*_BackUpThisFolder_ButDontShipItWithYourGame/*')
+            fi
+          else
+            dir="Builds/$STAGE"
+            if [[ "$PLATFORM" == server ]]; then dir="Builds/server/$STAGE"; fi
+            tar -C "$dir" --exclude='*_BackUpThisFolder_ButDontShipItWithYourGame' -czf "DivineWar-$STAGE-$PLATFORM.tar.gz" .
+          fi
+      - uses: actions/upload-artifact@v4
+        if: inputs.stage == 'development' && inputs.platform == 'windows' && !inputs.validate_only
+        with:
+          name: windows-smoke-server
+          path: test-server.zip
+          retention-days: 1
+      - uses: actions/upload-artifact@v4
+        if: '!inputs.validate_only'
+        with:
+          name: DivineWar-${{ inputs.stage }}-${{ inputs.platform }}
+          path: DivineWar-${{ inputs.stage }}-${{ inputs.platform }}.*
+          if-no-files-found: error
+          compression-level: 0
