@@ -27,10 +27,14 @@ public sealed class 격자길찾기
     int 지도버전;
 
     public Rect 전장범위 { get; }
+    internal 전장지형 지형 { get; }
 
-    public 격자길찾기(Tilemap 바닥, Tilemap 장애물)
+    public 격자길찾기(Tilemap 바닥, Tilemap 장애물) : this(바닥, 장애물, null) { }
+
+    internal 격자길찾기(Tilemap 바닥, Tilemap 장애물, 전장지형 지형)
     {
         this.바닥 = 바닥;
+        this.지형 = 지형;
         구역 = 바닥.cellBounds;
         var 왼쪽아래 = 바닥.CellToWorld(구역.min);
         var 오른쪽위 = 바닥.CellToWorld(구역.max);
@@ -47,7 +51,7 @@ public sealed class 격자길찾기
         for (int i = 0; i < 칸수; i++)
         {
             var 칸 = 칸좌표(i);
-            통행[i] = 바닥.HasTile(칸) && !장애물.HasTile(칸);
+            통행[i] = 바닥.HasTile(칸) && !장애물.HasTile(칸) && 지형?.차단됨(칸) != true;
             중심[i] = 바닥.GetCellCenterWorld(칸);
         }
     }
@@ -77,6 +81,8 @@ public sealed class 격자길찾기
         int 번호 = 위치칸(위치);
         return 번호 >= 0 && 통행[번호];
     }
+
+    internal bool 건설지형가능(Vector2 위치) => 정적통행가능(위치) && 지형?.수풀인가(위치) != true;
 
     public void 건물반영(int 번호, Vector2 위치, bool 있음)
     {

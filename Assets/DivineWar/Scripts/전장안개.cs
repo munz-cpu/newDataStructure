@@ -12,8 +12,8 @@ sealed class 전장안개 : IDisposable
 
     readonly Rect 전장범위;
     readonly int 너비, 높이;
-    readonly Color32[] 픽셀;
-    readonly bool[] 탐사한칸;
+    readonly Color32[] 픽셀, 지도픽셀, 지형색;
+    readonly bool[] 탐사한칸, 바다칸;
     readonly List<(int 번호, float 시작시간)> 걷히는칸 = new();
     readonly Material 재질;
     readonly Sprite 구름;
@@ -21,8 +21,9 @@ sealed class 전장안개 : IDisposable
     float 다음갱신;
 
     public Texture2D 탐사지도 { get; }
+    public Texture2D 전장지도 { get; }
 
-    public 전장안개(Transform 부모, Rect 전장범위)
+    public 전장안개(Transform 부모, Rect 전장범위, 전장지형 지형)
     {
         this.전장범위 = 전장범위;
         너비 = Mathf.CeilToInt(전장범위.width * 칸밀도);
@@ -38,6 +39,27 @@ sealed class 전장안개 : IDisposable
         };
         탐사지도.SetPixels32(픽셀);
         탐사지도.Apply();
+
+        지도픽셀 = new Color32[픽셀.Length];
+        지형색 = new Color32[픽셀.Length];
+        바다칸 = new bool[픽셀.Length];
+        for (int y = 0; y < 높이; y++)
+        for (int x = 0; x < 너비; x++)
+        {
+            int 번호 = y * 너비 + x;
+            var 위치 = 전장범위.min + new Vector2(x + .5f, y + .5f) / 칸밀도;
+            지형색[번호] = 지형.지도색(위치);
+            바다칸[번호] = 지형.바다인가(위치);
+            지도픽셀[번호] = 바다칸[번호] ? 지형색[번호] : 미탐사;
+        }
+        전장지도 = new Texture2D(너비, 높이, TextureFormat.RGBA32, false)
+        {
+            name = "전장 미니맵",
+            filterMode = FilterMode.Point,
+            wrapMode = TextureWrapMode.Clamp
+        };
+        전장지도.SetPixels32(지도픽셀);
+        전장지도.Apply();
 
         var 무늬 = Resources.Load<Texture2D>("battle-fog");
         var 셰이더 = Resources.Load<Shader>("전장 안개");
@@ -106,6 +128,8 @@ sealed class 전장안개 : IDisposable
             byte 불투명도 = (byte)Mathf.RoundToInt(Mathf.SmoothStep(255, 0, 진행률));
             if (픽셀[번호].a == 불투명도) continue;
             픽셀[번호].a = 불투명도;
+            if (!바다칸[번호])
+                지도픽셀[번호] = Color32.Lerp(지형색[번호], 미탐사, 불투명도 / 255f);
             변경 = true;
         }
 
@@ -114,6 +138,8 @@ sealed class 전장안개 : IDisposable
         if (!변경) return false;
         탐사지도.SetPixels32(픽셀);
         탐사지도.Apply();
+        전장지도.SetPixels32(지도픽셀);
+        전장지도.Apply();
         return true;
     }
 
@@ -123,5 +149,6 @@ sealed class 전장안개 : IDisposable
         UnityEngine.Object.Destroy(구름);
         UnityEngine.Object.Destroy(재질);
         UnityEngine.Object.Destroy(탐사지도);
+        UnityEngine.Object.Destroy(전장지도);
     }
 }
