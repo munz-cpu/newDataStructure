@@ -136,3 +136,17 @@ crashlytics-build.properties
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Local copies of vendor packs. Referenced animation frames and metadata stay tracked.
+/Assets/Images/2D HD Character Knight/
+/Assets/Images/2D HD Character Knight.meta
+/Assets/Images/2D HD Character pack 1 V1.2 (1)/
+/Assets/Images/2D HD Character pack 1 V1.2 (1).meta
+/Assets/Images/8 Directional Greatsword Knight Character/
+/Assets/Images/8 Directional Greatsword Knight Character.meta
+/Assets/Images/HiRezBlueKnightUnarmed/
+/Assets/Images/HiRezBlueKnightUnarmed.meta
+/Assets/Images/Projectiles - 2D HD Character pack 1/
+/Assets/Images/Projectiles - 2D HD Character pack 1.meta
+
+/.vscode/settings.json
