@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 52e91edb13a90dc448298d89e746a7a5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4357943356591688722
+    second: gragas_walk_0
+  - first:
+      213: -6098815965086401949
+    second: gragas_walk_1
+  - first:
+      213: 4694086627477439660
+    second: gragas_walk_2
+  - first:
+      213: 9057157481529461410
+    second: gragas_walk_3
+  - first:
+      213: -2972422987813817075
+    second: gragas_walk_4
+  - first:
+      213: 1231113562655139742
+    second: gragas_walk_5
+  - first:
+      213: 2713017113973433039
+    second: gragas_walk_6
+  - first:
+      213: -3452900693274423321
+    second: gragas_walk_7
+  - first:
+      213: -1752496164228670901
+    second: gragas_walk_8
+  - first:
+      213: 4349367192642757665
+    second: gragas_walk_9
+  - first:
+      213: -4989745229031603938
+    second: gragas_walk_10
+  - first:
+      213: 5338651478576454382
+    second: gragas_walk_11
+  - first:
+      213: 8567023434733617723
+    second: gragas_walk_12
+  - first:
+      213: 1576373205851440239
+    second: gragas_walk_13
+  - first:
+      213: -36027157337697990
+    second: gragas_walk_14
+  - first:
+      213: 6999020067845261929
+    second: gragas_walk_15
+  - first:
+      213: 4131543578275079014
+    second: gragas_walk_16
+  - first:
+      213: 8994613742730485504
+    second: gragas_walk_17
+  - first:
+      213: -3097354119008669133
+    second: gragas_walk_18
+  - first:
+      213: 3733482465762651404
+    second: gragas_walk_19
+  - first:
+      213: -1259978983033671428
+    second: gragas_walk_20
+  - first:
+      213: 7940615468119953453
+    second: gragas_walk_21
+  - first:
+      213: 8363443135293562674
+    second: gragas_walk_22
+  - first:
+      213: 2296683997459069470
+    second: gragas_walk_23
+  - first:
+      213: 3184638994871263087
+    second: gragas_walk_24
+  - first:
+      213: 7475150842209837312
+    second: gragas_walk_25
+  - first:
+      213: 5190687377050465245
+    second: gragas_walk_26
+  - first:
+      213: 130405876605416687
+    second: gragas_walk_27
+  - first:
+      213: -8944109426362607160
+    second: gragas_walk_28
+  - first:
+      213: 7240308702580197428
+    second: gragas_walk_29
+  - first:
+      213: -8807709081458814936
+    second: gragas_walk_30
+  - first:
+      213: 4992887856852563689
+    second: gragas_walk_31
+  - first:
+      213: -2444326024479194699
+    second: gragas_walk_32
+  - first:
+      213: -7719374856697488006
+    second: gragas_walk_33
+  - first:
+      213: 2251987235031346074
+    second: gragas_walk_34
+  - first:
+      213: 731204202915649111
+    second: gragas_walk_35
+  - first:
+      213: -8626068461137685663
+    second: gragas_walk_36
+  - first:
+      213: -4216549750317620439
+    second: gragas_walk_37
+  - first:
+      213: 5766569655862360484
+    second: gragas_walk_38
+  - first:
+      213: 804332573528758302
+    second: gragas_walk_39
+  - first:
+      213: 1196590333543745744
+    second: gragas_walk_40
+  - first:
+      213: 8334404344704289608
+    second: gragas_walk_41
+  - first:
+      213: 2379293329307574740
+    second: gragas_walk_42
+  - first:
+      213: -5974157172248710261
+    second: gragas_walk_43
+  - first:
+      213: 4970920737518902675
+    second: gragas_walk_44
+  - first:
+      213: -4695662081035296675
+    second: gragas_walk_45
+  - first:
+      213: 6846678810331351658
+    second: gragas_walk_46
+  - first:
+      213: 3383421217530961375
+    second: gragas_walk_47
+  - first:
+      213: -1035957132429818018
+    second: gragas_walk_48
+  - first:
+      213: -2225718687569341739
+    second: gragas_walk_49
+  - first:
+      213: -2174114361239054639
+    second: gragas_walk_50
+  - first:
+      213: -3216030362628693594
+    second: gragas_walk_51
+  - first:
+      213: -2023770156837732333
+    second: gragas_walk_52
+  - first:
+      213: -7482080587249758052
+    second: gragas_walk_53
+  - first:
+      213: -7622636654982325030
+    second: gragas_walk_54
+  - first:
+      213: -8009472739345466671
+    second: gragas_walk_55
+  - first:
+      213: -971456082585527740
+    second: gragas_walk_56
+  - first:
+      213: 1609054858463125787
+    second: gragas_walk_57
+  - first:
+      213: 1819471943480129968
+    second: gragas_walk_58
+  - first:
+      213: -5891719679944267863
+    second: gragas_walk_59
+  - first:
+      213: -3073590189174516571
+    second: gragas_walk_60
+  - first:
+      213: 4175400661297436481
+    second: gragas_walk_61
+  - first:
+      213: -330616800087757518
+    second: gragas_walk_62
+  - first:
+      213: 2316723382242712017
+    second: gragas_walk_63
+  - first:
+      213: 6019337217564524599
+    second: gragas_walk_64
+  - first:
+      213: -8984921931028431782
+    second: gragas_walk_65
+  - first:
+      213: -6809335794936583217
+    second: gragas_walk_66
+  - first:
+      213: -965559946388041035
+    second: gragas_walk_67
+  - first:
+      213: -8624226554402343243
+    second: gragas_walk_68
+  - first:
+      213: -1950423917891131804
+    second: gragas_walk_69
+  - first:
+      213: -6641748635498342304
+    second: gragas_walk_70
+  - first:
+      213: -5855131828228471219
+    second: gragas_walk_71
+  - first:
+      213: 6628406922516012495
+    second: gragas_walk_72
+  - first:
+      213: -6979210664912700121
+    second: gragas_walk_73
+  - first:
+      213: 7016699219047590838
+    second: gragas_walk_74
+  - first:
+      213: -5003953167877099399
+    second: gragas_walk_75
+  - first:
+      213: 6665737351468160728
+    second: gragas_walk_76
+  - first:
+      213: -2764760847320228784
+    second: gragas_walk_77
+  - first:
+      213: 8805892886445557304
+    second: gragas_walk_78
+  - first:
+      213: -7817839308231349103
+    second: gragas_walk_79
+  - first:
+      213: -2488704272377786566
+    second: gragas_walk_80
+  - first:
+      213: 1267066273319007244
+    second: gragas_walk_81
+  - first:
+      213: 4056400349265187922
+    second: gragas_walk_82
+  - first:
+      213: 4005024707932513474
+    second: gragas_walk_83
+  - first:
+      213: 2227814082310752337
+    second: gragas_walk_84
+  - first:
+      213: 3195026398608939280
+    second: gragas_walk_85
+  - first:
+      213: 5609998236210436840
+    second: gragas_walk_86
+  - first:
+      213: 8502165496006748419
+    second: gragas_walk_87
+  - first:
+      213: 5984310753769268705
+    second: gragas_walk_88
+  - first:
+      213: -8920557261156506816
+    second: gragas_walk_89
+  - first:
+      213: 3831674057270495353
+    second: gragas_walk_90
+  - first:
+      213: 8497750816259192339
+    second: gragas_walk_91
+  - first:
+      213: 1474731182427883477
+    second: gragas_walk_92
+  - first:
+      213: 130621508677849699
+    second: gragas_walk_93
+  - first:
+      213: 6482053603409552222
+    second: gragas_walk_94
+  - first:
+      213: -8243239114070715774
+    second: gragas_walk_95
+  - first:
+      213: 583234929325692912
+    second: gragas_walk_96
+  - first:
+      213: -6788141876831029740
+    second: gragas_walk_97
+  - first:
+      213: -8762383041072955411
+    second: gragas_walk_98
+  - first:
+      213: 8876643577514013992
+    second: gragas_walk_99
+  - first:
+      213: -6548678454303134786
+    second: gragas_walk_100
+  - first:
+      213: -4839420122826132340
+    second: gragas_walk_101
+  - first:
+      213: -6948905238631013392
+    second: gragas_walk_102
+  - first:
+      213: 4858249506358762034
+    second: gragas_walk_103
+  - first:
+      213: 6588509818222289448
+    second: gragas_walk_104
+  - first:
+      213: -3069821876784534319
+    second: gragas_walk_105
+  - first:
+      213: -4847640696210073033
+    second: gragas_walk_106
+  - first:
+      213: -2095139501563704540
+    second: gragas_walk_107
+  - first:
+      213: -8669109540856617394
+    second: gragas_walk_108
+  - first:
+      213: -2619950233628010840
+    second: gragas_walk_109
+  - first:
+      213: 8995436552758584320
+    second: gragas_walk_110
+  - first:
+      213: -8638076447171426452
+    second: gragas_walk_111
+  - first:
+      213: 3058340720805402969
+    second: gragas_walk_112
+  - first:
+      213: -5683521603749728770
+    second: gragas_walk_113
+  - first:
+      213: -7445706624749690941
+    second: gragas_walk_114
+  - first:
+      213: -7374322887534387177
+    second: gragas_walk_115
+  - first:
+      213: 4039708978332303537
+    second: gragas_walk_116
+  - first:
+      213: -2908024795093967068
+    second: gragas_walk_117
+  - first:
+      213: -2743532910103145603
+    second: gragas_walk_118
+  - first:
+      213: -3139633771268228423
+    second: gragas_walk_119
+  - first:
+      213: -2396026321771534910
+    second: gragas_walk_000
+  - first:
+      213: 6016532896006503592
+    second: gragas_walk_001
+  - first:
+      213: -518894611115062227
+    second: gragas_walk_002
+  - first:
+      213: 8210842428840281323
+    second: gragas_walk_003
+  - first:
+      213: -2957227926505524096
+    second: gragas_walk_004
+  - first:
+      213: 3349667710858544710
+    second: gragas_walk_005
+  - first:
+      213: 3177443450867016708
+    second: gragas_walk_006
+  - first:
+      213: 2614139242906588993
+    second: gragas_walk_007
+  - first:
+      213: -2179834436549425170
+    second: gragas_walk_008
+  - first:
+      213: -4536755402027912568
+    second: gragas_walk_009
+  - first:
+      213: -2588601702005003693
+    second: gragas_walk_010
+  - first:
+      213: -95447870092897284
+    second: gragas_walk_011
+  - first:
+      213: -6301083527450464190
+    second: gragas_walk_012
+  - first:
+      213: -634954165324889422
+    second: gragas_walk_013
+  - first:
+      213: 3269636172304679994
+    second: gragas_walk_014
+  - first:
+      213: 5148232679944258307
+    second: gragas_walk_015
+  - first:
+      213: 9028154701702254188
+    second: gragas_walk_016
+  - first:
+      213: -6547872657601378537
+    second: gragas_walk_017
+  - first:
+      213: 4612587526238675679
+    second: gragas_walk_018
+  - first:
+      213: -4448317557498706732
+    second: gragas_walk_019
+  - first:
+      213: 1179098236541306146
+    second: gragas_walk_020
+  - first:
+      213: 8307865409481523309
+    second: gragas_walk_021
+  - first:
+      213: -3174741733572289977
+    second: gragas_walk_022
+  - first:
+      213: -3070798952309240901
+    second: gragas_walk_023
+  - first:
+      213: -927878872453425294
+    second: gragas_walk_024
+  - first:
+      213: -3967833881105899603
+    second: gragas_walk_025
+  - first:
+      213: 2446590625212567267
+    second: gragas_walk_026
+  - first:
+      213: -5069375813864406057
+    second: gragas_walk_027
+  - first:
+      213: -2649957913577133904
+    second: gragas_walk_028
+  - first:
+      213: 8842716945523389640
+    second: gragas_walk_029
+  - first:
+      213: -2749406906331690260
+    second: gragas_walk_030
+  - first:
+      213: -3626023282078356809
+    second: gragas_walk_031
+  - first:
+      213: -6399612988281457765
+    second: gragas_walk_032
+  - first:
+      213: -4857828164927400333
+    second: gragas_walk_033
+  - first:
+      213: 4767468665197471012
+    second: gragas_walk_034
+  - first:
+      213: -3505510551606504957
+    second: gragas_walk_035
+  - first:
+      213: -1144894830010407001
+    second: gragas_walk_036
+  - first:
+      213: -1271033741930106410
+    second: gragas_walk_037
+  - first:
+      213: 697617771628304637
+    second: gragas_walk_038
+  - first:
+      213: -1974672031254544743
+    second: gragas_walk_039
+  - first:
+      213: -450909772251426914
+    second: gragas_walk_040
+  - first:
+      213: 3848917813578176831
+    second: gragas_walk_041
+  - first:
+      213: 2915251176368119691
+    second: gragas_walk_042
+  - first:
+      213: -4638738832589546433
+    second: gragas_walk_043
+  - first:
+      213: 8962782198850302346
+    second: gragas_walk_044
+  - first:
+      213: 8333286051951941423
+    second: gragas_walk_045
+  - first:
+      213: 7228449084248991486
+    second: gragas_walk_046
+  - first:
+      213: -7425465947267064298
+    second: gragas_walk_047
+  - first:
+      213: -1997191600328151413
+    second: gragas_walk_048
+  - first:
+      213: 8850499271583806184
+    second: gragas_walk_049
+  - first:
+      213: 6507612247176457323
+    second: gragas_walk_050
+  - first:
+      213: -1443251981371669291
+    second: gragas_walk_051
+  - first:
+      213: -5847582707351034121
+    second: gragas_walk_052
+  - first:
+      213: 3480093912667630407
+    second: gragas_walk_053
+  - first:
+      213: 2688560246804449183
+    second: gragas_walk_054
+  - first:
+      213: -4903989106439870927
+    second: gragas_walk_055
+  - first:
+      213: -6947226495740812820
+    second: gragas_walk_056
+  - first:
+      213: 2291089168213574869
+    second: gragas_walk_057
+  - first:
+      213: 8701803586020489645
+    second: gragas_walk_058
+  - first:
+      213: -3037641614645058905
+    second: gragas_walk_059
+  - first:
+      213: 6028852463599043863
+    second: gragas_walk_060
+  - first:
+      213: 4364385753787448227
+    second: gragas_walk_061
+  - first:
+      213: -6195181762338489925
+    second: gragas_walk_062
+  - first:
+      213: -41337072964905185
+    second: gragas_walk_063
+  - first:
+      213: -4687471109180704943
+    second: gragas_walk_064
+  - first:
+      213: -3228153713180013996
+    second: gragas_walk_065
+  - first:
+      213: -2850359089554727280
+    second: gragas_walk_066
+  - first:
+      213: 5763333956360874187
+    second: gragas_walk_067
+  - first:
+      213: 7581874316489799395
+    second: gragas_walk_068
+  - first:
+      213: -2644088766304202025
+    second: gragas_walk_069
+  - first:
+      213: 7384803134807449652
+    second: gragas_walk_070
+  - first:
+      213: -8393313735035764106
+    second: gragas_walk_071
+  - first:
+      213: -1001559039988916139
+    second: gragas_walk_072
+  - first:
+      213: -1646096487621434725
+    second: gragas_walk_073
+  - first:
+      213: -9201999396347228680
+    second: gragas_walk_074
+  - first:
+      213: -828034811452076168
+    second: gragas_walk_075
+  - first:
+      213: 7516593166429998010
+    second: gragas_walk_076
+  - first:
+      213: 3406650670698699590
+    second: gragas_walk_077
+  - first:
+      213: 8382001148778167567
+    second: gragas_walk_078
+  - first:
+      213: -3632174126473583122
+    second: gragas_walk_079
+  - first:
+      213: 7164168777729118695
+    second: gragas_walk_080
+  - first:
+      213: 2396629514479075102
+    second: gragas_walk_081
+  - first:
+      213: -7503735860686123828
+    second: gragas_walk_082
+  - first:
+      213: -7654020037750369031
+    second: gragas_walk_083
+  - first:
+      213: -1540882012563626226
+    second: gragas_walk_084
+  - first:
+      213: -6658800972923317327
+    second: gragas_walk_085
+  - first:
+      213: -6701634971582904920
+    second: gragas_walk_086
+  - first:
+      213: 4006701078131036529
+    second: gragas_walk_087
+  - first:
+      213: 5749766538249916925
+    second: gragas_walk_088
+  - first:
+      213: 7640427393183173786
+    second: gragas_walk_089
+  - first:
+      213: 8886002405327998487
+    second: gragas_walk_090
+  - first:
+      213: 7271578749015474123
+    second: gragas_walk_091
+  - first:
+      213: 6023460592729344083
+    second: gragas_walk_092
+  - first:
+      213: -242298313765227071
+    second: gragas_walk_093
+  - first:
+      213: 3735139881860554304
+    second: gragas_walk_094
+  - first:
+      213: -6083165733850965045
+    second: gragas_walk_095
+  - first:
+      213: -7631958057619452154
+    second: gragas_walk_096
+  - first:
+      213: -8906855521429743583
+    second: gragas_walk_097
+  - first:
+      213: 4600923276062292032
+    second: gragas_walk_098
+  - first:
+      213: -4081286161548388582
+    second: gragas_walk_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gragas_walk_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5625a41ca9fbed0800000000000000
+      internalID: -2396026321771534910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac7bedbac40f7350800000000000000
+      internalID: 6016532896006503592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c4f94b9148cc8f0800000000000000
+      internalID: -518894611115062227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be40bb5afa5c2f170800000000000000
+      internalID: 8210842428840281323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084f5c07ed0d5f6d0800000000000000
+      internalID: -2957227926505524096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646c15529096c7e20800000000000000
+      internalID: 3349667710858544710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404e1d6dbfb881c20800000000000000
+      internalID: 3177443450867016708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1471bd68ac9474420800000000000000
+      internalID: 2614139242906588993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7ce44112cafb1e0800000000000000
+      internalID: -2179834436549425170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 882ba45aff43a01c0800000000000000
+      internalID: -4536755402027912568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a250f8770731cd0800000000000000
+      internalID: -2588601702005003693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf39b88faa6ecaef0800000000000000
+      internalID: -95447870092897284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240ff369aed0e88a0800000000000000
+      internalID: -6301083527450464190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2c72ffc803037f0800000000000000
+      internalID: -634954165324889422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a340df286c4106d20800000000000000
+      internalID: 3269636172304679994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303822d8852327740800000000000000
+      internalID: 5148232679944258307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e4c343ed27a4d70800000000000000
+      internalID: 9028154701702254188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7174d2192884125a0800000000000000
+      internalID: -6547872657601378537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2aad4aae3330040800000000000000
+      internalID: 4612587526238675679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d40829efb66442c0800000000000000
+      internalID: -4448317557498706732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2258558599ffc5010800000000000000
+      internalID: 1179098236541306146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60c6eda2977b4370800000000000000
+      internalID: 8307865409481523309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ad0dcb63d01f3d0800000000000000
+      internalID: -3174741733572289977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb47f66f945265d0800000000000000
+      internalID: -3070798952309240901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277d2d4e4138f13f0800000000000000
+      internalID: -927878872453425294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf5cec8b1c6fe8c0800000000000000
+      internalID: -3967833881105899603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee8896063904f120800000000000000
+      internalID: 2446590625212567267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d3c7a55e85f5a9b0800000000000000
+      internalID: -5069375813864406057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8ef735155793bd0800000000000000
+      internalID: -2649957913577133904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4bf331634a7ba70800000000000000
+      internalID: 8842716945523389640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea08155cf428d9d0800000000000000
+      internalID: -2749406906331690260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba6c645907cdadc0800000000000000
+      internalID: -3626023282078356809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93f18dc4e10037a0800000000000000
+      internalID: -6399612988281457765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3765d999507859cb0800000000000000
+      internalID: -4857828164927400333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425a6eaed73792240800000000000000
+      internalID: 4767468665197471012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3025c1fe9bce95fc0800000000000000
+      internalID: -3505510551606504957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a76c00d7348c10f0800000000000000
+      internalID: -1144894830010407001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d178b2cb816c5ee0800000000000000
+      internalID: -1271033741930106410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df897eacaaf6ea900800000000000000
+      internalID: 697617771628304637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e7c25ff3e8894e0800000000000000
+      internalID: -1974672031254544743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f833f73fb0eb9f0800000000000000
+      internalID: -450909772251426914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f391008eb5a1a6530800000000000000
+      internalID: 3848917813578176831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f167ecf7d057820800000000000000
+      internalID: 2915251176368119691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c90bddb93ef9fb0800000000000000
+      internalID: -4638738832589546433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81baa94ce2326c70800000000000000
+      internalID: 8962782198850302346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f27105a3387c5a370800000000000000
+      internalID: 8333286051951941423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6a8a7e42c905460800000000000000
+      internalID: 7228449084248991486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e1361101273f890800000000000000
+      internalID: -7425465947267064298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8eeb0232dc8844e0800000000000000
+      internalID: -1997191600328151413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e23b9f023a43da70800000000000000
+      internalID: 8850499271583806184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c2fe82cdeaf4a50800000000000000
+      internalID: 6507612247176457323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d486f838f988fbe0800000000000000
+      internalID: -1443251981371669291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6ef9d628639dea0800000000000000
+      internalID: -5847582707351034121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bad89a9f6cb4030800000000000000
+      internalID: 3480093912667630407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f970404cc4faf4520800000000000000
+      internalID: 2688560246804449183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1362440e3e781fbb0800000000000000
+      internalID: -4903989106439870927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce1ef236f4e769f90800000000000000
+      internalID: -6947226495740812820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d48d14b5759bcf10800000000000000
+      internalID: 2291089168213574869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9b8f1e14403c870800000000000000
+      internalID: 8701803586020489645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2232cab0128d5d0800000000000000
+      internalID: -3037641614645058905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7154f089f59caa350800000000000000
+      internalID: 6028852463599043863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abb64538b9619c30800000000000000
+      internalID: 4364385753787448227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9f5d8b20b460aa0800000000000000
+      internalID: -6195181762338489925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f175fd1b6242d6ff0800000000000000
+      internalID: -41337072964905185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157b06a8cd1c2feb0800000000000000
+      internalID: -4687471109180704943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a0c852d4b4333d0800000000000000
+      internalID: -3228153713180013996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ed8c8828d7178d0800000000000000
+      internalID: -2850359089554727280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc826d6a2b97bff40800000000000000
+      internalID: 5763333956360874187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e63806358a383960800000000000000
+      internalID: 7581874316489799395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d256d9a64f4e4bd0800000000000000
+      internalID: -2644088766304202025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430a36223571c7660800000000000000
+      internalID: 7384803134807449652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67249cea0a5f48b80800000000000000
+      internalID: -8393313735035764106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55021ef0c5fb912f0800000000000000
+      internalID: -1001559039988916139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b926e4547f3e729e0800000000000000
+      internalID: -1646096487621434725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd4d55ad4eeb4080800000000000000
+      internalID: -9201999396347228680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87fcdb1e9ba3284f0800000000000000
+      internalID: -828034811452076168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abb403609ad405860800000000000000
+      internalID: 7516593166429998010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b97dc5cbad64f20800000000000000
+      internalID: 3406650670698699590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0db6d392a9d25470800000000000000
+      internalID: 8382001148778167567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee56d2540ece79dc0800000000000000
+      internalID: -3632174126473583122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e11d73cb8d3c6360800000000000000
+      internalID: 7164168777729118695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ffdb478d9824120800000000000000
+      internalID: 2396629514479075102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc817fbdff5dd790800000000000000
+      internalID: -7503735860686123828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4da22145577c590800000000000000
+      internalID: -7654020037750369031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e072b5839ffad9ae0800000000000000
+      internalID: -1540882012563626226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b351e28bcf2793a0800000000000000
+      internalID: -6658800972923317327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5477800820ff2a0800000000000000
+      internalID: -6701634971582904920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171dc23f669aa9730800000000000000
+      internalID: 4006701078131036529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df150d5f3364bcf40800000000000000
+      internalID: 5749766538249916925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cc8debb30480a60800000000000000
+      internalID: 7640427393183173786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e87da8b1c615b70800000000000000
+      internalID: 8886002405327998487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcfb8538856d9e460800000000000000
+      internalID: 7271578749015474123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3584234de71a79350800000000000000
+      internalID: 6023460592729344083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5f856a7fe23acf0800000000000000
+      internalID: -242298313765227071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e51b4dee1e5d330800000000000000
+      internalID: 3735139881860554304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb1cfbbef0449ba0800000000000000
+      internalID: -6083165733850965045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f89ea1596d51690800000000000000
+      internalID: -7631958057619452154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1281473081e746480800000000000000
+      internalID: -8906855521429743583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 048f484c753c9df30800000000000000
+      internalID: 4600923276062292032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17d0321cdb5c57c0800000000000000
+      internalID: -4081286161548388582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbe10764ab6e15a0800000000000000
+      internalID: -6548678454303134786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c843214e90de6dcb0800000000000000
+      internalID: -4839420122826132340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f32c899087809f90800000000000000
+      internalID: -6948905238631013392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23a1bb89f28fb6340800000000000000
+      internalID: 4858249506358762034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8222052b5c61f6b50800000000000000
+      internalID: 6588509818222289448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dce886844dc565d0800000000000000
+      internalID: -3069821876784534319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73adbaf7878b9bcb0800000000000000
+      internalID: -4847640696210073033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b086e49b19ce2e0800000000000000
+      internalID: -2095139501563704540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e46aa42bdc221b780800000000000000
+      internalID: -8669109540856617394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a69663c42114abd0800000000000000
+      internalID: -2619950233628010840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0046db682e536dc70800000000000000
+      internalID: 8995436552758584320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67cdafdc336f1880800000000000000
+      internalID: -8638076447171426452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959d7b98ea8617a20800000000000000
+      internalID: 3058340720805402969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd2d37c6331021b0800000000000000
+      internalID: -5683521603749728770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf950a16498ba890800000000000000
+      internalID: -7445706624749690941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710ea75976429a990800000000000000
+      internalID: -7374322887534387177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0047999edef0830800000000000000
+      internalID: 4039708978332303537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f55623bde94a7d0800000000000000
+      internalID: -2908024795093967068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7355b7aa530de9d0800000000000000
+      internalID: -2743532910103145603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_walk_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9babcb238b7cd64d0800000000000000
+      internalID: -3139633771268228423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gragas_walk_0: 4357943356591688722
+      gragas_walk_000: -2396026321771534910
+      gragas_walk_001: 6016532896006503592
+      gragas_walk_002: -518894611115062227
+      gragas_walk_003: 8210842428840281323
+      gragas_walk_004: -2957227926505524096
+      gragas_walk_005: 3349667710858544710
+      gragas_walk_006: 3177443450867016708
+      gragas_walk_007: 2614139242906588993
+      gragas_walk_008: -2179834436549425170
+      gragas_walk_009: -4536755402027912568
+      gragas_walk_010: -2588601702005003693
+      gragas_walk_011: -95447870092897284
+      gragas_walk_012: -6301083527450464190
+      gragas_walk_013: -634954165324889422
+      gragas_walk_014: 3269636172304679994
+      gragas_walk_015: 5148232679944258307
+      gragas_walk_016: 9028154701702254188
+      gragas_walk_017: -6547872657601378537
+      gragas_walk_018: 4612587526238675679
+      gragas_walk_019: -4448317557498706732
+      gragas_walk_020: 1179098236541306146
+      gragas_walk_021: 8307865409481523309
+      gragas_walk_022: -3174741733572289977
+      gragas_walk_023: -3070798952309240901
+      gragas_walk_024: -927878872453425294
+      gragas_walk_025: -3967833881105899603
+      gragas_walk_026: 2446590625212567267
+      gragas_walk_027: -5069375813864406057
+      gragas_walk_028: -2649957913577133904
+      gragas_walk_029: 8842716945523389640
+      gragas_walk_030: -2749406906331690260
+      gragas_walk_031: -3626023282078356809
+      gragas_walk_032: -6399612988281457765
+      gragas_walk_033: -4857828164927400333
+      gragas_walk_034: 4767468665197471012
+      gragas_walk_035: -3505510551606504957
+      gragas_walk_036: -1144894830010407001
+      gragas_walk_037: -1271033741930106410
+      gragas_walk_038: 697617771628304637
+      gragas_walk_039: -1974672031254544743
+      gragas_walk_040: -450909772251426914
+      gragas_walk_041: 3848917813578176831
+      gragas_walk_042: 2915251176368119691
+      gragas_walk_043: -4638738832589546433
+      gragas_walk_044: 8962782198850302346
+      gragas_walk_045: 8333286051951941423
+      gragas_walk_046: 7228449084248991486
+      gragas_walk_047: -7425465947267064298
+      gragas_walk_048: -1997191600328151413
+      gragas_walk_049: 8850499271583806184
+      gragas_walk_050: 6507612247176457323
+      gragas_walk_051: -1443251981371669291
+      gragas_walk_052: -5847582707351034121
+      gragas_walk_053: 3480093912667630407
+      gragas_walk_054: 2688560246804449183
+      gragas_walk_055: -4903989106439870927
+      gragas_walk_056: -6947226495740812820
+      gragas_walk_057: 2291089168213574869
+      gragas_walk_058: 8701803586020489645
+      gragas_walk_059: -3037641614645058905
+      gragas_walk_060: 6028852463599043863
+      gragas_walk_061: 4364385753787448227
+      gragas_walk_062: -6195181762338489925
+      gragas_walk_063: -41337072964905185
+      gragas_walk_064: -4687471109180704943
+      gragas_walk_065: -3228153713180013996
+      gragas_walk_066: -2850359089554727280
+      gragas_walk_067: 5763333956360874187
+      gragas_walk_068: 7581874316489799395
+      gragas_walk_069: -2644088766304202025
+      gragas_walk_070: 7384803134807449652
+      gragas_walk_071: -8393313735035764106
+      gragas_walk_072: -1001559039988916139
+      gragas_walk_073: -1646096487621434725
+      gragas_walk_074: -9201999396347228680
+      gragas_walk_075: -828034811452076168
+      gragas_walk_076: 7516593166429998010
+      gragas_walk_077: 3406650670698699590
+      gragas_walk_078: 8382001148778167567
+      gragas_walk_079: -3632174126473583122
+      gragas_walk_080: 7164168777729118695
+      gragas_walk_081: 2396629514479075102
+      gragas_walk_082: -7503735860686123828
+      gragas_walk_083: -7654020037750369031
+      gragas_walk_084: -1540882012563626226
+      gragas_walk_085: -6658800972923317327
+      gragas_walk_086: -6701634971582904920
+      gragas_walk_087: 4006701078131036529
+      gragas_walk_088: 5749766538249916925
+      gragas_walk_089: 7640427393183173786
+      gragas_walk_090: 8886002405327998487
+      gragas_walk_091: 7271578749015474123
+      gragas_walk_092: 6023460592729344083
+      gragas_walk_093: -242298313765227071
+      gragas_walk_094: 3735139881860554304
+      gragas_walk_095: -6083165733850965045
+      gragas_walk_096: -7631958057619452154
+      gragas_walk_097: -8906855521429743583
+      gragas_walk_098: 4600923276062292032
+      gragas_walk_099: -4081286161548388582
+      gragas_walk_1: -6098815965086401949
+      gragas_walk_10: -4989745229031603938
+      gragas_walk_100: -6548678454303134786
+      gragas_walk_101: -4839420122826132340
+      gragas_walk_102: -6948905238631013392
+      gragas_walk_103: 4858249506358762034
+      gragas_walk_104: 6588509818222289448
+      gragas_walk_105: -3069821876784534319
+      gragas_walk_106: -4847640696210073033
+      gragas_walk_107: -2095139501563704540
+      gragas_walk_108: -8669109540856617394
+      gragas_walk_109: -2619950233628010840
+      gragas_walk_11: 5338651478576454382
+      gragas_walk_110: 8995436552758584320
+      gragas_walk_111: -8638076447171426452
+      gragas_walk_112: 3058340720805402969
+      gragas_walk_113: -5683521603749728770
+      gragas_walk_114: -7445706624749690941
+      gragas_walk_115: -7374322887534387177
+      gragas_walk_116: 4039708978332303537
+      gragas_walk_117: -2908024795093967068
+      gragas_walk_118: -2743532910103145603
+      gragas_walk_119: -3139633771268228423
+      gragas_walk_12: 8567023434733617723
+      gragas_walk_13: 1576373205851440239
+      gragas_walk_14: -36027157337697990
+      gragas_walk_15: 6999020067845261929
+      gragas_walk_16: 4131543578275079014
+      gragas_walk_17: 8994613742730485504
+      gragas_walk_18: -3097354119008669133
+      gragas_walk_19: 3733482465762651404
+      gragas_walk_2: 4694086627477439660
+      gragas_walk_20: -1259978983033671428
+      gragas_walk_21: 7940615468119953453
+      gragas_walk_22: 8363443135293562674
+      gragas_walk_23: 2296683997459069470
+      gragas_walk_24: 3184638994871263087
+      gragas_walk_25: 7475150842209837312
+      gragas_walk_26: 5190687377050465245
+      gragas_walk_27: 130405876605416687
+      gragas_walk_28: -8944109426362607160
+      gragas_walk_29: 7240308702580197428
+      gragas_walk_3: 9057157481529461410
+      gragas_walk_30: -8807709081458814936
+      gragas_walk_31: 4992887856852563689
+      gragas_walk_32: -2444326024479194699
+      gragas_walk_33: -7719374856697488006
+      gragas_walk_34: 2251987235031346074
+      gragas_walk_35: 731204202915649111
+      gragas_walk_36: -8626068461137685663
+      gragas_walk_37: -4216549750317620439
+      gragas_walk_38: 5766569655862360484
+      gragas_walk_39: 804332573528758302
+      gragas_walk_4: -2972422987813817075
+      gragas_walk_40: 1196590333543745744
+      gragas_walk_41: 8334404344704289608
+      gragas_walk_42: 2379293329307574740
+      gragas_walk_43: -5974157172248710261
+      gragas_walk_44: 4970920737518902675
+      gragas_walk_45: -4695662081035296675
+      gragas_walk_46: 6846678810331351658
+      gragas_walk_47: 3383421217530961375
+      gragas_walk_48: -1035957132429818018
+      gragas_walk_49: -2225718687569341739
+      gragas_walk_5: 1231113562655139742
+      gragas_walk_50: -2174114361239054639
+      gragas_walk_51: -3216030362628693594
+      gragas_walk_52: -2023770156837732333
+      gragas_walk_53: -7482080587249758052
+      gragas_walk_54: -7622636654982325030
+      gragas_walk_55: -8009472739345466671
+      gragas_walk_56: -971456082585527740
+      gragas_walk_57: 1609054858463125787
+      gragas_walk_58: 1819471943480129968
+      gragas_walk_59: -5891719679944267863
+      gragas_walk_6: 2713017113973433039
+      gragas_walk_60: -3073590189174516571
+      gragas_walk_61: 4175400661297436481
+      gragas_walk_62: -330616800087757518
+      gragas_walk_63: 2316723382242712017
+      gragas_walk_64: 6019337217564524599
+      gragas_walk_65: -8984921931028431782
+      gragas_walk_66: -6809335794936583217
+      gragas_walk_67: -965559946388041035
+      gragas_walk_68: -8624226554402343243
+      gragas_walk_69: -1950423917891131804
+      gragas_walk_7: -3452900693274423321
+      gragas_walk_70: -6641748635498342304
+      gragas_walk_71: -5855131828228471219
+      gragas_walk_72: 6628406922516012495
+      gragas_walk_73: -6979210664912700121
+      gragas_walk_74: 7016699219047590838
+      gragas_walk_75: -5003953167877099399
+      gragas_walk_76: 6665737351468160728
+      gragas_walk_77: -2764760847320228784
+      gragas_walk_78: 8805892886445557304
+      gragas_walk_79: -7817839308231349103
+      gragas_walk_8: -1752496164228670901
+      gragas_walk_80: -2488704272377786566
+      gragas_walk_81: 1267066273319007244
+      gragas_walk_82: 4056400349265187922
+      gragas_walk_83: 4005024707932513474
+      gragas_walk_84: 2227814082310752337
+      gragas_walk_85: 3195026398608939280
+      gragas_walk_86: 5609998236210436840
+      gragas_walk_87: 8502165496006748419
+      gragas_walk_88: 5984310753769268705
+      gragas_walk_89: -8920557261156506816
+      gragas_walk_9: 4349367192642757665
+      gragas_walk_90: 3831674057270495353
+      gragas_walk_91: 8497750816259192339
+      gragas_walk_92: 1474731182427883477
+      gragas_walk_93: 130621508677849699
+      gragas_walk_94: 6482053603409552222
+      gragas_walk_95: -8243239114070715774
+      gragas_walk_96: 583234929325692912
+      gragas_walk_97: -6788141876831029740
+      gragas_walk_98: -8762383041072955411
+      gragas_walk_99: 8876643577514013992
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

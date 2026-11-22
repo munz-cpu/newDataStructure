@@ -1,0 +1,769 @@
+fileFormatVersion: 2
+guid: 5d4a82f30d5890b4dafc3ff8661769e6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6411025193989076468
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_0
+  - first:
+      213: -8017060037704608581
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_1
+  - first:
+      213: -1213593830627330956
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_2
+  - first:
+      213: -5459802753054187303
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_3
+  - first:
+      213: 266796194767384392
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_4
+  - first:
+      213: 6636360233796071601
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_5
+  - first:
+      213: 2768249255940532646
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_6
+  - first:
+      213: -8406148764700415556
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_7
+  - first:
+      213: -7530741559452465778
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_8
+  - first:
+      213: 1527038615702136872
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_9
+  - first:
+      213: -1933517639525507196
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_10
+  - first:
+      213: 824985147032051286
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_11
+  - first:
+      213: 7983892444035888151
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_12
+  - first:
+      213: 127955486258349214
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_13
+  - first:
+      213: 6959496782097363158
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_14
+  - first:
+      213: -3019142567905505195
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_15
+  - first:
+      213: -3718184524036456479
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_16
+  - first:
+      213: -6338596041073631816
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_17
+  - first:
+      213: 9089878111153328438
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_18
+  - first:
+      213: -752101465763390817
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_19
+  - first:
+      213: 1490196573724025245
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_20
+  - first:
+      213: 5302884434903442648
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_21
+  - first:
+      213: 7299727012654928475
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_22
+  - first:
+      213: -2447986655597294951
+    second: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_0
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1144
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a833a9d867707a0800000000000000
+      internalID: -6411025193989076468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_1
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 1144
+        width: 67
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb413a53f5eadb090800000000000000
+      internalID: -8017060037704608581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_2
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 1144
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4743ad747d2782fe0800000000000000
+      internalID: -1213593830627330956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_3
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1144
+        width: 59
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d06188c252ea34b0800000000000000
+      internalID: -5459802753054187303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_4
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1144
+        width: 54
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f2980c9b9d3b300800000000000000
+      internalID: 266796194767384392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 888
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b071f0c876191c50800000000000000
+      internalID: 6636360233796071601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_6
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 888
+        width: 76
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9231e080cca6620800000000000000
+      internalID: 2768249255940532646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_7
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 888
+        width: 72
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb961f67c3c575b80800000000000000
+      internalID: -8406148764700415556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_8
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 888
+        width: 73
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e858095837e6d7790800000000000000
+      internalID: -7530741559452465778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_9
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 888
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828ea37c781213510800000000000000
+      internalID: 1527038615702136872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 632
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f512973f3ca25e0800000000000000
+      internalID: -1933517639525507196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_11
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 632
+        width: 76
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e91d9ce9fe27b00800000000000000
+      internalID: 824985147032051286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_12
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 632
+        width: 76
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7143fab90eb7cce60800000000000000
+      internalID: 7983892444035888151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_13
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 632
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94cd7936d696c100800000000000000
+      internalID: 127955486258349214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_14
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 632
+        width: 74
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d033684379159060800000000000000
+      internalID: 6959496782097363158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 376
+        width: 75
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5505bb1a4d9d916d0800000000000000
+      internalID: -3019142567905505195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_16
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 376
+        width: 75
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1efb37b00ea566cc0800000000000000
+      internalID: -3718184524036456479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_17
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 376
+        width: 75
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bddb15eb78c808a0800000000000000
+      internalID: -6338596041073631816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_18
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 376
+        width: 79
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63194ea5bfbb52e70800000000000000
+      internalID: 9089878111153328438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_19
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 376
+        width: 78
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9a5f12a3bfff85f0800000000000000
+      internalID: -752101465763390817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_20
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 120
+        width: 67
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91235e63ed3ea410800000000000000
+      internalID: 1490196573724025245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_21
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 120
+        width: 67
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d42e533c41a79940800000000000000
+      internalID: 5302884434903442648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_22
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 120
+        width: 67
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52de9ada07dd4560800000000000000
+      internalID: 7299727012654928475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_23
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 120
+        width: 66
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a0a325b11070ed0800000000000000
+      internalID: -2447986655597294951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_0: -6411025193989076468
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_1: -8017060037704608581
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_10: -1933517639525507196
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_11: 824985147032051286
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_12: 7983892444035888151
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_13: 127955486258349214
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_14: 6959496782097363158
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_15: -3019142567905505195
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_16: -3718184524036456479
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_17: -6338596041073631816
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_18: 9089878111153328438
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_19: -752101465763390817
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_2: -1213593830627330956
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_20: 1490196573724025245
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_21: 5302884434903442648
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_22: 7299727012654928475
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_23: -2447986655597294951
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_3: -5459802753054187303
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_4: 266796194767384392
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_5: 6636360233796071601
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_6: 2768249255940532646
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_7: -8406148764700415556
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_8: -7530741559452465778
+      HiRezUnarmedKnight_Unarmed_export_PowerUp_dir2_9: 1527038615702136872
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

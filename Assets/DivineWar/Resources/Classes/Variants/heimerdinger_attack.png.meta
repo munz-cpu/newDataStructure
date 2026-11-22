@@ -1,0 +1,3789 @@
+fileFormatVersion: 2
+guid: f1e7a3e95670fff43b2e9cea991cd851
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1686385915825128890
+    second: heimerdinger_attack_0
+  - first:
+      213: -5005660104671442489
+    second: heimerdinger_attack_1
+  - first:
+      213: -5840086065183994547
+    second: heimerdinger_attack_2
+  - first:
+      213: 2460314048783377889
+    second: heimerdinger_attack_3
+  - first:
+      213: 5026808633577793928
+    second: heimerdinger_attack_4
+  - first:
+      213: 3086076417020237924
+    second: heimerdinger_attack_5
+  - first:
+      213: 4428149818672821825
+    second: heimerdinger_attack_6
+  - first:
+      213: 4044490405797145163
+    second: heimerdinger_attack_7
+  - first:
+      213: -4581502700232643911
+    second: heimerdinger_attack_8
+  - first:
+      213: -1548502852223223692
+    second: heimerdinger_attack_9
+  - first:
+      213: 7780100337746398904
+    second: heimerdinger_attack_10
+  - first:
+      213: 4091388396727909119
+    second: heimerdinger_attack_11
+  - first:
+      213: -7475855650046693114
+    second: heimerdinger_attack_12
+  - first:
+      213: -7392165032168880056
+    second: heimerdinger_attack_13
+  - first:
+      213: -1171332964041538097
+    second: heimerdinger_attack_14
+  - first:
+      213: 4519882451293299128
+    second: heimerdinger_attack_15
+  - first:
+      213: 8902897051339633972
+    second: heimerdinger_attack_16
+  - first:
+      213: 393908042814501636
+    second: heimerdinger_attack_17
+  - first:
+      213: -4269450829650946556
+    second: heimerdinger_attack_18
+  - first:
+      213: 3218605749608489735
+    second: heimerdinger_attack_19
+  - first:
+      213: -4210393724201119337
+    second: heimerdinger_attack_20
+  - first:
+      213: -9192405008163135366
+    second: heimerdinger_attack_21
+  - first:
+      213: 6632532880620273524
+    second: heimerdinger_attack_22
+  - first:
+      213: -1843263282793689684
+    second: heimerdinger_attack_23
+  - first:
+      213: 926918228845232348
+    second: heimerdinger_attack_24
+  - first:
+      213: 4120135483333568220
+    second: heimerdinger_attack_25
+  - first:
+      213: 2018529264724534344
+    second: heimerdinger_attack_26
+  - first:
+      213: 3169165423119833086
+    second: heimerdinger_attack_27
+  - first:
+      213: -950232320108448916
+    second: heimerdinger_attack_28
+  - first:
+      213: 3697972099716545293
+    second: heimerdinger_attack_29
+  - first:
+      213: -654711027373194574
+    second: heimerdinger_attack_30
+  - first:
+      213: 6468304780360270842
+    second: heimerdinger_attack_31
+  - first:
+      213: 1191746912057051941
+    second: heimerdinger_attack_32
+  - first:
+      213: 8582084424771411170
+    second: heimerdinger_attack_33
+  - first:
+      213: -7126856055959402673
+    second: heimerdinger_attack_34
+  - first:
+      213: 6519933319739004544
+    second: heimerdinger_attack_35
+  - first:
+      213: 719727227615744578
+    second: heimerdinger_attack_36
+  - first:
+      213: -3312478003661210582
+    second: heimerdinger_attack_37
+  - first:
+      213: 8890417371663859310
+    second: heimerdinger_attack_38
+  - first:
+      213: -2259413620784567520
+    second: heimerdinger_attack_39
+  - first:
+      213: 7083754591340757011
+    second: heimerdinger_attack_40
+  - first:
+      213: -5531763727018213193
+    second: heimerdinger_attack_41
+  - first:
+      213: -4802770060952945934
+    second: heimerdinger_attack_42
+  - first:
+      213: 3438866894276636041
+    second: heimerdinger_attack_43
+  - first:
+      213: -3014875650097057512
+    second: heimerdinger_attack_44
+  - first:
+      213: 5936871461322201282
+    second: heimerdinger_attack_45
+  - first:
+      213: -7532333054641684014
+    second: heimerdinger_attack_46
+  - first:
+      213: 2159280741862025860
+    second: heimerdinger_attack_47
+  - first:
+      213: -9030381542966272779
+    second: heimerdinger_attack_48
+  - first:
+      213: 2355196941593918893
+    second: heimerdinger_attack_49
+  - first:
+      213: 2698532456136332267
+    second: heimerdinger_attack_50
+  - first:
+      213: -562449268774481379
+    second: heimerdinger_attack_51
+  - first:
+      213: 5370655050928154880
+    second: heimerdinger_attack_52
+  - first:
+      213: -9164337937251230228
+    second: heimerdinger_attack_53
+  - first:
+      213: -3451492426564634713
+    second: heimerdinger_attack_54
+  - first:
+      213: -5489262931543945961
+    second: heimerdinger_attack_55
+  - first:
+      213: -801754957666934351
+    second: heimerdinger_attack_56
+  - first:
+      213: 7326954542324991341
+    second: heimerdinger_attack_57
+  - first:
+      213: -7856411174676212106
+    second: heimerdinger_attack_58
+  - first:
+      213: 5874644492100285688
+    second: heimerdinger_attack_59
+  - first:
+      213: -6375233506611577716
+    second: heimerdinger_attack_60
+  - first:
+      213: -838389384879732442
+    second: heimerdinger_attack_61
+  - first:
+      213: 3572976413693915286
+    second: heimerdinger_attack_62
+  - first:
+      213: -6233696063019659692
+    second: heimerdinger_attack_63
+  - first:
+      213: 6514459716043278177
+    second: heimerdinger_attack_64
+  - first:
+      213: 5245681809937323198
+    second: heimerdinger_attack_65
+  - first:
+      213: -4383444976242437751
+    second: heimerdinger_attack_66
+  - first:
+      213: -4007734701412644273
+    second: heimerdinger_attack_67
+  - first:
+      213: -1063651436513876095
+    second: heimerdinger_attack_68
+  - first:
+      213: -6683390710177313229
+    second: heimerdinger_attack_69
+  - first:
+      213: -6320260072073685675
+    second: heimerdinger_attack_70
+  - first:
+      213: 7388499532499690021
+    second: heimerdinger_attack_71
+  - first:
+      213: 1196835304366967541
+    second: heimerdinger_attack_72
+  - first:
+      213: 8500760040383007622
+    second: heimerdinger_attack_73
+  - first:
+      213: 7334175536078312247
+    second: heimerdinger_attack_74
+  - first:
+      213: -7823804924427705265
+    second: heimerdinger_attack_75
+  - first:
+      213: 7006007902249396268
+    second: heimerdinger_attack_76
+  - first:
+      213: -3843666293445425891
+    second: heimerdinger_attack_77
+  - first:
+      213: 1604727468816800383
+    second: heimerdinger_attack_78
+  - first:
+      213: 8998399683760974585
+    second: heimerdinger_attack_79
+  - first:
+      213: -3616019249002847975
+    second: heimerdinger_attack_80
+  - first:
+      213: 3249452628529915910
+    second: heimerdinger_attack_81
+  - first:
+      213: 2914182825401410260
+    second: heimerdinger_attack_82
+  - first:
+      213: -1805263499968491198
+    second: heimerdinger_attack_83
+  - first:
+      213: 6134599090365059873
+    second: heimerdinger_attack_84
+  - first:
+      213: -5519980259331106408
+    second: heimerdinger_attack_85
+  - first:
+      213: 1330026156815339429
+    second: heimerdinger_attack_86
+  - first:
+      213: -4981821849537494958
+    second: heimerdinger_attack_87
+  - first:
+      213: -5157365858898531774
+    second: heimerdinger_attack_88
+  - first:
+      213: 7566634466955838497
+    second: heimerdinger_attack_89
+  - first:
+      213: 8742436969105890053
+    second: heimerdinger_attack_90
+  - first:
+      213: 7549588867926934870
+    second: heimerdinger_attack_91
+  - first:
+      213: -7484319962362875376
+    second: heimerdinger_attack_92
+  - first:
+      213: -2754911113012625996
+    second: heimerdinger_attack_93
+  - first:
+      213: 8389511741965416556
+    second: heimerdinger_attack_94
+  - first:
+      213: -3583548800392560629
+    second: heimerdinger_attack_95
+  - first:
+      213: 6016879119187273202
+    second: heimerdinger_attack_96
+  - first:
+      213: 5110565430985155855
+    second: heimerdinger_attack_97
+  - first:
+      213: -204789104059701363
+    second: heimerdinger_attack_98
+  - first:
+      213: 6319679462870297623
+    second: heimerdinger_attack_99
+  - first:
+      213: -146426463848228414
+    second: heimerdinger_attack_100
+  - first:
+      213: -224306807759628417
+    second: heimerdinger_attack_101
+  - first:
+      213: 326546714493418328
+    second: heimerdinger_attack_102
+  - first:
+      213: 3408162522006286708
+    second: heimerdinger_attack_103
+  - first:
+      213: -4521900699490875285
+    second: heimerdinger_attack_104
+  - first:
+      213: -2138889900041610267
+    second: heimerdinger_attack_105
+  - first:
+      213: 7503666995423301397
+    second: heimerdinger_attack_106
+  - first:
+      213: -2822187576998802823
+    second: heimerdinger_attack_107
+  - first:
+      213: 6181007551314261406
+    second: heimerdinger_attack_108
+  - first:
+      213: -2573057790985789448
+    second: heimerdinger_attack_109
+  - first:
+      213: -749636052433518984
+    second: heimerdinger_attack_110
+  - first:
+      213: 3479842197022589608
+    second: heimerdinger_attack_111
+  - first:
+      213: 1927201053812176833
+    second: heimerdinger_attack_112
+  - first:
+      213: -7803906633506962324
+    second: heimerdinger_attack_113
+  - first:
+      213: -6402148548247814889
+    second: heimerdinger_attack_114
+  - first:
+      213: -8032356249635474951
+    second: heimerdinger_attack_115
+  - first:
+      213: -602753666432232923
+    second: heimerdinger_attack_116
+  - first:
+      213: 2068164919596769948
+    second: heimerdinger_attack_117
+  - first:
+      213: -5599351990675041406
+    second: heimerdinger_attack_118
+  - first:
+      213: -4709414265902324016
+    second: heimerdinger_attack_119
+  - first:
+      213: -1973024743364344438
+    second: heimerdinger_attack_120
+  - first:
+      213: -2297109915418530699
+    second: heimerdinger_attack_121
+  - first:
+      213: 2982651685123252431
+    second: heimerdinger_attack_122
+  - first:
+      213: 703726613856603150
+    second: heimerdinger_attack_123
+  - first:
+      213: -7824936631050259789
+    second: heimerdinger_attack_124
+  - first:
+      213: 4137344642148283677
+    second: heimerdinger_attack_125
+  - first:
+      213: 4924490806087240473
+    second: heimerdinger_attack_126
+  - first:
+      213: 5504905323058513496
+    second: heimerdinger_attack_127
+  - first:
+      213: -8776157719208486962
+    second: heimerdinger_attack_128
+  - first:
+      213: 8563310768334163767
+    second: heimerdinger_attack_129
+  - first:
+      213: 6639499788489500208
+    second: heimerdinger_attack_130
+  - first:
+      213: -6817937266885479554
+    second: heimerdinger_attack_131
+  - first:
+      213: 4465451569412105031
+    second: heimerdinger_attack_132
+  - first:
+      213: -3146001486234935721
+    second: heimerdinger_attack_133
+  - first:
+      213: 3375838812001284333
+    second: heimerdinger_attack_134
+  - first:
+      213: 5845567344722172135
+    second: heimerdinger_attack_135
+  - first:
+      213: 3307204203821948005
+    second: heimerdinger_attack_136
+  - first:
+      213: -5514241344670499403
+    second: heimerdinger_attack_137
+  - first:
+      213: -5053520456689127501
+    second: heimerdinger_attack_138
+  - first:
+      213: 2699826613635347568
+    second: heimerdinger_attack_139
+  - first:
+      213: 4740306947750105907
+    second: heimerdinger_attack_140
+  - first:
+      213: -91648040808064472
+    second: heimerdinger_attack_141
+  - first:
+      213: 3839234965004762775
+    second: heimerdinger_attack_142
+  - first:
+      213: 1240489533732266642
+    second: heimerdinger_attack_143
+  - first:
+      213: -6259957359555690992
+    second: heimerdinger_attack_144
+  - first:
+      213: -2491698773424088633
+    second: heimerdinger_attack_145
+  - first:
+      213: -7779532696483691619
+    second: heimerdinger_attack_146
+  - first:
+      213: -1917534707758551396
+    second: heimerdinger_attack_147
+  - first:
+      213: -5403001280765889248
+    second: heimerdinger_attack_148
+  - first:
+      213: -8582873097518680457
+    second: heimerdinger_attack_149
+  - first:
+      213: 604773556515915160
+    second: heimerdinger_attack_150
+  - first:
+      213: -8479040294788054143
+    second: heimerdinger_attack_000
+  - first:
+      213: -7396678265949298361
+    second: heimerdinger_attack_001
+  - first:
+      213: 7648030310488671352
+    second: heimerdinger_attack_002
+  - first:
+      213: -4946838549772225582
+    second: heimerdinger_attack_003
+  - first:
+      213: -7313537832786633184
+    second: heimerdinger_attack_004
+  - first:
+      213: 617521954538008677
+    second: heimerdinger_attack_005
+  - first:
+      213: 9132667761762142528
+    second: heimerdinger_attack_006
+  - first:
+      213: -7374420417242925232
+    second: heimerdinger_attack_007
+  - first:
+      213: -8079564198510913011
+    second: heimerdinger_attack_008
+  - first:
+      213: 22188450666073962
+    second: heimerdinger_attack_009
+  - first:
+      213: 2439721542893135301
+    second: heimerdinger_attack_010
+  - first:
+      213: 2053424171105919535
+    second: heimerdinger_attack_011
+  - first:
+      213: 2785291856913986452
+    second: heimerdinger_attack_012
+  - first:
+      213: 5408106665049677437
+    second: heimerdinger_attack_013
+  - first:
+      213: -3514123866862366370
+    second: heimerdinger_attack_014
+  - first:
+      213: 7203946377012204027
+    second: heimerdinger_attack_015
+  - first:
+      213: -1362056323822153066
+    second: heimerdinger_attack_016
+  - first:
+      213: -6209054814559366334
+    second: heimerdinger_attack_017
+  - first:
+      213: -4274417401665229221
+    second: heimerdinger_attack_018
+  - first:
+      213: -4662208676575317938
+    second: heimerdinger_attack_019
+  - first:
+      213: -3087040743895234246
+    second: heimerdinger_attack_020
+  - first:
+      213: -4420001907137358427
+    second: heimerdinger_attack_021
+  - first:
+      213: -7294159070281179954
+    second: heimerdinger_attack_022
+  - first:
+      213: -4520428383973846202
+    second: heimerdinger_attack_023
+  - first:
+      213: 2216968566065312338
+    second: heimerdinger_attack_024
+  - first:
+      213: 288431055391510082
+    second: heimerdinger_attack_025
+  - first:
+      213: 8003448688719351966
+    second: heimerdinger_attack_026
+  - first:
+      213: -7174955721636643870
+    second: heimerdinger_attack_027
+  - first:
+      213: -1293875417135664391
+    second: heimerdinger_attack_028
+  - first:
+      213: -8834732911106811850
+    second: heimerdinger_attack_029
+  - first:
+      213: 7959628875303161303
+    second: heimerdinger_attack_030
+  - first:
+      213: -3935739875032294540
+    second: heimerdinger_attack_031
+  - first:
+      213: 8056839387153247583
+    second: heimerdinger_attack_032
+  - first:
+      213: 2918167227877013627
+    second: heimerdinger_attack_033
+  - first:
+      213: -5853899643695693171
+    second: heimerdinger_attack_034
+  - first:
+      213: 2226481586869275516
+    second: heimerdinger_attack_035
+  - first:
+      213: 2415217605762177828
+    second: heimerdinger_attack_036
+  - first:
+      213: 8341436642618819365
+    second: heimerdinger_attack_037
+  - first:
+      213: 7995880570403666475
+    second: heimerdinger_attack_038
+  - first:
+      213: 4994203026325728704
+    second: heimerdinger_attack_039
+  - first:
+      213: -1457207120557552520
+    second: heimerdinger_attack_040
+  - first:
+      213: -3832453957183640048
+    second: heimerdinger_attack_041
+  - first:
+      213: -2695650169719761693
+    second: heimerdinger_attack_042
+  - first:
+      213: -2524266520039610342
+    second: heimerdinger_attack_043
+  - first:
+      213: -8373952406469170757
+    second: heimerdinger_attack_044
+  - first:
+      213: -4396631041856860862
+    second: heimerdinger_attack_045
+  - first:
+      213: -6656060032741957986
+    second: heimerdinger_attack_046
+  - first:
+      213: 1001920614534114277
+    second: heimerdinger_attack_047
+  - first:
+      213: -254849167520833152
+    second: heimerdinger_attack_048
+  - first:
+      213: 3180237770646257565
+    second: heimerdinger_attack_049
+  - first:
+      213: 4386068287422194195
+    second: heimerdinger_attack_050
+  - first:
+      213: -7141068254688910881
+    second: heimerdinger_attack_051
+  - first:
+      213: 4469205749369612186
+    second: heimerdinger_attack_052
+  - first:
+      213: 8329538037149515884
+    second: heimerdinger_attack_053
+  - first:
+      213: -8567948262873859297
+    second: heimerdinger_attack_054
+  - first:
+      213: 6324302676209393888
+    second: heimerdinger_attack_055
+  - first:
+      213: 1660684793231039305
+    second: heimerdinger_attack_056
+  - first:
+      213: -1435307905599412393
+    second: heimerdinger_attack_057
+  - first:
+      213: 1820007835370755350
+    second: heimerdinger_attack_058
+  - first:
+      213: -647781383478433330
+    second: heimerdinger_attack_059
+  - first:
+      213: -4654943864738688639
+    second: heimerdinger_attack_060
+  - first:
+      213: -5071112417954295997
+    second: heimerdinger_attack_061
+  - first:
+      213: 7559829604864039923
+    second: heimerdinger_attack_062
+  - first:
+      213: 1107906406679040015
+    second: heimerdinger_attack_063
+  - first:
+      213: -4748163836308492108
+    second: heimerdinger_attack_064
+  - first:
+      213: -2898306744670175507
+    second: heimerdinger_attack_065
+  - first:
+      213: 7647327878627349917
+    second: heimerdinger_attack_066
+  - first:
+      213: -3346276200121270362
+    second: heimerdinger_attack_067
+  - first:
+      213: -5188858674794543109
+    second: heimerdinger_attack_068
+  - first:
+      213: 2163121916912098047
+    second: heimerdinger_attack_069
+  - first:
+      213: -2600213801226375254
+    second: heimerdinger_attack_070
+  - first:
+      213: 7552974273102958740
+    second: heimerdinger_attack_071
+  - first:
+      213: 7224667202446563494
+    second: heimerdinger_attack_072
+  - first:
+      213: 8205137519202840985
+    second: heimerdinger_attack_073
+  - first:
+      213: 8438161713951097802
+    second: heimerdinger_attack_074
+  - first:
+      213: 1827044897175250873
+    second: heimerdinger_attack_075
+  - first:
+      213: 7881594514449263683
+    second: heimerdinger_attack_076
+  - first:
+      213: -5536140897562984043
+    second: heimerdinger_attack_077
+  - first:
+      213: -1710002092052530765
+    second: heimerdinger_attack_078
+  - first:
+      213: -4305610407582324201
+    second: heimerdinger_attack_079
+  - first:
+      213: 1340015475187972640
+    second: heimerdinger_attack_080
+  - first:
+      213: 511785760123792080
+    second: heimerdinger_attack_081
+  - first:
+      213: 7938836379524323467
+    second: heimerdinger_attack_082
+  - first:
+      213: 135539163799721719
+    second: heimerdinger_attack_083
+  - first:
+      213: 5124588861042575598
+    second: heimerdinger_attack_084
+  - first:
+      213: 2238794829350012457
+    second: heimerdinger_attack_085
+  - first:
+      213: 585754654845475886
+    second: heimerdinger_attack_086
+  - first:
+      213: -7714570310638316579
+    second: heimerdinger_attack_087
+  - first:
+      213: 3601572335315048902
+    second: heimerdinger_attack_088
+  - first:
+      213: 7356460975202424395
+    second: heimerdinger_attack_089
+  - first:
+      213: 4138304893497208785
+    second: heimerdinger_attack_090
+  - first:
+      213: 1766595993932256964
+    second: heimerdinger_attack_091
+  - first:
+      213: -8818383471606428718
+    second: heimerdinger_attack_092
+  - first:
+      213: 6937646801304262622
+    second: heimerdinger_attack_093
+  - first:
+      213: -7893966483443118886
+    second: heimerdinger_attack_094
+  - first:
+      213: 2975330360965266088
+    second: heimerdinger_attack_095
+  - first:
+      213: -128781138594429661
+    second: heimerdinger_attack_096
+  - first:
+      213: 1234878803216024499
+    second: heimerdinger_attack_097
+  - first:
+      213: -4027577055719273935
+    second: heimerdinger_attack_098
+  - first:
+      213: 5627421808246253800
+    second: heimerdinger_attack_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heimerdinger_attack_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1834fe896c5645a80800000000000000
+      internalID: -8479040294788054143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7416d307e48b95990800000000000000
+      internalID: -7396678265949298361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8740910eb03432a60800000000000000
+      internalID: 7648030310488671352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d33e976c8c495bb0800000000000000
+      internalID: -4946838549772225582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e5f510718118a90800000000000000
+      internalID: -7313537832786633184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5603e3522f0e19800800000000000000
+      internalID: 617521954538008677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0498e7f31f0cdbe70800000000000000
+      internalID: 9132667761762142528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 057f8dda3bbc8a990800000000000000
+      internalID: -7374420417242925232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a1bc73b2f9fdf80800000000000000
+      internalID: -8079564198510913011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f41104744de4000800000000000000
+      internalID: 22188450666073962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5630b21d1abd120800000000000000
+      internalID: 2439721542893135301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2228f3776a3f7c10800000000000000
+      internalID: 2053424171105919535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493752fcf2857a620800000000000000
+      internalID: 2785291856913986452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e55b5cb547d0b40800000000000000
+      internalID: 5408106665049677437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5152f236f25b3fc0800000000000000
+      internalID: -3514123866862366370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf156cecf0f89f360800000000000000
+      internalID: 7203946377012204027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692918e6df0091de0800000000000000
+      internalID: -1362056323822153066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243924b0b8105d9a0800000000000000
+      internalID: -6209054814559366334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5eeeff15083ea4c0800000000000000
+      internalID: -4274417401665229221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40fbfbf8e18c4fb0800000000000000
+      internalID: -4662208676575317938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3987fc9cc0a825d0800000000000000
+      internalID: -3087040743895234246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a557820faff8a2c0800000000000000
+      internalID: -4420001907137358427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc52b0c8f0f5ca90800000000000000
+      internalID: -7294159070281179954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64355a4c5563441c0800000000000000
+      internalID: -4520428383973846202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252b7823a2144ce10800000000000000
+      internalID: 2216968566065312338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e4dc64486b00400800000000000000
+      internalID: 288431055391510082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90de25ad26f11f60800000000000000
+      internalID: 8003448688719351966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebf0b429cf6d6c90800000000000000
+      internalID: -7174955721636643870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2b402d92b3b0ee0800000000000000
+      internalID: -1293875417135664391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638960cc939b46580800000000000000
+      internalID: -8834732911106811850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd03684a48467e60800000000000000
+      internalID: 7959628875303161303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b1c54af617169c0800000000000000
+      internalID: -3935739875032294540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d25a35cb4afcf60800000000000000
+      internalID: 8056839387153247583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78bbc4f1a96f7820800000000000000
+      internalID: 2918167227877013627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d828bb21a45c2cea0800000000000000
+      internalID: -5853899643695693171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b8a44f43d06ee10800000000000000
+      internalID: 2226481586869275516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b59b6bd93948120800000000000000
+      internalID: 2415217605762177828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523c8bf7e6cb2c370800000000000000
+      internalID: 8341436642618819365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2abb59c30317fe60800000000000000
+      internalID: 7995880570403666475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd63582139fe4540800000000000000
+      internalID: 4994203026325728704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c4ffe28d5f6cbe0800000000000000
+      internalID: -1457207120557552520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e67006e6360dac0800000000000000
+      internalID: -3832453957183640048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4d12be370279ad0800000000000000
+      internalID: -2695650169719761693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18a0a269f008fcd0800000000000000
+      internalID: -2524266520039610342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9a06647aeb9cb80800000000000000
+      internalID: -8373952406469170757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d8aad9c570cf2c0800000000000000
+      internalID: -4396631041856860862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e9db06aace0a3a0800000000000000
+      internalID: -6656060032741957986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb62729d7987ed00800000000000000
+      internalID: 1001920614534114277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081ed9a4808967cf0800000000000000
+      internalID: -254849167520833152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f76ac1769722c20800000000000000
+      internalID: 3180237770646257565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312e7687ed17edc30800000000000000
+      internalID: 4386068287422194195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd1e272e144d5ec90800000000000000
+      internalID: -7141068254688910881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a972f4f33fec50e30800000000000000
+      internalID: 4469205749369612186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60c66786b6789370800000000000000
+      internalID: 8329538037149515884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b7a792378881980800000000000000
+      internalID: -8567948262873859297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e06383c6cf64c750800000000000000
+      internalID: 6324302676209393888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bdd605500fb0710800000000000000
+      internalID: 1660684793231039305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757ef6f7013c41ce0800000000000000
+      internalID: -1435307905599412393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61593b3cb77f14910800000000000000
+      internalID: 1820007835370755350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec928a9834e9207f0800000000000000
+      internalID: -647781383478433330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181dddcc731566fb0800000000000000
+      internalID: -4654943864738688639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f03cfaf1acf99b0800000000000000
+      internalID: -5071112417954295997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb1760d8f8e9e860800000000000000
+      internalID: 7559829604864039923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00db76c103106f00800000000000000
+      internalID: 1107906406679040015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0f971d5222b1eb0800000000000000
+      internalID: -4748163836308492108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deeb0d12f5527c7d0800000000000000
+      internalID: -2898306744670175507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9556863034c02a60800000000000000
+      internalID: 7647327878627349917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af7d6b7683af81d0800000000000000
+      internalID: -3346276200121270362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7ca2be6887df7b0800000000000000
+      internalID: -5188858674794543109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa58673ce3f40e10800000000000000
+      internalID: 2163121916912098047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf65d5035f2aebd0800000000000000
+      internalID: -2600213801226375254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49057f1851e81d860800000000000000
+      internalID: 7552974273102958740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a81e3eea8c234460800000000000000
+      internalID: 7224667202446563494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991b05dd9118ed170800000000000000
+      internalID: 8205137519202840985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac34b5d1f5f5a1570800000000000000
+      internalID: 8438161713951097802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b722d467a7fa5910800000000000000
+      internalID: 1827044897175250873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c6a61d37c016d60800000000000000
+      internalID: 7881594514449263683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5910f367f2dab23b0800000000000000
+      internalID: -5536140897562984043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b9b802482ad448e0800000000000000
+      internalID: -1710002092052530765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71aa4da75266f34c0800000000000000
+      internalID: -4305610407582324201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02afa1899f0b89210800000000000000
+      internalID: 1340015475187972640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da2841ff6a3a1700800000000000000
+      internalID: 511785760123792080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88de7b10a96c2e60800000000000000
+      internalID: 7938836379524323467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f69f6fb62881e100800000000000000
+      internalID: 135539163799721719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8cd5afa623e1740800000000000000
+      internalID: 5124588861042575598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9268360290cc11f10800000000000000
+      internalID: 2238794829350012457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c989f41c4012800800000000000000
+      internalID: 585754654845475886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3d0af0d2750f490800000000000000
+      internalID: -7714570310638316579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9d35ff4fa5bf130800000000000000
+      internalID: 3601572335315048902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46d6fed746671660800000000000000
+      internalID: 7356460975202424395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df692dff563e6930800000000000000
+      internalID: 4138304893497208785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6d5f752b5348810800000000000000
+      internalID: 1766595993932256964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db09b154fece9580800000000000000
+      internalID: -8818383471606428718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed79dd03209774060800000000000000
+      internalID: 6937646801304262622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc888dae4ff27290800000000000000
+      internalID: -7893966483443118886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aaf4c6033f7a4920800000000000000
+      internalID: 2975330360965266088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3250f4c9c3a763ef0800000000000000
+      internalID: -128781138594429661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3c9569abb232110800000000000000
+      internalID: 1234878803216024499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ac650c10c2b18c0800000000000000
+      internalID: -4027577055719273935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8edc9b15e981e40800000000000000
+      internalID: 5627421808246253800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c91c9c28e9c7fdf0800000000000000
+      internalID: -146426463848228414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7719c2952a13ecf0800000000000000
+      internalID: -224306807759628417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b73f7b180288400800000000000000
+      internalID: 326546714493418328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471fbfca1c93c4f20800000000000000
+      internalID: 3408162522006286708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b688149954bfe31c0800000000000000
+      internalID: -4521900699490875285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eb595ed7f22152e0800000000000000
+      internalID: -2138889900041610267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f470f4061622860800000000000000
+      internalID: 7503666995423301397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a477fe95395d8d0800000000000000
+      internalID: -2822187576998802823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95f71a9e9957c550800000000000000
+      internalID: 6181007551314261406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff9dbd5299aa4cd0800000000000000
+      internalID: -2573057790985789448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ebfd76bf1c895f0800000000000000
+      internalID: -749636052433518984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a242fb8a02ea4030800000000000000
+      internalID: 3479842197022589608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7bb3fc52bceba10800000000000000
+      internalID: 1927201053812176833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64c0818344f2b390800000000000000
+      internalID: -7803906633506962324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71df76eb0dff627a0800000000000000
+      internalID: -6402148548247814889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1b6175c86578090800000000000000
+      internalID: -8032356249635474951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5221e31ebb692a7f0800000000000000
+      internalID: -602753666432232923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c926d79690993bc10800000000000000
+      internalID: 2068164919596769948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2831077f70b1b42b0800000000000000
+      internalID: -5599351990675041406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_attack_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d62cbc3dacc4aeb0800000000000000
+      internalID: -4709414265902324016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      heimerdinger_attack_0: 1686385915825128890
+      heimerdinger_attack_000: -8479040294788054143
+      heimerdinger_attack_001: -7396678265949298361
+      heimerdinger_attack_002: 7648030310488671352
+      heimerdinger_attack_003: -4946838549772225582
+      heimerdinger_attack_004: -7313537832786633184
+      heimerdinger_attack_005: 617521954538008677
+      heimerdinger_attack_006: 9132667761762142528
+      heimerdinger_attack_007: -7374420417242925232
+      heimerdinger_attack_008: -8079564198510913011
+      heimerdinger_attack_009: 22188450666073962
+      heimerdinger_attack_010: 2439721542893135301
+      heimerdinger_attack_011: 2053424171105919535
+      heimerdinger_attack_012: 2785291856913986452
+      heimerdinger_attack_013: 5408106665049677437
+      heimerdinger_attack_014: -3514123866862366370
+      heimerdinger_attack_015: 7203946377012204027
+      heimerdinger_attack_016: -1362056323822153066
+      heimerdinger_attack_017: -6209054814559366334
+      heimerdinger_attack_018: -4274417401665229221
+      heimerdinger_attack_019: -4662208676575317938
+      heimerdinger_attack_020: -3087040743895234246
+      heimerdinger_attack_021: -4420001907137358427
+      heimerdinger_attack_022: -7294159070281179954
+      heimerdinger_attack_023: -4520428383973846202
+      heimerdinger_attack_024: 2216968566065312338
+      heimerdinger_attack_025: 288431055391510082
+      heimerdinger_attack_026: 8003448688719351966
+      heimerdinger_attack_027: -7174955721636643870
+      heimerdinger_attack_028: -1293875417135664391
+      heimerdinger_attack_029: -8834732911106811850
+      heimerdinger_attack_030: 7959628875303161303
+      heimerdinger_attack_031: -3935739875032294540
+      heimerdinger_attack_032: 8056839387153247583
+      heimerdinger_attack_033: 2918167227877013627
+      heimerdinger_attack_034: -5853899643695693171
+      heimerdinger_attack_035: 2226481586869275516
+      heimerdinger_attack_036: 2415217605762177828
+      heimerdinger_attack_037: 8341436642618819365
+      heimerdinger_attack_038: 7995880570403666475
+      heimerdinger_attack_039: 4994203026325728704
+      heimerdinger_attack_040: -1457207120557552520
+      heimerdinger_attack_041: -3832453957183640048
+      heimerdinger_attack_042: -2695650169719761693
+      heimerdinger_attack_043: -2524266520039610342
+      heimerdinger_attack_044: -8373952406469170757
+      heimerdinger_attack_045: -4396631041856860862
+      heimerdinger_attack_046: -6656060032741957986
+      heimerdinger_attack_047: 1001920614534114277
+      heimerdinger_attack_048: -254849167520833152
+      heimerdinger_attack_049: 3180237770646257565
+      heimerdinger_attack_050: 4386068287422194195
+      heimerdinger_attack_051: -7141068254688910881
+      heimerdinger_attack_052: 4469205749369612186
+      heimerdinger_attack_053: 8329538037149515884
+      heimerdinger_attack_054: -8567948262873859297
+      heimerdinger_attack_055: 6324302676209393888
+      heimerdinger_attack_056: 1660684793231039305
+      heimerdinger_attack_057: -1435307905599412393
+      heimerdinger_attack_058: 1820007835370755350
+      heimerdinger_attack_059: -647781383478433330
+      heimerdinger_attack_060: -4654943864738688639
+      heimerdinger_attack_061: -5071112417954295997
+      heimerdinger_attack_062: 7559829604864039923
+      heimerdinger_attack_063: 1107906406679040015
+      heimerdinger_attack_064: -4748163836308492108
+      heimerdinger_attack_065: -2898306744670175507
+      heimerdinger_attack_066: 7647327878627349917
+      heimerdinger_attack_067: -3346276200121270362
+      heimerdinger_attack_068: -5188858674794543109
+      heimerdinger_attack_069: 2163121916912098047
+      heimerdinger_attack_070: -2600213801226375254
+      heimerdinger_attack_071: 7552974273102958740
+      heimerdinger_attack_072: 7224667202446563494
+      heimerdinger_attack_073: 8205137519202840985
+      heimerdinger_attack_074: 8438161713951097802
+      heimerdinger_attack_075: 1827044897175250873
+      heimerdinger_attack_076: 7881594514449263683
+      heimerdinger_attack_077: -5536140897562984043
+      heimerdinger_attack_078: -1710002092052530765
+      heimerdinger_attack_079: -4305610407582324201
+      heimerdinger_attack_080: 1340015475187972640
+      heimerdinger_attack_081: 511785760123792080
+      heimerdinger_attack_082: 7938836379524323467
+      heimerdinger_attack_083: 135539163799721719
+      heimerdinger_attack_084: 5124588861042575598
+      heimerdinger_attack_085: 2238794829350012457
+      heimerdinger_attack_086: 585754654845475886
+      heimerdinger_attack_087: -7714570310638316579
+      heimerdinger_attack_088: 3601572335315048902
+      heimerdinger_attack_089: 7356460975202424395
+      heimerdinger_attack_090: 4138304893497208785
+      heimerdinger_attack_091: 1766595993932256964
+      heimerdinger_attack_092: -8818383471606428718
+      heimerdinger_attack_093: 6937646801304262622
+      heimerdinger_attack_094: -7893966483443118886
+      heimerdinger_attack_095: 2975330360965266088
+      heimerdinger_attack_096: -128781138594429661
+      heimerdinger_attack_097: 1234878803216024499
+      heimerdinger_attack_098: -4027577055719273935
+      heimerdinger_attack_099: 5627421808246253800
+      heimerdinger_attack_1: -5005660104671442489
+      heimerdinger_attack_10: 7780100337746398904
+      heimerdinger_attack_100: -146426463848228414
+      heimerdinger_attack_101: -224306807759628417
+      heimerdinger_attack_102: 326546714493418328
+      heimerdinger_attack_103: 3408162522006286708
+      heimerdinger_attack_104: -4521900699490875285
+      heimerdinger_attack_105: -2138889900041610267
+      heimerdinger_attack_106: 7503666995423301397
+      heimerdinger_attack_107: -2822187576998802823
+      heimerdinger_attack_108: 6181007551314261406
+      heimerdinger_attack_109: -2573057790985789448
+      heimerdinger_attack_11: 4091388396727909119
+      heimerdinger_attack_110: -749636052433518984
+      heimerdinger_attack_111: 3479842197022589608
+      heimerdinger_attack_112: 1927201053812176833
+      heimerdinger_attack_113: -7803906633506962324
+      heimerdinger_attack_114: -6402148548247814889
+      heimerdinger_attack_115: -8032356249635474951
+      heimerdinger_attack_116: -602753666432232923
+      heimerdinger_attack_117: 2068164919596769948
+      heimerdinger_attack_118: -5599351990675041406
+      heimerdinger_attack_119: -4709414265902324016
+      heimerdinger_attack_12: -7475855650046693114
+      heimerdinger_attack_120: -1973024743364344438
+      heimerdinger_attack_121: -2297109915418530699
+      heimerdinger_attack_122: 2982651685123252431
+      heimerdinger_attack_123: 703726613856603150
+      heimerdinger_attack_124: -7824936631050259789
+      heimerdinger_attack_125: 4137344642148283677
+      heimerdinger_attack_126: 4924490806087240473
+      heimerdinger_attack_127: 5504905323058513496
+      heimerdinger_attack_128: -8776157719208486962
+      heimerdinger_attack_129: 8563310768334163767
+      heimerdinger_attack_13: -7392165032168880056
+      heimerdinger_attack_130: 6639499788489500208
+      heimerdinger_attack_131: -6817937266885479554
+      heimerdinger_attack_132: 4465451569412105031
+      heimerdinger_attack_133: -3146001486234935721
+      heimerdinger_attack_134: 3375838812001284333
+      heimerdinger_attack_135: 5845567344722172135
+      heimerdinger_attack_136: 3307204203821948005
+      heimerdinger_attack_137: -5514241344670499403
+      heimerdinger_attack_138: -5053520456689127501
+      heimerdinger_attack_139: 2699826613635347568
+      heimerdinger_attack_14: -1171332964041538097
+      heimerdinger_attack_140: 4740306947750105907
+      heimerdinger_attack_141: -91648040808064472
+      heimerdinger_attack_142: 3839234965004762775
+      heimerdinger_attack_143: 1240489533732266642
+      heimerdinger_attack_144: -6259957359555690992
+      heimerdinger_attack_145: -2491698773424088633
+      heimerdinger_attack_146: -7779532696483691619
+      heimerdinger_attack_147: -1917534707758551396
+      heimerdinger_attack_148: -5403001280765889248
+      heimerdinger_attack_149: -8582873097518680457
+      heimerdinger_attack_15: 4519882451293299128
+      heimerdinger_attack_150: 604773556515915160
+      heimerdinger_attack_16: 8902897051339633972
+      heimerdinger_attack_17: 393908042814501636
+      heimerdinger_attack_18: -4269450829650946556
+      heimerdinger_attack_19: 3218605749608489735
+      heimerdinger_attack_2: -5840086065183994547
+      heimerdinger_attack_20: -4210393724201119337
+      heimerdinger_attack_21: -9192405008163135366
+      heimerdinger_attack_22: 6632532880620273524
+      heimerdinger_attack_23: -1843263282793689684
+      heimerdinger_attack_24: 926918228845232348
+      heimerdinger_attack_25: 4120135483333568220
+      heimerdinger_attack_26: 2018529264724534344
+      heimerdinger_attack_27: 3169165423119833086
+      heimerdinger_attack_28: -950232320108448916
+      heimerdinger_attack_29: 3697972099716545293
+      heimerdinger_attack_3: 2460314048783377889
+      heimerdinger_attack_30: -654711027373194574
+      heimerdinger_attack_31: 6468304780360270842
+      heimerdinger_attack_32: 1191746912057051941
+      heimerdinger_attack_33: 8582084424771411170
+      heimerdinger_attack_34: -7126856055959402673
+      heimerdinger_attack_35: 6519933319739004544
+      heimerdinger_attack_36: 719727227615744578
+      heimerdinger_attack_37: -3312478003661210582
+      heimerdinger_attack_38: 8890417371663859310
+      heimerdinger_attack_39: -2259413620784567520
+      heimerdinger_attack_4: 5026808633577793928
+      heimerdinger_attack_40: 7083754591340757011
+      heimerdinger_attack_41: -5531763727018213193
+      heimerdinger_attack_42: -4802770060952945934
+      heimerdinger_attack_43: 3438866894276636041
+      heimerdinger_attack_44: -3014875650097057512
+      heimerdinger_attack_45: 5936871461322201282
+      heimerdinger_attack_46: -7532333054641684014
+      heimerdinger_attack_47: 2159280741862025860
+      heimerdinger_attack_48: -9030381542966272779
+      heimerdinger_attack_49: 2355196941593918893
+      heimerdinger_attack_5: 3086076417020237924
+      heimerdinger_attack_50: 2698532456136332267
+      heimerdinger_attack_51: -562449268774481379
+      heimerdinger_attack_52: 5370655050928154880
+      heimerdinger_attack_53: -9164337937251230228
+      heimerdinger_attack_54: -3451492426564634713
+      heimerdinger_attack_55: -5489262931543945961
+      heimerdinger_attack_56: -801754957666934351
+      heimerdinger_attack_57: 7326954542324991341
+      heimerdinger_attack_58: -7856411174676212106
+      heimerdinger_attack_59: 5874644492100285688
+      heimerdinger_attack_6: 4428149818672821825
+      heimerdinger_attack_60: -6375233506611577716
+      heimerdinger_attack_61: -838389384879732442
+      heimerdinger_attack_62: 3572976413693915286
+      heimerdinger_attack_63: -6233696063019659692
+      heimerdinger_attack_64: 6514459716043278177
+      heimerdinger_attack_65: 5245681809937323198
+      heimerdinger_attack_66: -4383444976242437751
+      heimerdinger_attack_67: -4007734701412644273
+      heimerdinger_attack_68: -1063651436513876095
+      heimerdinger_attack_69: -6683390710177313229
+      heimerdinger_attack_7: 4044490405797145163
+      heimerdinger_attack_70: -6320260072073685675
+      heimerdinger_attack_71: 7388499532499690021
+      heimerdinger_attack_72: 1196835304366967541
+      heimerdinger_attack_73: 8500760040383007622
+      heimerdinger_attack_74: 7334175536078312247
+      heimerdinger_attack_75: -7823804924427705265
+      heimerdinger_attack_76: 7006007902249396268
+      heimerdinger_attack_77: -3843666293445425891
+      heimerdinger_attack_78: 1604727468816800383
+      heimerdinger_attack_79: 8998399683760974585
+      heimerdinger_attack_8: -4581502700232643911
+      heimerdinger_attack_80: -3616019249002847975
+      heimerdinger_attack_81: 3249452628529915910
+      heimerdinger_attack_82: 2914182825401410260
+      heimerdinger_attack_83: -1805263499968491198
+      heimerdinger_attack_84: 6134599090365059873
+      heimerdinger_attack_85: -5519980259331106408
+      heimerdinger_attack_86: 1330026156815339429
+      heimerdinger_attack_87: -4981821849537494958
+      heimerdinger_attack_88: -5157365858898531774
+      heimerdinger_attack_89: 7566634466955838497
+      heimerdinger_attack_9: -1548502852223223692
+      heimerdinger_attack_90: 8742436969105890053
+      heimerdinger_attack_91: 7549588867926934870
+      heimerdinger_attack_92: -7484319962362875376
+      heimerdinger_attack_93: -2754911113012625996
+      heimerdinger_attack_94: 8389511741965416556
+      heimerdinger_attack_95: -3583548800392560629
+      heimerdinger_attack_96: 6016879119187273202
+      heimerdinger_attack_97: 5110565430985155855
+      heimerdinger_attack_98: -204789104059701363
+      heimerdinger_attack_99: 6319679462870297623
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

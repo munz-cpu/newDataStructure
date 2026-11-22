@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 81b1c8ea1ee0d5d4c855db9f815b7378
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5503566464716491162
+    second: soraka_walk_0
+  - first:
+      213: -2224433058771257176
+    second: soraka_walk_1
+  - first:
+      213: -5577735148358563871
+    second: soraka_walk_2
+  - first:
+      213: 2192565456739364385
+    second: soraka_walk_3
+  - first:
+      213: -8417642287904285335
+    second: soraka_walk_4
+  - first:
+      213: -3052601127963355686
+    second: soraka_walk_5
+  - first:
+      213: 4719728965820122884
+    second: soraka_walk_6
+  - first:
+      213: -1752938867918529064
+    second: soraka_walk_7
+  - first:
+      213: -7510710814109906925
+    second: soraka_walk_8
+  - first:
+      213: -8386939812086412796
+    second: soraka_walk_9
+  - first:
+      213: 5991886554825150470
+    second: soraka_walk_10
+  - first:
+      213: 7525489391184230722
+    second: soraka_walk_11
+  - first:
+      213: -6217716595589004281
+    second: soraka_walk_12
+  - first:
+      213: -8898447193891052039
+    second: soraka_walk_13
+  - first:
+      213: 277049121507372385
+    second: soraka_walk_14
+  - first:
+      213: 1390844354161029531
+    second: soraka_walk_15
+  - first:
+      213: -4292461262343074245
+    second: soraka_walk_16
+  - first:
+      213: 8317538337012856205
+    second: soraka_walk_17
+  - first:
+      213: -6096286045561913759
+    second: soraka_walk_18
+  - first:
+      213: 135259284441021528
+    second: soraka_walk_19
+  - first:
+      213: -6108235629462681608
+    second: soraka_walk_20
+  - first:
+      213: -63066319735613236
+    second: soraka_walk_21
+  - first:
+      213: 7682052749945349671
+    second: soraka_walk_22
+  - first:
+      213: -8636412762109490714
+    second: soraka_walk_23
+  - first:
+      213: -8924579311961457139
+    second: soraka_walk_24
+  - first:
+      213: 2123115433518346911
+    second: soraka_walk_25
+  - first:
+      213: -6502682163995042676
+    second: soraka_walk_26
+  - first:
+      213: -7648499742316333187
+    second: soraka_walk_27
+  - first:
+      213: -4202120825114623902
+    second: soraka_walk_28
+  - first:
+      213: 3219432079235906472
+    second: soraka_walk_29
+  - first:
+      213: -293054810059650178
+    second: soraka_walk_30
+  - first:
+      213: 1207399694363811380
+    second: soraka_walk_31
+  - first:
+      213: -7708535997746672248
+    second: soraka_walk_32
+  - first:
+      213: 7884735663152890720
+    second: soraka_walk_33
+  - first:
+      213: -7068056892280078353
+    second: soraka_walk_34
+  - first:
+      213: 5297850876002222740
+    second: soraka_walk_35
+  - first:
+      213: 5851679936017298835
+    second: soraka_walk_36
+  - first:
+      213: 492207341030800727
+    second: soraka_walk_37
+  - first:
+      213: 6183431986817294285
+    second: soraka_walk_38
+  - first:
+      213: -8498526054151318148
+    second: soraka_walk_39
+  - first:
+      213: 4563737144881153892
+    second: soraka_walk_40
+  - first:
+      213: 7493992578742881154
+    second: soraka_walk_41
+  - first:
+      213: -3957765504691052168
+    second: soraka_walk_42
+  - first:
+      213: 4709436520038977943
+    second: soraka_walk_43
+  - first:
+      213: -2476603922012575843
+    second: soraka_walk_44
+  - first:
+      213: 4347709994032247828
+    second: soraka_walk_45
+  - first:
+      213: 2895962265966819747
+    second: soraka_walk_46
+  - first:
+      213: -5053340457968421556
+    second: soraka_walk_47
+  - first:
+      213: -5086951569918531448
+    second: soraka_walk_48
+  - first:
+      213: -1067871157330371303
+    second: soraka_walk_49
+  - first:
+      213: -2761276491369575252
+    second: soraka_walk_50
+  - first:
+      213: -404957141561626934
+    second: soraka_walk_51
+  - first:
+      213: 9086989525518893552
+    second: soraka_walk_52
+  - first:
+      213: -5466740543014550707
+    second: soraka_walk_53
+  - first:
+      213: 4007085277195601041
+    second: soraka_walk_54
+  - first:
+      213: 8589553425757687926
+    second: soraka_walk_55
+  - first:
+      213: -2143904984495759949
+    second: soraka_walk_56
+  - first:
+      213: -4298964954504455
+    second: soraka_walk_57
+  - first:
+      213: -7028145151993854330
+    second: soraka_walk_58
+  - first:
+      213: -5292199379137274299
+    second: soraka_walk_59
+  - first:
+      213: -8900901641114748612
+    second: soraka_walk_60
+  - first:
+      213: 6589581622345561901
+    second: soraka_walk_61
+  - first:
+      213: -7400065150573677519
+    second: soraka_walk_62
+  - first:
+      213: 5727354109477554255
+    second: soraka_walk_63
+  - first:
+      213: -5293245846922537812
+    second: soraka_walk_64
+  - first:
+      213: 1086615815931085170
+    second: soraka_walk_65
+  - first:
+      213: -9142992660839223626
+    second: soraka_walk_66
+  - first:
+      213: 6035493535736393798
+    second: soraka_walk_67
+  - first:
+      213: -746175481113983791
+    second: soraka_walk_68
+  - first:
+      213: -8640842173730414782
+    second: soraka_walk_69
+  - first:
+      213: -7421105316874680462
+    second: soraka_walk_70
+  - first:
+      213: -8368929547549211924
+    second: soraka_walk_71
+  - first:
+      213: 3987369885335281282
+    second: soraka_walk_72
+  - first:
+      213: -4934114851331797924
+    second: soraka_walk_73
+  - first:
+      213: 4621204753999106346
+    second: soraka_walk_74
+  - first:
+      213: -8026321581396505876
+    second: soraka_walk_75
+  - first:
+      213: 4577721679602226063
+    second: soraka_walk_76
+  - first:
+      213: 8046418127185994235
+    second: soraka_walk_77
+  - first:
+      213: -5440398376938235584
+    second: soraka_walk_78
+  - first:
+      213: -4610351929402149043
+    second: soraka_walk_79
+  - first:
+      213: 2474009972905720638
+    second: soraka_walk_80
+  - first:
+      213: 7335629534551519298
+    second: soraka_walk_81
+  - first:
+      213: -6536546915789341669
+    second: soraka_walk_82
+  - first:
+      213: -5275585512918928153
+    second: soraka_walk_83
+  - first:
+      213: 1216723775674241130
+    second: soraka_walk_84
+  - first:
+      213: -4632715990695942719
+    second: soraka_walk_85
+  - first:
+      213: 2913433523432811409
+    second: soraka_walk_86
+  - first:
+      213: 4975584762484103254
+    second: soraka_walk_87
+  - first:
+      213: 4568574875335136319
+    second: soraka_walk_88
+  - first:
+      213: -7026278633704386963
+    second: soraka_walk_89
+  - first:
+      213: -4387790782983118280
+    second: soraka_walk_90
+  - first:
+      213: -3508589816982039847
+    second: soraka_walk_91
+  - first:
+      213: 1730212132902365538
+    second: soraka_walk_92
+  - first:
+      213: 8464411329943709999
+    second: soraka_walk_93
+  - first:
+      213: -8005251103783326815
+    second: soraka_walk_94
+  - first:
+      213: -4459625293631243028
+    second: soraka_walk_95
+  - first:
+      213: 5344844910356962452
+    second: soraka_walk_96
+  - first:
+      213: -5865937990503047356
+    second: soraka_walk_97
+  - first:
+      213: 1701507237905987943
+    second: soraka_walk_98
+  - first:
+      213: 1301751689671842888
+    second: soraka_walk_99
+  - first:
+      213: -692330336593831473
+    second: soraka_walk_100
+  - first:
+      213: -3295443125465143033
+    second: soraka_walk_101
+  - first:
+      213: 6941451379105324773
+    second: soraka_walk_102
+  - first:
+      213: 5452977505367776498
+    second: soraka_walk_103
+  - first:
+      213: -4198397612843947627
+    second: soraka_walk_104
+  - first:
+      213: 4349344037657833265
+    second: soraka_walk_105
+  - first:
+      213: -3050135347615011241
+    second: soraka_walk_106
+  - first:
+      213: -3973834741166153620
+    second: soraka_walk_107
+  - first:
+      213: 7667615485651896227
+    second: soraka_walk_108
+  - first:
+      213: 1973100978031621288
+    second: soraka_walk_109
+  - first:
+      213: 1578722757938131339
+    second: soraka_walk_110
+  - first:
+      213: 4096000335694365949
+    second: soraka_walk_111
+  - first:
+      213: -5168049685999011173
+    second: soraka_walk_112
+  - first:
+      213: -3815616087823627922
+    second: soraka_walk_113
+  - first:
+      213: -6743692248813777784
+    second: soraka_walk_114
+  - first:
+      213: 1650116771477784494
+    second: soraka_walk_115
+  - first:
+      213: -7388556988915538516
+    second: soraka_walk_116
+  - first:
+      213: 4693135805436362058
+    second: soraka_walk_117
+  - first:
+      213: 7312869156884630387
+    second: soraka_walk_118
+  - first:
+      213: 7831791067788649490
+    second: soraka_walk_119
+  - first:
+      213: 3530711625188329645
+    second: soraka_walk_000
+  - first:
+      213: 6564340033019656035
+    second: soraka_walk_001
+  - first:
+      213: 1353504805057003992
+    second: soraka_walk_002
+  - first:
+      213: -6493532976248785822
+    second: soraka_walk_003
+  - first:
+      213: -6466751850785494860
+    second: soraka_walk_004
+  - first:
+      213: -2491249790864165945
+    second: soraka_walk_005
+  - first:
+      213: 3266422144856688382
+    second: soraka_walk_006
+  - first:
+      213: -771862591645407689
+    second: soraka_walk_007
+  - first:
+      213: -2439832374958256798
+    second: soraka_walk_008
+  - first:
+      213: -5786063910016564211
+    second: soraka_walk_009
+  - first:
+      213: 3391491365792594658
+    second: soraka_walk_010
+  - first:
+      213: 1276153124883450410
+    second: soraka_walk_011
+  - first:
+      213: 7420978727189787564
+    second: soraka_walk_012
+  - first:
+      213: -8780784232890121502
+    second: soraka_walk_013
+  - first:
+      213: -1618000976598448307
+    second: soraka_walk_014
+  - first:
+      213: 8032435821581008787
+    second: soraka_walk_015
+  - first:
+      213: -22075333613168828
+    second: soraka_walk_016
+  - first:
+      213: -105850518544959257
+    second: soraka_walk_017
+  - first:
+      213: 1393722023098464231
+    second: soraka_walk_018
+  - first:
+      213: 7693118999759943467
+    second: soraka_walk_019
+  - first:
+      213: 7453771681988791750
+    second: soraka_walk_020
+  - first:
+      213: 1375697642449322521
+    second: soraka_walk_021
+  - first:
+      213: 9070077551361878764
+    second: soraka_walk_022
+  - first:
+      213: -328713256438163392
+    second: soraka_walk_023
+  - first:
+      213: -3764174847795469120
+    second: soraka_walk_024
+  - first:
+      213: 203363348008761984
+    second: soraka_walk_025
+  - first:
+      213: 770800877437593907
+    second: soraka_walk_026
+  - first:
+      213: 1748064776382614115
+    second: soraka_walk_027
+  - first:
+      213: 677312573432608775
+    second: soraka_walk_028
+  - first:
+      213: -279113629123423393
+    second: soraka_walk_029
+  - first:
+      213: 3860436693210822689
+    second: soraka_walk_030
+  - first:
+      213: -8972031301125027074
+    second: soraka_walk_031
+  - first:
+      213: -8189457557155424814
+    second: soraka_walk_032
+  - first:
+      213: 2734286758163874822
+    second: soraka_walk_033
+  - first:
+      213: 5258988111736069992
+    second: soraka_walk_034
+  - first:
+      213: -3893046643283933451
+    second: soraka_walk_035
+  - first:
+      213: -2467583552233683968
+    second: soraka_walk_036
+  - first:
+      213: 2902749921745268027
+    second: soraka_walk_037
+  - first:
+      213: -467579911819010321
+    second: soraka_walk_038
+  - first:
+      213: -2639421112502547331
+    second: soraka_walk_039
+  - first:
+      213: 1754041647482825406
+    second: soraka_walk_040
+  - first:
+      213: -5785631391294517941
+    second: soraka_walk_041
+  - first:
+      213: -6421434154809694135
+    second: soraka_walk_042
+  - first:
+      213: 1911826089023888693
+    second: soraka_walk_043
+  - first:
+      213: 50897209187665116
+    second: soraka_walk_044
+  - first:
+      213: -1598426182654933837
+    second: soraka_walk_045
+  - first:
+      213: -1990682460060256790
+    second: soraka_walk_046
+  - first:
+      213: -1456198194716714689
+    second: soraka_walk_047
+  - first:
+      213: -68406889187442387
+    second: soraka_walk_048
+  - first:
+      213: -512067961918385959
+    second: soraka_walk_049
+  - first:
+      213: -5890464042327254717
+    second: soraka_walk_050
+  - first:
+      213: 784878677325665297
+    second: soraka_walk_051
+  - first:
+      213: 3292545474231043315
+    second: soraka_walk_052
+  - first:
+      213: -7992666786625177204
+    second: soraka_walk_053
+  - first:
+      213: -2649368601358976189
+    second: soraka_walk_054
+  - first:
+      213: 3152040193114862026
+    second: soraka_walk_055
+  - first:
+      213: -8115860180411777239
+    second: soraka_walk_056
+  - first:
+      213: -7829258737780863416
+    second: soraka_walk_057
+  - first:
+      213: -8411713684413654345
+    second: soraka_walk_058
+  - first:
+      213: -6589226412649021393
+    second: soraka_walk_059
+  - first:
+      213: -4881968517780959355
+    second: soraka_walk_060
+  - first:
+      213: 3060021868199887339
+    second: soraka_walk_061
+  - first:
+      213: -8516218573360698865
+    second: soraka_walk_062
+  - first:
+      213: -290006857609230516
+    second: soraka_walk_063
+  - first:
+      213: 6253888403735364143
+    second: soraka_walk_064
+  - first:
+      213: -83892839385424277
+    second: soraka_walk_065
+  - first:
+      213: 7409933647241032920
+    second: soraka_walk_066
+  - first:
+      213: -4776122926034482044
+    second: soraka_walk_067
+  - first:
+      213: -3735412986667110593
+    second: soraka_walk_068
+  - first:
+      213: -1760611016161302545
+    second: soraka_walk_069
+  - first:
+      213: -5116813390713299829
+    second: soraka_walk_070
+  - first:
+      213: -4562322920289848875
+    second: soraka_walk_071
+  - first:
+      213: -1805129643691253129
+    second: soraka_walk_072
+  - first:
+      213: 8487752090447987795
+    second: soraka_walk_073
+  - first:
+      213: 8174675490523747442
+    second: soraka_walk_074
+  - first:
+      213: -8599822441231628062
+    second: soraka_walk_075
+  - first:
+      213: -4711604115040694817
+    second: soraka_walk_076
+  - first:
+      213: -3546854703257025308
+    second: soraka_walk_077
+  - first:
+      213: -60927492402004536
+    second: soraka_walk_078
+  - first:
+      213: 3328005671147753513
+    second: soraka_walk_079
+  - first:
+      213: 9207396302534128367
+    second: soraka_walk_080
+  - first:
+      213: 5402124139998666153
+    second: soraka_walk_081
+  - first:
+      213: -3634465130688977401
+    second: soraka_walk_082
+  - first:
+      213: -5693840330063784570
+    second: soraka_walk_083
+  - first:
+      213: 3257511493131925027
+    second: soraka_walk_084
+  - first:
+      213: 2096380986756562455
+    second: soraka_walk_085
+  - first:
+      213: -2113815353569079332
+    second: soraka_walk_086
+  - first:
+      213: 6369995469721011656
+    second: soraka_walk_087
+  - first:
+      213: 9069090078538004944
+    second: soraka_walk_088
+  - first:
+      213: -6541053777327374091
+    second: soraka_walk_089
+  - first:
+      213: -6745704301629899334
+    second: soraka_walk_090
+  - first:
+      213: 2332507173399283436
+    second: soraka_walk_091
+  - first:
+      213: -1134460574072919126
+    second: soraka_walk_092
+  - first:
+      213: -6502886634097115392
+    second: soraka_walk_093
+  - first:
+      213: 7370513999678425757
+    second: soraka_walk_094
+  - first:
+      213: -1968645889461213411
+    second: soraka_walk_095
+  - first:
+      213: 2243819581900870761
+    second: soraka_walk_096
+  - first:
+      213: -3371321221140793355
+    second: soraka_walk_097
+  - first:
+      213: -6591875301789543915
+    second: soraka_walk_098
+  - first:
+      213: -6573653128387183622
+    second: soraka_walk_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: soraka_walk_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da841bf348b9ff030800000000000000
+      internalID: 3530711625188329645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367330d0b78391b50800000000000000
+      internalID: 6564340033019656035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d10533f27d98c210800000000000000
+      internalID: 1353504805057003992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264f76d892652e5a0800000000000000
+      internalID: -6493532976248785822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8a45b347b7146a0800000000000000
+      internalID: -6466751850785494860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c376c0b38d4d6dd0800000000000000
+      internalID: -2491249790864165945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef607ae62a9a45d20800000000000000
+      internalID: 3266422144856688382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7362099ff0bc945f0800000000000000
+      internalID: -771862591645407689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d8d1bb169f32ed0800000000000000
+      internalID: -2439832374958256798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0441cb9785c3bfa0800000000000000
+      internalID: -5786063910016564211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea3fd4ad6ff01f20800000000000000
+      internalID: 3391491365792594658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2acea7718ec5b110800000000000000
+      internalID: 1276153124883450410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3b0e795dc9cf660800000000000000
+      internalID: 7420978727189787564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2cb354343642680800000000000000
+      internalID: -8780784232890121502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d474d9f2fa4bb89e0800000000000000
+      internalID: -1618000976598448307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f757272d1f87f60800000000000000
+      internalID: 8032435821581008787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44750bdd99291bff0800000000000000
+      internalID: -22075333613168828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e836d2a381f78ef0800000000000000
+      internalID: -105850518544959257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e73c66bbce775310800000000000000
+      internalID: 1393722023098464231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27ff7b68f273ca60800000000000000
+      internalID: 7693118999759943467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cdcecd5add117760800000000000000
+      internalID: 7453771681988791750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912c88097b5771310800000000000000
+      internalID: 1375697642449322521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea6b264a736fdd70800000000000000
+      internalID: 9070077551361878764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0489a0de80d207bf0800000000000000
+      internalID: -328713256438163392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4e0bc5be6f2cbc0800000000000000
+      internalID: -3764174847795469120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a756633ed72d200800000000000000
+      internalID: 203363348008761984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3392a3c605f62ba00800000000000000
+      internalID: 770800877437593907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a88a807af524810800000000000000
+      internalID: 1748064776382614115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7083b5d623c466900800000000000000
+      internalID: 677312573432608775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f53d02412a3602cf0800000000000000
+      internalID: -279113629123423393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128f6b018b6039530800000000000000
+      internalID: 3860436693210822689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efac1c64111fc7380800000000000000
+      internalID: -8972031301125027074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5dc9acdb3395e80800000000000000
+      internalID: -8189457557155424814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6048966d15322f520800000000000000
+      internalID: 2734286758163874822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fd70603ddabf840800000000000000
+      internalID: 5258988111736069992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6c80544be19f9c0800000000000000
+      internalID: -3893046643283933451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004c38345d161cdd0800000000000000
+      internalID: -2467583552233683968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d6b65aca3a84820800000000000000
+      internalID: 2902749921745268027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee5beb2c82d289f0800000000000000
+      internalID: -467579911819010321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c8e908b74ee5bd0800000000000000
+      internalID: -2639421112502547331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba6477c59b975810800000000000000
+      internalID: 1754041647482825406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4d8a8837ee45bfa0800000000000000
+      internalID: -5785631391294517941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948e10e88ab72e6a0800000000000000
+      internalID: -6421434154809694135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53dd79cd2bb288a10800000000000000
+      internalID: 1911826089023888693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd480b9fdb2d4b000800000000000000
+      internalID: 50897209187665116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b44b2f0bdf31d9e0800000000000000
+      internalID: -1598426182654933837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5f18389dcaf54e0800000000000000
+      internalID: -1990682460060256790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f395859057b8acbe0800000000000000
+      internalID: -1456198194716714689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d210bc5fb48fc0ff0800000000000000
+      internalID: -68406889187442387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d01ff4d6e4c4e8f0800000000000000
+      internalID: -512067961918385959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3495fda992ed04ea0800000000000000
+      internalID: -5890464042327254717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11456c1aff274ea00800000000000000
+      internalID: 784878677325665297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f48c560aa871bd20800000000000000
+      internalID: 3292545474231043315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89b42f87e7541190800000000000000
+      internalID: -7992666786625177204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bbce44b4d8b3bd0800000000000000
+      internalID: -2649368601358976189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac17d5cfadb4ebb20800000000000000
+      internalID: 3152040193114862026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f71d36a2cae5f80800000000000000
+      internalID: -8115860180411777239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ec2ffb8a2e85390800000000000000
+      internalID: -7829258737780863416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba5b30a8f6934b80800000000000000
+      internalID: -8411713684413654345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f200f692d7d5e84a0800000000000000
+      internalID: -6589226412649021393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f8605bf73cf3cb0800000000000000
+      internalID: -4881968517780959355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be14bfa2da1677a20800000000000000
+      internalID: 3060021868199887339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a6041145050d980800000000000000
+      internalID: -8516218573360698865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4746cdac40b9fbf0800000000000000
+      internalID: -290006857609230516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22c4916e564ac650800000000000000
+      internalID: 6253888403735364143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e9b3538e3f5def0800000000000000
+      internalID: -83892839385424277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d43405846f55d660800000000000000
+      internalID: 7409933647241032920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c8d16f08dc7bdb0800000000000000
+      internalID: -4776122926034482044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f63500ea5292cc0800000000000000
+      internalID: -3735412986667110593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7e012eb9d0197e0800000000000000
+      internalID: -1760611016161302545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c5298c45d6df8b0800000000000000
+      internalID: -5116813390713299829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d13089e97f5fa0c0800000000000000
+      internalID: -4562322920289848875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 772614e2724e2f6e0800000000000000
+      internalID: -1805129643691253129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3544bb46e8d8ac570800000000000000
+      internalID: 8487752090447987795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27492ce1c08427170800000000000000
+      internalID: 8174675490523747442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8c4f2bd0b47a880800000000000000
+      internalID: -8599822441231628062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd0bb045050d9eb0800000000000000
+      internalID: -4711604115040694817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4017e707a07cec0800000000000000
+      internalID: -3546854703257025308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdb25ab4ca872ff0800000000000000
+      internalID: -60927492402004536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9205f3f76837f2e20800000000000000
+      internalID: 3328005671147753513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2bace772e37cf70800000000000000
+      internalID: 9207396302534128367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9adde2d984338fa40800000000000000
+      internalID: 5402124139998666153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7066db84839cf8dc0800000000000000
+      internalID: -3634465130688977401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68551c6136a6bf0b0800000000000000
+      internalID: -5693840330063784570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32671e7a171053d20800000000000000
+      internalID: 3257511493131925027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ef18d7667d71d10800000000000000
+      internalID: 2096380986756562455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf8fb9a2283aa2e0800000000000000
+      internalID: -2113815353569079332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c581994125c66850800000000000000
+      internalID: 6369995469721011656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9f6475061ebdd70800000000000000
+      internalID: 9069090078538004944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0cca9de328935a0800000000000000
+      internalID: -6541053777327374091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd768d8da17262a0800000000000000
+      internalID: -6745704301629899334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6c3828aeabe5020800000000000000
+      internalID: 2332507173399283436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaba2b65e169140f0800000000000000
+      internalID: -1134460574072919126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f71006f0b11c5a0800000000000000
+      internalID: -6502886634097115392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a40ea9e63594660800000000000000
+      internalID: 7370513999678425757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17a12e6ef6fda4e0800000000000000
+      internalID: -1968645889461213411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964544f7506a32f10800000000000000
+      internalID: 2243819581900870761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7ba2e1639a631d0800000000000000
+      internalID: -3371321221140793355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512d9299654f484a0800000000000000
+      internalID: -6591875301789543915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afbb8d5fe41b5c4a0800000000000000
+      internalID: -6573653128387183622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9191c1a395466f0800000000000000
+      internalID: -692330336593831473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709a529ffeb3442d0800000000000000
+      internalID: -3295443125465143033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eed73d704df45060800000000000000
+      internalID: 6941451379105324773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc54a7662edcab40800000000000000
+      internalID: 5452977505367776498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599a69c7d9b4cb5c0800000000000000
+      internalID: -4198397612843947627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fee82cb59fb5c30800000000000000
+      internalID: 4349344037657833265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e6b88cf0ebba5d0800000000000000
+      internalID: -3050135347615011241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c606fa07b5a1ad8c0800000000000000
+      internalID: -3973834741166153620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7c090d8a7d86a60800000000000000
+      internalID: 7667615485651896227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4fc85b2ecd16b10800000000000000
+      internalID: 1973100978031621288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b813ab1ebffb8e510800000000000000
+      internalID: 1578722757938131339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df481f09a9ae7d830800000000000000
+      internalID: 4096000335694365949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ab57c21366748b0800000000000000
+      internalID: -5168049685999011173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e69c10652653c0bc0800000000000000
+      internalID: -3815616087823627922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c46ea11a79962a0800000000000000
+      internalID: -6743692248813777784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea709d1067466e610800000000000000
+      internalID: 1650116771477784494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5a5f89092967990800000000000000
+      internalID: -7388556988915538516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4d73b5562e512140800000000000000
+      internalID: 4693135805436362058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37bc401c0c78c7560800000000000000
+      internalID: 7312869156884630387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_walk_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214ae964b7c10bc60800000000000000
+      internalID: 7831791067788649490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      soraka_walk_0: -5503566464716491162
+      soraka_walk_000: 3530711625188329645
+      soraka_walk_001: 6564340033019656035
+      soraka_walk_002: 1353504805057003992
+      soraka_walk_003: -6493532976248785822
+      soraka_walk_004: -6466751850785494860
+      soraka_walk_005: -2491249790864165945
+      soraka_walk_006: 3266422144856688382
+      soraka_walk_007: -771862591645407689
+      soraka_walk_008: -2439832374958256798
+      soraka_walk_009: -5786063910016564211
+      soraka_walk_010: 3391491365792594658
+      soraka_walk_011: 1276153124883450410
+      soraka_walk_012: 7420978727189787564
+      soraka_walk_013: -8780784232890121502
+      soraka_walk_014: -1618000976598448307
+      soraka_walk_015: 8032435821581008787
+      soraka_walk_016: -22075333613168828
+      soraka_walk_017: -105850518544959257
+      soraka_walk_018: 1393722023098464231
+      soraka_walk_019: 7693118999759943467
+      soraka_walk_020: 7453771681988791750
+      soraka_walk_021: 1375697642449322521
+      soraka_walk_022: 9070077551361878764
+      soraka_walk_023: -328713256438163392
+      soraka_walk_024: -3764174847795469120
+      soraka_walk_025: 203363348008761984
+      soraka_walk_026: 770800877437593907
+      soraka_walk_027: 1748064776382614115
+      soraka_walk_028: 677312573432608775
+      soraka_walk_029: -279113629123423393
+      soraka_walk_030: 3860436693210822689
+      soraka_walk_031: -8972031301125027074
+      soraka_walk_032: -8189457557155424814
+      soraka_walk_033: 2734286758163874822
+      soraka_walk_034: 5258988111736069992
+      soraka_walk_035: -3893046643283933451
+      soraka_walk_036: -2467583552233683968
+      soraka_walk_037: 2902749921745268027
+      soraka_walk_038: -467579911819010321
+      soraka_walk_039: -2639421112502547331
+      soraka_walk_040: 1754041647482825406
+      soraka_walk_041: -5785631391294517941
+      soraka_walk_042: -6421434154809694135
+      soraka_walk_043: 1911826089023888693
+      soraka_walk_044: 50897209187665116
+      soraka_walk_045: -1598426182654933837
+      soraka_walk_046: -1990682460060256790
+      soraka_walk_047: -1456198194716714689
+      soraka_walk_048: -68406889187442387
+      soraka_walk_049: -512067961918385959
+      soraka_walk_050: -5890464042327254717
+      soraka_walk_051: 784878677325665297
+      soraka_walk_052: 3292545474231043315
+      soraka_walk_053: -7992666786625177204
+      soraka_walk_054: -2649368601358976189
+      soraka_walk_055: 3152040193114862026
+      soraka_walk_056: -8115860180411777239
+      soraka_walk_057: -7829258737780863416
+      soraka_walk_058: -8411713684413654345
+      soraka_walk_059: -6589226412649021393
+      soraka_walk_060: -4881968517780959355
+      soraka_walk_061: 3060021868199887339
+      soraka_walk_062: -8516218573360698865
+      soraka_walk_063: -290006857609230516
+      soraka_walk_064: 6253888403735364143
+      soraka_walk_065: -83892839385424277
+      soraka_walk_066: 7409933647241032920
+      soraka_walk_067: -4776122926034482044
+      soraka_walk_068: -3735412986667110593
+      soraka_walk_069: -1760611016161302545
+      soraka_walk_070: -5116813390713299829
+      soraka_walk_071: -4562322920289848875
+      soraka_walk_072: -1805129643691253129
+      soraka_walk_073: 8487752090447987795
+      soraka_walk_074: 8174675490523747442
+      soraka_walk_075: -8599822441231628062
+      soraka_walk_076: -4711604115040694817
+      soraka_walk_077: -3546854703257025308
+      soraka_walk_078: -60927492402004536
+      soraka_walk_079: 3328005671147753513
+      soraka_walk_080: 9207396302534128367
+      soraka_walk_081: 5402124139998666153
+      soraka_walk_082: -3634465130688977401
+      soraka_walk_083: -5693840330063784570
+      soraka_walk_084: 3257511493131925027
+      soraka_walk_085: 2096380986756562455
+      soraka_walk_086: -2113815353569079332
+      soraka_walk_087: 6369995469721011656
+      soraka_walk_088: 9069090078538004944
+      soraka_walk_089: -6541053777327374091
+      soraka_walk_090: -6745704301629899334
+      soraka_walk_091: 2332507173399283436
+      soraka_walk_092: -1134460574072919126
+      soraka_walk_093: -6502886634097115392
+      soraka_walk_094: 7370513999678425757
+      soraka_walk_095: -1968645889461213411
+      soraka_walk_096: 2243819581900870761
+      soraka_walk_097: -3371321221140793355
+      soraka_walk_098: -6591875301789543915
+      soraka_walk_099: -6573653128387183622
+      soraka_walk_1: -2224433058771257176
+      soraka_walk_10: 5991886554825150470
+      soraka_walk_100: -692330336593831473
+      soraka_walk_101: -3295443125465143033
+      soraka_walk_102: 6941451379105324773
+      soraka_walk_103: 5452977505367776498
+      soraka_walk_104: -4198397612843947627
+      soraka_walk_105: 4349344037657833265
+      soraka_walk_106: -3050135347615011241
+      soraka_walk_107: -3973834741166153620
+      soraka_walk_108: 7667615485651896227
+      soraka_walk_109: 1973100978031621288
+      soraka_walk_11: 7525489391184230722
+      soraka_walk_110: 1578722757938131339
+      soraka_walk_111: 4096000335694365949
+      soraka_walk_112: -5168049685999011173
+      soraka_walk_113: -3815616087823627922
+      soraka_walk_114: -6743692248813777784
+      soraka_walk_115: 1650116771477784494
+      soraka_walk_116: -7388556988915538516
+      soraka_walk_117: 4693135805436362058
+      soraka_walk_118: 7312869156884630387
+      soraka_walk_119: 7831791067788649490
+      soraka_walk_12: -6217716595589004281
+      soraka_walk_13: -8898447193891052039
+      soraka_walk_14: 277049121507372385
+      soraka_walk_15: 1390844354161029531
+      soraka_walk_16: -4292461262343074245
+      soraka_walk_17: 8317538337012856205
+      soraka_walk_18: -6096286045561913759
+      soraka_walk_19: 135259284441021528
+      soraka_walk_2: -5577735148358563871
+      soraka_walk_20: -6108235629462681608
+      soraka_walk_21: -63066319735613236
+      soraka_walk_22: 7682052749945349671
+      soraka_walk_23: -8636412762109490714
+      soraka_walk_24: -8924579311961457139
+      soraka_walk_25: 2123115433518346911
+      soraka_walk_26: -6502682163995042676
+      soraka_walk_27: -7648499742316333187
+      soraka_walk_28: -4202120825114623902
+      soraka_walk_29: 3219432079235906472
+      soraka_walk_3: 2192565456739364385
+      soraka_walk_30: -293054810059650178
+      soraka_walk_31: 1207399694363811380
+      soraka_walk_32: -7708535997746672248
+      soraka_walk_33: 7884735663152890720
+      soraka_walk_34: -7068056892280078353
+      soraka_walk_35: 5297850876002222740
+      soraka_walk_36: 5851679936017298835
+      soraka_walk_37: 492207341030800727
+      soraka_walk_38: 6183431986817294285
+      soraka_walk_39: -8498526054151318148
+      soraka_walk_4: -8417642287904285335
+      soraka_walk_40: 4563737144881153892
+      soraka_walk_41: 7493992578742881154
+      soraka_walk_42: -3957765504691052168
+      soraka_walk_43: 4709436520038977943
+      soraka_walk_44: -2476603922012575843
+      soraka_walk_45: 4347709994032247828
+      soraka_walk_46: 2895962265966819747
+      soraka_walk_47: -5053340457968421556
+      soraka_walk_48: -5086951569918531448
+      soraka_walk_49: -1067871157330371303
+      soraka_walk_5: -3052601127963355686
+      soraka_walk_50: -2761276491369575252
+      soraka_walk_51: -404957141561626934
+      soraka_walk_52: 9086989525518893552
+      soraka_walk_53: -5466740543014550707
+      soraka_walk_54: 4007085277195601041
+      soraka_walk_55: 8589553425757687926
+      soraka_walk_56: -2143904984495759949
+      soraka_walk_57: -4298964954504455
+      soraka_walk_58: -7028145151993854330
+      soraka_walk_59: -5292199379137274299
+      soraka_walk_6: 4719728965820122884
+      soraka_walk_60: -8900901641114748612
+      soraka_walk_61: 6589581622345561901
+      soraka_walk_62: -7400065150573677519
+      soraka_walk_63: 5727354109477554255
+      soraka_walk_64: -5293245846922537812
+      soraka_walk_65: 1086615815931085170
+      soraka_walk_66: -9142992660839223626
+      soraka_walk_67: 6035493535736393798
+      soraka_walk_68: -746175481113983791
+      soraka_walk_69: -8640842173730414782
+      soraka_walk_7: -1752938867918529064
+      soraka_walk_70: -7421105316874680462
+      soraka_walk_71: -8368929547549211924
+      soraka_walk_72: 3987369885335281282
+      soraka_walk_73: -4934114851331797924
+      soraka_walk_74: 4621204753999106346
+      soraka_walk_75: -8026321581396505876
+      soraka_walk_76: 4577721679602226063
+      soraka_walk_77: 8046418127185994235
+      soraka_walk_78: -5440398376938235584
+      soraka_walk_79: -4610351929402149043
+      soraka_walk_8: -7510710814109906925
+      soraka_walk_80: 2474009972905720638
+      soraka_walk_81: 7335629534551519298
+      soraka_walk_82: -6536546915789341669
+      soraka_walk_83: -5275585512918928153
+      soraka_walk_84: 1216723775674241130
+      soraka_walk_85: -4632715990695942719
+      soraka_walk_86: 2913433523432811409
+      soraka_walk_87: 4975584762484103254
+      soraka_walk_88: 4568574875335136319
+      soraka_walk_89: -7026278633704386963
+      soraka_walk_9: -8386939812086412796
+      soraka_walk_90: -4387790782983118280
+      soraka_walk_91: -3508589816982039847
+      soraka_walk_92: 1730212132902365538
+      soraka_walk_93: 8464411329943709999
+      soraka_walk_94: -8005251103783326815
+      soraka_walk_95: -4459625293631243028
+      soraka_walk_96: 5344844910356962452
+      soraka_walk_97: -5865937990503047356
+      soraka_walk_98: 1701507237905987943
+      soraka_walk_99: 1301751689671842888
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

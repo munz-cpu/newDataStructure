@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 91f89f0e2e65ed54a9bf3a1297ad9d4e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8387410337695689220
+    second: heimerdinger_walk_0
+  - first:
+      213: 2076861682769566990
+    second: heimerdinger_walk_1
+  - first:
+      213: 1275147024416443066
+    second: heimerdinger_walk_2
+  - first:
+      213: -580919786718507414
+    second: heimerdinger_walk_3
+  - first:
+      213: -3380111580249090371
+    second: heimerdinger_walk_4
+  - first:
+      213: 3368412486373713959
+    second: heimerdinger_walk_5
+  - first:
+      213: 8366957032684544113
+    second: heimerdinger_walk_6
+  - first:
+      213: 4846844986945603681
+    second: heimerdinger_walk_7
+  - first:
+      213: -7585172734952937228
+    second: heimerdinger_walk_8
+  - first:
+      213: -710625753985991966
+    second: heimerdinger_walk_9
+  - first:
+      213: 5776999482945501569
+    second: heimerdinger_walk_10
+  - first:
+      213: 5058804140022119042
+    second: heimerdinger_walk_11
+  - first:
+      213: -5940363863866531477
+    second: heimerdinger_walk_12
+  - first:
+      213: -9036074152215752314
+    second: heimerdinger_walk_13
+  - first:
+      213: 8484276252130081272
+    second: heimerdinger_walk_14
+  - first:
+      213: -3337759545283992766
+    second: heimerdinger_walk_15
+  - first:
+      213: -3903886355649074290
+    second: heimerdinger_walk_16
+  - first:
+      213: 8862001476657215415
+    second: heimerdinger_walk_17
+  - first:
+      213: 2970849579332146402
+    second: heimerdinger_walk_18
+  - first:
+      213: 235058899489494221
+    second: heimerdinger_walk_19
+  - first:
+      213: -772504990651332650
+    second: heimerdinger_walk_20
+  - first:
+      213: 4641610166238232894
+    second: heimerdinger_walk_21
+  - first:
+      213: 9179561011986447674
+    second: heimerdinger_walk_22
+  - first:
+      213: -7492328999821088165
+    second: heimerdinger_walk_23
+  - first:
+      213: 5124782835764171397
+    second: heimerdinger_walk_24
+  - first:
+      213: -8724306914515797275
+    second: heimerdinger_walk_25
+  - first:
+      213: -4014734132028587357
+    second: heimerdinger_walk_26
+  - first:
+      213: -1036463997155231267
+    second: heimerdinger_walk_27
+  - first:
+      213: -2894407835748294079
+    second: heimerdinger_walk_28
+  - first:
+      213: 8587613629969460722
+    second: heimerdinger_walk_29
+  - first:
+      213: -1383945892382733940
+    second: heimerdinger_walk_30
+  - first:
+      213: 3494841077620421154
+    second: heimerdinger_walk_31
+  - first:
+      213: -8839088980093407369
+    second: heimerdinger_walk_32
+  - first:
+      213: 7052623984023546999
+    second: heimerdinger_walk_33
+  - first:
+      213: -3701030219857187705
+    second: heimerdinger_walk_34
+  - first:
+      213: -6765436613652711850
+    second: heimerdinger_walk_35
+  - first:
+      213: 1613797823753743579
+    second: heimerdinger_walk_36
+  - first:
+      213: -7448537840767079835
+    second: heimerdinger_walk_37
+  - first:
+      213: 1168520172344486377
+    second: heimerdinger_walk_38
+  - first:
+      213: 6504323765527117630
+    second: heimerdinger_walk_39
+  - first:
+      213: 368691537379834000
+    second: heimerdinger_walk_40
+  - first:
+      213: -3617731988963979213
+    second: heimerdinger_walk_41
+  - first:
+      213: 6793462699779544102
+    second: heimerdinger_walk_42
+  - first:
+      213: 2746524874957367543
+    second: heimerdinger_walk_43
+  - first:
+      213: -242530559564932843
+    second: heimerdinger_walk_44
+  - first:
+      213: -8697489267472783832
+    second: heimerdinger_walk_45
+  - first:
+      213: 4630548212307658894
+    second: heimerdinger_walk_46
+  - first:
+      213: -2653369372613461794
+    second: heimerdinger_walk_47
+  - first:
+      213: -2586200824865623080
+    second: heimerdinger_walk_48
+  - first:
+      213: 27998283077983752
+    second: heimerdinger_walk_49
+  - first:
+      213: 4359663561450030028
+    second: heimerdinger_walk_50
+  - first:
+      213: 7693798407769214368
+    second: heimerdinger_walk_51
+  - first:
+      213: 8505042633928127262
+    second: heimerdinger_walk_52
+  - first:
+      213: -1509147714571964513
+    second: heimerdinger_walk_53
+  - first:
+      213: 7749726975914896588
+    second: heimerdinger_walk_54
+  - first:
+      213: 348803994052542654
+    second: heimerdinger_walk_55
+  - first:
+      213: -5893886580872606471
+    second: heimerdinger_walk_56
+  - first:
+      213: -4905909682700673933
+    second: heimerdinger_walk_57
+  - first:
+      213: 3902216789718249195
+    second: heimerdinger_walk_58
+  - first:
+      213: 8612088221572971437
+    second: heimerdinger_walk_59
+  - first:
+      213: 2822331666954631496
+    second: heimerdinger_walk_60
+  - first:
+      213: 2826650029449533753
+    second: heimerdinger_walk_61
+  - first:
+      213: 9086287688455276515
+    second: heimerdinger_walk_62
+  - first:
+      213: -3260241825572984299
+    second: heimerdinger_walk_63
+  - first:
+      213: -336585549888593282
+    second: heimerdinger_walk_64
+  - first:
+      213: 999664568284214461
+    second: heimerdinger_walk_65
+  - first:
+      213: 4534431785619897345
+    second: heimerdinger_walk_66
+  - first:
+      213: 7207118374842798849
+    second: heimerdinger_walk_67
+  - first:
+      213: 8557775536350337596
+    second: heimerdinger_walk_68
+  - first:
+      213: -4185029112925950404
+    second: heimerdinger_walk_69
+  - first:
+      213: 1100571526531762115
+    second: heimerdinger_walk_70
+  - first:
+      213: -5251372197091720148
+    second: heimerdinger_walk_71
+  - first:
+      213: 3686816520543014668
+    second: heimerdinger_walk_72
+  - first:
+      213: -7381238660872436911
+    second: heimerdinger_walk_73
+  - first:
+      213: -7256130519834988789
+    second: heimerdinger_walk_74
+  - first:
+      213: -7126306717160596884
+    second: heimerdinger_walk_75
+  - first:
+      213: 4312162231156798427
+    second: heimerdinger_walk_76
+  - first:
+      213: 554079459474476682
+    second: heimerdinger_walk_77
+  - first:
+      213: 2157223183306964555
+    second: heimerdinger_walk_78
+  - first:
+      213: -3004995393551266426
+    second: heimerdinger_walk_79
+  - first:
+      213: 4401529937800041104
+    second: heimerdinger_walk_80
+  - first:
+      213: 8153504331930488024
+    second: heimerdinger_walk_81
+  - first:
+      213: -8631910737158524334
+    second: heimerdinger_walk_82
+  - first:
+      213: 4913991799797177996
+    second: heimerdinger_walk_83
+  - first:
+      213: -7353883269943691266
+    second: heimerdinger_walk_84
+  - first:
+      213: 6530011703825035954
+    second: heimerdinger_walk_85
+  - first:
+      213: -8808260087480889408
+    second: heimerdinger_walk_86
+  - first:
+      213: 8065716705008056981
+    second: heimerdinger_walk_87
+  - first:
+      213: -6067883467656531013
+    second: heimerdinger_walk_88
+  - first:
+      213: -3016717547317921725
+    second: heimerdinger_walk_89
+  - first:
+      213: -4104450543913405143
+    second: heimerdinger_walk_90
+  - first:
+      213: -4283436668337265668
+    second: heimerdinger_walk_91
+  - first:
+      213: 7754534983340311587
+    second: heimerdinger_walk_92
+  - first:
+      213: -8102988104032056130
+    second: heimerdinger_walk_93
+  - first:
+      213: 3739345060684900428
+    second: heimerdinger_walk_94
+  - first:
+      213: -7006408327985092115
+    second: heimerdinger_walk_95
+  - first:
+      213: -7412102269758968311
+    second: heimerdinger_walk_96
+  - first:
+      213: 5519766341264050976
+    second: heimerdinger_walk_97
+  - first:
+      213: -4423980714550755861
+    second: heimerdinger_walk_98
+  - first:
+      213: -7951875090882645118
+    second: heimerdinger_walk_99
+  - first:
+      213: 4850986424178836119
+    second: heimerdinger_walk_100
+  - first:
+      213: 2833619815362971966
+    second: heimerdinger_walk_101
+  - first:
+      213: 4604522171152700739
+    second: heimerdinger_walk_102
+  - first:
+      213: 8753935711719263060
+    second: heimerdinger_walk_103
+  - first:
+      213: 1967909479230449023
+    second: heimerdinger_walk_104
+  - first:
+      213: 4744879616951960429
+    second: heimerdinger_walk_105
+  - first:
+      213: 8194277293805066448
+    second: heimerdinger_walk_106
+  - first:
+      213: 719924699116766713
+    second: heimerdinger_walk_107
+  - first:
+      213: -3742523258060315825
+    second: heimerdinger_walk_108
+  - first:
+      213: -9102116262575677496
+    second: heimerdinger_walk_109
+  - first:
+      213: -2310599129003104431
+    second: heimerdinger_walk_110
+  - first:
+      213: -2068033230430356125
+    second: heimerdinger_walk_111
+  - first:
+      213: -7120561002506439448
+    second: heimerdinger_walk_112
+  - first:
+      213: 5176742736745357528
+    second: heimerdinger_walk_113
+  - first:
+      213: -7466186091104711253
+    second: heimerdinger_walk_114
+  - first:
+      213: 5330648816737886895
+    second: heimerdinger_walk_115
+  - first:
+      213: 8291292053649119436
+    second: heimerdinger_walk_116
+  - first:
+      213: -6919352250322589721
+    second: heimerdinger_walk_117
+  - first:
+      213: 3071606585600785592
+    second: heimerdinger_walk_118
+  - first:
+      213: 3467434195032707037
+    second: heimerdinger_walk_119
+  - first:
+      213: 7087660956981941131
+    second: heimerdinger_walk_000
+  - first:
+      213: -8947357632035346531
+    second: heimerdinger_walk_001
+  - first:
+      213: -2204375401714463558
+    second: heimerdinger_walk_002
+  - first:
+      213: -3431635071592175412
+    second: heimerdinger_walk_003
+  - first:
+      213: -7205850768706613418
+    second: heimerdinger_walk_004
+  - first:
+      213: -3365973782151921025
+    second: heimerdinger_walk_005
+  - first:
+      213: 1781323954004585639
+    second: heimerdinger_walk_006
+  - first:
+      213: 9000240508474418113
+    second: heimerdinger_walk_007
+  - first:
+      213: 3757133337615085673
+    second: heimerdinger_walk_008
+  - first:
+      213: 8001473939614535227
+    second: heimerdinger_walk_009
+  - first:
+      213: -2924178952410638608
+    second: heimerdinger_walk_010
+  - first:
+      213: -8867398715166352407
+    second: heimerdinger_walk_011
+  - first:
+      213: 7578438590864589788
+    second: heimerdinger_walk_012
+  - first:
+      213: 6451850118534607618
+    second: heimerdinger_walk_013
+  - first:
+      213: -1071607275198775579
+    second: heimerdinger_walk_014
+  - first:
+      213: -2148472121056660261
+    second: heimerdinger_walk_015
+  - first:
+      213: 1179463559212972244
+    second: heimerdinger_walk_016
+  - first:
+      213: -8774485270179479818
+    second: heimerdinger_walk_017
+  - first:
+      213: -644715178895271170
+    second: heimerdinger_walk_018
+  - first:
+      213: 1855951358209264927
+    second: heimerdinger_walk_019
+  - first:
+      213: -5216810165821272652
+    second: heimerdinger_walk_020
+  - first:
+      213: -6659182473927172562
+    second: heimerdinger_walk_021
+  - first:
+      213: -3227842151275415076
+    second: heimerdinger_walk_022
+  - first:
+      213: -2294373472035720261
+    second: heimerdinger_walk_023
+  - first:
+      213: -4240716572394054585
+    second: heimerdinger_walk_024
+  - first:
+      213: -8765082029109247386
+    second: heimerdinger_walk_025
+  - first:
+      213: 6206003776112677958
+    second: heimerdinger_walk_026
+  - first:
+      213: -665147125529125261
+    second: heimerdinger_walk_027
+  - first:
+      213: -3639844890403232529
+    second: heimerdinger_walk_028
+  - first:
+      213: -1583411236757340779
+    second: heimerdinger_walk_029
+  - first:
+      213: -2573547291990529310
+    second: heimerdinger_walk_030
+  - first:
+      213: 1045631506666220693
+    second: heimerdinger_walk_031
+  - first:
+      213: -5685362374652199369
+    second: heimerdinger_walk_032
+  - first:
+      213: 2678354161559579736
+    second: heimerdinger_walk_033
+  - first:
+      213: -5933052072206014022
+    second: heimerdinger_walk_034
+  - first:
+      213: 3673385238791063931
+    second: heimerdinger_walk_035
+  - first:
+      213: -3700317306085299317
+    second: heimerdinger_walk_036
+  - first:
+      213: -9128836692949458838
+    second: heimerdinger_walk_037
+  - first:
+      213: -4211492864219473654
+    second: heimerdinger_walk_038
+  - first:
+      213: -7373250506756203663
+    second: heimerdinger_walk_039
+  - first:
+      213: -1287924129369005062
+    second: heimerdinger_walk_040
+  - first:
+      213: 2050219442158104421
+    second: heimerdinger_walk_041
+  - first:
+      213: 5712588132311008044
+    second: heimerdinger_walk_042
+  - first:
+      213: 5098125372444591982
+    second: heimerdinger_walk_043
+  - first:
+      213: -5755269519856035520
+    second: heimerdinger_walk_044
+  - first:
+      213: 9155362602016873534
+    second: heimerdinger_walk_045
+  - first:
+      213: 2824480359416763145
+    second: heimerdinger_walk_046
+  - first:
+      213: -6211090458916829700
+    second: heimerdinger_walk_047
+  - first:
+      213: -1910947646476797215
+    second: heimerdinger_walk_048
+  - first:
+      213: 1355220071701177043
+    second: heimerdinger_walk_049
+  - first:
+      213: -8603261298831261054
+    second: heimerdinger_walk_050
+  - first:
+      213: -1481018498051421021
+    second: heimerdinger_walk_051
+  - first:
+      213: -2039455845881655079
+    second: heimerdinger_walk_052
+  - first:
+      213: -1968577759526111711
+    second: heimerdinger_walk_053
+  - first:
+      213: 2781048491911650668
+    second: heimerdinger_walk_054
+  - first:
+      213: 4908125814999617121
+    second: heimerdinger_walk_055
+  - first:
+      213: -9164160962113628905
+    second: heimerdinger_walk_056
+  - first:
+      213: -6781455221254954009
+    second: heimerdinger_walk_057
+  - first:
+      213: -508960666398149121
+    second: heimerdinger_walk_058
+  - first:
+      213: -4790763157214900461
+    second: heimerdinger_walk_059
+  - first:
+      213: -3899191499717157944
+    second: heimerdinger_walk_060
+  - first:
+      213: 4647880329079645873
+    second: heimerdinger_walk_061
+  - first:
+      213: 1673302972845012136
+    second: heimerdinger_walk_062
+  - first:
+      213: -63314428059914630
+    second: heimerdinger_walk_063
+  - first:
+      213: -3282248199483177386
+    second: heimerdinger_walk_064
+  - first:
+      213: -3653620856319762034
+    second: heimerdinger_walk_065
+  - first:
+      213: -7774094617744732897
+    second: heimerdinger_walk_066
+  - first:
+      213: -8232257617152289251
+    second: heimerdinger_walk_067
+  - first:
+      213: 1735967704072248361
+    second: heimerdinger_walk_068
+  - first:
+      213: 2049543393063367365
+    second: heimerdinger_walk_069
+  - first:
+      213: -8186760460880594496
+    second: heimerdinger_walk_070
+  - first:
+      213: 6844591190912062816
+    second: heimerdinger_walk_071
+  - first:
+      213: 8149937350595579199
+    second: heimerdinger_walk_072
+  - first:
+      213: -4818888088564381939
+    second: heimerdinger_walk_073
+  - first:
+      213: 9171187377651544314
+    second: heimerdinger_walk_074
+  - first:
+      213: 178765112918287643
+    second: heimerdinger_walk_075
+  - first:
+      213: -1045372006166126236
+    second: heimerdinger_walk_076
+  - first:
+      213: -7481304117185243095
+    second: heimerdinger_walk_077
+  - first:
+      213: 2808162429189525288
+    second: heimerdinger_walk_078
+  - first:
+      213: -5571701526566625919
+    second: heimerdinger_walk_079
+  - first:
+      213: 1724001739775009503
+    second: heimerdinger_walk_080
+  - first:
+      213: -8220735183962078585
+    second: heimerdinger_walk_081
+  - first:
+      213: -1745101220557394872
+    second: heimerdinger_walk_082
+  - first:
+      213: 8309704462058521330
+    second: heimerdinger_walk_083
+  - first:
+      213: -1711238820985635241
+    second: heimerdinger_walk_084
+  - first:
+      213: 6698713946699912164
+    second: heimerdinger_walk_085
+  - first:
+      213: -8992967076711144356
+    second: heimerdinger_walk_086
+  - first:
+      213: 3287705606356290654
+    second: heimerdinger_walk_087
+  - first:
+      213: -2702524894562548594
+    second: heimerdinger_walk_088
+  - first:
+      213: -1388506581276316284
+    second: heimerdinger_walk_089
+  - first:
+      213: -6797059476557618665
+    second: heimerdinger_walk_090
+  - first:
+      213: -8044335047520390733
+    second: heimerdinger_walk_091
+  - first:
+      213: 6850220070057857550
+    second: heimerdinger_walk_092
+  - first:
+      213: -4798754860130433273
+    second: heimerdinger_walk_093
+  - first:
+      213: -1504820167083328518
+    second: heimerdinger_walk_094
+  - first:
+      213: 5408112912041282051
+    second: heimerdinger_walk_095
+  - first:
+      213: 7157164972779642163
+    second: heimerdinger_walk_096
+  - first:
+      213: -8199649501152040093
+    second: heimerdinger_walk_097
+  - first:
+      213: -3849961809665435020
+    second: heimerdinger_walk_098
+  - first:
+      213: -7403900358394111047
+    second: heimerdinger_walk_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heimerdinger_walk_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83505d961e6c5260800000000000000
+      internalID: 7087660956981941131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d97272883a994d380800000000000000
+      internalID: -8947357632035346531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc433d504c7861e0800000000000000
+      internalID: -2204375401714463558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8e9fe75126060d0800000000000000
+      internalID: -3431635071592175412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f44c277ecaffb90800000000000000
+      internalID: -7205850768706613418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f728e87cda8a941d0800000000000000
+      internalID: -3365973782151921025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac6654c2b888b810800000000000000
+      internalID: 1781323954004585639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3e2b0ae0747ec70800000000000000
+      internalID: 9000240508474418113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960335a4dd4042430800000000000000
+      internalID: 3757133337615085673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e054a8722fa0f60800000000000000
+      internalID: 8001473939614535227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f6d3e95cba3b67d0800000000000000
+      internalID: -2924178952410638608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb11cc99dba0f480800000000000000
+      internalID: -8867398715166352407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd388900fb50c2960800000000000000
+      internalID: 7578438590864589788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203315bdf73998950800000000000000
+      internalID: 6451850118534607618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee7d0f5cd2e021f0800000000000000
+      internalID: -1071607275198775579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4769e2df71f22e0800000000000000
+      internalID: -2148472121056660261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d83868abdb4e5010800000000000000
+      internalID: 1179463559212972244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fefd00d224ca3680800000000000000
+      internalID: -8774485270179479818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa15ace5f28d07f0800000000000000
+      internalID: -644715178895271170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d87725de9a1c910800000000000000
+      internalID: 1855951358209264927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd83954bca2a97b0800000000000000
+      internalID: -5216810165821272652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e501362d4d593a0800000000000000
+      internalID: -6659182473927172562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9323e4aa66433d0800000000000000
+      internalID: -3227842151275415076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb33b39bb7fb820e0800000000000000
+      internalID: -2294373472035720261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c1755eeb2f525c0800000000000000
+      internalID: -4240716572394054585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66288cb755c2c5680800000000000000
+      internalID: -8765082029109247386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644dde5bd87202650800000000000000
+      internalID: 6206003776112677958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ed673a63ce4c6f0800000000000000
+      internalID: -665147125529125261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe4aefd5b5cac7dc0800000000000000
+      internalID: -3639844890403232529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d77b39ed7960ae0800000000000000
+      internalID: -1583411236757340779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea6c388f5ce84cd0800000000000000
+      internalID: -2573547291990529310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cebc8b054d28e00800000000000000
+      internalID: 1045631506666220693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73efb77ea098911b0800000000000000
+      internalID: -5685362374652199369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85ca27e5bec6b2520800000000000000
+      internalID: 2678354161559579736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9e342339099ada0800000000000000
+      internalID: -5933052072206014022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b790e49896c7af230800000000000000
+      internalID: 3673385238791063931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b2e86e305d5acc0800000000000000
+      internalID: -3700317306085299317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a602238f46bdf4180800000000000000
+      internalID: -9128836692949458838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a091b1ead85cd85c0800000000000000
+      internalID: -4211492864219473654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bd3d0bab3fca990800000000000000
+      internalID: -7373250506756203663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af36e4bf3df502ee0800000000000000
+      internalID: -1287924129369005062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fee6958b7d37c10800000000000000
+      internalID: 2050219442158104421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c238286c3a0374f40800000000000000
+      internalID: 5712588132311008044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6747f4e30e20c640800000000000000
+      internalID: 5098125372444591982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049195a4ddc2120b0800000000000000
+      internalID: -5755269519856035520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c9c1387c16e0f70800000000000000
+      internalID: 9155362602016873534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9039a121ce1923720800000000000000
+      internalID: 2824480359416763145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5c178a226cdc9a0800000000000000
+      internalID: -6211090458916829700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eab16b7d33fa75e0800000000000000
+      internalID: -1910947646476797215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d26a369975bec210800000000000000
+      internalID: 1355220071701177043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2820c454e631b9880800000000000000
+      internalID: -8603261298831261054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acccd5d58d527be0800000000000000
+      internalID: -1481018498051421021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d05123b6b562b3e0800000000000000
+      internalID: -2039455845881655079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12636ba25f43ea4e0800000000000000
+      internalID: -1968577759526111711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d97876ed4489620800000000000000
+      internalID: 2781048491911650668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e0af3ac6a2d1440800000000000000
+      internalID: 4908125814999617121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71517b4a82c52d080800000000000000
+      internalID: -9164160962113628905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e361ece76e63e1a0800000000000000
+      internalID: -6781455221254954009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff531b278fecfe8f0800000000000000
+      internalID: -508960666398149121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f4d238a4ac38db0800000000000000
+      internalID: -4790763157214900461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cbd2246df943e9c0800000000000000
+      internalID: -3899191499717157944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b66155a886908040800000000000000
+      internalID: 4647880329079645873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a438023034c83710800000000000000
+      internalID: 1673302972845012136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ee456fcdf0f1ff0800000000000000
+      internalID: -63314428059914630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656c32517ac1372d0800000000000000
+      internalID: -3282248199483177386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e812a1b503bbb4dc0800000000000000
+      internalID: -3653620856319762034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d8c03522edc1490800000000000000
+      internalID: -7774094617744732897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d165226405521cd80800000000000000
+      internalID: -8232257617152289251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92cd6c6ed65671810800000000000000
+      internalID: 1735967704072248361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c27a476bd0717c10800000000000000
+      internalID: 2049543393063367365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9bff37cb8c26e80800000000000000
+      internalID: -8186760460880594496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065d4178c6fdcfe50800000000000000
+      internalID: 6844591190912062816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d00f317d46a1170800000000000000
+      internalID: 8149937350595579199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0742c4a0dedf1db0800000000000000
+      internalID: -4818888088564381939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af07775345a964f70800000000000000
+      internalID: 9171187377651544314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b152abd4ce91b7200800000000000000
+      internalID: 178765112918287643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461a452f2b71e71f0800000000000000
+      internalID: -1045372006166126236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92891860b811d2890800000000000000
+      internalID: -7481304117185243095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f807fd9d898f620800000000000000
+      internalID: 2808162429189525288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d9e725bf65da2b0800000000000000
+      internalID: -5571701526566625919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2e17bb272ece710800000000000000
+      internalID: 1724001739775009503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782826fc7e41aed80800000000000000
+      internalID: -8220735183962078585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c63939fa728c7e0800000000000000
+      internalID: -1745101220557394872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f20a797e20025370800000000000000
+      internalID: 8309704462058521330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75efa4ddb557048e0800000000000000
+      internalID: -1711238820985635241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3d00dd7dc96fc50800000000000000
+      internalID: 6698713946699912164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5469db2710923380800000000000000
+      internalID: -8992967076711144356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c4de874d640ad20800000000000000
+      internalID: 3287705606356290654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8403fe4de3be7ad0800000000000000
+      internalID: -2702524894562548594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48dabb6fe980bbce0800000000000000
+      internalID: -1388506581276316284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712a49e1b6efba1a0800000000000000
+      internalID: -6797059476557618665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1725e15e7cc5090800000000000000
+      internalID: -8044335047520390733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02dc051cded01f50800000000000000
+      internalID: 6850220070057857550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7070fbd21e5676db0800000000000000
+      internalID: -4798754860130433273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb772ae70ecd1be0800000000000000
+      internalID: -1504820167083328518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a8c634a0a7d0b40800000000000000
+      internalID: 5408112912041282051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d16695f9b535360800000000000000
+      internalID: 7157164972779642163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36baf19e83ef43e80800000000000000
+      internalID: -8199649501152040093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a5210d120329ac0800000000000000
+      internalID: -3849961809665435020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb18810adf004990800000000000000
+      internalID: -7403900358394111047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7920c6f737a225340800000000000000
+      internalID: 4850986424178836119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39c73b753a035720800000000000000
+      internalID: 2833619815362971966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34597f3d48c86ef30800000000000000
+      internalID: 4604522171152700739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b02a3462a3c7970800000000000000
+      internalID: 8753935711719263060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75a7a3be3b6f4b10800000000000000
+      internalID: 1967909479230449023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63c9664fd239d140800000000000000
+      internalID: 4744879616951960429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8dc4898cbe7b170800000000000000
+      internalID: 8194277293805066448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f582e313bfadf900800000000000000
+      internalID: 719924699116766713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f436dafece2ef0cc0800000000000000
+      internalID: -3742523258060315825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfded8fb79cea180800000000000000
+      internalID: -9102116262575677496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1576171955a1fefd0800000000000000
+      internalID: -2310599129003104431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36dbe7cdbbedc43e0800000000000000
+      internalID: -2068033230430356125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4ba1c9e7fae2d90800000000000000
+      internalID: -7120561002506439448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d06a4d671c77d740800000000000000
+      internalID: 5176742736745357528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badcdb4ce47c26890800000000000000
+      internalID: -7466186091104711253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2a4081bd44af940800000000000000
+      internalID: 5330648816737886895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc856c29136901370800000000000000
+      internalID: 8291292053649119436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7e8b3e9c589ff90800000000000000
+      internalID: -6919352250322589721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc3c706ae980aa20800000000000000
+      internalID: 3071606585600785592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_walk_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf87f4770dce1030800000000000000
+      internalID: 3467434195032707037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      heimerdinger_walk_0: 8387410337695689220
+      heimerdinger_walk_000: 7087660956981941131
+      heimerdinger_walk_001: -8947357632035346531
+      heimerdinger_walk_002: -2204375401714463558
+      heimerdinger_walk_003: -3431635071592175412
+      heimerdinger_walk_004: -7205850768706613418
+      heimerdinger_walk_005: -3365973782151921025
+      heimerdinger_walk_006: 1781323954004585639
+      heimerdinger_walk_007: 9000240508474418113
+      heimerdinger_walk_008: 3757133337615085673
+      heimerdinger_walk_009: 8001473939614535227
+      heimerdinger_walk_010: -2924178952410638608
+      heimerdinger_walk_011: -8867398715166352407
+      heimerdinger_walk_012: 7578438590864589788
+      heimerdinger_walk_013: 6451850118534607618
+      heimerdinger_walk_014: -1071607275198775579
+      heimerdinger_walk_015: -2148472121056660261
+      heimerdinger_walk_016: 1179463559212972244
+      heimerdinger_walk_017: -8774485270179479818
+      heimerdinger_walk_018: -644715178895271170
+      heimerdinger_walk_019: 1855951358209264927
+      heimerdinger_walk_020: -5216810165821272652
+      heimerdinger_walk_021: -6659182473927172562
+      heimerdinger_walk_022: -3227842151275415076
+      heimerdinger_walk_023: -2294373472035720261
+      heimerdinger_walk_024: -4240716572394054585
+      heimerdinger_walk_025: -8765082029109247386
+      heimerdinger_walk_026: 6206003776112677958
+      heimerdinger_walk_027: -665147125529125261
+      heimerdinger_walk_028: -3639844890403232529
+      heimerdinger_walk_029: -1583411236757340779
+      heimerdinger_walk_030: -2573547291990529310
+      heimerdinger_walk_031: 1045631506666220693
+      heimerdinger_walk_032: -5685362374652199369
+      heimerdinger_walk_033: 2678354161559579736
+      heimerdinger_walk_034: -5933052072206014022
+      heimerdinger_walk_035: 3673385238791063931
+      heimerdinger_walk_036: -3700317306085299317
+      heimerdinger_walk_037: -9128836692949458838
+      heimerdinger_walk_038: -4211492864219473654
+      heimerdinger_walk_039: -7373250506756203663
+      heimerdinger_walk_040: -1287924129369005062
+      heimerdinger_walk_041: 2050219442158104421
+      heimerdinger_walk_042: 5712588132311008044
+      heimerdinger_walk_043: 5098125372444591982
+      heimerdinger_walk_044: -5755269519856035520
+      heimerdinger_walk_045: 9155362602016873534
+      heimerdinger_walk_046: 2824480359416763145
+      heimerdinger_walk_047: -6211090458916829700
+      heimerdinger_walk_048: -1910947646476797215
+      heimerdinger_walk_049: 1355220071701177043
+      heimerdinger_walk_050: -8603261298831261054
+      heimerdinger_walk_051: -1481018498051421021
+      heimerdinger_walk_052: -2039455845881655079
+      heimerdinger_walk_053: -1968577759526111711
+      heimerdinger_walk_054: 2781048491911650668
+      heimerdinger_walk_055: 4908125814999617121
+      heimerdinger_walk_056: -9164160962113628905
+      heimerdinger_walk_057: -6781455221254954009
+      heimerdinger_walk_058: -508960666398149121
+      heimerdinger_walk_059: -4790763157214900461
+      heimerdinger_walk_060: -3899191499717157944
+      heimerdinger_walk_061: 4647880329079645873
+      heimerdinger_walk_062: 1673302972845012136
+      heimerdinger_walk_063: -63314428059914630
+      heimerdinger_walk_064: -3282248199483177386
+      heimerdinger_walk_065: -3653620856319762034
+      heimerdinger_walk_066: -7774094617744732897
+      heimerdinger_walk_067: -8232257617152289251
+      heimerdinger_walk_068: 1735967704072248361
+      heimerdinger_walk_069: 2049543393063367365
+      heimerdinger_walk_070: -8186760460880594496
+      heimerdinger_walk_071: 6844591190912062816
+      heimerdinger_walk_072: 8149937350595579199
+      heimerdinger_walk_073: -4818888088564381939
+      heimerdinger_walk_074: 9171187377651544314
+      heimerdinger_walk_075: 178765112918287643
+      heimerdinger_walk_076: -1045372006166126236
+      heimerdinger_walk_077: -7481304117185243095
+      heimerdinger_walk_078: 2808162429189525288
+      heimerdinger_walk_079: -5571701526566625919
+      heimerdinger_walk_080: 1724001739775009503
+      heimerdinger_walk_081: -8220735183962078585
+      heimerdinger_walk_082: -1745101220557394872
+      heimerdinger_walk_083: 8309704462058521330
+      heimerdinger_walk_084: -1711238820985635241
+      heimerdinger_walk_085: 6698713946699912164
+      heimerdinger_walk_086: -8992967076711144356
+      heimerdinger_walk_087: 3287705606356290654
+      heimerdinger_walk_088: -2702524894562548594
+      heimerdinger_walk_089: -1388506581276316284
+      heimerdinger_walk_090: -6797059476557618665
+      heimerdinger_walk_091: -8044335047520390733
+      heimerdinger_walk_092: 6850220070057857550
+      heimerdinger_walk_093: -4798754860130433273
+      heimerdinger_walk_094: -1504820167083328518
+      heimerdinger_walk_095: 5408112912041282051
+      heimerdinger_walk_096: 7157164972779642163
+      heimerdinger_walk_097: -8199649501152040093
+      heimerdinger_walk_098: -3849961809665435020
+      heimerdinger_walk_099: -7403900358394111047
+      heimerdinger_walk_1: 2076861682769566990
+      heimerdinger_walk_10: 5776999482945501569
+      heimerdinger_walk_100: 4850986424178836119
+      heimerdinger_walk_101: 2833619815362971966
+      heimerdinger_walk_102: 4604522171152700739
+      heimerdinger_walk_103: 8753935711719263060
+      heimerdinger_walk_104: 1967909479230449023
+      heimerdinger_walk_105: 4744879616951960429
+      heimerdinger_walk_106: 8194277293805066448
+      heimerdinger_walk_107: 719924699116766713
+      heimerdinger_walk_108: -3742523258060315825
+      heimerdinger_walk_109: -9102116262575677496
+      heimerdinger_walk_11: 5058804140022119042
+      heimerdinger_walk_110: -2310599129003104431
+      heimerdinger_walk_111: -2068033230430356125
+      heimerdinger_walk_112: -7120561002506439448
+      heimerdinger_walk_113: 5176742736745357528
+      heimerdinger_walk_114: -7466186091104711253
+      heimerdinger_walk_115: 5330648816737886895
+      heimerdinger_walk_116: 8291292053649119436
+      heimerdinger_walk_117: -6919352250322589721
+      heimerdinger_walk_118: 3071606585600785592
+      heimerdinger_walk_119: 3467434195032707037
+      heimerdinger_walk_12: -5940363863866531477
+      heimerdinger_walk_13: -9036074152215752314
+      heimerdinger_walk_14: 8484276252130081272
+      heimerdinger_walk_15: -3337759545283992766
+      heimerdinger_walk_16: -3903886355649074290
+      heimerdinger_walk_17: 8862001476657215415
+      heimerdinger_walk_18: 2970849579332146402
+      heimerdinger_walk_19: 235058899489494221
+      heimerdinger_walk_2: 1275147024416443066
+      heimerdinger_walk_20: -772504990651332650
+      heimerdinger_walk_21: 4641610166238232894
+      heimerdinger_walk_22: 9179561011986447674
+      heimerdinger_walk_23: -7492328999821088165
+      heimerdinger_walk_24: 5124782835764171397
+      heimerdinger_walk_25: -8724306914515797275
+      heimerdinger_walk_26: -4014734132028587357
+      heimerdinger_walk_27: -1036463997155231267
+      heimerdinger_walk_28: -2894407835748294079
+      heimerdinger_walk_29: 8587613629969460722
+      heimerdinger_walk_3: -580919786718507414
+      heimerdinger_walk_30: -1383945892382733940
+      heimerdinger_walk_31: 3494841077620421154
+      heimerdinger_walk_32: -8839088980093407369
+      heimerdinger_walk_33: 7052623984023546999
+      heimerdinger_walk_34: -3701030219857187705
+      heimerdinger_walk_35: -6765436613652711850
+      heimerdinger_walk_36: 1613797823753743579
+      heimerdinger_walk_37: -7448537840767079835
+      heimerdinger_walk_38: 1168520172344486377
+      heimerdinger_walk_39: 6504323765527117630
+      heimerdinger_walk_4: -3380111580249090371
+      heimerdinger_walk_40: 368691537379834000
+      heimerdinger_walk_41: -3617731988963979213
+      heimerdinger_walk_42: 6793462699779544102
+      heimerdinger_walk_43: 2746524874957367543
+      heimerdinger_walk_44: -242530559564932843
+      heimerdinger_walk_45: -8697489267472783832
+      heimerdinger_walk_46: 4630548212307658894
+      heimerdinger_walk_47: -2653369372613461794
+      heimerdinger_walk_48: -2586200824865623080
+      heimerdinger_walk_49: 27998283077983752
+      heimerdinger_walk_5: 3368412486373713959
+      heimerdinger_walk_50: 4359663561450030028
+      heimerdinger_walk_51: 7693798407769214368
+      heimerdinger_walk_52: 8505042633928127262
+      heimerdinger_walk_53: -1509147714571964513
+      heimerdinger_walk_54: 7749726975914896588
+      heimerdinger_walk_55: 348803994052542654
+      heimerdinger_walk_56: -5893886580872606471
+      heimerdinger_walk_57: -4905909682700673933
+      heimerdinger_walk_58: 3902216789718249195
+      heimerdinger_walk_59: 8612088221572971437
+      heimerdinger_walk_6: 8366957032684544113
+      heimerdinger_walk_60: 2822331666954631496
+      heimerdinger_walk_61: 2826650029449533753
+      heimerdinger_walk_62: 9086287688455276515
+      heimerdinger_walk_63: -3260241825572984299
+      heimerdinger_walk_64: -336585549888593282
+      heimerdinger_walk_65: 999664568284214461
+      heimerdinger_walk_66: 4534431785619897345
+      heimerdinger_walk_67: 7207118374842798849
+      heimerdinger_walk_68: 8557775536350337596
+      heimerdinger_walk_69: -4185029112925950404
+      heimerdinger_walk_7: 4846844986945603681
+      heimerdinger_walk_70: 1100571526531762115
+      heimerdinger_walk_71: -5251372197091720148
+      heimerdinger_walk_72: 3686816520543014668
+      heimerdinger_walk_73: -7381238660872436911
+      heimerdinger_walk_74: -7256130519834988789
+      heimerdinger_walk_75: -7126306717160596884
+      heimerdinger_walk_76: 4312162231156798427
+      heimerdinger_walk_77: 554079459474476682
+      heimerdinger_walk_78: 2157223183306964555
+      heimerdinger_walk_79: -3004995393551266426
+      heimerdinger_walk_8: -7585172734952937228
+      heimerdinger_walk_80: 4401529937800041104
+      heimerdinger_walk_81: 8153504331930488024
+      heimerdinger_walk_82: -8631910737158524334
+      heimerdinger_walk_83: 4913991799797177996
+      heimerdinger_walk_84: -7353883269943691266
+      heimerdinger_walk_85: 6530011703825035954
+      heimerdinger_walk_86: -8808260087480889408
+      heimerdinger_walk_87: 8065716705008056981
+      heimerdinger_walk_88: -6067883467656531013
+      heimerdinger_walk_89: -3016717547317921725
+      heimerdinger_walk_9: -710625753985991966
+      heimerdinger_walk_90: -4104450543913405143
+      heimerdinger_walk_91: -4283436668337265668
+      heimerdinger_walk_92: 7754534983340311587
+      heimerdinger_walk_93: -8102988104032056130
+      heimerdinger_walk_94: 3739345060684900428
+      heimerdinger_walk_95: -7006408327985092115
+      heimerdinger_walk_96: -7412102269758968311
+      heimerdinger_walk_97: 5519766341264050976
+      heimerdinger_walk_98: -4423980714550755861
+      heimerdinger_walk_99: -7951875090882645118
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

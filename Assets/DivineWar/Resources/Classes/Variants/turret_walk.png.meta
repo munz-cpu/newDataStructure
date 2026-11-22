@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 832e20f4eab920345bdf1ce775edae8d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3372502774324776010
+    second: turret_walk_0
+  - first:
+      213: -5497245951663459376
+    second: turret_walk_1
+  - first:
+      213: 6722002097408308019
+    second: turret_walk_2
+  - first:
+      213: -44943514869570205
+    second: turret_walk_3
+  - first:
+      213: 8971615457853691551
+    second: turret_walk_4
+  - first:
+      213: 687092638323349927
+    second: turret_walk_5
+  - first:
+      213: -8443950131516238093
+    second: turret_walk_6
+  - first:
+      213: -4770185228779614083
+    second: turret_walk_7
+  - first:
+      213: 713252786656866022
+    second: turret_walk_8
+  - first:
+      213: -8409080796920520288
+    second: turret_walk_9
+  - first:
+      213: 4201890072299005997
+    second: turret_walk_10
+  - first:
+      213: 3889172086616842356
+    second: turret_walk_11
+  - first:
+      213: -809890690038183532
+    second: turret_walk_12
+  - first:
+      213: 5518065607396977540
+    second: turret_walk_13
+  - first:
+      213: -3637988747329338110
+    second: turret_walk_14
+  - first:
+      213: 2236111448435428692
+    second: turret_walk_15
+  - first:
+      213: -685631271976528781
+    second: turret_walk_16
+  - first:
+      213: -9206726603057441085
+    second: turret_walk_17
+  - first:
+      213: 1573445390064342148
+    second: turret_walk_18
+  - first:
+      213: 7164226127322344531
+    second: turret_walk_19
+  - first:
+      213: -6185867412335213852
+    second: turret_walk_20
+  - first:
+      213: 8072840196727641137
+    second: turret_walk_21
+  - first:
+      213: 5354114811875900351
+    second: turret_walk_22
+  - first:
+      213: 2493603165410295487
+    second: turret_walk_23
+  - first:
+      213: 874332656144959702
+    second: turret_walk_24
+  - first:
+      213: -8736220569869738673
+    second: turret_walk_25
+  - first:
+      213: 3666559318153946514
+    second: turret_walk_26
+  - first:
+      213: -7419082945037167791
+    second: turret_walk_27
+  - first:
+      213: -3407360453172455645
+    second: turret_walk_28
+  - first:
+      213: -965005326373089224
+    second: turret_walk_29
+  - first:
+      213: 8048166686638085008
+    second: turret_walk_30
+  - first:
+      213: -3714767597363435833
+    second: turret_walk_31
+  - first:
+      213: 1162767556983867731
+    second: turret_walk_32
+  - first:
+      213: -2369362956912771946
+    second: turret_walk_33
+  - first:
+      213: 3746887029684372175
+    second: turret_walk_34
+  - first:
+      213: -4731651092031454526
+    second: turret_walk_35
+  - first:
+      213: -2482085055270856606
+    second: turret_walk_36
+  - first:
+      213: -151637633251091499
+    second: turret_walk_37
+  - first:
+      213: -5752792618052289640
+    second: turret_walk_38
+  - first:
+      213: -2137046315627013761
+    second: turret_walk_39
+  - first:
+      213: -6150529284954907337
+    second: turret_walk_40
+  - first:
+      213: -717156022066671235
+    second: turret_walk_41
+  - first:
+      213: -3416715906973748873
+    second: turret_walk_42
+  - first:
+      213: -4519483964044442103
+    second: turret_walk_43
+  - first:
+      213: -5516058905746742246
+    second: turret_walk_44
+  - first:
+      213: -2653022025418764421
+    second: turret_walk_45
+  - first:
+      213: 4624761097413651812
+    second: turret_walk_46
+  - first:
+      213: -4364386446085042870
+    second: turret_walk_47
+  - first:
+      213: 6366605752334125843
+    second: turret_walk_48
+  - first:
+      213: 7303706059937404721
+    second: turret_walk_49
+  - first:
+      213: -2490587183000093814
+    second: turret_walk_50
+  - first:
+      213: 824746280878933167
+    second: turret_walk_51
+  - first:
+      213: -6205412457543367981
+    second: turret_walk_52
+  - first:
+      213: 8439760066716303285
+    second: turret_walk_53
+  - first:
+      213: -7182551621705651559
+    second: turret_walk_54
+  - first:
+      213: -4917965430536794475
+    second: turret_walk_55
+  - first:
+      213: -1174265541022735303
+    second: turret_walk_56
+  - first:
+      213: 3646026993369994090
+    second: turret_walk_57
+  - first:
+      213: 470083665749906137
+    second: turret_walk_58
+  - first:
+      213: -3945633071964250140
+    second: turret_walk_59
+  - first:
+      213: 7683764195261460714
+    second: turret_walk_60
+  - first:
+      213: 7023814465751969567
+    second: turret_walk_61
+  - first:
+      213: 3641177688736274454
+    second: turret_walk_62
+  - first:
+      213: -5895818914787570537
+    second: turret_walk_63
+  - first:
+      213: 8681757357170950896
+    second: turret_walk_64
+  - first:
+      213: 2443640276056823048
+    second: turret_walk_65
+  - first:
+      213: -3864678863919149279
+    second: turret_walk_66
+  - first:
+      213: 2289756083577368895
+    second: turret_walk_67
+  - first:
+      213: -680372011002274481
+    second: turret_walk_68
+  - first:
+      213: -8982426905320538190
+    second: turret_walk_69
+  - first:
+      213: 1018517021005710348
+    second: turret_walk_70
+  - first:
+      213: -4807523228203172642
+    second: turret_walk_71
+  - first:
+      213: -3795726677958301325
+    second: turret_walk_72
+  - first:
+      213: 7143750193296461390
+    second: turret_walk_73
+  - first:
+      213: -1466834133210841095
+    second: turret_walk_74
+  - first:
+      213: 3029337360808641589
+    second: turret_walk_75
+  - first:
+      213: -5440589092328602553
+    second: turret_walk_76
+  - first:
+      213: 8285882164044583243
+    second: turret_walk_77
+  - first:
+      213: -3413285009023983610
+    second: turret_walk_78
+  - first:
+      213: 2777680411579837335
+    second: turret_walk_79
+  - first:
+      213: 8831409455026587201
+    second: turret_walk_80
+  - first:
+      213: -3317022664688134896
+    second: turret_walk_81
+  - first:
+      213: 1027529902828414280
+    second: turret_walk_82
+  - first:
+      213: 298956359786787355
+    second: turret_walk_83
+  - first:
+      213: -9068263591073907676
+    second: turret_walk_84
+  - first:
+      213: -5343452193887157604
+    second: turret_walk_85
+  - first:
+      213: -5779262914926089655
+    second: turret_walk_86
+  - first:
+      213: -5657858227354600311
+    second: turret_walk_87
+  - first:
+      213: -387640334253012419
+    second: turret_walk_88
+  - first:
+      213: 3949711292703961737
+    second: turret_walk_89
+  - first:
+      213: -6146399560139454948
+    second: turret_walk_90
+  - first:
+      213: -5498711392476175844
+    second: turret_walk_91
+  - first:
+      213: -1410231280259770789
+    second: turret_walk_92
+  - first:
+      213: 4916585109900268606
+    second: turret_walk_93
+  - first:
+      213: 8362173997048498027
+    second: turret_walk_94
+  - first:
+      213: -525897088531929106
+    second: turret_walk_95
+  - first:
+      213: -1143654380468178613
+    second: turret_walk_96
+  - first:
+      213: -5641429702663679139
+    second: turret_walk_97
+  - first:
+      213: 1133910733206480420
+    second: turret_walk_98
+  - first:
+      213: -440218217065218660
+    second: turret_walk_99
+  - first:
+      213: -4924258325517836822
+    second: turret_walk_100
+  - first:
+      213: -8387396775601025734
+    second: turret_walk_101
+  - first:
+      213: -59443758163091249
+    second: turret_walk_102
+  - first:
+      213: -7882517518014424579
+    second: turret_walk_103
+  - first:
+      213: 4561511124213466773
+    second: turret_walk_104
+  - first:
+      213: 7231562177952853512
+    second: turret_walk_105
+  - first:
+      213: 5890745949249132661
+    second: turret_walk_106
+  - first:
+      213: -2240865059764237628
+    second: turret_walk_107
+  - first:
+      213: -804835040520899951
+    second: turret_walk_108
+  - first:
+      213: -3688225241561950666
+    second: turret_walk_109
+  - first:
+      213: 8203416921731637104
+    second: turret_walk_110
+  - first:
+      213: -1514307016341892399
+    second: turret_walk_111
+  - first:
+      213: -6945144019535673488
+    second: turret_walk_112
+  - first:
+      213: -2113446653166106377
+    second: turret_walk_113
+  - first:
+      213: -5578970271598147132
+    second: turret_walk_114
+  - first:
+      213: 2261485656857494289
+    second: turret_walk_115
+  - first:
+      213: 838243531559446479
+    second: turret_walk_116
+  - first:
+      213: 4434659574364292652
+    second: turret_walk_117
+  - first:
+      213: -6651662290512358679
+    second: turret_walk_118
+  - first:
+      213: -891529096785102475
+    second: turret_walk_119
+  - first:
+      213: 3646826221090360268
+    second: turret_walk_000
+  - first:
+      213: 2251430402951742783
+    second: turret_walk_001
+  - first:
+      213: -5916043532164531602
+    second: turret_walk_002
+  - first:
+      213: -6736382444261326342
+    second: turret_walk_003
+  - first:
+      213: 7874848707619825765
+    second: turret_walk_004
+  - first:
+      213: -6154841976591354172
+    second: turret_walk_005
+  - first:
+      213: -2927863313314136436
+    second: turret_walk_006
+  - first:
+      213: 4836554627653641180
+    second: turret_walk_007
+  - first:
+      213: 2174220052417984669
+    second: turret_walk_008
+  - first:
+      213: -6015801090123048713
+    second: turret_walk_009
+  - first:
+      213: 7588839850069413337
+    second: turret_walk_010
+  - first:
+      213: 8324056383983902403
+    second: turret_walk_011
+  - first:
+      213: -7363410133895563612
+    second: turret_walk_012
+  - first:
+      213: 6426492049051074900
+    second: turret_walk_013
+  - first:
+      213: -1307631959786887489
+    second: turret_walk_014
+  - first:
+      213: -3085080406965538731
+    second: turret_walk_015
+  - first:
+      213: -5016475577419025862
+    second: turret_walk_016
+  - first:
+      213: -1412777373802785290
+    second: turret_walk_017
+  - first:
+      213: -1745570254829082808
+    second: turret_walk_018
+  - first:
+      213: 8930166104546015526
+    second: turret_walk_019
+  - first:
+      213: -5295317915563488798
+    second: turret_walk_020
+  - first:
+      213: 137199069070997323
+    second: turret_walk_021
+  - first:
+      213: -5707934296156475328
+    second: turret_walk_022
+  - first:
+      213: 7418823434376100070
+    second: turret_walk_023
+  - first:
+      213: -452584850250112745
+    second: turret_walk_024
+  - first:
+      213: -1229821957505536771
+    second: turret_walk_025
+  - first:
+      213: 8475753330211727280
+    second: turret_walk_026
+  - first:
+      213: -2893515219548250280
+    second: turret_walk_027
+  - first:
+      213: 4827008643432937971
+    second: turret_walk_028
+  - first:
+      213: 5601855764612158716
+    second: turret_walk_029
+  - first:
+      213: -3472707250648130967
+    second: turret_walk_030
+  - first:
+      213: 2227801476299572818
+    second: turret_walk_031
+  - first:
+      213: -1241156561694553701
+    second: turret_walk_032
+  - first:
+      213: 8538449609366793762
+    second: turret_walk_033
+  - first:
+      213: 7971336816925027462
+    second: turret_walk_034
+  - first:
+      213: -697206610915300107
+    second: turret_walk_035
+  - first:
+      213: 5975713491206822377
+    second: turret_walk_036
+  - first:
+      213: 7098382982482436534
+    second: turret_walk_037
+  - first:
+      213: -7374931016285845398
+    second: turret_walk_038
+  - first:
+      213: -8104297507465934539
+    second: turret_walk_039
+  - first:
+      213: 3576101805152241807
+    second: turret_walk_040
+  - first:
+      213: 5529609529679962844
+    second: turret_walk_041
+  - first:
+      213: 3985038537905546181
+    second: turret_walk_042
+  - first:
+      213: 3712875395717912319
+    second: turret_walk_043
+  - first:
+      213: 8207223490853824787
+    second: turret_walk_044
+  - first:
+      213: 9027941581581094893
+    second: turret_walk_045
+  - first:
+      213: -5017198583314356454
+    second: turret_walk_046
+  - first:
+      213: 1807603781031484040
+    second: turret_walk_047
+  - first:
+      213: 3970042883968671794
+    second: turret_walk_048
+  - first:
+      213: -5686245617886178903
+    second: turret_walk_049
+  - first:
+      213: -8479964433467952026
+    second: turret_walk_050
+  - first:
+      213: 4890043728048099421
+    second: turret_walk_051
+  - first:
+      213: 5347405986565708609
+    second: turret_walk_052
+  - first:
+      213: -6208580529376458003
+    second: turret_walk_053
+  - first:
+      213: -4185993173036204620
+    second: turret_walk_054
+  - first:
+      213: 8384602265998251936
+    second: turret_walk_055
+  - first:
+      213: -8734621023077668929
+    second: turret_walk_056
+  - first:
+      213: -7557976157934506444
+    second: turret_walk_057
+  - first:
+      213: 2411607539303789403
+    second: turret_walk_058
+  - first:
+      213: -1116257091408156927
+    second: turret_walk_059
+  - first:
+      213: 1217722796067168959
+    second: turret_walk_060
+  - first:
+      213: 6899610202555289648
+    second: turret_walk_061
+  - first:
+      213: -6366008663881466412
+    second: turret_walk_062
+  - first:
+      213: 1460293965052799711
+    second: turret_walk_063
+  - first:
+      213: -6087932751612048671
+    second: turret_walk_064
+  - first:
+      213: -1510226492304650225
+    second: turret_walk_065
+  - first:
+      213: 3405467656685795398
+    second: turret_walk_066
+  - first:
+      213: 5334583958623113685
+    second: turret_walk_067
+  - first:
+      213: -4239282582516273826
+    second: turret_walk_068
+  - first:
+      213: -2890888186686650457
+    second: turret_walk_069
+  - first:
+      213: 4208026230412862534
+    second: turret_walk_070
+  - first:
+      213: -2933288499123686227
+    second: turret_walk_071
+  - first:
+      213: 2434581932270609845
+    second: turret_walk_072
+  - first:
+      213: -7386541785053635735
+    second: turret_walk_073
+  - first:
+      213: -2696486164575998662
+    second: turret_walk_074
+  - first:
+      213: 8895423735244092177
+    second: turret_walk_075
+  - first:
+      213: 7227177301656364492
+    second: turret_walk_076
+  - first:
+      213: -1465987009613672979
+    second: turret_walk_077
+  - first:
+      213: -926174558272596538
+    second: turret_walk_078
+  - first:
+      213: -8207191566917445490
+    second: turret_walk_079
+  - first:
+      213: 6362925775469341230
+    second: turret_walk_080
+  - first:
+      213: -192071703022161711
+    second: turret_walk_081
+  - first:
+      213: 510311598787813751
+    second: turret_walk_082
+  - first:
+      213: 7418339491565557890
+    second: turret_walk_083
+  - first:
+      213: 5554015697993840639
+    second: turret_walk_084
+  - first:
+      213: 6925329788025088142
+    second: turret_walk_085
+  - first:
+      213: -7809630715536729565
+    second: turret_walk_086
+  - first:
+      213: 8315052560911810012
+    second: turret_walk_087
+  - first:
+      213: -3232565435431295729
+    second: turret_walk_088
+  - first:
+      213: 9167550061777919005
+    second: turret_walk_089
+  - first:
+      213: -7898110132110978005
+    second: turret_walk_090
+  - first:
+      213: 6229849650505052168
+    second: turret_walk_091
+  - first:
+      213: -3769159457772371679
+    second: turret_walk_092
+  - first:
+      213: -2815839959337801467
+    second: turret_walk_093
+  - first:
+      213: -6329031672994658426
+    second: turret_walk_094
+  - first:
+      213: 9023016619538138625
+    second: turret_walk_095
+  - first:
+      213: -4753053084120422099
+    second: turret_walk_096
+  - first:
+      213: 3780759129870347045
+    second: turret_walk_097
+  - first:
+      213: 1202846467085521607
+    second: turret_walk_098
+  - first:
+      213: -2897285079679299685
+    second: turret_walk_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: turret_walk_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbcba950212c9230800000000000000
+      internalID: 3646826221090360268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f35047cd500be3f10800000000000000
+      internalID: 2251430402951742783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6af59580cdf5eda0800000000000000
+      internalID: -5916043532164531602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af140aa9bdf8382a0800000000000000
+      internalID: -6736382444261326342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568af954d25194d60800000000000000
+      internalID: 7874848707619825765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6fb9005db959aa0800000000000000
+      internalID: -6154841976591354172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e330b34d32e57d0800000000000000
+      internalID: -2927863313314136436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd321160fc4ee1340800000000000000
+      internalID: 4836554627653641180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98b7ef3e916c2e10800000000000000
+      internalID: 2174220052417984669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8dec718c4938ca0800000000000000
+      internalID: -6015801090123048713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd47b0e2a9f05960800000000000000
+      internalID: 7588839850069413337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cedea1bd2df48370800000000000000
+      internalID: 8324056383983902403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6b4a90f79efc990800000000000000
+      internalID: -7363410133895563612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451cf87387c7f2950800000000000000
+      internalID: 6426492049051074900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb664f329ab5adde0800000000000000
+      internalID: -1307631959786887489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5503d4f17b79f25d0800000000000000
+      internalID: -3085080406965538731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32348f6a06e16ab0800000000000000
+      internalID: -5016475577419025862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f596c7b67ec46ce0800000000000000
+      internalID: -1412777373802785290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847ac660a1d76c7e0800000000000000
+      internalID: -1745570254829082808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629f2be02c25eeb70800000000000000
+      internalID: 8930166104546015526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9831e59604386b0800000000000000
+      internalID: -5295317915563488798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47bd7f83dd67e100800000000000000
+      internalID: 137199069070997323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040f254eff759c0b0800000000000000
+      internalID: -5707934296156475328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e8b4516b94f4f660800000000000000
+      internalID: 7418823434376100070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7116e120a7818b9f0800000000000000
+      internalID: -452584850250112745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc28ed027bceeee0800000000000000
+      internalID: -1229821957505536771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7aa135fbcef9570800000000000000
+      internalID: 8475753330211727280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fd3a20d3b28d7d0800000000000000
+      internalID: -2893515219548250280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f97f8f59cafcf240800000000000000
+      internalID: 4827008643432937971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf49ea4532acdbd40800000000000000
+      internalID: 5601855764612158716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ad13c97277ecfc0800000000000000
+      internalID: -3472707250648130967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2564de8a3adbaee10800000000000000
+      internalID: 2227801476299572818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b990d8ddea686cee0800000000000000
+      internalID: -1241156561694553701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e61ea5eaaae7670800000000000000
+      internalID: 8538449609366793762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c2fcdd990ef9e60800000000000000
+      internalID: 7971336816925027462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fce65508460356f0800000000000000
+      internalID: -697206610915300107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e954e272cffde250800000000000000
+      internalID: 5975713491206822377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b12b86b6b5828260800000000000000
+      internalID: 7098382982482436534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a688543905bf6a990800000000000000
+      internalID: -7374931016285845398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539c869fa50c78f80800000000000000
+      internalID: -8104297507465934539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f888bb015add0a130800000000000000
+      internalID: 3576101805152241807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd26033f19e1dbc40800000000000000
+      internalID: 5529609529679962844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c32a14cf63bd4730800000000000000
+      internalID: 3985038537905546181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6dd013088c68330800000000000000
+      internalID: 3712875395717912319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319659cf74ae5e170800000000000000
+      internalID: 8207223490853824787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def8e1f4901b94d70800000000000000
+      internalID: 9027941581581094893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1764f188745f5ab0800000000000000
+      internalID: -5017198583314356454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88ad80fcf06e51910800000000000000
+      internalID: 1807603781031484040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230250208fc681730800000000000000
+      internalID: 3970042883968671794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1d540dcb56611b0800000000000000
+      internalID: -5686245617886178903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664323bc64d115a80800000000000000
+      internalID: -8479964433467952026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d501f62bcdcecd340800000000000000
+      internalID: 4890043728048099421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14bdb0bb96dc53a40800000000000000
+      internalID: 5347405986565708609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea0c1b27e0b6d9a0800000000000000
+      internalID: -6208580529376458003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd77f0336d58e5c0800000000000000
+      internalID: -4185993173036204620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7d2cf56571c5470800000000000000
+      internalID: 8384602265998251936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7ebcf157468c680800000000000000
+      internalID: -8734621023077668929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e217d6abcac1790800000000000000
+      internalID: -7557976157934506444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b533bdd9740c77120800000000000000
+      internalID: 2411607539303789403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1072b9ce6124280f0800000000000000
+      internalID: -1116257091408156927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2aa766e6836e010800000000000000
+      internalID: 1217722796067168959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03018fb6ce650cf50800000000000000
+      internalID: 6899610202555289648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd394849d467a7a0800000000000000
+      internalID: -6366008663881466412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda6e9ecf91044410800000000000000
+      internalID: 1460293965052799711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ea82bbea61538ba0800000000000000
+      internalID: -6087932751612048671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f001ccbb1099a0be0800000000000000
+      internalID: -1510226492304650225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648b6d27ac6a24f20800000000000000
+      internalID: 3405467656685795398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d15a36b8df380a40800000000000000
+      internalID: 5334583958623113685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ded9ea3fa0b25c0800000000000000
+      internalID: -4239282582516273826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a74b23c28081e7d0800000000000000
+      internalID: -2890888186686650457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644e84dbf89e56a30800000000000000
+      internalID: 4208026230412862534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da47ef9b6adda47d0800000000000000
+      internalID: -2933288499123686227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5e2915e5f59c120800000000000000
+      internalID: 2434581932270609845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b5c4fc16bbd7990800000000000000
+      internalID: -7386541785053635735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d21b2be18249ad0800000000000000
+      internalID: -2696486164575998662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1137dc9d1c4e27b70800000000000000
+      internalID: 8895423735244092177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc56ef1f6771c4460800000000000000
+      internalID: 7227177301656364492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedc3a6f494c7abe0800000000000000
+      internalID: -1465987009613672979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5582675219523f0800000000000000
+      internalID: -926174558272596538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88dd42e0c23a1e80800000000000000
+      internalID: -8207191566917445490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ae603d747ad4850800000000000000
+      internalID: 6362925775469341230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0b5f1cdcf955df0800000000000000
+      internalID: -192071703022161711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771628202bdf41700800000000000000
+      internalID: 510311598787813751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288540aa67c33f660800000000000000
+      internalID: 7418339491565557890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7bdd3d9d3d31d40800000000000000
+      internalID: 5554015697993840639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88aaaf00c6bb1060800000000000000
+      internalID: 6925329788025088142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a147dcd3e9e9390800000000000000
+      internalID: -7809630715536729565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddb9d5cf30056370800000000000000
+      internalID: 8315052560911810012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0569e30dde9323d0800000000000000
+      internalID: -3232565435431295729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c12ec953ea93f70800000000000000
+      internalID: 9167550061777919005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b249c9a4ea6446290800000000000000
+      internalID: -7898110132110978005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 800f17eff3fd47650800000000000000
+      internalID: 6229849650505052168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1218ca9617141bbc0800000000000000
+      internalID: -3769159457772371679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509e157d9702ce8d0800000000000000
+      internalID: -2815839959337801467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68705fed933ca28a0800000000000000
+      internalID: -6329031672994658426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106440a3fc1383d70800000000000000
+      internalID: 9023016619538138625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d296d6a1763c90eb0800000000000000
+      internalID: -4753053084120422099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bac35b564f77430800000000000000
+      internalID: 3780759129870347045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c257f52d7e51b010800000000000000
+      internalID: 1202846467085521607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f0dac0296cac7d0800000000000000
+      internalID: -2897285079679299685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeddf3d842589abb0800000000000000
+      internalID: -4924258325517836822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d4b08221bf99b80800000000000000
+      internalID: -8387396775601025734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc023968730dc2ff0800000000000000
+      internalID: -59443758163091249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9d4faa41cab9290800000000000000
+      internalID: -7882517518014424579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5968cb5133ebd4f30800000000000000
+      internalID: 4561511124213466773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ea7048c7bab5460800000000000000
+      internalID: 7231562177952853512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578d017fa3220c150800000000000000
+      internalID: 5890745949249132661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca0b2bc919d6e0e0800000000000000
+      internalID: -2240865059764237628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192f6fa7bc6a4d4f0800000000000000
+      internalID: -804835040520899951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63612111faac0dcc0800000000000000
+      internalID: -3688225241561950666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f1e3c0a3468d170800000000000000
+      internalID: 8203416921731637104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d25f02bac91cfae0800000000000000
+      internalID: -1514307016341892399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077c5a9af44ed9f90800000000000000
+      internalID: -6945144019535673488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8cb4a67778ba2e0800000000000000
+      internalID: -2113446653166106377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c98decb8148392b0800000000000000
+      internalID: -5578970271598147132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113c1a91939626f10800000000000000
+      internalID: 2261485656857494289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7aeddfc0a02ab00800000000000000
+      internalID: 838243531559446479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26c4c513631b8d30800000000000000
+      internalID: 4434659574364292652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e25628836c80b3a0800000000000000
+      internalID: -6651662290512358679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_walk_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 579f23f8207a0a3f0800000000000000
+      internalID: -891529096785102475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      turret_walk_0: 3372502774324776010
+      turret_walk_000: 3646826221090360268
+      turret_walk_001: 2251430402951742783
+      turret_walk_002: -5916043532164531602
+      turret_walk_003: -6736382444261326342
+      turret_walk_004: 7874848707619825765
+      turret_walk_005: -6154841976591354172
+      turret_walk_006: -2927863313314136436
+      turret_walk_007: 4836554627653641180
+      turret_walk_008: 2174220052417984669
+      turret_walk_009: -6015801090123048713
+      turret_walk_010: 7588839850069413337
+      turret_walk_011: 8324056383983902403
+      turret_walk_012: -7363410133895563612
+      turret_walk_013: 6426492049051074900
+      turret_walk_014: -1307631959786887489
+      turret_walk_015: -3085080406965538731
+      turret_walk_016: -5016475577419025862
+      turret_walk_017: -1412777373802785290
+      turret_walk_018: -1745570254829082808
+      turret_walk_019: 8930166104546015526
+      turret_walk_020: -5295317915563488798
+      turret_walk_021: 137199069070997323
+      turret_walk_022: -5707934296156475328
+      turret_walk_023: 7418823434376100070
+      turret_walk_024: -452584850250112745
+      turret_walk_025: -1229821957505536771
+      turret_walk_026: 8475753330211727280
+      turret_walk_027: -2893515219548250280
+      turret_walk_028: 4827008643432937971
+      turret_walk_029: 5601855764612158716
+      turret_walk_030: -3472707250648130967
+      turret_walk_031: 2227801476299572818
+      turret_walk_032: -1241156561694553701
+      turret_walk_033: 8538449609366793762
+      turret_walk_034: 7971336816925027462
+      turret_walk_035: -697206610915300107
+      turret_walk_036: 5975713491206822377
+      turret_walk_037: 7098382982482436534
+      turret_walk_038: -7374931016285845398
+      turret_walk_039: -8104297507465934539
+      turret_walk_040: 3576101805152241807
+      turret_walk_041: 5529609529679962844
+      turret_walk_042: 3985038537905546181
+      turret_walk_043: 3712875395717912319
+      turret_walk_044: 8207223490853824787
+      turret_walk_045: 9027941581581094893
+      turret_walk_046: -5017198583314356454
+      turret_walk_047: 1807603781031484040
+      turret_walk_048: 3970042883968671794
+      turret_walk_049: -5686245617886178903
+      turret_walk_050: -8479964433467952026
+      turret_walk_051: 4890043728048099421
+      turret_walk_052: 5347405986565708609
+      turret_walk_053: -6208580529376458003
+      turret_walk_054: -4185993173036204620
+      turret_walk_055: 8384602265998251936
+      turret_walk_056: -8734621023077668929
+      turret_walk_057: -7557976157934506444
+      turret_walk_058: 2411607539303789403
+      turret_walk_059: -1116257091408156927
+      turret_walk_060: 1217722796067168959
+      turret_walk_061: 6899610202555289648
+      turret_walk_062: -6366008663881466412
+      turret_walk_063: 1460293965052799711
+      turret_walk_064: -6087932751612048671
+      turret_walk_065: -1510226492304650225
+      turret_walk_066: 3405467656685795398
+      turret_walk_067: 5334583958623113685
+      turret_walk_068: -4239282582516273826
+      turret_walk_069: -2890888186686650457
+      turret_walk_070: 4208026230412862534
+      turret_walk_071: -2933288499123686227
+      turret_walk_072: 2434581932270609845
+      turret_walk_073: -7386541785053635735
+      turret_walk_074: -2696486164575998662
+      turret_walk_075: 8895423735244092177
+      turret_walk_076: 7227177301656364492
+      turret_walk_077: -1465987009613672979
+      turret_walk_078: -926174558272596538
+      turret_walk_079: -8207191566917445490
+      turret_walk_080: 6362925775469341230
+      turret_walk_081: -192071703022161711
+      turret_walk_082: 510311598787813751
+      turret_walk_083: 7418339491565557890
+      turret_walk_084: 5554015697993840639
+      turret_walk_085: 6925329788025088142
+      turret_walk_086: -7809630715536729565
+      turret_walk_087: 8315052560911810012
+      turret_walk_088: -3232565435431295729
+      turret_walk_089: 9167550061777919005
+      turret_walk_090: -7898110132110978005
+      turret_walk_091: 6229849650505052168
+      turret_walk_092: -3769159457772371679
+      turret_walk_093: -2815839959337801467
+      turret_walk_094: -6329031672994658426
+      turret_walk_095: 9023016619538138625
+      turret_walk_096: -4753053084120422099
+      turret_walk_097: 3780759129870347045
+      turret_walk_098: 1202846467085521607
+      turret_walk_099: -2897285079679299685
+      turret_walk_1: -5497245951663459376
+      turret_walk_10: 4201890072299005997
+      turret_walk_100: -4924258325517836822
+      turret_walk_101: -8387396775601025734
+      turret_walk_102: -59443758163091249
+      turret_walk_103: -7882517518014424579
+      turret_walk_104: 4561511124213466773
+      turret_walk_105: 7231562177952853512
+      turret_walk_106: 5890745949249132661
+      turret_walk_107: -2240865059764237628
+      turret_walk_108: -804835040520899951
+      turret_walk_109: -3688225241561950666
+      turret_walk_11: 3889172086616842356
+      turret_walk_110: 8203416921731637104
+      turret_walk_111: -1514307016341892399
+      turret_walk_112: -6945144019535673488
+      turret_walk_113: -2113446653166106377
+      turret_walk_114: -5578970271598147132
+      turret_walk_115: 2261485656857494289
+      turret_walk_116: 838243531559446479
+      turret_walk_117: 4434659574364292652
+      turret_walk_118: -6651662290512358679
+      turret_walk_119: -891529096785102475
+      turret_walk_12: -809890690038183532
+      turret_walk_13: 5518065607396977540
+      turret_walk_14: -3637988747329338110
+      turret_walk_15: 2236111448435428692
+      turret_walk_16: -685631271976528781
+      turret_walk_17: -9206726603057441085
+      turret_walk_18: 1573445390064342148
+      turret_walk_19: 7164226127322344531
+      turret_walk_2: 6722002097408308019
+      turret_walk_20: -6185867412335213852
+      turret_walk_21: 8072840196727641137
+      turret_walk_22: 5354114811875900351
+      turret_walk_23: 2493603165410295487
+      turret_walk_24: 874332656144959702
+      turret_walk_25: -8736220569869738673
+      turret_walk_26: 3666559318153946514
+      turret_walk_27: -7419082945037167791
+      turret_walk_28: -3407360453172455645
+      turret_walk_29: -965005326373089224
+      turret_walk_3: -44943514869570205
+      turret_walk_30: 8048166686638085008
+      turret_walk_31: -3714767597363435833
+      turret_walk_32: 1162767556983867731
+      turret_walk_33: -2369362956912771946
+      turret_walk_34: 3746887029684372175
+      turret_walk_35: -4731651092031454526
+      turret_walk_36: -2482085055270856606
+      turret_walk_37: -151637633251091499
+      turret_walk_38: -5752792618052289640
+      turret_walk_39: -2137046315627013761
+      turret_walk_4: 8971615457853691551
+      turret_walk_40: -6150529284954907337
+      turret_walk_41: -717156022066671235
+      turret_walk_42: -3416715906973748873
+      turret_walk_43: -4519483964044442103
+      turret_walk_44: -5516058905746742246
+      turret_walk_45: -2653022025418764421
+      turret_walk_46: 4624761097413651812
+      turret_walk_47: -4364386446085042870
+      turret_walk_48: 6366605752334125843
+      turret_walk_49: 7303706059937404721
+      turret_walk_5: 687092638323349927
+      turret_walk_50: -2490587183000093814
+      turret_walk_51: 824746280878933167
+      turret_walk_52: -6205412457543367981
+      turret_walk_53: 8439760066716303285
+      turret_walk_54: -7182551621705651559
+      turret_walk_55: -4917965430536794475
+      turret_walk_56: -1174265541022735303
+      turret_walk_57: 3646026993369994090
+      turret_walk_58: 470083665749906137
+      turret_walk_59: -3945633071964250140
+      turret_walk_6: -8443950131516238093
+      turret_walk_60: 7683764195261460714
+      turret_walk_61: 7023814465751969567
+      turret_walk_62: 3641177688736274454
+      turret_walk_63: -5895818914787570537
+      turret_walk_64: 8681757357170950896
+      turret_walk_65: 2443640276056823048
+      turret_walk_66: -3864678863919149279
+      turret_walk_67: 2289756083577368895
+      turret_walk_68: -680372011002274481
+      turret_walk_69: -8982426905320538190
+      turret_walk_7: -4770185228779614083
+      turret_walk_70: 1018517021005710348
+      turret_walk_71: -4807523228203172642
+      turret_walk_72: -3795726677958301325
+      turret_walk_73: 7143750193296461390
+      turret_walk_74: -1466834133210841095
+      turret_walk_75: 3029337360808641589
+      turret_walk_76: -5440589092328602553
+      turret_walk_77: 8285882164044583243
+      turret_walk_78: -3413285009023983610
+      turret_walk_79: 2777680411579837335
+      turret_walk_8: 713252786656866022
+      turret_walk_80: 8831409455026587201
+      turret_walk_81: -3317022664688134896
+      turret_walk_82: 1027529902828414280
+      turret_walk_83: 298956359786787355
+      turret_walk_84: -9068263591073907676
+      turret_walk_85: -5343452193887157604
+      turret_walk_86: -5779262914926089655
+      turret_walk_87: -5657858227354600311
+      turret_walk_88: -387640334253012419
+      turret_walk_89: 3949711292703961737
+      turret_walk_9: -8409080796920520288
+      turret_walk_90: -6146399560139454948
+      turret_walk_91: -5498711392476175844
+      turret_walk_92: -1410231280259770789
+      turret_walk_93: 4916585109900268606
+      turret_walk_94: 8362173997048498027
+      turret_walk_95: -525897088531929106
+      turret_walk_96: -1143654380468178613
+      turret_walk_97: -5641429702663679139
+      turret_walk_98: 1133910733206480420
+      turret_walk_99: -440218217065218660
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

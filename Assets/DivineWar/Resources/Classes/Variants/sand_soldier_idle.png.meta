@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 80cff4bc7088c2542a0a349e59fa4d56
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2625324757604558538
+    second: sand_soldier_idle_0
+  - first:
+      213: -9112226614267509788
+    second: sand_soldier_idle_1
+  - first:
+      213: 8794493682293660454
+    second: sand_soldier_idle_2
+  - first:
+      213: 7598837689394316196
+    second: sand_soldier_idle_3
+  - first:
+      213: 2314955769390972115
+    second: sand_soldier_idle_4
+  - first:
+      213: -2694097473209055255
+    second: sand_soldier_idle_5
+  - first:
+      213: 5736243294120345873
+    second: sand_soldier_idle_6
+  - first:
+      213: -3556778830204867210
+    second: sand_soldier_idle_7
+  - first:
+      213: -4014818070111822768
+    second: sand_soldier_idle_8
+  - first:
+      213: 8400249693516619021
+    second: sand_soldier_idle_9
+  - first:
+      213: 3109996477363832599
+    second: sand_soldier_idle_10
+  - first:
+      213: 7812534542151689372
+    second: sand_soldier_idle_11
+  - first:
+      213: -6085656877913808616
+    second: sand_soldier_idle_12
+  - first:
+      213: 7613806517238040566
+    second: sand_soldier_idle_13
+  - first:
+      213: 3668912899438268899
+    second: sand_soldier_idle_14
+  - first:
+      213: -892947624391232386
+    second: sand_soldier_idle_15
+  - first:
+      213: 4972475912968288287
+    second: sand_soldier_idle_16
+  - first:
+      213: -9038840626509543283
+    second: sand_soldier_idle_17
+  - first:
+      213: -8116065004299006566
+    second: sand_soldier_idle_18
+  - first:
+      213: -1714325826929633124
+    second: sand_soldier_idle_19
+  - first:
+      213: -4727745505110024395
+    second: sand_soldier_idle_20
+  - first:
+      213: -7665649716323843198
+    second: sand_soldier_idle_21
+  - first:
+      213: 161512510626153712
+    second: sand_soldier_idle_22
+  - first:
+      213: -7691178131817178014
+    second: sand_soldier_idle_23
+  - first:
+      213: 8985489571941647327
+    second: sand_soldier_idle_24
+  - first:
+      213: -2408358359624652892
+    second: sand_soldier_idle_25
+  - first:
+      213: 8875614654538178894
+    second: sand_soldier_idle_26
+  - first:
+      213: 5349617833463478159
+    second: sand_soldier_idle_27
+  - first:
+      213: 7127174923189514848
+    second: sand_soldier_idle_28
+  - first:
+      213: 3893250052971803683
+    second: sand_soldier_idle_29
+  - first:
+      213: -5296738049019093902
+    second: sand_soldier_idle_30
+  - first:
+      213: 2068121967049960054
+    second: sand_soldier_idle_31
+  - first:
+      213: -271801340131441929
+    second: sand_soldier_idle_32
+  - first:
+      213: 4227859833173992954
+    second: sand_soldier_idle_33
+  - first:
+      213: -6583739737036992410
+    second: sand_soldier_idle_34
+  - first:
+      213: -1145134645065064987
+    second: sand_soldier_idle_35
+  - first:
+      213: 3853567219968604890
+    second: sand_soldier_idle_36
+  - first:
+      213: -9131970700306207315
+    second: sand_soldier_idle_37
+  - first:
+      213: -2845894081717254357
+    second: sand_soldier_idle_38
+  - first:
+      213: 45260208475856982
+    second: sand_soldier_idle_39
+  - first:
+      213: 205156387026114033
+    second: sand_soldier_idle_40
+  - first:
+      213: 7506364669840124335
+    second: sand_soldier_idle_41
+  - first:
+      213: -1945525156053912290
+    second: sand_soldier_idle_42
+  - first:
+      213: 4022721426908520575
+    second: sand_soldier_idle_43
+  - first:
+      213: 7242626668907102459
+    second: sand_soldier_idle_44
+  - first:
+      213: -2501136052281073369
+    second: sand_soldier_idle_45
+  - first:
+      213: 8108981937581362663
+    second: sand_soldier_idle_46
+  - first:
+      213: -8841603884055917412
+    second: sand_soldier_idle_47
+  - first:
+      213: 5004629984412090032
+    second: sand_soldier_idle_48
+  - first:
+      213: 1058346729495243882
+    second: sand_soldier_idle_49
+  - first:
+      213: -4946788696775700590
+    second: sand_soldier_idle_50
+  - first:
+      213: -3407812717976816679
+    second: sand_soldier_idle_51
+  - first:
+      213: -4437330350495560021
+    second: sand_soldier_idle_52
+  - first:
+      213: -3270277253838718521
+    second: sand_soldier_idle_53
+  - first:
+      213: 7298739529858782313
+    second: sand_soldier_idle_54
+  - first:
+      213: 6883329401915247795
+    second: sand_soldier_idle_55
+  - first:
+      213: -3099798590999845487
+    second: sand_soldier_idle_56
+  - first:
+      213: -6062215570935391964
+    second: sand_soldier_idle_57
+  - first:
+      213: -1202124917637505259
+    second: sand_soldier_idle_58
+  - first:
+      213: 4381752622722264192
+    second: sand_soldier_idle_59
+  - first:
+      213: 8643023573780439776
+    second: sand_soldier_idle_60
+  - first:
+      213: -1955892250885048520
+    second: sand_soldier_idle_61
+  - first:
+      213: -662382553731984960
+    second: sand_soldier_idle_62
+  - first:
+      213: 8523470544400894939
+    second: sand_soldier_idle_63
+  - first:
+      213: 7324208876507088522
+    second: sand_soldier_idle_64
+  - first:
+      213: -1076211801124025296
+    second: sand_soldier_idle_65
+  - first:
+      213: 8964599949008788544
+    second: sand_soldier_idle_66
+  - first:
+      213: -3525622468558931216
+    second: sand_soldier_idle_67
+  - first:
+      213: -1520834911062835284
+    second: sand_soldier_idle_68
+  - first:
+      213: 4582078007305309417
+    second: sand_soldier_idle_69
+  - first:
+      213: -1393303191516658534
+    second: sand_soldier_idle_70
+  - first:
+      213: 112684398623738870
+    second: sand_soldier_idle_71
+  - first:
+      213: -220755954854994728
+    second: sand_soldier_idle_72
+  - first:
+      213: 8786486613972892501
+    second: sand_soldier_idle_73
+  - first:
+      213: 5150735881149326465
+    second: sand_soldier_idle_74
+  - first:
+      213: 8662312710968841349
+    second: sand_soldier_idle_75
+  - first:
+      213: -3547147433443510810
+    second: sand_soldier_idle_76
+  - first:
+      213: -866896344548228836
+    second: sand_soldier_idle_77
+  - first:
+      213: -6561717619023472749
+    second: sand_soldier_idle_78
+  - first:
+      213: -3192633961898758976
+    second: sand_soldier_idle_79
+  - first:
+      213: 4645579798055225470
+    second: sand_soldier_idle_80
+  - first:
+      213: 4235776975842625901
+    second: sand_soldier_idle_81
+  - first:
+      213: 6881626163665797726
+    second: sand_soldier_idle_82
+  - first:
+      213: 7335257765656215290
+    second: sand_soldier_idle_83
+  - first:
+      213: -3493636667956969748
+    second: sand_soldier_idle_84
+  - first:
+      213: -6900499170497383700
+    second: sand_soldier_idle_85
+  - first:
+      213: 583822895689022056
+    second: sand_soldier_idle_86
+  - first:
+      213: -5883740056400744087
+    second: sand_soldier_idle_87
+  - first:
+      213: -7298823595538552841
+    second: sand_soldier_idle_88
+  - first:
+      213: 1308000063943965258
+    second: sand_soldier_idle_89
+  - first:
+      213: 2158299744527763889
+    second: sand_soldier_idle_90
+  - first:
+      213: -2695304016396582582
+    second: sand_soldier_idle_91
+  - first:
+      213: -4606609042124720389
+    second: sand_soldier_idle_92
+  - first:
+      213: -3446969656808632556
+    second: sand_soldier_idle_93
+  - first:
+      213: -708400748211233683
+    second: sand_soldier_idle_94
+  - first:
+      213: -1151544303657331133
+    second: sand_soldier_idle_95
+  - first:
+      213: -3313958125865513786
+    second: sand_soldier_idle_96
+  - first:
+      213: 5982483086014884906
+    second: sand_soldier_idle_97
+  - first:
+      213: -2035819220290320226
+    second: sand_soldier_idle_98
+  - first:
+      213: 6005190080732225146
+    second: sand_soldier_idle_99
+  - first:
+      213: 2981308854543258191
+    second: sand_soldier_idle_100
+  - first:
+      213: -1409665490299299333
+    second: sand_soldier_idle_101
+  - first:
+      213: 1630556106186381832
+    second: sand_soldier_idle_102
+  - first:
+      213: 5598532894893959462
+    second: sand_soldier_idle_103
+  - first:
+      213: 6674190088923733177
+    second: sand_soldier_idle_104
+  - first:
+      213: -1925856797396649212
+    second: sand_soldier_idle_105
+  - first:
+      213: 4976040132402885510
+    second: sand_soldier_idle_106
+  - first:
+      213: -3607755243420638832
+    second: sand_soldier_idle_107
+  - first:
+      213: -5521112719420094118
+    second: sand_soldier_idle_108
+  - first:
+      213: 5009625978800709211
+    second: sand_soldier_idle_109
+  - first:
+      213: -5977756050997131906
+    second: sand_soldier_idle_110
+  - first:
+      213: -7709101495643066946
+    second: sand_soldier_idle_111
+  - first:
+      213: -4201953729624489512
+    second: sand_soldier_idle_112
+  - first:
+      213: -1016742650048895770
+    second: sand_soldier_idle_113
+  - first:
+      213: 1306828078939049813
+    second: sand_soldier_idle_114
+  - first:
+      213: -8471877717049914893
+    second: sand_soldier_idle_115
+  - first:
+      213: -8598828093513930673
+    second: sand_soldier_idle_116
+  - first:
+      213: -8016288598441383009
+    second: sand_soldier_idle_117
+  - first:
+      213: 1101564958611454551
+    second: sand_soldier_idle_118
+  - first:
+      213: 1149382250051271786
+    second: sand_soldier_idle_119
+  - first:
+      213: -2445918436480455177
+    second: sand_soldier_idle_000
+  - first:
+      213: -7641644357407151592
+    second: sand_soldier_idle_001
+  - first:
+      213: 8664434640327402970
+    second: sand_soldier_idle_002
+  - first:
+      213: -4777286365897394129
+    second: sand_soldier_idle_003
+  - first:
+      213: 2357576476920346165
+    second: sand_soldier_idle_004
+  - first:
+      213: 2295704080158388372
+    second: sand_soldier_idle_005
+  - first:
+      213: -6207126600726329531
+    second: sand_soldier_idle_006
+  - first:
+      213: -2573516837992584960
+    second: sand_soldier_idle_007
+  - first:
+      213: 4802346097087978837
+    second: sand_soldier_idle_008
+  - first:
+      213: -5204847233289023342
+    second: sand_soldier_idle_009
+  - first:
+      213: 6236705567112905024
+    second: sand_soldier_idle_010
+  - first:
+      213: 7095933848343277313
+    second: sand_soldier_idle_011
+  - first:
+      213: 2023810310878890761
+    second: sand_soldier_idle_012
+  - first:
+      213: 7906102376412122953
+    second: sand_soldier_idle_013
+  - first:
+      213: 9203615275873676502
+    second: sand_soldier_idle_014
+  - first:
+      213: -6643438489139490087
+    second: sand_soldier_idle_015
+  - first:
+      213: -921309044889206605
+    second: sand_soldier_idle_016
+  - first:
+      213: -1790634211227899818
+    second: sand_soldier_idle_017
+  - first:
+      213: 2960147336952340595
+    second: sand_soldier_idle_018
+  - first:
+      213: 5119689632792759642
+    second: sand_soldier_idle_019
+  - first:
+      213: 7353945018738246766
+    second: sand_soldier_idle_020
+  - first:
+      213: -8558192574639598366
+    second: sand_soldier_idle_021
+  - first:
+      213: 3500608674427938551
+    second: sand_soldier_idle_022
+  - first:
+      213: 6752769344200266854
+    second: sand_soldier_idle_023
+  - first:
+      213: -412168980759871712
+    second: sand_soldier_idle_024
+  - first:
+      213: -7698368202303867504
+    second: sand_soldier_idle_025
+  - first:
+      213: 1674573102815529553
+    second: sand_soldier_idle_026
+  - first:
+      213: -6242727352569652789
+    second: sand_soldier_idle_027
+  - first:
+      213: 750915644533200094
+    second: sand_soldier_idle_028
+  - first:
+      213: -2018686232975179879
+    second: sand_soldier_idle_029
+  - first:
+      213: -3699148709082051128
+    second: sand_soldier_idle_030
+  - first:
+      213: -4558167486006751638
+    second: sand_soldier_idle_031
+  - first:
+      213: -5192914016162645406
+    second: sand_soldier_idle_032
+  - first:
+      213: -734274460255456278
+    second: sand_soldier_idle_033
+  - first:
+      213: -2877208247799776875
+    second: sand_soldier_idle_034
+  - first:
+      213: 8598445450724834048
+    second: sand_soldier_idle_035
+  - first:
+      213: -3335546614992376406
+    second: sand_soldier_idle_036
+  - first:
+      213: -710831600866172994
+    second: sand_soldier_idle_037
+  - first:
+      213: -1278856013377647074
+    second: sand_soldier_idle_038
+  - first:
+      213: 6977863468754617410
+    second: sand_soldier_idle_039
+  - first:
+      213: 4912488485895358925
+    second: sand_soldier_idle_040
+  - first:
+      213: 8663556916180144650
+    second: sand_soldier_idle_041
+  - first:
+      213: 5459843069891596473
+    second: sand_soldier_idle_042
+  - first:
+      213: 6061760355309548169
+    second: sand_soldier_idle_043
+  - first:
+      213: -8896021739254620035
+    second: sand_soldier_idle_044
+  - first:
+      213: -7106319818536145416
+    second: sand_soldier_idle_045
+  - first:
+      213: 7588616771749260768
+    second: sand_soldier_idle_046
+  - first:
+      213: 5276792766509316303
+    second: sand_soldier_idle_047
+  - first:
+      213: -4360857665265470378
+    second: sand_soldier_idle_048
+  - first:
+      213: -3520179935590266944
+    second: sand_soldier_idle_049
+  - first:
+      213: -2944928602532000664
+    second: sand_soldier_idle_050
+  - first:
+      213: -846816821442680006
+    second: sand_soldier_idle_051
+  - first:
+      213: -3889680529816659924
+    second: sand_soldier_idle_052
+  - first:
+      213: 3009576014349012094
+    second: sand_soldier_idle_053
+  - first:
+      213: 6602978330718138924
+    second: sand_soldier_idle_054
+  - first:
+      213: 5806973935100509191
+    second: sand_soldier_idle_055
+  - first:
+      213: -1149753842378092954
+    second: sand_soldier_idle_056
+  - first:
+      213: -5786969199146637808
+    second: sand_soldier_idle_057
+  - first:
+      213: 8803809411265036150
+    second: sand_soldier_idle_058
+  - first:
+      213: 7683864005612274207
+    second: sand_soldier_idle_059
+  - first:
+      213: 5707552716618171609
+    second: sand_soldier_idle_060
+  - first:
+      213: -8474635122100485201
+    second: sand_soldier_idle_061
+  - first:
+      213: 8837014258914240393
+    second: sand_soldier_idle_062
+  - first:
+      213: 4293788208779086032
+    second: sand_soldier_idle_063
+  - first:
+      213: 1174766782468744567
+    second: sand_soldier_idle_064
+  - first:
+      213: -3484879265924316577
+    second: sand_soldier_idle_065
+  - first:
+      213: -5197758709392406901
+    second: sand_soldier_idle_066
+  - first:
+      213: -4973494676604956289
+    second: sand_soldier_idle_067
+  - first:
+      213: 1023840353805273244
+    second: sand_soldier_idle_068
+  - first:
+      213: 6109109530077479567
+    second: sand_soldier_idle_069
+  - first:
+      213: -456054387005690393
+    second: sand_soldier_idle_070
+  - first:
+      213: 123553884847222295
+    second: sand_soldier_idle_071
+  - first:
+      213: 8340371498518278186
+    second: sand_soldier_idle_072
+  - first:
+      213: 3463620563918047098
+    second: sand_soldier_idle_073
+  - first:
+      213: 4428432856140051670
+    second: sand_soldier_idle_074
+  - first:
+      213: 108984737360547169
+    second: sand_soldier_idle_075
+  - first:
+      213: -3338527321477480295
+    second: sand_soldier_idle_076
+  - first:
+      213: 8231162962277329115
+    second: sand_soldier_idle_077
+  - first:
+      213: -7466979392850837823
+    second: sand_soldier_idle_078
+  - first:
+      213: -5541225937372548216
+    second: sand_soldier_idle_079
+  - first:
+      213: -3866544229953014146
+    second: sand_soldier_idle_080
+  - first:
+      213: 2886412831698023355
+    second: sand_soldier_idle_081
+  - first:
+      213: -7979110473333212282
+    second: sand_soldier_idle_082
+  - first:
+      213: 1522525125338926131
+    second: sand_soldier_idle_083
+  - first:
+      213: -5456964055789447046
+    second: sand_soldier_idle_084
+  - first:
+      213: -7446514534071884801
+    second: sand_soldier_idle_085
+  - first:
+      213: -4182988794218717619
+    second: sand_soldier_idle_086
+  - first:
+      213: 7095493820466639563
+    second: sand_soldier_idle_087
+  - first:
+      213: 5108628246070720266
+    second: sand_soldier_idle_088
+  - first:
+      213: 7231684043135576629
+    second: sand_soldier_idle_089
+  - first:
+      213: -8739976542436796751
+    second: sand_soldier_idle_090
+  - first:
+      213: -9099881393608295040
+    second: sand_soldier_idle_091
+  - first:
+      213: 4357033120587870026
+    second: sand_soldier_idle_092
+  - first:
+      213: -6405027031822841468
+    second: sand_soldier_idle_093
+  - first:
+      213: 7833920788588412608
+    second: sand_soldier_idle_094
+  - first:
+      213: -693437589700933610
+    second: sand_soldier_idle_095
+  - first:
+      213: 5815982454979854259
+    second: sand_soldier_idle_096
+  - first:
+      213: 8321546664044992930
+    second: sand_soldier_idle_097
+  - first:
+      213: 1215713722919419382
+    second: sand_soldier_idle_098
+  - first:
+      213: -4229005593439183504
+    second: sand_soldier_idle_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sand_soldier_idle_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fde00c142a5e0ed0800000000000000
+      internalID: -2445918436480455177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ae0e0b1fc63f590800000000000000
+      internalID: -7641644357407151592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5ed4436614e3870800000000000000
+      internalID: 8664434640327402970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f287e528c5ba3bdb0800000000000000
+      internalID: -4777286365897394129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53677a5905bc7b020800000000000000
+      internalID: 2357576476920346165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490714f92bafbdf10800000000000000
+      internalID: 2295704080158388372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54744df4e3bdbd9a0800000000000000
+      internalID: -6207126600726329531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00927f72218094cd0800000000000000
+      internalID: -2573516837992584960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d9965d45c55a240800000000000000
+      internalID: 4802346097087978837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29012ad840ba4c7b0800000000000000
+      internalID: -5204847233289023342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04147787baa3d8650800000000000000
+      internalID: 6236705567112905024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10feb2c3d32d97260800000000000000
+      internalID: 7095933848343277313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b85b051c4061c10800000000000000
+      internalID: 2023810310878890761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f8ae7193e18bd60800000000000000
+      internalID: 7906102376412122953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc2fcf945fc9bf70800000000000000
+      internalID: 9203615275873676502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2deaf74e3cdc3a0800000000000000
+      internalID: -6643438489139490087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b046031e4ad633f0800000000000000
+      internalID: -921309044889206605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658691d0ca36627e0800000000000000
+      internalID: -1790634211227899818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370ecd5c15e841920800000000000000
+      internalID: 2960147336952340595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5dccd2889acc0740800000000000000
+      internalID: 5119689632792759642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6485ab18067e0660800000000000000
+      internalID: 7353945018738246766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e4983552313b3980800000000000000
+      internalID: -8558192574639598366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6ade8da09a49030800000000000000
+      internalID: 3500608674427938551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664543bd0f7a6bd50800000000000000
+      internalID: 6752769344200266854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f7f5aee7ea74af0800000000000000
+      internalID: -412168980759871712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095f38f58e6e92590800000000000000
+      internalID: -7698368202303867504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a4ebf5d574d3710800000000000000
+      internalID: 1674573102815529553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc998785c806d59a0800000000000000
+      internalID: -6242727352569652789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed45fa8dcc9cb6a00800000000000000
+      internalID: 750915644533200094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ffa8a019f2cf3e0800000000000000
+      internalID: -2018686232975179879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdc1d719dbf9acc0800000000000000
+      internalID: -3699148709082051128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e05d952d22eb0c0800000000000000
+      internalID: -4558167486006751638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a7a7d27301fe7b0800000000000000
+      internalID: -5192914016162645406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3f4dcc4455fc5f0800000000000000
+      internalID: -734274460255456278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599f11db75a1218d0800000000000000
+      internalID: -2877208247799776875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bf607b490d35770800000000000000
+      internalID: 8598445450724834048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aad6f91b602c5b1d0800000000000000
+      internalID: -3335546614992376406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebfdf37dc6e9226f0800000000000000
+      internalID: -710831600866172994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ec0c34b37904ee0800000000000000
+      internalID: -1278856013377647074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2444b42cad956d060800000000000000
+      internalID: 6977863468754617410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc94dfc104aac2440800000000000000
+      internalID: 4912488485895358925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02db402d132b3870800000000000000
+      internalID: 8663556916180144650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b05446385245cb40800000000000000
+      internalID: 5459843069891596473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98275c33de2bf1450800000000000000
+      internalID: 6061760355309548169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70639d7c5bfa8480800000000000000
+      internalID: -8896021739254620035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fda5d3a6c7416d90800000000000000
+      internalID: -7106319818536145416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edafa86fbe205960800000000000000
+      internalID: 7588616771749260768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc87321401fea3940800000000000000
+      internalID: 5276792766509316303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654ffc9ee0f1b73c0800000000000000
+      internalID: -4360857665265470378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c74fa1dffec52fc0800000000000000
+      internalID: -3520179935590266944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c4135f9038127d0800000000000000
+      internalID: -2944928602532000664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b651866908f34f0800000000000000
+      internalID: -846816821442680006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c285682aa24150ac0800000000000000
+      internalID: -3889680529816659924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c0fcb807924c920800000000000000
+      internalID: 3009576014349012094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c227e06cecd72ab50800000000000000
+      internalID: 6602978330718138924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c3e9df604869050800000000000000
+      internalID: 5806973935100509191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ec9e5d8f04b00f0800000000000000
+      internalID: -1149753842378092954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 016ecbe8c2e80bfa0800000000000000
+      internalID: -5786969199146637808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f71b4d30a6d2a70800000000000000
+      internalID: 8803809411265036150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f120eec2a9192aa60800000000000000
+      internalID: 7683864005612274207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d487d2b4fc453f40800000000000000
+      internalID: 5707552716618171609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3c62ac14c046a80800000000000000
+      internalID: -8474635122100485201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98725a1e5a163aa70800000000000000
+      internalID: 8837014258914240393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d8c90d50a9969b30800000000000000
+      internalID: 4293788208779086032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7756afa1a2c9d4010800000000000000
+      internalID: 1174766782468744567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52057575c833afc0800000000000000
+      internalID: -3484879265924316577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8609722ef9ddd7b0800000000000000
+      internalID: -5197758709392406901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f715aac31f89afab0800000000000000
+      internalID: -4973494676604956289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9806439069653e00800000000000000
+      internalID: 1023840353805273244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82c83a00cae7c450800000000000000
+      internalID: 6109109530077479567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed644883f4cba9f0800000000000000
+      internalID: -456054387005690393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e20f88a93f6b100800000000000000
+      internalID: 123553884847222295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2079ff40b3feb370800000000000000
+      internalID: 8340371498518278186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77c2154d80411030800000000000000
+      internalID: 3463620563918047098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d475e54834f47d30800000000000000
+      internalID: 4428432856140051670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d805c8a01338100800000000000000
+      internalID: 108984737360547169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9900662e61b2ba1d0800000000000000
+      internalID: -3338527321477480295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd864e68a17fa3270800000000000000
+      internalID: 8231162962277329115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ceb6ffcdc5ff5890800000000000000
+      internalID: -7466979392850837823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8837abe5e5c9913b0800000000000000
+      internalID: -5541225937372548216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7670593286475ac0800000000000000
+      internalID: -3866544229953014146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb37d747d299e0820800000000000000
+      internalID: 2886412831698023355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bff55bc41844190800000000000000
+      internalID: -7979110473333212282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c0f69e888112510800000000000000
+      internalID: 1522525125338926131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78589e7a18f444b0800000000000000
+      internalID: -5456964055789447046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3acdd0c7aa8a890800000000000000
+      internalID: -7446514534071884801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e5725aad903f5c0800000000000000
+      internalID: -4182988794218717619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2b4e24902487260800000000000000
+      internalID: 7095493820466639563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a077298b25e75e640800000000000000
+      internalID: 5108628246070720266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ae4f6725a1c5460800000000000000
+      internalID: 7231684043135576629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6deca14ad55b680800000000000000
+      internalID: -8739976542436796751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d7ac3f51ab6b180800000000000000
+      internalID: -9099881393608295040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f6043e98a477c30800000000000000
+      internalID: 4357033120587870026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489cc6f89d5cc17a0800000000000000
+      internalID: -6405027031822841468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce3c5a837da7bc60800000000000000
+      internalID: 7833920788588412608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61809f7af2a6066f0800000000000000
+      internalID: -693437589700933610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf7af87a3586b050800000000000000
+      internalID: 5815982454979854259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a91d3cf9921c7370800000000000000
+      internalID: 8321546664044992930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdfd2b90351fd010800000000000000
+      internalID: 1215713722919419382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ddae9a1dd8f45c0800000000000000
+      internalID: -4229005593439183504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4217c88b9cbf5920800000000000000
+      internalID: 2981308854543258191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9559e84bcdf6ce0800000000000000
+      internalID: -1409665490299299333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a5597b326e0a610800000000000000
+      internalID: 1630556106186381832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6296e7f610cf1bd40800000000000000
+      internalID: 5598532894893959462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc5bb5468c7f9c50800000000000000
+      internalID: 6674190088923733177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40bb6e6427bf545e0800000000000000
+      internalID: -1925856797396649212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68336ffd2227e0540800000000000000
+      internalID: 4976040132402885510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0912c5788bdaeedc0800000000000000
+      internalID: -3607755243420638832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a59031adb311163b0800000000000000
+      internalID: -5521112719420094118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e1cfb1944c58540800000000000000
+      internalID: 5009625978800709211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75cf5a0b8eba0da0800000000000000
+      internalID: -5977756050997131906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd23c6c805c30590800000000000000
+      internalID: -7709101495643066946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1ca178859afa5c0800000000000000
+      internalID: -4201953729624489512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4a8db52fdc3e1f0800000000000000
+      internalID: -1016742650048895770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f0ba3c639c22210800000000000000
+      internalID: 1306828078939049813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f941be2a18dd6a80800000000000000
+      internalID: -8471877717049914893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48e3715863daa880800000000000000
+      internalID: -8598828093513930673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b23e8edfb60c090800000000000000
+      internalID: -8016288598441383009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75abd075e7b894f00800000000000000
+      internalID: 1101564958611454551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_idle_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cf175111d63ff00800000000000000
+      internalID: 1149382250051271786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sand_soldier_idle_0: -2625324757604558538
+      sand_soldier_idle_000: -2445918436480455177
+      sand_soldier_idle_001: -7641644357407151592
+      sand_soldier_idle_002: 8664434640327402970
+      sand_soldier_idle_003: -4777286365897394129
+      sand_soldier_idle_004: 2357576476920346165
+      sand_soldier_idle_005: 2295704080158388372
+      sand_soldier_idle_006: -6207126600726329531
+      sand_soldier_idle_007: -2573516837992584960
+      sand_soldier_idle_008: 4802346097087978837
+      sand_soldier_idle_009: -5204847233289023342
+      sand_soldier_idle_010: 6236705567112905024
+      sand_soldier_idle_011: 7095933848343277313
+      sand_soldier_idle_012: 2023810310878890761
+      sand_soldier_idle_013: 7906102376412122953
+      sand_soldier_idle_014: 9203615275873676502
+      sand_soldier_idle_015: -6643438489139490087
+      sand_soldier_idle_016: -921309044889206605
+      sand_soldier_idle_017: -1790634211227899818
+      sand_soldier_idle_018: 2960147336952340595
+      sand_soldier_idle_019: 5119689632792759642
+      sand_soldier_idle_020: 7353945018738246766
+      sand_soldier_idle_021: -8558192574639598366
+      sand_soldier_idle_022: 3500608674427938551
+      sand_soldier_idle_023: 6752769344200266854
+      sand_soldier_idle_024: -412168980759871712
+      sand_soldier_idle_025: -7698368202303867504
+      sand_soldier_idle_026: 1674573102815529553
+      sand_soldier_idle_027: -6242727352569652789
+      sand_soldier_idle_028: 750915644533200094
+      sand_soldier_idle_029: -2018686232975179879
+      sand_soldier_idle_030: -3699148709082051128
+      sand_soldier_idle_031: -4558167486006751638
+      sand_soldier_idle_032: -5192914016162645406
+      sand_soldier_idle_033: -734274460255456278
+      sand_soldier_idle_034: -2877208247799776875
+      sand_soldier_idle_035: 8598445450724834048
+      sand_soldier_idle_036: -3335546614992376406
+      sand_soldier_idle_037: -710831600866172994
+      sand_soldier_idle_038: -1278856013377647074
+      sand_soldier_idle_039: 6977863468754617410
+      sand_soldier_idle_040: 4912488485895358925
+      sand_soldier_idle_041: 8663556916180144650
+      sand_soldier_idle_042: 5459843069891596473
+      sand_soldier_idle_043: 6061760355309548169
+      sand_soldier_idle_044: -8896021739254620035
+      sand_soldier_idle_045: -7106319818536145416
+      sand_soldier_idle_046: 7588616771749260768
+      sand_soldier_idle_047: 5276792766509316303
+      sand_soldier_idle_048: -4360857665265470378
+      sand_soldier_idle_049: -3520179935590266944
+      sand_soldier_idle_050: -2944928602532000664
+      sand_soldier_idle_051: -846816821442680006
+      sand_soldier_idle_052: -3889680529816659924
+      sand_soldier_idle_053: 3009576014349012094
+      sand_soldier_idle_054: 6602978330718138924
+      sand_soldier_idle_055: 5806973935100509191
+      sand_soldier_idle_056: -1149753842378092954
+      sand_soldier_idle_057: -5786969199146637808
+      sand_soldier_idle_058: 8803809411265036150
+      sand_soldier_idle_059: 7683864005612274207
+      sand_soldier_idle_060: 5707552716618171609
+      sand_soldier_idle_061: -8474635122100485201
+      sand_soldier_idle_062: 8837014258914240393
+      sand_soldier_idle_063: 4293788208779086032
+      sand_soldier_idle_064: 1174766782468744567
+      sand_soldier_idle_065: -3484879265924316577
+      sand_soldier_idle_066: -5197758709392406901
+      sand_soldier_idle_067: -4973494676604956289
+      sand_soldier_idle_068: 1023840353805273244
+      sand_soldier_idle_069: 6109109530077479567
+      sand_soldier_idle_070: -456054387005690393
+      sand_soldier_idle_071: 123553884847222295
+      sand_soldier_idle_072: 8340371498518278186
+      sand_soldier_idle_073: 3463620563918047098
+      sand_soldier_idle_074: 4428432856140051670
+      sand_soldier_idle_075: 108984737360547169
+      sand_soldier_idle_076: -3338527321477480295
+      sand_soldier_idle_077: 8231162962277329115
+      sand_soldier_idle_078: -7466979392850837823
+      sand_soldier_idle_079: -5541225937372548216
+      sand_soldier_idle_080: -3866544229953014146
+      sand_soldier_idle_081: 2886412831698023355
+      sand_soldier_idle_082: -7979110473333212282
+      sand_soldier_idle_083: 1522525125338926131
+      sand_soldier_idle_084: -5456964055789447046
+      sand_soldier_idle_085: -7446514534071884801
+      sand_soldier_idle_086: -4182988794218717619
+      sand_soldier_idle_087: 7095493820466639563
+      sand_soldier_idle_088: 5108628246070720266
+      sand_soldier_idle_089: 7231684043135576629
+      sand_soldier_idle_090: -8739976542436796751
+      sand_soldier_idle_091: -9099881393608295040
+      sand_soldier_idle_092: 4357033120587870026
+      sand_soldier_idle_093: -6405027031822841468
+      sand_soldier_idle_094: 7833920788588412608
+      sand_soldier_idle_095: -693437589700933610
+      sand_soldier_idle_096: 5815982454979854259
+      sand_soldier_idle_097: 8321546664044992930
+      sand_soldier_idle_098: 1215713722919419382
+      sand_soldier_idle_099: -4229005593439183504
+      sand_soldier_idle_1: -9112226614267509788
+      sand_soldier_idle_10: 3109996477363832599
+      sand_soldier_idle_100: 2981308854543258191
+      sand_soldier_idle_101: -1409665490299299333
+      sand_soldier_idle_102: 1630556106186381832
+      sand_soldier_idle_103: 5598532894893959462
+      sand_soldier_idle_104: 6674190088923733177
+      sand_soldier_idle_105: -1925856797396649212
+      sand_soldier_idle_106: 4976040132402885510
+      sand_soldier_idle_107: -3607755243420638832
+      sand_soldier_idle_108: -5521112719420094118
+      sand_soldier_idle_109: 5009625978800709211
+      sand_soldier_idle_11: 7812534542151689372
+      sand_soldier_idle_110: -5977756050997131906
+      sand_soldier_idle_111: -7709101495643066946
+      sand_soldier_idle_112: -4201953729624489512
+      sand_soldier_idle_113: -1016742650048895770
+      sand_soldier_idle_114: 1306828078939049813
+      sand_soldier_idle_115: -8471877717049914893
+      sand_soldier_idle_116: -8598828093513930673
+      sand_soldier_idle_117: -8016288598441383009
+      sand_soldier_idle_118: 1101564958611454551
+      sand_soldier_idle_119: 1149382250051271786
+      sand_soldier_idle_12: -6085656877913808616
+      sand_soldier_idle_13: 7613806517238040566
+      sand_soldier_idle_14: 3668912899438268899
+      sand_soldier_idle_15: -892947624391232386
+      sand_soldier_idle_16: 4972475912968288287
+      sand_soldier_idle_17: -9038840626509543283
+      sand_soldier_idle_18: -8116065004299006566
+      sand_soldier_idle_19: -1714325826929633124
+      sand_soldier_idle_2: 8794493682293660454
+      sand_soldier_idle_20: -4727745505110024395
+      sand_soldier_idle_21: -7665649716323843198
+      sand_soldier_idle_22: 161512510626153712
+      sand_soldier_idle_23: -7691178131817178014
+      sand_soldier_idle_24: 8985489571941647327
+      sand_soldier_idle_25: -2408358359624652892
+      sand_soldier_idle_26: 8875614654538178894
+      sand_soldier_idle_27: 5349617833463478159
+      sand_soldier_idle_28: 7127174923189514848
+      sand_soldier_idle_29: 3893250052971803683
+      sand_soldier_idle_3: 7598837689394316196
+      sand_soldier_idle_30: -5296738049019093902
+      sand_soldier_idle_31: 2068121967049960054
+      sand_soldier_idle_32: -271801340131441929
+      sand_soldier_idle_33: 4227859833173992954
+      sand_soldier_idle_34: -6583739737036992410
+      sand_soldier_idle_35: -1145134645065064987
+      sand_soldier_idle_36: 3853567219968604890
+      sand_soldier_idle_37: -9131970700306207315
+      sand_soldier_idle_38: -2845894081717254357
+      sand_soldier_idle_39: 45260208475856982
+      sand_soldier_idle_4: 2314955769390972115
+      sand_soldier_idle_40: 205156387026114033
+      sand_soldier_idle_41: 7506364669840124335
+      sand_soldier_idle_42: -1945525156053912290
+      sand_soldier_idle_43: 4022721426908520575
+      sand_soldier_idle_44: 7242626668907102459
+      sand_soldier_idle_45: -2501136052281073369
+      sand_soldier_idle_46: 8108981937581362663
+      sand_soldier_idle_47: -8841603884055917412
+      sand_soldier_idle_48: 5004629984412090032
+      sand_soldier_idle_49: 1058346729495243882
+      sand_soldier_idle_5: -2694097473209055255
+      sand_soldier_idle_50: -4946788696775700590
+      sand_soldier_idle_51: -3407812717976816679
+      sand_soldier_idle_52: -4437330350495560021
+      sand_soldier_idle_53: -3270277253838718521
+      sand_soldier_idle_54: 7298739529858782313
+      sand_soldier_idle_55: 6883329401915247795
+      sand_soldier_idle_56: -3099798590999845487
+      sand_soldier_idle_57: -6062215570935391964
+      sand_soldier_idle_58: -1202124917637505259
+      sand_soldier_idle_59: 4381752622722264192
+      sand_soldier_idle_6: 5736243294120345873
+      sand_soldier_idle_60: 8643023573780439776
+      sand_soldier_idle_61: -1955892250885048520
+      sand_soldier_idle_62: -662382553731984960
+      sand_soldier_idle_63: 8523470544400894939
+      sand_soldier_idle_64: 7324208876507088522
+      sand_soldier_idle_65: -1076211801124025296
+      sand_soldier_idle_66: 8964599949008788544
+      sand_soldier_idle_67: -3525622468558931216
+      sand_soldier_idle_68: -1520834911062835284
+      sand_soldier_idle_69: 4582078007305309417
+      sand_soldier_idle_7: -3556778830204867210
+      sand_soldier_idle_70: -1393303191516658534
+      sand_soldier_idle_71: 112684398623738870
+      sand_soldier_idle_72: -220755954854994728
+      sand_soldier_idle_73: 8786486613972892501
+      sand_soldier_idle_74: 5150735881149326465
+      sand_soldier_idle_75: 8662312710968841349
+      sand_soldier_idle_76: -3547147433443510810
+      sand_soldier_idle_77: -866896344548228836
+      sand_soldier_idle_78: -6561717619023472749
+      sand_soldier_idle_79: -3192633961898758976
+      sand_soldier_idle_8: -4014818070111822768
+      sand_soldier_idle_80: 4645579798055225470
+      sand_soldier_idle_81: 4235776975842625901
+      sand_soldier_idle_82: 6881626163665797726
+      sand_soldier_idle_83: 7335257765656215290
+      sand_soldier_idle_84: -3493636667956969748
+      sand_soldier_idle_85: -6900499170497383700
+      sand_soldier_idle_86: 583822895689022056
+      sand_soldier_idle_87: -5883740056400744087
+      sand_soldier_idle_88: -7298823595538552841
+      sand_soldier_idle_89: 1308000063943965258
+      sand_soldier_idle_9: 8400249693516619021
+      sand_soldier_idle_90: 2158299744527763889
+      sand_soldier_idle_91: -2695304016396582582
+      sand_soldier_idle_92: -4606609042124720389
+      sand_soldier_idle_93: -3446969656808632556
+      sand_soldier_idle_94: -708400748211233683
+      sand_soldier_idle_95: -1151544303657331133
+      sand_soldier_idle_96: -3313958125865513786
+      sand_soldier_idle_97: 5982483086014884906
+      sand_soldier_idle_98: -2035819220290320226
+      sand_soldier_idle_99: 6005190080732225146
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

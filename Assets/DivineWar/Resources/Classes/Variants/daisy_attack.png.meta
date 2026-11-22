@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 154ff68777312374a82f52a2d2f686e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5563620023223507513
+    second: daisy_attack_0
+  - first:
+      213: -1959492010507712083
+    second: daisy_attack_1
+  - first:
+      213: -688525312071920761
+    second: daisy_attack_2
+  - first:
+      213: -804218689170984649
+    second: daisy_attack_3
+  - first:
+      213: 3186036773720927789
+    second: daisy_attack_4
+  - first:
+      213: -1133652476749271093
+    second: daisy_attack_5
+  - first:
+      213: 2394697787342038942
+    second: daisy_attack_6
+  - first:
+      213: 1096175338704626549
+    second: daisy_attack_7
+  - first:
+      213: 7973078370391832787
+    second: daisy_attack_8
+  - first:
+      213: -5640539913499809013
+    second: daisy_attack_9
+  - first:
+      213: -2880591773198846116
+    second: daisy_attack_10
+  - first:
+      213: -5056648379806765349
+    second: daisy_attack_11
+  - first:
+      213: -8801725213396338861
+    second: daisy_attack_12
+  - first:
+      213: 5501774941066647121
+    second: daisy_attack_13
+  - first:
+      213: 3609007832766127726
+    second: daisy_attack_14
+  - first:
+      213: 534694184844974943
+    second: daisy_attack_15
+  - first:
+      213: 8469619266416672098
+    second: daisy_attack_16
+  - first:
+      213: 2552919975731467813
+    second: daisy_attack_17
+  - first:
+      213: -6132217584141937
+    second: daisy_attack_18
+  - first:
+      213: -3976954326644724132
+    second: daisy_attack_19
+  - first:
+      213: 1069095695811176482
+    second: daisy_attack_20
+  - first:
+      213: 3618057375153324260
+    second: daisy_attack_21
+  - first:
+      213: -3683538589656492700
+    second: daisy_attack_22
+  - first:
+      213: 8767923766913300455
+    second: daisy_attack_23
+  - first:
+      213: -3897804676273076271
+    second: daisy_attack_24
+  - first:
+      213: 1406755049167247841
+    second: daisy_attack_25
+  - first:
+      213: 4393115270244210627
+    second: daisy_attack_26
+  - first:
+      213: 5911984414596251274
+    second: daisy_attack_27
+  - first:
+      213: 8420983270959953945
+    second: daisy_attack_28
+  - first:
+      213: 7916522431502593399
+    second: daisy_attack_29
+  - first:
+      213: -8043941047387586778
+    second: daisy_attack_30
+  - first:
+      213: -7396087185676537400
+    second: daisy_attack_31
+  - first:
+      213: 5400417667083501164
+    second: daisy_attack_32
+  - first:
+      213: -2457887377018751825
+    second: daisy_attack_33
+  - first:
+      213: 8571966708792959626
+    second: daisy_attack_34
+  - first:
+      213: -1155297487230514690
+    second: daisy_attack_35
+  - first:
+      213: 1578525356160840667
+    second: daisy_attack_36
+  - first:
+      213: -3295615555435055502
+    second: daisy_attack_37
+  - first:
+      213: -2158640083126115077
+    second: daisy_attack_38
+  - first:
+      213: 4839957802336579157
+    second: daisy_attack_39
+  - first:
+      213: -5294995549698754196
+    second: daisy_attack_40
+  - first:
+      213: 3823328083230965419
+    second: daisy_attack_41
+  - first:
+      213: 553532330101126105
+    second: daisy_attack_42
+  - first:
+      213: 3156944469415342576
+    second: daisy_attack_43
+  - first:
+      213: -938231629871635598
+    second: daisy_attack_44
+  - first:
+      213: 3494671362992407051
+    second: daisy_attack_45
+  - first:
+      213: 2342156583470955611
+    second: daisy_attack_46
+  - first:
+      213: -7044858606762139108
+    second: daisy_attack_47
+  - first:
+      213: 7083821035557718856
+    second: daisy_attack_48
+  - first:
+      213: 6667440948799569606
+    second: daisy_attack_49
+  - first:
+      213: -2025828426098908684
+    second: daisy_attack_50
+  - first:
+      213: 149953347663527844
+    second: daisy_attack_51
+  - first:
+      213: -1321780452752135225
+    second: daisy_attack_52
+  - first:
+      213: -9062325181974651608
+    second: daisy_attack_53
+  - first:
+      213: -1915980736871450601
+    second: daisy_attack_54
+  - first:
+      213: -5033145140307603147
+    second: daisy_attack_55
+  - first:
+      213: 3882716109137910579
+    second: daisy_attack_56
+  - first:
+      213: 8681664476221726282
+    second: daisy_attack_57
+  - first:
+      213: -4889247892784318343
+    second: daisy_attack_58
+  - first:
+      213: -3600847072697210016
+    second: daisy_attack_59
+  - first:
+      213: 3189959109264516557
+    second: daisy_attack_60
+  - first:
+      213: -4747716258201639863
+    second: daisy_attack_61
+  - first:
+      213: 8433586693519063770
+    second: daisy_attack_62
+  - first:
+      213: -8007125511544986099
+    second: daisy_attack_63
+  - first:
+      213: 8444666314045076748
+    second: daisy_attack_64
+  - first:
+      213: 2410622348680084892
+    second: daisy_attack_65
+  - first:
+      213: -9175888526095905984
+    second: daisy_attack_66
+  - first:
+      213: -3698720814351903365
+    second: daisy_attack_67
+  - first:
+      213: 2488435206306886053
+    second: daisy_attack_68
+  - first:
+      213: 6780988664117996208
+    second: daisy_attack_69
+  - first:
+      213: -6067725519345258284
+    second: daisy_attack_70
+  - first:
+      213: 7146157817379788963
+    second: daisy_attack_71
+  - first:
+      213: 3084289244976344841
+    second: daisy_attack_72
+  - first:
+      213: -1257411693732777529
+    second: daisy_attack_73
+  - first:
+      213: -6027215205282083183
+    second: daisy_attack_74
+  - first:
+      213: -7249485063035909578
+    second: daisy_attack_75
+  - first:
+      213: -6224158114130422078
+    second: daisy_attack_76
+  - first:
+      213: 2786688563292793862
+    second: daisy_attack_77
+  - first:
+      213: 5048993773378090043
+    second: daisy_attack_78
+  - first:
+      213: 5942251534553957131
+    second: daisy_attack_79
+  - first:
+      213: 8575780495001489202
+    second: daisy_attack_80
+  - first:
+      213: -8253132336931843261
+    second: daisy_attack_81
+  - first:
+      213: 202921373273132846
+    second: daisy_attack_82
+  - first:
+      213: 4400521549072199680
+    second: daisy_attack_83
+  - first:
+      213: -7810697005619487113
+    second: daisy_attack_84
+  - first:
+      213: 9160378191512039330
+    second: daisy_attack_85
+  - first:
+      213: 9167531388615897135
+    second: daisy_attack_86
+  - first:
+      213: -2491361032731755479
+    second: daisy_attack_87
+  - first:
+      213: 1632411382019079111
+    second: daisy_attack_88
+  - first:
+      213: 6495489048850502976
+    second: daisy_attack_89
+  - first:
+      213: -1841787340258035815
+    second: daisy_attack_90
+  - first:
+      213: -203484102803991635
+    second: daisy_attack_91
+  - first:
+      213: -4510461264584473096
+    second: daisy_attack_92
+  - first:
+      213: 4053034324681101511
+    second: daisy_attack_93
+  - first:
+      213: 1140064633198035130
+    second: daisy_attack_94
+  - first:
+      213: -1179673596039359405
+    second: daisy_attack_95
+  - first:
+      213: -8472754249117794889
+    second: daisy_attack_96
+  - first:
+      213: -8973519820574420468
+    second: daisy_attack_97
+  - first:
+      213: -7903920577256591719
+    second: daisy_attack_98
+  - first:
+      213: -1802042383355361194
+    second: daisy_attack_99
+  - first:
+      213: -4582107976698865109
+    second: daisy_attack_100
+  - first:
+      213: 6311261018242307418
+    second: daisy_attack_101
+  - first:
+      213: -8872561815516323587
+    second: daisy_attack_102
+  - first:
+      213: -2155060691954237703
+    second: daisy_attack_103
+  - first:
+      213: -8562357434637227465
+    second: daisy_attack_104
+  - first:
+      213: -8809684602679920522
+    second: daisy_attack_105
+  - first:
+      213: -3371631820305154784
+    second: daisy_attack_106
+  - first:
+      213: 1594235439150015986
+    second: daisy_attack_107
+  - first:
+      213: -3528540339394158001
+    second: daisy_attack_108
+  - first:
+      213: 3782905513215628355
+    second: daisy_attack_109
+  - first:
+      213: 7962024596245950910
+    second: daisy_attack_110
+  - first:
+      213: 3038825783610641767
+    second: daisy_attack_111
+  - first:
+      213: -4283186589364652251
+    second: daisy_attack_112
+  - first:
+      213: -7089491615742871835
+    second: daisy_attack_113
+  - first:
+      213: 2681229004359397968
+    second: daisy_attack_114
+  - first:
+      213: -7328047275934381292
+    second: daisy_attack_115
+  - first:
+      213: -74826861307994628
+    second: daisy_attack_116
+  - first:
+      213: 1972580017538126208
+    second: daisy_attack_117
+  - first:
+      213: -1290574447944426470
+    second: daisy_attack_118
+  - first:
+      213: -5774034813965043734
+    second: daisy_attack_119
+  - first:
+      213: -1793746559141853256
+    second: daisy_attack_000
+  - first:
+      213: -1479667561426346232
+    second: daisy_attack_001
+  - first:
+      213: 4077723955449694815
+    second: daisy_attack_002
+  - first:
+      213: 5332034652010556145
+    second: daisy_attack_003
+  - first:
+      213: 5348871143931774104
+    second: daisy_attack_004
+  - first:
+      213: -8530272606762396372
+    second: daisy_attack_005
+  - first:
+      213: -7826314921947615519
+    second: daisy_attack_006
+  - first:
+      213: 1766451794127851052
+    second: daisy_attack_007
+  - first:
+      213: -6309406313699445309
+    second: daisy_attack_008
+  - first:
+      213: 4605823123807665430
+    second: daisy_attack_009
+  - first:
+      213: -196306560472937458
+    second: daisy_attack_010
+  - first:
+      213: 8024611315956933716
+    second: daisy_attack_011
+  - first:
+      213: -3412141092709455368
+    second: daisy_attack_012
+  - first:
+      213: -9178237584533627410
+    second: daisy_attack_013
+  - first:
+      213: 2779536162133445023
+    second: daisy_attack_014
+  - first:
+      213: -8963333733230645007
+    second: daisy_attack_015
+  - first:
+      213: -5419374207618936029
+    second: daisy_attack_016
+  - first:
+      213: -9114448256589401753
+    second: daisy_attack_017
+  - first:
+      213: -6792987029585245140
+    second: daisy_attack_018
+  - first:
+      213: 7280878012121866873
+    second: daisy_attack_019
+  - first:
+      213: 1097385041014340769
+    second: daisy_attack_020
+  - first:
+      213: -7592517679350542975
+    second: daisy_attack_021
+  - first:
+      213: -3591265614019709466
+    second: daisy_attack_022
+  - first:
+      213: -6970928017889767456
+    second: daisy_attack_023
+  - first:
+      213: 743834191684595091
+    second: daisy_attack_024
+  - first:
+      213: -1243959043182450214
+    second: daisy_attack_025
+  - first:
+      213: -1974109084076423595
+    second: daisy_attack_026
+  - first:
+      213: -287900454856974366
+    second: daisy_attack_027
+  - first:
+      213: -1056184324905873297
+    second: daisy_attack_028
+  - first:
+      213: 7072287180141267214
+    second: daisy_attack_029
+  - first:
+      213: 3295413510292680471
+    second: daisy_attack_030
+  - first:
+      213: -4395613067008637149
+    second: daisy_attack_031
+  - first:
+      213: -840126425825431533
+    second: daisy_attack_032
+  - first:
+      213: 2007271443350761578
+    second: daisy_attack_033
+  - first:
+      213: 8685807687205179540
+    second: daisy_attack_034
+  - first:
+      213: -9145573246515796488
+    second: daisy_attack_035
+  - first:
+      213: -5323785600062957014
+    second: daisy_attack_036
+  - first:
+      213: -6064184529408234275
+    second: daisy_attack_037
+  - first:
+      213: -5328999508931169357
+    second: daisy_attack_038
+  - first:
+      213: -710957406722471871
+    second: daisy_attack_039
+  - first:
+      213: -4900703778944137986
+    second: daisy_attack_040
+  - first:
+      213: 6029140123175440963
+    second: daisy_attack_041
+  - first:
+      213: 9192722027959743470
+    second: daisy_attack_042
+  - first:
+      213: 2587354686349941163
+    second: daisy_attack_043
+  - first:
+      213: 4575759610495859695
+    second: daisy_attack_044
+  - first:
+      213: 7340960065447891783
+    second: daisy_attack_045
+  - first:
+      213: -3536174733624849335
+    second: daisy_attack_046
+  - first:
+      213: 6809954918586786347
+    second: daisy_attack_047
+  - first:
+      213: -7937549424527396596
+    second: daisy_attack_048
+  - first:
+      213: -1220767340160969984
+    second: daisy_attack_049
+  - first:
+      213: 4496438032479859289
+    second: daisy_attack_050
+  - first:
+      213: 2736077868117425679
+    second: daisy_attack_051
+  - first:
+      213: -1828028576902485481
+    second: daisy_attack_052
+  - first:
+      213: 5400429937107365847
+    second: daisy_attack_053
+  - first:
+      213: -3605510907669086258
+    second: daisy_attack_054
+  - first:
+      213: 2785783659654114856
+    second: daisy_attack_055
+  - first:
+      213: 331637130974333751
+    second: daisy_attack_056
+  - first:
+      213: 331270251181089047
+    second: daisy_attack_057
+  - first:
+      213: 1125042606841063050
+    second: daisy_attack_058
+  - first:
+      213: -8609854925253767592
+    second: daisy_attack_059
+  - first:
+      213: 7152060130654116563
+    second: daisy_attack_060
+  - first:
+      213: -3611925634122419624
+    second: daisy_attack_061
+  - first:
+      213: -1683875894965842131
+    second: daisy_attack_062
+  - first:
+      213: 959681534439353055
+    second: daisy_attack_063
+  - first:
+      213: 87079643007270341
+    second: daisy_attack_064
+  - first:
+      213: 454784245531380759
+    second: daisy_attack_065
+  - first:
+      213: -8081306496571588176
+    second: daisy_attack_066
+  - first:
+      213: 3438366583340083993
+    second: daisy_attack_067
+  - first:
+      213: -2907612298261588129
+    second: daisy_attack_068
+  - first:
+      213: 6441884543475384254
+    second: daisy_attack_069
+  - first:
+      213: -3097563093136178214
+    second: daisy_attack_070
+  - first:
+      213: 1673118469255240002
+    second: daisy_attack_071
+  - first:
+      213: 1143061615676116522
+    second: daisy_attack_072
+  - first:
+      213: 6092024397809490841
+    second: daisy_attack_073
+  - first:
+      213: 1364244138453562893
+    second: daisy_attack_074
+  - first:
+      213: 1701051301745124568
+    second: daisy_attack_075
+  - first:
+      213: 5855816689679545005
+    second: daisy_attack_076
+  - first:
+      213: 8442792908448396287
+    second: daisy_attack_077
+  - first:
+      213: -482749802733798777
+    second: daisy_attack_078
+  - first:
+      213: 9167068557720567643
+    second: daisy_attack_079
+  - first:
+      213: 5831586909334313397
+    second: daisy_attack_080
+  - first:
+      213: -1689918491960017445
+    second: daisy_attack_081
+  - first:
+      213: 8357713201552315551
+    second: daisy_attack_082
+  - first:
+      213: -4918689221497629107
+    second: daisy_attack_083
+  - first:
+      213: 1441352228297623440
+    second: daisy_attack_084
+  - first:
+      213: 4576356486086762859
+    second: daisy_attack_085
+  - first:
+      213: -4207213477738404887
+    second: daisy_attack_086
+  - first:
+      213: 8830921046847410936
+    second: daisy_attack_087
+  - first:
+      213: -6176476261445449221
+    second: daisy_attack_088
+  - first:
+      213: 7430320475175915435
+    second: daisy_attack_089
+  - first:
+      213: -8434045912890522676
+    second: daisy_attack_090
+  - first:
+      213: 6379529926782591046
+    second: daisy_attack_091
+  - first:
+      213: 6629200136689530554
+    second: daisy_attack_092
+  - first:
+      213: -7369393487782692042
+    second: daisy_attack_093
+  - first:
+      213: -7808713805748852509
+    second: daisy_attack_094
+  - first:
+      213: -5967705237363832502
+    second: daisy_attack_095
+  - first:
+      213: 52822677656367218
+    second: daisy_attack_096
+  - first:
+      213: 3023569613800687549
+    second: daisy_attack_097
+  - first:
+      213: 424460192036471347
+    second: daisy_attack_098
+  - first:
+      213: -6677157185826638631
+    second: daisy_attack_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: daisy_attack_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7454512055b17e0800000000000000
+      internalID: -1793746559141853256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f9387413a277be0800000000000000
+      internalID: -1479667561426346232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a0ea0355cf69830800000000000000
+      internalID: 4077723955449694815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1faa92304413ff940800000000000000
+      internalID: 5332034652010556145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 894046347f10b3a40800000000000000
+      internalID: 5348871143931774104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c259eac62426e9980800000000000000
+      internalID: -8530272606762396372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee29f84b08536390800000000000000
+      internalID: -7826314921947615519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e87d53c82b38810800000000000000
+      internalID: 1766451794127851052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c57658e26c7078a0800000000000000
+      internalID: -6309406313699445309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61df5d87abb2bef30800000000000000
+      internalID: 4605823123807665430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c8eeb2934964df0800000000000000
+      internalID: -196306560472937458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4546134c9752d5f60800000000000000
+      internalID: 8024611315956933716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f92a8521c3a5a0d0800000000000000
+      internalID: -3412141092709455368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeddbb59b8950a080800000000000000
+      internalID: -9178237584533627410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f990150b965e29620800000000000000
+      internalID: 2779536162133445023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0f28b9577db9380800000000000000
+      internalID: -8963333733230645007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32395f90fd38ac4b0800000000000000
+      internalID: -5419374207618936029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7617f4ed999f28180800000000000000
+      internalID: -9114448256589401753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c4cb199467ab1a0800000000000000
+      internalID: -6792987029585245140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972e97de9ffda0560800000000000000
+      internalID: 7280878012121866873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acbc7f61e1ba3f00800000000000000
+      internalID: 1097385041014340769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d0073c565f1a690800000000000000
+      internalID: -7592517679350542975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5b74e83f2492ec0800000000000000
+      internalID: -3591265614019709466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0efccdab6e9424f90800000000000000
+      internalID: -6970928017889767456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d662f9141a25a00800000000000000
+      internalID: 743834191684595091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9a9fb47d19cbee0800000000000000
+      internalID: -1243959043182450214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556c0cf4f3e8a94e0800000000000000
+      internalID: -1974109084076423595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef9399cf0c210cf0800000000000000
+      internalID: -287900454856974366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6056a0d3fda751f0800000000000000
+      internalID: -1056184324905873297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e098ed148bfc52260800000000000000
+      internalID: 7072287180141267214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71fa405b029abbd20800000000000000
+      internalID: 3295413510292680471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32782ea5435aff2c0800000000000000
+      internalID: -4395613067008637149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310b14687754754f0800000000000000
+      internalID: -840126425825431533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6035b42eb24bdb10800000000000000
+      internalID: 2007271443350761578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490d83772103a8870800000000000000
+      internalID: 8685807687205179540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f52c1e6695641180800000000000000
+      internalID: -9145573246515796488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a58ef043d1e16b0800000000000000
+      internalID: -5323785600062957014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddce338cc40b7dba0800000000000000
+      internalID: -6064184529408234275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b33ded4e279b06b0800000000000000
+      internalID: -5328999508931169357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148cfd1610c2226f0800000000000000
+      internalID: -710957406722471871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4ce9ac0e33dfbb0800000000000000
+      internalID: -4900703778944137986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3425dee8ffecba350800000000000000
+      internalID: 6029140123175440963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3f273bafb139f70800000000000000
+      internalID: 9192722027959743470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba994dbf06128e320800000000000000
+      internalID: 2587354686349941163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb7f215f1d508f30800000000000000
+      internalID: 4575759610495859695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7439953194450e560800000000000000
+      internalID: 7340960065447891783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c4492b0dbfceec0800000000000000
+      internalID: -3536174733624849335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b222ac2fae1d18e50800000000000000
+      internalID: 6809954918586786347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0130f37ad828d190800000000000000
+      internalID: -7937549424527396596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0039e407296fe0fe0800000000000000
+      internalID: -1220767340160969984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 952b480419e866e30800000000000000
+      internalID: 4496438032479859289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e72fe135088f520800000000000000
+      internalID: 2736077868117425679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ae672d1b981a6e0800000000000000
+      internalID: -1828028576902485481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df6ba34a6e22fa40800000000000000
+      internalID: 5400429937107365847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf769aaee6a6fdc0800000000000000
+      internalID: -3605510907669086258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e65ce8a7719a620800000000000000
+      internalID: 2785783659654114856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b0e0aa6363a9400800000000000000
+      internalID: 331637130974333751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711ad4ec988e89400800000000000000
+      internalID: 331270251181089047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86e0f94a44fc9f00800000000000000
+      internalID: 1125042606841063050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e0a9cff86a38880800000000000000
+      internalID: -8609854925253767592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da5fdbabc8314360800000000000000
+      internalID: 7152060130654116563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8527107c5ccdfddc0800000000000000
+      internalID: -3611925634122419624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fc7ba8bcba1a8e0800000000000000
+      internalID: -1683875894965842131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda62cd5549715d00800000000000000
+      internalID: 959681534439353055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdbd94597e553100800000000000000
+      internalID: 87079643007270341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c875c9cd7bf4600800000000000000
+      internalID: 454784245531380759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b14bc6de8e69df80800000000000000
+      internalID: -8081306496571588176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b2f87b03887bf20800000000000000
+      internalID: 3438366583340083993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f579f89150616a7d0800000000000000
+      internalID: -2907612298261588129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebffde99cdb266950800000000000000
+      internalID: 6441884543475384254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3024447ce3305d0800000000000000
+      internalID: -3097563093136178214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2499a1b126c183710800000000000000
+      internalID: 1673118469255240002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e42c6bb78fcdf00800000000000000
+      internalID: 1143061615676116522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b9272b9e73b8450800000000000000
+      internalID: 6092024397809490841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06fe6bd0d4cee210800000000000000
+      internalID: 1364244138453562893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4eb3975295b9710800000000000000
+      internalID: 1701051301745124568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2372af04a044150800000000000000
+      internalID: 5855816689679545005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3f04c1b63da2570800000000000000
+      internalID: 8442792908448396287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a79a4bc9dec49f0800000000000000
+      internalID: -482749802733798777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f3696b848f73f70800000000000000
+      internalID: 9167068557720567643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b990bf9565fde050800000000000000
+      internalID: 5831586909334313397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddfb5bc5143c88e0800000000000000
+      internalID: -1689918491960017445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f945e1130ef8cf370800000000000000
+      internalID: 8357713201552315551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d465710a63e4dbbb0800000000000000
+      internalID: -4918689221497629107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097c5eb0736b00410800000000000000
+      internalID: 1441352228297623440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61a1ce3afb728f30800000000000000
+      internalID: 4576356486086762859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3aa2df1a9fc95c0800000000000000
+      internalID: -4207213477738404887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f25cd467ebbd8a70800000000000000
+      internalID: 8830921046847410936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf949e8809fb84aa0800000000000000
+      internalID: -6176476261445449221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf0c2aca1dcd1760800000000000000
+      internalID: 7430320475175915435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc343de7def34fa80800000000000000
+      internalID: -8434045912890522676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640a9df0ba4a88850800000000000000
+      internalID: 6379529926782591046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6b95cb666affb50800000000000000
+      internalID: 6629200136689530554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bb2a6eaa7aab990800000000000000
+      internalID: -7369393487782692042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8a6af7a20e1a390800000000000000
+      internalID: -7808713805748852509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a49c0b274b37e2da0800000000000000
+      internalID: -5967705237363832502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270fac902f9abb000800000000000000
+      internalID: 52822677656367218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db741405b80e5f920800000000000000
+      internalID: 3023569613800687549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332c0a7bb4cf3e500800000000000000
+      internalID: 424460192036471347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d43b55aae8f553a0800000000000000
+      internalID: -6677157185826638631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a516e72151960c0800000000000000
+      internalID: -4582107976698865109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a555a15257a169750800000000000000
+      internalID: 6311261018242307418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df06472a9045ed480800000000000000
+      internalID: -8872561815516323587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fef8aaf7bfa712e0800000000000000
+      internalID: -2155060691954237703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ae58c47456c2980800000000000000
+      internalID: -8562357434637227465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678f8029786bdb580800000000000000
+      internalID: -8809684602679920522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02dbe4d19be8531d0800000000000000
+      internalID: -3371631820305154784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f520ee6facdf1610800000000000000
+      internalID: 1594235439150015986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4266ce914b180fc0800000000000000
+      internalID: -3528540339394158001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344951685849f7430800000000000000
+      internalID: 3782905513215628355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1b9288f2bce7e60800000000000000
+      internalID: 7962024596245950910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d096623f31c2a20800000000000000
+      internalID: 3038825783610641767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527f3328d701f84c0800000000000000
+      internalID: -4283186589364652251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6398defe01d9d90800000000000000
+      internalID: -7089491615742871835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052f05ed293a53520800000000000000
+      internalID: 2681229004359397968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b89a404db8d4a90800000000000000
+      internalID: -7328047275934381292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd5418bd5926fef0800000000000000
+      internalID: -74826861307994628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 081d4642313006b10800000000000000
+      internalID: 1972580017538126208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c931a9065f61ee0800000000000000
+      internalID: -1290574447944426470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_attack_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7ffd8cde18edfa0800000000000000
+      internalID: -5774034813965043734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      daisy_attack_0: -5563620023223507513
+      daisy_attack_000: -1793746559141853256
+      daisy_attack_001: -1479667561426346232
+      daisy_attack_002: 4077723955449694815
+      daisy_attack_003: 5332034652010556145
+      daisy_attack_004: 5348871143931774104
+      daisy_attack_005: -8530272606762396372
+      daisy_attack_006: -7826314921947615519
+      daisy_attack_007: 1766451794127851052
+      daisy_attack_008: -6309406313699445309
+      daisy_attack_009: 4605823123807665430
+      daisy_attack_010: -196306560472937458
+      daisy_attack_011: 8024611315956933716
+      daisy_attack_012: -3412141092709455368
+      daisy_attack_013: -9178237584533627410
+      daisy_attack_014: 2779536162133445023
+      daisy_attack_015: -8963333733230645007
+      daisy_attack_016: -5419374207618936029
+      daisy_attack_017: -9114448256589401753
+      daisy_attack_018: -6792987029585245140
+      daisy_attack_019: 7280878012121866873
+      daisy_attack_020: 1097385041014340769
+      daisy_attack_021: -7592517679350542975
+      daisy_attack_022: -3591265614019709466
+      daisy_attack_023: -6970928017889767456
+      daisy_attack_024: 743834191684595091
+      daisy_attack_025: -1243959043182450214
+      daisy_attack_026: -1974109084076423595
+      daisy_attack_027: -287900454856974366
+      daisy_attack_028: -1056184324905873297
+      daisy_attack_029: 7072287180141267214
+      daisy_attack_030: 3295413510292680471
+      daisy_attack_031: -4395613067008637149
+      daisy_attack_032: -840126425825431533
+      daisy_attack_033: 2007271443350761578
+      daisy_attack_034: 8685807687205179540
+      daisy_attack_035: -9145573246515796488
+      daisy_attack_036: -5323785600062957014
+      daisy_attack_037: -6064184529408234275
+      daisy_attack_038: -5328999508931169357
+      daisy_attack_039: -710957406722471871
+      daisy_attack_040: -4900703778944137986
+      daisy_attack_041: 6029140123175440963
+      daisy_attack_042: 9192722027959743470
+      daisy_attack_043: 2587354686349941163
+      daisy_attack_044: 4575759610495859695
+      daisy_attack_045: 7340960065447891783
+      daisy_attack_046: -3536174733624849335
+      daisy_attack_047: 6809954918586786347
+      daisy_attack_048: -7937549424527396596
+      daisy_attack_049: -1220767340160969984
+      daisy_attack_050: 4496438032479859289
+      daisy_attack_051: 2736077868117425679
+      daisy_attack_052: -1828028576902485481
+      daisy_attack_053: 5400429937107365847
+      daisy_attack_054: -3605510907669086258
+      daisy_attack_055: 2785783659654114856
+      daisy_attack_056: 331637130974333751
+      daisy_attack_057: 331270251181089047
+      daisy_attack_058: 1125042606841063050
+      daisy_attack_059: -8609854925253767592
+      daisy_attack_060: 7152060130654116563
+      daisy_attack_061: -3611925634122419624
+      daisy_attack_062: -1683875894965842131
+      daisy_attack_063: 959681534439353055
+      daisy_attack_064: 87079643007270341
+      daisy_attack_065: 454784245531380759
+      daisy_attack_066: -8081306496571588176
+      daisy_attack_067: 3438366583340083993
+      daisy_attack_068: -2907612298261588129
+      daisy_attack_069: 6441884543475384254
+      daisy_attack_070: -3097563093136178214
+      daisy_attack_071: 1673118469255240002
+      daisy_attack_072: 1143061615676116522
+      daisy_attack_073: 6092024397809490841
+      daisy_attack_074: 1364244138453562893
+      daisy_attack_075: 1701051301745124568
+      daisy_attack_076: 5855816689679545005
+      daisy_attack_077: 8442792908448396287
+      daisy_attack_078: -482749802733798777
+      daisy_attack_079: 9167068557720567643
+      daisy_attack_080: 5831586909334313397
+      daisy_attack_081: -1689918491960017445
+      daisy_attack_082: 8357713201552315551
+      daisy_attack_083: -4918689221497629107
+      daisy_attack_084: 1441352228297623440
+      daisy_attack_085: 4576356486086762859
+      daisy_attack_086: -4207213477738404887
+      daisy_attack_087: 8830921046847410936
+      daisy_attack_088: -6176476261445449221
+      daisy_attack_089: 7430320475175915435
+      daisy_attack_090: -8434045912890522676
+      daisy_attack_091: 6379529926782591046
+      daisy_attack_092: 6629200136689530554
+      daisy_attack_093: -7369393487782692042
+      daisy_attack_094: -7808713805748852509
+      daisy_attack_095: -5967705237363832502
+      daisy_attack_096: 52822677656367218
+      daisy_attack_097: 3023569613800687549
+      daisy_attack_098: 424460192036471347
+      daisy_attack_099: -6677157185826638631
+      daisy_attack_1: -1959492010507712083
+      daisy_attack_10: -2880591773198846116
+      daisy_attack_100: -4582107976698865109
+      daisy_attack_101: 6311261018242307418
+      daisy_attack_102: -8872561815516323587
+      daisy_attack_103: -2155060691954237703
+      daisy_attack_104: -8562357434637227465
+      daisy_attack_105: -8809684602679920522
+      daisy_attack_106: -3371631820305154784
+      daisy_attack_107: 1594235439150015986
+      daisy_attack_108: -3528540339394158001
+      daisy_attack_109: 3782905513215628355
+      daisy_attack_11: -5056648379806765349
+      daisy_attack_110: 7962024596245950910
+      daisy_attack_111: 3038825783610641767
+      daisy_attack_112: -4283186589364652251
+      daisy_attack_113: -7089491615742871835
+      daisy_attack_114: 2681229004359397968
+      daisy_attack_115: -7328047275934381292
+      daisy_attack_116: -74826861307994628
+      daisy_attack_117: 1972580017538126208
+      daisy_attack_118: -1290574447944426470
+      daisy_attack_119: -5774034813965043734
+      daisy_attack_12: -8801725213396338861
+      daisy_attack_13: 5501774941066647121
+      daisy_attack_14: 3609007832766127726
+      daisy_attack_15: 534694184844974943
+      daisy_attack_16: 8469619266416672098
+      daisy_attack_17: 2552919975731467813
+      daisy_attack_18: -6132217584141937
+      daisy_attack_19: -3976954326644724132
+      daisy_attack_2: -688525312071920761
+      daisy_attack_20: 1069095695811176482
+      daisy_attack_21: 3618057375153324260
+      daisy_attack_22: -3683538589656492700
+      daisy_attack_23: 8767923766913300455
+      daisy_attack_24: -3897804676273076271
+      daisy_attack_25: 1406755049167247841
+      daisy_attack_26: 4393115270244210627
+      daisy_attack_27: 5911984414596251274
+      daisy_attack_28: 8420983270959953945
+      daisy_attack_29: 7916522431502593399
+      daisy_attack_3: -804218689170984649
+      daisy_attack_30: -8043941047387586778
+      daisy_attack_31: -7396087185676537400
+      daisy_attack_32: 5400417667083501164
+      daisy_attack_33: -2457887377018751825
+      daisy_attack_34: 8571966708792959626
+      daisy_attack_35: -1155297487230514690
+      daisy_attack_36: 1578525356160840667
+      daisy_attack_37: -3295615555435055502
+      daisy_attack_38: -2158640083126115077
+      daisy_attack_39: 4839957802336579157
+      daisy_attack_4: 3186036773720927789
+      daisy_attack_40: -5294995549698754196
+      daisy_attack_41: 3823328083230965419
+      daisy_attack_42: 553532330101126105
+      daisy_attack_43: 3156944469415342576
+      daisy_attack_44: -938231629871635598
+      daisy_attack_45: 3494671362992407051
+      daisy_attack_46: 2342156583470955611
+      daisy_attack_47: -7044858606762139108
+      daisy_attack_48: 7083821035557718856
+      daisy_attack_49: 6667440948799569606
+      daisy_attack_5: -1133652476749271093
+      daisy_attack_50: -2025828426098908684
+      daisy_attack_51: 149953347663527844
+      daisy_attack_52: -1321780452752135225
+      daisy_attack_53: -9062325181974651608
+      daisy_attack_54: -1915980736871450601
+      daisy_attack_55: -5033145140307603147
+      daisy_attack_56: 3882716109137910579
+      daisy_attack_57: 8681664476221726282
+      daisy_attack_58: -4889247892784318343
+      daisy_attack_59: -3600847072697210016
+      daisy_attack_6: 2394697787342038942
+      daisy_attack_60: 3189959109264516557
+      daisy_attack_61: -4747716258201639863
+      daisy_attack_62: 8433586693519063770
+      daisy_attack_63: -8007125511544986099
+      daisy_attack_64: 8444666314045076748
+      daisy_attack_65: 2410622348680084892
+      daisy_attack_66: -9175888526095905984
+      daisy_attack_67: -3698720814351903365
+      daisy_attack_68: 2488435206306886053
+      daisy_attack_69: 6780988664117996208
+      daisy_attack_7: 1096175338704626549
+      daisy_attack_70: -6067725519345258284
+      daisy_attack_71: 7146157817379788963
+      daisy_attack_72: 3084289244976344841
+      daisy_attack_73: -1257411693732777529
+      daisy_attack_74: -6027215205282083183
+      daisy_attack_75: -7249485063035909578
+      daisy_attack_76: -6224158114130422078
+      daisy_attack_77: 2786688563292793862
+      daisy_attack_78: 5048993773378090043
+      daisy_attack_79: 5942251534553957131
+      daisy_attack_8: 7973078370391832787
+      daisy_attack_80: 8575780495001489202
+      daisy_attack_81: -8253132336931843261
+      daisy_attack_82: 202921373273132846
+      daisy_attack_83: 4400521549072199680
+      daisy_attack_84: -7810697005619487113
+      daisy_attack_85: 9160378191512039330
+      daisy_attack_86: 9167531388615897135
+      daisy_attack_87: -2491361032731755479
+      daisy_attack_88: 1632411382019079111
+      daisy_attack_89: 6495489048850502976
+      daisy_attack_9: -5640539913499809013
+      daisy_attack_90: -1841787340258035815
+      daisy_attack_91: -203484102803991635
+      daisy_attack_92: -4510461264584473096
+      daisy_attack_93: 4053034324681101511
+      daisy_attack_94: 1140064633198035130
+      daisy_attack_95: -1179673596039359405
+      daisy_attack_96: -8472754249117794889
+      daisy_attack_97: -8973519820574420468
+      daisy_attack_98: -7903920577256591719
+      daisy_attack_99: -1802042383355361194
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

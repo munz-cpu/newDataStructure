@@ -1,0 +1,3265 @@
+fileFormatVersion: 2
+guid: 68fc31c7e48e352499da47ce7872c72c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1256335170762717756
+    second: MeleeRun_Shadowless_0
+  - first:
+      213: -8610423008486359584
+    second: MeleeRun_Shadowless_1
+  - first:
+      213: -5068967134822691377
+    second: MeleeRun_Shadowless_2
+  - first:
+      213: 6328705790040624516
+    second: MeleeRun_Shadowless_3
+  - first:
+      213: -6100609656406885991
+    second: MeleeRun_Shadowless_4
+  - first:
+      213: -3168687311633140651
+    second: MeleeRun_Shadowless_5
+  - first:
+      213: -6587059632546159119
+    second: MeleeRun_Shadowless_6
+  - first:
+      213: -1367234227751316369
+    second: MeleeRun_Shadowless_7
+  - first:
+      213: 2755627694130858486
+    second: MeleeRun_Shadowless_8
+  - first:
+      213: -5364669219394801799
+    second: MeleeRun_Shadowless_9
+  - first:
+      213: 8329357061762556483
+    second: MeleeRun_Shadowless_10
+  - first:
+      213: -1379940014978042660
+    second: MeleeRun_Shadowless_11
+  - first:
+      213: 7317176493050807932
+    second: MeleeRun_Shadowless_12
+  - first:
+      213: -4535425317720603414
+    second: MeleeRun_Shadowless_13
+  - first:
+      213: -6813811650321653226
+    second: MeleeRun_Shadowless_14
+  - first:
+      213: 300858279767461326
+    second: MeleeRun_Shadowless_15
+  - first:
+      213: -6909952327643511999
+    second: MeleeRun_Shadowless_16
+  - first:
+      213: -7922735199806718240
+    second: MeleeRun_Shadowless_17
+  - first:
+      213: -8585551019858522973
+    second: MeleeRun_Shadowless_18
+  - first:
+      213: -1917868220576199250
+    second: MeleeRun_Shadowless_19
+  - first:
+      213: 8913756015452653060
+    second: MeleeRun_Shadowless_20
+  - first:
+      213: -3181813716982202617
+    second: MeleeRun_Shadowless_21
+  - first:
+      213: 8665477399341395769
+    second: MeleeRun_Shadowless_22
+  - first:
+      213: 7661528276481264710
+    second: MeleeRun_Shadowless_23
+  - first:
+      213: -8537379830237289471
+    second: MeleeRun_Shadowless_24
+  - first:
+      213: -673953962151784737
+    second: MeleeRun_Shadowless_25
+  - first:
+      213: 8622455766780060432
+    second: MeleeRun_Shadowless_26
+  - first:
+      213: 8786946483691317304
+    second: MeleeRun_Shadowless_27
+  - first:
+      213: 5498623411656923027
+    second: MeleeRun_Shadowless_28
+  - first:
+      213: -188281570286624171
+    second: MeleeRun_Shadowless_29
+  - first:
+      213: -2863202039804972269
+    second: MeleeRun_Shadowless_30
+  - first:
+      213: -4874954443701330123
+    second: MeleeRun_Shadowless_31
+  - first:
+      213: 1844634242355125583
+    second: MeleeRun_Shadowless_32
+  - first:
+      213: -3419236963465715469
+    second: MeleeRun_Shadowless_33
+  - first:
+      213: 977586003422811914
+    second: MeleeRun_Shadowless_34
+  - first:
+      213: 922182666312820512
+    second: MeleeRun_Shadowless_35
+  - first:
+      213: 5971982978069552546
+    second: MeleeRun_Shadowless_36
+  - first:
+      213: -3024403323661424829
+    second: MeleeRun_Shadowless_37
+  - first:
+      213: -2409757336388576842
+    second: MeleeRun_Shadowless_38
+  - first:
+      213: 3394171238892792300
+    second: MeleeRun_Shadowless_39
+  - first:
+      213: -7719160230534056345
+    second: MeleeRun_Shadowless_40
+  - first:
+      213: -66302571182750068
+    second: MeleeRun_Shadowless_41
+  - first:
+      213: -2556670443703634924
+    second: MeleeRun_Shadowless_42
+  - first:
+      213: 3777790149375460297
+    second: MeleeRun_Shadowless_43
+  - first:
+      213: -8227901392706423941
+    second: MeleeRun_Shadowless_44
+  - first:
+      213: -8548575901038253992
+    second: MeleeRun_Shadowless_45
+  - first:
+      213: 669100414841344262
+    second: MeleeRun_Shadowless_46
+  - first:
+      213: -6226470843892208409
+    second: MeleeRun_Shadowless_47
+  - first:
+      213: 4444181012686831668
+    second: MeleeRun_Shadowless_48
+  - first:
+      213: -1532468813388815526
+    second: MeleeRun_Shadowless_49
+  - first:
+      213: -7068395657202568430
+    second: MeleeRun_Shadowless_50
+  - first:
+      213: -8437700622516513382
+    second: MeleeRun_Shadowless_51
+  - first:
+      213: -5844064763669716752
+    second: MeleeRun_Shadowless_52
+  - first:
+      213: 475433513335309899
+    second: MeleeRun_Shadowless_53
+  - first:
+      213: -2039508387119171811
+    second: MeleeRun_Shadowless_54
+  - first:
+      213: 2873387755269170201
+    second: MeleeRun_Shadowless_55
+  - first:
+      213: -8871997636221594294
+    second: MeleeRun_Shadowless_56
+  - first:
+      213: -1043292996303837422
+    second: MeleeRun_Shadowless_57
+  - first:
+      213: 4776333337509353626
+    second: MeleeRun_Shadowless_58
+  - first:
+      213: -712188308608810227
+    second: MeleeRun_Shadowless_59
+  - first:
+      213: -1491975914366122987
+    second: MeleeRun_Shadowless_60
+  - first:
+      213: 7669706046913156367
+    second: MeleeRun_Shadowless_61
+  - first:
+      213: -5584692039320480259
+    second: MeleeRun_Shadowless_62
+  - first:
+      213: 2479953469321046078
+    second: MeleeRun_Shadowless_63
+  - first:
+      213: 3021474142263626044
+    second: MeleeRun_Shadowless_64
+  - first:
+      213: 227087136150147273
+    second: MeleeRun_Shadowless_65
+  - first:
+      213: -1986846202172613278
+    second: MeleeRun_Shadowless_66
+  - first:
+      213: -1752724886399172830
+    second: MeleeRun_Shadowless_67
+  - first:
+      213: -8385827468496983177
+    second: MeleeRun_Shadowless_68
+  - first:
+      213: -5623045784820788078
+    second: MeleeRun_Shadowless_69
+  - first:
+      213: -9111012179677992138
+    second: MeleeRun_Shadowless_70
+  - first:
+      213: 8295093374116270083
+    second: MeleeRun_Shadowless_71
+  - first:
+      213: 4421175144234493045
+    second: MeleeRun_Shadowless_72
+  - first:
+      213: -6653397703104178396
+    second: MeleeRun_Shadowless_73
+  - first:
+      213: 7662338050293104413
+    second: MeleeRun_Shadowless_74
+  - first:
+      213: -79038790824995875
+    second: MeleeRun_Shadowless_75
+  - first:
+      213: -5933008664914281209
+    second: MeleeRun_Shadowless_76
+  - first:
+      213: 1400852709552772088
+    second: MeleeRun_Shadowless_77
+  - first:
+      213: -5524078495007150315
+    second: MeleeRun_Shadowless_78
+  - first:
+      213: 1040680975883985120
+    second: MeleeRun_Shadowless_79
+  - first:
+      213: 768687732869950180
+    second: MeleeRun_Shadowless_80
+  - first:
+      213: 2451651206134088581
+    second: MeleeRun_Shadowless_81
+  - first:
+      213: 3062317956640688465
+    second: MeleeRun_Shadowless_82
+  - first:
+      213: 4492124950786238426
+    second: MeleeRun_Shadowless_83
+  - first:
+      213: -1277977613250847708
+    second: MeleeRun_Shadowless_84
+  - first:
+      213: -779012806474793040
+    second: MeleeRun_Shadowless_85
+  - first:
+      213: 9097448183055401254
+    second: MeleeRun_Shadowless_86
+  - first:
+      213: -1738483539571363781
+    second: MeleeRun_Shadowless_87
+  - first:
+      213: 8225796248284001029
+    second: MeleeRun_Shadowless_88
+  - first:
+      213: -8523646314606505053
+    second: MeleeRun_Shadowless_89
+  - first:
+      213: 6122657941632707869
+    second: MeleeRun_Shadowless_90
+  - first:
+      213: -9154490553843453124
+    second: MeleeRun_Shadowless_91
+  - first:
+      213: 8573927960101541365
+    second: MeleeRun_Shadowless_92
+  - first:
+      213: 6958027319212104331
+    second: MeleeRun_Shadowless_93
+  - first:
+      213: 4398642065284173898
+    second: MeleeRun_Shadowless_94
+  - first:
+      213: 4949237483979784038
+    second: MeleeRun_Shadowless_95
+  - first:
+      213: -4814026314675813492
+    second: MeleeRun_Shadowless_96
+  - first:
+      213: 3684831536979940714
+    second: MeleeRun_Shadowless_97
+  - first:
+      213: 593335825300111195
+    second: MeleeRun_Shadowless_98
+  - first:
+      213: 7610680980630698384
+    second: MeleeRun_Shadowless_99
+  - first:
+      213: 6276933460982862440
+    second: MeleeRun_Shadowless_100
+  - first:
+      213: 5361933912069557825
+    second: MeleeRun_Shadowless_101
+  - first:
+      213: 5064490982340101496
+    second: MeleeRun_Shadowless_102
+  - first:
+      213: -1554047307193644463
+    second: MeleeRun_Shadowless_103
+  - first:
+      213: 5728513799080226690
+    second: MeleeRun_Shadowless_104
+  - first:
+      213: -5699466682291924747
+    second: MeleeRun_Shadowless_105
+  - first:
+      213: 7215668124092531379
+    second: MeleeRun_Shadowless_106
+  - first:
+      213: 394435017076298840
+    second: MeleeRun_Shadowless_107
+  - first:
+      213: 4041560363492889105
+    second: MeleeRun_Shadowless_108
+  - first:
+      213: -3586191909012079783
+    second: MeleeRun_Shadowless_109
+  - first:
+      213: 2580416072052144968
+    second: MeleeRun_Shadowless_110
+  - first:
+      213: 426451871939917769
+    second: MeleeRun_Shadowless_111
+  - first:
+      213: 8483105296312690246
+    second: MeleeRun_Shadowless_112
+  - first:
+      213: 2809189674905009431
+    second: MeleeRun_Shadowless_113
+  - first:
+      213: 1623111773885404413
+    second: MeleeRun_Shadowless_114
+  - first:
+      213: -292673272397486642
+    second: MeleeRun_Shadowless_115
+  - first:
+      213: 1547297354081278758
+    second: MeleeRun_Shadowless_116
+  - first:
+      213: 6782621007759565459
+    second: MeleeRun_Shadowless_117
+  - first:
+      213: -5523012092647017059
+    second: MeleeRun_Shadowless_118
+  - first:
+      213: -5913083720791245897
+    second: MeleeRun_Shadowless_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 926
+        width: 47
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a34247e266f6110800000000000000
+      internalID: 1256335170762717756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 928
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edf15dc4e1a18880800000000000000
+      internalID: -8610423008486359584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_2
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 925
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd83c65f3967a9b0800000000000000
+      internalID: -5068967134822691377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_3
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 931
+        width: 50
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d4457926414d750800000000000000
+      internalID: 6328705790040624516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_4
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 931
+        width: 49
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999bc8407d7465ba0800000000000000
+      internalID: -6100609656406885991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_5
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 928
+        width: 49
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554b1d1bdaf8604d0800000000000000
+      internalID: -3168687311633140651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_6
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 927
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f565c7f9201694a0800000000000000
+      internalID: -6587059632546159119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_7
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 925
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64902ab6bb960de0800000000000000
+      internalID: -1367234227751316369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_8
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 925
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f906e1b9c4fd3620800000000000000
+      internalID: 2755627694130858486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_9
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 928
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f2088a4cddc85b0800000000000000
+      internalID: -5364669219394801799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_10
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 927
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342afb9ed12d79370800000000000000
+      internalID: 8329357061762556483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_11
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 921
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4f2eb1ed779dce0800000000000000
+      internalID: -1379940014978042660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_12
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 930
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76c12b9045db8560800000000000000
+      internalID: 7317176493050807932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_13
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 923
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae443f704beee01c0800000000000000
+      internalID: -4535425317720603414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_14
+      rect:
+        serializedVersion: 2
+        x: 1828
+        y: 921
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 612e828b76a7071a0800000000000000
+      internalID: -6813811650321653226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_15
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 807
+        width: 49
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd464de20ddc2400800000000000000
+      internalID: 300858279767461326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_16
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 806
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143ccefe7faea10a0800000000000000
+      internalID: -6909952327643511999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_17
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 802
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ee790eef4acc0290800000000000000
+      internalID: -7922735199806718240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_18
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 799
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac075ce5def9d880800000000000000
+      internalID: -8585551019858522973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_19
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 796
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead8b82c30d5265e0800000000000000
+      internalID: -1917868220576199250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_20
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 797
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4068e837ed504bb70800000000000000
+      internalID: 8913756015452653060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_21
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 802
+        width: 46
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f7fc9484de7d3d0800000000000000
+      internalID: -3181813716982202617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_22
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 804
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f6be478c5f14870800000000000000
+      internalID: 8665477399341395769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_23
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 801
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64cc64cff57335a60800000000000000
+      internalID: 7661528276481264710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_24
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 801
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1042f120742258980800000000000000
+      internalID: -8537379830237289471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_25
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 790
+        width: 52
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdec9f23172a5a6f0800000000000000
+      internalID: -673953962151784737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_26
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 792
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013a17e06dd19a770800000000000000
+      internalID: 8622455766780060432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_27
+      rect:
+        serializedVersion: 2
+        x: 1552
+        y: 805
+        width: 75
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838e9cc854181f970800000000000000
+      internalID: 8786946483691317304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_28
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 804
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39715752cd80f4c40800000000000000
+      internalID: 5498623411656923027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_29
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 797
+        width: 72
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552205dc8e6136df0800000000000000
+      internalID: -188281570286624171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_30
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 678
+        width: 41
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31330492aecd348d0800000000000000
+      internalID: -2863202039804972269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_31
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 675
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f58f613cea85cb0800000000000000
+      internalID: -4874954443701330123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_32
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 668
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d5914f115799910800000000000000
+      internalID: 1844634242355125583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_33
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 664
+        width: 38
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0adbdf81e6c80d0800000000000000
+      internalID: -3419236963465715469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_34
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 665
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0719676a45119d00800000000000000
+      internalID: 977586003422811914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_35
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 669
+        width: 37
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0272993cf304ccc00800000000000000
+      internalID: 922182666312820512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_36
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 666
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2add38ca0eeb0e250800000000000000
+      internalID: 5971982978069552546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_37
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 665
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34766ab73392706d0800000000000000
+      internalID: -3024403323661424829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_38
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 663
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9daa15872de8ed0800000000000000
+      internalID: -2409757336388576842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_39
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 664
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce96d0932c48a1f20800000000000000
+      internalID: 3394171238892792300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_40
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 668
+        width: 68
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766f1be0ba800e490800000000000000
+      internalID: -7719160230534056345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_41
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 673
+        width: 77
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8605fca922741ff0800000000000000
+      internalID: -66302571182750068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_42
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 677
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414fd4bf6c1e48cd0800000000000000
+      internalID: -2556670443703634924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_43
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 670
+        width: 60
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c38e7110286d6430800000000000000
+      internalID: 3777790149375460297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_44
+      rect:
+        serializedVersion: 2
+        x: 1813
+        y: 664
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73bac0d64f90dd80800000000000000
+      internalID: -8227901392706423941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_45
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 548
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8586623a28b5d5980800000000000000
+      internalID: -8548575901038253992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_46
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 546
+        width: 38
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6015fa1484f194900800000000000000
+      internalID: 669100414841344262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_47
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 537
+        width: 35
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec6a79b1c12799a0800000000000000
+      internalID: -6226470843892208409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_48
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 536
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4300cb2b517ecad30800000000000000
+      internalID: 4444181012686831668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_49
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 540
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53689ccbb39bbae0800000000000000
+      internalID: -1532468813388815526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_50
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 539
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213f688899308ed90800000000000000
+      internalID: -7068395657202568430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_51
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 535
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a959fc91df347ea80800000000000000
+      internalID: -8437700622516513382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_52
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 533
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0e6158f06b5eea0800000000000000
+      internalID: -5844064763669716752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_53
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 534
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46caace244199600800000000000000
+      internalID: 475433513335309899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_54
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 535
+        width: 47
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d17f45d7de532b3e0800000000000000
+      internalID: -2039508387119171811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_55
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 539
+        width: 80
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914a6c680f250e720800000000000000
+      internalID: 2873387755269170201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_56
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 544
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4518ecd72550e480800000000000000
+      internalID: -8871997636221594294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_57
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 546
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21728a62c8a7581f0800000000000000
+      internalID: -1043292996303837422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_58
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 540
+        width: 31
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a98d9174dd1f84240800000000000000
+      internalID: 4776333337509353626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_59
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 539
+        width: 34
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d038f24b18ccd16f0800000000000000
+      internalID: -712188308608810227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_60
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 421
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514c4ca8fcf6b4be0800000000000000
+      internalID: -1491975914366122987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_61
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 419
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f059ce98305407a60800000000000000
+      internalID: 7669706046913156367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_62
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 413
+        width: 49
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5d950ed203f72b0800000000000000
+      internalID: -5584692039320480259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_63
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 415
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38e06e7a809a6220800000000000000
+      internalID: 2479953469321046078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_64
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 417
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39c6a359be6ee920800000000000000
+      internalID: 3021474142263626044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_65
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 415
+        width: 49
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c05a431c86c62300800000000000000
+      internalID: 227087136150147273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_66
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 411
+        width: 46
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26dda28e7ed4d64e0800000000000000
+      internalID: -1986846202172613278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_67
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 411
+        width: 50
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22fb03d80021da7e0800000000000000
+      internalID: -1752724886399172830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_68
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 415
+        width: 51
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b2680f85e8f9b80800000000000000
+      internalID: -8385827468496983177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_69
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 414
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294dfff96ade6f1b0800000000000000
+      internalID: -5623045784820788078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_70
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 415
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b290ed1be2f8180800000000000000
+      internalID: -9111012179677992138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_71
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 417
+        width: 37
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30095e679771e1370800000000000000
+      internalID: 8295093374116270083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_72
+      rect:
+        serializedVersion: 2
+        x: 1584
+        y: 416
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57422e98e5b2b5d30800000000000000
+      internalID: 4421175144234493045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_73
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 414
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427531d4a026aa3a0800000000000000
+      internalID: -6653397703104178396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_74
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 418
+        width: 52
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ffda42cd7165a60800000000000000
+      internalID: 7662338050293104413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_75
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 290
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd3566573a237eef0800000000000000
+      internalID: -79038790824995875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_76
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 288
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d387ebd08b9ada0800000000000000
+      internalID: -5933008664914281209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_77
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 289
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f359870e14d07310800000000000000
+      internalID: 1400852709552772088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_78
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 290
+        width: 47
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f69b960e78653b0800000000000000
+      internalID: -5524078495007150315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_79
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 289
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0621475dd317e00800000000000000
+      internalID: 1040680975883985120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_80
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 295
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eae9ec9b6deaaa00800000000000000
+      internalID: 768687732869950180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_81
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 290
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583c7c658c3060220800000000000000
+      internalID: 2451651206134088581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_82
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 290
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1594edae4f98f7a20800000000000000
+      internalID: 3062317956640688465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_83
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 289
+        width: 55
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7684aa7db375e30800000000000000
+      internalID: 4492124950786238426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_84
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 291
+        width: 74
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c184bb126b34ee0800000000000000
+      internalID: -1277977613250847708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_85
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 287
+        width: 53
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bff69adaf36035f0800000000000000
+      internalID: -779012806474793040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_86
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 285
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6214a811ce0a04e70800000000000000
+      internalID: 9097448183055401254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_87
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 288
+        width: 75
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b303cff7e6aafd7e0800000000000000
+      internalID: -1738483539571363781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_88
+      rect:
+        serializedVersion: 2
+        x: 1698
+        y: 285
+        width: 83
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50375bd0b16e72270800000000000000
+      internalID: 8225796248284001029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_89
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 284
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3dfca46dce5b980800000000000000
+      internalID: -8523646314606505053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_90
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 153
+        width: 40
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ded3c65fc08f450800000000000000
+      internalID: 6122657941632707869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_91
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 151
+        width: 38
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33fd760857b4f080800000000000000
+      internalID: -9154490553843453124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_92
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 154
+        width: 43
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f554a79d06bcf670800000000000000
+      internalID: 8573927960101541365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_93
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 159
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ad91b4bf0ef8060800000000000000
+      internalID: 6958027319212104331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_94
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 163
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a409a5347ad1b0d30800000000000000
+      internalID: 4398642065284173898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_95
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 165
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fb9adf4493fa440800000000000000
+      internalID: 4949237483979784038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_96
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 158
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c838d569294213db0800000000000000
+      internalID: -4814026314675813492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_97
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 155
+        width: 41
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6598d282c6232330800000000000000
+      internalID: 3684831536979940714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_98
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 152
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fb68b1ac3fb3800800000000000000
+      internalID: 593335825300111195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_99
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 152
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099705d57029e9960800000000000000
+      internalID: 7610680980630698384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_100
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 152
+        width: 68
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86295a4e9b52c1750800000000000000
+      internalID: 6276933460982862440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_101
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 154
+        width: 77
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ec60afb7a696a40800000000000000
+      internalID: 5361933912069557825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_102
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 159
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8750d8237bfa84640800000000000000
+      internalID: 5064490982340101496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_103
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 156
+        width: 70
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a0292353aee6ae0800000000000000
+      internalID: -1554047307193644463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_104
+      rect:
+        serializedVersion: 2
+        x: 1838
+        y: 154
+        width: 64
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fa91503f4cf7f40800000000000000
+      internalID: 5728513799080226690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_105
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 24
+        width: 36
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0d0d0ef3d67e0b0800000000000000
+      internalID: -5699466682291924747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_106
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 24
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b205a9bde3332460800000000000000
+      internalID: 7215668124092531379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_107
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 24
+        width: 35
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854dec7ee80597500800000000000000
+      internalID: 394435017076298840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_108
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 31
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112da4cccb1861830800000000000000
+      internalID: 4041560363492889105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_109
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 39
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b74fe85794b3ec0800000000000000
+      internalID: -3586191909012079783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_110
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 34
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84b7063feba7fc320800000000000000
+      internalID: 2580416072052144968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_111
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 29
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c777c4d7bf0be500800000000000000
+      internalID: 426451871939917769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_112
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 25
+        width: 32
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646e3f2525b0ab570800000000000000
+      internalID: 8483105296312690246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_113
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 22
+        width: 37
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d7867202f3cf620800000000000000
+      internalID: 2809189674905009431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_114
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 23
+        width: 47
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df491390f83768610800000000000000
+      internalID: 1623111773885404413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_115
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 29
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec52f7b953730fbf0800000000000000
+      internalID: -292673272397486642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_116
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 31
+        width: 61
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b9aefdeba197510800000000000000
+      internalID: 1547297354081278758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_117
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 28
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3926c95eed5b02e50800000000000000
+      internalID: 6782621007759565459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_118
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 21
+        width: 32
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95769f83c15a53b0800000000000000
+      internalID: -5523012092647017059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MeleeRun_Shadowless_119
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 23
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbb71f4fa180fda0800000000000000
+      internalID: -5913083720791245897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MeleeRun_Shadowless_0: 1256335170762717756
+      MeleeRun_Shadowless_1: -8610423008486359584
+      MeleeRun_Shadowless_10: 8329357061762556483
+      MeleeRun_Shadowless_100: 6276933460982862440
+      MeleeRun_Shadowless_101: 5361933912069557825
+      MeleeRun_Shadowless_102: 5064490982340101496
+      MeleeRun_Shadowless_103: -1554047307193644463
+      MeleeRun_Shadowless_104: 5728513799080226690
+      MeleeRun_Shadowless_105: -5699466682291924747
+      MeleeRun_Shadowless_106: 7215668124092531379
+      MeleeRun_Shadowless_107: 394435017076298840
+      MeleeRun_Shadowless_108: 4041560363492889105
+      MeleeRun_Shadowless_109: -3586191909012079783
+      MeleeRun_Shadowless_11: -1379940014978042660
+      MeleeRun_Shadowless_110: 2580416072052144968
+      MeleeRun_Shadowless_111: 426451871939917769
+      MeleeRun_Shadowless_112: 8483105296312690246
+      MeleeRun_Shadowless_113: 2809189674905009431
+      MeleeRun_Shadowless_114: 1623111773885404413
+      MeleeRun_Shadowless_115: -292673272397486642
+      MeleeRun_Shadowless_116: 1547297354081278758
+      MeleeRun_Shadowless_117: 6782621007759565459
+      MeleeRun_Shadowless_118: -5523012092647017059
+      MeleeRun_Shadowless_119: -5913083720791245897
+      MeleeRun_Shadowless_12: 7317176493050807932
+      MeleeRun_Shadowless_13: -4535425317720603414
+      MeleeRun_Shadowless_14: -6813811650321653226
+      MeleeRun_Shadowless_15: 300858279767461326
+      MeleeRun_Shadowless_16: -6909952327643511999
+      MeleeRun_Shadowless_17: -7922735199806718240
+      MeleeRun_Shadowless_18: -8585551019858522973
+      MeleeRun_Shadowless_19: -1917868220576199250
+      MeleeRun_Shadowless_2: -5068967134822691377
+      MeleeRun_Shadowless_20: 8913756015452653060
+      MeleeRun_Shadowless_21: -3181813716982202617
+      MeleeRun_Shadowless_22: 8665477399341395769
+      MeleeRun_Shadowless_23: 7661528276481264710
+      MeleeRun_Shadowless_24: -8537379830237289471
+      MeleeRun_Shadowless_25: -673953962151784737
+      MeleeRun_Shadowless_26: 8622455766780060432
+      MeleeRun_Shadowless_27: 8786946483691317304
+      MeleeRun_Shadowless_28: 5498623411656923027
+      MeleeRun_Shadowless_29: -188281570286624171
+      MeleeRun_Shadowless_3: 6328705790040624516
+      MeleeRun_Shadowless_30: -2863202039804972269
+      MeleeRun_Shadowless_31: -4874954443701330123
+      MeleeRun_Shadowless_32: 1844634242355125583
+      MeleeRun_Shadowless_33: -3419236963465715469
+      MeleeRun_Shadowless_34: 977586003422811914
+      MeleeRun_Shadowless_35: 922182666312820512
+      MeleeRun_Shadowless_36: 5971982978069552546
+      MeleeRun_Shadowless_37: -3024403323661424829
+      MeleeRun_Shadowless_38: -2409757336388576842
+      MeleeRun_Shadowless_39: 3394171238892792300
+      MeleeRun_Shadowless_4: -6100609656406885991
+      MeleeRun_Shadowless_40: -7719160230534056345
+      MeleeRun_Shadowless_41: -66302571182750068
+      MeleeRun_Shadowless_42: -2556670443703634924
+      MeleeRun_Shadowless_43: 3777790149375460297
+      MeleeRun_Shadowless_44: -8227901392706423941
+      MeleeRun_Shadowless_45: -8548575901038253992
+      MeleeRun_Shadowless_46: 669100414841344262
+      MeleeRun_Shadowless_47: -6226470843892208409
+      MeleeRun_Shadowless_48: 4444181012686831668
+      MeleeRun_Shadowless_49: -1532468813388815526
+      MeleeRun_Shadowless_5: -3168687311633140651
+      MeleeRun_Shadowless_50: -7068395657202568430
+      MeleeRun_Shadowless_51: -8437700622516513382
+      MeleeRun_Shadowless_52: -5844064763669716752
+      MeleeRun_Shadowless_53: 475433513335309899
+      MeleeRun_Shadowless_54: -2039508387119171811
+      MeleeRun_Shadowless_55: 2873387755269170201
+      MeleeRun_Shadowless_56: -8871997636221594294
+      MeleeRun_Shadowless_57: -1043292996303837422
+      MeleeRun_Shadowless_58: 4776333337509353626
+      MeleeRun_Shadowless_59: -712188308608810227
+      MeleeRun_Shadowless_6: -6587059632546159119
+      MeleeRun_Shadowless_60: -1491975914366122987
+      MeleeRun_Shadowless_61: 7669706046913156367
+      MeleeRun_Shadowless_62: -5584692039320480259
+      MeleeRun_Shadowless_63: 2479953469321046078
+      MeleeRun_Shadowless_64: 3021474142263626044
+      MeleeRun_Shadowless_65: 227087136150147273
+      MeleeRun_Shadowless_66: -1986846202172613278
+      MeleeRun_Shadowless_67: -1752724886399172830
+      MeleeRun_Shadowless_68: -8385827468496983177
+      MeleeRun_Shadowless_69: -5623045784820788078
+      MeleeRun_Shadowless_7: -1367234227751316369
+      MeleeRun_Shadowless_70: -9111012179677992138
+      MeleeRun_Shadowless_71: 8295093374116270083
+      MeleeRun_Shadowless_72: 4421175144234493045
+      MeleeRun_Shadowless_73: -6653397703104178396
+      MeleeRun_Shadowless_74: 7662338050293104413
+      MeleeRun_Shadowless_75: -79038790824995875
+      MeleeRun_Shadowless_76: -5933008664914281209
+      MeleeRun_Shadowless_77: 1400852709552772088
+      MeleeRun_Shadowless_78: -5524078495007150315
+      MeleeRun_Shadowless_79: 1040680975883985120
+      MeleeRun_Shadowless_8: 2755627694130858486
+      MeleeRun_Shadowless_80: 768687732869950180
+      MeleeRun_Shadowless_81: 2451651206134088581
+      MeleeRun_Shadowless_82: 3062317956640688465
+      MeleeRun_Shadowless_83: 4492124950786238426
+      MeleeRun_Shadowless_84: -1277977613250847708
+      MeleeRun_Shadowless_85: -779012806474793040
+      MeleeRun_Shadowless_86: 9097448183055401254
+      MeleeRun_Shadowless_87: -1738483539571363781
+      MeleeRun_Shadowless_88: 8225796248284001029
+      MeleeRun_Shadowless_89: -8523646314606505053
+      MeleeRun_Shadowless_9: -5364669219394801799
+      MeleeRun_Shadowless_90: 6122657941632707869
+      MeleeRun_Shadowless_91: -9154490553843453124
+      MeleeRun_Shadowless_92: 8573927960101541365
+      MeleeRun_Shadowless_93: 6958027319212104331
+      MeleeRun_Shadowless_94: 4398642065284173898
+      MeleeRun_Shadowless_95: 4949237483979784038
+      MeleeRun_Shadowless_96: -4814026314675813492
+      MeleeRun_Shadowless_97: 3684831536979940714
+      MeleeRun_Shadowless_98: 593335825300111195
+      MeleeRun_Shadowless_99: 7610680980630698384
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

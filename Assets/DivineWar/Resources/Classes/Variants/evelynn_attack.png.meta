@@ -1,0 +1,3877 @@
+fileFormatVersion: 2
+guid: e1eff18355f199148a9b0c45d6f475ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4469462807654889153
+    second: evelynn_attack_0
+  - first:
+      213: -7446285027103378106
+    second: evelynn_attack_1
+  - first:
+      213: 1493778068653841812
+    second: evelynn_attack_2
+  - first:
+      213: -3999018745944497583
+    second: evelynn_attack_3
+  - first:
+      213: -648437268635252196
+    second: evelynn_attack_4
+  - first:
+      213: 6802318180101934559
+    second: evelynn_attack_5
+  - first:
+      213: -7712213208820941562
+    second: evelynn_attack_6
+  - first:
+      213: 531704336803723852
+    second: evelynn_attack_7
+  - first:
+      213: 9168660527277433172
+    second: evelynn_attack_8
+  - first:
+      213: -4693525124658121612
+    second: evelynn_attack_9
+  - first:
+      213: -4492095208730292032
+    second: evelynn_attack_10
+  - first:
+      213: -6890595354357879993
+    second: evelynn_attack_11
+  - first:
+      213: -2206467631004604887
+    second: evelynn_attack_12
+  - first:
+      213: -4193864677215506560
+    second: evelynn_attack_13
+  - first:
+      213: 4255381154658714218
+    second: evelynn_attack_14
+  - first:
+      213: 5791010308283259774
+    second: evelynn_attack_15
+  - first:
+      213: -8636775952647224831
+    second: evelynn_attack_16
+  - first:
+      213: -620331017219843204
+    second: evelynn_attack_17
+  - first:
+      213: 6812890087339043951
+    second: evelynn_attack_18
+  - first:
+      213: -3387182345381050433
+    second: evelynn_attack_19
+  - first:
+      213: -5391995929044060496
+    second: evelynn_attack_20
+  - first:
+      213: -8855878286347017896
+    second: evelynn_attack_21
+  - first:
+      213: 249009394499401719
+    second: evelynn_attack_22
+  - first:
+      213: 6224107922143700765
+    second: evelynn_attack_23
+  - first:
+      213: 7106770988417256614
+    second: evelynn_attack_24
+  - first:
+      213: -3325377959000822766
+    second: evelynn_attack_25
+  - first:
+      213: 891381073910191824
+    second: evelynn_attack_26
+  - first:
+      213: -5976592813533617712
+    second: evelynn_attack_27
+  - first:
+      213: -6387455281783803746
+    second: evelynn_attack_28
+  - first:
+      213: 5480103685187349090
+    second: evelynn_attack_29
+  - first:
+      213: 473116749528674496
+    second: evelynn_attack_30
+  - first:
+      213: 3701165899390046934
+    second: evelynn_attack_31
+  - first:
+      213: -5343231579060637855
+    second: evelynn_attack_32
+  - first:
+      213: 262888894802693765
+    second: evelynn_attack_33
+  - first:
+      213: -5323066007096654064
+    second: evelynn_attack_34
+  - first:
+      213: 7313353815070056341
+    second: evelynn_attack_35
+  - first:
+      213: 2372671437614684508
+    second: evelynn_attack_36
+  - first:
+      213: -5705613266921067264
+    second: evelynn_attack_37
+  - first:
+      213: -8072991844500268960
+    second: evelynn_attack_38
+  - first:
+      213: -2119735870796576114
+    second: evelynn_attack_39
+  - first:
+      213: 2131677899769457270
+    second: evelynn_attack_40
+  - first:
+      213: 5745782828247171319
+    second: evelynn_attack_41
+  - first:
+      213: 8973873841220603393
+    second: evelynn_attack_42
+  - first:
+      213: -7166234455508777443
+    second: evelynn_attack_43
+  - first:
+      213: 543588906443976084
+    second: evelynn_attack_44
+  - first:
+      213: -5592381978827255922
+    second: evelynn_attack_45
+  - first:
+      213: -4855208544617415471
+    second: evelynn_attack_46
+  - first:
+      213: -3874598353920425661
+    second: evelynn_attack_47
+  - first:
+      213: 641378633393066019
+    second: evelynn_attack_48
+  - first:
+      213: 1287349950218002058
+    second: evelynn_attack_49
+  - first:
+      213: 8069580976614932262
+    second: evelynn_attack_50
+  - first:
+      213: 3778720493480808173
+    second: evelynn_attack_51
+  - first:
+      213: -3328956845092534916
+    second: evelynn_attack_52
+  - first:
+      213: 7296519805036459423
+    second: evelynn_attack_53
+  - first:
+      213: 3684780240046157715
+    second: evelynn_attack_54
+  - first:
+      213: 3803188569337824982
+    second: evelynn_attack_55
+  - first:
+      213: -5211431633204967027
+    second: evelynn_attack_56
+  - first:
+      213: 929606333917460805
+    second: evelynn_attack_57
+  - first:
+      213: 5534688181236069110
+    second: evelynn_attack_58
+  - first:
+      213: -1724825294097634970
+    second: evelynn_attack_59
+  - first:
+      213: 5234442445549180577
+    second: evelynn_attack_60
+  - first:
+      213: 382868986033330818
+    second: evelynn_attack_61
+  - first:
+      213: 27377714937551890
+    second: evelynn_attack_62
+  - first:
+      213: -5375787125111542145
+    second: evelynn_attack_63
+  - first:
+      213: -6903580076244130035
+    second: evelynn_attack_64
+  - first:
+      213: 2629302805443418382
+    second: evelynn_attack_65
+  - first:
+      213: 3089784303905322935
+    second: evelynn_attack_66
+  - first:
+      213: -8852516040714668332
+    second: evelynn_attack_67
+  - first:
+      213: 5509759603250453950
+    second: evelynn_attack_68
+  - first:
+      213: 8378075609838221598
+    second: evelynn_attack_69
+  - first:
+      213: -732997260024102514
+    second: evelynn_attack_70
+  - first:
+      213: 5564363792483633165
+    second: evelynn_attack_71
+  - first:
+      213: 3272606824172088336
+    second: evelynn_attack_72
+  - first:
+      213: -7529425374681723079
+    second: evelynn_attack_73
+  - first:
+      213: -7259837211528949756
+    second: evelynn_attack_74
+  - first:
+      213: -4553696915389484658
+    second: evelynn_attack_75
+  - first:
+      213: -7977157232784832894
+    second: evelynn_attack_76
+  - first:
+      213: -8302388158539292990
+    second: evelynn_attack_77
+  - first:
+      213: 4034198479960681847
+    second: evelynn_attack_78
+  - first:
+      213: 2955419925610010913
+    second: evelynn_attack_79
+  - first:
+      213: -3945263849281078408
+    second: evelynn_attack_80
+  - first:
+      213: -8213945730286427574
+    second: evelynn_attack_81
+  - first:
+      213: -7523324677955619954
+    second: evelynn_attack_82
+  - first:
+      213: -1703574609827373471
+    second: evelynn_attack_83
+  - first:
+      213: 4784018297165328709
+    second: evelynn_attack_84
+  - first:
+      213: 50799800425428561
+    second: evelynn_attack_85
+  - first:
+      213: 8663984132493344650
+    second: evelynn_attack_86
+  - first:
+      213: -3878594291548965826
+    second: evelynn_attack_87
+  - first:
+      213: 294207045045512940
+    second: evelynn_attack_88
+  - first:
+      213: -1127532963830004522
+    second: evelynn_attack_89
+  - first:
+      213: 5780006590476000488
+    second: evelynn_attack_90
+  - first:
+      213: -8879836076290270235
+    second: evelynn_attack_91
+  - first:
+      213: -6029650038160546755
+    second: evelynn_attack_92
+  - first:
+      213: -2537565404657617137
+    second: evelynn_attack_93
+  - first:
+      213: 3428502724963753820
+    second: evelynn_attack_94
+  - first:
+      213: -2331261216341882294
+    second: evelynn_attack_95
+  - first:
+      213: -9194243587026175377
+    second: evelynn_attack_96
+  - first:
+      213: 3248911663307092527
+    second: evelynn_attack_97
+  - first:
+      213: -3641883414824904490
+    second: evelynn_attack_98
+  - first:
+      213: -4418732392709408988
+    second: evelynn_attack_99
+  - first:
+      213: -5373628587074726763
+    second: evelynn_attack_100
+  - first:
+      213: 4844239115637136029
+    second: evelynn_attack_101
+  - first:
+      213: -4844005100323071021
+    second: evelynn_attack_102
+  - first:
+      213: -612012066358522972
+    second: evelynn_attack_103
+  - first:
+      213: -2110394156464072643
+    second: evelynn_attack_104
+  - first:
+      213: 5032484227701023511
+    second: evelynn_attack_105
+  - first:
+      213: 1329646063650118639
+    second: evelynn_attack_106
+  - first:
+      213: 7170094604833693762
+    second: evelynn_attack_107
+  - first:
+      213: -6656717600412624598
+    second: evelynn_attack_108
+  - first:
+      213: 5607476420323081354
+    second: evelynn_attack_109
+  - first:
+      213: -7827649472780586088
+    second: evelynn_attack_110
+  - first:
+      213: -2103473941377413213
+    second: evelynn_attack_111
+  - first:
+      213: -305687507229708094
+    second: evelynn_attack_112
+  - first:
+      213: 759185484858040872
+    second: evelynn_attack_113
+  - first:
+      213: 3456945525744662042
+    second: evelynn_attack_114
+  - first:
+      213: -4706218313440133633
+    second: evelynn_attack_115
+  - first:
+      213: 3543970250181486110
+    second: evelynn_attack_116
+  - first:
+      213: 9018431241144568561
+    second: evelynn_attack_117
+  - first:
+      213: -2929934992397079847
+    second: evelynn_attack_118
+  - first:
+      213: -2286274226996284759
+    second: evelynn_attack_119
+  - first:
+      213: -485839300517080311
+    second: evelynn_attack_120
+  - first:
+      213: 2276190476824714848
+    second: evelynn_attack_121
+  - first:
+      213: 6027280558499340176
+    second: evelynn_attack_122
+  - first:
+      213: -3188675378327054120
+    second: evelynn_attack_123
+  - first:
+      213: -168055490113322603
+    second: evelynn_attack_124
+  - first:
+      213: 5598616966792042062
+    second: evelynn_attack_125
+  - first:
+      213: -4615145183368730617
+    second: evelynn_attack_126
+  - first:
+      213: -115161944087577941
+    second: evelynn_attack_127
+  - first:
+      213: 3569122681203559358
+    second: evelynn_attack_128
+  - first:
+      213: -6317596735124678748
+    second: evelynn_attack_129
+  - first:
+      213: 1062163127376546374
+    second: evelynn_attack_130
+  - first:
+      213: -3353575630880257485
+    second: evelynn_attack_131
+  - first:
+      213: 1243742227423688046
+    second: evelynn_attack_132
+  - first:
+      213: 2602226674823760548
+    second: evelynn_attack_133
+  - first:
+      213: 1648407438800267783
+    second: evelynn_attack_134
+  - first:
+      213: -8243865852802749435
+    second: evelynn_attack_135
+  - first:
+      213: 4236462429537687448
+    second: evelynn_attack_136
+  - first:
+      213: -2797603559153570265
+    second: evelynn_attack_137
+  - first:
+      213: 2405193447764490478
+    second: evelynn_attack_138
+  - first:
+      213: 6925840921956317982
+    second: evelynn_attack_139
+  - first:
+      213: 1401534999451729015
+    second: evelynn_attack_140
+  - first:
+      213: -1891358353153247495
+    second: evelynn_attack_141
+  - first:
+      213: -8150089724754560017
+    second: evelynn_attack_142
+  - first:
+      213: 201033179222918791
+    second: evelynn_attack_143
+  - first:
+      213: -4471393876088579506
+    second: evelynn_attack_144
+  - first:
+      213: -6906548661027597607
+    second: evelynn_attack_145
+  - first:
+      213: 7309824286542041550
+    second: evelynn_attack_146
+  - first:
+      213: -8438020193277962273
+    second: evelynn_attack_147
+  - first:
+      213: 1754495011603269051
+    second: evelynn_attack_148
+  - first:
+      213: 8125729290798233996
+    second: evelynn_attack_149
+  - first:
+      213: 6821170649662922693
+    second: evelynn_attack_150
+  - first:
+      213: 2521112904838595413
+    second: evelynn_attack_151
+  - first:
+      213: 1832470745014898024
+    second: evelynn_attack_152
+  - first:
+      213: -3124636015779332396
+    second: evelynn_attack_153
+  - first:
+      213: 7215500658746653445
+    second: evelynn_attack_154
+  - first:
+      213: -3369592997353578382
+    second: evelynn_attack_155
+  - first:
+      213: 2283700006934657227
+    second: evelynn_attack_156
+  - first:
+      213: 8734162391167934684
+    second: evelynn_attack_157
+  - first:
+      213: -4004344343448177393
+    second: evelynn_attack_158
+  - first:
+      213: 3530490094198734203
+    second: evelynn_attack_159
+  - first:
+      213: 7186500380437575649
+    second: evelynn_attack_160
+  - first:
+      213: 9054557519718911539
+    second: evelynn_attack_161
+  - first:
+      213: 3053887731919873531
+    second: evelynn_attack_162
+  - first:
+      213: 9021701720823556694
+    second: evelynn_attack_163
+  - first:
+      213: 4254335699780955859
+    second: evelynn_attack_164
+  - first:
+      213: 8649038069989615553
+    second: evelynn_attack_165
+  - first:
+      213: -6206854529705345805
+    second: evelynn_attack_166
+  - first:
+      213: 3650412625407680241
+    second: evelynn_attack_167
+  - first:
+      213: 1303204086056380170
+    second: evelynn_attack_168
+  - first:
+      213: -5050946383098243789
+    second: evelynn_attack_169
+  - first:
+      213: 3863302222634151202
+    second: evelynn_attack_170
+  - first:
+      213: -2070973009558900819
+    second: evelynn_attack_171
+  - first:
+      213: 6992857724863311007
+    second: evelynn_attack_172
+  - first:
+      213: 8776877671404373110
+    second: evelynn_attack_000
+  - first:
+      213: 3068317515165229456
+    second: evelynn_attack_001
+  - first:
+      213: -4910925554283614436
+    second: evelynn_attack_002
+  - first:
+      213: -5594740843475983938
+    second: evelynn_attack_003
+  - first:
+      213: 257764777081426506
+    second: evelynn_attack_004
+  - first:
+      213: 6684220367168107030
+    second: evelynn_attack_005
+  - first:
+      213: -1178307519179205379
+    second: evelynn_attack_006
+  - first:
+      213: 3694315879336496854
+    second: evelynn_attack_007
+  - first:
+      213: 7144804228695503202
+    second: evelynn_attack_008
+  - first:
+      213: -3448203510088782969
+    second: evelynn_attack_009
+  - first:
+      213: -2663446198727137449
+    second: evelynn_attack_010
+  - first:
+      213: -7696998734606239488
+    second: evelynn_attack_011
+  - first:
+      213: 899555256748898535
+    second: evelynn_attack_012
+  - first:
+      213: 4940291479146102755
+    second: evelynn_attack_013
+  - first:
+      213: 8974249384823638057
+    second: evelynn_attack_014
+  - first:
+      213: 3269804420503163243
+    second: evelynn_attack_015
+  - first:
+      213: -3299445691181395428
+    second: evelynn_attack_016
+  - first:
+      213: -8674329918699258006
+    second: evelynn_attack_017
+  - first:
+      213: -173690155760261802
+    second: evelynn_attack_018
+  - first:
+      213: 4284146140631799596
+    second: evelynn_attack_019
+  - first:
+      213: 6049562447540694139
+    second: evelynn_attack_020
+  - first:
+      213: -3830158573765149154
+    second: evelynn_attack_021
+  - first:
+      213: 1082650319481440164
+    second: evelynn_attack_022
+  - first:
+      213: 7261754373557861167
+    second: evelynn_attack_023
+  - first:
+      213: -2969105768709680745
+    second: evelynn_attack_024
+  - first:
+      213: 6379585058342760092
+    second: evelynn_attack_025
+  - first:
+      213: -3158909184317537800
+    second: evelynn_attack_026
+  - first:
+      213: -8612107940236511336
+    second: evelynn_attack_027
+  - first:
+      213: -5267237344933973840
+    second: evelynn_attack_028
+  - first:
+      213: -970686683135843264
+    second: evelynn_attack_029
+  - first:
+      213: -2238048138244536297
+    second: evelynn_attack_030
+  - first:
+      213: 8169235665010351651
+    second: evelynn_attack_031
+  - first:
+      213: -6184623729212041900
+    second: evelynn_attack_032
+  - first:
+      213: -939953842426318693
+    second: evelynn_attack_033
+  - first:
+      213: 85127016002824510
+    second: evelynn_attack_034
+  - first:
+      213: 3856576239839392634
+    second: evelynn_attack_035
+  - first:
+      213: 5096361571833416499
+    second: evelynn_attack_036
+  - first:
+      213: 1724928742606332919
+    second: evelynn_attack_037
+  - first:
+      213: -763538341402973673
+    second: evelynn_attack_038
+  - first:
+      213: -1935880898097695766
+    second: evelynn_attack_039
+  - first:
+      213: 1071810051865621528
+    second: evelynn_attack_040
+  - first:
+      213: 1172925478094169776
+    second: evelynn_attack_041
+  - first:
+      213: 22019485800157026
+    second: evelynn_attack_042
+  - first:
+      213: -2253173650441230690
+    second: evelynn_attack_043
+  - first:
+      213: 7374972209119350494
+    second: evelynn_attack_044
+  - first:
+      213: -5457894481198164823
+    second: evelynn_attack_045
+  - first:
+      213: -1186969494159344038
+    second: evelynn_attack_046
+  - first:
+      213: 7565462686599752112
+    second: evelynn_attack_047
+  - first:
+      213: 7117164471280638620
+    second: evelynn_attack_048
+  - first:
+      213: 6088638433885765464
+    second: evelynn_attack_049
+  - first:
+      213: 8683520348926969690
+    second: evelynn_attack_050
+  - first:
+      213: 1937652750594122184
+    second: evelynn_attack_051
+  - first:
+      213: 1579393771159879932
+    second: evelynn_attack_052
+  - first:
+      213: -8133655576401152023
+    second: evelynn_attack_053
+  - first:
+      213: 3770420974255244991
+    second: evelynn_attack_054
+  - first:
+      213: 5701234330776005095
+    second: evelynn_attack_055
+  - first:
+      213: 6861267785771671349
+    second: evelynn_attack_056
+  - first:
+      213: -5930691075474297152
+    second: evelynn_attack_057
+  - first:
+      213: 1238855831677492282
+    second: evelynn_attack_058
+  - first:
+      213: 5837066012411691107
+    second: evelynn_attack_059
+  - first:
+      213: 7746446955280153968
+    second: evelynn_attack_060
+  - first:
+      213: -7582128011482373291
+    second: evelynn_attack_061
+  - first:
+      213: 4395971147732887043
+    second: evelynn_attack_062
+  - first:
+      213: 6529623007679230963
+    second: evelynn_attack_063
+  - first:
+      213: -1415395619037071291
+    second: evelynn_attack_064
+  - first:
+      213: 4988857440461987620
+    second: evelynn_attack_065
+  - first:
+      213: 8342692612723900753
+    second: evelynn_attack_066
+  - first:
+      213: 5149047293287420302
+    second: evelynn_attack_067
+  - first:
+      213: 3575276096385358193
+    second: evelynn_attack_068
+  - first:
+      213: 4648991300701630093
+    second: evelynn_attack_069
+  - first:
+      213: 7324542401994602034
+    second: evelynn_attack_070
+  - first:
+      213: 9059275470660362173
+    second: evelynn_attack_071
+  - first:
+      213: -2472549621923164172
+    second: evelynn_attack_072
+  - first:
+      213: 4616409884740974077
+    second: evelynn_attack_073
+  - first:
+      213: 4674953387713912199
+    second: evelynn_attack_074
+  - first:
+      213: 5403722161590776963
+    second: evelynn_attack_075
+  - first:
+      213: -4466295842598904432
+    second: evelynn_attack_076
+  - first:
+      213: 3535204563878707538
+    second: evelynn_attack_077
+  - first:
+      213: 6769981657287587370
+    second: evelynn_attack_078
+  - first:
+      213: 2026625491142883079
+    second: evelynn_attack_079
+  - first:
+      213: -6138684877027851837
+    second: evelynn_attack_080
+  - first:
+      213: 2625298504014044506
+    second: evelynn_attack_081
+  - first:
+      213: -6058207073550995387
+    second: evelynn_attack_082
+  - first:
+      213: 6825170047999560321
+    second: evelynn_attack_083
+  - first:
+      213: -5577915407011219309
+    second: evelynn_attack_084
+  - first:
+      213: -2325744377847392131
+    second: evelynn_attack_085
+  - first:
+      213: 3299193004784899428
+    second: evelynn_attack_086
+  - first:
+      213: 7978337342188025919
+    second: evelynn_attack_087
+  - first:
+      213: -117951160196772519
+    second: evelynn_attack_088
+  - first:
+      213: -2434851577306454187
+    second: evelynn_attack_089
+  - first:
+      213: 6865949766953363476
+    second: evelynn_attack_090
+  - first:
+      213: 4336352874008778758
+    second: evelynn_attack_091
+  - first:
+      213: 3280567635315747843
+    second: evelynn_attack_092
+  - first:
+      213: 7432988728694263318
+    second: evelynn_attack_093
+  - first:
+      213: 8817743261591071831
+    second: evelynn_attack_094
+  - first:
+      213: 153621685830324466
+    second: evelynn_attack_095
+  - first:
+      213: 7524578654205826339
+    second: evelynn_attack_096
+  - first:
+      213: -7922690811433542002
+    second: evelynn_attack_097
+  - first:
+      213: 6414028143285346697
+    second: evelynn_attack_098
+  - first:
+      213: 7892098505734007242
+    second: evelynn_attack_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: evelynn_attack_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6748d118dbbbdc970800000000000000
+      internalID: 8776877671404373110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091688df58ad49a20800000000000000
+      internalID: 3068317515165229456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f69824a33e8dbb0800000000000000
+      internalID: -4910925554283614436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb1ae3658dc7b52b0800000000000000
+      internalID: -5594740843475983938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42db85f2b3c39300800000000000000
+      internalID: 257764777081426506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6127c79620f13cc50800000000000000
+      internalID: 6684220367168107030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4d623ed8fc5afe0800000000000000
+      internalID: -1178307519179205379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6decfeb08b8d44330800000000000000
+      internalID: 3694315879336496854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261ba195791772360800000000000000
+      internalID: 7144804228695503202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78b27eb4d258520d0800000000000000
+      internalID: -3448203510088782969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75721863bc9890bd0800000000000000
+      internalID: -2663446198727137449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 009f92b6e64ce2590800000000000000
+      internalID: -7696998734606239488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e87a5e6dbcdb7c00800000000000000
+      internalID: 899555256748898535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef746dece07f8440800000000000000
+      internalID: 4940291479146102755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9284e249440fa8c70800000000000000
+      internalID: 8974249384823638057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61d719dbcda06d20800000000000000
+      internalID: 3269804420503163243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12907500a30632d0800000000000000
+      internalID: -3299445691181395428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f3363c5e69e9780800000000000000
+      internalID: -8674329918699258006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6556dec39bde69df0800000000000000
+      internalID: -173690155760261802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27183e6738547b30800000000000000
+      internalID: 4284146140631799596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ca43c7efc54f350800000000000000
+      internalID: 6049562447540694139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ebf49f11b88dac0800000000000000
+      internalID: -3830158573765149154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a787acbab8560f00800000000000000
+      internalID: 1082650319481440164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2b3e0ad02fe6c460800000000000000
+      internalID: 7261754373557861167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7911f7bc80e9bc6d0800000000000000
+      internalID: -2969105768709680745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ee8e06fc6d88850800000000000000
+      internalID: 6379585058342760092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f1c80f55dc4924d0800000000000000
+      internalID: -3158909184317537800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897b1ee0575ab7880800000000000000
+      internalID: -8612107940236511336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0f983ba8307e6b0800000000000000
+      internalID: -5267237344933973840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0446c77ca9d6782f0800000000000000
+      internalID: -970686683135843264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718c5b1731bd0f0e0800000000000000
+      internalID: -2238048138244536297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ed46b0e84fe5170800000000000000
+      internalID: 8169235665010351651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4555dde5c7dcb2aa0800000000000000
+      internalID: -6184623729212041900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b907aecd5fc94f2f0800000000000000
+      internalID: -939953842426318693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3923ade19e6e2100800000000000000
+      internalID: 85127016002824510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73b6d838af458530800000000000000
+      internalID: 3856576239839392634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33b051019d9e9b640800000000000000
+      internalID: 5096361571833416499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f369e56d8d20f710800000000000000
+      internalID: 1724928742606332919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ae8448ced5765f0800000000000000
+      internalID: -763538341402973673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae33c65749e5225e0800000000000000
+      internalID: -1935880898097695766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814b4204095dfde00800000000000000
+      internalID: 1071810051865621528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6eec50281174010800000000000000
+      internalID: 1172925478094169776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f414d0b9a3e4000800000000000000
+      internalID: 22019485800157026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e962e24b08e1bb0e0800000000000000
+      internalID: -2253173650441230690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edecfe0662a295660800000000000000
+      internalID: 7374972209119350494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a45e92f2e9a144b0800000000000000
+      internalID: -5457894481198164823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e386da889078fe0800000000000000
+      internalID: -1186969494159344038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9204cda3cedf860800000000000000
+      internalID: 7565462686599752112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a96b6d06f35c260800000000000000
+      internalID: 7117164471280638620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f3d8985603f7450800000000000000
+      internalID: 6088638433885765464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a570ba500cf028870800000000000000
+      internalID: 8683520348926969690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1a83919ece3ea10800000000000000
+      internalID: 1937652750594122184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0037254422be510800000000000000
+      internalID: 1579393771159879932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7fb33e8537f1f80800000000000000
+      internalID: -8133655576401152023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb68a2846e9335430800000000000000
+      internalID: 3770420974255244991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e96a2bda6ade1f40800000000000000
+      internalID: 5701234330776005095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f50c7d2be183f50800000000000000
+      internalID: 6861267785771671349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce66c593e3f1bda0800000000000000
+      internalID: -5930691075474297152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cde0fa0dc413110800000000000000
+      internalID: 1238855831677492282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3600e48bc9c610150800000000000000
+      internalID: 5837066012411691107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d31e0a678e08b60800000000000000
+      internalID: 7746446955280153968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553ed02debed6c690800000000000000
+      internalID: -7582128011482373291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3062c7fc770a10d30800000000000000
+      internalID: 4395971147732887043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f330f1b781ed9a50800000000000000
+      internalID: 6529623007679230963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548b6aefe218b5ce0800000000000000
+      internalID: -1415395619037071291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f1dc5f86bfb3540800000000000000
+      internalID: 4988857440461987620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1510fa3dab237c370800000000000000
+      internalID: 8342692612723900753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8155108b37157740800000000000000
+      internalID: 5149047293287420302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1799ef2caaeed9130800000000000000
+      internalID: 3575276096385358193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ea332e4f8848040800000000000000
+      internalID: 4648991300701630093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236bc2de18006a560800000000000000
+      internalID: 7324542401994602034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfde1fda0309bd70800000000000000
+      internalID: 9059275470660362173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff4ebf083dbfadd0800000000000000
+      internalID: -2472549621923164172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df57695d458c01040800000000000000
+      internalID: 4616409884740974077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d52305655c0e040800000000000000
+      internalID: 4674953387713912199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38436820da0edfa40800000000000000
+      internalID: 5403722161590776963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d961838978402c0800000000000000
+      internalID: -4466295842598904432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251845e02d19f0130800000000000000
+      internalID: 3535204563878707538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26798ac27ec3fd50800000000000000
+      internalID: 6769981657287587370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707b25c8525002c10800000000000000
+      internalID: 2026625491142883079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c141b4e0a20fcaa0800000000000000
+      internalID: -6138684877027851837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d1f19741fee6420800000000000000
+      internalID: 2625298504014044506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540fb3da3cceceba0800000000000000
+      internalID: -6058207073550995387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a46a25fffd7be50800000000000000
+      internalID: 6825170047999560321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398fae98d734792b0800000000000000
+      internalID: -5577915407011219309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d785b088fcb49bfd0800000000000000
+      internalID: -2325744377847392131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46558a7de8619cd20800000000000000
+      internalID: 3299193004784899428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38f95baa8fb8be60800000000000000
+      internalID: 7978337342188025919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d40a37b04fc5ef0800000000000000
+      internalID: -117951160196772519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55769dd046ba53ed0800000000000000
+      internalID: -2434851577306454187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4186ee88fe0c84f50800000000000000
+      internalID: 6865949766953363476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6089904c6f1dd2c30800000000000000
+      internalID: 4336352874008778758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c63a412eae68d20800000000000000
+      internalID: 3280567635315747843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ecd49fdd7472760800000000000000
+      internalID: 7432988728694263318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ceabb27caee5a70800000000000000
+      internalID: 8817743261591071831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f096bdfb16c12200800000000000000
+      internalID: 153621685830324466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325dc684b6cac6860800000000000000
+      internalID: 7524578654205826339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e9047eea2fc0290800000000000000
+      internalID: -7922690811433542002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981a1e30d94330950800000000000000
+      internalID: 6414028143285346697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9aaaed6cd568d60800000000000000
+      internalID: 7892098505734007242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 594d68055490d65b0800000000000000
+      internalID: -5373628587074726763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a9a9e4fc13a3340800000000000000
+      internalID: 4844239115637136029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db1011a603a6ccb0800000000000000
+      internalID: -4844005100323071021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab827aa442b187f0800000000000000
+      internalID: -612012066358522972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3816ef22bf56b2e0800000000000000
+      internalID: -2110394156464072643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71320e9edb9f6d540800000000000000
+      internalID: 5032484227701023511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb9cd4dc0ad37210800000000000000
+      internalID: 1329646063650118639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240ae07ed0b418360800000000000000
+      internalID: 7170094604833693762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2990597c969e93a0800000000000000
+      internalID: -6656717600412624598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c7cb73812c1dd40800000000000000
+      internalID: 5607476420323081354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893b3a4f64a9e5390800000000000000
+      internalID: -7827649472780586088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af88e15895fec2e0800000000000000
+      internalID: -2103473941377413213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c07c4fe4daf1cbf0800000000000000
+      internalID: -305687507229708094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822a8971d2b298a00800000000000000
+      internalID: 759185484858040872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16f2e5d3a989ff20800000000000000
+      internalID: 3456945525744662042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffd76f7e06720beb0800000000000000
+      internalID: -4706218313440133633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16ae907a26be2130800000000000000
+      internalID: 3543970250181486110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa05bf9e67e72d70800000000000000
+      internalID: 9018431241144568561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da6f2bd5a7c657d0800000000000000
+      internalID: -2929934992397079847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_attack_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a271c824b58540e0800000000000000
+      internalID: -2286274226996284759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      evelynn_attack_0: 4469462807654889153
+      evelynn_attack_000: 8776877671404373110
+      evelynn_attack_001: 3068317515165229456
+      evelynn_attack_002: -4910925554283614436
+      evelynn_attack_003: -5594740843475983938
+      evelynn_attack_004: 257764777081426506
+      evelynn_attack_005: 6684220367168107030
+      evelynn_attack_006: -1178307519179205379
+      evelynn_attack_007: 3694315879336496854
+      evelynn_attack_008: 7144804228695503202
+      evelynn_attack_009: -3448203510088782969
+      evelynn_attack_010: -2663446198727137449
+      evelynn_attack_011: -7696998734606239488
+      evelynn_attack_012: 899555256748898535
+      evelynn_attack_013: 4940291479146102755
+      evelynn_attack_014: 8974249384823638057
+      evelynn_attack_015: 3269804420503163243
+      evelynn_attack_016: -3299445691181395428
+      evelynn_attack_017: -8674329918699258006
+      evelynn_attack_018: -173690155760261802
+      evelynn_attack_019: 4284146140631799596
+      evelynn_attack_020: 6049562447540694139
+      evelynn_attack_021: -3830158573765149154
+      evelynn_attack_022: 1082650319481440164
+      evelynn_attack_023: 7261754373557861167
+      evelynn_attack_024: -2969105768709680745
+      evelynn_attack_025: 6379585058342760092
+      evelynn_attack_026: -3158909184317537800
+      evelynn_attack_027: -8612107940236511336
+      evelynn_attack_028: -5267237344933973840
+      evelynn_attack_029: -970686683135843264
+      evelynn_attack_030: -2238048138244536297
+      evelynn_attack_031: 8169235665010351651
+      evelynn_attack_032: -6184623729212041900
+      evelynn_attack_033: -939953842426318693
+      evelynn_attack_034: 85127016002824510
+      evelynn_attack_035: 3856576239839392634
+      evelynn_attack_036: 5096361571833416499
+      evelynn_attack_037: 1724928742606332919
+      evelynn_attack_038: -763538341402973673
+      evelynn_attack_039: -1935880898097695766
+      evelynn_attack_040: 1071810051865621528
+      evelynn_attack_041: 1172925478094169776
+      evelynn_attack_042: 22019485800157026
+      evelynn_attack_043: -2253173650441230690
+      evelynn_attack_044: 7374972209119350494
+      evelynn_attack_045: -5457894481198164823
+      evelynn_attack_046: -1186969494159344038
+      evelynn_attack_047: 7565462686599752112
+      evelynn_attack_048: 7117164471280638620
+      evelynn_attack_049: 6088638433885765464
+      evelynn_attack_050: 8683520348926969690
+      evelynn_attack_051: 1937652750594122184
+      evelynn_attack_052: 1579393771159879932
+      evelynn_attack_053: -8133655576401152023
+      evelynn_attack_054: 3770420974255244991
+      evelynn_attack_055: 5701234330776005095
+      evelynn_attack_056: 6861267785771671349
+      evelynn_attack_057: -5930691075474297152
+      evelynn_attack_058: 1238855831677492282
+      evelynn_attack_059: 5837066012411691107
+      evelynn_attack_060: 7746446955280153968
+      evelynn_attack_061: -7582128011482373291
+      evelynn_attack_062: 4395971147732887043
+      evelynn_attack_063: 6529623007679230963
+      evelynn_attack_064: -1415395619037071291
+      evelynn_attack_065: 4988857440461987620
+      evelynn_attack_066: 8342692612723900753
+      evelynn_attack_067: 5149047293287420302
+      evelynn_attack_068: 3575276096385358193
+      evelynn_attack_069: 4648991300701630093
+      evelynn_attack_070: 7324542401994602034
+      evelynn_attack_071: 9059275470660362173
+      evelynn_attack_072: -2472549621923164172
+      evelynn_attack_073: 4616409884740974077
+      evelynn_attack_074: 4674953387713912199
+      evelynn_attack_075: 5403722161590776963
+      evelynn_attack_076: -4466295842598904432
+      evelynn_attack_077: 3535204563878707538
+      evelynn_attack_078: 6769981657287587370
+      evelynn_attack_079: 2026625491142883079
+      evelynn_attack_080: -6138684877027851837
+      evelynn_attack_081: 2625298504014044506
+      evelynn_attack_082: -6058207073550995387
+      evelynn_attack_083: 6825170047999560321
+      evelynn_attack_084: -5577915407011219309
+      evelynn_attack_085: -2325744377847392131
+      evelynn_attack_086: 3299193004784899428
+      evelynn_attack_087: 7978337342188025919
+      evelynn_attack_088: -117951160196772519
+      evelynn_attack_089: -2434851577306454187
+      evelynn_attack_090: 6865949766953363476
+      evelynn_attack_091: 4336352874008778758
+      evelynn_attack_092: 3280567635315747843
+      evelynn_attack_093: 7432988728694263318
+      evelynn_attack_094: 8817743261591071831
+      evelynn_attack_095: 153621685830324466
+      evelynn_attack_096: 7524578654205826339
+      evelynn_attack_097: -7922690811433542002
+      evelynn_attack_098: 6414028143285346697
+      evelynn_attack_099: 7892098505734007242
+      evelynn_attack_1: -7446285027103378106
+      evelynn_attack_10: -4492095208730292032
+      evelynn_attack_100: -5373628587074726763
+      evelynn_attack_101: 4844239115637136029
+      evelynn_attack_102: -4844005100323071021
+      evelynn_attack_103: -612012066358522972
+      evelynn_attack_104: -2110394156464072643
+      evelynn_attack_105: 5032484227701023511
+      evelynn_attack_106: 1329646063650118639
+      evelynn_attack_107: 7170094604833693762
+      evelynn_attack_108: -6656717600412624598
+      evelynn_attack_109: 5607476420323081354
+      evelynn_attack_11: -6890595354357879993
+      evelynn_attack_110: -7827649472780586088
+      evelynn_attack_111: -2103473941377413213
+      evelynn_attack_112: -305687507229708094
+      evelynn_attack_113: 759185484858040872
+      evelynn_attack_114: 3456945525744662042
+      evelynn_attack_115: -4706218313440133633
+      evelynn_attack_116: 3543970250181486110
+      evelynn_attack_117: 9018431241144568561
+      evelynn_attack_118: -2929934992397079847
+      evelynn_attack_119: -2286274226996284759
+      evelynn_attack_12: -2206467631004604887
+      evelynn_attack_120: -485839300517080311
+      evelynn_attack_121: 2276190476824714848
+      evelynn_attack_122: 6027280558499340176
+      evelynn_attack_123: -3188675378327054120
+      evelynn_attack_124: -168055490113322603
+      evelynn_attack_125: 5598616966792042062
+      evelynn_attack_126: -4615145183368730617
+      evelynn_attack_127: -115161944087577941
+      evelynn_attack_128: 3569122681203559358
+      evelynn_attack_129: -6317596735124678748
+      evelynn_attack_13: -4193864677215506560
+      evelynn_attack_130: 1062163127376546374
+      evelynn_attack_131: -3353575630880257485
+      evelynn_attack_132: 1243742227423688046
+      evelynn_attack_133: 2602226674823760548
+      evelynn_attack_134: 1648407438800267783
+      evelynn_attack_135: -8243865852802749435
+      evelynn_attack_136: 4236462429537687448
+      evelynn_attack_137: -2797603559153570265
+      evelynn_attack_138: 2405193447764490478
+      evelynn_attack_139: 6925840921956317982
+      evelynn_attack_14: 4255381154658714218
+      evelynn_attack_140: 1401534999451729015
+      evelynn_attack_141: -1891358353153247495
+      evelynn_attack_142: -8150089724754560017
+      evelynn_attack_143: 201033179222918791
+      evelynn_attack_144: -4471393876088579506
+      evelynn_attack_145: -6906548661027597607
+      evelynn_attack_146: 7309824286542041550
+      evelynn_attack_147: -8438020193277962273
+      evelynn_attack_148: 1754495011603269051
+      evelynn_attack_149: 8125729290798233996
+      evelynn_attack_15: 5791010308283259774
+      evelynn_attack_150: 6821170649662922693
+      evelynn_attack_151: 2521112904838595413
+      evelynn_attack_152: 1832470745014898024
+      evelynn_attack_153: -3124636015779332396
+      evelynn_attack_154: 7215500658746653445
+      evelynn_attack_155: -3369592997353578382
+      evelynn_attack_156: 2283700006934657227
+      evelynn_attack_157: 8734162391167934684
+      evelynn_attack_158: -4004344343448177393
+      evelynn_attack_159: 3530490094198734203
+      evelynn_attack_16: -8636775952647224831
+      evelynn_attack_160: 7186500380437575649
+      evelynn_attack_161: 9054557519718911539
+      evelynn_attack_162: 3053887731919873531
+      evelynn_attack_163: 9021701720823556694
+      evelynn_attack_164: 4254335699780955859
+      evelynn_attack_165: 8649038069989615553
+      evelynn_attack_166: -6206854529705345805
+      evelynn_attack_167: 3650412625407680241
+      evelynn_attack_168: 1303204086056380170
+      evelynn_attack_169: -5050946383098243789
+      evelynn_attack_17: -620331017219843204
+      evelynn_attack_170: 3863302222634151202
+      evelynn_attack_171: -2070973009558900819
+      evelynn_attack_172: 6992857724863311007
+      evelynn_attack_18: 6812890087339043951
+      evelynn_attack_19: -3387182345381050433
+      evelynn_attack_2: 1493778068653841812
+      evelynn_attack_20: -5391995929044060496
+      evelynn_attack_21: -8855878286347017896
+      evelynn_attack_22: 249009394499401719
+      evelynn_attack_23: 6224107922143700765
+      evelynn_attack_24: 7106770988417256614
+      evelynn_attack_25: -3325377959000822766
+      evelynn_attack_26: 891381073910191824
+      evelynn_attack_27: -5976592813533617712
+      evelynn_attack_28: -6387455281783803746
+      evelynn_attack_29: 5480103685187349090
+      evelynn_attack_3: -3999018745944497583
+      evelynn_attack_30: 473116749528674496
+      evelynn_attack_31: 3701165899390046934
+      evelynn_attack_32: -5343231579060637855
+      evelynn_attack_33: 262888894802693765
+      evelynn_attack_34: -5323066007096654064
+      evelynn_attack_35: 7313353815070056341
+      evelynn_attack_36: 2372671437614684508
+      evelynn_attack_37: -5705613266921067264
+      evelynn_attack_38: -8072991844500268960
+      evelynn_attack_39: -2119735870796576114
+      evelynn_attack_4: -648437268635252196
+      evelynn_attack_40: 2131677899769457270
+      evelynn_attack_41: 5745782828247171319
+      evelynn_attack_42: 8973873841220603393
+      evelynn_attack_43: -7166234455508777443
+      evelynn_attack_44: 543588906443976084
+      evelynn_attack_45: -5592381978827255922
+      evelynn_attack_46: -4855208544617415471
+      evelynn_attack_47: -3874598353920425661
+      evelynn_attack_48: 641378633393066019
+      evelynn_attack_49: 1287349950218002058
+      evelynn_attack_5: 6802318180101934559
+      evelynn_attack_50: 8069580976614932262
+      evelynn_attack_51: 3778720493480808173
+      evelynn_attack_52: -3328956845092534916
+      evelynn_attack_53: 7296519805036459423
+      evelynn_attack_54: 3684780240046157715
+      evelynn_attack_55: 3803188569337824982
+      evelynn_attack_56: -5211431633204967027
+      evelynn_attack_57: 929606333917460805
+      evelynn_attack_58: 5534688181236069110
+      evelynn_attack_59: -1724825294097634970
+      evelynn_attack_6: -7712213208820941562
+      evelynn_attack_60: 5234442445549180577
+      evelynn_attack_61: 382868986033330818
+      evelynn_attack_62: 27377714937551890
+      evelynn_attack_63: -5375787125111542145
+      evelynn_attack_64: -6903580076244130035
+      evelynn_attack_65: 2629302805443418382
+      evelynn_attack_66: 3089784303905322935
+      evelynn_attack_67: -8852516040714668332
+      evelynn_attack_68: 5509759603250453950
+      evelynn_attack_69: 8378075609838221598
+      evelynn_attack_7: 531704336803723852
+      evelynn_attack_70: -732997260024102514
+      evelynn_attack_71: 5564363792483633165
+      evelynn_attack_72: 3272606824172088336
+      evelynn_attack_73: -7529425374681723079
+      evelynn_attack_74: -7259837211528949756
+      evelynn_attack_75: -4553696915389484658
+      evelynn_attack_76: -7977157232784832894
+      evelynn_attack_77: -8302388158539292990
+      evelynn_attack_78: 4034198479960681847
+      evelynn_attack_79: 2955419925610010913
+      evelynn_attack_8: 9168660527277433172
+      evelynn_attack_80: -3945263849281078408
+      evelynn_attack_81: -8213945730286427574
+      evelynn_attack_82: -7523324677955619954
+      evelynn_attack_83: -1703574609827373471
+      evelynn_attack_84: 4784018297165328709
+      evelynn_attack_85: 50799800425428561
+      evelynn_attack_86: 8663984132493344650
+      evelynn_attack_87: -3878594291548965826
+      evelynn_attack_88: 294207045045512940
+      evelynn_attack_89: -1127532963830004522
+      evelynn_attack_9: -4693525124658121612
+      evelynn_attack_90: 5780006590476000488
+      evelynn_attack_91: -8879836076290270235
+      evelynn_attack_92: -6029650038160546755
+      evelynn_attack_93: -2537565404657617137
+      evelynn_attack_94: 3428502724963753820
+      evelynn_attack_95: -2331261216341882294
+      evelynn_attack_96: -9194243587026175377
+      evelynn_attack_97: 3248911663307092527
+      evelynn_attack_98: -3641883414824904490
+      evelynn_attack_99: -4418732392709408988
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2545 @@
+fileFormatVersion: 2
+guid: bd19cad7469b14848b8e8f354f2086a3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7975041463470570343
+    second: facilities_0
+  - first:
+      213: -6289406375678998633
+    second: facilities_1
+  - first:
+      213: 5649116178388704523
+    second: facilities_2
+  - first:
+      213: 2985389110264282671
+    second: facilities_3
+  - first:
+      213: 8761674552493136708
+    second: facilities_4
+  - first:
+      213: 2810121395423717714
+    second: facilities_5
+  - first:
+      213: 9179162360807560000
+    second: facilities_6
+  - first:
+      213: 4235528667110798544
+    second: facilities_7
+  - first:
+      213: -9095477110743437270
+    second: facilities_8
+  - first:
+      213: 294364818280762034
+    second: facilities_9
+  - first:
+      213: 1735890985079941896
+    second: facilities_10
+  - first:
+      213: -6075307969094005050
+    second: facilities_11
+  - first:
+      213: -6818948739277701981
+    second: facilities_12
+  - first:
+      213: -694666609712251951
+    second: facilities_13
+  - first:
+      213: -6154939266015537391
+    second: facilities_14
+  - first:
+      213: -3003531193587007058
+    second: facilities_15
+  - first:
+      213: 4706413153196512604
+    second: facilities_16
+  - first:
+      213: -8603163308946632062
+    second: facilities_17
+  - first:
+      213: 7287683365439207664
+    second: facilities_18
+  - first:
+      213: -3226488608150799021
+    second: facilities_19
+  - first:
+      213: -330812595675548645
+    second: facilities_20
+  - first:
+      213: -1147759296020651366
+    second: facilities_21
+  - first:
+      213: 7236750385741127769
+    second: facilities_22
+  - first:
+      213: -1862723024323407742
+    second: facilities_23
+  - first:
+      213: 1192479512340312168
+    second: facilities_24
+  - first:
+      213: -7634987725329609962
+    second: facilities_25
+  - first:
+      213: 3835678382971197991
+    second: facilities_26
+  - first:
+      213: 2054329926822913663
+    second: facilities_27
+  - first:
+      213: 1002826310610906417
+    second: facilities_28
+  - first:
+      213: -965841885231190044
+    second: facilities_29
+  - first:
+      213: -2332898745911626982
+    second: facilities_30
+  - first:
+      213: -7037902709168665760
+    second: facilities_31
+  - first:
+      213: -9172879981997303241
+    second: facilities_32
+  - first:
+      213: 8445721591087125975
+    second: facilities_33
+  - first:
+      213: 44311621794245202
+    second: facilities_34
+  - first:
+      213: 2303265740896580313
+    second: facilities_35
+  - first:
+      213: -8602098889974552996
+    second: facilities_36
+  - first:
+      213: 1884032509438733845
+    second: facilities_37
+  - first:
+      213: -6812726709036493366
+    second: facilities_38
+  - first:
+      213: -845310422648001143
+    second: facilities_39
+  - first:
+      213: -6414853711849555333
+    second: facilities_40
+  - first:
+      213: 5587321676914703094
+    second: facilities_41
+  - first:
+      213: 5021724314725093922
+    second: facilities_42
+  - first:
+      213: 6991016635804822656
+    second: facilities_43
+  - first:
+      213: 6138152810605395733
+    second: facilities_44
+  - first:
+      213: -1736512169268150967
+    second: facilities_45
+  - first:
+      213: 364375382228715128
+    second: facilities_46
+  - first:
+      213: 3985965220417179469
+    second: facilities_47
+  - first:
+      213: 7387895807149394852
+    second: facilities_48
+  - first:
+      213: 8095708580745191395
+    second: facilities_49
+  - first:
+      213: -2937303836994090881
+    second: facilities_50
+  - first:
+      213: -1200068472942335846
+    second: facilities_51
+  - first:
+      213: -4039571400894475175
+    second: facilities_52
+  - first:
+      213: 509568055234013489
+    second: facilities_53
+  - first:
+      213: 8431426665256933274
+    second: facilities_54
+  - first:
+      213: -6302034969199353342
+    second: facilities_55
+  - first:
+      213: -4653958932182682151
+    second: facilities_56
+  - first:
+      213: -6808069143332140755
+    second: facilities_57
+  - first:
+      213: 241052500252534672
+    second: facilities_58
+  - first:
+      213: -747002860024411345
+    second: facilities_59
+  - first:
+      213: 2085190048168064877
+    second: facilities_60
+  - first:
+      213: -8517978246936984273
+    second: facilities_61
+  - first:
+      213: -3125982195439931126
+    second: facilities_62
+  - first:
+      213: 1172918406161298488
+    second: facilities_63
+  - first:
+      213: -4588736859266414947
+    second: facilities_64
+  - first:
+      213: -6543542645208826099
+    second: facilities_65
+  - first:
+      213: -7536000125836257577
+    second: facilities_66
+  - first:
+      213: 9091924890008381140
+    second: facilities_67
+  - first:
+      213: 2838264097265823088
+    second: facilities_68
+  - first:
+      213: 8454779303470167533
+    second: facilities_69
+  - first:
+      213: 1907110240283680040
+    second: facilities_70
+  - first:
+      213: 8811050534524010329
+    second: facilities_71
+  - first:
+      213: -5685239901104654016
+    second: facilities_72
+  - first:
+      213: -4941355309966353370
+    second: facilities_73
+  - first:
+      213: -675251070513165731
+    second: facilities_74
+  - first:
+      213: -4464247046175864255
+    second: facilities_75
+  - first:
+      213: -5989344997796805919
+    second: facilities_76
+  - first:
+      213: 2236041881933534412
+    second: facilities_77
+  - first:
+      213: -7498219740253875300
+    second: facilities_78
+  - first:
+      213: 7772394651162593923
+    second: facilities_79
+  - first:
+      213: 3079734463926752775
+    second: facility_000
+  - first:
+      213: -112166144636686857
+    second: facility_001
+  - first:
+      213: 3552295128437017817
+    second: facility_002
+  - first:
+      213: -5943244044621753551
+    second: facility_003
+  - first:
+      213: -3031585081187662166
+    second: facility_004
+  - first:
+      213: -7392472712382530855
+    second: facility_005
+  - first:
+      213: -1767165877877000583
+    second: facility_006
+  - first:
+      213: -3256230379812953169
+    second: facility_007
+  - first:
+      213: -7524110545094691605
+    second: facility_008
+  - first:
+      213: 6456458821422276373
+    second: facility_009
+  - first:
+      213: -6054110476961105287
+    second: facility_010
+  - first:
+      213: -7977307154456429818
+    second: facility_011
+  - first:
+      213: 356349309996600164
+    second: facility_012
+  - first:
+      213: -1667409872490348199
+    second: facility_013
+  - first:
+      213: 9182034425875861963
+    second: facility_014
+  - first:
+      213: -2300804207050518043
+    second: facility_015
+  - first:
+      213: -8901463515913612189
+    second: facility_016
+  - first:
+      213: 7721594203429161864
+    second: facility_017
+  - first:
+      213: -5271388984849065716
+    second: facility_018
+  - first:
+      213: 8278429757357647789
+    second: facility_019
+  - first:
+      213: 3357524580083359966
+    second: facility_020
+  - first:
+      213: -650560779782384909
+    second: facility_021
+  - first:
+      213: -2417865279196482538
+    second: facility_022
+  - first:
+      213: -3442397573461312244
+    second: facility_023
+  - first:
+      213: -7061815697045029872
+    second: facility_024
+  - first:
+      213: 7274964509821359284
+    second: facility_025
+  - first:
+      213: 4922544758625616422
+    second: facility_026
+  - first:
+      213: 1617645291977312058
+    second: facility_027
+  - first:
+      213: -2991814535059713529
+    second: facility_028
+  - first:
+      213: 4830478111968709385
+    second: facility_029
+  - first:
+      213: 5899906003645394860
+    second: facility_030
+  - first:
+      213: 5452616768317642495
+    second: facility_031
+  - first:
+      213: -8361594195333332183
+    second: facility_032
+  - first:
+      213: 2469729826227651448
+    second: facility_033
+  - first:
+      213: 2244819594351224342
+    second: facility_034
+  - first:
+      213: 6119427206897646774
+    second: facility_035
+  - first:
+      213: -3102854263628602317
+    second: facility_036
+  - first:
+      213: -766106398610917199
+    second: facility_037
+  - first:
+      213: 2265622185881576211
+    second: facility_038
+  - first:
+      213: -5760976049206165694
+    second: facility_039
+  - first:
+      213: -7804231932003367894
+    second: facility_040
+  - first:
+      213: -7969818074357200262
+    second: facility_041
+  - first:
+      213: -7468985345766599381
+    second: facility_042
+  - first:
+      213: -4423739157169532497
+    second: facility_043
+  - first:
+      213: 707225192206987389
+    second: facility_044
+  - first:
+      213: -5046903135444380825
+    second: facility_045
+  - first:
+      213: 3369951579640570741
+    second: facility_046
+  - first:
+      213: 8234054360313788936
+    second: facility_047
+  - first:
+      213: 6177691038096250079
+    second: facility_048
+  - first:
+      213: 2407966222396001212
+    second: facility_049
+  - first:
+      213: -419437310033662728
+    second: facility_050
+  - first:
+      213: -825727734164191503
+    second: facility_051
+  - first:
+      213: 7007391517602118160
+    second: facility_052
+  - first:
+      213: 3297425790597599054
+    second: facility_053
+  - first:
+      213: -6514886113210246259
+    second: facility_054
+  - first:
+      213: 5051108242954708801
+    second: facility_055
+  - first:
+      213: 1487355367550569104
+    second: facility_056
+  - first:
+      213: 521627862908369346
+    second: facility_057
+  - first:
+      213: -8151337002827439131
+    second: facility_058
+  - first:
+      213: -4131352643212311582
+    second: facility_059
+  - first:
+      213: 2956410172364133880
+    second: facility_060
+  - first:
+      213: 2647491134894983580
+    second: facility_061
+  - first:
+      213: 6844511697868710861
+    second: facility_062
+  - first:
+      213: 1736395751507604617
+    second: facility_063
+  - first:
+      213: -1508083280678608392
+    second: facility_064
+  - first:
+      213: 3610041787239478526
+    second: facility_065
+  - first:
+      213: -4942157843990781900
+    second: facility_066
+  - first:
+      213: -6842253186229014097
+    second: facility_067
+  - first:
+      213: 8669579980230809682
+    second: facility_068
+  - first:
+      213: 5296420556783423897
+    second: facility_069
+  - first:
+      213: -242574976075930065
+    second: facility_070
+  - first:
+      213: 3558247820647386920
+    second: facility_071
+  - first:
+      213: 7293516007423852334
+    second: facility_072
+  - first:
+      213: -5063652410902080813
+    second: facility_073
+  - first:
+      213: -376367813580248456
+    second: facility_074
+  - first:
+      213: 7644450104074257674
+    second: facility_075
+  - first:
+      213: -3059203878266106478
+    second: facility_076
+  - first:
+      213: 7871784681728815451
+    second: facility_077
+  - first:
+      213: -1607965543348609325
+    second: facility_078
+  - first:
+      213: -1818274505884402408
+    second: facility_079
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: facility_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 706d1e48d2a6dba20800000000000000
+      internalID: 3079734463926752775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_001
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdea195c71817ef0800000000000000
+      internalID: -112166144636686857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_002
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dcc6d339994c4130800000000000000
+      internalID: 3552295128437017817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_003
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1335dd2b70b558da0800000000000000
+      internalID: -5943244044621753551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_004
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa68f614e65ade5d0800000000000000
+      internalID: -3031585081187662166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_005
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dabbae2c39a86990800000000000000
+      internalID: -7392472712382530855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_006
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97633f53ff3c977e0800000000000000
+      internalID: -1767165877877000583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_007
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1440
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa3e968c8bb8fc2d0800000000000000
+      internalID: -3256230379812953169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_008
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be43cdcd25df49790800000000000000
+      internalID: -7524110545094691605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_009
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51fdfcd1713f99950800000000000000
+      internalID: 6456458821422276373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_010
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a33c5e89a7bfba0800000000000000
+      internalID: -6054110476961105287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_011
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b317a9869ea4190800000000000000
+      internalID: -7977307154456429818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_012
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b8d463fc102f400800000000000000
+      internalID: 356349309996600164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_013
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951cb372e8b2cd8e0800000000000000
+      internalID: -1667409872490348199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_014
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc11dbd69a32d6f70800000000000000
+      internalID: 9182034425875861963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_015
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1280
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1970d83c6e110e0800000000000000
+      internalID: -2300804207050518043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_016
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3649ed02816a77480800000000000000
+      internalID: -8901463515913612189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_017
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b4c1b640d982b60800000000000000
+      internalID: 7721594203429161864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_018
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c091a25b5a348d6b0800000000000000
+      internalID: -5271388984849065716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_019
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da76359d004e2e270800000000000000
+      internalID: 8278429757357647789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0e28011d2589e20800000000000000
+      internalID: 3357524580083359966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_021
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f21548ea6eb8f6f0800000000000000
+      internalID: -650560779782384909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_022
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6143eb6c654027ed0800000000000000
+      internalID: -2417865279196482538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_023
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1120
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0dfb2245a52a30d0800000000000000
+      internalID: -3442397573461312244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_024
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 960
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c7a54e9046ffd90800000000000000
+      internalID: -7061815697045029872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_025
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 960
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4d9716dadd5f460800000000000000
+      internalID: 7274964509821359284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_026
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62247d09064605440800000000000000
+      internalID: 4922544758625616422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_027
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 960
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3704e882d7037610800000000000000
+      internalID: 1617645291977312058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_028
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 960
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7025aeb1880fa76d0800000000000000
+      internalID: -2991814535059713529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_029
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 960
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bc137ff3e490340800000000000000
+      internalID: 4830478111968709385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_030
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 960
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf6a73504da0e150800000000000000
+      internalID: 5899906003645394860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_031
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 960
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff659e3cf069bab40800000000000000
+      internalID: 5452616768317642495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_032
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92340378166a5fb80800000000000000
+      internalID: -8361594195333332183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_033
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 800
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8738c77113e364220800000000000000
+      internalID: 2469729826227651448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_034
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 800
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616242a0783372f10800000000000000
+      internalID: 2244819594351224342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_035
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 800
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcbeff5f929ce450800000000000000
+      internalID: 6119427206897646774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_036
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 800
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3346c92ac7270f4d0800000000000000
+      internalID: -3102854263628602317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_037
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b874aa1a4e3e55f0800000000000000
+      internalID: -766106398610917199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_038
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 800
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31327b0df5b117f10800000000000000
+      internalID: 2265622185881576211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_039
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 800
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f78836ec6ec00b0800000000000000
+      internalID: -5760976049206165694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_040
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24cd2c086cc1b390800000000000000
+      internalID: -7804231932003367894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_041
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 640
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a8371ffa4856190800000000000000
+      internalID: -7969818074357200262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_042
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 640
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25dbf08665d85890800000000000000
+      internalID: -7468985345766599381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_043
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 640
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa19cedaca8bb92c0800000000000000
+      internalID: -4423739157169532497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_044
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7074b5b09190d900800000000000000
+      internalID: 707225192206987389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_045
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 640
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7635804865cc5f9b0800000000000000
+      internalID: -5046903135444380825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_046
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 640
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5732ebe5b1974ce20800000000000000
+      internalID: 3369951579640570741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_047
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 640
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a72c790dc354270800000000000000
+      internalID: 8234054360313788936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_048
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd457d1b4419bb550800000000000000
+      internalID: 6177691038096250079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_049
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 480
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb8d057580da6120800000000000000
+      internalID: 2407966222396001212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_050
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 480
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fce5e12dfbdd2af0800000000000000
+      internalID: -419437310033662728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_051
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f684fb200d6a84f0800000000000000
+      internalID: -825727734164191503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_052
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 480
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a72c065714f3160800000000000000
+      internalID: 7007391517602118160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_053
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 480
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f08c9394fc2cd20800000000000000
+      internalID: 3297425790597599054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_054
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 480
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b5afde8997695a0800000000000000
+      internalID: -6514886113210246259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_055
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 480
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147ec5f5f24291640800000000000000
+      internalID: 5051108242954708801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_056
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a4f9193d524a410800000000000000
+      internalID: 1487355367550569104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_057
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9799117c13d3700800000000000000
+      internalID: 521627862908369346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_058
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e329fdfe22a0ee80800000000000000
+      internalID: -8151337002827439131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_059
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3857be8ac7aa6c0800000000000000
+      internalID: -4131352643212311582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_060
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f59d165367470920800000000000000
+      internalID: 2956410172364133880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_061
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 320
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9949610927cdb420800000000000000
+      internalID: 2647491134894983580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_062
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3687c10279cfe50800000000000000
+      internalID: 6844511697868710861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_063
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 320
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 984bb167cbae81810800000000000000
+      internalID: 1736395751507604617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_064
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f122731f36321be0800000000000000
+      internalID: -1508083280678608392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_065
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4b9b0f0e1791230800000000000000
+      internalID: 3610041787239478526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_066
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 430e40520ade96bb0800000000000000
+      internalID: -4942157843990781900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_067
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1f88b9afe6b01a0800000000000000
+      internalID: -6842253186229014097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_068
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 160
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258de710f09805870800000000000000
+      internalID: 8669579980230809682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_069
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 160
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991172c4f6aa08940800000000000000
+      internalID: 5296420556783423897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_070
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 160
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26689f285332acf0800000000000000
+      internalID: -242574976075930065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_071
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 160
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82fce7c5a8f616130800000000000000
+      internalID: 3558247820647386920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_072
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2fbf128a26c73560800000000000000
+      internalID: 7293516007423852334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_073
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2912ee5fa4ab9b0800000000000000
+      internalID: -5063652410902080813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_074
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87aa8a6b77fd6caf0800000000000000
+      internalID: -376367813580248456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_075
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a054b8c1eda861a60800000000000000
+      internalID: 7644450104074257674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_076
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d8374f7468b85d0800000000000000
+      internalID: -3059203878266106478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_077
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51bec626723e3d60800000000000000
+      internalID: 7871784681728815451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_078
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de53a19bdb5fa9e0800000000000000
+      internalID: -1607965543348609325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: facility_079
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 160
+        height: 160
+      alignment: 9
+      pivot: {x: 0.5, y: 0.1875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d7c9478f034c6e0800000000000000
+      internalID: -1818274505884402408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      facilities_0: -7975041463470570343
+      facilities_1: -6289406375678998633
+      facilities_10: 1735890985079941896
+      facilities_11: -6075307969094005050
+      facilities_12: -6818948739277701981
+      facilities_13: -694666609712251951
+      facilities_14: -6154939266015537391
+      facilities_15: -3003531193587007058
+      facilities_16: 4706413153196512604
+      facilities_17: -8603163308946632062
+      facilities_18: 7287683365439207664
+      facilities_19: -3226488608150799021
+      facilities_2: 5649116178388704523
+      facilities_20: -330812595675548645
+      facilities_21: -1147759296020651366
+      facilities_22: 7236750385741127769
+      facilities_23: -1862723024323407742
+      facilities_24: 1192479512340312168
+      facilities_25: -7634987725329609962
+      facilities_26: 3835678382971197991
+      facilities_27: 2054329926822913663
+      facilities_28: 1002826310610906417
+      facilities_29: -965841885231190044
+      facilities_3: 2985389110264282671
+      facilities_30: -2332898745911626982
+      facilities_31: -7037902709168665760
+      facilities_32: -9172879981997303241
+      facilities_33: 8445721591087125975
+      facilities_34: 44311621794245202
+      facilities_35: 2303265740896580313
+      facilities_36: -8602098889974552996
+      facilities_37: 1884032509438733845
+      facilities_38: -6812726709036493366
+      facilities_39: -845310422648001143
+      facilities_4: 8761674552493136708
+      facilities_40: -6414853711849555333
+      facilities_41: 5587321676914703094
+      facilities_42: 5021724314725093922
+      facilities_43: 6991016635804822656
+      facilities_44: 6138152810605395733
+      facilities_45: -1736512169268150967
+      facilities_46: 364375382228715128
+      facilities_47: 3985965220417179469
+      facilities_48: 7387895807149394852
+      facilities_49: 8095708580745191395
+      facilities_5: 2810121395423717714
+      facilities_50: -2937303836994090881
+      facilities_51: -1200068472942335846
+      facilities_52: -4039571400894475175
+      facilities_53: 509568055234013489
+      facilities_54: 8431426665256933274
+      facilities_55: -6302034969199353342
+      facilities_56: -4653958932182682151
+      facilities_57: -6808069143332140755
+      facilities_58: 241052500252534672
+      facilities_59: -747002860024411345
+      facilities_6: 9179162360807560000
+      facilities_60: 2085190048168064877
+      facilities_61: -8517978246936984273
+      facilities_62: -3125982195439931126
+      facilities_63: 1172918406161298488
+      facilities_64: -4588736859266414947
+      facilities_65: -6543542645208826099
+      facilities_66: -7536000125836257577
+      facilities_67: 9091924890008381140
+      facilities_68: 2838264097265823088
+      facilities_69: 8454779303470167533
+      facilities_7: 4235528667110798544
+      facilities_70: 1907110240283680040
+      facilities_71: 8811050534524010329
+      facilities_72: -5685239901104654016
+      facilities_73: -4941355309966353370
+      facilities_74: -675251070513165731
+      facilities_75: -4464247046175864255
+      facilities_76: -5989344997796805919
+      facilities_77: 2236041881933534412
+      facilities_78: -7498219740253875300
+      facilities_79: 7772394651162593923
+      facilities_8: -9095477110743437270
+      facilities_9: 294364818280762034
+      facility_000: 3079734463926752775
+      facility_001: -112166144636686857
+      facility_002: 3552295128437017817
+      facility_003: -5943244044621753551
+      facility_004: -3031585081187662166
+      facility_005: -7392472712382530855
+      facility_006: -1767165877877000583
+      facility_007: -3256230379812953169
+      facility_008: -7524110545094691605
+      facility_009: 6456458821422276373
+      facility_010: -6054110476961105287
+      facility_011: -7977307154456429818
+      facility_012: 356349309996600164
+      facility_013: -1667409872490348199
+      facility_014: 9182034425875861963
+      facility_015: -2300804207050518043
+      facility_016: -8901463515913612189
+      facility_017: 7721594203429161864
+      facility_018: -5271388984849065716
+      facility_019: 8278429757357647789
+      facility_020: 3357524580083359966
+      facility_021: -650560779782384909
+      facility_022: -2417865279196482538
+      facility_023: -3442397573461312244
+      facility_024: -7061815697045029872
+      facility_025: 7274964509821359284
+      facility_026: 4922544758625616422
+      facility_027: 1617645291977312058
+      facility_028: -2991814535059713529
+      facility_029: 4830478111968709385
+      facility_030: 5899906003645394860
+      facility_031: 5452616768317642495
+      facility_032: -8361594195333332183
+      facility_033: 2469729826227651448
+      facility_034: 2244819594351224342
+      facility_035: 6119427206897646774
+      facility_036: -3102854263628602317
+      facility_037: -766106398610917199
+      facility_038: 2265622185881576211
+      facility_039: -5760976049206165694
+      facility_040: -7804231932003367894
+      facility_041: -7969818074357200262
+      facility_042: -7468985345766599381
+      facility_043: -4423739157169532497
+      facility_044: 707225192206987389
+      facility_045: -5046903135444380825
+      facility_046: 3369951579640570741
+      facility_047: 8234054360313788936
+      facility_048: 6177691038096250079
+      facility_049: 2407966222396001212
+      facility_050: -419437310033662728
+      facility_051: -825727734164191503
+      facility_052: 7007391517602118160
+      facility_053: 3297425790597599054
+      facility_054: -6514886113210246259
+      facility_055: 5051108242954708801
+      facility_056: 1487355367550569104
+      facility_057: 521627862908369346
+      facility_058: -8151337002827439131
+      facility_059: -4131352643212311582
+      facility_060: 2956410172364133880
+      facility_061: 2647491134894983580
+      facility_062: 6844511697868710861
+      facility_063: 1736395751507604617
+      facility_064: -1508083280678608392
+      facility_065: 3610041787239478526
+      facility_066: -4942157843990781900
+      facility_067: -6842253186229014097
+      facility_068: 8669579980230809682
+      facility_069: 5296420556783423897
+      facility_070: -242574976075930065
+      facility_071: 3558247820647386920
+      facility_072: 7293516007423852334
+      facility_073: -5063652410902080813
+      facility_074: -376367813580248456
+      facility_075: 7644450104074257674
+      facility_076: -3059203878266106478
+      facility_077: 7871784681728815451
+      facility_078: -1607965543348609325
+      facility_079: -1818274505884402408
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -15,13 +15,15 @@ internal sealed class 주민추첨패널
     readonly RectTransform 진행선바탕;
     readonly TextMeshProUGUI 보유표시, 비용표시, 능력치표시, 인원표시, 결과표시, 투자문구;
     readonly Slider 투자슬라이더;
-    readonly Button 투자버튼, 인원감소, 인원증가;
+    readonly Button 투자버튼, 인원감소, 인원증가, 인원최대;
     readonly TMP_FontAsset 글꼴;
     readonly Func<int, int, bool> 요청;
     int 모집인원 = 1;
     int 이전결과번호, 이전나무 = -1, 이전돌 = -1, 이전정원 = -1, 이전선택 = -1, 이전인원 = -1;
     bool 응답대기;
     string 전송오류;
+    전장상태 표시상태;
+    int 표시팀;
 
     public bool 유효 => 가림막 != null;
     public bool 열림 => 유효 && 가림막.gameObject.activeSelf;
@@ -61,12 +63,15 @@ internal sealed class 주민추첨패널
         var 인원상자 = 배경(상자, "모집 인원 선택", Color.white, 그림: 입력테두리).rectTransform;
         배치(인원상자, 26, 302, 532, 50);
         글(인원상자, "모집 인원", 14, 0, 212, 50, 18, 금색);
-        인원감소 = 버튼(인원상자, "인원 감소", 302, 7, 46, 36, () => 인원변경(-1), 일반버튼);
+        인원감소 = 버튼(인원상자, "인원 감소", 278, 7, 46, 36, () => 인원변경(-1), 일반버튼);
         글(인원감소.transform, "-", 0, 0, 46, 36, 22, 밝은색).alignment = TextAlignmentOptions.Center;
-        인원표시 = 글(인원상자, "", 354, 0, 72, 50, 20, 밝은색);
+        인원표시 = 글(인원상자, "", 328, 0, 64, 50, 20, 밝은색);
         인원표시.alignment = TextAlignmentOptions.Center;
-        인원증가 = 버튼(인원상자, "인원 증가", 432, 7, 46, 36, () => 인원변경(1), 일반버튼);
+        인원증가 = 버튼(인원상자, "인원 증가", 396, 7, 46, 36, () => 인원변경(1), 일반버튼);
         글(인원증가.transform, "+", 0, 0, 46, 36, 22, 밝은색).alignment = TextAlignmentOptions.Center;
+        var 최대버튼프리팹 = Resources.Load<GameObject>("ResidentMaxButton");
+        인원최대 = UnityEngine.Object.Instantiate(최대버튼프리팹, 인원상자, false).GetComponent<Button>();
+        인원최대.onClick.AddListener(최대인원선택);
 
         결과표시 = 글(상자, "", 26, 357, 532, 45, 20, 밝은색);
         결과표시.alignment = TextAlignmentOptions.Center;
@@ -134,6 +139,7 @@ internal sealed class 주민추첨패널
     public void 닫기()
     {
         if (열림) 가림막.gameObject.SetActive(false);
+        표시상태 = null;
     }
 
     void 인원변경(int 변화)
@@ -142,12 +148,23 @@ internal sealed class 주민추첨패널
         전송오류 = null;
     }
 
+    void 최대인원선택()
+    {
+        if (!열림 || 응답대기 || 표시상태 == null) return;
+        var 단계 = 전장규칙.주민투자목록[투자순서[선택한투자위치]];
+        int 최대 = 전장규칙.주민추첨최대인원(표시상태, 표시팀, 단계);
+        if (최대 <= 0) return;
+        모집인원 = 최대;
+        전송오류 = null;
+        갱신(표시상태, 표시팀);
+    }
+
     void 투자()
     {
         if (응답대기 || !투자버튼.interactable) return;
         응답대기 = 요청(투자순서[선택한투자위치], 모집인원);
         if (응답대기)
-            투자버튼.interactable = 투자슬라이더.interactable = 인원감소.interactable = 인원증가.interactable = false;
+            투자버튼.interactable = 투자슬라이더.interactable = 인원감소.interactable = 인원증가.interactable = 인원최대.interactable = false;
         else 전송오류 = "요청을 보내지 못했습니다. 다시 시도하세요.";
     }
 
@@ -160,6 +177,8 @@ internal sealed class 주민추첨패널
             응답대기 = false;
         }
         if (!열림) return;
+        표시상태 = 상태;
+        표시팀 = 팀;
 
         var 크기 = 가림막.rect.size;
         상자.localScale = Vector3.one * Mathf.Clamp01(Mathf.Min(크기.x / 608, 크기.y / 502));
@@ -199,6 +218,7 @@ internal sealed class 주민추첨패널
         투자슬라이더.interactable = 선택가능;
         인원감소.interactable = 선택가능 && 모집인원 > 1;
         인원증가.interactable = 선택가능 && 모집인원 < 빈정원;
+        인원최대.interactable = 선택가능 && 전장규칙.주민추첨최대인원(상태, 팀, 단계) > 0;
         투자버튼.interactable = 선택가능 && 오류 == null;
         투자문구.text = 선택가능 ? 오류 ?? $"{모집인원}명 뽑기" : "처리 중";
         진행선바탕.gameObject.SetActive(추첨중);

@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: fdf19d1e7118df54aa9f6d02c8a93f8a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6422367188792770116
+    second: ivern_attack_0
+  - first:
+      213: -8018922470930637748
+    second: ivern_attack_1
+  - first:
+      213: 3155498992731785082
+    second: ivern_attack_2
+  - first:
+      213: -3948460650304221838
+    second: ivern_attack_3
+  - first:
+      213: -6829616262604801122
+    second: ivern_attack_4
+  - first:
+      213: -3014902886158759157
+    second: ivern_attack_5
+  - first:
+      213: -5362102545616233229
+    second: ivern_attack_6
+  - first:
+      213: 1823285516146329732
+    second: ivern_attack_7
+  - first:
+      213: -2871489668597724462
+    second: ivern_attack_8
+  - first:
+      213: 7299396436841003006
+    second: ivern_attack_9
+  - first:
+      213: -721792315842590081
+    second: ivern_attack_10
+  - first:
+      213: 6003440289303832926
+    second: ivern_attack_11
+  - first:
+      213: -1166236656384112952
+    second: ivern_attack_12
+  - first:
+      213: -4533604815002511584
+    second: ivern_attack_13
+  - first:
+      213: 3366768096008429047
+    second: ivern_attack_14
+  - first:
+      213: 8217993017391609854
+    second: ivern_attack_15
+  - first:
+      213: -7460939513582745929
+    second: ivern_attack_16
+  - first:
+      213: -5380263046786283537
+    second: ivern_attack_17
+  - first:
+      213: 1766219179727395398
+    second: ivern_attack_18
+  - first:
+      213: -8886881044203574630
+    second: ivern_attack_19
+  - first:
+      213: -6704902962015253582
+    second: ivern_attack_20
+  - first:
+      213: -3331877611287850853
+    second: ivern_attack_21
+  - first:
+      213: -4568024207302600212
+    second: ivern_attack_22
+  - first:
+      213: -2094103470557533948
+    second: ivern_attack_23
+  - first:
+      213: -5002759996972366248
+    second: ivern_attack_24
+  - first:
+      213: 5394359417564865526
+    second: ivern_attack_25
+  - first:
+      213: 560660833225683022
+    second: ivern_attack_26
+  - first:
+      213: 8200481566199983733
+    second: ivern_attack_27
+  - first:
+      213: 3154289732518429017
+    second: ivern_attack_28
+  - first:
+      213: -7700734700929526087
+    second: ivern_attack_29
+  - first:
+      213: 8276490978792636581
+    second: ivern_attack_30
+  - first:
+      213: -6401406726776384169
+    second: ivern_attack_31
+  - first:
+      213: 5667255447155697454
+    second: ivern_attack_32
+  - first:
+      213: 2703867472703771422
+    second: ivern_attack_33
+  - first:
+      213: 259049960389263526
+    second: ivern_attack_34
+  - first:
+      213: 8232701824972535069
+    second: ivern_attack_35
+  - first:
+      213: 4901757760063878977
+    second: ivern_attack_36
+  - first:
+      213: -9186755468476555721
+    second: ivern_attack_37
+  - first:
+      213: 6621895107152858523
+    second: ivern_attack_38
+  - first:
+      213: 5584275541016581825
+    second: ivern_attack_39
+  - first:
+      213: -888139481821250446
+    second: ivern_attack_40
+  - first:
+      213: 3233508093273368281
+    second: ivern_attack_41
+  - first:
+      213: -27157366821488862
+    second: ivern_attack_42
+  - first:
+      213: -279276474980957971
+    second: ivern_attack_43
+  - first:
+      213: 8726987766930065286
+    second: ivern_attack_44
+  - first:
+      213: 8546297461723413169
+    second: ivern_attack_45
+  - first:
+      213: 8413040961628109284
+    second: ivern_attack_46
+  - first:
+      213: -2776856761383324052
+    second: ivern_attack_47
+  - first:
+      213: 7207881907865913354
+    second: ivern_attack_48
+  - first:
+      213: -7243133383105484968
+    second: ivern_attack_49
+  - first:
+      213: 5945491259818021940
+    second: ivern_attack_50
+  - first:
+      213: -6955103440986135707
+    second: ivern_attack_51
+  - first:
+      213: -4379383017703423970
+    second: ivern_attack_52
+  - first:
+      213: 5344770404880870386
+    second: ivern_attack_53
+  - first:
+      213: -6503114410069051672
+    second: ivern_attack_54
+  - first:
+      213: -5799614363516313834
+    second: ivern_attack_55
+  - first:
+      213: -8720403642121522587
+    second: ivern_attack_56
+  - first:
+      213: -1381689189886490731
+    second: ivern_attack_57
+  - first:
+      213: 7018076695494460418
+    second: ivern_attack_58
+  - first:
+      213: 4165670464023809617
+    second: ivern_attack_59
+  - first:
+      213: 7208926786568541535
+    second: ivern_attack_60
+  - first:
+      213: 5322079790456915947
+    second: ivern_attack_61
+  - first:
+      213: -5575023508895973528
+    second: ivern_attack_62
+  - first:
+      213: 6101588864806640270
+    second: ivern_attack_63
+  - first:
+      213: -2728379495556636225
+    second: ivern_attack_64
+  - first:
+      213: -4933521579220581106
+    second: ivern_attack_65
+  - first:
+      213: -2108797786346505968
+    second: ivern_attack_66
+  - first:
+      213: -2869456820652926327
+    second: ivern_attack_67
+  - first:
+      213: -2932220776229529995
+    second: ivern_attack_68
+  - first:
+      213: 2292492364819039186
+    second: ivern_attack_69
+  - first:
+      213: -3348571341577646469
+    second: ivern_attack_70
+  - first:
+      213: -7607706806803646273
+    second: ivern_attack_71
+  - first:
+      213: 3508030501366378766
+    second: ivern_attack_72
+  - first:
+      213: -6006310137800158596
+    second: ivern_attack_73
+  - first:
+      213: 7628846647860338118
+    second: ivern_attack_74
+  - first:
+      213: -7467288782061659838
+    second: ivern_attack_75
+  - first:
+      213: -6847548934815681789
+    second: ivern_attack_76
+  - first:
+      213: 1535539298352157145
+    second: ivern_attack_77
+  - first:
+      213: -5259457622284803523
+    second: ivern_attack_78
+  - first:
+      213: 2191545966745956606
+    second: ivern_attack_79
+  - first:
+      213: 3837677059443088512
+    second: ivern_attack_80
+  - first:
+      213: 8768547089332452576
+    second: ivern_attack_81
+  - first:
+      213: -4148239718308661894
+    second: ivern_attack_82
+  - first:
+      213: -4385082170283303461
+    second: ivern_attack_83
+  - first:
+      213: -3217560069457100123
+    second: ivern_attack_84
+  - first:
+      213: 4427927744251669845
+    second: ivern_attack_85
+  - first:
+      213: 3709988627668290293
+    second: ivern_attack_86
+  - first:
+      213: -7344511138537273554
+    second: ivern_attack_87
+  - first:
+      213: -5558451756836035329
+    second: ivern_attack_88
+  - first:
+      213: -5714133436684164204
+    second: ivern_attack_89
+  - first:
+      213: 2992212758809318293
+    second: ivern_attack_90
+  - first:
+      213: -5753376669255139358
+    second: ivern_attack_91
+  - first:
+      213: 685926041674648351
+    second: ivern_attack_92
+  - first:
+      213: -186605938927502175
+    second: ivern_attack_93
+  - first:
+      213: -4972331005992661558
+    second: ivern_attack_94
+  - first:
+      213: -5985546478282072128
+    second: ivern_attack_95
+  - first:
+      213: 8532521537038433970
+    second: ivern_attack_96
+  - first:
+      213: -1400372298922223555
+    second: ivern_attack_97
+  - first:
+      213: -6921921099176427419
+    second: ivern_attack_98
+  - first:
+      213: 6896478318212572283
+    second: ivern_attack_99
+  - first:
+      213: 7335162805639137223
+    second: ivern_attack_100
+  - first:
+      213: 7124916639480750310
+    second: ivern_attack_101
+  - first:
+      213: 7358271402190665808
+    second: ivern_attack_102
+  - first:
+      213: -3063630594757565111
+    second: ivern_attack_103
+  - first:
+      213: 5178935177863426335
+    second: ivern_attack_104
+  - first:
+      213: -1668261268577624794
+    second: ivern_attack_105
+  - first:
+      213: 3318002581216774404
+    second: ivern_attack_106
+  - first:
+      213: -2184492157458034240
+    second: ivern_attack_107
+  - first:
+      213: -5388210637749666845
+    second: ivern_attack_108
+  - first:
+      213: 1089781012824606015
+    second: ivern_attack_109
+  - first:
+      213: -7312451811272134741
+    second: ivern_attack_110
+  - first:
+      213: 8076780083531283515
+    second: ivern_attack_111
+  - first:
+      213: 4811503476279229307
+    second: ivern_attack_112
+  - first:
+      213: -5236092364289872456
+    second: ivern_attack_113
+  - first:
+      213: 8730265209627672463
+    second: ivern_attack_114
+  - first:
+      213: 4879571512163163374
+    second: ivern_attack_115
+  - first:
+      213: -4624494935748073622
+    second: ivern_attack_116
+  - first:
+      213: 7960839465578734896
+    second: ivern_attack_117
+  - first:
+      213: -5591422861410551561
+    second: ivern_attack_118
+  - first:
+      213: -3201110773339717946
+    second: ivern_attack_119
+  - first:
+      213: 6101155898395279052
+    second: ivern_attack_000
+  - first:
+      213: 3304055402383206369
+    second: ivern_attack_001
+  - first:
+      213: 6266751308708417338
+    second: ivern_attack_002
+  - first:
+      213: 4672444385421675825
+    second: ivern_attack_003
+  - first:
+      213: -1343004783392024030
+    second: ivern_attack_004
+  - first:
+      213: -6421165375321646306
+    second: ivern_attack_005
+  - first:
+      213: 8034998836341018978
+    second: ivern_attack_006
+  - first:
+      213: -2812995235995782904
+    second: ivern_attack_007
+  - first:
+      213: -1129326361941016240
+    second: ivern_attack_008
+  - first:
+      213: -1034881313933464011
+    second: ivern_attack_009
+  - first:
+      213: 7708072641236497366
+    second: ivern_attack_010
+  - first:
+      213: -5767549749043850012
+    second: ivern_attack_011
+  - first:
+      213: -2737588777348304389
+    second: ivern_attack_012
+  - first:
+      213: -8428431800289994778
+    second: ivern_attack_013
+  - first:
+      213: -8911446709646634282
+    second: ivern_attack_014
+  - first:
+      213: 6552879903343877166
+    second: ivern_attack_015
+  - first:
+      213: 1203667990636755698
+    second: ivern_attack_016
+  - first:
+      213: -3481279070717121562
+    second: ivern_attack_017
+  - first:
+      213: 6227782936329848145
+    second: ivern_attack_018
+  - first:
+      213: -3795926451786130709
+    second: ivern_attack_019
+  - first:
+      213: -7182763181008885479
+    second: ivern_attack_020
+  - first:
+      213: -1530455064302205983
+    second: ivern_attack_021
+  - first:
+      213: 8186927731731521510
+    second: ivern_attack_022
+  - first:
+      213: -4864064557898975668
+    second: ivern_attack_023
+  - first:
+      213: -2221781409727135242
+    second: ivern_attack_024
+  - first:
+      213: -969387850928699324
+    second: ivern_attack_025
+  - first:
+      213: 7526000177567017353
+    second: ivern_attack_026
+  - first:
+      213: -496718802729099500
+    second: ivern_attack_027
+  - first:
+      213: -3503265178484121048
+    second: ivern_attack_028
+  - first:
+      213: 6565240524889802523
+    second: ivern_attack_029
+  - first:
+      213: -5291411631768948797
+    second: ivern_attack_030
+  - first:
+      213: -1382594452079129866
+    second: ivern_attack_031
+  - first:
+      213: -1662564862664674900
+    second: ivern_attack_032
+  - first:
+      213: 1398981002210249322
+    second: ivern_attack_033
+  - first:
+      213: 3985230662851102452
+    second: ivern_attack_034
+  - first:
+      213: 8746990322438394016
+    second: ivern_attack_035
+  - first:
+      213: -7872322345108236344
+    second: ivern_attack_036
+  - first:
+      213: 9081912779700554992
+    second: ivern_attack_037
+  - first:
+      213: -5150659774565623526
+    second: ivern_attack_038
+  - first:
+      213: -4925426158475807205
+    second: ivern_attack_039
+  - first:
+      213: -5614308252417449630
+    second: ivern_attack_040
+  - first:
+      213: 5768142966472039159
+    second: ivern_attack_041
+  - first:
+      213: 6058945635596774836
+    second: ivern_attack_042
+  - first:
+      213: 8646230036870843387
+    second: ivern_attack_043
+  - first:
+      213: 3187951156977977820
+    second: ivern_attack_044
+  - first:
+      213: -5225976572257154572
+    second: ivern_attack_045
+  - first:
+      213: 629576634623017600
+    second: ivern_attack_046
+  - first:
+      213: -5591327148369240745
+    second: ivern_attack_047
+  - first:
+      213: 337835057769971111
+    second: ivern_attack_048
+  - first:
+      213: 1846692483006540559
+    second: ivern_attack_049
+  - first:
+      213: 5693320429292738251
+    second: ivern_attack_050
+  - first:
+      213: -3277260977498467325
+    second: ivern_attack_051
+  - first:
+      213: -5452256796030726145
+    second: ivern_attack_052
+  - first:
+      213: -5458191227574032274
+    second: ivern_attack_053
+  - first:
+      213: 324069877729206791
+    second: ivern_attack_054
+  - first:
+      213: -5454012463210045182
+    second: ivern_attack_055
+  - first:
+      213: -2387710048408965940
+    second: ivern_attack_056
+  - first:
+      213: 1768100499328502859
+    second: ivern_attack_057
+  - first:
+      213: -3126071287431282826
+    second: ivern_attack_058
+  - first:
+      213: -691819076540069086
+    second: ivern_attack_059
+  - first:
+      213: 1368977980127474254
+    second: ivern_attack_060
+  - first:
+      213: 8344455128358038755
+    second: ivern_attack_061
+  - first:
+      213: -3191126888416444682
+    second: ivern_attack_062
+  - first:
+      213: -3726883196364747247
+    second: ivern_attack_063
+  - first:
+      213: -5180706651132556347
+    second: ivern_attack_064
+  - first:
+      213: 8299609104445857450
+    second: ivern_attack_065
+  - first:
+      213: -7747597208255234240
+    second: ivern_attack_066
+  - first:
+      213: 7022775888323186872
+    second: ivern_attack_067
+  - first:
+      213: -3007622287693454912
+    second: ivern_attack_068
+  - first:
+      213: 6729503489242020418
+    second: ivern_attack_069
+  - first:
+      213: 3963562180503216035
+    second: ivern_attack_070
+  - first:
+      213: -9119537182908401345
+    second: ivern_attack_071
+  - first:
+      213: -284240459890049799
+    second: ivern_attack_072
+  - first:
+      213: -2782327136278908020
+    second: ivern_attack_073
+  - first:
+      213: 4596889521648113649
+    second: ivern_attack_074
+  - first:
+      213: 7670218233610304364
+    second: ivern_attack_075
+  - first:
+      213: -6308880886120300373
+    second: ivern_attack_076
+  - first:
+      213: 2731338579523446031
+    second: ivern_attack_077
+  - first:
+      213: 1109874761583421488
+    second: ivern_attack_078
+  - first:
+      213: 6064137941287144700
+    second: ivern_attack_079
+  - first:
+      213: -3909062153608824644
+    second: ivern_attack_080
+  - first:
+      213: -8315946277470958286
+    second: ivern_attack_081
+  - first:
+      213: 6717611117882677269
+    second: ivern_attack_082
+  - first:
+      213: -3847348146355546176
+    second: ivern_attack_083
+  - first:
+      213: 7120530141910063164
+    second: ivern_attack_084
+  - first:
+      213: 1117065622526244540
+    second: ivern_attack_085
+  - first:
+      213: 8645492073439937341
+    second: ivern_attack_086
+  - first:
+      213: -784560268901207084
+    second: ivern_attack_087
+  - first:
+      213: -5790650323741211177
+    second: ivern_attack_088
+  - first:
+      213: -7673340115872061347
+    second: ivern_attack_089
+  - first:
+      213: 2084914665849751126
+    second: ivern_attack_090
+  - first:
+      213: 4531084989158051925
+    second: ivern_attack_091
+  - first:
+      213: 6551828096966952529
+    second: ivern_attack_092
+  - first:
+      213: -635979454327155639
+    second: ivern_attack_093
+  - first:
+      213: -3837695416340215505
+    second: ivern_attack_094
+  - first:
+      213: -3930886909274806950
+    second: ivern_attack_095
+  - first:
+      213: -4603553322208803867
+    second: ivern_attack_096
+  - first:
+      213: -6394217700713958169
+    second: ivern_attack_097
+  - first:
+      213: -3462563078253741773
+    second: ivern_attack_098
+  - first:
+      213: -3067838283541173562
+    second: ivern_attack_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ivern_attack_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce312bd6f8aba450800000000000000
+      internalID: 6101155898395279052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7e24102ec5add20800000000000000
+      internalID: 3304055402383206369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f8743dc19f7f650800000000000000
+      internalID: 6266751308708417338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dc3d1b96bd7d040800000000000000
+      internalID: 4672444385421675825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a944ad340bc5de0800000000000000
+      internalID: -1343004783392024030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b5ae7ac1073e6a0800000000000000
+      internalID: -6421165375321646306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26198c2dedc028f60800000000000000
+      internalID: 8034998836341018978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801fa9b9cbb36f8d0800000000000000
+      internalID: -2812995235995782904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 051850148a3d350f0800000000000000
+      internalID: -1129326361941016240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e6e429dec53a1f0800000000000000
+      internalID: -1034881313933464011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3fec36a3398fa60800000000000000
+      internalID: 7708072641236497366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e419df9f0c85ffa0800000000000000
+      internalID: -5767549749043850012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1fe09e281220ad0800000000000000
+      internalID: -2737588777348304389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7db12fee1380b80800000000000000
+      internalID: -8428431800289994778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d250b4be6e245480800000000000000
+      internalID: -8911446709646634282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c9b9ead8180fa50800000000000000
+      internalID: 6552879903343877166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fa796109a944b010800000000000000
+      internalID: 1203667990636755698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb67e9312300bfc0800000000000000
+      internalID: -3481279070717121562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1550e2a95978d6650800000000000000
+      internalID: 6227782936329848145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea57c7f009225bc0800000000000000
+      internalID: -3795926451786130709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919e53a51f2b15c90800000000000000
+      internalID: -7182763181008885479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3c19b4a3bb2cae0800000000000000
+      internalID: -1530455064302205983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efd6a3556fcd9170800000000000000
+      internalID: 8186927731731521510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c463dd53e0f5f7cb0800000000000000
+      internalID: -4864064557898975668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1c5a05495aa21e0800000000000000
+      internalID: -2221781409727135242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448c0d7b2ea0c82f0800000000000000
+      internalID: -969387850928699324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 989a86b7949b17860800000000000000
+      internalID: 7526000177567017353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f131271ec4b19f0800000000000000
+      internalID: -496718802729099500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822657a91e6e16fc0800000000000000
+      internalID: -3503265178484121048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b174e07297b6c1b50800000000000000
+      internalID: 6565240524889802523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfaa00f7212196b0800000000000000
+      internalID: -5291411631768948797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fac56fcba900dce0800000000000000
+      internalID: -1382594452079129866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca173d8e0126de8e0800000000000000
+      internalID: -1662564862664674900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6a03443fcd2a6310800000000000000
+      internalID: 1398981002210249322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f60c375c226e4730800000000000000
+      internalID: 3985230662851102452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a058beca5d836970800000000000000
+      internalID: 8746990322438394016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c714765984efb290800000000000000
+      internalID: -7872322345108236344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fcc12b1e8f690e70800000000000000
+      internalID: 9081912779700554992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a195f12793e2588b0800000000000000
+      internalID: -5150659774565623526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16f1a0410f55abb0800000000000000
+      internalID: -4925426158475807205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2612d1be368f512b0800000000000000
+      internalID: -5614308252417449630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fadb32977f8c0050800000000000000
+      internalID: 5768142966472039159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bd262334f2b51450800000000000000
+      internalID: 6058945635596774836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbcff9a8649df770800000000000000
+      internalID: 8646230036870843387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9c7f0dfa0ed3c20800000000000000
+      internalID: 3187951156977977820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f94916fef99977b0800000000000000
+      internalID: -5225976572257154572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08247911d94bcb800800000000000000
+      internalID: 629576634623017600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d147a259d9762b0800000000000000
+      internalID: -5591327148369240745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad7d03f13b30b400800000000000000
+      internalID: 337835057769971111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b2df27705c0a910800000000000000
+      internalID: 1846692483006540559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6d77414ccb20f40800000000000000
+      internalID: 5693320429292738251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30454ff2184d482d0800000000000000
+      internalID: -3277260977498467325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff0160d451b554b0800000000000000
+      internalID: -5452256796030726145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68eb4c4ffb9044b0800000000000000
+      internalID: -5458191227574032274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702247836d35f7400800000000000000
+      internalID: 324069877729206791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201efc1bf847f44b0800000000000000
+      internalID: -5454012463210045182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccce3f19c562dded0800000000000000
+      internalID: -2387710048408965940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c8aad490e898810800000000000000
+      internalID: 1768100499328502859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f3c1a0ab6fd94d0800000000000000
+      internalID: -3126071287431282826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b8dfd173a2666f0800000000000000
+      internalID: -691819076540069086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4274d248369ff210800000000000000
+      internalID: 1368977980127474254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eca7f97ab57dc370800000000000000
+      internalID: 8344455128358038755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe7db69007d6b3d0800000000000000
+      internalID: -3191126888416444682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e8e419a73774cc0800000000000000
+      internalID: -3726883196364747247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb8db5dfbe6a18b0800000000000000
+      internalID: -5180706651132556347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaed71dd1822e2370800000000000000
+      internalID: 8299609104445857450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f732b33610b7490800000000000000
+      internalID: -7747597208255234240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b09ea05679e57160800000000000000
+      internalID: 7022775888323186872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1eb73e677c246d0800000000000000
+      internalID: -3007622287693454912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ab50fd4cff36d50800000000000000
+      internalID: 6729503489242020418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af1116adc6610730800000000000000
+      internalID: 3963562180503216035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3937c0ef35e07180800000000000000
+      internalID: -9119537182908401345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fcb575cecc2e0cf0800000000000000
+      internalID: -284240459890049799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c837a2106303369d0800000000000000
+      internalID: -2782327136278908020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f71d812aae6bcf30800000000000000
+      internalID: 4596889521648113649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bf01c48d6127a60800000000000000
+      internalID: 7670218233610304364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba04c8c824a5278a0800000000000000
+      internalID: -6308880886120300373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05a0d187f9a7e520800000000000000
+      internalID: 2731338579523446031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038e95d1731176f00800000000000000
+      internalID: 1109874761583421488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc83631455282450800000000000000
+      internalID: 6064137941287144700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8f831bea830c9c0800000000000000
+      internalID: -3909062153608824644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23d8c10abe2d79c80800000000000000
+      internalID: -8315946277470958286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5189c9468bfb93d50800000000000000
+      internalID: 6717611117882677269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c75839be397b9ac0800000000000000
+      internalID: -3847348146355546176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38d209107431d260800000000000000
+      internalID: 7120530141910063164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb63a75e34d908f00800000000000000
+      internalID: 1117065622526244540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33c7d92c35faf770800000000000000
+      internalID: 8645492073439937341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3324b979eac15f0800000000000000
+      internalID: -784560268901207084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d587e2f53a73afa0800000000000000
+      internalID: -5790650323741211177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58e0b8d1d1d28590800000000000000
+      internalID: -7673340115872061347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6560afc97da1fec10800000000000000
+      internalID: 2084914665849751126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550ded97ac5a1ee30800000000000000
+      internalID: 4531084989158051925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156832de0f4ccea50800000000000000
+      internalID: 6551828096966952529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 944126c4e0c8c27f0800000000000000
+      internalID: -635979454327155639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2985e01a54cdbac0800000000000000
+      internalID: -3837695416340215505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a552178ce2fa279c0800000000000000
+      internalID: -3930886909274806950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3cc25e4a4ec10c0800000000000000
+      internalID: -4603553322208803867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e4fd6411ec2347a0800000000000000
+      internalID: -6394217700713958169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3397d4cc93182ffc0800000000000000
+      internalID: -3462563078253741773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca2f21d559dc65d0800000000000000
+      internalID: -3067838283541173562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c747c755bbbbc560800000000000000
+      internalID: 7335162805639137223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e025862fe9c0e260800000000000000
+      internalID: 7124916639480750310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0587d70cad4dd1660800000000000000
+      internalID: 7358271402190665808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945e474b43ccb75d0800000000000000
+      internalID: -3063630594757565111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11f257ea164fd740800000000000000
+      internalID: 5178935177863426335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d53ed073529d8e0800000000000000
+      internalID: -1668261268577624794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4094141a4c9eb0e20800000000000000
+      internalID: 3318002581216774404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1561ce4ff1fa1e0800000000000000
+      internalID: -2184492157458034240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb33f119fa3935b0800000000000000
+      internalID: -5388210637749666845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f354068ae0eaf1f00800000000000000
+      internalID: 1089781012824606015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baf66f712d3f48a90800000000000000
+      internalID: -7312451811272134741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3cf4df71bc761070800000000000000
+      internalID: 8076780083531283515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7b3e235be4e5c240800000000000000
+      internalID: 4811503476279229307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bded579cb9a557b0800000000000000
+      internalID: -5236092364289872456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8ffec604f1282970800000000000000
+      internalID: 8730265209627672463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eecd99eef68b7b340800000000000000
+      internalID: 4879571512163163374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67a4298b5e72dfb0800000000000000
+      internalID: -4624494935748073622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0352bbbc0559a7e60800000000000000
+      internalID: 7960839465578734896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f830ac38864762b0800000000000000
+      internalID: -5591422861410551561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_attack_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cef86c36be5393d0800000000000000
+      internalID: -3201110773339717946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ivern_attack_0: -6422367188792770116
+      ivern_attack_000: 6101155898395279052
+      ivern_attack_001: 3304055402383206369
+      ivern_attack_002: 6266751308708417338
+      ivern_attack_003: 4672444385421675825
+      ivern_attack_004: -1343004783392024030
+      ivern_attack_005: -6421165375321646306
+      ivern_attack_006: 8034998836341018978
+      ivern_attack_007: -2812995235995782904
+      ivern_attack_008: -1129326361941016240
+      ivern_attack_009: -1034881313933464011
+      ivern_attack_010: 7708072641236497366
+      ivern_attack_011: -5767549749043850012
+      ivern_attack_012: -2737588777348304389
+      ivern_attack_013: -8428431800289994778
+      ivern_attack_014: -8911446709646634282
+      ivern_attack_015: 6552879903343877166
+      ivern_attack_016: 1203667990636755698
+      ivern_attack_017: -3481279070717121562
+      ivern_attack_018: 6227782936329848145
+      ivern_attack_019: -3795926451786130709
+      ivern_attack_020: -7182763181008885479
+      ivern_attack_021: -1530455064302205983
+      ivern_attack_022: 8186927731731521510
+      ivern_attack_023: -4864064557898975668
+      ivern_attack_024: -2221781409727135242
+      ivern_attack_025: -969387850928699324
+      ivern_attack_026: 7526000177567017353
+      ivern_attack_027: -496718802729099500
+      ivern_attack_028: -3503265178484121048
+      ivern_attack_029: 6565240524889802523
+      ivern_attack_030: -5291411631768948797
+      ivern_attack_031: -1382594452079129866
+      ivern_attack_032: -1662564862664674900
+      ivern_attack_033: 1398981002210249322
+      ivern_attack_034: 3985230662851102452
+      ivern_attack_035: 8746990322438394016
+      ivern_attack_036: -7872322345108236344
+      ivern_attack_037: 9081912779700554992
+      ivern_attack_038: -5150659774565623526
+      ivern_attack_039: -4925426158475807205
+      ivern_attack_040: -5614308252417449630
+      ivern_attack_041: 5768142966472039159
+      ivern_attack_042: 6058945635596774836
+      ivern_attack_043: 8646230036870843387
+      ivern_attack_044: 3187951156977977820
+      ivern_attack_045: -5225976572257154572
+      ivern_attack_046: 629576634623017600
+      ivern_attack_047: -5591327148369240745
+      ivern_attack_048: 337835057769971111
+      ivern_attack_049: 1846692483006540559
+      ivern_attack_050: 5693320429292738251
+      ivern_attack_051: -3277260977498467325
+      ivern_attack_052: -5452256796030726145
+      ivern_attack_053: -5458191227574032274
+      ivern_attack_054: 324069877729206791
+      ivern_attack_055: -5454012463210045182
+      ivern_attack_056: -2387710048408965940
+      ivern_attack_057: 1768100499328502859
+      ivern_attack_058: -3126071287431282826
+      ivern_attack_059: -691819076540069086
+      ivern_attack_060: 1368977980127474254
+      ivern_attack_061: 8344455128358038755
+      ivern_attack_062: -3191126888416444682
+      ivern_attack_063: -3726883196364747247
+      ivern_attack_064: -5180706651132556347
+      ivern_attack_065: 8299609104445857450
+      ivern_attack_066: -7747597208255234240
+      ivern_attack_067: 7022775888323186872
+      ivern_attack_068: -3007622287693454912
+      ivern_attack_069: 6729503489242020418
+      ivern_attack_070: 3963562180503216035
+      ivern_attack_071: -9119537182908401345
+      ivern_attack_072: -284240459890049799
+      ivern_attack_073: -2782327136278908020
+      ivern_attack_074: 4596889521648113649
+      ivern_attack_075: 7670218233610304364
+      ivern_attack_076: -6308880886120300373
+      ivern_attack_077: 2731338579523446031
+      ivern_attack_078: 1109874761583421488
+      ivern_attack_079: 6064137941287144700
+      ivern_attack_080: -3909062153608824644
+      ivern_attack_081: -8315946277470958286
+      ivern_attack_082: 6717611117882677269
+      ivern_attack_083: -3847348146355546176
+      ivern_attack_084: 7120530141910063164
+      ivern_attack_085: 1117065622526244540
+      ivern_attack_086: 8645492073439937341
+      ivern_attack_087: -784560268901207084
+      ivern_attack_088: -5790650323741211177
+      ivern_attack_089: -7673340115872061347
+      ivern_attack_090: 2084914665849751126
+      ivern_attack_091: 4531084989158051925
+      ivern_attack_092: 6551828096966952529
+      ivern_attack_093: -635979454327155639
+      ivern_attack_094: -3837695416340215505
+      ivern_attack_095: -3930886909274806950
+      ivern_attack_096: -4603553322208803867
+      ivern_attack_097: -6394217700713958169
+      ivern_attack_098: -3462563078253741773
+      ivern_attack_099: -3067838283541173562
+      ivern_attack_1: -8018922470930637748
+      ivern_attack_10: -721792315842590081
+      ivern_attack_100: 7335162805639137223
+      ivern_attack_101: 7124916639480750310
+      ivern_attack_102: 7358271402190665808
+      ivern_attack_103: -3063630594757565111
+      ivern_attack_104: 5178935177863426335
+      ivern_attack_105: -1668261268577624794
+      ivern_attack_106: 3318002581216774404
+      ivern_attack_107: -2184492157458034240
+      ivern_attack_108: -5388210637749666845
+      ivern_attack_109: 1089781012824606015
+      ivern_attack_11: 6003440289303832926
+      ivern_attack_110: -7312451811272134741
+      ivern_attack_111: 8076780083531283515
+      ivern_attack_112: 4811503476279229307
+      ivern_attack_113: -5236092364289872456
+      ivern_attack_114: 8730265209627672463
+      ivern_attack_115: 4879571512163163374
+      ivern_attack_116: -4624494935748073622
+      ivern_attack_117: 7960839465578734896
+      ivern_attack_118: -5591422861410551561
+      ivern_attack_119: -3201110773339717946
+      ivern_attack_12: -1166236656384112952
+      ivern_attack_13: -4533604815002511584
+      ivern_attack_14: 3366768096008429047
+      ivern_attack_15: 8217993017391609854
+      ivern_attack_16: -7460939513582745929
+      ivern_attack_17: -5380263046786283537
+      ivern_attack_18: 1766219179727395398
+      ivern_attack_19: -8886881044203574630
+      ivern_attack_2: 3155498992731785082
+      ivern_attack_20: -6704902962015253582
+      ivern_attack_21: -3331877611287850853
+      ivern_attack_22: -4568024207302600212
+      ivern_attack_23: -2094103470557533948
+      ivern_attack_24: -5002759996972366248
+      ivern_attack_25: 5394359417564865526
+      ivern_attack_26: 560660833225683022
+      ivern_attack_27: 8200481566199983733
+      ivern_attack_28: 3154289732518429017
+      ivern_attack_29: -7700734700929526087
+      ivern_attack_3: -3948460650304221838
+      ivern_attack_30: 8276490978792636581
+      ivern_attack_31: -6401406726776384169
+      ivern_attack_32: 5667255447155697454
+      ivern_attack_33: 2703867472703771422
+      ivern_attack_34: 259049960389263526
+      ivern_attack_35: 8232701824972535069
+      ivern_attack_36: 4901757760063878977
+      ivern_attack_37: -9186755468476555721
+      ivern_attack_38: 6621895107152858523
+      ivern_attack_39: 5584275541016581825
+      ivern_attack_4: -6829616262604801122
+      ivern_attack_40: -888139481821250446
+      ivern_attack_41: 3233508093273368281
+      ivern_attack_42: -27157366821488862
+      ivern_attack_43: -279276474980957971
+      ivern_attack_44: 8726987766930065286
+      ivern_attack_45: 8546297461723413169
+      ivern_attack_46: 8413040961628109284
+      ivern_attack_47: -2776856761383324052
+      ivern_attack_48: 7207881907865913354
+      ivern_attack_49: -7243133383105484968
+      ivern_attack_5: -3014902886158759157
+      ivern_attack_50: 5945491259818021940
+      ivern_attack_51: -6955103440986135707
+      ivern_attack_52: -4379383017703423970
+      ivern_attack_53: 5344770404880870386
+      ivern_attack_54: -6503114410069051672
+      ivern_attack_55: -5799614363516313834
+      ivern_attack_56: -8720403642121522587
+      ivern_attack_57: -1381689189886490731
+      ivern_attack_58: 7018076695494460418
+      ivern_attack_59: 4165670464023809617
+      ivern_attack_6: -5362102545616233229
+      ivern_attack_60: 7208926786568541535
+      ivern_attack_61: 5322079790456915947
+      ivern_attack_62: -5575023508895973528
+      ivern_attack_63: 6101588864806640270
+      ivern_attack_64: -2728379495556636225
+      ivern_attack_65: -4933521579220581106
+      ivern_attack_66: -2108797786346505968
+      ivern_attack_67: -2869456820652926327
+      ivern_attack_68: -2932220776229529995
+      ivern_attack_69: 2292492364819039186
+      ivern_attack_7: 1823285516146329732
+      ivern_attack_70: -3348571341577646469
+      ivern_attack_71: -7607706806803646273
+      ivern_attack_72: 3508030501366378766
+      ivern_attack_73: -6006310137800158596
+      ivern_attack_74: 7628846647860338118
+      ivern_attack_75: -7467288782061659838
+      ivern_attack_76: -6847548934815681789
+      ivern_attack_77: 1535539298352157145
+      ivern_attack_78: -5259457622284803523
+      ivern_attack_79: 2191545966745956606
+      ivern_attack_8: -2871489668597724462
+      ivern_attack_80: 3837677059443088512
+      ivern_attack_81: 8768547089332452576
+      ivern_attack_82: -4148239718308661894
+      ivern_attack_83: -4385082170283303461
+      ivern_attack_84: -3217560069457100123
+      ivern_attack_85: 4427927744251669845
+      ivern_attack_86: 3709988627668290293
+      ivern_attack_87: -7344511138537273554
+      ivern_attack_88: -5558451756836035329
+      ivern_attack_89: -5714133436684164204
+      ivern_attack_9: 7299396436841003006
+      ivern_attack_90: 2992212758809318293
+      ivern_attack_91: -5753376669255139358
+      ivern_attack_92: 685926041674648351
+      ivern_attack_93: -186605938927502175
+      ivern_attack_94: -4972331005992661558
+      ivern_attack_95: -5985546478282072128
+      ivern_attack_96: 8532521537038433970
+      ivern_attack_97: -1400372298922223555
+      ivern_attack_98: -6921921099176427419
+      ivern_attack_99: 6896478318212572283
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

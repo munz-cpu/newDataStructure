@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: f5835d252d2dddb41838fee5bb7c44ac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1348474542828537476
+    second: hecarim_idle_0
+  - first:
+      213: 4813650510564852650
+    second: hecarim_idle_1
+  - first:
+      213: -3995216292816830739
+    second: hecarim_idle_2
+  - first:
+      213: -7569624730750407471
+    second: hecarim_idle_3
+  - first:
+      213: 7297266259191611843
+    second: hecarim_idle_4
+  - first:
+      213: 2157312163684145280
+    second: hecarim_idle_5
+  - first:
+      213: -8182820000193753246
+    second: hecarim_idle_6
+  - first:
+      213: -3437558690332790319
+    second: hecarim_idle_7
+  - first:
+      213: 2216542243872451744
+    second: hecarim_idle_8
+  - first:
+      213: 6270596052761846995
+    second: hecarim_idle_9
+  - first:
+      213: 587201856287747280
+    second: hecarim_idle_10
+  - first:
+      213: -3687119827751420249
+    second: hecarim_idle_11
+  - first:
+      213: -3067309340371039332
+    second: hecarim_idle_12
+  - first:
+      213: -67494674755006148
+    second: hecarim_idle_13
+  - first:
+      213: 2497674050987335695
+    second: hecarim_idle_14
+  - first:
+      213: -498055045333482984
+    second: hecarim_idle_15
+  - first:
+      213: -2555244420245666713
+    second: hecarim_idle_16
+  - first:
+      213: -317358458927489038
+    second: hecarim_idle_17
+  - first:
+      213: -2975415650586045102
+    second: hecarim_idle_18
+  - first:
+      213: -3422882036858118157
+    second: hecarim_idle_19
+  - first:
+      213: -6142682042911365645
+    second: hecarim_idle_20
+  - first:
+      213: 7819386534204606736
+    second: hecarim_idle_21
+  - first:
+      213: 5406303912314484917
+    second: hecarim_idle_22
+  - first:
+      213: 7574065281651255238
+    second: hecarim_idle_23
+  - first:
+      213: -8553476019354119090
+    second: hecarim_idle_24
+  - first:
+      213: 4512145606280325117
+    second: hecarim_idle_25
+  - first:
+      213: -8122617455659981508
+    second: hecarim_idle_26
+  - first:
+      213: 6135896083962592613
+    second: hecarim_idle_27
+  - first:
+      213: 1424961857628171768
+    second: hecarim_idle_28
+  - first:
+      213: 3713601700844193182
+    second: hecarim_idle_29
+  - first:
+      213: -7495666411961661719
+    second: hecarim_idle_30
+  - first:
+      213: -1695804315472241466
+    second: hecarim_idle_31
+  - first:
+      213: -1365276788402998079
+    second: hecarim_idle_32
+  - first:
+      213: -8432913052749264197
+    second: hecarim_idle_33
+  - first:
+      213: -5256147062944590242
+    second: hecarim_idle_34
+  - first:
+      213: -2455980185315160342
+    second: hecarim_idle_35
+  - first:
+      213: -6599236114813642759
+    second: hecarim_idle_36
+  - first:
+      213: 6128319366249745126
+    second: hecarim_idle_37
+  - first:
+      213: -5101384781681940967
+    second: hecarim_idle_38
+  - first:
+      213: 5295927565343743473
+    second: hecarim_idle_39
+  - first:
+      213: 1774070779121944294
+    second: hecarim_idle_40
+  - first:
+      213: -393649500551331779
+    second: hecarim_idle_41
+  - first:
+      213: 6274306619871100250
+    second: hecarim_idle_42
+  - first:
+      213: -805974539035541144
+    second: hecarim_idle_43
+  - first:
+      213: 6589119007904210050
+    second: hecarim_idle_44
+  - first:
+      213: 3725033046638088101
+    second: hecarim_idle_45
+  - first:
+      213: -5084685008121253565
+    second: hecarim_idle_46
+  - first:
+      213: 7351063963113498983
+    second: hecarim_idle_47
+  - first:
+      213: 8877760717397983500
+    second: hecarim_idle_48
+  - first:
+      213: 2675692601687108233
+    second: hecarim_idle_49
+  - first:
+      213: -6626365670540533620
+    second: hecarim_idle_50
+  - first:
+      213: 7012556032731062914
+    second: hecarim_idle_51
+  - first:
+      213: 2861103485997165980
+    second: hecarim_idle_52
+  - first:
+      213: -7376435071855959687
+    second: hecarim_idle_53
+  - first:
+      213: -8187702467413670156
+    second: hecarim_idle_54
+  - first:
+      213: 7571255578594066049
+    second: hecarim_idle_55
+  - first:
+      213: 6496098886934229943
+    second: hecarim_idle_56
+  - first:
+      213: 1617211231139374252
+    second: hecarim_idle_57
+  - first:
+      213: 1850491964610010022
+    second: hecarim_idle_58
+  - first:
+      213: 5432349801615851869
+    second: hecarim_idle_59
+  - first:
+      213: -9159684728983472847
+    second: hecarim_idle_60
+  - first:
+      213: -1026189832038895378
+    second: hecarim_idle_61
+  - first:
+      213: -7747119355376982712
+    second: hecarim_idle_62
+  - first:
+      213: 4192208589590943755
+    second: hecarim_idle_63
+  - first:
+      213: 2426813003519198224
+    second: hecarim_idle_64
+  - first:
+      213: 4552477365718581155
+    second: hecarim_idle_65
+  - first:
+      213: 998285243294764058
+    second: hecarim_idle_66
+  - first:
+      213: -5564840294349720334
+    second: hecarim_idle_67
+  - first:
+      213: 2776491801465774568
+    second: hecarim_idle_68
+  - first:
+      213: -1281578034622517912
+    second: hecarim_idle_69
+  - first:
+      213: 5274090013029616918
+    second: hecarim_idle_70
+  - first:
+      213: -2120977379519765083
+    second: hecarim_idle_71
+  - first:
+      213: 3901015850534083414
+    second: hecarim_idle_72
+  - first:
+      213: -7345903275512222423
+    second: hecarim_idle_73
+  - first:
+      213: -211177314753147916
+    second: hecarim_idle_74
+  - first:
+      213: 3530183749967484546
+    second: hecarim_idle_75
+  - first:
+      213: 6430441606580365348
+    second: hecarim_idle_76
+  - first:
+      213: 7078854972162211249
+    second: hecarim_idle_77
+  - first:
+      213: -5357333467529157727
+    second: hecarim_idle_78
+  - first:
+      213: -5943597168654588541
+    second: hecarim_idle_79
+  - first:
+      213: 9107260964482375363
+    second: hecarim_idle_80
+  - first:
+      213: 8051864569979361366
+    second: hecarim_idle_81
+  - first:
+      213: 8422008078958733972
+    second: hecarim_idle_82
+  - first:
+      213: 6487647514174641968
+    second: hecarim_idle_83
+  - first:
+      213: -8405134153044759000
+    second: hecarim_idle_84
+  - first:
+      213: 7071408501611749783
+    second: hecarim_idle_85
+  - first:
+      213: 3190505069407290561
+    second: hecarim_idle_86
+  - first:
+      213: -754866083050605258
+    second: hecarim_idle_87
+  - first:
+      213: 2842199730693455200
+    second: hecarim_idle_88
+  - first:
+      213: -8162185017120038786
+    second: hecarim_idle_89
+  - first:
+      213: -6261509825534085153
+    second: hecarim_idle_90
+  - first:
+      213: -602544900801886538
+    second: hecarim_idle_91
+  - first:
+      213: -760605380928744154
+    second: hecarim_idle_92
+  - first:
+      213: 2673167608787992521
+    second: hecarim_idle_93
+  - first:
+      213: -7738164556108137467
+    second: hecarim_idle_94
+  - first:
+      213: -9203539220396518485
+    second: hecarim_idle_95
+  - first:
+      213: 4937288699720917580
+    second: hecarim_idle_96
+  - first:
+      213: 9029518992223448674
+    second: hecarim_idle_97
+  - first:
+      213: -8229178526191243451
+    second: hecarim_idle_98
+  - first:
+      213: 3373235525723395559
+    second: hecarim_idle_99
+  - first:
+      213: 2133458608179324629
+    second: hecarim_idle_100
+  - first:
+      213: 2939604280477015553
+    second: hecarim_idle_101
+  - first:
+      213: 9025928063565195271
+    second: hecarim_idle_102
+  - first:
+      213: -4102661916272676585
+    second: hecarim_idle_103
+  - first:
+      213: -1065090508428115617
+    second: hecarim_idle_104
+  - first:
+      213: 9045323068741871719
+    second: hecarim_idle_105
+  - first:
+      213: 8822519164747453282
+    second: hecarim_idle_106
+  - first:
+      213: -8809857472273710229
+    second: hecarim_idle_107
+  - first:
+      213: -4983054566277061960
+    second: hecarim_idle_108
+  - first:
+      213: -489928912100118657
+    second: hecarim_idle_109
+  - first:
+      213: 3445701257574609838
+    second: hecarim_idle_110
+  - first:
+      213: -2503142159363845301
+    second: hecarim_idle_111
+  - first:
+      213: -4586211587238962812
+    second: hecarim_idle_112
+  - first:
+      213: -6235043576509239377
+    second: hecarim_idle_113
+  - first:
+      213: -6355399889610869111
+    second: hecarim_idle_114
+  - first:
+      213: 6945270029421418107
+    second: hecarim_idle_115
+  - first:
+      213: -1562300985002764325
+    second: hecarim_idle_116
+  - first:
+      213: 7430523879262350018
+    second: hecarim_idle_117
+  - first:
+      213: 6415573066372745492
+    second: hecarim_idle_118
+  - first:
+      213: 2794365265420860277
+    second: hecarim_idle_119
+  - first:
+      213: 8634701967115238609
+    second: hecarim_idle_000
+  - first:
+      213: -2088362024258738120
+    second: hecarim_idle_001
+  - first:
+      213: -3787926034440954257
+    second: hecarim_idle_002
+  - first:
+      213: 1512406617622654646
+    second: hecarim_idle_003
+  - first:
+      213: -5195579058005127706
+    second: hecarim_idle_004
+  - first:
+      213: 1139932531341659059
+    second: hecarim_idle_005
+  - first:
+      213: -7329623404975832622
+    second: hecarim_idle_006
+  - first:
+      213: -1890617514583637039
+    second: hecarim_idle_007
+  - first:
+      213: -7551042632173343754
+    second: hecarim_idle_008
+  - first:
+      213: 7623799981150970322
+    second: hecarim_idle_009
+  - first:
+      213: 785438034767675230
+    second: hecarim_idle_010
+  - first:
+      213: 2227293357067657773
+    second: hecarim_idle_011
+  - first:
+      213: 4430775001572624912
+    second: hecarim_idle_012
+  - first:
+      213: -1262803337505143239
+    second: hecarim_idle_013
+  - first:
+      213: -3766874168715117354
+    second: hecarim_idle_014
+  - first:
+      213: 9527851609950714
+    second: hecarim_idle_015
+  - first:
+      213: -7958508713246650461
+    second: hecarim_idle_016
+  - first:
+      213: -3574320177702252029
+    second: hecarim_idle_017
+  - first:
+      213: -8687265308409596322
+    second: hecarim_idle_018
+  - first:
+      213: -3480816848555880211
+    second: hecarim_idle_019
+  - first:
+      213: -1427968978518760509
+    second: hecarim_idle_020
+  - first:
+      213: -6123524865642462871
+    second: hecarim_idle_021
+  - first:
+      213: -8053041783335464745
+    second: hecarim_idle_022
+  - first:
+      213: -5274264592737646811
+    second: hecarim_idle_023
+  - first:
+      213: -2777378116691442745
+    second: hecarim_idle_024
+  - first:
+      213: -8601220570942053845
+    second: hecarim_idle_025
+  - first:
+      213: -2998944070737266278
+    second: hecarim_idle_026
+  - first:
+      213: -3286633709293412324
+    second: hecarim_idle_027
+  - first:
+      213: 9029005011614063925
+    second: hecarim_idle_028
+  - first:
+      213: 3728717128963485288
+    second: hecarim_idle_029
+  - first:
+      213: -7377704854911160653
+    second: hecarim_idle_030
+  - first:
+      213: 8798815200931396591
+    second: hecarim_idle_031
+  - first:
+      213: 1373986972441904457
+    second: hecarim_idle_032
+  - first:
+      213: 1784175018249776742
+    second: hecarim_idle_033
+  - first:
+      213: -533921176590200403
+    second: hecarim_idle_034
+  - first:
+      213: 2082369012641247545
+    second: hecarim_idle_035
+  - first:
+      213: 3320382515647766620
+    second: hecarim_idle_036
+  - first:
+      213: 4906567044222366671
+    second: hecarim_idle_037
+  - first:
+      213: -3889382549140348386
+    second: hecarim_idle_038
+  - first:
+      213: -8160371491808747674
+    second: hecarim_idle_039
+  - first:
+      213: -5098427215445064767
+    second: hecarim_idle_040
+  - first:
+      213: -8349426084160882381
+    second: hecarim_idle_041
+  - first:
+      213: -5999057215394901882
+    second: hecarim_idle_042
+  - first:
+      213: -3816972537681345107
+    second: hecarim_idle_043
+  - first:
+      213: 7695015577889162963
+    second: hecarim_idle_044
+  - first:
+      213: 3845080395121486334
+    second: hecarim_idle_045
+  - first:
+      213: -8778952268342748474
+    second: hecarim_idle_046
+  - first:
+      213: -2677444538850471363
+    second: hecarim_idle_047
+  - first:
+      213: 4425832351618000870
+    second: hecarim_idle_048
+  - first:
+      213: -7295952079100594991
+    second: hecarim_idle_049
+  - first:
+      213: 6672582890772011711
+    second: hecarim_idle_050
+  - first:
+      213: 2188974523035952034
+    second: hecarim_idle_051
+  - first:
+      213: -8390724032634037076
+    second: hecarim_idle_052
+  - first:
+      213: -4121078432133069435
+    second: hecarim_idle_053
+  - first:
+      213: 6818596088578770185
+    second: hecarim_idle_054
+  - first:
+      213: -4891185359159102655
+    second: hecarim_idle_055
+  - first:
+      213: 8260900827920152439
+    second: hecarim_idle_056
+  - first:
+      213: -6523168319602067970
+    second: hecarim_idle_057
+  - first:
+      213: -2797308372027855874
+    second: hecarim_idle_058
+  - first:
+      213: 6755534243695282561
+    second: hecarim_idle_059
+  - first:
+      213: 2297719863215126331
+    second: hecarim_idle_060
+  - first:
+      213: 6757256520470180248
+    second: hecarim_idle_061
+  - first:
+      213: 1480684867560045628
+    second: hecarim_idle_062
+  - first:
+      213: -4607081474814157099
+    second: hecarim_idle_063
+  - first:
+      213: -3117050197488760690
+    second: hecarim_idle_064
+  - first:
+      213: -8486110349999156607
+    second: hecarim_idle_065
+  - first:
+      213: -3689058473331936550
+    second: hecarim_idle_066
+  - first:
+      213: 5131006704129743886
+    second: hecarim_idle_067
+  - first:
+      213: 6823671360380547763
+    second: hecarim_idle_068
+  - first:
+      213: 1877468327569826631
+    second: hecarim_idle_069
+  - first:
+      213: -5961086170965296171
+    second: hecarim_idle_070
+  - first:
+      213: -6851660517861665453
+    second: hecarim_idle_071
+  - first:
+      213: -9173547910606057158
+    second: hecarim_idle_072
+  - first:
+      213: -4289349127214347815
+    second: hecarim_idle_073
+  - first:
+      213: 8612194166295336086
+    second: hecarim_idle_074
+  - first:
+      213: 5789234724878609880
+    second: hecarim_idle_075
+  - first:
+      213: -8915988288437459332
+    second: hecarim_idle_076
+  - first:
+      213: -2599223534125495363
+    second: hecarim_idle_077
+  - first:
+      213: 8286140412976926913
+    second: hecarim_idle_078
+  - first:
+      213: -7688666481069069143
+    second: hecarim_idle_079
+  - first:
+      213: -8857445878628259919
+    second: hecarim_idle_080
+  - first:
+      213: -9117666687551728578
+    second: hecarim_idle_081
+  - first:
+      213: -7184245363486708664
+    second: hecarim_idle_082
+  - first:
+      213: 7084792319613078566
+    second: hecarim_idle_083
+  - first:
+      213: -2199649643568957469
+    second: hecarim_idle_084
+  - first:
+      213: 9209729786129980018
+    second: hecarim_idle_085
+  - first:
+      213: -752519100182427560
+    second: hecarim_idle_086
+  - first:
+      213: 5268620601161782925
+    second: hecarim_idle_087
+  - first:
+      213: 7522924647119940621
+    second: hecarim_idle_088
+  - first:
+      213: 5662324376740723212
+    second: hecarim_idle_089
+  - first:
+      213: -2364825883606181387
+    second: hecarim_idle_090
+  - first:
+      213: 511557956586005978
+    second: hecarim_idle_091
+  - first:
+      213: -8927112159264334982
+    second: hecarim_idle_092
+  - first:
+      213: -1600284476966596259
+    second: hecarim_idle_093
+  - first:
+      213: -2912925722840696083
+    second: hecarim_idle_094
+  - first:
+      213: 6328817380479923674
+    second: hecarim_idle_095
+  - first:
+      213: 4417095765611512220
+    second: hecarim_idle_096
+  - first:
+      213: -8445385425486624726
+    second: hecarim_idle_097
+  - first:
+      213: 1054505055520704993
+    second: hecarim_idle_098
+  - first:
+      213: 6296583862631050332
+    second: hecarim_idle_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hecarim_idle_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc3543c0bf94d770800000000000000
+      internalID: 8634701967115238609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83864a5bdc5a403e0800000000000000
+      internalID: -2088362024258738120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6e51b947559e6bc0800000000000000
+      internalID: -3787926034440954257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be295f3ec52df410800000000000000
+      internalID: 1512406617622654646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed4525cf5895e7b0800000000000000
+      internalID: -5195579058005127706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb088ef89ad1df00800000000000000
+      internalID: 1139932531341659059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1c601e852f74a90800000000000000
+      internalID: -7329623404975832622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d34c1d236d23c5e0800000000000000
+      internalID: -1890617514583637039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb2a71bbbe453790800000000000000
+      internalID: -7551042632173343754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d12223b0bd2dc960800000000000000
+      internalID: 7623799981150970322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f786f2bbf66ea00800000000000000
+      internalID: 785438034767675230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22ea9ee18fe8ee10800000000000000
+      internalID: 2227293357067657773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01aca6083664d7d30800000000000000
+      internalID: 4430775001572624912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93604de1e0f997ee0800000000000000
+      internalID: -1262803337505143239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcf32cb6ef59bbc0800000000000000
+      internalID: -3766874168715117354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af90fa2d789d12000800000000000000
+      internalID: 9527851609950714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af0515cd72bd8190800000000000000
+      internalID: -7958508713246650461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302db866cb6756ec0800000000000000
+      internalID: -3574320177702252029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56fba6aa32a07780800000000000000
+      internalID: -8687265308409596322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0d1a5b487a1bfc0800000000000000
+      internalID: -3480816848555880211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3ac1d97c5de2ce0800000000000000
+      internalID: -1427968978518760509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9610c1a149ed40ba0800000000000000
+      internalID: -6123524865642462871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d059e63a29dd3090800000000000000
+      internalID: -8053041783335464745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527c3721c4c0ec6b0800000000000000
+      internalID: -5274264592737646811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3c9ab6155c479d0800000000000000
+      internalID: -2777378116691442745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b226732467352a880800000000000000
+      internalID: -8601220570942053845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99f07ab14c9166d0800000000000000
+      internalID: -2998944070737266278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10edb20e088362d0800000000000000
+      internalID: -3286633709293412324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53d5a7868387d4d70800000000000000
+      internalID: 9029005011614063925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e68c329701fb330800000000000000
+      internalID: 3728717128963485288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be6851f5802d9990800000000000000
+      internalID: -7377704854911160653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febb2df9ecbab1a70800000000000000
+      internalID: 8798815200931396591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9450a6a2fd1611310800000000000000
+      internalID: 1373986972441904457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e67e3e9b9a2c810800000000000000
+      internalID: 1784175018249776742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1584bc4812798f0800000000000000
+      internalID: -533921176590200403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93133c9859f06ec10800000000000000
+      internalID: 2082369012641247545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c506a9b4e4e541e20800000000000000
+      internalID: 3320382515647766620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc333890bb0a71440800000000000000
+      internalID: 4906567044222366671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12e2eaad23260ac0800000000000000
+      internalID: -3889382549140348386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fd38b1d5980ce80800000000000000
+      internalID: -8160371491808747674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c3863ec57fbe39b0800000000000000
+      internalID: -5098427215445064767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339b53fa631e02c80800000000000000
+      internalID: -8349426084160882381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68094293f311fbca0800000000000000
+      internalID: -5999057215394901882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5051e33b3670bc0800000000000000
+      internalID: -3816972537681345107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d64e2de5ef2aca60800000000000000
+      internalID: 7695015577889162963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9e80c4f387c5530800000000000000
+      internalID: 3845080395121486334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca1251cc65ea2680800000000000000
+      internalID: -8778952268342748474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d32120ca06ec7dad0800000000000000
+      internalID: -2677444538850471363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e76f912317bb6d30800000000000000
+      internalID: 4425832351618000870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4bfea5d329fba90800000000000000
+      internalID: -7295952079100594991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba90da49c6c99c50800000000000000
+      internalID: 6672582890772011711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a320f32bbcc06e10800000000000000
+      internalID: 2188974523035952034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cacd382c2f82e8b80800000000000000
+      internalID: -8390724032634037076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5854f29100dfec6c0800000000000000
+      internalID: -4121078432133069435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9050b9e140580ae50800000000000000
+      internalID: 6818596088578770185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143fab894d40f1cb0800000000000000
+      internalID: -4891185359159102655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77739ece88d94a270800000000000000
+      internalID: 8260900827920152439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5790c79fc0975a0800000000000000
+      internalID: -6523168319602067970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbad0e3bd6fd29d0800000000000000
+      internalID: -2797308372027855874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189c17f2a9a70cd50800000000000000
+      internalID: 6755534243695282561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37fb40ba0423ef10800000000000000
+      internalID: 2297719863215126331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89131def00996cd50800000000000000
+      internalID: 6757256520470180248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c7633ca037c8410800000000000000
+      internalID: 1480684867560045628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de5b6adecb5010c0800000000000000
+      internalID: -4607081474814157099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e880f973c530eb4d0800000000000000
+      internalID: -3117050197488760690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182d88719974b3a80800000000000000
+      internalID: -8486110349999156607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2b76d2dd4ddccc0800000000000000
+      internalID: -3689058473331936550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c1dc3896ff43740800000000000000
+      internalID: 5131006704129743886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b23d7be2fc82be50800000000000000
+      internalID: 6823671360380547763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743a8d52f7b1e0a10800000000000000
+      internalID: 1877468327569826631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbbe10f5b7f54da0800000000000000
+      internalID: -5961086170965296171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35559478f030ae0a0800000000000000
+      internalID: -6851660517861665453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a319c4267c201b080800000000000000
+      internalID: -9173547910606057158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d9c1cad1bb2974c0800000000000000
+      internalID: -4289349127214347815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69499b207f8a48770800000000000000
+      internalID: 8612194166295336086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddeeb14f4e775050800000000000000
+      internalID: 5789234724878609880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76642ef3eb044480800000000000000
+      internalID: -8915988288437459332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb4d9c87f3bdebd0800000000000000
+      internalID: -2599223534125495363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c09f72cdc84ef270800000000000000
+      internalID: 8286140412976926913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acec6f529e5c4590800000000000000
+      internalID: -7688666481069069143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b76d13f6e7041580800000000000000
+      internalID: -8857445878628259919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e341114847a877180800000000000000
+      internalID: -9117666687551728578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ca02ad7ee6c4c90800000000000000
+      internalID: -7184245363486708664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c04fde31d325260800000000000000
+      internalID: 7084792319613078566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7f1ccad464971e0800000000000000
+      internalID: -2199649643568957469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a9c9bf1788fcf70800000000000000
+      internalID: 9209729786129980018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8580eea8dd38e85f0800000000000000
+      internalID: -752519100182427560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d869d8cb586ed1940800000000000000
+      internalID: 5268620601161782925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c6d9fbb1cc66860800000000000000
+      internalID: 7522924647119940621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a7aa6350e949e40800000000000000
+      internalID: 5662324376740723212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9110463637e2fd0800000000000000
+      internalID: -2364825883606181387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5655c404b691700800000000000000
+      internalID: 511557956586005978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b9afcf9c68c1480800000000000000
+      internalID: -8927112159264334982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5195d23fb5aac9e0800000000000000
+      internalID: -1600284476966596259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea7bf80d753397d0800000000000000
+      internalID: -2912925722840696083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5f2d340e974d750800000000000000
+      internalID: 6328817380479923674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c910820323dac4d30800000000000000
+      internalID: 4417095765611512220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28cb9a73b6fbca80800000000000000
+      internalID: -8445385425486624726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e94a20d2ca52ae00800000000000000
+      internalID: 1054505055520704993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ca49e89a5f16750800000000000000
+      internalID: 6296583862631050332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d62783fc419b9d10800000000000000
+      internalID: 2133458608179324629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10edc06b4829bc820800000000000000
+      internalID: 2939604280477015553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708680d90c9824d70800000000000000
+      internalID: 9025928063565195271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7113b0759ba6017c0800000000000000
+      internalID: -4102661916272676585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51808f53d90831f0800000000000000
+      internalID: -1065090508428115617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76861072861778d70800000000000000
+      internalID: 9045323068741871719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26319d6cf62ef6a70800000000000000
+      internalID: 8822519164747453282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b630e4b3e491db580800000000000000
+      internalID: -8809857472273710229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2eaa8f542a8dab0800000000000000
+      internalID: -4983054566277061960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f241d004c6339f0800000000000000
+      internalID: -489928912100118657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3f9d3a90791df20800000000000000
+      internalID: 3445701257574609838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4350d0e77d034dd0800000000000000
+      internalID: -2503142159363845301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48957d53cd08a50c0800000000000000
+      internalID: -4586211587238962812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafe51fd6eca879a0800000000000000
+      internalID: -6235043576509239377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986ff2609751dc7a0800000000000000
+      internalID: -6355399889610869111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7694dc4b4e826060800000000000000
+      internalID: 6945270029421418107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7daa41887915ae0800000000000000
+      internalID: -1562300985002764325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca6d7e79168e1760800000000000000
+      internalID: 7430523879262350018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41906b376b1b80950800000000000000
+      internalID: 6415573066372745492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_idle_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57bb91a576497c620800000000000000
+      internalID: 2794365265420860277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hecarim_idle_0: -1348474542828537476
+      hecarim_idle_000: 8634701967115238609
+      hecarim_idle_001: -2088362024258738120
+      hecarim_idle_002: -3787926034440954257
+      hecarim_idle_003: 1512406617622654646
+      hecarim_idle_004: -5195579058005127706
+      hecarim_idle_005: 1139932531341659059
+      hecarim_idle_006: -7329623404975832622
+      hecarim_idle_007: -1890617514583637039
+      hecarim_idle_008: -7551042632173343754
+      hecarim_idle_009: 7623799981150970322
+      hecarim_idle_010: 785438034767675230
+      hecarim_idle_011: 2227293357067657773
+      hecarim_idle_012: 4430775001572624912
+      hecarim_idle_013: -1262803337505143239
+      hecarim_idle_014: -3766874168715117354
+      hecarim_idle_015: 9527851609950714
+      hecarim_idle_016: -7958508713246650461
+      hecarim_idle_017: -3574320177702252029
+      hecarim_idle_018: -8687265308409596322
+      hecarim_idle_019: -3480816848555880211
+      hecarim_idle_020: -1427968978518760509
+      hecarim_idle_021: -6123524865642462871
+      hecarim_idle_022: -8053041783335464745
+      hecarim_idle_023: -5274264592737646811
+      hecarim_idle_024: -2777378116691442745
+      hecarim_idle_025: -8601220570942053845
+      hecarim_idle_026: -2998944070737266278
+      hecarim_idle_027: -3286633709293412324
+      hecarim_idle_028: 9029005011614063925
+      hecarim_idle_029: 3728717128963485288
+      hecarim_idle_030: -7377704854911160653
+      hecarim_idle_031: 8798815200931396591
+      hecarim_idle_032: 1373986972441904457
+      hecarim_idle_033: 1784175018249776742
+      hecarim_idle_034: -533921176590200403
+      hecarim_idle_035: 2082369012641247545
+      hecarim_idle_036: 3320382515647766620
+      hecarim_idle_037: 4906567044222366671
+      hecarim_idle_038: -3889382549140348386
+      hecarim_idle_039: -8160371491808747674
+      hecarim_idle_040: -5098427215445064767
+      hecarim_idle_041: -8349426084160882381
+      hecarim_idle_042: -5999057215394901882
+      hecarim_idle_043: -3816972537681345107
+      hecarim_idle_044: 7695015577889162963
+      hecarim_idle_045: 3845080395121486334
+      hecarim_idle_046: -8778952268342748474
+      hecarim_idle_047: -2677444538850471363
+      hecarim_idle_048: 4425832351618000870
+      hecarim_idle_049: -7295952079100594991
+      hecarim_idle_050: 6672582890772011711
+      hecarim_idle_051: 2188974523035952034
+      hecarim_idle_052: -8390724032634037076
+      hecarim_idle_053: -4121078432133069435
+      hecarim_idle_054: 6818596088578770185
+      hecarim_idle_055: -4891185359159102655
+      hecarim_idle_056: 8260900827920152439
+      hecarim_idle_057: -6523168319602067970
+      hecarim_idle_058: -2797308372027855874
+      hecarim_idle_059: 6755534243695282561
+      hecarim_idle_060: 2297719863215126331
+      hecarim_idle_061: 6757256520470180248
+      hecarim_idle_062: 1480684867560045628
+      hecarim_idle_063: -4607081474814157099
+      hecarim_idle_064: -3117050197488760690
+      hecarim_idle_065: -8486110349999156607
+      hecarim_idle_066: -3689058473331936550
+      hecarim_idle_067: 5131006704129743886
+      hecarim_idle_068: 6823671360380547763
+      hecarim_idle_069: 1877468327569826631
+      hecarim_idle_070: -5961086170965296171
+      hecarim_idle_071: -6851660517861665453
+      hecarim_idle_072: -9173547910606057158
+      hecarim_idle_073: -4289349127214347815
+      hecarim_idle_074: 8612194166295336086
+      hecarim_idle_075: 5789234724878609880
+      hecarim_idle_076: -8915988288437459332
+      hecarim_idle_077: -2599223534125495363
+      hecarim_idle_078: 8286140412976926913
+      hecarim_idle_079: -7688666481069069143
+      hecarim_idle_080: -8857445878628259919
+      hecarim_idle_081: -9117666687551728578
+      hecarim_idle_082: -7184245363486708664
+      hecarim_idle_083: 7084792319613078566
+      hecarim_idle_084: -2199649643568957469
+      hecarim_idle_085: 9209729786129980018
+      hecarim_idle_086: -752519100182427560
+      hecarim_idle_087: 5268620601161782925
+      hecarim_idle_088: 7522924647119940621
+      hecarim_idle_089: 5662324376740723212
+      hecarim_idle_090: -2364825883606181387
+      hecarim_idle_091: 511557956586005978
+      hecarim_idle_092: -8927112159264334982
+      hecarim_idle_093: -1600284476966596259
+      hecarim_idle_094: -2912925722840696083
+      hecarim_idle_095: 6328817380479923674
+      hecarim_idle_096: 4417095765611512220
+      hecarim_idle_097: -8445385425486624726
+      hecarim_idle_098: 1054505055520704993
+      hecarim_idle_099: 6296583862631050332
+      hecarim_idle_1: 4813650510564852650
+      hecarim_idle_10: 587201856287747280
+      hecarim_idle_100: 2133458608179324629
+      hecarim_idle_101: 2939604280477015553
+      hecarim_idle_102: 9025928063565195271
+      hecarim_idle_103: -4102661916272676585
+      hecarim_idle_104: -1065090508428115617
+      hecarim_idle_105: 9045323068741871719
+      hecarim_idle_106: 8822519164747453282
+      hecarim_idle_107: -8809857472273710229
+      hecarim_idle_108: -4983054566277061960
+      hecarim_idle_109: -489928912100118657
+      hecarim_idle_11: -3687119827751420249
+      hecarim_idle_110: 3445701257574609838
+      hecarim_idle_111: -2503142159363845301
+      hecarim_idle_112: -4586211587238962812
+      hecarim_idle_113: -6235043576509239377
+      hecarim_idle_114: -6355399889610869111
+      hecarim_idle_115: 6945270029421418107
+      hecarim_idle_116: -1562300985002764325
+      hecarim_idle_117: 7430523879262350018
+      hecarim_idle_118: 6415573066372745492
+      hecarim_idle_119: 2794365265420860277
+      hecarim_idle_12: -3067309340371039332
+      hecarim_idle_13: -67494674755006148
+      hecarim_idle_14: 2497674050987335695
+      hecarim_idle_15: -498055045333482984
+      hecarim_idle_16: -2555244420245666713
+      hecarim_idle_17: -317358458927489038
+      hecarim_idle_18: -2975415650586045102
+      hecarim_idle_19: -3422882036858118157
+      hecarim_idle_2: -3995216292816830739
+      hecarim_idle_20: -6142682042911365645
+      hecarim_idle_21: 7819386534204606736
+      hecarim_idle_22: 5406303912314484917
+      hecarim_idle_23: 7574065281651255238
+      hecarim_idle_24: -8553476019354119090
+      hecarim_idle_25: 4512145606280325117
+      hecarim_idle_26: -8122617455659981508
+      hecarim_idle_27: 6135896083962592613
+      hecarim_idle_28: 1424961857628171768
+      hecarim_idle_29: 3713601700844193182
+      hecarim_idle_3: -7569624730750407471
+      hecarim_idle_30: -7495666411961661719
+      hecarim_idle_31: -1695804315472241466
+      hecarim_idle_32: -1365276788402998079
+      hecarim_idle_33: -8432913052749264197
+      hecarim_idle_34: -5256147062944590242
+      hecarim_idle_35: -2455980185315160342
+      hecarim_idle_36: -6599236114813642759
+      hecarim_idle_37: 6128319366249745126
+      hecarim_idle_38: -5101384781681940967
+      hecarim_idle_39: 5295927565343743473
+      hecarim_idle_4: 7297266259191611843
+      hecarim_idle_40: 1774070779121944294
+      hecarim_idle_41: -393649500551331779
+      hecarim_idle_42: 6274306619871100250
+      hecarim_idle_43: -805974539035541144
+      hecarim_idle_44: 6589119007904210050
+      hecarim_idle_45: 3725033046638088101
+      hecarim_idle_46: -5084685008121253565
+      hecarim_idle_47: 7351063963113498983
+      hecarim_idle_48: 8877760717397983500
+      hecarim_idle_49: 2675692601687108233
+      hecarim_idle_5: 2157312163684145280
+      hecarim_idle_50: -6626365670540533620
+      hecarim_idle_51: 7012556032731062914
+      hecarim_idle_52: 2861103485997165980
+      hecarim_idle_53: -7376435071855959687
+      hecarim_idle_54: -8187702467413670156
+      hecarim_idle_55: 7571255578594066049
+      hecarim_idle_56: 6496098886934229943
+      hecarim_idle_57: 1617211231139374252
+      hecarim_idle_58: 1850491964610010022
+      hecarim_idle_59: 5432349801615851869
+      hecarim_idle_6: -8182820000193753246
+      hecarim_idle_60: -9159684728983472847
+      hecarim_idle_61: -1026189832038895378
+      hecarim_idle_62: -7747119355376982712
+      hecarim_idle_63: 4192208589590943755
+      hecarim_idle_64: 2426813003519198224
+      hecarim_idle_65: 4552477365718581155
+      hecarim_idle_66: 998285243294764058
+      hecarim_idle_67: -5564840294349720334
+      hecarim_idle_68: 2776491801465774568
+      hecarim_idle_69: -1281578034622517912
+      hecarim_idle_7: -3437558690332790319
+      hecarim_idle_70: 5274090013029616918
+      hecarim_idle_71: -2120977379519765083
+      hecarim_idle_72: 3901015850534083414
+      hecarim_idle_73: -7345903275512222423
+      hecarim_idle_74: -211177314753147916
+      hecarim_idle_75: 3530183749967484546
+      hecarim_idle_76: 6430441606580365348
+      hecarim_idle_77: 7078854972162211249
+      hecarim_idle_78: -5357333467529157727
+      hecarim_idle_79: -5943597168654588541
+      hecarim_idle_8: 2216542243872451744
+      hecarim_idle_80: 9107260964482375363
+      hecarim_idle_81: 8051864569979361366
+      hecarim_idle_82: 8422008078958733972
+      hecarim_idle_83: 6487647514174641968
+      hecarim_idle_84: -8405134153044759000
+      hecarim_idle_85: 7071408501611749783
+      hecarim_idle_86: 3190505069407290561
+      hecarim_idle_87: -754866083050605258
+      hecarim_idle_88: 2842199730693455200
+      hecarim_idle_89: -8162185017120038786
+      hecarim_idle_9: 6270596052761846995
+      hecarim_idle_90: -6261509825534085153
+      hecarim_idle_91: -602544900801886538
+      hecarim_idle_92: -760605380928744154
+      hecarim_idle_93: 2673167608787992521
+      hecarim_idle_94: -7738164556108137467
+      hecarim_idle_95: -9203539220396518485
+      hecarim_idle_96: 4937288699720917580
+      hecarim_idle_97: 9029518992223448674
+      hecarim_idle_98: -8229178526191243451
+      hecarim_idle_99: 3373235525723395559
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

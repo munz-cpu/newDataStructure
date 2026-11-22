@@ -5,7 +5,8 @@ using System.Text;
 
 public static class 전장상태압축
 {
-    public const int 최대원본길이 = 262144;
+    // Full armies plus replicated crowd control and 64 skill zones need more than 256 KiB.
+    public const int 최대원본길이 = 524288;
     public const int 최대압축길이 = 최대원본길이 + 1024;
     static readonly UTF8Encoding 인코딩 = new(false, true);
 

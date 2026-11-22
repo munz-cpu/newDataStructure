@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: d58205ad41d354e45ba5963dde063500
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9085665127327743931
+    second: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_0
+  - first:
+      213: 3889727887536849754
+    second: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_1
+  - first:
+      213: 3846771735648079778
+    second: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_2
+  - first:
+      213: 8509758706307528950
+    second: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_3
+  - first:
+      213: -5390742637386460615
+    second: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_4
+  - first:
+      213: 8642643849343087676
+    second: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_5
+  - first:
+      213: 2299671468270473410
+    second: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_6
+  - first:
+      213: -4330179750276436963
+    second: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_7
+  - first:
+      213: -3650101848530245093
+    second: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_8
+  - first:
+      213: 7542044228274588497
+    second: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_9
+  - first:
+      213: -6720627755609225465
+    second: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_10
+  - first:
+      213: 810550274344593814
+    second: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_0
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 637
+        width: 54
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540c97164bb39e180800000000000000
+      internalID: -9085665127327743931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 636
+        width: 49
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a538091b7e61bf530800000000000000
+      internalID: 3889727887536849754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_2
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 636
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af0153338a726530800000000000000
+      internalID: 3846771735648079778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_3
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 628
+        width: 51
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f87fbde47cb81670800000000000000
+      internalID: 8509758706307528950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_4
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 368
+        width: 58
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9321707f12c3035b0800000000000000
+      internalID: -5390742637386460615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_5
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 371
+        width: 60
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c343f405ac6d0f770800000000000000
+      internalID: 8642643849343087676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_6
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 368
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0dc5624031aef10800000000000000
+      internalID: 2299671468270473410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_7
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 368
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1cee2b957c18e3c0800000000000000
+      internalID: -4330179750276436963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_8
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 104
+        width: 62
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1aab5435bb385dc0800000000000000
+      internalID: -3650101848530245093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_9
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 105
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b87922449baa860800000000000000
+      internalID: 7542044228274588497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_10
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 105
+        width: 75
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7070847e9a88bb2a0800000000000000
+      internalID: -6720627755609225465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_11
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 105
+        width: 61
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699a7e61e27af3b00800000000000000
+      internalID: 810550274344593814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_0: -9085665127327743931
+      HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_1: 3889727887536849754
+      HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_10: -6720627755609225465
+      HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_11: 810550274344593814
+      HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_2: 3846771735648079778
+      HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_3: 8509758706307528950
+      HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_4: -5390742637386460615
+      HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_5: 8642643849343087676
+      HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_6: 2299671468270473410
+      HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_7: -4330179750276436963
+      HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_8: -3650101848530245093
+      HiRezUnarmedKnight_Unarmed_export_SpinAttack_dir2_9: 7542044228274588497
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

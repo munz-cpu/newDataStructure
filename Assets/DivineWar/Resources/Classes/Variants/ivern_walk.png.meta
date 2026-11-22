@@ -1,0 +1,3745 @@
+fileFormatVersion: 2
+guid: fe67473636173574e895d3d868e28139
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 608044297704323530
+    second: ivern_walk_0
+  - first:
+      213: -5676557395959609110
+    second: ivern_walk_1
+  - first:
+      213: -2896984605461511324
+    second: ivern_walk_2
+  - first:
+      213: -8332093650144004247
+    second: ivern_walk_3
+  - first:
+      213: -6939942134400341418
+    second: ivern_walk_4
+  - first:
+      213: 2734955865487712051
+    second: ivern_walk_5
+  - first:
+      213: -8776734619509607142
+    second: ivern_walk_6
+  - first:
+      213: -7816192428206988640
+    second: ivern_walk_7
+  - first:
+      213: -4392367218479119735
+    second: ivern_walk_8
+  - first:
+      213: 5925639152145990031
+    second: ivern_walk_9
+  - first:
+      213: -934343781543767828
+    second: ivern_walk_10
+  - first:
+      213: -2893957424110338422
+    second: ivern_walk_11
+  - first:
+      213: 444609291572430840
+    second: ivern_walk_12
+  - first:
+      213: -3718716923923390711
+    second: ivern_walk_13
+  - first:
+      213: -5924142646574186346
+    second: ivern_walk_14
+  - first:
+      213: -7248384108195742938
+    second: ivern_walk_15
+  - first:
+      213: 371265830374761650
+    second: ivern_walk_16
+  - first:
+      213: -3763194590258329665
+    second: ivern_walk_17
+  - first:
+      213: -4863999448387213279
+    second: ivern_walk_18
+  - first:
+      213: 9146641595987206268
+    second: ivern_walk_19
+  - first:
+      213: -2474904005145040449
+    second: ivern_walk_20
+  - first:
+      213: -4686193995866190957
+    second: ivern_walk_21
+  - first:
+      213: 4105127499136698407
+    second: ivern_walk_22
+  - first:
+      213: 2905296344201998264
+    second: ivern_walk_23
+  - first:
+      213: 8241562893300613468
+    second: ivern_walk_24
+  - first:
+      213: -8601840638491367193
+    second: ivern_walk_25
+  - first:
+      213: -5327326266130301180
+    second: ivern_walk_26
+  - first:
+      213: 1938530227803056520
+    second: ivern_walk_27
+  - first:
+      213: 6334971254002100075
+    second: ivern_walk_28
+  - first:
+      213: 804888771918179718
+    second: ivern_walk_29
+  - first:
+      213: 611515076756825433
+    second: ivern_walk_30
+  - first:
+      213: 1582934166507643059
+    second: ivern_walk_31
+  - first:
+      213: -4717265814517227212
+    second: ivern_walk_32
+  - first:
+      213: -3691817366473491809
+    second: ivern_walk_33
+  - first:
+      213: -3898043020341014685
+    second: ivern_walk_34
+  - first:
+      213: 6478172073732772053
+    second: ivern_walk_35
+  - first:
+      213: 6141675437092606550
+    second: ivern_walk_36
+  - first:
+      213: 5503885842803627812
+    second: ivern_walk_37
+  - first:
+      213: -669127667514808354
+    second: ivern_walk_38
+  - first:
+      213: 6023718212393466100
+    second: ivern_walk_39
+  - first:
+      213: 6907186987706543884
+    second: ivern_walk_40
+  - first:
+      213: 5452452244782766648
+    second: ivern_walk_41
+  - first:
+      213: 990767244680609807
+    second: ivern_walk_42
+  - first:
+      213: -7882310510405343287
+    second: ivern_walk_43
+  - first:
+      213: 4539051646780500264
+    second: ivern_walk_44
+  - first:
+      213: 5608933168979925104
+    second: ivern_walk_45
+  - first:
+      213: -4914485310144877665
+    second: ivern_walk_46
+  - first:
+      213: -632121624188323005
+    second: ivern_walk_47
+  - first:
+      213: 1315940447385171972
+    second: ivern_walk_48
+  - first:
+      213: 6838865550340967699
+    second: ivern_walk_49
+  - first:
+      213: -9208706688567197731
+    second: ivern_walk_50
+  - first:
+      213: -5402840222121830972
+    second: ivern_walk_51
+  - first:
+      213: -3080976678881363714
+    second: ivern_walk_52
+  - first:
+      213: -8829321334224003687
+    second: ivern_walk_53
+  - first:
+      213: 1725053021689083651
+    second: ivern_walk_54
+  - first:
+      213: -2323636438082366145
+    second: ivern_walk_55
+  - first:
+      213: -3070651426576990867
+    second: ivern_walk_56
+  - first:
+      213: 5622615193145145010
+    second: ivern_walk_57
+  - first:
+      213: 3204576024993776584
+    second: ivern_walk_58
+  - first:
+      213: 8061881461874926805
+    second: ivern_walk_59
+  - first:
+      213: -5528066670027864481
+    second: ivern_walk_60
+  - first:
+      213: -2929464065542984107
+    second: ivern_walk_61
+  - first:
+      213: 2219181165463572181
+    second: ivern_walk_62
+  - first:
+      213: 8206682457425413446
+    second: ivern_walk_63
+  - first:
+      213: 5264730896986280434
+    second: ivern_walk_64
+  - first:
+      213: -2431422834209999705
+    second: ivern_walk_65
+  - first:
+      213: 7288096307766373175
+    second: ivern_walk_66
+  - first:
+      213: -3713401578276948078
+    second: ivern_walk_67
+  - first:
+      213: 248807429878543905
+    second: ivern_walk_68
+  - first:
+      213: 8060153307433298032
+    second: ivern_walk_69
+  - first:
+      213: -7923841264235250975
+    second: ivern_walk_70
+  - first:
+      213: 6128866393494065982
+    second: ivern_walk_71
+  - first:
+      213: -6058224350793129521
+    second: ivern_walk_72
+  - first:
+      213: 1502566129751336176
+    second: ivern_walk_73
+  - first:
+      213: -7687965421836556887
+    second: ivern_walk_74
+  - first:
+      213: -275220210027220198
+    second: ivern_walk_75
+  - first:
+      213: 3395994498934570206
+    second: ivern_walk_76
+  - first:
+      213: 2538215328834517581
+    second: ivern_walk_77
+  - first:
+      213: 3152728292239342209
+    second: ivern_walk_78
+  - first:
+      213: 8837139234466352832
+    second: ivern_walk_79
+  - first:
+      213: -3760192724072185678
+    second: ivern_walk_80
+  - first:
+      213: -2558355116152351917
+    second: ivern_walk_81
+  - first:
+      213: -3114477107350408431
+    second: ivern_walk_82
+  - first:
+      213: 4847056411883117314
+    second: ivern_walk_83
+  - first:
+      213: 2288331186386821830
+    second: ivern_walk_84
+  - first:
+      213: 3459711115661027885
+    second: ivern_walk_85
+  - first:
+      213: 6758000217333443864
+    second: ivern_walk_86
+  - first:
+      213: 5864352310377794313
+    second: ivern_walk_87
+  - first:
+      213: 6897590104221691454
+    second: ivern_walk_88
+  - first:
+      213: -1046020421618680343
+    second: ivern_walk_89
+  - first:
+      213: -5059374613009094723
+    second: ivern_walk_90
+  - first:
+      213: 3961611537379767901
+    second: ivern_walk_91
+  - first:
+      213: 3020500632737821143
+    second: ivern_walk_92
+  - first:
+      213: -8901249398613880856
+    second: ivern_walk_93
+  - first:
+      213: 5783604915052805316
+    second: ivern_walk_94
+  - first:
+      213: -3205098860403685723
+    second: ivern_walk_95
+  - first:
+      213: 2766223564628968245
+    second: ivern_walk_96
+  - first:
+      213: 8400254025495203417
+    second: ivern_walk_97
+  - first:
+      213: 4735974130423834831
+    second: ivern_walk_98
+  - first:
+      213: 6482688349698412282
+    second: ivern_walk_99
+  - first:
+      213: 5724037906726210204
+    second: ivern_walk_100
+  - first:
+      213: -6359417513759202507
+    second: ivern_walk_101
+  - first:
+      213: 8649758727544425276
+    second: ivern_walk_102
+  - first:
+      213: 2120171790707205173
+    second: ivern_walk_103
+  - first:
+      213: -2971881762761118924
+    second: ivern_walk_104
+  - first:
+      213: -3867414347425022987
+    second: ivern_walk_105
+  - first:
+      213: 5399477693957663099
+    second: ivern_walk_106
+  - first:
+      213: 6915975434568971414
+    second: ivern_walk_107
+  - first:
+      213: -1369214369130748180
+    second: ivern_walk_108
+  - first:
+      213: 2316752261539597354
+    second: ivern_walk_109
+  - first:
+      213: 7714359454727695535
+    second: ivern_walk_110
+  - first:
+      213: 2586203189463932379
+    second: ivern_walk_111
+  - first:
+      213: 1642484193066032497
+    second: ivern_walk_112
+  - first:
+      213: 2402407280394214511
+    second: ivern_walk_113
+  - first:
+      213: 1989904193154731664
+    second: ivern_walk_114
+  - first:
+      213: -2936244045647173951
+    second: ivern_walk_115
+  - first:
+      213: 4569875052033765926
+    second: ivern_walk_116
+  - first:
+      213: 6865311314337097337
+    second: ivern_walk_117
+  - first:
+      213: -7888561369501414763
+    second: ivern_walk_118
+  - first:
+      213: -8345123311830492481
+    second: ivern_walk_119
+  - first:
+      213: 8963283815400725461
+    second: ivern_walk_120
+  - first:
+      213: -6086577251265935472
+    second: ivern_walk_121
+  - first:
+      213: -2137648778021307351
+    second: ivern_walk_122
+  - first:
+      213: -2735413064307287275
+    second: ivern_walk_123
+  - first:
+      213: -4754066500957658474
+    second: ivern_walk_124
+  - first:
+      213: 8828873234325152733
+    second: ivern_walk_125
+  - first:
+      213: 7653765777065462313
+    second: ivern_walk_126
+  - first:
+      213: 2444516101968093005
+    second: ivern_walk_127
+  - first:
+      213: 8146445530649070011
+    second: ivern_walk_128
+  - first:
+      213: -2619933098247297711
+    second: ivern_walk_129
+  - first:
+      213: -5447018023886514984
+    second: ivern_walk_130
+  - first:
+      213: -8119697413387520293
+    second: ivern_walk_131
+  - first:
+      213: -9201588238146753629
+    second: ivern_walk_132
+  - first:
+      213: -7856571105606827153
+    second: ivern_walk_133
+  - first:
+      213: 4174724218162693166
+    second: ivern_walk_134
+  - first:
+      213: 809951134265233220
+    second: ivern_walk_135
+  - first:
+      213: -1680392779952173716
+    second: ivern_walk_136
+  - first:
+      213: -8772931947318152934
+    second: ivern_walk_137
+  - first:
+      213: 6861468138414219095
+    second: ivern_walk_138
+  - first:
+      213: 117945629746591844
+    second: ivern_walk_139
+  - first:
+      213: 2512726074798638462
+    second: ivern_walk_000
+  - first:
+      213: 1560048061417618716
+    second: ivern_walk_001
+  - first:
+      213: 8206778544932343511
+    second: ivern_walk_002
+  - first:
+      213: 5794782738129860445
+    second: ivern_walk_003
+  - first:
+      213: 7766109618907068163
+    second: ivern_walk_004
+  - first:
+      213: -3208969838768587405
+    second: ivern_walk_005
+  - first:
+      213: 7890553981396266733
+    second: ivern_walk_006
+  - first:
+      213: -5433276574370234951
+    second: ivern_walk_007
+  - first:
+      213: -4226760922222808141
+    second: ivern_walk_008
+  - first:
+      213: 5359497524788154324
+    second: ivern_walk_009
+  - first:
+      213: 5713186935172145804
+    second: ivern_walk_010
+  - first:
+      213: -5798374439911743492
+    second: ivern_walk_011
+  - first:
+      213: 5227016731244088464
+    second: ivern_walk_012
+  - first:
+      213: -6357807053898256325
+    second: ivern_walk_013
+  - first:
+      213: 2017321667063847846
+    second: ivern_walk_014
+  - first:
+      213: -4483554949325823854
+    second: ivern_walk_015
+  - first:
+      213: 4665799833149541342
+    second: ivern_walk_016
+  - first:
+      213: -8817518391432759605
+    second: ivern_walk_017
+  - first:
+      213: -6835065469604840140
+    second: ivern_walk_018
+  - first:
+      213: -9021094098460485536
+    second: ivern_walk_019
+  - first:
+      213: -6872486217241921873
+    second: ivern_walk_020
+  - first:
+      213: 1181572201287394722
+    second: ivern_walk_021
+  - first:
+      213: 3509877331726072997
+    second: ivern_walk_022
+  - first:
+      213: -4698373967004267378
+    second: ivern_walk_023
+  - first:
+      213: -1909133810341381153
+    second: ivern_walk_024
+  - first:
+      213: 6506399321291199755
+    second: ivern_walk_025
+  - first:
+      213: -5260929504538696964
+    second: ivern_walk_026
+  - first:
+      213: 974387012575726000
+    second: ivern_walk_027
+  - first:
+      213: 2697009442336830528
+    second: ivern_walk_028
+  - first:
+      213: 8777740146049786697
+    second: ivern_walk_029
+  - first:
+      213: 2246847287631239002
+    second: ivern_walk_030
+  - first:
+      213: -6271737464762092149
+    second: ivern_walk_031
+  - first:
+      213: 1671252088760922692
+    second: ivern_walk_032
+  - first:
+      213: 8329649598458334636
+    second: ivern_walk_033
+  - first:
+      213: 2423415401641817148
+    second: ivern_walk_034
+  - first:
+      213: -1889570962212402179
+    second: ivern_walk_035
+  - first:
+      213: 703318080480135680
+    second: ivern_walk_036
+  - first:
+      213: 1477311373667720948
+    second: ivern_walk_037
+  - first:
+      213: -4812022471837208398
+    second: ivern_walk_038
+  - first:
+      213: 6321555859651482440
+    second: ivern_walk_039
+  - first:
+      213: -4544459969862271730
+    second: ivern_walk_040
+  - first:
+      213: -1969352625757099444
+    second: ivern_walk_041
+  - first:
+      213: 5358188322371730235
+    second: ivern_walk_042
+  - first:
+      213: 4637654051290824753
+    second: ivern_walk_043
+  - first:
+      213: 7544662245652334590
+    second: ivern_walk_044
+  - first:
+      213: -6845681988381347502
+    second: ivern_walk_045
+  - first:
+      213: -2843374239701845728
+    second: ivern_walk_046
+  - first:
+      213: -6869903990667521394
+    second: ivern_walk_047
+  - first:
+      213: 5634097938714685946
+    second: ivern_walk_048
+  - first:
+      213: 3210605672276050027
+    second: ivern_walk_049
+  - first:
+      213: 3659662899103732800
+    second: ivern_walk_050
+  - first:
+      213: -1830954141088438125
+    second: ivern_walk_051
+  - first:
+      213: -5939923119079201093
+    second: ivern_walk_052
+  - first:
+      213: -3403268436157562673
+    second: ivern_walk_053
+  - first:
+      213: 4873708202863053838
+    second: ivern_walk_054
+  - first:
+      213: -6887538920935794337
+    second: ivern_walk_055
+  - first:
+      213: 7277262433222550431
+    second: ivern_walk_056
+  - first:
+      213: -4226839149820928676
+    second: ivern_walk_057
+  - first:
+      213: -8787179578870161333
+    second: ivern_walk_058
+  - first:
+      213: -3110231556148904992
+    second: ivern_walk_059
+  - first:
+      213: -6796551847633124425
+    second: ivern_walk_060
+  - first:
+      213: -359908452264188648
+    second: ivern_walk_061
+  - first:
+      213: 5590571235464486601
+    second: ivern_walk_062
+  - first:
+      213: -618979013843831866
+    second: ivern_walk_063
+  - first:
+      213: 7091606842493976235
+    second: ivern_walk_064
+  - first:
+      213: -2125185007595329222
+    second: ivern_walk_065
+  - first:
+      213: 7887539973756944994
+    second: ivern_walk_066
+  - first:
+      213: -2004325955824580033
+    second: ivern_walk_067
+  - first:
+      213: 2492293397560973424
+    second: ivern_walk_068
+  - first:
+      213: 5964474416132569729
+    second: ivern_walk_069
+  - first:
+      213: -5732607530339665366
+    second: ivern_walk_070
+  - first:
+      213: -701074391691346054
+    second: ivern_walk_071
+  - first:
+      213: 6639404456504776701
+    second: ivern_walk_072
+  - first:
+      213: 8032775434704910517
+    second: ivern_walk_073
+  - first:
+      213: -7054856014534106890
+    second: ivern_walk_074
+  - first:
+      213: 484898135671306814
+    second: ivern_walk_075
+  - first:
+      213: -2582848886738178260
+    second: ivern_walk_076
+  - first:
+      213: 3687468707098833113
+    second: ivern_walk_077
+  - first:
+      213: 8164121339728915546
+    second: ivern_walk_078
+  - first:
+      213: 4157278174929070230
+    second: ivern_walk_079
+  - first:
+      213: 2005845399928463411
+    second: ivern_walk_080
+  - first:
+      213: 1348358732080600007
+    second: ivern_walk_081
+  - first:
+      213: 6457141394935917361
+    second: ivern_walk_082
+  - first:
+      213: -5146812279078511154
+    second: ivern_walk_083
+  - first:
+      213: 8751185701368921087
+    second: ivern_walk_084
+  - first:
+      213: 2251641113193796138
+    second: ivern_walk_085
+  - first:
+      213: 1703486462954708756
+    second: ivern_walk_086
+  - first:
+      213: -5638535266057255500
+    second: ivern_walk_087
+  - first:
+      213: 3630318306519287143
+    second: ivern_walk_088
+  - first:
+      213: 7916049546013359516
+    second: ivern_walk_089
+  - first:
+      213: -2627108282181943719
+    second: ivern_walk_090
+  - first:
+      213: -936111658256410884
+    second: ivern_walk_091
+  - first:
+      213: 2377547416211472940
+    second: ivern_walk_092
+  - first:
+      213: -8434985288113136731
+    second: ivern_walk_093
+  - first:
+      213: -7838710871491938717
+    second: ivern_walk_094
+  - first:
+      213: 3039099946506289785
+    second: ivern_walk_095
+  - first:
+      213: 5760124669072337413
+    second: ivern_walk_096
+  - first:
+      213: 5847145023544725622
+    second: ivern_walk_097
+  - first:
+      213: -3092123212866199696
+    second: ivern_walk_098
+  - first:
+      213: 4939190604210775221
+    second: ivern_walk_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ivern_walk_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e750c325d0ffed220800000000000000
+      internalID: 2512726074798638462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d7555427766a510800000000000000
+      internalID: 1560048061417618716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de4df0fa9554e170800000000000000
+      internalID: 8206778544932343511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57bbc0c2343b6050800000000000000
+      internalID: 5794782738129860445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30733b14d83c6cb60800000000000000
+      internalID: 7766109618907068163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d7149fee27773d0800000000000000
+      internalID: -3208969838768587405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee2b264a01e08d60800000000000000
+      internalID: 7890553981396266733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdf53a0ebf1994b0800000000000000
+      internalID: -5433276574370234951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b33868e5578755c0800000000000000
+      internalID: -4226760922222808141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df459b5a92c06a40800000000000000
+      internalID: 5359497524788154324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82a65e6f31594f40800000000000000
+      internalID: 5713186935172145804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff1b520b29088fa0800000000000000
+      internalID: -5798374439911743492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09cc3dce5081a8840800000000000000
+      internalID: 5227016731244088464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30fbe96b2884c7a0800000000000000
+      internalID: -6357807053898256325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab1a033e57fefb10800000000000000
+      internalID: 2017321667063847846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2906d7a478637c1c0800000000000000
+      internalID: -4483554949325823854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb84ff4a3040c040800000000000000
+      internalID: 4665799833149541342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc63d2e7db1e1a580800000000000000
+      internalID: -8817518391432759605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d3aab4b28f421a0800000000000000
+      internalID: -6835065469604840140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068d3e796b2aec280800000000000000
+      internalID: -9021094098460485536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6f689823600a0a0800000000000000
+      internalID: -6872486217241921873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5263628a9c56010800000000000000
+      internalID: 1181572201287394722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac7aba46d695b030800000000000000
+      internalID: 3509877331726072997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c84c225c50cceb0800000000000000
+      internalID: -4698373967004267378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdbf9ed1ae46185e0800000000000000
+      internalID: -1909133810341381153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b059768d5bf5b4a50800000000000000
+      internalID: 6506399321291199755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2699d3d7c6df6b0800000000000000
+      internalID: -5260929504538696964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9845e43d7b58d00800000000000000
+      internalID: 974387012575726000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0447c566cc3bd6520800000000000000
+      internalID: 2697009442336830528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943abf7082cc0d970800000000000000
+      internalID: 8777740146049786697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a575fcb24b76e2f10800000000000000
+      internalID: 2246847287631239002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85b850410056f8a0800000000000000
+      internalID: -6271737464762092149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44279b88bea713710800000000000000
+      internalID: 1671252088760922692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad859b6d2cd89370800000000000000
+      internalID: 8329649598458334636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c34321ec773b1a120800000000000000
+      internalID: 2423415401641817148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbcf63a835e6c5e0800000000000000
+      internalID: -1889570962212402179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00ac02f5110b2c900800000000000000
+      internalID: 703318080480135680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fedb120ed6708410800000000000000
+      internalID: 1477311373667720948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b032fa9e03483db0800000000000000
+      internalID: -4812022471837208398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843d052bf8daab750800000000000000
+      internalID: 6321555859651482440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d70682cb5dee0c0800000000000000
+      internalID: -4544459969862271730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ae34098347ba4e0800000000000000
+      internalID: -1969352625757099444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bfc9ae3eb1c5a40800000000000000
+      internalID: 5358188322371730235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130475ec9c14c5040800000000000000
+      internalID: 4637654051290824753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef7886ec65604b860800000000000000
+      internalID: 7544662245652334590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2517d3560804ff0a0800000000000000
+      internalID: -6845681988381347502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029331f913e4a88d0800000000000000
+      internalID: -2843374239701845728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82593308b239a0a0800000000000000
+      internalID: -6869903990667521394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af179da7936503e40800000000000000
+      internalID: 5634097938714685946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b604ed139dc5e8c20800000000000000
+      internalID: 3210605672276050027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04411ca540cb9c230800000000000000
+      internalID: 3659662899103732800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398a464d8e42796e0800000000000000
+      internalID: -1830954141088438125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb6672ee467219da0800000000000000
+      internalID: -5939923119079201093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0878b736925c0d0800000000000000
+      internalID: -3403268436157562673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c4f8ad9c3e2a340800000000000000
+      internalID: 4873708202863053838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59d1f8d7db8a60a0800000000000000
+      internalID: -6887538920935794337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93668d50a70ef460800000000000000
+      internalID: 7277262433222550431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d953020304755c0800000000000000
+      internalID: -4226839149820928676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40a0efbabaad0680800000000000000
+      internalID: -8787179578870161333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebb88ed0ec36d4d0800000000000000
+      internalID: -3110231556148904992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b38d40ba1ccda1a0800000000000000
+      internalID: -6796551847633124425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815e1276b29510bf0800000000000000
+      internalID: -359908452264188648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce90652be2b59d40800000000000000
+      internalID: 5590571235464486601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c3ba6ccdd1f867f0800000000000000
+      internalID: -618979013843831866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae359da9d27a6260800000000000000
+      internalID: 7091606842493976235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a396b4cce73d182e0800000000000000
+      internalID: -2125185007595329222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2620a7fe0db267d60800000000000000
+      internalID: 7887539973756944994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a0bfc99243f24e0800000000000000
+      internalID: -2004325955824580033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0785cade3a7669220800000000000000
+      internalID: 2492293397560973424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18abc7d51e116c250800000000000000
+      internalID: 5964474416132569729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2aff55e2dfa170b0800000000000000
+      internalID: -5732607530339665366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f3d122e884546f0800000000000000
+      internalID: -701074391691346054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7dc161d27e32c50800000000000000
+      internalID: 6639404456504776701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8f11ac2b62a7f60800000000000000
+      internalID: 8032775434704910517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0aa2045dd181e90800000000000000
+      internalID: -7054856014534106890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3affe80944bab600800000000000000
+      internalID: 484898135671306814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2f257d3f90e72cd0800000000000000
+      internalID: -2582848886738178260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0bef680458c2330800000000000000
+      internalID: 3687468707098833113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c6ab56a19cc4170800000000000000
+      internalID: 8164121339728915546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698a121597e91b930800000000000000
+      internalID: 4157278174929070230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330661983c136db10800000000000000
+      internalID: 2005845399928463411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3d5777f1556b210800000000000000
+      internalID: 1348358732080600007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b20a523ef5c9950800000000000000
+      internalID: 6457141394935917361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd18eb4089d298b0800000000000000
+      internalID: -5146812279078511154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb72959705727970800000000000000
+      internalID: 8751185701368921087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22d499a9af6f3f10800000000000000
+      internalID: 2251641113193796138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f1a10a9eff3a710800000000000000
+      internalID: 1703486462954708756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5052dbc06efb1b0800000000000000
+      internalID: -5638535266057255500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7650ea9f34b716230800000000000000
+      internalID: 3630318306519287143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9db48efe157bdd60800000000000000
+      internalID: 7916049546013359516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95efe06bfe2aa8bd0800000000000000
+      internalID: -2627108282181943719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6568318634203f0800000000000000
+      internalID: -936111658256410884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22ceeb37cebef020800000000000000
+      internalID: 2377547416211472940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abde582299e0fa80800000000000000
+      internalID: -8434985288113136731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 366fabf5efd473390800000000000000
+      internalID: -7838710871491938717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9728a6cac4d0d2a20800000000000000
+      internalID: 3039099946506289785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a650a3ed210ff40800000000000000
+      internalID: 5760124669072337413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670939e5b6b352150800000000000000
+      internalID: 5847145023544725622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fde5712529615d0800000000000000
+      internalID: -3092123212866199696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b42ee18fa78b8440800000000000000
+      internalID: 4939190604210775221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a494f162edf6f40800000000000000
+      internalID: 5724037906726210204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5332cf1077fceb7a0800000000000000
+      internalID: -6359417513759202507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3bce1cfbbd1a0870800000000000000
+      internalID: 8649758727544425276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53428efa20d5c6d10800000000000000
+      internalID: 2120171790707205173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b69205841c1c6d0800000000000000
+      internalID: -2971881762761118924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb7b76342f245ac0800000000000000
+      internalID: -3867414347425022987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79edf0ea5cceea40800000000000000
+      internalID: 5399477693957663099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694bfcce30b7aff50800000000000000
+      internalID: 6915975434568971414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6e99229c29ffce0800000000000000
+      internalID: -1369214369130748180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c86ad38e1c62020800000000000000
+      internalID: 2316752261539597354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac68b83d09ee0b60800000000000000
+      internalID: 7714359454727695535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdddaf8391a04e320800000000000000
+      internalID: 2586203189463932379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17d15ecdba64bc610800000000000000
+      internalID: 1642484193066032497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c95b961b0175120800000000000000
+      internalID: 2402407280394214511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09e4c0a125f8d9b10800000000000000
+      internalID: 1989904193154731664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6285de89d5047d0800000000000000
+      internalID: -2936244045647173951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6227468c5257b6f30800000000000000
+      internalID: 4569875052033765926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9766883344c764f50800000000000000
+      internalID: 6865311314337097337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59acff5da33368290800000000000000
+      internalID: -7888561369501414763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_walk_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba138fef8a203c80800000000000000
+      internalID: -8345123311830492481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ivern_walk_0: 608044297704323530
+      ivern_walk_000: 2512726074798638462
+      ivern_walk_001: 1560048061417618716
+      ivern_walk_002: 8206778544932343511
+      ivern_walk_003: 5794782738129860445
+      ivern_walk_004: 7766109618907068163
+      ivern_walk_005: -3208969838768587405
+      ivern_walk_006: 7890553981396266733
+      ivern_walk_007: -5433276574370234951
+      ivern_walk_008: -4226760922222808141
+      ivern_walk_009: 5359497524788154324
+      ivern_walk_010: 5713186935172145804
+      ivern_walk_011: -5798374439911743492
+      ivern_walk_012: 5227016731244088464
+      ivern_walk_013: -6357807053898256325
+      ivern_walk_014: 2017321667063847846
+      ivern_walk_015: -4483554949325823854
+      ivern_walk_016: 4665799833149541342
+      ivern_walk_017: -8817518391432759605
+      ivern_walk_018: -6835065469604840140
+      ivern_walk_019: -9021094098460485536
+      ivern_walk_020: -6872486217241921873
+      ivern_walk_021: 1181572201287394722
+      ivern_walk_022: 3509877331726072997
+      ivern_walk_023: -4698373967004267378
+      ivern_walk_024: -1909133810341381153
+      ivern_walk_025: 6506399321291199755
+      ivern_walk_026: -5260929504538696964
+      ivern_walk_027: 974387012575726000
+      ivern_walk_028: 2697009442336830528
+      ivern_walk_029: 8777740146049786697
+      ivern_walk_030: 2246847287631239002
+      ivern_walk_031: -6271737464762092149
+      ivern_walk_032: 1671252088760922692
+      ivern_walk_033: 8329649598458334636
+      ivern_walk_034: 2423415401641817148
+      ivern_walk_035: -1889570962212402179
+      ivern_walk_036: 703318080480135680
+      ivern_walk_037: 1477311373667720948
+      ivern_walk_038: -4812022471837208398
+      ivern_walk_039: 6321555859651482440
+      ivern_walk_040: -4544459969862271730
+      ivern_walk_041: -1969352625757099444
+      ivern_walk_042: 5358188322371730235
+      ivern_walk_043: 4637654051290824753
+      ivern_walk_044: 7544662245652334590
+      ivern_walk_045: -6845681988381347502
+      ivern_walk_046: -2843374239701845728
+      ivern_walk_047: -6869903990667521394
+      ivern_walk_048: 5634097938714685946
+      ivern_walk_049: 3210605672276050027
+      ivern_walk_050: 3659662899103732800
+      ivern_walk_051: -1830954141088438125
+      ivern_walk_052: -5939923119079201093
+      ivern_walk_053: -3403268436157562673
+      ivern_walk_054: 4873708202863053838
+      ivern_walk_055: -6887538920935794337
+      ivern_walk_056: 7277262433222550431
+      ivern_walk_057: -4226839149820928676
+      ivern_walk_058: -8787179578870161333
+      ivern_walk_059: -3110231556148904992
+      ivern_walk_060: -6796551847633124425
+      ivern_walk_061: -359908452264188648
+      ivern_walk_062: 5590571235464486601
+      ivern_walk_063: -618979013843831866
+      ivern_walk_064: 7091606842493976235
+      ivern_walk_065: -2125185007595329222
+      ivern_walk_066: 7887539973756944994
+      ivern_walk_067: -2004325955824580033
+      ivern_walk_068: 2492293397560973424
+      ivern_walk_069: 5964474416132569729
+      ivern_walk_070: -5732607530339665366
+      ivern_walk_071: -701074391691346054
+      ivern_walk_072: 6639404456504776701
+      ivern_walk_073: 8032775434704910517
+      ivern_walk_074: -7054856014534106890
+      ivern_walk_075: 484898135671306814
+      ivern_walk_076: -2582848886738178260
+      ivern_walk_077: 3687468707098833113
+      ivern_walk_078: 8164121339728915546
+      ivern_walk_079: 4157278174929070230
+      ivern_walk_080: 2005845399928463411
+      ivern_walk_081: 1348358732080600007
+      ivern_walk_082: 6457141394935917361
+      ivern_walk_083: -5146812279078511154
+      ivern_walk_084: 8751185701368921087
+      ivern_walk_085: 2251641113193796138
+      ivern_walk_086: 1703486462954708756
+      ivern_walk_087: -5638535266057255500
+      ivern_walk_088: 3630318306519287143
+      ivern_walk_089: 7916049546013359516
+      ivern_walk_090: -2627108282181943719
+      ivern_walk_091: -936111658256410884
+      ivern_walk_092: 2377547416211472940
+      ivern_walk_093: -8434985288113136731
+      ivern_walk_094: -7838710871491938717
+      ivern_walk_095: 3039099946506289785
+      ivern_walk_096: 5760124669072337413
+      ivern_walk_097: 5847145023544725622
+      ivern_walk_098: -3092123212866199696
+      ivern_walk_099: 4939190604210775221
+      ivern_walk_1: -5676557395959609110
+      ivern_walk_10: -934343781543767828
+      ivern_walk_100: 5724037906726210204
+      ivern_walk_101: -6359417513759202507
+      ivern_walk_102: 8649758727544425276
+      ivern_walk_103: 2120171790707205173
+      ivern_walk_104: -2971881762761118924
+      ivern_walk_105: -3867414347425022987
+      ivern_walk_106: 5399477693957663099
+      ivern_walk_107: 6915975434568971414
+      ivern_walk_108: -1369214369130748180
+      ivern_walk_109: 2316752261539597354
+      ivern_walk_11: -2893957424110338422
+      ivern_walk_110: 7714359454727695535
+      ivern_walk_111: 2586203189463932379
+      ivern_walk_112: 1642484193066032497
+      ivern_walk_113: 2402407280394214511
+      ivern_walk_114: 1989904193154731664
+      ivern_walk_115: -2936244045647173951
+      ivern_walk_116: 4569875052033765926
+      ivern_walk_117: 6865311314337097337
+      ivern_walk_118: -7888561369501414763
+      ivern_walk_119: -8345123311830492481
+      ivern_walk_12: 444609291572430840
+      ivern_walk_120: 8963283815400725461
+      ivern_walk_121: -6086577251265935472
+      ivern_walk_122: -2137648778021307351
+      ivern_walk_123: -2735413064307287275
+      ivern_walk_124: -4754066500957658474
+      ivern_walk_125: 8828873234325152733
+      ivern_walk_126: 7653765777065462313
+      ivern_walk_127: 2444516101968093005
+      ivern_walk_128: 8146445530649070011
+      ivern_walk_129: -2619933098247297711
+      ivern_walk_13: -3718716923923390711
+      ivern_walk_130: -5447018023886514984
+      ivern_walk_131: -8119697413387520293
+      ivern_walk_132: -9201588238146753629
+      ivern_walk_133: -7856571105606827153
+      ivern_walk_134: 4174724218162693166
+      ivern_walk_135: 809951134265233220
+      ivern_walk_136: -1680392779952173716
+      ivern_walk_137: -8772931947318152934
+      ivern_walk_138: 6861468138414219095
+      ivern_walk_139: 117945629746591844
+      ivern_walk_14: -5924142646574186346
+      ivern_walk_15: -7248384108195742938
+      ivern_walk_16: 371265830374761650
+      ivern_walk_17: -3763194590258329665
+      ivern_walk_18: -4863999448387213279
+      ivern_walk_19: 9146641595987206268
+      ivern_walk_2: -2896984605461511324
+      ivern_walk_20: -2474904005145040449
+      ivern_walk_21: -4686193995866190957
+      ivern_walk_22: 4105127499136698407
+      ivern_walk_23: 2905296344201998264
+      ivern_walk_24: 8241562893300613468
+      ivern_walk_25: -8601840638491367193
+      ivern_walk_26: -5327326266130301180
+      ivern_walk_27: 1938530227803056520
+      ivern_walk_28: 6334971254002100075
+      ivern_walk_29: 804888771918179718
+      ivern_walk_3: -8332093650144004247
+      ivern_walk_30: 611515076756825433
+      ivern_walk_31: 1582934166507643059
+      ivern_walk_32: -4717265814517227212
+      ivern_walk_33: -3691817366473491809
+      ivern_walk_34: -3898043020341014685
+      ivern_walk_35: 6478172073732772053
+      ivern_walk_36: 6141675437092606550
+      ivern_walk_37: 5503885842803627812
+      ivern_walk_38: -669127667514808354
+      ivern_walk_39: 6023718212393466100
+      ivern_walk_4: -6939942134400341418
+      ivern_walk_40: 6907186987706543884
+      ivern_walk_41: 5452452244782766648
+      ivern_walk_42: 990767244680609807
+      ivern_walk_43: -7882310510405343287
+      ivern_walk_44: 4539051646780500264
+      ivern_walk_45: 5608933168979925104
+      ivern_walk_46: -4914485310144877665
+      ivern_walk_47: -632121624188323005
+      ivern_walk_48: 1315940447385171972
+      ivern_walk_49: 6838865550340967699
+      ivern_walk_5: 2734955865487712051
+      ivern_walk_50: -9208706688567197731
+      ivern_walk_51: -5402840222121830972
+      ivern_walk_52: -3080976678881363714
+      ivern_walk_53: -8829321334224003687
+      ivern_walk_54: 1725053021689083651
+      ivern_walk_55: -2323636438082366145
+      ivern_walk_56: -3070651426576990867
+      ivern_walk_57: 5622615193145145010
+      ivern_walk_58: 3204576024993776584
+      ivern_walk_59: 8061881461874926805
+      ivern_walk_6: -8776734619509607142
+      ivern_walk_60: -5528066670027864481
+      ivern_walk_61: -2929464065542984107
+      ivern_walk_62: 2219181165463572181
+      ivern_walk_63: 8206682457425413446
+      ivern_walk_64: 5264730896986280434
+      ivern_walk_65: -2431422834209999705
+      ivern_walk_66: 7288096307766373175
+      ivern_walk_67: -3713401578276948078
+      ivern_walk_68: 248807429878543905
+      ivern_walk_69: 8060153307433298032
+      ivern_walk_7: -7816192428206988640
+      ivern_walk_70: -7923841264235250975
+      ivern_walk_71: 6128866393494065982
+      ivern_walk_72: -6058224350793129521
+      ivern_walk_73: 1502566129751336176
+      ivern_walk_74: -7687965421836556887
+      ivern_walk_75: -275220210027220198
+      ivern_walk_76: 3395994498934570206
+      ivern_walk_77: 2538215328834517581
+      ivern_walk_78: 3152728292239342209
+      ivern_walk_79: 8837139234466352832
+      ivern_walk_8: -4392367218479119735
+      ivern_walk_80: -3760192724072185678
+      ivern_walk_81: -2558355116152351917
+      ivern_walk_82: -3114477107350408431
+      ivern_walk_83: 4847056411883117314
+      ivern_walk_84: 2288331186386821830
+      ivern_walk_85: 3459711115661027885
+      ivern_walk_86: 6758000217333443864
+      ivern_walk_87: 5864352310377794313
+      ivern_walk_88: 6897590104221691454
+      ivern_walk_89: -1046020421618680343
+      ivern_walk_9: 5925639152145990031
+      ivern_walk_90: -5059374613009094723
+      ivern_walk_91: 3961611537379767901
+      ivern_walk_92: 3020500632737821143
+      ivern_walk_93: -8901249398613880856
+      ivern_walk_94: 5783604915052805316
+      ivern_walk_95: -3205098860403685723
+      ivern_walk_96: 2766223564628968245
+      ivern_walk_97: 8400254025495203417
+      ivern_walk_98: 4735974130423834831
+      ivern_walk_99: 6482688349698412282
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

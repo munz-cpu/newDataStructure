@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 727f659c9da8e5b41a68de0e57ca83fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3045099722778451509
+    second: rumble_attack_0
+  - first:
+      213: -6678991527342778783
+    second: rumble_attack_1
+  - first:
+      213: 219861415776557197
+    second: rumble_attack_2
+  - first:
+      213: 413536355775492633
+    second: rumble_attack_3
+  - first:
+      213: 7825058080022215367
+    second: rumble_attack_4
+  - first:
+      213: -614299336468609941
+    second: rumble_attack_5
+  - first:
+      213: -889109799001174061
+    second: rumble_attack_6
+  - first:
+      213: -4475653619858169772
+    second: rumble_attack_7
+  - first:
+      213: -8931744029893887722
+    second: rumble_attack_8
+  - first:
+      213: -5016074274930410755
+    second: rumble_attack_9
+  - first:
+      213: 1494349364965180709
+    second: rumble_attack_10
+  - first:
+      213: 5122874702669471066
+    second: rumble_attack_11
+  - first:
+      213: -8428660163453106478
+    second: rumble_attack_12
+  - first:
+      213: -7957740682924971364
+    second: rumble_attack_13
+  - first:
+      213: 916275026567333707
+    second: rumble_attack_14
+  - first:
+      213: -1246577614488435588
+    second: rumble_attack_15
+  - first:
+      213: -2365208625921917979
+    second: rumble_attack_16
+  - first:
+      213: -8093658088374918014
+    second: rumble_attack_17
+  - first:
+      213: -6723777050493835082
+    second: rumble_attack_18
+  - first:
+      213: 1790223192286202931
+    second: rumble_attack_19
+  - first:
+      213: -8733255822478587098
+    second: rumble_attack_20
+  - first:
+      213: 1104843690316602607
+    second: rumble_attack_21
+  - first:
+      213: -7381262442896830424
+    second: rumble_attack_22
+  - first:
+      213: 2904736893140829812
+    second: rumble_attack_23
+  - first:
+      213: 3779918779907196481
+    second: rumble_attack_24
+  - first:
+      213: 7828204912721943223
+    second: rumble_attack_25
+  - first:
+      213: -4534036408011986449
+    second: rumble_attack_26
+  - first:
+      213: -633083923134385879
+    second: rumble_attack_27
+  - first:
+      213: -5442409160178760625
+    second: rumble_attack_28
+  - first:
+      213: 6482734035526437911
+    second: rumble_attack_29
+  - first:
+      213: 3594017768284291757
+    second: rumble_attack_30
+  - first:
+      213: -8405351687735297089
+    second: rumble_attack_31
+  - first:
+      213: -188203698612379985
+    second: rumble_attack_32
+  - first:
+      213: 2020545534807141769
+    second: rumble_attack_33
+  - first:
+      213: -7002426417568154676
+    second: rumble_attack_34
+  - first:
+      213: 2580965133611915935
+    second: rumble_attack_35
+  - first:
+      213: -6491912605414469067
+    second: rumble_attack_36
+  - first:
+      213: 4074463573578868988
+    second: rumble_attack_37
+  - first:
+      213: 8248845919040032853
+    second: rumble_attack_38
+  - first:
+      213: -6524469338130211814
+    second: rumble_attack_39
+  - first:
+      213: -222391344830552599
+    second: rumble_attack_40
+  - first:
+      213: -5723666203463759424
+    second: rumble_attack_41
+  - first:
+      213: 2937703090921478476
+    second: rumble_attack_42
+  - first:
+      213: 7261320384323401971
+    second: rumble_attack_43
+  - first:
+      213: -8120531095995284190
+    second: rumble_attack_44
+  - first:
+      213: -1739079062629843588
+    second: rumble_attack_45
+  - first:
+      213: 2825189325880274419
+    second: rumble_attack_46
+  - first:
+      213: -4452959864953023208
+    second: rumble_attack_47
+  - first:
+      213: -8806934425632693335
+    second: rumble_attack_48
+  - first:
+      213: 7170520245991267326
+    second: rumble_attack_49
+  - first:
+      213: 9021445455036801446
+    second: rumble_attack_50
+  - first:
+      213: -6233183875887081222
+    second: rumble_attack_51
+  - first:
+      213: 990522713916477980
+    second: rumble_attack_52
+  - first:
+      213: 9013886496836437270
+    second: rumble_attack_53
+  - first:
+      213: -2037767077489907011
+    second: rumble_attack_54
+  - first:
+      213: -122308871942059743
+    second: rumble_attack_55
+  - first:
+      213: -7113699476733978642
+    second: rumble_attack_56
+  - first:
+      213: -5101390154796939762
+    second: rumble_attack_57
+  - first:
+      213: -2810169862020159847
+    second: rumble_attack_58
+  - first:
+      213: 6844757013433676250
+    second: rumble_attack_59
+  - first:
+      213: -7192305020771050021
+    second: rumble_attack_60
+  - first:
+      213: -3546407339166807908
+    second: rumble_attack_61
+  - first:
+      213: -845686559841951979
+    second: rumble_attack_62
+  - first:
+      213: -1465115502323704721
+    second: rumble_attack_63
+  - first:
+      213: -717377979652521873
+    second: rumble_attack_64
+  - first:
+      213: 1525613304087718881
+    second: rumble_attack_65
+  - first:
+      213: -3596906220653128411
+    second: rumble_attack_66
+  - first:
+      213: -3474848001792307663
+    second: rumble_attack_67
+  - first:
+      213: 845359603876695640
+    second: rumble_attack_68
+  - first:
+      213: 8724961813555653264
+    second: rumble_attack_69
+  - first:
+      213: 2445773239084123561
+    second: rumble_attack_70
+  - first:
+      213: -5633925486012392393
+    second: rumble_attack_71
+  - first:
+      213: -3025821305468053223
+    second: rumble_attack_72
+  - first:
+      213: -8393907628002446592
+    second: rumble_attack_73
+  - first:
+      213: 592646058568184003
+    second: rumble_attack_74
+  - first:
+      213: -479098559668470961
+    second: rumble_attack_75
+  - first:
+      213: 8205940843879482554
+    second: rumble_attack_76
+  - first:
+      213: -2225916960377994029
+    second: rumble_attack_77
+  - first:
+      213: 8135092041265320159
+    second: rumble_attack_78
+  - first:
+      213: -1148784376121119781
+    second: rumble_attack_79
+  - first:
+      213: -6057052661642192500
+    second: rumble_attack_80
+  - first:
+      213: 5422777911367090677
+    second: rumble_attack_81
+  - first:
+      213: -4802016813514745443
+    second: rumble_attack_82
+  - first:
+      213: -784501194943345207
+    second: rumble_attack_83
+  - first:
+      213: 380195806082472656
+    second: rumble_attack_84
+  - first:
+      213: -5381035105594069784
+    second: rumble_attack_85
+  - first:
+      213: -4927965006725652593
+    second: rumble_attack_86
+  - first:
+      213: 1151778274077237329
+    second: rumble_attack_87
+  - first:
+      213: 1577687178586164182
+    second: rumble_attack_88
+  - first:
+      213: 8047176175433500882
+    second: rumble_attack_89
+  - first:
+      213: -5300570670497072484
+    second: rumble_attack_90
+  - first:
+      213: 5075794136429647983
+    second: rumble_attack_91
+  - first:
+      213: -3975434217713184066
+    second: rumble_attack_92
+  - first:
+      213: -778787652405462883
+    second: rumble_attack_93
+  - first:
+      213: -9025531570781556847
+    second: rumble_attack_94
+  - first:
+      213: -7876134462402145146
+    second: rumble_attack_95
+  - first:
+      213: -649286450386814167
+    second: rumble_attack_96
+  - first:
+      213: -6845126177739224464
+    second: rumble_attack_97
+  - first:
+      213: -2676490262342826575
+    second: rumble_attack_98
+  - first:
+      213: -2309798704607961138
+    second: rumble_attack_99
+  - first:
+      213: 7412781972697195216
+    second: rumble_attack_100
+  - first:
+      213: -8562313506793869237
+    second: rumble_attack_101
+  - first:
+      213: 1116451389770849182
+    second: rumble_attack_102
+  - first:
+      213: -8853104495369883135
+    second: rumble_attack_103
+  - first:
+      213: 3776931419141980882
+    second: rumble_attack_104
+  - first:
+      213: 7820945562752513010
+    second: rumble_attack_105
+  - first:
+      213: -9175780377658580468
+    second: rumble_attack_106
+  - first:
+      213: 8806868151869938436
+    second: rumble_attack_107
+  - first:
+      213: 3021854208748241605
+    second: rumble_attack_108
+  - first:
+      213: -1207897785246441650
+    second: rumble_attack_109
+  - first:
+      213: -3356620486613593918
+    second: rumble_attack_110
+  - first:
+      213: -4167561634608717611
+    second: rumble_attack_111
+  - first:
+      213: 3421952538691088489
+    second: rumble_attack_112
+  - first:
+      213: -5174387169981476311
+    second: rumble_attack_113
+  - first:
+      213: -7844328422454582134
+    second: rumble_attack_114
+  - first:
+      213: -4305431159985437846
+    second: rumble_attack_115
+  - first:
+      213: -6185333629284581350
+    second: rumble_attack_116
+  - first:
+      213: -486854653501236677
+    second: rumble_attack_117
+  - first:
+      213: -423637805000474259
+    second: rumble_attack_118
+  - first:
+      213: -3033916469145723408
+    second: rumble_attack_119
+  - first:
+      213: 9008132484332034405
+    second: rumble_attack_000
+  - first:
+      213: -7370079552257007141
+    second: rumble_attack_001
+  - first:
+      213: 5267360542859794784
+    second: rumble_attack_002
+  - first:
+      213: -137060996448131053
+    second: rumble_attack_003
+  - first:
+      213: 3595732573667146177
+    second: rumble_attack_004
+  - first:
+      213: -6999107694356215635
+    second: rumble_attack_005
+  - first:
+      213: -1078622005953326702
+    second: rumble_attack_006
+  - first:
+      213: -2976332348253278392
+    second: rumble_attack_007
+  - first:
+      213: 4493832963235984394
+    second: rumble_attack_008
+  - first:
+      213: -6799755860274254056
+    second: rumble_attack_009
+  - first:
+      213: -263456374466048028
+    second: rumble_attack_010
+  - first:
+      213: -6349085437796601306
+    second: rumble_attack_011
+  - first:
+      213: -2279704091540942629
+    second: rumble_attack_012
+  - first:
+      213: -2891301909199799073
+    second: rumble_attack_013
+  - first:
+      213: 2109498979287630527
+    second: rumble_attack_014
+  - first:
+      213: 8092554600679824109
+    second: rumble_attack_015
+  - first:
+      213: 7582098516030576177
+    second: rumble_attack_016
+  - first:
+      213: -980129311177860820
+    second: rumble_attack_017
+  - first:
+      213: -6534039345183490952
+    second: rumble_attack_018
+  - first:
+      213: 7300072334520936882
+    second: rumble_attack_019
+  - first:
+      213: 6896420392081662378
+    second: rumble_attack_020
+  - first:
+      213: -2057809681358295925
+    second: rumble_attack_021
+  - first:
+      213: -2310848027949334631
+    second: rumble_attack_022
+  - first:
+      213: -7471179351944065536
+    second: rumble_attack_023
+  - first:
+      213: -8373589394262930442
+    second: rumble_attack_024
+  - first:
+      213: -1339421779993977928
+    second: rumble_attack_025
+  - first:
+      213: 24679309431596483
+    second: rumble_attack_026
+  - first:
+      213: -2709950867809350020
+    second: rumble_attack_027
+  - first:
+      213: -3811125482528391565
+    second: rumble_attack_028
+  - first:
+      213: 6441854298941796931
+    second: rumble_attack_029
+  - first:
+      213: 386750957033166503
+    second: rumble_attack_030
+  - first:
+      213: 6954989573114490844
+    second: rumble_attack_031
+  - first:
+      213: 3118164332709899971
+    second: rumble_attack_032
+  - first:
+      213: -720121574752887012
+    second: rumble_attack_033
+  - first:
+      213: -6125300467737456348
+    second: rumble_attack_034
+  - first:
+      213: -2082203668668480285
+    second: rumble_attack_035
+  - first:
+      213: 8896068915991555343
+    second: rumble_attack_036
+  - first:
+      213: 8955954932652014915
+    second: rumble_attack_037
+  - first:
+      213: 439611860473102656
+    second: rumble_attack_038
+  - first:
+      213: 1338579391539335679
+    second: rumble_attack_039
+  - first:
+      213: 2429192969403732007
+    second: rumble_attack_040
+  - first:
+      213: -3828871774013131165
+    second: rumble_attack_041
+  - first:
+      213: 5284499567275098680
+    second: rumble_attack_042
+  - first:
+      213: -2867121158658396051
+    second: rumble_attack_043
+  - first:
+      213: -8987346424441222746
+    second: rumble_attack_044
+  - first:
+      213: -2292980864359584519
+    second: rumble_attack_045
+  - first:
+      213: -8554802380696445414
+    second: rumble_attack_046
+  - first:
+      213: -623497087914009013
+    second: rumble_attack_047
+  - first:
+      213: 7393533252049875655
+    second: rumble_attack_048
+  - first:
+      213: 8979243131664402682
+    second: rumble_attack_049
+  - first:
+      213: -1177134768836624032
+    second: rumble_attack_050
+  - first:
+      213: 5790904942041730178
+    second: rumble_attack_051
+  - first:
+      213: -8153941950797021523
+    second: rumble_attack_052
+  - first:
+      213: -8425512070514828135
+    second: rumble_attack_053
+  - first:
+      213: 6158967602600978225
+    second: rumble_attack_054
+  - first:
+      213: 4493936591008514918
+    second: rumble_attack_055
+  - first:
+      213: -793697480202269274
+    second: rumble_attack_056
+  - first:
+      213: 8676992379246745190
+    second: rumble_attack_057
+  - first:
+      213: 2072163087563643770
+    second: rumble_attack_058
+  - first:
+      213: -7680496912328608687
+    second: rumble_attack_059
+  - first:
+      213: -4362205332941399228
+    second: rumble_attack_060
+  - first:
+      213: -4790547378034916167
+    second: rumble_attack_061
+  - first:
+      213: 5839322438199558654
+    second: rumble_attack_062
+  - first:
+      213: 3263709827042951770
+    second: rumble_attack_063
+  - first:
+      213: 5207361446922423147
+    second: rumble_attack_064
+  - first:
+      213: -4809226022044236296
+    second: rumble_attack_065
+  - first:
+      213: 6233612452065388499
+    second: rumble_attack_066
+  - first:
+      213: -747038999572173124
+    second: rumble_attack_067
+  - first:
+      213: -5022840007593360941
+    second: rumble_attack_068
+  - first:
+      213: -1932270206135101433
+    second: rumble_attack_069
+  - first:
+      213: -6421335330455685591
+    second: rumble_attack_070
+  - first:
+      213: 266831068553859878
+    second: rumble_attack_071
+  - first:
+      213: 4299095553624314822
+    second: rumble_attack_072
+  - first:
+      213: 1301015287241167876
+    second: rumble_attack_073
+  - first:
+      213: -4389447895094094866
+    second: rumble_attack_074
+  - first:
+      213: 4207841724514769953
+    second: rumble_attack_075
+  - first:
+      213: 3788990482296225831
+    second: rumble_attack_076
+  - first:
+      213: 9191502187073508001
+    second: rumble_attack_077
+  - first:
+      213: -8364727346489324117
+    second: rumble_attack_078
+  - first:
+      213: 2534222899256551613
+    second: rumble_attack_079
+  - first:
+      213: -5966673646123599285
+    second: rumble_attack_080
+  - first:
+      213: 8544766434563140227
+    second: rumble_attack_081
+  - first:
+      213: -1478798788733886554
+    second: rumble_attack_082
+  - first:
+      213: -1535766024113012664
+    second: rumble_attack_083
+  - first:
+      213: -2658883773270178498
+    second: rumble_attack_084
+  - first:
+      213: 5165912119428581017
+    second: rumble_attack_085
+  - first:
+      213: -1712651959030373504
+    second: rumble_attack_086
+  - first:
+      213: 73504206595501668
+    second: rumble_attack_087
+  - first:
+      213: 8894412165228666603
+    second: rumble_attack_088
+  - first:
+      213: -831957725613354848
+    second: rumble_attack_089
+  - first:
+      213: 4755308293405991771
+    second: rumble_attack_090
+  - first:
+      213: 5375625747188967246
+    second: rumble_attack_091
+  - first:
+      213: 7897873979096995529
+    second: rumble_attack_092
+  - first:
+      213: -7676303343334428424
+    second: rumble_attack_093
+  - first:
+      213: 6461452365125547501
+    second: rumble_attack_094
+  - first:
+      213: 6776842287292153447
+    second: rumble_attack_095
+  - first:
+      213: 5898219393655364202
+    second: rumble_attack_096
+  - first:
+      213: 8767745251875102916
+    second: rumble_attack_097
+  - first:
+      213: 7100386214461181292
+    second: rumble_attack_098
+  - first:
+      213: 4088968137598983389
+    second: rumble_attack_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rumble_attack_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 569944274c0530d70800000000000000
+      internalID: 9008132484332034405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1e95112b738b990800000000000000
+      internalID: -7370079552257007141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069111d818c691940800000000000000
+      internalID: 5267360542859794784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 318e52affbf091ef0800000000000000
+      internalID: -137060996448131053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c93bb889bb96e130800000000000000
+      internalID: 3595732573667146177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8c13582ac2ede90800000000000000
+      internalID: -6999107694356215635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2919b381007f701f0800000000000000
+      internalID: -1078622005953326702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84febd0af71f1b6d0800000000000000
+      internalID: -2976332348253278392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a043f9d454d4d5e30800000000000000
+      internalID: 4493832963235984394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81fe8fc521a62a1a0800000000000000
+      internalID: -6799755860274254056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef8322c2d3085cf0800000000000000
+      internalID: -263456374466048028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6223787ee6483e7a0800000000000000
+      internalID: -6349085437796601306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd092b6053ddc50e0800000000000000
+      internalID: -2279704091540942629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcbcbb7b3800e7d0800000000000000
+      internalID: -2891301909199799073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb20d722522764d10800000000000000
+      internalID: 2109498979287630527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dea59fa78878e4070800000000000000
+      internalID: 8092554600679824109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136d40cbd66093960800000000000000
+      internalID: 7582098516030576177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c299b4d9591e562f0800000000000000
+      internalID: -980129311177860820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c79e995dd6255a0800000000000000
+      internalID: -6534039345183490952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9e6cd5c111f4560800000000000000
+      internalID: 7300072334520936882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa1a9cbcec105bf50800000000000000
+      internalID: 6896420392081662378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c674f5ff03173e0800000000000000
+      internalID: -2057809681358295925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ffa2446f73eefd0800000000000000
+      internalID: -2310848027949334631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e0422a6f9015890800000000000000
+      internalID: -7471179351944065536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbcaf3afc80bcb80800000000000000
+      internalID: -8373589394262930442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb9907dcfa696de0800000000000000
+      internalID: -1339421779993977928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5e8ff73bda75000800000000000000
+      internalID: 24679309431596483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e467d2b02546ad0800000000000000
+      internalID: -2709950867809350020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37eb47bd0992c1bc0800000000000000
+      internalID: -3811125482528391565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342bf3fba50166950800000000000000
+      internalID: 6441854298941796931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6118242f30e5500800000000000000
+      internalID: 386750957033166503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfe80aea26158060800000000000000
+      internalID: 6954989573114490844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce677a90f1f54b20800000000000000
+      internalID: 3118164332709899971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f52cd3e3d9106f0800000000000000
+      internalID: -720121574752887012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42199f58daf8efaa0800000000000000
+      internalID: -6125300467737456348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4000b9bc68a13e0800000000000000
+      internalID: -2082203668668480285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d2213bb8f257b70800000000000000
+      internalID: 8896068915991555343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d71218f81f94c70800000000000000
+      internalID: 8955954932652014915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0414c8e68a0d91600800000000000000
+      internalID: 439611860473102656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff15c505dd6939210800000000000000
+      internalID: 1338579391539335679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7209f20a22a36b120800000000000000
+      internalID: 2429192969403732007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3667d63686d1ddac0800000000000000
+      internalID: -3828871774013131165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8324323ab50565940800000000000000
+      internalID: 5284499567275098680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d60f8223f70f538d0800000000000000
+      internalID: -2867121158658396051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9cdc14b08864380800000000000000
+      internalID: -8987346424441222746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc24177d02bd20e0800000000000000
+      internalID: -2292980864359584519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e1cee5f8c374980800000000000000
+      internalID: -8554802380696445414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e1564b3b4e857f0800000000000000
+      internalID: -623497087914009013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c2b873f15b1b9660800000000000000
+      internalID: 7393533252049875655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af809bedd0eac9c70800000000000000
+      internalID: 8979243131664402682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0614bba1a2af9afe0800000000000000
+      internalID: -1177134768836624032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c837efc5d6d5050800000000000000
+      internalID: 5790904942041730178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae76974ff067de80800000000000000
+      internalID: -8153941950797021523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99c92328961921b80800000000000000
+      internalID: -8425512070514828135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137ab28276c097550800000000000000
+      internalID: 6158967602600978225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6634136058bad5e30800000000000000
+      internalID: 4493936591008514918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6adcb61d8583cf4f0800000000000000
+      internalID: -793697480202269274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66616c3a89eda6870800000000000000
+      internalID: 8676992379246745190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b58ee695dc1cc10800000000000000
+      internalID: 2072163087563643770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1543b2250c4696590800000000000000
+      internalID: -7680496912328608687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b96b49c555673c0800000000000000
+      internalID: -4362205332941399228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4cc848a8e848db0800000000000000
+      internalID: -4790547378034916167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef14ad9c1d0790150800000000000000
+      internalID: 5839322438199558654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52c8dabbc60b4d20800000000000000
+      internalID: 3263709827042951770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b00ec65a3444840800000000000000
+      internalID: 5207361446922423147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f50d7fc962324db0800000000000000
+      internalID: -4809226022044236296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d72fc08f7d328650800000000000000
+      internalID: 6233612452065388499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbe2325ecfbf1a5f0800000000000000
+      internalID: -747038999572173124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d107cf00a94b4ab0800000000000000
+      internalID: -5022840007593360941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7081f313c723f25e0800000000000000
+      internalID: -1932270206135101433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926f584e985d2e6a0800000000000000
+      internalID: -6421335330455685591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623d0307179f3b300800000000000000
+      internalID: 266831068553859878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c31d31e0a479ab30800000000000000
+      internalID: 4299095553624314822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404dc5bb2822e0210800000000000000
+      internalID: 1301015287241167876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee394dc456c8513c0800000000000000
+      internalID: -4389447895094094866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c15cc11c1456a30800000000000000
+      internalID: 4207841724514769953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7204a9ac4c2359430800000000000000
+      internalID: 3788990482296225831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a21ebc5a86ce8f70800000000000000
+      internalID: 9191502187073508001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad028debc48aeb80800000000000000
+      internalID: -8364727346489324117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8e8dbcc4e5b2320800000000000000
+      internalID: 2534222899256551613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a3e108eed123da0800000000000000
+      internalID: -5966673646123599285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a21d4dccb159670800000000000000
+      internalID: 8544766434563140227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af1d3f26504a7be0800000000000000
+      internalID: -1478798788733886554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84041aa10fcdfaae0800000000000000
+      internalID: -1535766024113012664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e354e2bab4fb91bd0800000000000000
+      internalID: -2658883773270178498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9960d63d3b101b740800000000000000
+      internalID: 5165912119428581017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0832e160e107b38e0800000000000000
+      internalID: -1712651959030373504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e2f9bbfa3250100800000000000000
+      internalID: 73504206595501668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee1e5a5dbc4f6b70800000000000000
+      internalID: 8894412165228666603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a09ca04bda4474f0800000000000000
+      internalID: -831957725613354848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53eee9b2bf3ef140800000000000000
+      internalID: 4755308293405991771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4764a2c22f0a9a40800000000000000
+      internalID: 5375625747188967246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c690ec0a82ea9d60800000000000000
+      internalID: 7897873979096995529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f07860b7ca487590800000000000000
+      internalID: -7676303343334428424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de57a6c11b0bba950800000000000000
+      internalID: 6461452365125547501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76ef4e0b72e2c0e50800000000000000
+      internalID: 6776842287292153447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ad526d94faad150800000000000000
+      internalID: 5898219393655364202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c022236ad94da970800000000000000
+      internalID: 8767745251875102916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d0a0184a3a98260800000000000000
+      internalID: 7100386214461181292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc5a7b5bdeeeb830800000000000000
+      internalID: 4088968137598983389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d22908fded7fd660800000000000000
+      internalID: 7412781972697195216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40b50c0b3d8c2980800000000000000
+      internalID: -8562313506793869237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b5840bf9e6e7f00800000000000000
+      internalID: 1116451389770849182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10270120e54732580800000000000000
+      internalID: -8853104495369883135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d248fa5d1b5a6430800000000000000
+      internalID: 3776931419141980882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3f78b5d84998c60800000000000000
+      internalID: 7820945562752513010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0229a4ac5419a080800000000000000
+      internalID: -9175780377658580468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b98ef5ce7483a70800000000000000
+      internalID: 8806868151869938436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c245737468cfe920800000000000000
+      internalID: 3021854208748241605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f97613d5fac3fe0800000000000000
+      internalID: -1207897785246441650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c019999373ea61d0800000000000000
+      internalID: -3356620486613593918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0e99526c8d926c0800000000000000
+      internalID: -4167561634608717611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 960bde224b73d7f20800000000000000
+      internalID: 3421952538691088489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9225ae2b842e038b0800000000000000
+      internalID: -5174387169981476311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84281e5cd8532390800000000000000
+      internalID: -7844328422454582134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a638b20db290044c0800000000000000
+      internalID: -4305431159985437846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a100731e5d7492aa0800000000000000
+      internalID: -6185333629284581350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a10d8a5485e39f0800000000000000
+      internalID: -486854653501236677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61458f29afee1af0800000000000000
+      internalID: -423637805000474259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_attack_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd9c52bb0d55e5d0800000000000000
+      internalID: -3033916469145723408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rumble_attack_0: 3045099722778451509
+      rumble_attack_000: 9008132484332034405
+      rumble_attack_001: -7370079552257007141
+      rumble_attack_002: 5267360542859794784
+      rumble_attack_003: -137060996448131053
+      rumble_attack_004: 3595732573667146177
+      rumble_attack_005: -6999107694356215635
+      rumble_attack_006: -1078622005953326702
+      rumble_attack_007: -2976332348253278392
+      rumble_attack_008: 4493832963235984394
+      rumble_attack_009: -6799755860274254056
+      rumble_attack_010: -263456374466048028
+      rumble_attack_011: -6349085437796601306
+      rumble_attack_012: -2279704091540942629
+      rumble_attack_013: -2891301909199799073
+      rumble_attack_014: 2109498979287630527
+      rumble_attack_015: 8092554600679824109
+      rumble_attack_016: 7582098516030576177
+      rumble_attack_017: -980129311177860820
+      rumble_attack_018: -6534039345183490952
+      rumble_attack_019: 7300072334520936882
+      rumble_attack_020: 6896420392081662378
+      rumble_attack_021: -2057809681358295925
+      rumble_attack_022: -2310848027949334631
+      rumble_attack_023: -7471179351944065536
+      rumble_attack_024: -8373589394262930442
+      rumble_attack_025: -1339421779993977928
+      rumble_attack_026: 24679309431596483
+      rumble_attack_027: -2709950867809350020
+      rumble_attack_028: -3811125482528391565
+      rumble_attack_029: 6441854298941796931
+      rumble_attack_030: 386750957033166503
+      rumble_attack_031: 6954989573114490844
+      rumble_attack_032: 3118164332709899971
+      rumble_attack_033: -720121574752887012
+      rumble_attack_034: -6125300467737456348
+      rumble_attack_035: -2082203668668480285
+      rumble_attack_036: 8896068915991555343
+      rumble_attack_037: 8955954932652014915
+      rumble_attack_038: 439611860473102656
+      rumble_attack_039: 1338579391539335679
+      rumble_attack_040: 2429192969403732007
+      rumble_attack_041: -3828871774013131165
+      rumble_attack_042: 5284499567275098680
+      rumble_attack_043: -2867121158658396051
+      rumble_attack_044: -8987346424441222746
+      rumble_attack_045: -2292980864359584519
+      rumble_attack_046: -8554802380696445414
+      rumble_attack_047: -623497087914009013
+      rumble_attack_048: 7393533252049875655
+      rumble_attack_049: 8979243131664402682
+      rumble_attack_050: -1177134768836624032
+      rumble_attack_051: 5790904942041730178
+      rumble_attack_052: -8153941950797021523
+      rumble_attack_053: -8425512070514828135
+      rumble_attack_054: 6158967602600978225
+      rumble_attack_055: 4493936591008514918
+      rumble_attack_056: -793697480202269274
+      rumble_attack_057: 8676992379246745190
+      rumble_attack_058: 2072163087563643770
+      rumble_attack_059: -7680496912328608687
+      rumble_attack_060: -4362205332941399228
+      rumble_attack_061: -4790547378034916167
+      rumble_attack_062: 5839322438199558654
+      rumble_attack_063: 3263709827042951770
+      rumble_attack_064: 5207361446922423147
+      rumble_attack_065: -4809226022044236296
+      rumble_attack_066: 6233612452065388499
+      rumble_attack_067: -747038999572173124
+      rumble_attack_068: -5022840007593360941
+      rumble_attack_069: -1932270206135101433
+      rumble_attack_070: -6421335330455685591
+      rumble_attack_071: 266831068553859878
+      rumble_attack_072: 4299095553624314822
+      rumble_attack_073: 1301015287241167876
+      rumble_attack_074: -4389447895094094866
+      rumble_attack_075: 4207841724514769953
+      rumble_attack_076: 3788990482296225831
+      rumble_attack_077: 9191502187073508001
+      rumble_attack_078: -8364727346489324117
+      rumble_attack_079: 2534222899256551613
+      rumble_attack_080: -5966673646123599285
+      rumble_attack_081: 8544766434563140227
+      rumble_attack_082: -1478798788733886554
+      rumble_attack_083: -1535766024113012664
+      rumble_attack_084: -2658883773270178498
+      rumble_attack_085: 5165912119428581017
+      rumble_attack_086: -1712651959030373504
+      rumble_attack_087: 73504206595501668
+      rumble_attack_088: 8894412165228666603
+      rumble_attack_089: -831957725613354848
+      rumble_attack_090: 4755308293405991771
+      rumble_attack_091: 5375625747188967246
+      rumble_attack_092: 7897873979096995529
+      rumble_attack_093: -7676303343334428424
+      rumble_attack_094: 6461452365125547501
+      rumble_attack_095: 6776842287292153447
+      rumble_attack_096: 5898219393655364202
+      rumble_attack_097: 8767745251875102916
+      rumble_attack_098: 7100386214461181292
+      rumble_attack_099: 4088968137598983389
+      rumble_attack_1: -6678991527342778783
+      rumble_attack_10: 1494349364965180709
+      rumble_attack_100: 7412781972697195216
+      rumble_attack_101: -8562313506793869237
+      rumble_attack_102: 1116451389770849182
+      rumble_attack_103: -8853104495369883135
+      rumble_attack_104: 3776931419141980882
+      rumble_attack_105: 7820945562752513010
+      rumble_attack_106: -9175780377658580468
+      rumble_attack_107: 8806868151869938436
+      rumble_attack_108: 3021854208748241605
+      rumble_attack_109: -1207897785246441650
+      rumble_attack_11: 5122874702669471066
+      rumble_attack_110: -3356620486613593918
+      rumble_attack_111: -4167561634608717611
+      rumble_attack_112: 3421952538691088489
+      rumble_attack_113: -5174387169981476311
+      rumble_attack_114: -7844328422454582134
+      rumble_attack_115: -4305431159985437846
+      rumble_attack_116: -6185333629284581350
+      rumble_attack_117: -486854653501236677
+      rumble_attack_118: -423637805000474259
+      rumble_attack_119: -3033916469145723408
+      rumble_attack_12: -8428660163453106478
+      rumble_attack_13: -7957740682924971364
+      rumble_attack_14: 916275026567333707
+      rumble_attack_15: -1246577614488435588
+      rumble_attack_16: -2365208625921917979
+      rumble_attack_17: -8093658088374918014
+      rumble_attack_18: -6723777050493835082
+      rumble_attack_19: 1790223192286202931
+      rumble_attack_2: 219861415776557197
+      rumble_attack_20: -8733255822478587098
+      rumble_attack_21: 1104843690316602607
+      rumble_attack_22: -7381262442896830424
+      rumble_attack_23: 2904736893140829812
+      rumble_attack_24: 3779918779907196481
+      rumble_attack_25: 7828204912721943223
+      rumble_attack_26: -4534036408011986449
+      rumble_attack_27: -633083923134385879
+      rumble_attack_28: -5442409160178760625
+      rumble_attack_29: 6482734035526437911
+      rumble_attack_3: 413536355775492633
+      rumble_attack_30: 3594017768284291757
+      rumble_attack_31: -8405351687735297089
+      rumble_attack_32: -188203698612379985
+      rumble_attack_33: 2020545534807141769
+      rumble_attack_34: -7002426417568154676
+      rumble_attack_35: 2580965133611915935
+      rumble_attack_36: -6491912605414469067
+      rumble_attack_37: 4074463573578868988
+      rumble_attack_38: 8248845919040032853
+      rumble_attack_39: -6524469338130211814
+      rumble_attack_4: 7825058080022215367
+      rumble_attack_40: -222391344830552599
+      rumble_attack_41: -5723666203463759424
+      rumble_attack_42: 2937703090921478476
+      rumble_attack_43: 7261320384323401971
+      rumble_attack_44: -8120531095995284190
+      rumble_attack_45: -1739079062629843588
+      rumble_attack_46: 2825189325880274419
+      rumble_attack_47: -4452959864953023208
+      rumble_attack_48: -8806934425632693335
+      rumble_attack_49: 7170520245991267326
+      rumble_attack_5: -614299336468609941
+      rumble_attack_50: 9021445455036801446
+      rumble_attack_51: -6233183875887081222
+      rumble_attack_52: 990522713916477980
+      rumble_attack_53: 9013886496836437270
+      rumble_attack_54: -2037767077489907011
+      rumble_attack_55: -122308871942059743
+      rumble_attack_56: -7113699476733978642
+      rumble_attack_57: -5101390154796939762
+      rumble_attack_58: -2810169862020159847
+      rumble_attack_59: 6844757013433676250
+      rumble_attack_6: -889109799001174061
+      rumble_attack_60: -7192305020771050021
+      rumble_attack_61: -3546407339166807908
+      rumble_attack_62: -845686559841951979
+      rumble_attack_63: -1465115502323704721
+      rumble_attack_64: -717377979652521873
+      rumble_attack_65: 1525613304087718881
+      rumble_attack_66: -3596906220653128411
+      rumble_attack_67: -3474848001792307663
+      rumble_attack_68: 845359603876695640
+      rumble_attack_69: 8724961813555653264
+      rumble_attack_7: -4475653619858169772
+      rumble_attack_70: 2445773239084123561
+      rumble_attack_71: -5633925486012392393
+      rumble_attack_72: -3025821305468053223
+      rumble_attack_73: -8393907628002446592
+      rumble_attack_74: 592646058568184003
+      rumble_attack_75: -479098559668470961
+      rumble_attack_76: 8205940843879482554
+      rumble_attack_77: -2225916960377994029
+      rumble_attack_78: 8135092041265320159
+      rumble_attack_79: -1148784376121119781
+      rumble_attack_8: -8931744029893887722
+      rumble_attack_80: -6057052661642192500
+      rumble_attack_81: 5422777911367090677
+      rumble_attack_82: -4802016813514745443
+      rumble_attack_83: -784501194943345207
+      rumble_attack_84: 380195806082472656
+      rumble_attack_85: -5381035105594069784
+      rumble_attack_86: -4927965006725652593
+      rumble_attack_87: 1151778274077237329
+      rumble_attack_88: 1577687178586164182
+      rumble_attack_89: 8047176175433500882
+      rumble_attack_9: -5016074274930410755
+      rumble_attack_90: -5300570670497072484
+      rumble_attack_91: 5075794136429647983
+      rumble_attack_92: -3975434217713184066
+      rumble_attack_93: -778787652405462883
+      rumble_attack_94: -9025531570781556847
+      rumble_attack_95: -7876134462402145146
+      rumble_attack_96: -649286450386814167
+      rumble_attack_97: -6845126177739224464
+      rumble_attack_98: -2676490262342826575
+      rumble_attack_99: -2309798704607961138
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

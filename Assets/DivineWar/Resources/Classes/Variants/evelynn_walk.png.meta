@@ -1,0 +1,3873 @@
+fileFormatVersion: 2
+guid: 6065d781bfc76864d9ae057d3c47d177
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7039224419945538539
+    second: evelynn_walk_0
+  - first:
+      213: -8083805075209305665
+    second: evelynn_walk_1
+  - first:
+      213: -4891521173409607064
+    second: evelynn_walk_2
+  - first:
+      213: -442774732793439774
+    second: evelynn_walk_3
+  - first:
+      213: -6146252133718534036
+    second: evelynn_walk_4
+  - first:
+      213: 4457493992768961978
+    second: evelynn_walk_5
+  - first:
+      213: 8155175245639986474
+    second: evelynn_walk_6
+  - first:
+      213: -966477984297791603
+    second: evelynn_walk_7
+  - first:
+      213: -9116086586651678785
+    second: evelynn_walk_8
+  - first:
+      213: -7840539866061751536
+    second: evelynn_walk_9
+  - first:
+      213: 4424990455901711472
+    second: evelynn_walk_10
+  - first:
+      213: -7816732694782664235
+    second: evelynn_walk_11
+  - first:
+      213: -4872578958340689206
+    second: evelynn_walk_12
+  - first:
+      213: 657502087006309954
+    second: evelynn_walk_13
+  - first:
+      213: -6817581489165357772
+    second: evelynn_walk_14
+  - first:
+      213: -1210550958509736868
+    second: evelynn_walk_15
+  - first:
+      213: 2326707045299647984
+    second: evelynn_walk_16
+  - first:
+      213: -2307824602405645909
+    second: evelynn_walk_17
+  - first:
+      213: -1139078577521918168
+    second: evelynn_walk_18
+  - first:
+      213: -2014490403297444362
+    second: evelynn_walk_19
+  - first:
+      213: -9155171447515088227
+    second: evelynn_walk_20
+  - first:
+      213: 5136094605468351087
+    second: evelynn_walk_21
+  - first:
+      213: 1594372359895857576
+    second: evelynn_walk_22
+  - first:
+      213: -353674813101000983
+    second: evelynn_walk_23
+  - first:
+      213: 1520663743082622710
+    second: evelynn_walk_24
+  - first:
+      213: -4771524358754800365
+    second: evelynn_walk_25
+  - first:
+      213: 7142432156305385515
+    second: evelynn_walk_26
+  - first:
+      213: -7142197439168691543
+    second: evelynn_walk_27
+  - first:
+      213: -7093335948281587482
+    second: evelynn_walk_28
+  - first:
+      213: -7999757565455374863
+    second: evelynn_walk_29
+  - first:
+      213: -4181479944939736253
+    second: evelynn_walk_30
+  - first:
+      213: 8859361270845831085
+    second: evelynn_walk_31
+  - first:
+      213: -3346497796134378676
+    second: evelynn_walk_32
+  - first:
+      213: -8082900088215017840
+    second: evelynn_walk_33
+  - first:
+      213: 8250783306846006945
+    second: evelynn_walk_34
+  - first:
+      213: 3082089000194671554
+    second: evelynn_walk_35
+  - first:
+      213: 3238273551526150126
+    second: evelynn_walk_36
+  - first:
+      213: 8232757741341557860
+    second: evelynn_walk_37
+  - first:
+      213: -7246800507270430412
+    second: evelynn_walk_38
+  - first:
+      213: -8525911983136233291
+    second: evelynn_walk_39
+  - first:
+      213: 2241463222701094640
+    second: evelynn_walk_40
+  - first:
+      213: 4234979934695046418
+    second: evelynn_walk_41
+  - first:
+      213: 4218192396419607447
+    second: evelynn_walk_42
+  - first:
+      213: 2720235937932438599
+    second: evelynn_walk_43
+  - first:
+      213: -5929455602145291939
+    second: evelynn_walk_44
+  - first:
+      213: -6458617211136593277
+    second: evelynn_walk_45
+  - first:
+      213: -3456404359258804837
+    second: evelynn_walk_46
+  - first:
+      213: -1633959405806747807
+    second: evelynn_walk_47
+  - first:
+      213: -4787449871058044052
+    second: evelynn_walk_48
+  - first:
+      213: 8979611446716479979
+    second: evelynn_walk_49
+  - first:
+      213: -3629219938276703837
+    second: evelynn_walk_50
+  - first:
+      213: -5127128275043394172
+    second: evelynn_walk_51
+  - first:
+      213: 4147381439729346871
+    second: evelynn_walk_52
+  - first:
+      213: 4014336994889403879
+    second: evelynn_walk_53
+  - first:
+      213: 2760647149781850272
+    second: evelynn_walk_54
+  - first:
+      213: -2757157703492046060
+    second: evelynn_walk_55
+  - first:
+      213: 825874620379373921
+    second: evelynn_walk_56
+  - first:
+      213: -4296957618325086377
+    second: evelynn_walk_57
+  - first:
+      213: 4140280661198314516
+    second: evelynn_walk_58
+  - first:
+      213: -1295303103991776603
+    second: evelynn_walk_59
+  - first:
+      213: 6019491646589725622
+    second: evelynn_walk_60
+  - first:
+      213: 4297125029944871138
+    second: evelynn_walk_61
+  - first:
+      213: -8611514082335613822
+    second: evelynn_walk_62
+  - first:
+      213: -2541486420986436358
+    second: evelynn_walk_63
+  - first:
+      213: -8395162820154836138
+    second: evelynn_walk_64
+  - first:
+      213: -145006975474797593
+    second: evelynn_walk_65
+  - first:
+      213: 801260938934519941
+    second: evelynn_walk_66
+  - first:
+      213: 6790082159072685961
+    second: evelynn_walk_67
+  - first:
+      213: 5168765697456957295
+    second: evelynn_walk_68
+  - first:
+      213: -5469195536294316337
+    second: evelynn_walk_69
+  - first:
+      213: 3720525582870494544
+    second: evelynn_walk_70
+  - first:
+      213: 6444937231403717505
+    second: evelynn_walk_71
+  - first:
+      213: -752403564323214651
+    second: evelynn_walk_72
+  - first:
+      213: -71828863286883160
+    second: evelynn_walk_73
+  - first:
+      213: 601909399642450244
+    second: evelynn_walk_74
+  - first:
+      213: -6939978681597575293
+    second: evelynn_walk_75
+  - first:
+      213: 1075139265515787938
+    second: evelynn_walk_76
+  - first:
+      213: 2152137468976163945
+    second: evelynn_walk_77
+  - first:
+      213: 2690220984184002275
+    second: evelynn_walk_78
+  - first:
+      213: -5293552484693562198
+    second: evelynn_walk_79
+  - first:
+      213: -5558208627059247313
+    second: evelynn_walk_80
+  - first:
+      213: 7347841658373051594
+    second: evelynn_walk_81
+  - first:
+      213: -176754176053614043
+    second: evelynn_walk_82
+  - first:
+      213: 2697997443696750944
+    second: evelynn_walk_83
+  - first:
+      213: 2801855522673753744
+    second: evelynn_walk_84
+  - first:
+      213: 7029113271105755682
+    second: evelynn_walk_85
+  - first:
+      213: -7128409229961545451
+    second: evelynn_walk_86
+  - first:
+      213: 5997343893918606321
+    second: evelynn_walk_87
+  - first:
+      213: 4703769448989468130
+    second: evelynn_walk_88
+  - first:
+      213: 6692569747982618364
+    second: evelynn_walk_89
+  - first:
+      213: 5616533556202116491
+    second: evelynn_walk_90
+  - first:
+      213: 2888140596911659998
+    second: evelynn_walk_91
+  - first:
+      213: -9108507605066921053
+    second: evelynn_walk_92
+  - first:
+      213: -6813081435653177867
+    second: evelynn_walk_93
+  - first:
+      213: 8432149253512543746
+    second: evelynn_walk_94
+  - first:
+      213: 737545126439740658
+    second: evelynn_walk_95
+  - first:
+      213: -5299460731895277024
+    second: evelynn_walk_96
+  - first:
+      213: -8517254397402569813
+    second: evelynn_walk_97
+  - first:
+      213: 8515537788633502727
+    second: evelynn_walk_98
+  - first:
+      213: 7853931262171109221
+    second: evelynn_walk_99
+  - first:
+      213: -1588013240833636805
+    second: evelynn_walk_100
+  - first:
+      213: -5408756881984738740
+    second: evelynn_walk_101
+  - first:
+      213: -1787473716415655149
+    second: evelynn_walk_102
+  - first:
+      213: 8272383536319271279
+    second: evelynn_walk_103
+  - first:
+      213: -3122520679662945131
+    second: evelynn_walk_104
+  - first:
+      213: 6802993624613794628
+    second: evelynn_walk_105
+  - first:
+      213: 2996813475795134699
+    second: evelynn_walk_106
+  - first:
+      213: -1525194243305421666
+    second: evelynn_walk_107
+  - first:
+      213: 7383012181289141666
+    second: evelynn_walk_108
+  - first:
+      213: -6266772518915936904
+    second: evelynn_walk_109
+  - first:
+      213: -8796490067743631123
+    second: evelynn_walk_110
+  - first:
+      213: 1379864525778606757
+    second: evelynn_walk_111
+  - first:
+      213: -627956385503528818
+    second: evelynn_walk_112
+  - first:
+      213: 8741035227153690630
+    second: evelynn_walk_113
+  - first:
+      213: -8376662199478766509
+    second: evelynn_walk_114
+  - first:
+      213: 8369946107889925281
+    second: evelynn_walk_115
+  - first:
+      213: 4818736984231522696
+    second: evelynn_walk_116
+  - first:
+      213: -5112736167654731728
+    second: evelynn_walk_117
+  - first:
+      213: -752928017576384991
+    second: evelynn_walk_118
+  - first:
+      213: -6498544687030213830
+    second: evelynn_walk_119
+  - first:
+      213: -8341570891603726078
+    second: evelynn_walk_120
+  - first:
+      213: -6890296745280138622
+    second: evelynn_walk_121
+  - first:
+      213: 7355562759632157247
+    second: evelynn_walk_122
+  - first:
+      213: -2566824431018149145
+    second: evelynn_walk_123
+  - first:
+      213: 6777561630416864786
+    second: evelynn_walk_124
+  - first:
+      213: -1293732964246458877
+    second: evelynn_walk_125
+  - first:
+      213: 5672770699985501597
+    second: evelynn_walk_126
+  - first:
+      213: -4046962343630801068
+    second: evelynn_walk_127
+  - first:
+      213: -8734315630701682075
+    second: evelynn_walk_128
+  - first:
+      213: 2032563366126036488
+    second: evelynn_walk_129
+  - first:
+      213: -194558731765911912
+    second: evelynn_walk_130
+  - first:
+      213: 1231950132079266877
+    second: evelynn_walk_131
+  - first:
+      213: 3345543626196895883
+    second: evelynn_walk_132
+  - first:
+      213: -7947643442387229260
+    second: evelynn_walk_133
+  - first:
+      213: -7644300101517244809
+    second: evelynn_walk_134
+  - first:
+      213: -540356902676801503
+    second: evelynn_walk_135
+  - first:
+      213: 1228420764356511134
+    second: evelynn_walk_136
+  - first:
+      213: -4374435899089176646
+    second: evelynn_walk_137
+  - first:
+      213: -7771209582395230307
+    second: evelynn_walk_138
+  - first:
+      213: -523189764499077098
+    second: evelynn_walk_139
+  - first:
+      213: -9172968493623418610
+    second: evelynn_walk_140
+  - first:
+      213: -7328334047356338881
+    second: evelynn_walk_141
+  - first:
+      213: 9203062145996242487
+    second: evelynn_walk_142
+  - first:
+      213: 5962008545531271120
+    second: evelynn_walk_143
+  - first:
+      213: -7745937329714929845
+    second: evelynn_walk_144
+  - first:
+      213: 6352274442888983222
+    second: evelynn_walk_145
+  - first:
+      213: 2840666644939629516
+    second: evelynn_walk_146
+  - first:
+      213: 8846084593524792417
+    second: evelynn_walk_147
+  - first:
+      213: -6089283363488593317
+    second: evelynn_walk_148
+  - first:
+      213: 1057330386342829811
+    second: evelynn_walk_149
+  - first:
+      213: -6291447641662941126
+    second: evelynn_walk_150
+  - first:
+      213: -6927267431107239372
+    second: evelynn_walk_151
+  - first:
+      213: 4894007816884429416
+    second: evelynn_walk_152
+  - first:
+      213: -3380900399519197722
+    second: evelynn_walk_153
+  - first:
+      213: 3873363674584607593
+    second: evelynn_walk_154
+  - first:
+      213: -530598195279422586
+    second: evelynn_walk_155
+  - first:
+      213: 455114075943783202
+    second: evelynn_walk_156
+  - first:
+      213: 1896213126737005694
+    second: evelynn_walk_157
+  - first:
+      213: 244510980590989033
+    second: evelynn_walk_158
+  - first:
+      213: -4058050482457690287
+    second: evelynn_walk_159
+  - first:
+      213: 5280329023481277905
+    second: evelynn_walk_160
+  - first:
+      213: -7555132808642271097
+    second: evelynn_walk_161
+  - first:
+      213: 6990583721736598848
+    second: evelynn_walk_162
+  - first:
+      213: 3064637649594098729
+    second: evelynn_walk_163
+  - first:
+      213: 3815162782261091645
+    second: evelynn_walk_164
+  - first:
+      213: 434619216238200288
+    second: evelynn_walk_165
+  - first:
+      213: -6489622207029567733
+    second: evelynn_walk_166
+  - first:
+      213: -1781038178997828483
+    second: evelynn_walk_167
+  - first:
+      213: -6044513730138545445
+    second: evelynn_walk_168
+  - first:
+      213: 6928469670627504485
+    second: evelynn_walk_169
+  - first:
+      213: 3793815276676791092
+    second: evelynn_walk_170
+  - first:
+      213: -6946886222893150605
+    second: evelynn_walk_171
+  - first:
+      213: -1789960088804913035
+    second: evelynn_walk_000
+  - first:
+      213: -6853202089877110181
+    second: evelynn_walk_001
+  - first:
+      213: 9159250741095718432
+    second: evelynn_walk_002
+  - first:
+      213: -4103759238174650062
+    second: evelynn_walk_003
+  - first:
+      213: -4117301446843493934
+    second: evelynn_walk_004
+  - first:
+      213: -2201066972942584170
+    second: evelynn_walk_005
+  - first:
+      213: 5866393428228091294
+    second: evelynn_walk_006
+  - first:
+      213: 4393177046244833476
+    second: evelynn_walk_007
+  - first:
+      213: -7999075449431537397
+    second: evelynn_walk_008
+  - first:
+      213: -3339479394150115656
+    second: evelynn_walk_009
+  - first:
+      213: 528628484220050097
+    second: evelynn_walk_010
+  - first:
+      213: 8474268637690896354
+    second: evelynn_walk_011
+  - first:
+      213: -868978770550930522
+    second: evelynn_walk_012
+  - first:
+      213: 123810785807122637
+    second: evelynn_walk_013
+  - first:
+      213: 6007946649211259148
+    second: evelynn_walk_014
+  - first:
+      213: -291574056672417040
+    second: evelynn_walk_015
+  - first:
+      213: 4022671153695573456
+    second: evelynn_walk_016
+  - first:
+      213: -3067104450051526933
+    second: evelynn_walk_017
+  - first:
+      213: -5065860845651470290
+    second: evelynn_walk_018
+  - first:
+      213: -6439900127688770158
+    second: evelynn_walk_019
+  - first:
+      213: -5051740011150268481
+    second: evelynn_walk_020
+  - first:
+      213: -4017348303574057471
+    second: evelynn_walk_021
+  - first:
+      213: -3962963991625677814
+    second: evelynn_walk_022
+  - first:
+      213: 762446091917353277
+    second: evelynn_walk_023
+  - first:
+      213: 4240564314609409843
+    second: evelynn_walk_024
+  - first:
+      213: -212625373800695320
+    second: evelynn_walk_025
+  - first:
+      213: 7738800099588540562
+    second: evelynn_walk_026
+  - first:
+      213: -7487951240117835196
+    second: evelynn_walk_027
+  - first:
+      213: 3514648009567765459
+    second: evelynn_walk_028
+  - first:
+      213: -7258002908414877894
+    second: evelynn_walk_029
+  - first:
+      213: 2333482037248103107
+    second: evelynn_walk_030
+  - first:
+      213: 7055658037769007871
+    second: evelynn_walk_031
+  - first:
+      213: -4722911336166519956
+    second: evelynn_walk_032
+  - first:
+      213: -6751826927826035034
+    second: evelynn_walk_033
+  - first:
+      213: 2909445743064536378
+    second: evelynn_walk_034
+  - first:
+      213: -1704466255583348372
+    second: evelynn_walk_035
+  - first:
+      213: -7979949712399975572
+    second: evelynn_walk_036
+  - first:
+      213: -1436445661825037899
+    second: evelynn_walk_037
+  - first:
+      213: -8491366322525983018
+    second: evelynn_walk_038
+  - first:
+      213: 8804979361100738055
+    second: evelynn_walk_039
+  - first:
+      213: 7815621432550245049
+    second: evelynn_walk_040
+  - first:
+      213: -3074026850561690640
+    second: evelynn_walk_041
+  - first:
+      213: -3588433074850633967
+    second: evelynn_walk_042
+  - first:
+      213: -1257132527162373826
+    second: evelynn_walk_043
+  - first:
+      213: -577508495372070429
+    second: evelynn_walk_044
+  - first:
+      213: -5013642285730317757
+    second: evelynn_walk_045
+  - first:
+      213: 381958228682596827
+    second: evelynn_walk_046
+  - first:
+      213: 7688331907138211931
+    second: evelynn_walk_047
+  - first:
+      213: -350897791231064005
+    second: evelynn_walk_048
+  - first:
+      213: 4066651866628491226
+    second: evelynn_walk_049
+  - first:
+      213: -2249455696100697692
+    second: evelynn_walk_050
+  - first:
+      213: -3676261503150164363
+    second: evelynn_walk_051
+  - first:
+      213: -9222542507259305585
+    second: evelynn_walk_052
+  - first:
+      213: -5002236676810874460
+    second: evelynn_walk_053
+  - first:
+      213: 2164671016062550049
+    second: evelynn_walk_054
+  - first:
+      213: 9117595020787640255
+    second: evelynn_walk_055
+  - first:
+      213: 3870022057785886541
+    second: evelynn_walk_056
+  - first:
+      213: 2256085034298077425
+    second: evelynn_walk_057
+  - first:
+      213: -383750208667813855
+    second: evelynn_walk_058
+  - first:
+      213: 2873264455757043592
+    second: evelynn_walk_059
+  - first:
+      213: 3912309469866333307
+    second: evelynn_walk_060
+  - first:
+      213: -5687515562702641957
+    second: evelynn_walk_061
+  - first:
+      213: 4267609627818436058
+    second: evelynn_walk_062
+  - first:
+      213: -5598843207292223978
+    second: evelynn_walk_063
+  - first:
+      213: 4763928933484335939
+    second: evelynn_walk_064
+  - first:
+      213: -6115034129293698829
+    second: evelynn_walk_065
+  - first:
+      213: 3304865770603955760
+    second: evelynn_walk_066
+  - first:
+      213: -212205014108636219
+    second: evelynn_walk_067
+  - first:
+      213: -2354900231226884972
+    second: evelynn_walk_068
+  - first:
+      213: -6324607722778641963
+    second: evelynn_walk_069
+  - first:
+      213: 7813315761945945829
+    second: evelynn_walk_070
+  - first:
+      213: -639443103858864456
+    second: evelynn_walk_071
+  - first:
+      213: 3391490910717917417
+    second: evelynn_walk_072
+  - first:
+      213: -8488469529546350108
+    second: evelynn_walk_073
+  - first:
+      213: -5897882363058192744
+    second: evelynn_walk_074
+  - first:
+      213: -2456573292200889018
+    second: evelynn_walk_075
+  - first:
+      213: 3377364611355454577
+    second: evelynn_walk_076
+  - first:
+      213: -7809089314635905733
+    second: evelynn_walk_077
+  - first:
+      213: -6190641338550012269
+    second: evelynn_walk_078
+  - first:
+      213: 4767954640809297988
+    second: evelynn_walk_079
+  - first:
+      213: -1740215638506777094
+    second: evelynn_walk_080
+  - first:
+      213: 4296242681813274895
+    second: evelynn_walk_081
+  - first:
+      213: 8587776929128766378
+    second: evelynn_walk_082
+  - first:
+      213: -5794876533181094521
+    second: evelynn_walk_083
+  - first:
+      213: -3465377051592897240
+    second: evelynn_walk_084
+  - first:
+      213: 4828903010698465648
+    second: evelynn_walk_085
+  - first:
+      213: -1961134012280091349
+    second: evelynn_walk_086
+  - first:
+      213: 1740185203251088070
+    second: evelynn_walk_087
+  - first:
+      213: 5038440833891874960
+    second: evelynn_walk_088
+  - first:
+      213: -1138417035131220188
+    second: evelynn_walk_089
+  - first:
+      213: 538341010415020639
+    second: evelynn_walk_090
+  - first:
+      213: 9064490894693540299
+    second: evelynn_walk_091
+  - first:
+      213: -6517727248050526368
+    second: evelynn_walk_092
+  - first:
+      213: -5886822671318679069
+    second: evelynn_walk_093
+  - first:
+      213: 7865874293853788987
+    second: evelynn_walk_094
+  - first:
+      213: 9220727337733056621
+    second: evelynn_walk_095
+  - first:
+      213: 8391708183503646409
+    second: evelynn_walk_096
+  - first:
+      213: 120446784515893131
+    second: evelynn_walk_097
+  - first:
+      213: -3426284389012576825
+    second: evelynn_walk_098
+  - first:
+      213: 4613494854147603581
+    second: evelynn_walk_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: evelynn_walk_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57018a868c8c827e0800000000000000
+      internalID: -1789960088804913035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5209e2520984e0a0800000000000000
+      internalID: -6853202089877110181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e5ebf65023c1f70800000000000000
+      internalID: 9159250741095718432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2315fdc27b48c07c0800000000000000
+      internalID: -4103759238174650062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d111b306286cd6c0800000000000000
+      internalID: -4117301446843493934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696b9e6ff3d3471e0800000000000000
+      internalID: -2201066972942584170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9da832ddbd996150800000000000000
+      internalID: 5866393428228091294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c8b2dc5f33b7fc30800000000000000
+      internalID: 4393177046244833476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09c51972439df090800000000000000
+      internalID: -7999075449431537397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b612f03f29c7a1d0800000000000000
+      internalID: -3339479394150115656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bad61c3ec0165700800000000000000
+      internalID: 528628484220050097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef9cc86d66aa9570800000000000000
+      internalID: 8474268637690896354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a3c4f78964c0f3f0800000000000000
+      internalID: -868978770550930522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc04563f04dd7b100800000000000000
+      internalID: 123810785807122637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c094cbf55a3806350800000000000000
+      internalID: 6007946649211259148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa2256b0fe14fbf0800000000000000
+      internalID: -291574056672417040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d54c3ce91663d730800000000000000
+      internalID: 4022671153695573456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beea8adb0c47f65d0800000000000000
+      internalID: -3067104450051526933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e285265a66272b9b0800000000000000
+      internalID: -5065860845651470290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29d3e1434f0e0a6a0800000000000000
+      internalID: -6439900127688770158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7a2c1a93d94e9b0800000000000000
+      internalID: -5051740011150268481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e3372b0038f38c0800000000000000
+      internalID: -4017348303574057471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04cc7d0f39b009c0800000000000000
+      internalID: -3962963991625677814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d316e155ea0c49a00800000000000000
+      internalID: 762446091917353277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fdd73d6c289da30800000000000000
+      internalID: 4240564314609409843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9ff5c595a9c0df0800000000000000
+      internalID: -212625373800695320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2988bbb40bdb56b60800000000000000
+      internalID: 7738800099588540562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44aa45d1504751890800000000000000
+      internalID: -7487951240117835196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d302d84eb986c030800000000000000
+      internalID: 3514648009567765459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fdd213fc4664b90800000000000000
+      internalID: -7258002908414877894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c29defac81326020800000000000000
+      internalID: 2333482037248103107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2f9d55a9bbae160800000000000000
+      internalID: 7055658037769007871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b012ea929d47eb0800000000000000
+      internalID: -4722911336166519956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae130e8e21bc42a0800000000000000
+      internalID: -6751826927826035034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3552a80d7d606820800000000000000
+      internalID: 2909445743064536378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c697050a8f48858e0800000000000000
+      internalID: -1704466255583348372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b3be22406814190800000000000000
+      internalID: -7979949712399975572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b984cbf748b01ce0800000000000000
+      internalID: -1436445661825037899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6deaf10a15b982a80800000000000000
+      internalID: -8491366322525983018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e2e010412913a70800000000000000
+      internalID: 8804979361100738055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b24612b84aa67c60800000000000000
+      internalID: 7815621432550245049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f3f146cddcd655d0800000000000000
+      internalID: -3074026850561690640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117e3497123533ec0800000000000000
+      internalID: -3588433074850633967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39c5ea80a4cd8ee0800000000000000
+      internalID: -1257132527162373826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1d39e45174cf7f0800000000000000
+      internalID: -577508495372070429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34aba2097e6fb6ab0800000000000000
+      internalID: -5013642285730317757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1e9ab3cfcfc4500800000000000000
+      internalID: 381958228682596827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b505640922172ba60800000000000000
+      internalID: 7688331907138211931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b380439615c512bf0800000000000000
+      internalID: -350897791231064005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7029f9356af6830800000000000000
+      internalID: 4066651866628491226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a950f766f358c0e0800000000000000
+      internalID: -2249455696100697692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5767a4bf3ab4bfcc0800000000000000
+      internalID: -3676261503150164363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f816ed8e372f20080800000000000000
+      internalID: -9222542507259305585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1e144de3c749ab0800000000000000
+      internalID: -5002236676810874460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1200ef7f1d47a0e10800000000000000
+      internalID: 2164671016062550049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7eae34d54388e70800000000000000
+      internalID: 9117595020787640255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47014bae8415b530800000000000000
+      internalID: 3870022057785886541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0796ca2693f4f10800000000000000
+      internalID: 2256085034298077425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1287fd9e735acaaf0800000000000000
+      internalID: -383750208667813855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887972f9cc2efd720800000000000000
+      internalID: 2873264455757043592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7497ca0cb05b4630800000000000000
+      internalID: 3912309469866333307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd46a9ebab2e111b0800000000000000
+      internalID: -5687515562702641957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5a7228858993b30800000000000000
+      internalID: 4267609627818436058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61efc3454c9ec42b0800000000000000
+      internalID: -5598843207292223978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3431a87ef10ec1240800000000000000
+      internalID: 4763928933484335939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f81f06bbd8032ba0800000000000000
+      internalID: -6115034129293698829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036423f88ed3ddd20800000000000000
+      internalID: 3304865770603955760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb7f7af9a81e0df0800000000000000
+      internalID: -212205014108636219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c7c3c67b6b15fd0800000000000000
+      internalID: -2354900231226884972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9361c09ca7a38a0800000000000000
+      internalID: -6324607722778641963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6afbce9497e6c60800000000000000
+      internalID: 7813315761945945829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be4b6c82ed3027f0800000000000000
+      internalID: -639443103858864456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8be40b30ff01f20800000000000000
+      internalID: 3391490910717917417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e1a9accfe5e23a80800000000000000
+      internalID: -8488469529546350108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89effd63d33862ea0800000000000000
+      internalID: -5897882363058192744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64577a13b9f78edd0800000000000000
+      internalID: -2456573292200889018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c21d0583fcede20800000000000000
+      internalID: 3377364611355454577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3504d584aa80a390800000000000000
+      internalID: -7809089314635905733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396b0e3808c661aa0800000000000000
+      internalID: -6190641338550012269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4480d9eeb7d2b2240800000000000000
+      internalID: 4767954640809297988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5593ac81389d7e0800000000000000
+      internalID: -1740215638506777094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f011a56e4f15f9b30800000000000000
+      internalID: 4296242681813274895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabd307fd99ed2770800000000000000
+      internalID: 8587776929128766378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7856e72ee76749fa0800000000000000
+      internalID: -5794876533181094521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82dc3039ee188efc0800000000000000
+      internalID: -3465377051592897240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0711f7f14b5b30340800000000000000
+      internalID: 4828903010698465648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2dcb11a107a8c4e0800000000000000
+      internalID: -1961134012280091349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca0c23f831662810800000000000000
+      internalID: 1740185203251088070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098b2fd5e332ce540800000000000000
+      internalID: 5038440833891874960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f00c6fcb78330f0800000000000000
+      internalID: -1138417035131220188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5aefc5fb42987700800000000000000
+      internalID: 538341010415020639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1a8f7617a8bcd70800000000000000
+      internalID: 9064490894693540299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 067601da9916c85a0800000000000000
+      internalID: -6517727248050526368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1855c58fdcd4ea0800000000000000
+      internalID: -5886822671318679069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b180dbef2392d60800000000000000
+      internalID: 7865874293853788987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68ef4009aa96ff70800000000000000
+      internalID: 9220727337733056621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce2978b126557470800000000000000
+      internalID: 8391708183503646409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87686d56b9eba100800000000000000
+      internalID: 120446784515893131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5607d50846370d0800000000000000
+      internalID: -3426284389012576825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c7f82602d660040800000000000000
+      internalID: 4613494854147603581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b368e710f5e36f9e0800000000000000
+      internalID: -1588013240833636805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4aa9dcc54c30f4b0800000000000000
+      internalID: -5408756881984738740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31392b7102e9137e0800000000000000
+      internalID: -1787473716415655149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6199105ff86dc270800000000000000
+      internalID: 8272383536319271279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cf0e45cf39aa4d0800000000000000
+      internalID: -3122520679662945131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4433a5468a6196e50800000000000000
+      internalID: 6802993624613794628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be86fda7af1d69920800000000000000
+      internalID: 2996813475795134699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e944f42aaeb65dae0800000000000000
+      internalID: -1525194243305421666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a50f16467ab57660800000000000000
+      internalID: 7383012181289141666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87de5d9c893f709a0800000000000000
+      internalID: -6266772518915936904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de893e1a3e69ce580800000000000000
+      internalID: -8796490067743631123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa5231b973462310800000000000000
+      internalID: 1379864525778606757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88bf939efc0947f0800000000000000
+      internalID: -627956385503528818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600fba32a356e4970800000000000000
+      internalID: 8741035227153690630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35430ac6c1e10cb80800000000000000
+      internalID: -8376662199478766509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac31f5a3a5082470800000000000000
+      internalID: 8369946107889925281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8813823a1c79fd240800000000000000
+      internalID: 4818736984231522696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030d5a04b89eb09b0800000000000000
+      internalID: -5112736167654731728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126abea05ff0d85f0800000000000000
+      internalID: -752928017576384991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_walk_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33ef84b90880d5a0800000000000000
+      internalID: -6498544687030213830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      evelynn_walk_0: 7039224419945538539
+      evelynn_walk_000: -1789960088804913035
+      evelynn_walk_001: -6853202089877110181
+      evelynn_walk_002: 9159250741095718432
+      evelynn_walk_003: -4103759238174650062
+      evelynn_walk_004: -4117301446843493934
+      evelynn_walk_005: -2201066972942584170
+      evelynn_walk_006: 5866393428228091294
+      evelynn_walk_007: 4393177046244833476
+      evelynn_walk_008: -7999075449431537397
+      evelynn_walk_009: -3339479394150115656
+      evelynn_walk_010: 528628484220050097
+      evelynn_walk_011: 8474268637690896354
+      evelynn_walk_012: -868978770550930522
+      evelynn_walk_013: 123810785807122637
+      evelynn_walk_014: 6007946649211259148
+      evelynn_walk_015: -291574056672417040
+      evelynn_walk_016: 4022671153695573456
+      evelynn_walk_017: -3067104450051526933
+      evelynn_walk_018: -5065860845651470290
+      evelynn_walk_019: -6439900127688770158
+      evelynn_walk_020: -5051740011150268481
+      evelynn_walk_021: -4017348303574057471
+      evelynn_walk_022: -3962963991625677814
+      evelynn_walk_023: 762446091917353277
+      evelynn_walk_024: 4240564314609409843
+      evelynn_walk_025: -212625373800695320
+      evelynn_walk_026: 7738800099588540562
+      evelynn_walk_027: -7487951240117835196
+      evelynn_walk_028: 3514648009567765459
+      evelynn_walk_029: -7258002908414877894
+      evelynn_walk_030: 2333482037248103107
+      evelynn_walk_031: 7055658037769007871
+      evelynn_walk_032: -4722911336166519956
+      evelynn_walk_033: -6751826927826035034
+      evelynn_walk_034: 2909445743064536378
+      evelynn_walk_035: -1704466255583348372
+      evelynn_walk_036: -7979949712399975572
+      evelynn_walk_037: -1436445661825037899
+      evelynn_walk_038: -8491366322525983018
+      evelynn_walk_039: 8804979361100738055
+      evelynn_walk_040: 7815621432550245049
+      evelynn_walk_041: -3074026850561690640
+      evelynn_walk_042: -3588433074850633967
+      evelynn_walk_043: -1257132527162373826
+      evelynn_walk_044: -577508495372070429
+      evelynn_walk_045: -5013642285730317757
+      evelynn_walk_046: 381958228682596827
+      evelynn_walk_047: 7688331907138211931
+      evelynn_walk_048: -350897791231064005
+      evelynn_walk_049: 4066651866628491226
+      evelynn_walk_050: -2249455696100697692
+      evelynn_walk_051: -3676261503150164363
+      evelynn_walk_052: -9222542507259305585
+      evelynn_walk_053: -5002236676810874460
+      evelynn_walk_054: 2164671016062550049
+      evelynn_walk_055: 9117595020787640255
+      evelynn_walk_056: 3870022057785886541
+      evelynn_walk_057: 2256085034298077425
+      evelynn_walk_058: -383750208667813855
+      evelynn_walk_059: 2873264455757043592
+      evelynn_walk_060: 3912309469866333307
+      evelynn_walk_061: -5687515562702641957
+      evelynn_walk_062: 4267609627818436058
+      evelynn_walk_063: -5598843207292223978
+      evelynn_walk_064: 4763928933484335939
+      evelynn_walk_065: -6115034129293698829
+      evelynn_walk_066: 3304865770603955760
+      evelynn_walk_067: -212205014108636219
+      evelynn_walk_068: -2354900231226884972
+      evelynn_walk_069: -6324607722778641963
+      evelynn_walk_070: 7813315761945945829
+      evelynn_walk_071: -639443103858864456
+      evelynn_walk_072: 3391490910717917417
+      evelynn_walk_073: -8488469529546350108
+      evelynn_walk_074: -5897882363058192744
+      evelynn_walk_075: -2456573292200889018
+      evelynn_walk_076: 3377364611355454577
+      evelynn_walk_077: -7809089314635905733
+      evelynn_walk_078: -6190641338550012269
+      evelynn_walk_079: 4767954640809297988
+      evelynn_walk_080: -1740215638506777094
+      evelynn_walk_081: 4296242681813274895
+      evelynn_walk_082: 8587776929128766378
+      evelynn_walk_083: -5794876533181094521
+      evelynn_walk_084: -3465377051592897240
+      evelynn_walk_085: 4828903010698465648
+      evelynn_walk_086: -1961134012280091349
+      evelynn_walk_087: 1740185203251088070
+      evelynn_walk_088: 5038440833891874960
+      evelynn_walk_089: -1138417035131220188
+      evelynn_walk_090: 538341010415020639
+      evelynn_walk_091: 9064490894693540299
+      evelynn_walk_092: -6517727248050526368
+      evelynn_walk_093: -5886822671318679069
+      evelynn_walk_094: 7865874293853788987
+      evelynn_walk_095: 9220727337733056621
+      evelynn_walk_096: 8391708183503646409
+      evelynn_walk_097: 120446784515893131
+      evelynn_walk_098: -3426284389012576825
+      evelynn_walk_099: 4613494854147603581
+      evelynn_walk_1: -8083805075209305665
+      evelynn_walk_10: 4424990455901711472
+      evelynn_walk_100: -1588013240833636805
+      evelynn_walk_101: -5408756881984738740
+      evelynn_walk_102: -1787473716415655149
+      evelynn_walk_103: 8272383536319271279
+      evelynn_walk_104: -3122520679662945131
+      evelynn_walk_105: 6802993624613794628
+      evelynn_walk_106: 2996813475795134699
+      evelynn_walk_107: -1525194243305421666
+      evelynn_walk_108: 7383012181289141666
+      evelynn_walk_109: -6266772518915936904
+      evelynn_walk_11: -7816732694782664235
+      evelynn_walk_110: -8796490067743631123
+      evelynn_walk_111: 1379864525778606757
+      evelynn_walk_112: -627956385503528818
+      evelynn_walk_113: 8741035227153690630
+      evelynn_walk_114: -8376662199478766509
+      evelynn_walk_115: 8369946107889925281
+      evelynn_walk_116: 4818736984231522696
+      evelynn_walk_117: -5112736167654731728
+      evelynn_walk_118: -752928017576384991
+      evelynn_walk_119: -6498544687030213830
+      evelynn_walk_12: -4872578958340689206
+      evelynn_walk_120: -8341570891603726078
+      evelynn_walk_121: -6890296745280138622
+      evelynn_walk_122: 7355562759632157247
+      evelynn_walk_123: -2566824431018149145
+      evelynn_walk_124: 6777561630416864786
+      evelynn_walk_125: -1293732964246458877
+      evelynn_walk_126: 5672770699985501597
+      evelynn_walk_127: -4046962343630801068
+      evelynn_walk_128: -8734315630701682075
+      evelynn_walk_129: 2032563366126036488
+      evelynn_walk_13: 657502087006309954
+      evelynn_walk_130: -194558731765911912
+      evelynn_walk_131: 1231950132079266877
+      evelynn_walk_132: 3345543626196895883
+      evelynn_walk_133: -7947643442387229260
+      evelynn_walk_134: -7644300101517244809
+      evelynn_walk_135: -540356902676801503
+      evelynn_walk_136: 1228420764356511134
+      evelynn_walk_137: -4374435899089176646
+      evelynn_walk_138: -7771209582395230307
+      evelynn_walk_139: -523189764499077098
+      evelynn_walk_14: -6817581489165357772
+      evelynn_walk_140: -9172968493623418610
+      evelynn_walk_141: -7328334047356338881
+      evelynn_walk_142: 9203062145996242487
+      evelynn_walk_143: 5962008545531271120
+      evelynn_walk_144: -7745937329714929845
+      evelynn_walk_145: 6352274442888983222
+      evelynn_walk_146: 2840666644939629516
+      evelynn_walk_147: 8846084593524792417
+      evelynn_walk_148: -6089283363488593317
+      evelynn_walk_149: 1057330386342829811
+      evelynn_walk_15: -1210550958509736868
+      evelynn_walk_150: -6291447641662941126
+      evelynn_walk_151: -6927267431107239372
+      evelynn_walk_152: 4894007816884429416
+      evelynn_walk_153: -3380900399519197722
+      evelynn_walk_154: 3873363674584607593
+      evelynn_walk_155: -530598195279422586
+      evelynn_walk_156: 455114075943783202
+      evelynn_walk_157: 1896213126737005694
+      evelynn_walk_158: 244510980590989033
+      evelynn_walk_159: -4058050482457690287
+      evelynn_walk_16: 2326707045299647984
+      evelynn_walk_160: 5280329023481277905
+      evelynn_walk_161: -7555132808642271097
+      evelynn_walk_162: 6990583721736598848
+      evelynn_walk_163: 3064637649594098729
+      evelynn_walk_164: 3815162782261091645
+      evelynn_walk_165: 434619216238200288
+      evelynn_walk_166: -6489622207029567733
+      evelynn_walk_167: -1781038178997828483
+      evelynn_walk_168: -6044513730138545445
+      evelynn_walk_169: 6928469670627504485
+      evelynn_walk_17: -2307824602405645909
+      evelynn_walk_170: 3793815276676791092
+      evelynn_walk_171: -6946886222893150605
+      evelynn_walk_18: -1139078577521918168
+      evelynn_walk_19: -2014490403297444362
+      evelynn_walk_2: -4891521173409607064
+      evelynn_walk_20: -9155171447515088227
+      evelynn_walk_21: 5136094605468351087
+      evelynn_walk_22: 1594372359895857576
+      evelynn_walk_23: -353674813101000983
+      evelynn_walk_24: 1520663743082622710
+      evelynn_walk_25: -4771524358754800365
+      evelynn_walk_26: 7142432156305385515
+      evelynn_walk_27: -7142197439168691543
+      evelynn_walk_28: -7093335948281587482
+      evelynn_walk_29: -7999757565455374863
+      evelynn_walk_3: -442774732793439774
+      evelynn_walk_30: -4181479944939736253
+      evelynn_walk_31: 8859361270845831085
+      evelynn_walk_32: -3346497796134378676
+      evelynn_walk_33: -8082900088215017840
+      evelynn_walk_34: 8250783306846006945
+      evelynn_walk_35: 3082089000194671554
+      evelynn_walk_36: 3238273551526150126
+      evelynn_walk_37: 8232757741341557860
+      evelynn_walk_38: -7246800507270430412
+      evelynn_walk_39: -8525911983136233291
+      evelynn_walk_4: -6146252133718534036
+      evelynn_walk_40: 2241463222701094640
+      evelynn_walk_41: 4234979934695046418
+      evelynn_walk_42: 4218192396419607447
+      evelynn_walk_43: 2720235937932438599
+      evelynn_walk_44: -5929455602145291939
+      evelynn_walk_45: -6458617211136593277
+      evelynn_walk_46: -3456404359258804837
+      evelynn_walk_47: -1633959405806747807
+      evelynn_walk_48: -4787449871058044052
+      evelynn_walk_49: 8979611446716479979
+      evelynn_walk_5: 4457493992768961978
+      evelynn_walk_50: -3629219938276703837
+      evelynn_walk_51: -5127128275043394172
+      evelynn_walk_52: 4147381439729346871
+      evelynn_walk_53: 4014336994889403879
+      evelynn_walk_54: 2760647149781850272
+      evelynn_walk_55: -2757157703492046060
+      evelynn_walk_56: 825874620379373921
+      evelynn_walk_57: -4296957618325086377
+      evelynn_walk_58: 4140280661198314516
+      evelynn_walk_59: -1295303103991776603
+      evelynn_walk_6: 8155175245639986474
+      evelynn_walk_60: 6019491646589725622
+      evelynn_walk_61: 4297125029944871138
+      evelynn_walk_62: -8611514082335613822
+      evelynn_walk_63: -2541486420986436358
+      evelynn_walk_64: -8395162820154836138
+      evelynn_walk_65: -145006975474797593
+      evelynn_walk_66: 801260938934519941
+      evelynn_walk_67: 6790082159072685961
+      evelynn_walk_68: 5168765697456957295
+      evelynn_walk_69: -5469195536294316337
+      evelynn_walk_7: -966477984297791603
+      evelynn_walk_70: 3720525582870494544
+      evelynn_walk_71: 6444937231403717505
+      evelynn_walk_72: -752403564323214651
+      evelynn_walk_73: -71828863286883160
+      evelynn_walk_74: 601909399642450244
+      evelynn_walk_75: -6939978681597575293
+      evelynn_walk_76: 1075139265515787938
+      evelynn_walk_77: 2152137468976163945
+      evelynn_walk_78: 2690220984184002275
+      evelynn_walk_79: -5293552484693562198
+      evelynn_walk_8: -9116086586651678785
+      evelynn_walk_80: -5558208627059247313
+      evelynn_walk_81: 7347841658373051594
+      evelynn_walk_82: -176754176053614043
+      evelynn_walk_83: 2697997443696750944
+      evelynn_walk_84: 2801855522673753744
+      evelynn_walk_85: 7029113271105755682
+      evelynn_walk_86: -7128409229961545451
+      evelynn_walk_87: 5997343893918606321
+      evelynn_walk_88: 4703769448989468130
+      evelynn_walk_89: 6692569747982618364
+      evelynn_walk_9: -7840539866061751536
+      evelynn_walk_90: 5616533556202116491
+      evelynn_walk_91: 2888140596911659998
+      evelynn_walk_92: -9108507605066921053
+      evelynn_walk_93: -6813081435653177867
+      evelynn_walk_94: 8432149253512543746
+      evelynn_walk_95: 737545126439740658
+      evelynn_walk_96: -5299460731895277024
+      evelynn_walk_97: -8517254397402569813
+      evelynn_walk_98: 8515537788633502727
+      evelynn_walk_99: 7853931262171109221
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

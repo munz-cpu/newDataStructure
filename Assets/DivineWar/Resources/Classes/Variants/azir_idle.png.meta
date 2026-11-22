@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: cb1b42426f71c324bb21cdc72a8ba9dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1114023487610092774
+    second: azir_idle_0
+  - first:
+      213: -5582512803307260869
+    second: azir_idle_1
+  - first:
+      213: 3235268779924176889
+    second: azir_idle_2
+  - first:
+      213: 5696145597990917109
+    second: azir_idle_3
+  - first:
+      213: -7630745070782861348
+    second: azir_idle_4
+  - first:
+      213: 4082222628911710732
+    second: azir_idle_5
+  - first:
+      213: 7976101264001989096
+    second: azir_idle_6
+  - first:
+      213: -6100812509949004080
+    second: azir_idle_7
+  - first:
+      213: -3903286467851829874
+    second: azir_idle_8
+  - first:
+      213: 6723286278671229406
+    second: azir_idle_9
+  - first:
+      213: 8379740633378033245
+    second: azir_idle_10
+  - first:
+      213: -2585875086549091079
+    second: azir_idle_11
+  - first:
+      213: -4963662167757400284
+    second: azir_idle_12
+  - first:
+      213: 8793391030482136078
+    second: azir_idle_13
+  - first:
+      213: 8665052386631589631
+    second: azir_idle_14
+  - first:
+      213: -3373080770653094775
+    second: azir_idle_15
+  - first:
+      213: -6220198357927424565
+    second: azir_idle_16
+  - first:
+      213: -3292173946669920074
+    second: azir_idle_17
+  - first:
+      213: -6718488085576464612
+    second: azir_idle_18
+  - first:
+      213: -8152211176915756689
+    second: azir_idle_19
+  - first:
+      213: 22851509976157788
+    second: azir_idle_20
+  - first:
+      213: 7628611510473512881
+    second: azir_idle_21
+  - first:
+      213: -8310789621354975289
+    second: azir_idle_22
+  - first:
+      213: 4197897245192801893
+    second: azir_idle_23
+  - first:
+      213: -3965174603825873667
+    second: azir_idle_24
+  - first:
+      213: 5973905720125139538
+    second: azir_idle_25
+  - first:
+      213: -7832883718693446862
+    second: azir_idle_26
+  - first:
+      213: 498735298403331797
+    second: azir_idle_27
+  - first:
+      213: 3762229618231419764
+    second: azir_idle_28
+  - first:
+      213: 4549562185250410316
+    second: azir_idle_29
+  - first:
+      213: -200614511275998274
+    second: azir_idle_30
+  - first:
+      213: -3576183844223817247
+    second: azir_idle_31
+  - first:
+      213: -1618369614950244948
+    second: azir_idle_32
+  - first:
+      213: 8479375443923509286
+    second: azir_idle_33
+  - first:
+      213: -8869153657740046491
+    second: azir_idle_34
+  - first:
+      213: 1353153637470679021
+    second: azir_idle_35
+  - first:
+      213: 4712507977799514328
+    second: azir_idle_36
+  - first:
+      213: 6137263030025275392
+    second: azir_idle_37
+  - first:
+      213: 1130207382989943263
+    second: azir_idle_38
+  - first:
+      213: 6805855375239731211
+    second: azir_idle_39
+  - first:
+      213: 1539973753672610196
+    second: azir_idle_40
+  - first:
+      213: -5506614184615350981
+    second: azir_idle_41
+  - first:
+      213: 1421922778036740384
+    second: azir_idle_42
+  - first:
+      213: -2404332372466732241
+    second: azir_idle_43
+  - first:
+      213: -5499063918154088449
+    second: azir_idle_44
+  - first:
+      213: -8213591090656546896
+    second: azir_idle_45
+  - first:
+      213: 8670258517839392910
+    second: azir_idle_46
+  - first:
+      213: -7424267151433251976
+    second: azir_idle_47
+  - first:
+      213: 3843687773792468252
+    second: azir_idle_48
+  - first:
+      213: 5808911837733432977
+    second: azir_idle_49
+  - first:
+      213: -1268778478796083717
+    second: azir_idle_50
+  - first:
+      213: -5164471732899545515
+    second: azir_idle_51
+  - first:
+      213: -8574439562351974760
+    second: azir_idle_52
+  - first:
+      213: 7463748864269214650
+    second: azir_idle_53
+  - first:
+      213: -4588493840187814752
+    second: azir_idle_54
+  - first:
+      213: 8842791957884508840
+    second: azir_idle_55
+  - first:
+      213: -5351664760948501202
+    second: azir_idle_56
+  - first:
+      213: -6248609338209067583
+    second: azir_idle_57
+  - first:
+      213: -1873630146282193804
+    second: azir_idle_58
+  - first:
+      213: 7971221738208026782
+    second: azir_idle_59
+  - first:
+      213: 8313389199510491816
+    second: azir_idle_60
+  - first:
+      213: -6368907984029401521
+    second: azir_idle_61
+  - first:
+      213: -1171139978322759253
+    second: azir_idle_62
+  - first:
+      213: 455352939981288051
+    second: azir_idle_63
+  - first:
+      213: -4025551996033087779
+    second: azir_idle_64
+  - first:
+      213: -8293070288555224280
+    second: azir_idle_65
+  - first:
+      213: -768217853006501788
+    second: azir_idle_66
+  - first:
+      213: 9013989739526109489
+    second: azir_idle_67
+  - first:
+      213: -3265695745598704067
+    second: azir_idle_68
+  - first:
+      213: -5809555214469458699
+    second: azir_idle_69
+  - first:
+      213: 875842569334123642
+    second: azir_idle_70
+  - first:
+      213: 958843809557429095
+    second: azir_idle_71
+  - first:
+      213: -1763213792359690709
+    second: azir_idle_72
+  - first:
+      213: 7577212104376131374
+    second: azir_idle_73
+  - first:
+      213: 5956041786824532278
+    second: azir_idle_74
+  - first:
+      213: 2699340377096252111
+    second: azir_idle_75
+  - first:
+      213: 6923101271705681429
+    second: azir_idle_76
+  - first:
+      213: 6649097113416410096
+    second: azir_idle_77
+  - first:
+      213: -760874583863498502
+    second: azir_idle_78
+  - first:
+      213: 5490527759403513762
+    second: azir_idle_79
+  - first:
+      213: -8562754596238300471
+    second: azir_idle_80
+  - first:
+      213: -8878805998341325569
+    second: azir_idle_81
+  - first:
+      213: 6886277857518469936
+    second: azir_idle_82
+  - first:
+      213: 9195646072497333208
+    second: azir_idle_83
+  - first:
+      213: -6163519538814827374
+    second: azir_idle_84
+  - first:
+      213: 1104231885855047047
+    second: azir_idle_85
+  - first:
+      213: 5849381511401368596
+    second: azir_idle_86
+  - first:
+      213: 7400726731539194627
+    second: azir_idle_87
+  - first:
+      213: 5226977422148183371
+    second: azir_idle_88
+  - first:
+      213: -2674582040778448713
+    second: azir_idle_89
+  - first:
+      213: 8109500463467043956
+    second: azir_idle_90
+  - first:
+      213: -419998045172362961
+    second: azir_idle_91
+  - first:
+      213: -4935650348230919699
+    second: azir_idle_92
+  - first:
+      213: -3880878948372701773
+    second: azir_idle_93
+  - first:
+      213: -5610846192786524630
+    second: azir_idle_94
+  - first:
+      213: -7162969390336307055
+    second: azir_idle_95
+  - first:
+      213: 1610823310572753895
+    second: azir_idle_96
+  - first:
+      213: 6720399824789695436
+    second: azir_idle_97
+  - first:
+      213: -6919618672104761000
+    second: azir_idle_98
+  - first:
+      213: 811717313264162226
+    second: azir_idle_99
+  - first:
+      213: 8529098690323072673
+    second: azir_idle_100
+  - first:
+      213: -2913890154352879170
+    second: azir_idle_101
+  - first:
+      213: -7943303971533604830
+    second: azir_idle_102
+  - first:
+      213: -7581499733580921695
+    second: azir_idle_103
+  - first:
+      213: -5546089705030761842
+    second: azir_idle_104
+  - first:
+      213: 1412842693762614762
+    second: azir_idle_105
+  - first:
+      213: -1482116657134728608
+    second: azir_idle_106
+  - first:
+      213: -7012215652358768300
+    second: azir_idle_107
+  - first:
+      213: 5452185519721243063
+    second: azir_idle_108
+  - first:
+      213: 1836224706693071783
+    second: azir_idle_109
+  - first:
+      213: 6319419464020569739
+    second: azir_idle_110
+  - first:
+      213: -6632029734628073046
+    second: azir_idle_111
+  - first:
+      213: -7559311467098188013
+    second: azir_idle_112
+  - first:
+      213: 4690106503809068701
+    second: azir_idle_113
+  - first:
+      213: -1682158564649922307
+    second: azir_idle_114
+  - first:
+      213: 7567095688197518792
+    second: azir_idle_115
+  - first:
+      213: 6792655316645688547
+    second: azir_idle_116
+  - first:
+      213: 3073425111407293388
+    second: azir_idle_117
+  - first:
+      213: 181508748142167441
+    second: azir_idle_118
+  - first:
+      213: -4584644914151950039
+    second: azir_idle_119
+  - first:
+      213: -7231481956456282799
+    second: azir_idle_000
+  - first:
+      213: -133017074544937357
+    second: azir_idle_001
+  - first:
+      213: 5837477652084297223
+    second: azir_idle_002
+  - first:
+      213: -5676256556870553360
+    second: azir_idle_003
+  - first:
+      213: 4588991883064232912
+    second: azir_idle_004
+  - first:
+      213: 5587550074155384871
+    second: azir_idle_005
+  - first:
+      213: 5354982323688574561
+    second: azir_idle_006
+  - first:
+      213: -7692391367883569064
+    second: azir_idle_007
+  - first:
+      213: 8459224623513160341
+    second: azir_idle_008
+  - first:
+      213: 804213239417735745
+    second: azir_idle_009
+  - first:
+      213: 4571777088183247494
+    second: azir_idle_010
+  - first:
+      213: -1428438497195623113
+    second: azir_idle_011
+  - first:
+      213: -4532694302073965889
+    second: azir_idle_012
+  - first:
+      213: -7390791343588648237
+    second: azir_idle_013
+  - first:
+      213: 3696684575378045578
+    second: azir_idle_014
+  - first:
+      213: 1792815727524910878
+    second: azir_idle_015
+  - first:
+      213: 8520981398207397394
+    second: azir_idle_016
+  - first:
+      213: -5071817022469311025
+    second: azir_idle_017
+  - first:
+      213: 3404971316399871256
+    second: azir_idle_018
+  - first:
+      213: -4993950507070197596
+    second: azir_idle_019
+  - first:
+      213: 6830647754062460907
+    second: azir_idle_020
+  - first:
+      213: 7463668851326041638
+    second: azir_idle_021
+  - first:
+      213: 7963137581134418041
+    second: azir_idle_022
+  - first:
+      213: 1349597054396221483
+    second: azir_idle_023
+  - first:
+      213: -1766631966030022322
+    second: azir_idle_024
+  - first:
+      213: 3736709901969528712
+    second: azir_idle_025
+  - first:
+      213: -6851331815608765047
+    second: azir_idle_026
+  - first:
+      213: -4727277306676494046
+    second: azir_idle_027
+  - first:
+      213: 7504464913324722397
+    second: azir_idle_028
+  - first:
+      213: 6852968106606381639
+    second: azir_idle_029
+  - first:
+      213: -4772677579229456534
+    second: azir_idle_030
+  - first:
+      213: 1021446043084043908
+    second: azir_idle_031
+  - first:
+      213: 5972971004088616224
+    second: azir_idle_032
+  - first:
+      213: 5251522391806001203
+    second: azir_idle_033
+  - first:
+      213: 8306773898015442630
+    second: azir_idle_034
+  - first:
+      213: 3398785772788747928
+    second: azir_idle_035
+  - first:
+      213: -1691263980102325858
+    second: azir_idle_036
+  - first:
+      213: 1036938807891108511
+    second: azir_idle_037
+  - first:
+      213: 3565345888571509230
+    second: azir_idle_038
+  - first:
+      213: -2536924412547050003
+    second: azir_idle_039
+  - first:
+      213: -1690759657959910680
+    second: azir_idle_040
+  - first:
+      213: -912995676893382281
+    second: azir_idle_041
+  - first:
+      213: 2788970105624358476
+    second: azir_idle_042
+  - first:
+      213: 5312855205260365537
+    second: azir_idle_043
+  - first:
+      213: 6939224137594909871
+    second: azir_idle_044
+  - first:
+      213: 3361698921668850106
+    second: azir_idle_045
+  - first:
+      213: 4977103902508029386
+    second: azir_idle_046
+  - first:
+      213: -7552278863614035967
+    second: azir_idle_047
+  - first:
+      213: 7209545620288811355
+    second: azir_idle_048
+  - first:
+      213: -3990653217925927998
+    second: azir_idle_049
+  - first:
+      213: 6888566772571546256
+    second: azir_idle_050
+  - first:
+      213: 5217997750546202030
+    second: azir_idle_051
+  - first:
+      213: -8508955510461784492
+    second: azir_idle_052
+  - first:
+      213: -7208061781365033811
+    second: azir_idle_053
+  - first:
+      213: -5510586635189541806
+    second: azir_idle_054
+  - first:
+      213: 1875323625901084468
+    second: azir_idle_055
+  - first:
+      213: 6426783775072308937
+    second: azir_idle_056
+  - first:
+      213: -832975796500946302
+    second: azir_idle_057
+  - first:
+      213: 7357715034277691999
+    second: azir_idle_058
+  - first:
+      213: 5848060777998060318
+    second: azir_idle_059
+  - first:
+      213: -1401309317203269634
+    second: azir_idle_060
+  - first:
+      213: -4108708764069529275
+    second: azir_idle_061
+  - first:
+      213: 3135209354996677237
+    second: azir_idle_062
+  - first:
+      213: -9026387583686103373
+    second: azir_idle_063
+  - first:
+      213: 2495494267543547292
+    second: azir_idle_064
+  - first:
+      213: -1613203623518747371
+    second: azir_idle_065
+  - first:
+      213: 1638397981113224898
+    second: azir_idle_066
+  - first:
+      213: 6153618920578171111
+    second: azir_idle_067
+  - first:
+      213: -4537309236101313874
+    second: azir_idle_068
+  - first:
+      213: 430881092712922412
+    second: azir_idle_069
+  - first:
+      213: 2095460230743584561
+    second: azir_idle_070
+  - first:
+      213: -7320632533386945732
+    second: azir_idle_071
+  - first:
+      213: -8815698341972959369
+    second: azir_idle_072
+  - first:
+      213: 5323273810802486015
+    second: azir_idle_073
+  - first:
+      213: 8896629426713416813
+    second: azir_idle_074
+  - first:
+      213: -557677698339872114
+    second: azir_idle_075
+  - first:
+      213: -7986729905152294509
+    second: azir_idle_076
+  - first:
+      213: -4106385615262878453
+    second: azir_idle_077
+  - first:
+      213: -3941394102937091382
+    second: azir_idle_078
+  - first:
+      213: 7291610434173828685
+    second: azir_idle_079
+  - first:
+      213: -634084260055192762
+    second: azir_idle_080
+  - first:
+      213: -4004338958296879272
+    second: azir_idle_081
+  - first:
+      213: 5692127650940964757
+    second: azir_idle_082
+  - first:
+      213: 8322441479809135547
+    second: azir_idle_083
+  - first:
+      213: -463111982285818037
+    second: azir_idle_084
+  - first:
+      213: 8555394053654875274
+    second: azir_idle_085
+  - first:
+      213: -8993989213773893447
+    second: azir_idle_086
+  - first:
+      213: 3298551036244409752
+    second: azir_idle_087
+  - first:
+      213: 4385726089547539940
+    second: azir_idle_088
+  - first:
+      213: -7475261504103995691
+    second: azir_idle_089
+  - first:
+      213: 814108052777892434
+    second: azir_idle_090
+  - first:
+      213: 5430490644943841958
+    second: azir_idle_091
+  - first:
+      213: 4287068604338093669
+    second: azir_idle_092
+  - first:
+      213: 3358549121879976327
+    second: azir_idle_093
+  - first:
+      213: -6815000051456910924
+    second: azir_idle_094
+  - first:
+      213: -1762380374927352239
+    second: azir_idle_095
+  - first:
+      213: -8078236767603831718
+    second: azir_idle_096
+  - first:
+      213: 7540517156420741870
+    second: azir_idle_097
+  - first:
+      213: 6401589632481258413
+    second: azir_idle_098
+  - first:
+      213: -5876465044500913235
+    second: azir_idle_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: azir_idle_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155c6c1897d94ab90800000000000000
+      internalID: -7231481956456282799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376ffaaecad672ef0800000000000000
+      internalID: -133017074544937357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e04cc0ff2e20150800000000000000
+      internalID: 5837477652084297223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0bfb15cb2e931b0800000000000000
+      internalID: -5676256556870553360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbc13bddcf5faf30800000000000000
+      internalID: 4588991883064232912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7204db63037fa8d40800000000000000
+      internalID: 5587550074155384871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e04fd2d08b05a40800000000000000
+      internalID: 5354982323688574561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858c4049ec22f3590800000000000000
+      internalID: -7692391367883569064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a4db7e9f3356570800000000000000
+      internalID: 8459224623513160341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a092b2ea3292b00800000000000000
+      internalID: 804213239417735745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682ae651a07327f30800000000000000
+      internalID: 4571777088183247494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d792741ca2d2ce0800000000000000
+      internalID: -1428438497195623113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2b1792c82a811c0800000000000000
+      internalID: -4532694302073965889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dadd5c5e62ae6990800000000000000
+      internalID: -7390791343588648237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8af21219034d4330800000000000000
+      internalID: 3696684575378045578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e171bdac76c51e810800000000000000
+      internalID: 1792815727524910878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21efcd18f6b904670800000000000000
+      internalID: 8520981398207397394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5ffe92a494d99b0800000000000000
+      internalID: -5071817022469311025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81598683f53e04f20800000000000000
+      internalID: 3404971316399871256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0f230197ce1bab0800000000000000
+      internalID: -4993950507070197596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be776b621f55bce50800000000000000
+      internalID: 6830647754062460907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ebf6ca647449760800000000000000
+      internalID: 7463668851326041638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9709415807fb28e60800000000000000
+      internalID: 7963137581134418041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b284339de5bbab210800000000000000
+      internalID: 1349597054396221483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e493eef3699ab77e0800000000000000
+      internalID: -1766631966030022322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887149f9bd57bd330800000000000000
+      internalID: 3736709901969528712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985be4c730e2be0a0800000000000000
+      internalID: -6851331815608765047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22148c4f556556eb0800000000000000
+      internalID: -4727277306676494046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd84a1c0417352860800000000000000
+      internalID: 7504464913324722397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74aca533f22aa1f50800000000000000
+      internalID: 6852968106606381639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a679e86470b04cdb0800000000000000
+      internalID: -4772677579229456534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486b04ba3c7ec2e00800000000000000
+      internalID: 1021446043084043908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02509686b7144e250800000000000000
+      internalID: 5972971004088616224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3304b95aac721e840800000000000000
+      internalID: 5251522391806001203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c682bc59d6974370800000000000000
+      internalID: 8306773898015442630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e89be17a9ea2f20800000000000000
+      internalID: 3398785772788747928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99669cee5c6788e0800000000000000
+      internalID: -1691263980102325858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92aa221a52f36e00800000000000000
+      internalID: 1036938807891108511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee944b51237aa7130800000000000000
+      internalID: 3565345888571509230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5dd1020b80bccd0800000000000000
+      internalID: -2536924412547050003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e21db29c073988e0800000000000000
+      internalID: -1690759657959910680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7797d45e4436453f0800000000000000
+      internalID: -912995676893382281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e6ce2d88964b620800000000000000
+      internalID: 2788970105624358476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee01a419ad0bb940800000000000000
+      internalID: 5312855205260365537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4392a66931d4060800000000000000
+      internalID: 6939224137594909871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1b2e3bb5727ae20800000000000000
+      internalID: 3361698921668850106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5933721a9321540800000000000000
+      internalID: 4977103902508029386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1083891236ae03790800000000000000
+      internalID: -7552278863614035967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51b9493b837d0460800000000000000
+      internalID: 7209545620288811355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb61cbaa0a5e98c0800000000000000
+      internalID: -3990653217925927998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092afa28bfa199f50800000000000000
+      internalID: 6888566772571546256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eadf718de4d0a6840800000000000000
+      internalID: 5217997750546202030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45e925dab0e1ae980800000000000000
+      internalID: -8508955510461784492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4faa2fff1d7fb90800000000000000
+      internalID: -7208061781365033811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2542381d6a67683b0800000000000000
+      internalID: -5510586635189541806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f4bb0e6ec760a10800000000000000
+      internalID: 1875323625901084468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cecd69fac5803950800000000000000
+      internalID: 6426783775072308937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28220172deca074f0800000000000000
+      internalID: -832975796500946302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f524ca047dadb1660800000000000000
+      internalID: 7357715034277691999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b08711b4c782150800000000000000
+      internalID: 5848060777998060318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef767a7b99c8d8ce0800000000000000
+      internalID: -1401309317203269634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549f910e52feaf6c0800000000000000
+      internalID: -4108708764069529275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57afe0d1c40828b20800000000000000
+      internalID: 3135209354996677237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bea4650154dbb280800000000000000
+      internalID: -9026387583686103373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9de4fb80d6c1a220800000000000000
+      internalID: 2495494267543547292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515cacdf9dfbc99e0800000000000000
+      internalID: -1613203623518747371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce88f08842ccb610800000000000000
+      internalID: 1638397981113224898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e04f241ecb066550800000000000000
+      internalID: 6153618920578171111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa051a1a4d3801c0800000000000000
+      internalID: -4537309236101313874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2df597221ccaf500800000000000000
+      internalID: 430881092712922412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fed664af1941d10800000000000000
+      internalID: 2095460230743584561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b9d4c4f73e76a90800000000000000
+      internalID: -7320632533386945732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f93b7c01958a580800000000000000
+      internalID: -8815698341972959369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffaa507b35110e940800000000000000
+      internalID: 5323273810802486015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d645a85c35d277b70800000000000000
+      internalID: 8896629426713416813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e826b4b861bb248f0800000000000000
+      internalID: -557677698339872114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391886e777f692190800000000000000
+      internalID: -7986729905152294509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b057b7b1a003307c0800000000000000
+      internalID: -4106385615262878453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac28d9e12fa5d49c0800000000000000
+      internalID: -3941394102937091382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e7679ae01013560800000000000000
+      internalID: 7291610434173828685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b6eb999b74337f0800000000000000
+      internalID: -634084260055192762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85fe47eeeeabd68c0800000000000000
+      internalID: -4004338958296879272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fc38ab0ff7efe40800000000000000
+      internalID: 5692127650940964757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3fff38e604f7370800000000000000
+      internalID: 8322441479809135547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4770a41b12b299f0800000000000000
+      internalID: -463111982285818037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c8699309ddab670800000000000000
+      internalID: 8555394053654875274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0ff47567eee2380800000000000000
+      internalID: -8993989213773893447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d38d4e0bec6cd20800000000000000
+      internalID: 3298551036244409752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e5e4a154aa3ddc30800000000000000
+      internalID: 4385726089547539940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6aab48449824890800000000000000
+      internalID: -7475261504103995691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a7c9ee5fa4c4b00800000000000000
+      internalID: 814108052777892434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aaa5f7387afc5b40800000000000000
+      internalID: 5430490644943841958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e3d498e2abe7b30800000000000000
+      internalID: 4287068604338093669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7892b5ac1a6fb9e20800000000000000
+      internalID: 3358549121879976327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b954a48f814c61a0800000000000000
+      internalID: -6815000051456910924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ed551f264ca87e0800000000000000
+      internalID: -1762380374927352239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c497fc57654ef80800000000000000
+      internalID: -8078236767603831718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea6233076c45a860800000000000000
+      internalID: 7540517156420741870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab6ed98ad307d850800000000000000
+      internalID: 6401589632481258413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3e5874d2a927ea0800000000000000
+      internalID: -5876465044500913235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6c4fad1127d5670800000000000000
+      internalID: 8529098690323072673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9d943d758cf87d0800000000000000
+      internalID: -2913890154352879170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2283ac19f17b3c190800000000000000
+      internalID: -7943303971533604830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4c03b292a19c690800000000000000
+      internalID: -7581499733580921695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82c0373cc45803b0800000000000000
+      internalID: -5546089705030761842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae50a35c1fc6b9310800000000000000
+      internalID: 1412842693762614762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a8bcfb0c67e6be0800000000000000
+      internalID: -1482116657134728608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459b8b8340b9fae90800000000000000
+      internalID: -7012215652358768300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b16380e7dd0aab40800000000000000
+      internalID: 5452185519721243063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a38c3a54a49b7910800000000000000
+      internalID: 1836224706693071783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ea2a3558613b750800000000000000
+      internalID: 6319419464020569739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa16aa7281c46f3a0800000000000000
+      internalID: -6632029734628073046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3175319854ee71790800000000000000
+      internalID: -7559311467098188013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9ee946140b961140800000000000000
+      internalID: 4690106503809068701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0192aa2b5c7a8e0800000000000000
+      internalID: -1682158564649922307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5376caf69b30960800000000000000
+      internalID: 7567095688197518792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4b55e750c544e50800000000000000
+      internalID: 6792655316645688547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc37239eadff6aa20800000000000000
+      internalID: 3073425111407293388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195c3a8ae39d48200800000000000000
+      internalID: 181508748142167441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_idle_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929fba6bdb11060c0800000000000000
+      internalID: -4584644914151950039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      azir_idle_0: 1114023487610092774
+      azir_idle_000: -7231481956456282799
+      azir_idle_001: -133017074544937357
+      azir_idle_002: 5837477652084297223
+      azir_idle_003: -5676256556870553360
+      azir_idle_004: 4588991883064232912
+      azir_idle_005: 5587550074155384871
+      azir_idle_006: 5354982323688574561
+      azir_idle_007: -7692391367883569064
+      azir_idle_008: 8459224623513160341
+      azir_idle_009: 804213239417735745
+      azir_idle_010: 4571777088183247494
+      azir_idle_011: -1428438497195623113
+      azir_idle_012: -4532694302073965889
+      azir_idle_013: -7390791343588648237
+      azir_idle_014: 3696684575378045578
+      azir_idle_015: 1792815727524910878
+      azir_idle_016: 8520981398207397394
+      azir_idle_017: -5071817022469311025
+      azir_idle_018: 3404971316399871256
+      azir_idle_019: -4993950507070197596
+      azir_idle_020: 6830647754062460907
+      azir_idle_021: 7463668851326041638
+      azir_idle_022: 7963137581134418041
+      azir_idle_023: 1349597054396221483
+      azir_idle_024: -1766631966030022322
+      azir_idle_025: 3736709901969528712
+      azir_idle_026: -6851331815608765047
+      azir_idle_027: -4727277306676494046
+      azir_idle_028: 7504464913324722397
+      azir_idle_029: 6852968106606381639
+      azir_idle_030: -4772677579229456534
+      azir_idle_031: 1021446043084043908
+      azir_idle_032: 5972971004088616224
+      azir_idle_033: 5251522391806001203
+      azir_idle_034: 8306773898015442630
+      azir_idle_035: 3398785772788747928
+      azir_idle_036: -1691263980102325858
+      azir_idle_037: 1036938807891108511
+      azir_idle_038: 3565345888571509230
+      azir_idle_039: -2536924412547050003
+      azir_idle_040: -1690759657959910680
+      azir_idle_041: -912995676893382281
+      azir_idle_042: 2788970105624358476
+      azir_idle_043: 5312855205260365537
+      azir_idle_044: 6939224137594909871
+      azir_idle_045: 3361698921668850106
+      azir_idle_046: 4977103902508029386
+      azir_idle_047: -7552278863614035967
+      azir_idle_048: 7209545620288811355
+      azir_idle_049: -3990653217925927998
+      azir_idle_050: 6888566772571546256
+      azir_idle_051: 5217997750546202030
+      azir_idle_052: -8508955510461784492
+      azir_idle_053: -7208061781365033811
+      azir_idle_054: -5510586635189541806
+      azir_idle_055: 1875323625901084468
+      azir_idle_056: 6426783775072308937
+      azir_idle_057: -832975796500946302
+      azir_idle_058: 7357715034277691999
+      azir_idle_059: 5848060777998060318
+      azir_idle_060: -1401309317203269634
+      azir_idle_061: -4108708764069529275
+      azir_idle_062: 3135209354996677237
+      azir_idle_063: -9026387583686103373
+      azir_idle_064: 2495494267543547292
+      azir_idle_065: -1613203623518747371
+      azir_idle_066: 1638397981113224898
+      azir_idle_067: 6153618920578171111
+      azir_idle_068: -4537309236101313874
+      azir_idle_069: 430881092712922412
+      azir_idle_070: 2095460230743584561
+      azir_idle_071: -7320632533386945732
+      azir_idle_072: -8815698341972959369
+      azir_idle_073: 5323273810802486015
+      azir_idle_074: 8896629426713416813
+      azir_idle_075: -557677698339872114
+      azir_idle_076: -7986729905152294509
+      azir_idle_077: -4106385615262878453
+      azir_idle_078: -3941394102937091382
+      azir_idle_079: 7291610434173828685
+      azir_idle_080: -634084260055192762
+      azir_idle_081: -4004338958296879272
+      azir_idle_082: 5692127650940964757
+      azir_idle_083: 8322441479809135547
+      azir_idle_084: -463111982285818037
+      azir_idle_085: 8555394053654875274
+      azir_idle_086: -8993989213773893447
+      azir_idle_087: 3298551036244409752
+      azir_idle_088: 4385726089547539940
+      azir_idle_089: -7475261504103995691
+      azir_idle_090: 814108052777892434
+      azir_idle_091: 5430490644943841958
+      azir_idle_092: 4287068604338093669
+      azir_idle_093: 3358549121879976327
+      azir_idle_094: -6815000051456910924
+      azir_idle_095: -1762380374927352239
+      azir_idle_096: -8078236767603831718
+      azir_idle_097: 7540517156420741870
+      azir_idle_098: 6401589632481258413
+      azir_idle_099: -5876465044500913235
+      azir_idle_1: -5582512803307260869
+      azir_idle_10: 8379740633378033245
+      azir_idle_100: 8529098690323072673
+      azir_idle_101: -2913890154352879170
+      azir_idle_102: -7943303971533604830
+      azir_idle_103: -7581499733580921695
+      azir_idle_104: -5546089705030761842
+      azir_idle_105: 1412842693762614762
+      azir_idle_106: -1482116657134728608
+      azir_idle_107: -7012215652358768300
+      azir_idle_108: 5452185519721243063
+      azir_idle_109: 1836224706693071783
+      azir_idle_11: -2585875086549091079
+      azir_idle_110: 6319419464020569739
+      azir_idle_111: -6632029734628073046
+      azir_idle_112: -7559311467098188013
+      azir_idle_113: 4690106503809068701
+      azir_idle_114: -1682158564649922307
+      azir_idle_115: 7567095688197518792
+      azir_idle_116: 6792655316645688547
+      azir_idle_117: 3073425111407293388
+      azir_idle_118: 181508748142167441
+      azir_idle_119: -4584644914151950039
+      azir_idle_12: -4963662167757400284
+      azir_idle_13: 8793391030482136078
+      azir_idle_14: 8665052386631589631
+      azir_idle_15: -3373080770653094775
+      azir_idle_16: -6220198357927424565
+      azir_idle_17: -3292173946669920074
+      azir_idle_18: -6718488085576464612
+      azir_idle_19: -8152211176915756689
+      azir_idle_2: 3235268779924176889
+      azir_idle_20: 22851509976157788
+      azir_idle_21: 7628611510473512881
+      azir_idle_22: -8310789621354975289
+      azir_idle_23: 4197897245192801893
+      azir_idle_24: -3965174603825873667
+      azir_idle_25: 5973905720125139538
+      azir_idle_26: -7832883718693446862
+      azir_idle_27: 498735298403331797
+      azir_idle_28: 3762229618231419764
+      azir_idle_29: 4549562185250410316
+      azir_idle_3: 5696145597990917109
+      azir_idle_30: -200614511275998274
+      azir_idle_31: -3576183844223817247
+      azir_idle_32: -1618369614950244948
+      azir_idle_33: 8479375443923509286
+      azir_idle_34: -8869153657740046491
+      azir_idle_35: 1353153637470679021
+      azir_idle_36: 4712507977799514328
+      azir_idle_37: 6137263030025275392
+      azir_idle_38: 1130207382989943263
+      azir_idle_39: 6805855375239731211
+      azir_idle_4: -7630745070782861348
+      azir_idle_40: 1539973753672610196
+      azir_idle_41: -5506614184615350981
+      azir_idle_42: 1421922778036740384
+      azir_idle_43: -2404332372466732241
+      azir_idle_44: -5499063918154088449
+      azir_idle_45: -8213591090656546896
+      azir_idle_46: 8670258517839392910
+      azir_idle_47: -7424267151433251976
+      azir_idle_48: 3843687773792468252
+      azir_idle_49: 5808911837733432977
+      azir_idle_5: 4082222628911710732
+      azir_idle_50: -1268778478796083717
+      azir_idle_51: -5164471732899545515
+      azir_idle_52: -8574439562351974760
+      azir_idle_53: 7463748864269214650
+      azir_idle_54: -4588493840187814752
+      azir_idle_55: 8842791957884508840
+      azir_idle_56: -5351664760948501202
+      azir_idle_57: -6248609338209067583
+      azir_idle_58: -1873630146282193804
+      azir_idle_59: 7971221738208026782
+      azir_idle_6: 7976101264001989096
+      azir_idle_60: 8313389199510491816
+      azir_idle_61: -6368907984029401521
+      azir_idle_62: -1171139978322759253
+      azir_idle_63: 455352939981288051
+      azir_idle_64: -4025551996033087779
+      azir_idle_65: -8293070288555224280
+      azir_idle_66: -768217853006501788
+      azir_idle_67: 9013989739526109489
+      azir_idle_68: -3265695745598704067
+      azir_idle_69: -5809555214469458699
+      azir_idle_7: -6100812509949004080
+      azir_idle_70: 875842569334123642
+      azir_idle_71: 958843809557429095
+      azir_idle_72: -1763213792359690709
+      azir_idle_73: 7577212104376131374
+      azir_idle_74: 5956041786824532278
+      azir_idle_75: 2699340377096252111
+      azir_idle_76: 6923101271705681429
+      azir_idle_77: 6649097113416410096
+      azir_idle_78: -760874583863498502
+      azir_idle_79: 5490527759403513762
+      azir_idle_8: -3903286467851829874
+      azir_idle_80: -8562754596238300471
+      azir_idle_81: -8878805998341325569
+      azir_idle_82: 6886277857518469936
+      azir_idle_83: 9195646072497333208
+      azir_idle_84: -6163519538814827374
+      azir_idle_85: 1104231885855047047
+      azir_idle_86: 5849381511401368596
+      azir_idle_87: 7400726731539194627
+      azir_idle_88: 5226977422148183371
+      azir_idle_89: -2674582040778448713
+      azir_idle_9: 6723286278671229406
+      azir_idle_90: 8109500463467043956
+      azir_idle_91: -419998045172362961
+      azir_idle_92: -4935650348230919699
+      azir_idle_93: -3880878948372701773
+      azir_idle_94: -5610846192786524630
+      azir_idle_95: -7162969390336307055
+      azir_idle_96: 1610823310572753895
+      azir_idle_97: 6720399824789695436
+      azir_idle_98: -6919618672104761000
+      azir_idle_99: 811717313264162226
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3673 @@
+fileFormatVersion: 2
+guid: 5f47c2d7b33da7a48b7c7027b54498f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7411791720353671904
+    second: azir_walk_0
+  - first:
+      213: 3648267851232427778
+    second: azir_walk_1
+  - first:
+      213: 2292477449355182912
+    second: azir_walk_2
+  - first:
+      213: 1498027725337085041
+    second: azir_walk_3
+  - first:
+      213: -3753468862465358848
+    second: azir_walk_4
+  - first:
+      213: -2876043416203965073
+    second: azir_walk_5
+  - first:
+      213: -5791787543546281477
+    second: azir_walk_6
+  - first:
+      213: -322307702658314695
+    second: azir_walk_7
+  - first:
+      213: 7645650371352331892
+    second: azir_walk_8
+  - first:
+      213: 5970457663304390835
+    second: azir_walk_9
+  - first:
+      213: -5075559577724369648
+    second: azir_walk_10
+  - first:
+      213: 6637943410811125164
+    second: azir_walk_11
+  - first:
+      213: -5336097589087604069
+    second: azir_walk_12
+  - first:
+      213: 6857012680914703083
+    second: azir_walk_13
+  - first:
+      213: 6336604963702964106
+    second: azir_walk_14
+  - first:
+      213: -6310217560225994048
+    second: azir_walk_15
+  - first:
+      213: -1537137436770082391
+    second: azir_walk_16
+  - first:
+      213: -4888814034005960889
+    second: azir_walk_17
+  - first:
+      213: 1317885341133661074
+    second: azir_walk_18
+  - first:
+      213: 1692506998152682951
+    second: azir_walk_19
+  - first:
+      213: -5206702192494101080
+    second: azir_walk_20
+  - first:
+      213: -7257955883681420221
+    second: azir_walk_21
+  - first:
+      213: -1140989730556882962
+    second: azir_walk_22
+  - first:
+      213: 6606767036801759713
+    second: azir_walk_23
+  - first:
+      213: -548618190110692461
+    second: azir_walk_24
+  - first:
+      213: 5771807038827393712
+    second: azir_walk_25
+  - first:
+      213: 8292372494754323293
+    second: azir_walk_26
+  - first:
+      213: 5944767654307419676
+    second: azir_walk_27
+  - first:
+      213: 4556699418175225604
+    second: azir_walk_28
+  - first:
+      213: 8910222903449268029
+    second: azir_walk_29
+  - first:
+      213: -1536072712264208895
+    second: azir_walk_30
+  - first:
+      213: -7079567163411990675
+    second: azir_walk_31
+  - first:
+      213: -4005261070761868795
+    second: azir_walk_32
+  - first:
+      213: -3440877763984819091
+    second: azir_walk_33
+  - first:
+      213: 8723479968884901476
+    second: azir_walk_34
+  - first:
+      213: 7035072149663034759
+    second: azir_walk_35
+  - first:
+      213: -853737627651172357
+    second: azir_walk_36
+  - first:
+      213: -3321912802640147166
+    second: azir_walk_37
+  - first:
+      213: -1003740445041874535
+    second: azir_walk_38
+  - first:
+      213: 3030614757139447105
+    second: azir_walk_39
+  - first:
+      213: -8035459442971820024
+    second: azir_walk_40
+  - first:
+      213: -1247132038631791595
+    second: azir_walk_41
+  - first:
+      213: 1112989590027320506
+    second: azir_walk_42
+  - first:
+      213: -2931530585375589023
+    second: azir_walk_43
+  - first:
+      213: -980182977803037199
+    second: azir_walk_44
+  - first:
+      213: -741908869261982321
+    second: azir_walk_45
+  - first:
+      213: -5729674163726200979
+    second: azir_walk_46
+  - first:
+      213: 7936003226913701824
+    second: azir_walk_47
+  - first:
+      213: -8242442426242960871
+    second: azir_walk_48
+  - first:
+      213: -5580916068479659830
+    second: azir_walk_49
+  - first:
+      213: 7627803169444923903
+    second: azir_walk_50
+  - first:
+      213: -7098547356653646245
+    second: azir_walk_51
+  - first:
+      213: -5960212220126291370
+    second: azir_walk_52
+  - first:
+      213: -3388092742602501590
+    second: azir_walk_53
+  - first:
+      213: 661401863078900746
+    second: azir_walk_54
+  - first:
+      213: 5602830157005616158
+    second: azir_walk_55
+  - first:
+      213: -4418514837426733323
+    second: azir_walk_56
+  - first:
+      213: -78203881446170898
+    second: azir_walk_57
+  - first:
+      213: 4899497937926100665
+    second: azir_walk_58
+  - first:
+      213: -6394347510579258905
+    second: azir_walk_59
+  - first:
+      213: 7670346202631494035
+    second: azir_walk_60
+  - first:
+      213: -7815695757177520411
+    second: azir_walk_61
+  - first:
+      213: -4329738782701730228
+    second: azir_walk_62
+  - first:
+      213: 7371385658165206662
+    second: azir_walk_63
+  - first:
+      213: -7403168509719101304
+    second: azir_walk_64
+  - first:
+      213: 148684537301049275
+    second: azir_walk_65
+  - first:
+      213: 2125065601813832571
+    second: azir_walk_66
+  - first:
+      213: -2109666738240457411
+    second: azir_walk_67
+  - first:
+      213: -851510799586517671
+    second: azir_walk_68
+  - first:
+      213: 1401558729851438853
+    second: azir_walk_69
+  - first:
+      213: 1677654735057126695
+    second: azir_walk_70
+  - first:
+      213: 2124757087157142869
+    second: azir_walk_71
+  - first:
+      213: -7439951802800074056
+    second: azir_walk_72
+  - first:
+      213: 1348676545108525454
+    second: azir_walk_73
+  - first:
+      213: 844775545351449542
+    second: azir_walk_74
+  - first:
+      213: -2163184145762165606
+    second: azir_walk_75
+  - first:
+      213: -7932237235909971955
+    second: azir_walk_76
+  - first:
+      213: -3890501958568879319
+    second: azir_walk_77
+  - first:
+      213: 1217701431598796167
+    second: azir_walk_78
+  - first:
+      213: -8597564569991199611
+    second: azir_walk_79
+  - first:
+      213: -4724900012275645858
+    second: azir_walk_80
+  - first:
+      213: -306892590431981275
+    second: azir_walk_81
+  - first:
+      213: -8323340767235821951
+    second: azir_walk_82
+  - first:
+      213: 7537823080424785393
+    second: azir_walk_83
+  - first:
+      213: -4762198338353305226
+    second: azir_walk_84
+  - first:
+      213: -2205523037045065585
+    second: azir_walk_85
+  - first:
+      213: -8010664899443561486
+    second: azir_walk_86
+  - first:
+      213: -2529284813844531752
+    second: azir_walk_87
+  - first:
+      213: -5420115686074169895
+    second: azir_walk_88
+  - first:
+      213: 5292717142324665247
+    second: azir_walk_89
+  - first:
+      213: -8493236340897952652
+    second: azir_walk_90
+  - first:
+      213: -1535726186504886926
+    second: azir_walk_91
+  - first:
+      213: 3478298011118464993
+    second: azir_walk_92
+  - first:
+      213: 5966406542069937114
+    second: azir_walk_93
+  - first:
+      213: -8910975007556528068
+    second: azir_walk_94
+  - first:
+      213: -2519491637512074604
+    second: azir_walk_95
+  - first:
+      213: -3247823559978336576
+    second: azir_walk_96
+  - first:
+      213: 8868403131844668476
+    second: azir_walk_97
+  - first:
+      213: -7049904289402251694
+    second: azir_walk_98
+  - first:
+      213: 4434706855877062009
+    second: azir_walk_99
+  - first:
+      213: 1171549589001899615
+    second: azir_walk_100
+  - first:
+      213: -8223618721638636865
+    second: azir_walk_101
+  - first:
+      213: -2857685025162482593
+    second: azir_walk_102
+  - first:
+      213: 5374861341094591094
+    second: azir_walk_103
+  - first:
+      213: 1175827512577560836
+    second: azir_walk_104
+  - first:
+      213: -7768559189119692181
+    second: azir_walk_105
+  - first:
+      213: -4443885321845659278
+    second: azir_walk_106
+  - first:
+      213: 3573835885290920
+    second: azir_walk_107
+  - first:
+      213: 1556650280787991560
+    second: azir_walk_108
+  - first:
+      213: -6121660014178648404
+    second: azir_walk_109
+  - first:
+      213: 6618454031026393626
+    second: azir_walk_110
+  - first:
+      213: -6912259571810063008
+    second: azir_walk_111
+  - first:
+      213: -7989166866637609597
+    second: azir_walk_112
+  - first:
+      213: -1603934881396229284
+    second: azir_walk_113
+  - first:
+      213: 1014565744540138489
+    second: azir_walk_114
+  - first:
+      213: 393020244464138805
+    second: azir_walk_115
+  - first:
+      213: -5811402536583082175
+    second: azir_walk_116
+  - first:
+      213: 4487355110056800402
+    second: azir_walk_117
+  - first:
+      213: -721931584912541596
+    second: azir_walk_118
+  - first:
+      213: -7276472486836905993
+    second: azir_walk_119
+  - first:
+      213: 7626190881332439613
+    second: azir_walk_120
+  - first:
+      213: -1714549968050136307
+    second: azir_walk_121
+  - first:
+      213: 858896003677569829
+    second: azir_walk_000
+  - first:
+      213: 1692433646897213981
+    second: azir_walk_001
+  - first:
+      213: -3341042721667242957
+    second: azir_walk_002
+  - first:
+      213: -5118479148246493836
+    second: azir_walk_003
+  - first:
+      213: 1256592492379584241
+    second: azir_walk_004
+  - first:
+      213: -375697286729536848
+    second: azir_walk_005
+  - first:
+      213: -2212127976118146383
+    second: azir_walk_006
+  - first:
+      213: -27777879634196755
+    second: azir_walk_007
+  - first:
+      213: 26201887573531973
+    second: azir_walk_008
+  - first:
+      213: 6766971661651248439
+    second: azir_walk_009
+  - first:
+      213: -8517200857151880908
+    second: azir_walk_010
+  - first:
+      213: -5503863780356428056
+    second: azir_walk_011
+  - first:
+      213: 6564613262311249020
+    second: azir_walk_012
+  - first:
+      213: -8457080044119396253
+    second: azir_walk_013
+  - first:
+      213: 7386914009437191861
+    second: azir_walk_014
+  - first:
+      213: 5207368053557801668
+    second: azir_walk_015
+  - first:
+      213: 2538068316761420378
+    second: azir_walk_016
+  - first:
+      213: 7315999257811975097
+    second: azir_walk_017
+  - first:
+      213: -2882989250995081407
+    second: azir_walk_018
+  - first:
+      213: 7935897522086705605
+    second: azir_walk_019
+  - first:
+      213: 6740134952436571144
+    second: azir_walk_020
+  - first:
+      213: -1907609839798057293
+    second: azir_walk_021
+  - first:
+      213: -5191288708539871929
+    second: azir_walk_022
+  - first:
+      213: 7664518000175463926
+    second: azir_walk_023
+  - first:
+      213: -3416108009899309486
+    second: azir_walk_024
+  - first:
+      213: -7939964246002631908
+    second: azir_walk_025
+  - first:
+      213: 1218875193580754798
+    second: azir_walk_026
+  - first:
+      213: -4862689075429076096
+    second: azir_walk_027
+  - first:
+      213: 5343326395806359391
+    second: azir_walk_028
+  - first:
+      213: 4978417242239190957
+    second: azir_walk_029
+  - first:
+      213: -6667740506482562995
+    second: azir_walk_030
+  - first:
+      213: -1384655962607454115
+    second: azir_walk_031
+  - first:
+      213: 2241384306202043776
+    second: azir_walk_032
+  - first:
+      213: 5078254442402592409
+    second: azir_walk_033
+  - first:
+      213: -7937888067189647702
+    second: azir_walk_034
+  - first:
+      213: 1506906691271425078
+    second: azir_walk_035
+  - first:
+      213: -6505315767276383584
+    second: azir_walk_036
+  - first:
+      213: -7378577179200083441
+    second: azir_walk_037
+  - first:
+      213: -6721800956692237555
+    second: azir_walk_038
+  - first:
+      213: 8841874474931149123
+    second: azir_walk_039
+  - first:
+      213: 5356934700456567135
+    second: azir_walk_040
+  - first:
+      213: -1004885491054826091
+    second: azir_walk_041
+  - first:
+      213: -394442500021918937
+    second: azir_walk_042
+  - first:
+      213: -6226253388960044835
+    second: azir_walk_043
+  - first:
+      213: 7094798038363504222
+    second: azir_walk_044
+  - first:
+      213: -536753704742441263
+    second: azir_walk_045
+  - first:
+      213: -3034750816455196555
+    second: azir_walk_046
+  - first:
+      213: 8032634935642124987
+    second: azir_walk_047
+  - first:
+      213: -5165654783098654463
+    second: azir_walk_048
+  - first:
+      213: -1308281031379673825
+    second: azir_walk_049
+  - first:
+      213: -3246219817646020203
+    second: azir_walk_050
+  - first:
+      213: 6299862750756551948
+    second: azir_walk_051
+  - first:
+      213: -6093230518267731219
+    second: azir_walk_052
+  - first:
+      213: 5248238376620750462
+    second: azir_walk_053
+  - first:
+      213: 1854962084871250466
+    second: azir_walk_054
+  - first:
+      213: -2837626440569681329
+    second: azir_walk_055
+  - first:
+      213: 54920905506590876
+    second: azir_walk_056
+  - first:
+      213: -8635919190704716557
+    second: azir_walk_057
+  - first:
+      213: 5263050447547782009
+    second: azir_walk_058
+  - first:
+      213: 3648186188555156538
+    second: azir_walk_059
+  - first:
+      213: -7342619091320246048
+    second: azir_walk_060
+  - first:
+      213: -4410805041783492056
+    second: azir_walk_061
+  - first:
+      213: 1442222933516678693
+    second: azir_walk_062
+  - first:
+      213: -5774711786845735306
+    second: azir_walk_063
+  - first:
+      213: 6791974803469473781
+    second: azir_walk_064
+  - first:
+      213: -6805520538570617323
+    second: azir_walk_065
+  - first:
+      213: -3610470159957907690
+    second: azir_walk_066
+  - first:
+      213: 7534828741592262611
+    second: azir_walk_067
+  - first:
+      213: 1010676285800846862
+    second: azir_walk_068
+  - first:
+      213: -3793814745409843371
+    second: azir_walk_069
+  - first:
+      213: 2640122369239594556
+    second: azir_walk_070
+  - first:
+      213: -5085572854140449059
+    second: azir_walk_071
+  - first:
+      213: 8722383228429280224
+    second: azir_walk_072
+  - first:
+      213: -8744134732383420112
+    second: azir_walk_073
+  - first:
+      213: 2737610905300439919
+    second: azir_walk_074
+  - first:
+      213: 2024481615885367193
+    second: azir_walk_075
+  - first:
+      213: -9060619454627209449
+    second: azir_walk_076
+  - first:
+      213: -2137757834370298390
+    second: azir_walk_077
+  - first:
+      213: -7576498887773184963
+    second: azir_walk_078
+  - first:
+      213: -5384332251736311494
+    second: azir_walk_079
+  - first:
+      213: -1475358459826976018
+    second: azir_walk_080
+  - first:
+      213: 7530327320992835844
+    second: azir_walk_081
+  - first:
+      213: 797263697772775462
+    second: azir_walk_082
+  - first:
+      213: -7147943883759277618
+    second: azir_walk_083
+  - first:
+      213: 3283586040088322233
+    second: azir_walk_084
+  - first:
+      213: 7874459532252846977
+    second: azir_walk_085
+  - first:
+      213: -5727157624609806294
+    second: azir_walk_086
+  - first:
+      213: -7718114022201748362
+    second: azir_walk_087
+  - first:
+      213: 6622041233095218723
+    second: azir_walk_088
+  - first:
+      213: -4036641500744082042
+    second: azir_walk_089
+  - first:
+      213: -6228171228622330322
+    second: azir_walk_090
+  - first:
+      213: -8109256662808801361
+    second: azir_walk_091
+  - first:
+      213: 4834150796903769032
+    second: azir_walk_092
+  - first:
+      213: 4825562629079063817
+    second: azir_walk_093
+  - first:
+      213: -7746688686252231483
+    second: azir_walk_094
+  - first:
+      213: 1901809373023523109
+    second: azir_walk_095
+  - first:
+      213: 6627506867334188263
+    second: azir_walk_096
+  - first:
+      213: -5540227609263095484
+    second: azir_walk_097
+  - first:
+      213: -5698094435650393627
+    second: azir_walk_098
+  - first:
+      213: -1192068704571412214
+    second: azir_walk_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: azir_walk_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523443e5d596beb00800000000000000
+      internalID: 858896003677569829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d123a395f6bbc7710800000000000000
+      internalID: 1692433646897213981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334ae93a85b32a1d0800000000000000
+      internalID: -3341042721667242957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4751682655287f8b0800000000000000
+      internalID: -5118479148246493836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f635bfc630507110800000000000000
+      internalID: 1256592492379584241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba6869ee4149caf0800000000000000
+      internalID: -375697286729536848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba26c97351fc41e0800000000000000
+      internalID: -2212127976118146383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de64ac76a205d9ff0800000000000000
+      internalID: -27777879634196755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54dd3495a761d5000800000000000000
+      internalID: 26201887573531973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7358bd19fdc19ed50800000000000000
+      internalID: 6766971661651248439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4314fcc42f2dcc980800000000000000
+      internalID: -8517200857151880908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee67bf6d095e93b0800000000000000
+      internalID: -5503863780356428056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7451e33bf03a1b50800000000000000
+      internalID: 6564613262311249020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 360f735e18a62aa80800000000000000
+      internalID: -8457080044119396253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be3cde6727938660800000000000000
+      internalID: 7386914009437191861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2b707a7a9444840800000000000000
+      internalID: 5207368053557801668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52fc34dfa7093320800000000000000
+      internalID: 2538068316761420378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb77ea2096a78560800000000000000
+      internalID: 7315999257811975097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f2b2b0d809df7d0800000000000000
+      internalID: -2882989250995081407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c971e900c8f12e60800000000000000
+      internalID: 7935897522086705605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c1d2a4705c98d50800000000000000
+      internalID: 6740134952436571144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b60cc825fec685e0800000000000000
+      internalID: -1907609839798057293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d0cf89c66d4f7b0800000000000000
+      internalID: -5191288708539871929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fdbb074386dd5a60800000000000000
+      internalID: 7664518000175463926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256c5934ddb8790d0800000000000000
+      internalID: -3416108009899309486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1bf5b306949fc190800000000000000
+      internalID: -7939964246002631908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e679aead7805ae010800000000000000
+      internalID: 1218875193580754798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08390edac02448cb0800000000000000
+      internalID: -4862689075429076096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f910dfb0f472a40800000000000000
+      internalID: 5343326395806359391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da7c853ea14e61540800000000000000
+      internalID: 4978417242239190957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48af98265d6773a0800000000000000
+      internalID: -6667740506482562995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58f7acfcb6b8cce0800000000000000
+      internalID: -1384655962607454115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085ee40b62ffa1f10800000000000000
+      internalID: 2241384306202043776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996b4767285997640800000000000000
+      internalID: 5078254442402592409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa659501cd4f6d190800000000000000
+      internalID: -7937888067189647702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c74ead6ab99e410800000000000000
+      internalID: 1506906691271425078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a25ebbb6c978b5a0800000000000000
+      internalID: -6505315767276383584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0aa9fd16270a9990800000000000000
+      internalID: -7378577179200083441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d037a7db4ad57b2a0800000000000000
+      internalID: -6721800956692237555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3495dda1df5a4ba70800000000000000
+      internalID: 8841874474931149123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f516da15ab7a75a40800000000000000
+      internalID: 5356934700456567135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59dabb158fded02f0800000000000000
+      internalID: -1004885491054826091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72360e5d2a8a68af0800000000000000
+      internalID: -394442500021918937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8e675e787e799a0800000000000000
+      internalID: -6226253388960044835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e7bcdd939c57260800000000000000
+      internalID: 7094798038363504222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dea3f079511d88f0800000000000000
+      internalID: -536753704742441263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5708c53163662e5d0800000000000000
+      internalID: -3034750816455196555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2775d4ae6a97f60800000000000000
+      internalID: 8032634935642124987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1017b15f758ef48b0800000000000000
+      internalID: -5165654783098654463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1d9b32655d08dde0800000000000000
+      internalID: -1308281031379673825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599206a664c13f2d0800000000000000
+      internalID: -3246219817646020203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d3f803bcb9d6750800000000000000
+      internalID: 6299862750756551948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de22510802f707ba0800000000000000
+      internalID: -6093230518267731219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e767d074ffc75d840800000000000000
+      internalID: 5248238376620750462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222a19c20362eb910800000000000000
+      internalID: 1854962084871250466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a869469c9be98d0800000000000000
+      internalID: -2837626440569681329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c909677c54e13c000800000000000000
+      internalID: 54920905506590876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f40119404d072880800000000000000
+      internalID: -8635919190704716557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973db094f7c1a0940800000000000000
+      internalID: 5263050447547782009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cf0537206f0a230800000000000000
+      internalID: 3648186188555156538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0fadcd6d6c91a90800000000000000
+      internalID: -7342619091320246048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8223ef61f2ca9c2c0800000000000000
+      internalID: -4410805041783492056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526fe27ed1ec30410800000000000000
+      internalID: 1442222933516678693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6767cc0c93a1cdfa0800000000000000
+      internalID: -5774711786845735306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7933c2911f14e50800000000000000
+      internalID: 6791974803469473781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e8fda902fed81a0800000000000000
+      internalID: -6805520538570617323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617af83c48805edc0800000000000000
+      internalID: -3610470159957907690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7a20ab1d6119860800000000000000
+      internalID: 7534828741592262611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0612162ab4a60e00800000000000000
+      internalID: 1010676285800846862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f053ce699a95bc0800000000000000
+      internalID: -3793814745409843371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36b61e8e4993a420800000000000000
+      internalID: 2640122369239594556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddec6950f6a6c69b0800000000000000
+      internalID: -5085572854140449059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e32a5545512c0970800000000000000
+      internalID: 8722383228429280224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03181201ac796a680800000000000000
+      internalID: -8744134732383420112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f631ba72d92fdf520800000000000000
+      internalID: 2737610905300439919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 997f721bd47681c10800000000000000
+      internalID: 2024481615885367193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f93f97c96324280800000000000000
+      internalID: -9060619454627209449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedcc8273982552e0800000000000000
+      internalID: -2137757834370298390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c1321576edad690800000000000000
+      internalID: -7576498887773184963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39f39e28520745b0800000000000000
+      internalID: -5384332251736311494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea45ad2c49768be0800000000000000
+      internalID: -1475358459826976018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40962321dc8118860800000000000000
+      internalID: 7530327320992835844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6288f0aeb13701b00800000000000000
+      internalID: 797263697772775462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec92a1eb8e66dcc90800000000000000
+      internalID: -7147943883759277618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b065e43b14a19d20800000000000000
+      internalID: 3283586040088322233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b9e125933b74d60800000000000000
+      internalID: 7874459532252846977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a286674fb7c0580b0800000000000000
+      internalID: -5727157624609806294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67414ba6030c3e490800000000000000
+      internalID: -7718114022201748362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32651aa9a6736eb50800000000000000
+      internalID: 6622041233095218723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d9c8e21f7faf7c0800000000000000
+      internalID: -4036641500744082042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2668ad04471199a0800000000000000
+      internalID: -6228171228622330322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fafcfc4a702267f80800000000000000
+      internalID: -8109256662808801361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3ee10998a561340800000000000000
+      internalID: 4834150796903769032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d58abe4a7d7f240800000000000000
+      internalID: 4825562629079063817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4f56efeab3e7490800000000000000
+      internalID: -7746688686252231483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 521539d6c85946a10800000000000000
+      internalID: 1901809373023523109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ec8aedb162a9fb50800000000000000
+      internalID: 6627506867334188263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441cf0fb7582d13b0800000000000000
+      internalID: -5540227609263095484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9ad62fc4d4ce0b0800000000000000
+      internalID: -5698094435650393627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01392c34dbe47fe0800000000000000
+      internalID: -1192068704571412214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e8631e42e224010800000000000000
+      internalID: 1171549589001899615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb22a70e756dfdd80800000000000000
+      internalID: -8223618721638636865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cac3b3c967758d0800000000000000
+      internalID: -2857685025162482593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a3ce899e7579a40800000000000000
+      internalID: 5374861341094591094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401115494e0615010800000000000000
+      internalID: 1175827512577560836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b629cebb398803490800000000000000
+      internalID: -7768559189119692181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27921d038d52452c0800000000000000
+      internalID: -4443885321845659278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5ad628262bc0000800000000000000
+      internalID: 3573835885290920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c51e1de255a9510800000000000000
+      internalID: 1556650280787991560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae3b2ba6ae7b0ba0800000000000000
+      internalID: -6121660014178648404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12949900e879db50800000000000000
+      internalID: 6618454031026393626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06da7faca88b210a0800000000000000
+      internalID: -6912259571810063008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385aebe2017c02190800000000000000
+      internalID: -7989166866637609597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5bf48f29bdadb9e0800000000000000
+      internalID: -1603934881396229284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fb38945b26741e00800000000000000
+      internalID: 1014565744540138489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a72dc74d9447500800000000000000
+      internalID: 393020244464138805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f4920ee20c95fa0800000000000000
+      internalID: -5811402536583082175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29038f392b9464e30800000000000000
+      internalID: 4487355110056800402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46837296c0f2bf5f0800000000000000
+      internalID: -721931584912541596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_walk_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f7de2c53d6c40b90800000000000000
+      internalID: -7276472486836905993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      azir_walk_0: -7411791720353671904
+      azir_walk_000: 858896003677569829
+      azir_walk_001: 1692433646897213981
+      azir_walk_002: -3341042721667242957
+      azir_walk_003: -5118479148246493836
+      azir_walk_004: 1256592492379584241
+      azir_walk_005: -375697286729536848
+      azir_walk_006: -2212127976118146383
+      azir_walk_007: -27777879634196755
+      azir_walk_008: 26201887573531973
+      azir_walk_009: 6766971661651248439
+      azir_walk_010: -8517200857151880908
+      azir_walk_011: -5503863780356428056
+      azir_walk_012: 6564613262311249020
+      azir_walk_013: -8457080044119396253
+      azir_walk_014: 7386914009437191861
+      azir_walk_015: 5207368053557801668
+      azir_walk_016: 2538068316761420378
+      azir_walk_017: 7315999257811975097
+      azir_walk_018: -2882989250995081407
+      azir_walk_019: 7935897522086705605
+      azir_walk_020: 6740134952436571144
+      azir_walk_021: -1907609839798057293
+      azir_walk_022: -5191288708539871929
+      azir_walk_023: 7664518000175463926
+      azir_walk_024: -3416108009899309486
+      azir_walk_025: -7939964246002631908
+      azir_walk_026: 1218875193580754798
+      azir_walk_027: -4862689075429076096
+      azir_walk_028: 5343326395806359391
+      azir_walk_029: 4978417242239190957
+      azir_walk_030: -6667740506482562995
+      azir_walk_031: -1384655962607454115
+      azir_walk_032: 2241384306202043776
+      azir_walk_033: 5078254442402592409
+      azir_walk_034: -7937888067189647702
+      azir_walk_035: 1506906691271425078
+      azir_walk_036: -6505315767276383584
+      azir_walk_037: -7378577179200083441
+      azir_walk_038: -6721800956692237555
+      azir_walk_039: 8841874474931149123
+      azir_walk_040: 5356934700456567135
+      azir_walk_041: -1004885491054826091
+      azir_walk_042: -394442500021918937
+      azir_walk_043: -6226253388960044835
+      azir_walk_044: 7094798038363504222
+      azir_walk_045: -536753704742441263
+      azir_walk_046: -3034750816455196555
+      azir_walk_047: 8032634935642124987
+      azir_walk_048: -5165654783098654463
+      azir_walk_049: -1308281031379673825
+      azir_walk_050: -3246219817646020203
+      azir_walk_051: 6299862750756551948
+      azir_walk_052: -6093230518267731219
+      azir_walk_053: 5248238376620750462
+      azir_walk_054: 1854962084871250466
+      azir_walk_055: -2837626440569681329
+      azir_walk_056: 54920905506590876
+      azir_walk_057: -8635919190704716557
+      azir_walk_058: 5263050447547782009
+      azir_walk_059: 3648186188555156538
+      azir_walk_060: -7342619091320246048
+      azir_walk_061: -4410805041783492056
+      azir_walk_062: 1442222933516678693
+      azir_walk_063: -5774711786845735306
+      azir_walk_064: 6791974803469473781
+      azir_walk_065: -6805520538570617323
+      azir_walk_066: -3610470159957907690
+      azir_walk_067: 7534828741592262611
+      azir_walk_068: 1010676285800846862
+      azir_walk_069: -3793814745409843371
+      azir_walk_070: 2640122369239594556
+      azir_walk_071: -5085572854140449059
+      azir_walk_072: 8722383228429280224
+      azir_walk_073: -8744134732383420112
+      azir_walk_074: 2737610905300439919
+      azir_walk_075: 2024481615885367193
+      azir_walk_076: -9060619454627209449
+      azir_walk_077: -2137757834370298390
+      azir_walk_078: -7576498887773184963
+      azir_walk_079: -5384332251736311494
+      azir_walk_080: -1475358459826976018
+      azir_walk_081: 7530327320992835844
+      azir_walk_082: 797263697772775462
+      azir_walk_083: -7147943883759277618
+      azir_walk_084: 3283586040088322233
+      azir_walk_085: 7874459532252846977
+      azir_walk_086: -5727157624609806294
+      azir_walk_087: -7718114022201748362
+      azir_walk_088: 6622041233095218723
+      azir_walk_089: -4036641500744082042
+      azir_walk_090: -6228171228622330322
+      azir_walk_091: -8109256662808801361
+      azir_walk_092: 4834150796903769032
+      azir_walk_093: 4825562629079063817
+      azir_walk_094: -7746688686252231483
+      azir_walk_095: 1901809373023523109
+      azir_walk_096: 6627506867334188263
+      azir_walk_097: -5540227609263095484
+      azir_walk_098: -5698094435650393627
+      azir_walk_099: -1192068704571412214
+      azir_walk_1: 3648267851232427778
+      azir_walk_10: -5075559577724369648
+      azir_walk_100: 1171549589001899615
+      azir_walk_101: -8223618721638636865
+      azir_walk_102: -2857685025162482593
+      azir_walk_103: 5374861341094591094
+      azir_walk_104: 1175827512577560836
+      azir_walk_105: -7768559189119692181
+      azir_walk_106: -4443885321845659278
+      azir_walk_107: 3573835885290920
+      azir_walk_108: 1556650280787991560
+      azir_walk_109: -6121660014178648404
+      azir_walk_11: 6637943410811125164
+      azir_walk_110: 6618454031026393626
+      azir_walk_111: -6912259571810063008
+      azir_walk_112: -7989166866637609597
+      azir_walk_113: -1603934881396229284
+      azir_walk_114: 1014565744540138489
+      azir_walk_115: 393020244464138805
+      azir_walk_116: -5811402536583082175
+      azir_walk_117: 4487355110056800402
+      azir_walk_118: -721931584912541596
+      azir_walk_119: -7276472486836905993
+      azir_walk_12: -5336097589087604069
+      azir_walk_120: 7626190881332439613
+      azir_walk_121: -1714549968050136307
+      azir_walk_13: 6857012680914703083
+      azir_walk_14: 6336604963702964106
+      azir_walk_15: -6310217560225994048
+      azir_walk_16: -1537137436770082391
+      azir_walk_17: -4888814034005960889
+      azir_walk_18: 1317885341133661074
+      azir_walk_19: 1692506998152682951
+      azir_walk_2: 2292477449355182912
+      azir_walk_20: -5206702192494101080
+      azir_walk_21: -7257955883681420221
+      azir_walk_22: -1140989730556882962
+      azir_walk_23: 6606767036801759713
+      azir_walk_24: -548618190110692461
+      azir_walk_25: 5771807038827393712
+      azir_walk_26: 8292372494754323293
+      azir_walk_27: 5944767654307419676
+      azir_walk_28: 4556699418175225604
+      azir_walk_29: 8910222903449268029
+      azir_walk_3: 1498027725337085041
+      azir_walk_30: -1536072712264208895
+      azir_walk_31: -7079567163411990675
+      azir_walk_32: -4005261070761868795
+      azir_walk_33: -3440877763984819091
+      azir_walk_34: 8723479968884901476
+      azir_walk_35: 7035072149663034759
+      azir_walk_36: -853737627651172357
+      azir_walk_37: -3321912802640147166
+      azir_walk_38: -1003740445041874535
+      azir_walk_39: 3030614757139447105
+      azir_walk_4: -3753468862465358848
+      azir_walk_40: -8035459442971820024
+      azir_walk_41: -1247132038631791595
+      azir_walk_42: 1112989590027320506
+      azir_walk_43: -2931530585375589023
+      azir_walk_44: -980182977803037199
+      azir_walk_45: -741908869261982321
+      azir_walk_46: -5729674163726200979
+      azir_walk_47: 7936003226913701824
+      azir_walk_48: -8242442426242960871
+      azir_walk_49: -5580916068479659830
+      azir_walk_5: -2876043416203965073
+      azir_walk_50: 7627803169444923903
+      azir_walk_51: -7098547356653646245
+      azir_walk_52: -5960212220126291370
+      azir_walk_53: -3388092742602501590
+      azir_walk_54: 661401863078900746
+      azir_walk_55: 5602830157005616158
+      azir_walk_56: -4418514837426733323
+      azir_walk_57: -78203881446170898
+      azir_walk_58: 4899497937926100665
+      azir_walk_59: -6394347510579258905
+      azir_walk_6: -5791787543546281477
+      azir_walk_60: 7670346202631494035
+      azir_walk_61: -7815695757177520411
+      azir_walk_62: -4329738782701730228
+      azir_walk_63: 7371385658165206662
+      azir_walk_64: -7403168509719101304
+      azir_walk_65: 148684537301049275
+      azir_walk_66: 2125065601813832571
+      azir_walk_67: -2109666738240457411
+      azir_walk_68: -851510799586517671
+      azir_walk_69: 1401558729851438853
+      azir_walk_7: -322307702658314695
+      azir_walk_70: 1677654735057126695
+      azir_walk_71: 2124757087157142869
+      azir_walk_72: -7439951802800074056
+      azir_walk_73: 1348676545108525454
+      azir_walk_74: 844775545351449542
+      azir_walk_75: -2163184145762165606
+      azir_walk_76: -7932237235909971955
+      azir_walk_77: -3890501958568879319
+      azir_walk_78: 1217701431598796167
+      azir_walk_79: -8597564569991199611
+      azir_walk_8: 7645650371352331892
+      azir_walk_80: -4724900012275645858
+      azir_walk_81: -306892590431981275
+      azir_walk_82: -8323340767235821951
+      azir_walk_83: 7537823080424785393
+      azir_walk_84: -4762198338353305226
+      azir_walk_85: -2205523037045065585
+      azir_walk_86: -8010664899443561486
+      azir_walk_87: -2529284813844531752
+      azir_walk_88: -5420115686074169895
+      azir_walk_89: 5292717142324665247
+      azir_walk_9: 5970457663304390835
+      azir_walk_90: -8493236340897952652
+      azir_walk_91: -1535726186504886926
+      azir_walk_92: 3478298011118464993
+      azir_walk_93: 5966406542069937114
+      azir_walk_94: -8910975007556528068
+      azir_walk_95: -2519491637512074604
+      azir_walk_96: -3247823559978336576
+      azir_walk_97: 8868403131844668476
+      azir_walk_98: -7049904289402251694
+      azir_walk_99: 4434706855877062009
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

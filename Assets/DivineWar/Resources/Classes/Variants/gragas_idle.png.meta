@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 53044db27bae08549aec72e7efcc1011
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9178655402271667370
+    second: gragas_idle_0
+  - first:
+      213: -3023044633648594515
+    second: gragas_idle_1
+  - first:
+      213: -4931286878983714005
+    second: gragas_idle_2
+  - first:
+      213: -8473724579764516744
+    second: gragas_idle_3
+  - first:
+      213: 2832588878352052656
+    second: gragas_idle_4
+  - first:
+      213: 2416057109718936386
+    second: gragas_idle_5
+  - first:
+      213: 9082072362729727056
+    second: gragas_idle_6
+  - first:
+      213: -6230343725783050685
+    second: gragas_idle_7
+  - first:
+      213: 2031945982787670916
+    second: gragas_idle_8
+  - first:
+      213: 2131811613887665291
+    second: gragas_idle_9
+  - first:
+      213: -4900049248498650874
+    second: gragas_idle_10
+  - first:
+      213: -5901836833785236437
+    second: gragas_idle_11
+  - first:
+      213: -2367684825497289336
+    second: gragas_idle_12
+  - first:
+      213: 2452473028844289120
+    second: gragas_idle_13
+  - first:
+      213: -4796804369084798209
+    second: gragas_idle_14
+  - first:
+      213: -6120199325552412369
+    second: gragas_idle_15
+  - first:
+      213: -7098403714409528545
+    second: gragas_idle_16
+  - first:
+      213: 23112763551463952
+    second: gragas_idle_17
+  - first:
+      213: 1582812365357653994
+    second: gragas_idle_18
+  - first:
+      213: 4672726113962749326
+    second: gragas_idle_19
+  - first:
+      213: -112751213096087765
+    second: gragas_idle_20
+  - first:
+      213: 8430572465670210895
+    second: gragas_idle_21
+  - first:
+      213: 1283965960975734393
+    second: gragas_idle_22
+  - first:
+      213: -470813088192082210
+    second: gragas_idle_23
+  - first:
+      213: 1599867689201676911
+    second: gragas_idle_24
+  - first:
+      213: 6800517836700515171
+    second: gragas_idle_25
+  - first:
+      213: 4148106596463397699
+    second: gragas_idle_26
+  - first:
+      213: -462763916677413249
+    second: gragas_idle_27
+  - first:
+      213: 6415189113868064368
+    second: gragas_idle_28
+  - first:
+      213: 9126307934668827315
+    second: gragas_idle_29
+  - first:
+      213: -6990774357106027845
+    second: gragas_idle_30
+  - first:
+      213: 6418040507973967592
+    second: gragas_idle_31
+  - first:
+      213: 361492702150966082
+    second: gragas_idle_32
+  - first:
+      213: 4240225499601730277
+    second: gragas_idle_33
+  - first:
+      213: -693464137907972067
+    second: gragas_idle_34
+  - first:
+      213: 4880465087065236502
+    second: gragas_idle_35
+  - first:
+      213: 1996352085457943116
+    second: gragas_idle_36
+  - first:
+      213: 1582398876898780787
+    second: gragas_idle_37
+  - first:
+      213: -1851152550023993945
+    second: gragas_idle_38
+  - first:
+      213: 8434120350816029704
+    second: gragas_idle_39
+  - first:
+      213: -3256308434765822252
+    second: gragas_idle_40
+  - first:
+      213: -1660924954267223327
+    second: gragas_idle_41
+  - first:
+      213: 566382442060410701
+    second: gragas_idle_42
+  - first:
+      213: -6491566109875168743
+    second: gragas_idle_43
+  - first:
+      213: 90388081739282921
+    second: gragas_idle_44
+  - first:
+      213: -990493493080097162
+    second: gragas_idle_45
+  - first:
+      213: -2694860191482703482
+    second: gragas_idle_46
+  - first:
+      213: 4253660128659118618
+    second: gragas_idle_47
+  - first:
+      213: -3561501369143512616
+    second: gragas_idle_48
+  - first:
+      213: 1838785113949859827
+    second: gragas_idle_49
+  - first:
+      213: 5635538710967327033
+    second: gragas_idle_50
+  - first:
+      213: -1613677742185864969
+    second: gragas_idle_51
+  - first:
+      213: 8375727060393898992
+    second: gragas_idle_52
+  - first:
+      213: -5247869458841362691
+    second: gragas_idle_53
+  - first:
+      213: -5613039420519426919
+    second: gragas_idle_54
+  - first:
+      213: -764221074705958375
+    second: gragas_idle_55
+  - first:
+      213: 4177837417760592407
+    second: gragas_idle_56
+  - first:
+      213: 7402846637329767978
+    second: gragas_idle_57
+  - first:
+      213: -4133935242663837154
+    second: gragas_idle_58
+  - first:
+      213: -6547939204686120103
+    second: gragas_idle_59
+  - first:
+      213: 4182520593955571919
+    second: gragas_idle_60
+  - first:
+      213: 1427343110366890759
+    second: gragas_idle_61
+  - first:
+      213: -464322036321930387
+    second: gragas_idle_62
+  - first:
+      213: -4330106849441252822
+    second: gragas_idle_63
+  - first:
+      213: 878612525718896847
+    second: gragas_idle_64
+  - first:
+      213: 323186884242924387
+    second: gragas_idle_65
+  - first:
+      213: -5210135408781184406
+    second: gragas_idle_66
+  - first:
+      213: -4339592052177843168
+    second: gragas_idle_67
+  - first:
+      213: -3043615935751895499
+    second: gragas_idle_68
+  - first:
+      213: -7149849310796822364
+    second: gragas_idle_69
+  - first:
+      213: -4349963426615933413
+    second: gragas_idle_70
+  - first:
+      213: 4537591019404399244
+    second: gragas_idle_71
+  - first:
+      213: -6344773821274508850
+    second: gragas_idle_72
+  - first:
+      213: -5344521170717042186
+    second: gragas_idle_73
+  - first:
+      213: 7360174915622958066
+    second: gragas_idle_74
+  - first:
+      213: 3258799921941445592
+    second: gragas_idle_75
+  - first:
+      213: -7417968263834774964
+    second: gragas_idle_76
+  - first:
+      213: -2132858070828399542
+    second: gragas_idle_77
+  - first:
+      213: 577909296841982579
+    second: gragas_idle_78
+  - first:
+      213: -9102970914716687165
+    second: gragas_idle_79
+  - first:
+      213: 3953710254727524079
+    second: gragas_idle_80
+  - first:
+      213: 7394571994151607272
+    second: gragas_idle_81
+  - first:
+      213: 5925533160488820075
+    second: gragas_idle_82
+  - first:
+      213: -7854870133127785805
+    second: gragas_idle_83
+  - first:
+      213: -6190202114477350270
+    second: gragas_idle_84
+  - first:
+      213: -1040270623461948337
+    second: gragas_idle_85
+  - first:
+      213: -8875484527363680315
+    second: gragas_idle_86
+  - first:
+      213: 2281651389299904824
+    second: gragas_idle_87
+  - first:
+      213: -9130422028026131440
+    second: gragas_idle_88
+  - first:
+      213: -2624823113485670931
+    second: gragas_idle_89
+  - first:
+      213: 7588943710352357789
+    second: gragas_idle_90
+  - first:
+      213: -2179779153242294220
+    second: gragas_idle_91
+  - first:
+      213: 2244218233386267532
+    second: gragas_idle_92
+  - first:
+      213: -1756775411919076574
+    second: gragas_idle_93
+  - first:
+      213: -5990812495070986721
+    second: gragas_idle_94
+  - first:
+      213: -7177976499285975060
+    second: gragas_idle_95
+  - first:
+      213: -3977317702878154394
+    second: gragas_idle_96
+  - first:
+      213: 2305345371221189523
+    second: gragas_idle_97
+  - first:
+      213: 3828829248482683999
+    second: gragas_idle_98
+  - first:
+      213: -609909692951440156
+    second: gragas_idle_99
+  - first:
+      213: 6991163758059549090
+    second: gragas_idle_100
+  - first:
+      213: 8438000555036784647
+    second: gragas_idle_101
+  - first:
+      213: -3334223519518787399
+    second: gragas_idle_102
+  - first:
+      213: 8373314590884804210
+    second: gragas_idle_103
+  - first:
+      213: 8897297745073102475
+    second: gragas_idle_104
+  - first:
+      213: 7329119020889183503
+    second: gragas_idle_105
+  - first:
+      213: 6562446054928591887
+    second: gragas_idle_106
+  - first:
+      213: 3645995780799474700
+    second: gragas_idle_107
+  - first:
+      213: -4913555751030873146
+    second: gragas_idle_108
+  - first:
+      213: -4527945715721390286
+    second: gragas_idle_109
+  - first:
+      213: 7816011866123115488
+    second: gragas_idle_110
+  - first:
+      213: 4702663818700244534
+    second: gragas_idle_111
+  - first:
+      213: 6127413933996255097
+    second: gragas_idle_112
+  - first:
+      213: 1002442542731501238
+    second: gragas_idle_113
+  - first:
+      213: -4215685964609187710
+    second: gragas_idle_114
+  - first:
+      213: -8472660673656725423
+    second: gragas_idle_115
+  - first:
+      213: -5747649907963330519
+    second: gragas_idle_116
+  - first:
+      213: 141539662538339374
+    second: gragas_idle_117
+  - first:
+      213: -1698329524840973125
+    second: gragas_idle_118
+  - first:
+      213: -4869818483030577259
+    second: gragas_idle_119
+  - first:
+      213: -1508959429641581833
+    second: gragas_idle_000
+  - first:
+      213: -669744487634543433
+    second: gragas_idle_001
+  - first:
+      213: 3976851502464388074
+    second: gragas_idle_002
+  - first:
+      213: -2020292971226828812
+    second: gragas_idle_003
+  - first:
+      213: 7950342431052546071
+    second: gragas_idle_004
+  - first:
+      213: 7727291926558379863
+    second: gragas_idle_005
+  - first:
+      213: -3893144590112899696
+    second: gragas_idle_006
+  - first:
+      213: -4052024488956229565
+    second: gragas_idle_007
+  - first:
+      213: 4575583861888180135
+    second: gragas_idle_008
+  - first:
+      213: -5408306519345680734
+    second: gragas_idle_009
+  - first:
+      213: -1397325650122951751
+    second: gragas_idle_010
+  - first:
+      213: 7222111162439076294
+    second: gragas_idle_011
+  - first:
+      213: -2641700996597555963
+    second: gragas_idle_012
+  - first:
+      213: 8016710609537399234
+    second: gragas_idle_013
+  - first:
+      213: 2245042818790015168
+    second: gragas_idle_014
+  - first:
+      213: 1214520923680394057
+    second: gragas_idle_015
+  - first:
+      213: 123738653719767684
+    second: gragas_idle_016
+  - first:
+      213: 6712600305042771253
+    second: gragas_idle_017
+  - first:
+      213: 7847133148877850410
+    second: gragas_idle_018
+  - first:
+      213: 6893974444437708648
+    second: gragas_idle_019
+  - first:
+      213: 750167015608858960
+    second: gragas_idle_020
+  - first:
+      213: -1700069993896935462
+    second: gragas_idle_021
+  - first:
+      213: 7300741355754237710
+    second: gragas_idle_022
+  - first:
+      213: 6390286286452690902
+    second: gragas_idle_023
+  - first:
+      213: -5617423110952824046
+    second: gragas_idle_024
+  - first:
+      213: 5941026543763300238
+    second: gragas_idle_025
+  - first:
+      213: -4726176630189235466
+    second: gragas_idle_026
+  - first:
+      213: 8048681700319060670
+    second: gragas_idle_027
+  - first:
+      213: -962172500626086887
+    second: gragas_idle_028
+  - first:
+      213: -4609203539090456380
+    second: gragas_idle_029
+  - first:
+      213: -2193628729828371774
+    second: gragas_idle_030
+  - first:
+      213: -3163535130916040356
+    second: gragas_idle_031
+  - first:
+      213: -5159955838618078709
+    second: gragas_idle_032
+  - first:
+      213: 4398387445227342074
+    second: gragas_idle_033
+  - first:
+      213: -9092082030443429883
+    second: gragas_idle_034
+  - first:
+      213: 4317679181174927387
+    second: gragas_idle_035
+  - first:
+      213: 1157800731982026818
+    second: gragas_idle_036
+  - first:
+      213: 8710060934729740434
+    second: gragas_idle_037
+  - first:
+      213: 3285081339921421167
+    second: gragas_idle_038
+  - first:
+      213: 6587653171241556384
+    second: gragas_idle_039
+  - first:
+      213: 3267685742350659808
+    second: gragas_idle_040
+  - first:
+      213: 3482331028572331213
+    second: gragas_idle_041
+  - first:
+      213: 176052417723617747
+    second: gragas_idle_042
+  - first:
+      213: 9140927923272925298
+    second: gragas_idle_043
+  - first:
+      213: -2086057503997586853
+    second: gragas_idle_044
+  - first:
+      213: -2934385034457215152
+    second: gragas_idle_045
+  - first:
+      213: 9222946412119697888
+    second: gragas_idle_046
+  - first:
+      213: 7478391727590738311
+    second: gragas_idle_047
+  - first:
+      213: 2547098348562742015
+    second: gragas_idle_048
+  - first:
+      213: 897850016368264244
+    second: gragas_idle_049
+  - first:
+      213: 4578921404236426923
+    second: gragas_idle_050
+  - first:
+      213: 4376833533531992692
+    second: gragas_idle_051
+  - first:
+      213: -1333105793600877434
+    second: gragas_idle_052
+  - first:
+      213: 4031813092247290593
+    second: gragas_idle_053
+  - first:
+      213: -4535692067685740459
+    second: gragas_idle_054
+  - first:
+      213: -2031007001554226960
+    second: gragas_idle_055
+  - first:
+      213: -8543376478956669716
+    second: gragas_idle_056
+  - first:
+      213: 5280867494839276997
+    second: gragas_idle_057
+  - first:
+      213: 8716649488050992583
+    second: gragas_idle_058
+  - first:
+      213: 7261205727378189872
+    second: gragas_idle_059
+  - first:
+      213: -7691421308387120620
+    second: gragas_idle_060
+  - first:
+      213: 8275671793707480908
+    second: gragas_idle_061
+  - first:
+      213: 1074487390585588266
+    second: gragas_idle_062
+  - first:
+      213: 4786688293758440809
+    second: gragas_idle_063
+  - first:
+      213: -1997259328513121780
+    second: gragas_idle_064
+  - first:
+      213: 601534929191073565
+    second: gragas_idle_065
+  - first:
+      213: 1536467547984732647
+    second: gragas_idle_066
+  - first:
+      213: 7108855878963447971
+    second: gragas_idle_067
+  - first:
+      213: 8376841794822169973
+    second: gragas_idle_068
+  - first:
+      213: -6295561938084421535
+    second: gragas_idle_069
+  - first:
+      213: -8643105825696814353
+    second: gragas_idle_070
+  - first:
+      213: -1849716266798601017
+    second: gragas_idle_071
+  - first:
+      213: 5129973218201570932
+    second: gragas_idle_072
+  - first:
+      213: -3650013754760173329
+    second: gragas_idle_073
+  - first:
+      213: 4246475066927405605
+    second: gragas_idle_074
+  - first:
+      213: 4814024045682707253
+    second: gragas_idle_075
+  - first:
+      213: 307971989628891758
+    second: gragas_idle_076
+  - first:
+      213: -5272877669098698423
+    second: gragas_idle_077
+  - first:
+      213: -8096275729992820865
+    second: gragas_idle_078
+  - first:
+      213: -3894574968569019201
+    second: gragas_idle_079
+  - first:
+      213: -7819411441048197489
+    second: gragas_idle_080
+  - first:
+      213: -2298973709087641663
+    second: gragas_idle_081
+  - first:
+      213: -7917729156226063730
+    second: gragas_idle_082
+  - first:
+      213: 1240490944780866676
+    second: gragas_idle_083
+  - first:
+      213: -3399151005985238998
+    second: gragas_idle_084
+  - first:
+      213: 7196913486235848849
+    second: gragas_idle_085
+  - first:
+      213: 1158689758184823326
+    second: gragas_idle_086
+  - first:
+      213: 5041565817596077516
+    second: gragas_idle_087
+  - first:
+      213: -908018199501838844
+    second: gragas_idle_088
+  - first:
+      213: -1354095186890921238
+    second: gragas_idle_089
+  - first:
+      213: -6981270664768525519
+    second: gragas_idle_090
+  - first:
+      213: 3436404046480067023
+    second: gragas_idle_091
+  - first:
+      213: 8038320267190788255
+    second: gragas_idle_092
+  - first:
+      213: -934527226964529064
+    second: gragas_idle_093
+  - first:
+      213: -2563016108852105730
+    second: gragas_idle_094
+  - first:
+      213: 3317314774393586806
+    second: gragas_idle_095
+  - first:
+      213: 2016135800675285463
+    second: gragas_idle_096
+  - first:
+      213: 9138200981652157396
+    second: gragas_idle_097
+  - first:
+      213: 2724351455271254348
+    second: gragas_idle_098
+  - first:
+      213: 6496310383050185914
+    second: gragas_idle_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gragas_idle_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7faccbfb4691f0be0800000000000000
+      internalID: -1508959429641581833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc544cdfe694b6f0800000000000000
+      internalID: -669744487634543433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb4ed80f5d903730800000000000000
+      internalID: 3976851502464388074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ff6ec32f3a76f3e0800000000000000
+      internalID: -2020292971226828812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7104a9d715a455e60800000000000000
+      internalID: 7950342431052546071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f8146f01bdc3b60800000000000000
+      internalID: 7727291926558379863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d361f3f95c8f9c0800000000000000
+      internalID: -3893144590112899696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3488492223154c7c0800000000000000
+      internalID: -4052024488956229565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afdad7a74dbf7f30800000000000000
+      internalID: 4575583861888180135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aea8f500e5d1f4b0800000000000000
+      internalID: -5408306519345680734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b331ec79b3bb9ce0800000000000000
+      internalID: -1397325650122951751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9809d76d71a3460800000000000000
+      internalID: 7222111162439076294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50dd10f90fac65bd0800000000000000
+      internalID: -2641700996597555963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9f49433d3114f60800000000000000
+      internalID: 8016710609537399234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c045878c8ef72f10800000000000000
+      internalID: 2245042818790015168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94bcf346858dad010800000000000000
+      internalID: 1214520923680394057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48aa3f366ab97b100800000000000000
+      internalID: 123738653719767684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53dc04d9962f72d50800000000000000
+      internalID: 6712600305042771253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a278e04e50e96ec60800000000000000
+      internalID: 7847133148877850410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f945b3b315caf50800000000000000
+      internalID: 6893974444437708648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059b4971de0296a00800000000000000
+      internalID: 750167015608858960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adff87019532868e0800000000000000
+      internalID: -1700069993896935462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f2cb20591715560800000000000000
+      internalID: 7300741355754237710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df0015358bdea850800000000000000
+      internalID: 6390286286452690902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21356966177ea02b0800000000000000
+      internalID: -5617423110952824046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f9d262a24c27250800000000000000
+      internalID: 5941026543763300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f261db256f396eb0800000000000000
+      internalID: -4726176630189235466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb264b9dc59a2bf60800000000000000
+      internalID: 8048681700319060670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914688f553da5a2f0800000000000000
+      internalID: -962172500626086887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c04a034dc1d800c0800000000000000
+      internalID: -4609203539090456380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c21d75ea4aae81e0800000000000000
+      internalID: -2193628729828371774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51d74f3f8dd814d0800000000000000
+      internalID: -3163535130916040356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02777ed0872468b0800000000000000
+      internalID: -5159955838618078709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af84059e3163a0d30800000000000000
+      internalID: 4398387445227342074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50005b2b09f62d180800000000000000
+      internalID: -9092082030443429883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10f708d65a7beb30800000000000000
+      internalID: 4317679181174927387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 248d976a1a5511010800000000000000
+      internalID: 1157800731982026818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290b292b54a50e870800000000000000
+      internalID: 8710060934729740434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63d744d214f69d20800000000000000
+      internalID: 3285081339921421167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9145708ab0c6b50800000000000000
+      internalID: 6587653171241556384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e07b66aed6295d20800000000000000
+      internalID: 3267685742350659808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccdf5cce99b35030800000000000000
+      internalID: 3482331028572331213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1d34cbdb6717200800000000000000
+      internalID: 176052417723617747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270c128f3891bde70800000000000000
+      internalID: 9140927923272925298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b529f25a0c5dc03e0800000000000000
+      internalID: -2086057503997586853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f84f2bb58f647d0800000000000000
+      internalID: -2934385034457215152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9abd485ec7eff70800000000000000
+      internalID: 9222946412119697888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789044e67a598c760800000000000000
+      internalID: 7478391727590738311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffaf012f37c195320800000000000000
+      internalID: 2547098348562742015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434853735ddc57c00800000000000000
+      internalID: 897850016368264244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baee1f9c1c89b8f30800000000000000
+      internalID: 4578921404236426923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4723137c8e2adbc30800000000000000
+      internalID: 4376833533531992692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c8764085bdf7de0800000000000000
+      internalID: -1333105793600877434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e24b2c55a0e3f730800000000000000
+      internalID: 4031813092247290593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550d807781cfd01c0800000000000000
+      internalID: -4535692067685740459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f0770094e960d3e0800000000000000
+      internalID: -2031007001554226960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce43c5d6b54df6980800000000000000
+      internalID: -8543376478956669716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c55dcfd109694940800000000000000
+      internalID: 5280867494839276997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5bedec682c7f870800000000000000
+      internalID: 8716649488050992583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ea865332cf4c460800000000000000
+      internalID: 7261205727378189872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a27b72215924590800000000000000
+      internalID: -7691421308387120620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4777a566a719d270800000000000000
+      internalID: 8275671793707480908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a8d7fb69859ee00800000000000000
+      internalID: 1074487390585588266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9651ef764abbd6240800000000000000
+      internalID: 4786688293758440809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02e3aff83f4844e0800000000000000
+      internalID: -1997259328513121780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d177c6eb4d4195800800000000000000
+      internalID: 601534929191073565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1ab862811a25510800000000000000
+      internalID: 1536467547984732647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a84011f1cab7a260800000000000000
+      internalID: 7108855878963447971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5756500ea35804470800000000000000
+      internalID: 8376841794822169973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160220bc5cba1a8a0800000000000000
+      internalID: -6295561938084421535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea6b3f6b058d0880800000000000000
+      internalID: -8643105825696814353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc25360bdc7456e0800000000000000
+      internalID: -1849716266798601017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e0c225673513740800000000000000
+      internalID: 5129973218201570932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8ea3224db885dc0800000000000000
+      internalID: -3650013754760173329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ad2c713928eea30800000000000000
+      internalID: 4246475066927405605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b4b1f1d59dec240800000000000000
+      internalID: 4814024045682707253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62b99294e2264400800000000000000
+      internalID: 307971989628891758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949484562b9f2d6b0800000000000000
+      internalID: -5272877669098698423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7759269e1044af80800000000000000
+      internalID: -8096275729992820865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4c05f43b0b3f9c0800000000000000
+      internalID: -3894574968569019201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8662bf29bedb7390800000000000000
+      internalID: -7819411441048197489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf6ed197976810e0800000000000000
+      internalID: -2298973709087641663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82646748439e1290800000000000000
+      internalID: -7917729156226063730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47490ce11fb173110800000000000000
+      internalID: 1240490944780866676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2096566b2ac3d0d0800000000000000
+      internalID: -3399151005985238998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1905e425fa290e360800000000000000
+      internalID: 7196913486235848849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a5d71323e741010800000000000000
+      internalID: 1158689758184823326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5e095566d37f540800000000000000
+      internalID: 5041565817596077516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4066a1922421663f0800000000000000
+      internalID: -908018199501838844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaec411a99453de0800000000000000
+      internalID: -1354095186890921238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bed99915b8d1f90800000000000000
+      internalID: -6981270664768525519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9c82ff54f80bf20800000000000000
+      internalID: 3436404046480067023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90eab4b1b9dd8f60800000000000000
+      internalID: 8038320267190788255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85039db3074e703f0800000000000000
+      internalID: -934527226964529064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd244ead665e6cd0800000000000000
+      internalID: -2563016108852105730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67482ef1638790e20800000000000000
+      internalID: 3317314774393586806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9b23a24d0cafb10800000000000000
+      internalID: 2016135800675285463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3b085606961de70800000000000000
+      internalID: 9138200981652157396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49f2ced637dec520800000000000000
+      internalID: 2724351455271254348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc536cdfd7872a50800000000000000
+      internalID: 6496310383050185914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a179bda56a950160800000000000000
+      internalID: 6991163758059549090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70834816cccc91570800000000000000
+      internalID: 8438000555036784647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8745ddf557ab1d0800000000000000
+      internalID: -3334223519518787399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276b846b14df33470800000000000000
+      internalID: 8373314590884804210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e57f3c82d897b70800000000000000
+      internalID: 8897297745073102475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0598ac0be246b560800000000000000
+      internalID: 7329119020889183503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0caea9eaed721b50800000000000000
+      internalID: 6562446054928591887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c202768dd299230800000000000000
+      internalID: 3645995780799474700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c32abbd31b8fcbb0800000000000000
+      internalID: -4913555751030873146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237bc249c518921c0800000000000000
+      internalID: -4527945715721390286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb9188916d087c60800000000000000
+      internalID: 7816011866123115488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636c5bbc3d7334140800000000000000
+      internalID: 4702663818700244534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97720af2282f80550800000000000000
+      internalID: 6127413933996255097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be10437e2469ed00800000000000000
+      internalID: 1002442542731501238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2809eda63ffde75c0800000000000000
+      internalID: -4215685964609187710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150e444e1001b6a80800000000000000
+      internalID: -8472660673656725423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9200a8e6cde3c30b0800000000000000
+      internalID: -5747649907963330519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24f93bb299d6f100800000000000000
+      internalID: 141539662538339374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcbb489b425e68e0800000000000000
+      internalID: -1698329524840973125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_idle_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59fa45e14edea6cb0800000000000000
+      internalID: -4869818483030577259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gragas_idle_0: 9178655402271667370
+      gragas_idle_000: -1508959429641581833
+      gragas_idle_001: -669744487634543433
+      gragas_idle_002: 3976851502464388074
+      gragas_idle_003: -2020292971226828812
+      gragas_idle_004: 7950342431052546071
+      gragas_idle_005: 7727291926558379863
+      gragas_idle_006: -3893144590112899696
+      gragas_idle_007: -4052024488956229565
+      gragas_idle_008: 4575583861888180135
+      gragas_idle_009: -5408306519345680734
+      gragas_idle_010: -1397325650122951751
+      gragas_idle_011: 7222111162439076294
+      gragas_idle_012: -2641700996597555963
+      gragas_idle_013: 8016710609537399234
+      gragas_idle_014: 2245042818790015168
+      gragas_idle_015: 1214520923680394057
+      gragas_idle_016: 123738653719767684
+      gragas_idle_017: 6712600305042771253
+      gragas_idle_018: 7847133148877850410
+      gragas_idle_019: 6893974444437708648
+      gragas_idle_020: 750167015608858960
+      gragas_idle_021: -1700069993896935462
+      gragas_idle_022: 7300741355754237710
+      gragas_idle_023: 6390286286452690902
+      gragas_idle_024: -5617423110952824046
+      gragas_idle_025: 5941026543763300238
+      gragas_idle_026: -4726176630189235466
+      gragas_idle_027: 8048681700319060670
+      gragas_idle_028: -962172500626086887
+      gragas_idle_029: -4609203539090456380
+      gragas_idle_030: -2193628729828371774
+      gragas_idle_031: -3163535130916040356
+      gragas_idle_032: -5159955838618078709
+      gragas_idle_033: 4398387445227342074
+      gragas_idle_034: -9092082030443429883
+      gragas_idle_035: 4317679181174927387
+      gragas_idle_036: 1157800731982026818
+      gragas_idle_037: 8710060934729740434
+      gragas_idle_038: 3285081339921421167
+      gragas_idle_039: 6587653171241556384
+      gragas_idle_040: 3267685742350659808
+      gragas_idle_041: 3482331028572331213
+      gragas_idle_042: 176052417723617747
+      gragas_idle_043: 9140927923272925298
+      gragas_idle_044: -2086057503997586853
+      gragas_idle_045: -2934385034457215152
+      gragas_idle_046: 9222946412119697888
+      gragas_idle_047: 7478391727590738311
+      gragas_idle_048: 2547098348562742015
+      gragas_idle_049: 897850016368264244
+      gragas_idle_050: 4578921404236426923
+      gragas_idle_051: 4376833533531992692
+      gragas_idle_052: -1333105793600877434
+      gragas_idle_053: 4031813092247290593
+      gragas_idle_054: -4535692067685740459
+      gragas_idle_055: -2031007001554226960
+      gragas_idle_056: -8543376478956669716
+      gragas_idle_057: 5280867494839276997
+      gragas_idle_058: 8716649488050992583
+      gragas_idle_059: 7261205727378189872
+      gragas_idle_060: -7691421308387120620
+      gragas_idle_061: 8275671793707480908
+      gragas_idle_062: 1074487390585588266
+      gragas_idle_063: 4786688293758440809
+      gragas_idle_064: -1997259328513121780
+      gragas_idle_065: 601534929191073565
+      gragas_idle_066: 1536467547984732647
+      gragas_idle_067: 7108855878963447971
+      gragas_idle_068: 8376841794822169973
+      gragas_idle_069: -6295561938084421535
+      gragas_idle_070: -8643105825696814353
+      gragas_idle_071: -1849716266798601017
+      gragas_idle_072: 5129973218201570932
+      gragas_idle_073: -3650013754760173329
+      gragas_idle_074: 4246475066927405605
+      gragas_idle_075: 4814024045682707253
+      gragas_idle_076: 307971989628891758
+      gragas_idle_077: -5272877669098698423
+      gragas_idle_078: -8096275729992820865
+      gragas_idle_079: -3894574968569019201
+      gragas_idle_080: -7819411441048197489
+      gragas_idle_081: -2298973709087641663
+      gragas_idle_082: -7917729156226063730
+      gragas_idle_083: 1240490944780866676
+      gragas_idle_084: -3399151005985238998
+      gragas_idle_085: 7196913486235848849
+      gragas_idle_086: 1158689758184823326
+      gragas_idle_087: 5041565817596077516
+      gragas_idle_088: -908018199501838844
+      gragas_idle_089: -1354095186890921238
+      gragas_idle_090: -6981270664768525519
+      gragas_idle_091: 3436404046480067023
+      gragas_idle_092: 8038320267190788255
+      gragas_idle_093: -934527226964529064
+      gragas_idle_094: -2563016108852105730
+      gragas_idle_095: 3317314774393586806
+      gragas_idle_096: 2016135800675285463
+      gragas_idle_097: 9138200981652157396
+      gragas_idle_098: 2724351455271254348
+      gragas_idle_099: 6496310383050185914
+      gragas_idle_1: -3023044633648594515
+      gragas_idle_10: -4900049248498650874
+      gragas_idle_100: 6991163758059549090
+      gragas_idle_101: 8438000555036784647
+      gragas_idle_102: -3334223519518787399
+      gragas_idle_103: 8373314590884804210
+      gragas_idle_104: 8897297745073102475
+      gragas_idle_105: 7329119020889183503
+      gragas_idle_106: 6562446054928591887
+      gragas_idle_107: 3645995780799474700
+      gragas_idle_108: -4913555751030873146
+      gragas_idle_109: -4527945715721390286
+      gragas_idle_11: -5901836833785236437
+      gragas_idle_110: 7816011866123115488
+      gragas_idle_111: 4702663818700244534
+      gragas_idle_112: 6127413933996255097
+      gragas_idle_113: 1002442542731501238
+      gragas_idle_114: -4215685964609187710
+      gragas_idle_115: -8472660673656725423
+      gragas_idle_116: -5747649907963330519
+      gragas_idle_117: 141539662538339374
+      gragas_idle_118: -1698329524840973125
+      gragas_idle_119: -4869818483030577259
+      gragas_idle_12: -2367684825497289336
+      gragas_idle_13: 2452473028844289120
+      gragas_idle_14: -4796804369084798209
+      gragas_idle_15: -6120199325552412369
+      gragas_idle_16: -7098403714409528545
+      gragas_idle_17: 23112763551463952
+      gragas_idle_18: 1582812365357653994
+      gragas_idle_19: 4672726113962749326
+      gragas_idle_2: -4931286878983714005
+      gragas_idle_20: -112751213096087765
+      gragas_idle_21: 8430572465670210895
+      gragas_idle_22: 1283965960975734393
+      gragas_idle_23: -470813088192082210
+      gragas_idle_24: 1599867689201676911
+      gragas_idle_25: 6800517836700515171
+      gragas_idle_26: 4148106596463397699
+      gragas_idle_27: -462763916677413249
+      gragas_idle_28: 6415189113868064368
+      gragas_idle_29: 9126307934668827315
+      gragas_idle_3: -8473724579764516744
+      gragas_idle_30: -6990774357106027845
+      gragas_idle_31: 6418040507973967592
+      gragas_idle_32: 361492702150966082
+      gragas_idle_33: 4240225499601730277
+      gragas_idle_34: -693464137907972067
+      gragas_idle_35: 4880465087065236502
+      gragas_idle_36: 1996352085457943116
+      gragas_idle_37: 1582398876898780787
+      gragas_idle_38: -1851152550023993945
+      gragas_idle_39: 8434120350816029704
+      gragas_idle_4: 2832588878352052656
+      gragas_idle_40: -3256308434765822252
+      gragas_idle_41: -1660924954267223327
+      gragas_idle_42: 566382442060410701
+      gragas_idle_43: -6491566109875168743
+      gragas_idle_44: 90388081739282921
+      gragas_idle_45: -990493493080097162
+      gragas_idle_46: -2694860191482703482
+      gragas_idle_47: 4253660128659118618
+      gragas_idle_48: -3561501369143512616
+      gragas_idle_49: 1838785113949859827
+      gragas_idle_5: 2416057109718936386
+      gragas_idle_50: 5635538710967327033
+      gragas_idle_51: -1613677742185864969
+      gragas_idle_52: 8375727060393898992
+      gragas_idle_53: -5247869458841362691
+      gragas_idle_54: -5613039420519426919
+      gragas_idle_55: -764221074705958375
+      gragas_idle_56: 4177837417760592407
+      gragas_idle_57: 7402846637329767978
+      gragas_idle_58: -4133935242663837154
+      gragas_idle_59: -6547939204686120103
+      gragas_idle_6: 9082072362729727056
+      gragas_idle_60: 4182520593955571919
+      gragas_idle_61: 1427343110366890759
+      gragas_idle_62: -464322036321930387
+      gragas_idle_63: -4330106849441252822
+      gragas_idle_64: 878612525718896847
+      gragas_idle_65: 323186884242924387
+      gragas_idle_66: -5210135408781184406
+      gragas_idle_67: -4339592052177843168
+      gragas_idle_68: -3043615935751895499
+      gragas_idle_69: -7149849310796822364
+      gragas_idle_7: -6230343725783050685
+      gragas_idle_70: -4349963426615933413
+      gragas_idle_71: 4537591019404399244
+      gragas_idle_72: -6344773821274508850
+      gragas_idle_73: -5344521170717042186
+      gragas_idle_74: 7360174915622958066
+      gragas_idle_75: 3258799921941445592
+      gragas_idle_76: -7417968263834774964
+      gragas_idle_77: -2132858070828399542
+      gragas_idle_78: 577909296841982579
+      gragas_idle_79: -9102970914716687165
+      gragas_idle_8: 2031945982787670916
+      gragas_idle_80: 3953710254727524079
+      gragas_idle_81: 7394571994151607272
+      gragas_idle_82: 5925533160488820075
+      gragas_idle_83: -7854870133127785805
+      gragas_idle_84: -6190202114477350270
+      gragas_idle_85: -1040270623461948337
+      gragas_idle_86: -8875484527363680315
+      gragas_idle_87: 2281651389299904824
+      gragas_idle_88: -9130422028026131440
+      gragas_idle_89: -2624823113485670931
+      gragas_idle_9: 2131811613887665291
+      gragas_idle_90: 7588943710352357789
+      gragas_idle_91: -2179779153242294220
+      gragas_idle_92: 2244218233386267532
+      gragas_idle_93: -1756775411919076574
+      gragas_idle_94: -5990812495070986721
+      gragas_idle_95: -7177976499285975060
+      gragas_idle_96: -3977317702878154394
+      gragas_idle_97: 2305345371221189523
+      gragas_idle_98: 3828829248482683999
+      gragas_idle_99: -609909692951440156
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

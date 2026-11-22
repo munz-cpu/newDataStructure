@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 9b8fdeb6254cfc44b8ab00e2102d8a16
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2664366293310932911
+    second: tryndamere_attack_0
+  - first:
+      213: -5486336926243076435
+    second: tryndamere_attack_1
+  - first:
+      213: -7721155187273566071
+    second: tryndamere_attack_2
+  - first:
+      213: -2847841708862459937
+    second: tryndamere_attack_3
+  - first:
+      213: -4285164200080189443
+    second: tryndamere_attack_4
+  - first:
+      213: 3006827899854628414
+    second: tryndamere_attack_5
+  - first:
+      213: 7873769416352592425
+    second: tryndamere_attack_6
+  - first:
+      213: 7532368135950133082
+    second: tryndamere_attack_7
+  - first:
+      213: 7092212205654824123
+    second: tryndamere_attack_8
+  - first:
+      213: -1121382577692481908
+    second: tryndamere_attack_9
+  - first:
+      213: 4685453807540721842
+    second: tryndamere_attack_10
+  - first:
+      213: 5262696600885369293
+    second: tryndamere_attack_11
+  - first:
+      213: -5334144148444603840
+    second: tryndamere_attack_12
+  - first:
+      213: 2532018851597459848
+    second: tryndamere_attack_13
+  - first:
+      213: 4533435975105657417
+    second: tryndamere_attack_14
+  - first:
+      213: -4235146292187407000
+    second: tryndamere_attack_15
+  - first:
+      213: 2976795805635793845
+    second: tryndamere_attack_16
+  - first:
+      213: 4552050320914267808
+    second: tryndamere_attack_17
+  - first:
+      213: -5054870111757935007
+    second: tryndamere_attack_18
+  - first:
+      213: -7083755507685855161
+    second: tryndamere_attack_19
+  - first:
+      213: 6253879139765697144
+    second: tryndamere_attack_20
+  - first:
+      213: 2992214208813355005
+    second: tryndamere_attack_21
+  - first:
+      213: 6141957632052636835
+    second: tryndamere_attack_22
+  - first:
+      213: 4669957040337949996
+    second: tryndamere_attack_23
+  - first:
+      213: 7461467219340643659
+    second: tryndamere_attack_24
+  - first:
+      213: -713341321912049001
+    second: tryndamere_attack_25
+  - first:
+      213: -4993537401211440479
+    second: tryndamere_attack_26
+  - first:
+      213: -2159755367305205180
+    second: tryndamere_attack_27
+  - first:
+      213: -6075237461677804291
+    second: tryndamere_attack_28
+  - first:
+      213: -1158334085446368605
+    second: tryndamere_attack_29
+  - first:
+      213: 6980440020009402531
+    second: tryndamere_attack_30
+  - first:
+      213: 8397501860364314083
+    second: tryndamere_attack_31
+  - first:
+      213: -5679571329024862967
+    second: tryndamere_attack_32
+  - first:
+      213: 4948986080171735068
+    second: tryndamere_attack_33
+  - first:
+      213: 976268915598059978
+    second: tryndamere_attack_34
+  - first:
+      213: 6688268014461574056
+    second: tryndamere_attack_35
+  - first:
+      213: 4084036066338476121
+    second: tryndamere_attack_36
+  - first:
+      213: -7456061973889285488
+    second: tryndamere_attack_37
+  - first:
+      213: -1455302934067749232
+    second: tryndamere_attack_38
+  - first:
+      213: -3142461269456676940
+    second: tryndamere_attack_39
+  - first:
+      213: -1472381569338553415
+    second: tryndamere_attack_40
+  - first:
+      213: -3317495400698985539
+    second: tryndamere_attack_41
+  - first:
+      213: 5974108643699459724
+    second: tryndamere_attack_42
+  - first:
+      213: -4166106817601128007
+    second: tryndamere_attack_43
+  - first:
+      213: -5085182290819577235
+    second: tryndamere_attack_44
+  - first:
+      213: -6746685590195042793
+    second: tryndamere_attack_45
+  - first:
+      213: 3576362557089942544
+    second: tryndamere_attack_46
+  - first:
+      213: -5695957012360166920
+    second: tryndamere_attack_47
+  - first:
+      213: 4869328059727374
+    second: tryndamere_attack_48
+  - first:
+      213: -1269755488607338316
+    second: tryndamere_attack_49
+  - first:
+      213: 1061447694814824208
+    second: tryndamere_attack_50
+  - first:
+      213: -2462390605374918030
+    second: tryndamere_attack_51
+  - first:
+      213: -1373342148691719051
+    second: tryndamere_attack_52
+  - first:
+      213: 79388750815742252
+    second: tryndamere_attack_53
+  - first:
+      213: -3305179817222248694
+    second: tryndamere_attack_54
+  - first:
+      213: 7342472927935279787
+    second: tryndamere_attack_55
+  - first:
+      213: 6617125538439405659
+    second: tryndamere_attack_56
+  - first:
+      213: -3832217498088524673
+    second: tryndamere_attack_57
+  - first:
+      213: 9101225514557357036
+    second: tryndamere_attack_58
+  - first:
+      213: -7419745406812813445
+    second: tryndamere_attack_59
+  - first:
+      213: 730507409039679505
+    second: tryndamere_attack_60
+  - first:
+      213: -989509924430428068
+    second: tryndamere_attack_61
+  - first:
+      213: -5777077474108613199
+    second: tryndamere_attack_62
+  - first:
+      213: 70888165087088805
+    second: tryndamere_attack_63
+  - first:
+      213: -1141081071687345252
+    second: tryndamere_attack_64
+  - first:
+      213: 11728782176044691
+    second: tryndamere_attack_65
+  - first:
+      213: -8728769843123848014
+    second: tryndamere_attack_66
+  - first:
+      213: 7551441867116819262
+    second: tryndamere_attack_67
+  - first:
+      213: -6955297331115016712
+    second: tryndamere_attack_68
+  - first:
+      213: -573536684983886299
+    second: tryndamere_attack_69
+  - first:
+      213: -7032962108728332029
+    second: tryndamere_attack_70
+  - first:
+      213: -8490105823162249393
+    second: tryndamere_attack_71
+  - first:
+      213: 4839020982745521664
+    second: tryndamere_attack_72
+  - first:
+      213: -5442153366761228729
+    second: tryndamere_attack_73
+  - first:
+      213: -2368118408981869242
+    second: tryndamere_attack_74
+  - first:
+      213: 7966484801025294783
+    second: tryndamere_attack_75
+  - first:
+      213: 7370595280917191594
+    second: tryndamere_attack_76
+  - first:
+      213: 2496711031491179142
+    second: tryndamere_attack_77
+  - first:
+      213: -1592424157913380757
+    second: tryndamere_attack_78
+  - first:
+      213: -4780963781132708485
+    second: tryndamere_attack_79
+  - first:
+      213: 6782738395198555070
+    second: tryndamere_attack_80
+  - first:
+      213: -5103929227599805434
+    second: tryndamere_attack_81
+  - first:
+      213: -7746973638529366860
+    second: tryndamere_attack_82
+  - first:
+      213: -305235706108582096
+    second: tryndamere_attack_83
+  - first:
+      213: -9111701682536270099
+    second: tryndamere_attack_84
+  - first:
+      213: 7485480736810117232
+    second: tryndamere_attack_85
+  - first:
+      213: -6966254424714240468
+    second: tryndamere_attack_86
+  - first:
+      213: -6662655394584941957
+    second: tryndamere_attack_87
+  - first:
+      213: -5873812485273095284
+    second: tryndamere_attack_88
+  - first:
+      213: 2563339446565514721
+    second: tryndamere_attack_89
+  - first:
+      213: -40878425481456929
+    second: tryndamere_attack_90
+  - first:
+      213: 2397896419756206946
+    second: tryndamere_attack_91
+  - first:
+      213: -3959356844020507218
+    second: tryndamere_attack_92
+  - first:
+      213: -1341306324836700816
+    second: tryndamere_attack_93
+  - first:
+      213: 5636725371278439910
+    second: tryndamere_attack_94
+  - first:
+      213: 2361333750452985909
+    second: tryndamere_attack_95
+  - first:
+      213: -1731067908209010121
+    second: tryndamere_attack_96
+  - first:
+      213: -7621032538872670795
+    second: tryndamere_attack_97
+  - first:
+      213: -8166875424063287190
+    second: tryndamere_attack_98
+  - first:
+      213: 5548403969164674300
+    second: tryndamere_attack_99
+  - first:
+      213: 6482863835410649907
+    second: tryndamere_attack_100
+  - first:
+      213: 3680833110516961306
+    second: tryndamere_attack_101
+  - first:
+      213: -9213719888251973547
+    second: tryndamere_attack_102
+  - first:
+      213: -7093624218024277535
+    second: tryndamere_attack_103
+  - first:
+      213: 5626983315789121500
+    second: tryndamere_attack_104
+  - first:
+      213: 7767703288577898774
+    second: tryndamere_attack_105
+  - first:
+      213: 3683991692055616660
+    second: tryndamere_attack_106
+  - first:
+      213: -7224265878598006145
+    second: tryndamere_attack_107
+  - first:
+      213: 4097694315974143195
+    second: tryndamere_attack_108
+  - first:
+      213: 3360114777669718528
+    second: tryndamere_attack_109
+  - first:
+      213: -8054061386433798293
+    second: tryndamere_attack_110
+  - first:
+      213: 6436103103818620461
+    second: tryndamere_attack_111
+  - first:
+      213: -8122301023248137525
+    second: tryndamere_attack_112
+  - first:
+      213: 1216891341034104458
+    second: tryndamere_attack_113
+  - first:
+      213: 2458449372333412271
+    second: tryndamere_attack_114
+  - first:
+      213: 741681711134240732
+    second: tryndamere_attack_115
+  - first:
+      213: -2285231194105137053
+    second: tryndamere_attack_116
+  - first:
+      213: 851857598414576609
+    second: tryndamere_attack_117
+  - first:
+      213: -8663885857265460849
+    second: tryndamere_attack_118
+  - first:
+      213: 9112292668583897025
+    second: tryndamere_attack_119
+  - first:
+      213: -7269101362949986684
+    second: tryndamere_attack_000
+  - first:
+      213: -621811225748999280
+    second: tryndamere_attack_001
+  - first:
+      213: -476803149144399815
+    second: tryndamere_attack_002
+  - first:
+      213: 3569767875027065074
+    second: tryndamere_attack_003
+  - first:
+      213: 2253360944525314871
+    second: tryndamere_attack_004
+  - first:
+      213: -4450837493363207596
+    second: tryndamere_attack_005
+  - first:
+      213: -5960125450948962116
+    second: tryndamere_attack_006
+  - first:
+      213: 2092429760228381198
+    second: tryndamere_attack_007
+  - first:
+      213: -25921209832302858
+    second: tryndamere_attack_008
+  - first:
+      213: -1055327825018910211
+    second: tryndamere_attack_009
+  - first:
+      213: -37786382957752034
+    second: tryndamere_attack_010
+  - first:
+      213: -4210234126959218809
+    second: tryndamere_attack_011
+  - first:
+      213: 2426088980653064744
+    second: tryndamere_attack_012
+  - first:
+      213: 7695907080411386020
+    second: tryndamere_attack_013
+  - first:
+      213: 76449398873052023
+    second: tryndamere_attack_014
+  - first:
+      213: 2478665787318345674
+    second: tryndamere_attack_015
+  - first:
+      213: -5658063576709435373
+    second: tryndamere_attack_016
+  - first:
+      213: -3668496250687141905
+    second: tryndamere_attack_017
+  - first:
+      213: -2402859835304721013
+    second: tryndamere_attack_018
+  - first:
+      213: 6487144122054472530
+    second: tryndamere_attack_019
+  - first:
+      213: 7673245455476742404
+    second: tryndamere_attack_020
+  - first:
+      213: -6245759201102347333
+    second: tryndamere_attack_021
+  - first:
+      213: 6749029331905076405
+    second: tryndamere_attack_022
+  - first:
+      213: 7147026361641923111
+    second: tryndamere_attack_023
+  - first:
+      213: -4582142270797637501
+    second: tryndamere_attack_024
+  - first:
+      213: 7120459720677029932
+    second: tryndamere_attack_025
+  - first:
+      213: 1924374538245668839
+    second: tryndamere_attack_026
+  - first:
+      213: 7087462847216776794
+    second: tryndamere_attack_027
+  - first:
+      213: -8972348544252898068
+    second: tryndamere_attack_028
+  - first:
+      213: -8322414462771193555
+    second: tryndamere_attack_029
+  - first:
+      213: -2165317581448003646
+    second: tryndamere_attack_030
+  - first:
+      213: 7043271711578916293
+    second: tryndamere_attack_031
+  - first:
+      213: -5421921802736354753
+    second: tryndamere_attack_032
+  - first:
+      213: 3915883286433245673
+    second: tryndamere_attack_033
+  - first:
+      213: -750886323956824573
+    second: tryndamere_attack_034
+  - first:
+      213: -5606929499959109600
+    second: tryndamere_attack_035
+  - first:
+      213: 4190998408098008505
+    second: tryndamere_attack_036
+  - first:
+      213: -905300883150488308
+    second: tryndamere_attack_037
+  - first:
+      213: -3678386708264005360
+    second: tryndamere_attack_038
+  - first:
+      213: 1229315583626723748
+    second: tryndamere_attack_039
+  - first:
+      213: 5227766575460521112
+    second: tryndamere_attack_040
+  - first:
+      213: 6155049223749029019
+    second: tryndamere_attack_041
+  - first:
+      213: -1248163774982308559
+    second: tryndamere_attack_042
+  - first:
+      213: -4807267375258498205
+    second: tryndamere_attack_043
+  - first:
+      213: 1933725851095730079
+    second: tryndamere_attack_044
+  - first:
+      213: -3115970148489999869
+    second: tryndamere_attack_045
+  - first:
+      213: 1533684483793121859
+    second: tryndamere_attack_046
+  - first:
+      213: -1437280811734625927
+    second: tryndamere_attack_047
+  - first:
+      213: 7251300638299568533
+    second: tryndamere_attack_048
+  - first:
+      213: -8625278586800690995
+    second: tryndamere_attack_049
+  - first:
+      213: 6607859775753478434
+    second: tryndamere_attack_050
+  - first:
+      213: -7702582719926647116
+    second: tryndamere_attack_051
+  - first:
+      213: -8933881553179162986
+    second: tryndamere_attack_052
+  - first:
+      213: 8763292778385804476
+    second: tryndamere_attack_053
+  - first:
+      213: -7825819173073124292
+    second: tryndamere_attack_054
+  - first:
+      213: -6699970315422068036
+    second: tryndamere_attack_055
+  - first:
+      213: -989047727661040672
+    second: tryndamere_attack_056
+  - first:
+      213: -8588633303932405598
+    second: tryndamere_attack_057
+  - first:
+      213: -377522618451180340
+    second: tryndamere_attack_058
+  - first:
+      213: -3547968599535111150
+    second: tryndamere_attack_059
+  - first:
+      213: 1688101838931387849
+    second: tryndamere_attack_060
+  - first:
+      213: 6729933182544381718
+    second: tryndamere_attack_061
+  - first:
+      213: 3285257630036433187
+    second: tryndamere_attack_062
+  - first:
+      213: 8890347443921492986
+    second: tryndamere_attack_063
+  - first:
+      213: 8539261764068213174
+    second: tryndamere_attack_064
+  - first:
+      213: -5630045188750321000
+    second: tryndamere_attack_065
+  - first:
+      213: -9189251490482892034
+    second: tryndamere_attack_066
+  - first:
+      213: 7508388090548786490
+    second: tryndamere_attack_067
+  - first:
+      213: 4224586061048341101
+    second: tryndamere_attack_068
+  - first:
+      213: 504266427742843514
+    second: tryndamere_attack_069
+  - first:
+      213: -948179590875305140
+    second: tryndamere_attack_070
+  - first:
+      213: 5308742324923448759
+    second: tryndamere_attack_071
+  - first:
+      213: -8184241157288904755
+    second: tryndamere_attack_072
+  - first:
+      213: -8302947153107040850
+    second: tryndamere_attack_073
+  - first:
+      213: 8460966648948791215
+    second: tryndamere_attack_074
+  - first:
+      213: -7958506512281461747
+    second: tryndamere_attack_075
+  - first:
+      213: -4319958647558001209
+    second: tryndamere_attack_076
+  - first:
+      213: -5265051402971870087
+    second: tryndamere_attack_077
+  - first:
+      213: -3548380438915912304
+    second: tryndamere_attack_078
+  - first:
+      213: 1473427891404602405
+    second: tryndamere_attack_079
+  - first:
+      213: 4126629094828335897
+    second: tryndamere_attack_080
+  - first:
+      213: 3136009525332935725
+    second: tryndamere_attack_081
+  - first:
+      213: -995057878873833305
+    second: tryndamere_attack_082
+  - first:
+      213: 8659818871120718604
+    second: tryndamere_attack_083
+  - first:
+      213: -6822761811280693803
+    second: tryndamere_attack_084
+  - first:
+      213: -2541476096035015760
+    second: tryndamere_attack_085
+  - first:
+      213: -2778949269741713827
+    second: tryndamere_attack_086
+  - first:
+      213: 5220445349694865917
+    second: tryndamere_attack_087
+  - first:
+      213: -6372982422926859833
+    second: tryndamere_attack_088
+  - first:
+      213: 5163971061376652885
+    second: tryndamere_attack_089
+  - first:
+      213: -7399820318513352805
+    second: tryndamere_attack_090
+  - first:
+      213: -8405815584664641026
+    second: tryndamere_attack_091
+  - first:
+      213: 2065817052863540321
+    second: tryndamere_attack_092
+  - first:
+      213: -7644289509546656206
+    second: tryndamere_attack_093
+  - first:
+      213: -3250543351969567803
+    second: tryndamere_attack_094
+  - first:
+      213: -7656980474119186338
+    second: tryndamere_attack_095
+  - first:
+      213: -6868477453246106091
+    second: tryndamere_attack_096
+  - first:
+      213: -2086928873639507382
+    second: tryndamere_attack_097
+  - first:
+      213: 7910463760067473523
+    second: tryndamere_attack_098
+  - first:
+      213: 7247901311363445113
+    second: tryndamere_attack_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tryndamere_attack_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486ee01e2d6fe1b90800000000000000
+      internalID: -7269101362949986684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09371e31cf1ee57f0800000000000000
+      internalID: -621811225748999280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930e573ef0e0269f0800000000000000
+      internalID: -476803149144399815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f8d69908fc5a8130800000000000000
+      internalID: 3569767875027065074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b8b2917db854f10800000000000000
+      internalID: 2253360944525314871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452981f91e27b32c0800000000000000
+      internalID: -4450837493363207596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb81c6ffa71694da0800000000000000
+      internalID: -5960125450948962116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e025edfd7cdc90d10800000000000000
+      internalID: 2092429760228381198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f61cc70cc8e3aff0800000000000000
+      internalID: -25921209832302858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9892c3fe8ba51f0800000000000000
+      internalID: -1055327825018910211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11d4722c71c97ff0800000000000000
+      internalID: -37786382957752034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f6e594e5e3295c0800000000000000
+      internalID: -4210234126959218809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822c05de2133ba120800000000000000
+      internalID: 2426088980653064744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0955807ba5dca60800000000000000
+      internalID: 7695907080411386020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773de1fb25a9f0100800000000000000
+      internalID: 76449398873052023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf160aa66df56220800000000000000
+      internalID: 2478665787318345674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31078a997258a71b0800000000000000
+      internalID: -5658063576709435373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7c0f5b812e61dc0800000000000000
+      internalID: -3668496250687141905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b85cb9fe5b357aed0800000000000000
+      internalID: -2402859835304721013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 253f1d96537f60a50800000000000000
+      internalID: 6487144122054472530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40952105618dc7a60800000000000000
+      internalID: 7673245455476742404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3caa9191b9259a0800000000000000
+      internalID: -6245759201102347333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcd4e26b6e59ad50800000000000000
+      internalID: 6749029331905076405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722f40efb965f2360800000000000000
+      internalID: 7147026361641923111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3881ec6c1e5f860c0800000000000000
+      internalID: -4582142270797637501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c287e60e364f0d260800000000000000
+      internalID: 7120459720677029932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef70fe5270c4ba10800000000000000
+      internalID: 1924374538245668839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a56722798e9bb5260800000000000000
+      internalID: 7087462847216776794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce410da5980db7380800000000000000
+      internalID: -8972348544252898068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2913f0e328d08c80800000000000000
+      internalID: -8322414462771193555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf32ebc12f33f1e0800000000000000
+      internalID: -2165317581448003646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c508390e4abeb160800000000000000
+      internalID: 7043271711578916293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a34f3d8d671c4b0800000000000000
+      internalID: -5421921802736354753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e92ebd0a13085630800000000000000
+      internalID: 3915883286433245673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306cad1edd05495f0800000000000000
+      internalID: -750886323956824573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 028574a935f2032b0800000000000000
+      internalID: -5606929499959109600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bdc8e8e8da692a30800000000000000
+      internalID: 4190998408098008505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0db7fca4a9bf63f0800000000000000
+      internalID: -905300883150488308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 011d76b17ceb3fcc0800000000000000
+      internalID: -3678386708264005360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a14ce692086f0110800000000000000
+      internalID: 1229315583626723748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8941cf2a002cc8840800000000000000
+      internalID: 5227766575460521112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9cca9c78a02b6550800000000000000
+      internalID: 6155049223749029019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d3ba2e8a1adaee0800000000000000
+      internalID: -1248163774982308559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b846dcac7294db0800000000000000
+      internalID: -4807267375258498205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f970d8f8a69f5da10800000000000000
+      internalID: 1933725851095730079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a4888b8a9d1c4d0800000000000000
+      internalID: -3115970148489999869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342740689edb84510800000000000000
+      internalID: 1533684483793121859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971921e77b0cd0ce0800000000000000
+      internalID: -1437280811734625927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599b861f28bc1a460800000000000000
+      internalID: 7251300638299568533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc826f0f2dadc4880800000000000000
+      internalID: -8625278586800690995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221e063c475d3bb50800000000000000
+      internalID: 6607859775753478434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6c5b583ddea1590800000000000000
+      internalID: -7702582719926647116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6964755af0a740480800000000000000
+      internalID: -8933881553179162986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc8e6e1a587d9970800000000000000
+      internalID: 8763292778385804476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c340980dcea156390800000000000000
+      internalID: -7825819173073124292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb21b9ffe7ce403a0800000000000000
+      internalID: -6699970315422068036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb3bd6f4523642f0800000000000000
+      internalID: -989047727661040672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8f40db38b0fc880800000000000000
+      internalID: -8588633303932405598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4ca80cd25c2caf0800000000000000
+      internalID: -377522618451180340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214387e4b5513cec0800000000000000
+      internalID: -3547968599535111150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c56036bda75d6710800000000000000
+      internalID: 1688101838931387849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6170ca3a296856d50800000000000000
+      internalID: 6729933182544381718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32996f19864979d20800000000000000
+      internalID: 3285257630036433187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb1ebca5ebd06b70800000000000000
+      internalID: 8890347443921492986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b18c5bd45d818670800000000000000
+      internalID: 8539261764068213174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89ad327eabf0ed1b0800000000000000
+      internalID: -5630045188750321000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2d906c478397080800000000000000
+      internalID: -9189251490482892034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a351fecef27233860800000000000000
+      internalID: 7508388090548786490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d626ad3c3aeb0aa30800000000000000
+      internalID: 4224586061048341101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7274c1f4a38ff600800000000000000
+      internalID: 504266427742843514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4b2a9e8fa367d2f0800000000000000
+      internalID: -948179590875305140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdb42184017ca940800000000000000
+      internalID: 5308742324923448759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7b9a7870cbb6e80800000000000000
+      internalID: -8184241157288904755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5c63e1e8106cc80800000000000000
+      internalID: -8302947153107040850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7150fc6546b6570800000000000000
+      internalID: 8460966648948791215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0c94d83e74bd8190800000000000000
+      internalID: -7958506512281461747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdade78f7c6c04c0800000000000000
+      internalID: -4319958647558001209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c80b9f4a7cee6b0800000000000000
+      internalID: -5265051402971870087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09de87a7ace91cec0800000000000000
+      internalID: -3548380438915912304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52cf2555cdaa27410800000000000000
+      internalID: 1473427891404602405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 913e8054c4bb44930800000000000000
+      internalID: 4126629094828335897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2406b94c08558b20800000000000000
+      internalID: 3136009525332935725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a085c69128d032f0800000000000000
+      internalID: -995057878873833305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0bef50b16bdd2870800000000000000
+      internalID: 8659818871120718604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5738bf74ea051a0800000000000000
+      internalID: -6822761811280693803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3bfaab4fcdabcd0800000000000000
+      internalID: -2541476096035015760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d56c638dc503f69d0800000000000000
+      internalID: -2778949269741713827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df107ede26fb27840800000000000000
+      internalID: 5220445349694865917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1e2a9704e9e87a0800000000000000
+      internalID: -6372982422926859833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55690c7025c1aa740800000000000000
+      internalID: 5163971061376652885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f2b4150ae8e4990800000000000000
+      internalID: -7399820318513352805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef12f9cf24b885b80800000000000000
+      internalID: -8405815584664641026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c20e61aa14bac10800000000000000
+      internalID: 2065817052863540321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ef93731370ae590800000000000000
+      internalID: -7644289509546656206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cba8d22b00c3e2d0800000000000000
+      internalID: -3250543351969567803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e581604c3d0fcb590800000000000000
+      internalID: -7656980474119186338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5167c73a5244ea0a0800000000000000
+      internalID: -6868477453246106091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a06371f3db903e0800000000000000
+      internalID: -2086928873639507382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3703c6bd0ec97cd60800000000000000
+      internalID: 7910463760067473523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971f7e677d7b59460800000000000000
+      internalID: 7247901311363445113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333d0e48f42c7f950800000000000000
+      internalID: 6482863835410649907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a101cdd4632f41330800000000000000
+      internalID: 3680833110516961306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5501ac8f39a422080800000000000000
+      internalID: -9213719888251973547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e90e8a7b526e8d90800000000000000
+      internalID: -7093624218024277535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd709ae338f071e40800000000000000
+      internalID: 5626983315789121500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619b1546cfc6ccb60800000000000000
+      internalID: 7767703288577898774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c1770ecea202330800000000000000
+      internalID: 3683991692055616660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ac03f85704ebb90800000000000000
+      internalID: -7224265878598006145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdca6c5154fedd830800000000000000
+      internalID: 4097694315974143195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0025b8f669681ae20800000000000000
+      internalID: 3360114777669718528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f5c6e57d93a3090800000000000000
+      internalID: -8054061386433798293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ed5e84ca1a15950800000000000000
+      internalID: 6436103103818620461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2c08ec04ac74f80800000000000000
+      internalID: -8122301023248137525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8626903a3443e010800000000000000
+      internalID: 1216891341034104458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf0730cdaa2e1220800000000000000
+      internalID: 2458449372333412271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf6f80369bfa4a00800000000000000
+      internalID: 741681711134240732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368b8bd265a3940e0800000000000000
+      internalID: -2285231194105137053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ebd7b0f8f762db00800000000000000
+      internalID: 851857598414576609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89592f47b1b3c780800000000000000
+      internalID: -8663885857265460849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_attack_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7e65037ed557e70800000000000000
+      internalID: 9112292668583897025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tryndamere_attack_0: -2664366293310932911
+      tryndamere_attack_000: -7269101362949986684
+      tryndamere_attack_001: -621811225748999280
+      tryndamere_attack_002: -476803149144399815
+      tryndamere_attack_003: 3569767875027065074
+      tryndamere_attack_004: 2253360944525314871
+      tryndamere_attack_005: -4450837493363207596
+      tryndamere_attack_006: -5960125450948962116
+      tryndamere_attack_007: 2092429760228381198
+      tryndamere_attack_008: -25921209832302858
+      tryndamere_attack_009: -1055327825018910211
+      tryndamere_attack_010: -37786382957752034
+      tryndamere_attack_011: -4210234126959218809
+      tryndamere_attack_012: 2426088980653064744
+      tryndamere_attack_013: 7695907080411386020
+      tryndamere_attack_014: 76449398873052023
+      tryndamere_attack_015: 2478665787318345674
+      tryndamere_attack_016: -5658063576709435373
+      tryndamere_attack_017: -3668496250687141905
+      tryndamere_attack_018: -2402859835304721013
+      tryndamere_attack_019: 6487144122054472530
+      tryndamere_attack_020: 7673245455476742404
+      tryndamere_attack_021: -6245759201102347333
+      tryndamere_attack_022: 6749029331905076405
+      tryndamere_attack_023: 7147026361641923111
+      tryndamere_attack_024: -4582142270797637501
+      tryndamere_attack_025: 7120459720677029932
+      tryndamere_attack_026: 1924374538245668839
+      tryndamere_attack_027: 7087462847216776794
+      tryndamere_attack_028: -8972348544252898068
+      tryndamere_attack_029: -8322414462771193555
+      tryndamere_attack_030: -2165317581448003646
+      tryndamere_attack_031: 7043271711578916293
+      tryndamere_attack_032: -5421921802736354753
+      tryndamere_attack_033: 3915883286433245673
+      tryndamere_attack_034: -750886323956824573
+      tryndamere_attack_035: -5606929499959109600
+      tryndamere_attack_036: 4190998408098008505
+      tryndamere_attack_037: -905300883150488308
+      tryndamere_attack_038: -3678386708264005360
+      tryndamere_attack_039: 1229315583626723748
+      tryndamere_attack_040: 5227766575460521112
+      tryndamere_attack_041: 6155049223749029019
+      tryndamere_attack_042: -1248163774982308559
+      tryndamere_attack_043: -4807267375258498205
+      tryndamere_attack_044: 1933725851095730079
+      tryndamere_attack_045: -3115970148489999869
+      tryndamere_attack_046: 1533684483793121859
+      tryndamere_attack_047: -1437280811734625927
+      tryndamere_attack_048: 7251300638299568533
+      tryndamere_attack_049: -8625278586800690995
+      tryndamere_attack_050: 6607859775753478434
+      tryndamere_attack_051: -7702582719926647116
+      tryndamere_attack_052: -8933881553179162986
+      tryndamere_attack_053: 8763292778385804476
+      tryndamere_attack_054: -7825819173073124292
+      tryndamere_attack_055: -6699970315422068036
+      tryndamere_attack_056: -989047727661040672
+      tryndamere_attack_057: -8588633303932405598
+      tryndamere_attack_058: -377522618451180340
+      tryndamere_attack_059: -3547968599535111150
+      tryndamere_attack_060: 1688101838931387849
+      tryndamere_attack_061: 6729933182544381718
+      tryndamere_attack_062: 3285257630036433187
+      tryndamere_attack_063: 8890347443921492986
+      tryndamere_attack_064: 8539261764068213174
+      tryndamere_attack_065: -5630045188750321000
+      tryndamere_attack_066: -9189251490482892034
+      tryndamere_attack_067: 7508388090548786490
+      tryndamere_attack_068: 4224586061048341101
+      tryndamere_attack_069: 504266427742843514
+      tryndamere_attack_070: -948179590875305140
+      tryndamere_attack_071: 5308742324923448759
+      tryndamere_attack_072: -8184241157288904755
+      tryndamere_attack_073: -8302947153107040850
+      tryndamere_attack_074: 8460966648948791215
+      tryndamere_attack_075: -7958506512281461747
+      tryndamere_attack_076: -4319958647558001209
+      tryndamere_attack_077: -5265051402971870087
+      tryndamere_attack_078: -3548380438915912304
+      tryndamere_attack_079: 1473427891404602405
+      tryndamere_attack_080: 4126629094828335897
+      tryndamere_attack_081: 3136009525332935725
+      tryndamere_attack_082: -995057878873833305
+      tryndamere_attack_083: 8659818871120718604
+      tryndamere_attack_084: -6822761811280693803
+      tryndamere_attack_085: -2541476096035015760
+      tryndamere_attack_086: -2778949269741713827
+      tryndamere_attack_087: 5220445349694865917
+      tryndamere_attack_088: -6372982422926859833
+      tryndamere_attack_089: 5163971061376652885
+      tryndamere_attack_090: -7399820318513352805
+      tryndamere_attack_091: -8405815584664641026
+      tryndamere_attack_092: 2065817052863540321
+      tryndamere_attack_093: -7644289509546656206
+      tryndamere_attack_094: -3250543351969567803
+      tryndamere_attack_095: -7656980474119186338
+      tryndamere_attack_096: -6868477453246106091
+      tryndamere_attack_097: -2086928873639507382
+      tryndamere_attack_098: 7910463760067473523
+      tryndamere_attack_099: 7247901311363445113
+      tryndamere_attack_1: -5486336926243076435
+      tryndamere_attack_10: 4685453807540721842
+      tryndamere_attack_100: 6482863835410649907
+      tryndamere_attack_101: 3680833110516961306
+      tryndamere_attack_102: -9213719888251973547
+      tryndamere_attack_103: -7093624218024277535
+      tryndamere_attack_104: 5626983315789121500
+      tryndamere_attack_105: 7767703288577898774
+      tryndamere_attack_106: 3683991692055616660
+      tryndamere_attack_107: -7224265878598006145
+      tryndamere_attack_108: 4097694315974143195
+      tryndamere_attack_109: 3360114777669718528
+      tryndamere_attack_11: 5262696600885369293
+      tryndamere_attack_110: -8054061386433798293
+      tryndamere_attack_111: 6436103103818620461
+      tryndamere_attack_112: -8122301023248137525
+      tryndamere_attack_113: 1216891341034104458
+      tryndamere_attack_114: 2458449372333412271
+      tryndamere_attack_115: 741681711134240732
+      tryndamere_attack_116: -2285231194105137053
+      tryndamere_attack_117: 851857598414576609
+      tryndamere_attack_118: -8663885857265460849
+      tryndamere_attack_119: 9112292668583897025
+      tryndamere_attack_12: -5334144148444603840
+      tryndamere_attack_13: 2532018851597459848
+      tryndamere_attack_14: 4533435975105657417
+      tryndamere_attack_15: -4235146292187407000
+      tryndamere_attack_16: 2976795805635793845
+      tryndamere_attack_17: 4552050320914267808
+      tryndamere_attack_18: -5054870111757935007
+      tryndamere_attack_19: -7083755507685855161
+      tryndamere_attack_2: -7721155187273566071
+      tryndamere_attack_20: 6253879139765697144
+      tryndamere_attack_21: 2992214208813355005
+      tryndamere_attack_22: 6141957632052636835
+      tryndamere_attack_23: 4669957040337949996
+      tryndamere_attack_24: 7461467219340643659
+      tryndamere_attack_25: -713341321912049001
+      tryndamere_attack_26: -4993537401211440479
+      tryndamere_attack_27: -2159755367305205180
+      tryndamere_attack_28: -6075237461677804291
+      tryndamere_attack_29: -1158334085446368605
+      tryndamere_attack_3: -2847841708862459937
+      tryndamere_attack_30: 6980440020009402531
+      tryndamere_attack_31: 8397501860364314083
+      tryndamere_attack_32: -5679571329024862967
+      tryndamere_attack_33: 4948986080171735068
+      tryndamere_attack_34: 976268915598059978
+      tryndamere_attack_35: 6688268014461574056
+      tryndamere_attack_36: 4084036066338476121
+      tryndamere_attack_37: -7456061973889285488
+      tryndamere_attack_38: -1455302934067749232
+      tryndamere_attack_39: -3142461269456676940
+      tryndamere_attack_4: -4285164200080189443
+      tryndamere_attack_40: -1472381569338553415
+      tryndamere_attack_41: -3317495400698985539
+      tryndamere_attack_42: 5974108643699459724
+      tryndamere_attack_43: -4166106817601128007
+      tryndamere_attack_44: -5085182290819577235
+      tryndamere_attack_45: -6746685590195042793
+      tryndamere_attack_46: 3576362557089942544
+      tryndamere_attack_47: -5695957012360166920
+      tryndamere_attack_48: 4869328059727374
+      tryndamere_attack_49: -1269755488607338316
+      tryndamere_attack_5: 3006827899854628414
+      tryndamere_attack_50: 1061447694814824208
+      tryndamere_attack_51: -2462390605374918030
+      tryndamere_attack_52: -1373342148691719051
+      tryndamere_attack_53: 79388750815742252
+      tryndamere_attack_54: -3305179817222248694
+      tryndamere_attack_55: 7342472927935279787
+      tryndamere_attack_56: 6617125538439405659
+      tryndamere_attack_57: -3832217498088524673
+      tryndamere_attack_58: 9101225514557357036
+      tryndamere_attack_59: -7419745406812813445
+      tryndamere_attack_6: 7873769416352592425
+      tryndamere_attack_60: 730507409039679505
+      tryndamere_attack_61: -989509924430428068
+      tryndamere_attack_62: -5777077474108613199
+      tryndamere_attack_63: 70888165087088805
+      tryndamere_attack_64: -1141081071687345252
+      tryndamere_attack_65: 11728782176044691
+      tryndamere_attack_66: -8728769843123848014
+      tryndamere_attack_67: 7551441867116819262
+      tryndamere_attack_68: -6955297331115016712
+      tryndamere_attack_69: -573536684983886299
+      tryndamere_attack_7: 7532368135950133082
+      tryndamere_attack_70: -7032962108728332029
+      tryndamere_attack_71: -8490105823162249393
+      tryndamere_attack_72: 4839020982745521664
+      tryndamere_attack_73: -5442153366761228729
+      tryndamere_attack_74: -2368118408981869242
+      tryndamere_attack_75: 7966484801025294783
+      tryndamere_attack_76: 7370595280917191594
+      tryndamere_attack_77: 2496711031491179142
+      tryndamere_attack_78: -1592424157913380757
+      tryndamere_attack_79: -4780963781132708485
+      tryndamere_attack_8: 7092212205654824123
+      tryndamere_attack_80: 6782738395198555070
+      tryndamere_attack_81: -5103929227599805434
+      tryndamere_attack_82: -7746973638529366860
+      tryndamere_attack_83: -305235706108582096
+      tryndamere_attack_84: -9111701682536270099
+      tryndamere_attack_85: 7485480736810117232
+      tryndamere_attack_86: -6966254424714240468
+      tryndamere_attack_87: -6662655394584941957
+      tryndamere_attack_88: -5873812485273095284
+      tryndamere_attack_89: 2563339446565514721
+      tryndamere_attack_9: -1121382577692481908
+      tryndamere_attack_90: -40878425481456929
+      tryndamere_attack_91: 2397896419756206946
+      tryndamere_attack_92: -3959356844020507218
+      tryndamere_attack_93: -1341306324836700816
+      tryndamere_attack_94: 5636725371278439910
+      tryndamere_attack_95: 2361333750452985909
+      tryndamere_attack_96: -1731067908209010121
+      tryndamere_attack_97: -7621032538872670795
+      tryndamere_attack_98: -8166875424063287190
+      tryndamere_attack_99: 5548403969164674300
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,4145 @@
+fileFormatVersion: 2
+guid: a14542dc7b49e6e44ada34d41df30aa1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7828865215681382646
+    second: sun_disc_walk_0
+  - first:
+      213: 2273634463392248172
+    second: sun_disc_walk_1
+  - first:
+      213: -3632422003041613348
+    second: sun_disc_walk_2
+  - first:
+      213: -4725752554429830106
+    second: sun_disc_walk_3
+  - first:
+      213: 2536452559565891127
+    second: sun_disc_walk_4
+  - first:
+      213: -2356221827399470896
+    second: sun_disc_walk_5
+  - first:
+      213: -6087759469140983929
+    second: sun_disc_walk_6
+  - first:
+      213: 7434168018114090582
+    second: sun_disc_walk_7
+  - first:
+      213: 6875474145636658986
+    second: sun_disc_walk_8
+  - first:
+      213: -6262230121972502023
+    second: sun_disc_walk_9
+  - first:
+      213: -7529918326091385499
+    second: sun_disc_walk_10
+  - first:
+      213: 3339782083989078565
+    second: sun_disc_walk_11
+  - first:
+      213: -272288733852297726
+    second: sun_disc_walk_12
+  - first:
+      213: -7200920846167626361
+    second: sun_disc_walk_13
+  - first:
+      213: 7875206403858657817
+    second: sun_disc_walk_14
+  - first:
+      213: -4593144040817189039
+    second: sun_disc_walk_15
+  - first:
+      213: -4063175613936677651
+    second: sun_disc_walk_16
+  - first:
+      213: 5730160249081445940
+    second: sun_disc_walk_17
+  - first:
+      213: -2745851893708130378
+    second: sun_disc_walk_18
+  - first:
+      213: 7824527438605163790
+    second: sun_disc_walk_19
+  - first:
+      213: -3542574978758914255
+    second: sun_disc_walk_20
+  - first:
+      213: 8066240220689384559
+    second: sun_disc_walk_21
+  - first:
+      213: 7937768696166512676
+    second: sun_disc_walk_22
+  - first:
+      213: -1899875048500076598
+    second: sun_disc_walk_23
+  - first:
+      213: 4014678450723234151
+    second: sun_disc_walk_24
+  - first:
+      213: 5734559149064207833
+    second: sun_disc_walk_25
+  - first:
+      213: 2595373128212294976
+    second: sun_disc_walk_26
+  - first:
+      213: -3324262022594075766
+    second: sun_disc_walk_27
+  - first:
+      213: 1775862196209148589
+    second: sun_disc_walk_28
+  - first:
+      213: 6377296652178916420
+    second: sun_disc_walk_29
+  - first:
+      213: 8004288212743866109
+    second: sun_disc_walk_30
+  - first:
+      213: -7769952563253049567
+    second: sun_disc_walk_31
+  - first:
+      213: -6416841998218231165
+    second: sun_disc_walk_32
+  - first:
+      213: 4367916946064121815
+    second: sun_disc_walk_33
+  - first:
+      213: 1956979275832335554
+    second: sun_disc_walk_34
+  - first:
+      213: -5766690343614284215
+    second: sun_disc_walk_35
+  - first:
+      213: -570043401741076824
+    second: sun_disc_walk_36
+  - first:
+      213: 5761772127051888028
+    second: sun_disc_walk_37
+  - first:
+      213: -6062217508346073606
+    second: sun_disc_walk_38
+  - first:
+      213: -279362008215241867
+    second: sun_disc_walk_39
+  - first:
+      213: 7617563472567561214
+    second: sun_disc_walk_40
+  - first:
+      213: -7315816879344439342
+    second: sun_disc_walk_41
+  - first:
+      213: -7382032637609843641
+    second: sun_disc_walk_42
+  - first:
+      213: 994609874459797353
+    second: sun_disc_walk_43
+  - first:
+      213: 5013462015842929917
+    second: sun_disc_walk_44
+  - first:
+      213: -9080731439096958360
+    second: sun_disc_walk_45
+  - first:
+      213: 748507524113645444
+    second: sun_disc_walk_46
+  - first:
+      213: 126011176682336764
+    second: sun_disc_walk_47
+  - first:
+      213: 5722550918937135437
+    second: sun_disc_walk_48
+  - first:
+      213: 7433686448876511669
+    second: sun_disc_walk_49
+  - first:
+      213: 1280609489923912192
+    second: sun_disc_walk_50
+  - first:
+      213: -9126871566523030310
+    second: sun_disc_walk_51
+  - first:
+      213: -709758112511984938
+    second: sun_disc_walk_52
+  - first:
+      213: 1173252634223008542
+    second: sun_disc_walk_53
+  - first:
+      213: 7100167996637151634
+    second: sun_disc_walk_54
+  - first:
+      213: 8059802885853073956
+    second: sun_disc_walk_55
+  - first:
+      213: -5067780160402509232
+    second: sun_disc_walk_56
+  - first:
+      213: 7565587573663092359
+    second: sun_disc_walk_57
+  - first:
+      213: -5543733008138722999
+    second: sun_disc_walk_58
+  - first:
+      213: -4769476731596206509
+    second: sun_disc_walk_59
+  - first:
+      213: 8619157143809783210
+    second: sun_disc_walk_60
+  - first:
+      213: 4430749625276599687
+    second: sun_disc_walk_61
+  - first:
+      213: -1136447400061696525
+    second: sun_disc_walk_62
+  - first:
+      213: 2574322991341474378
+    second: sun_disc_walk_63
+  - first:
+      213: 2027616008865649578
+    second: sun_disc_walk_64
+  - first:
+      213: -3101792915286998815
+    second: sun_disc_walk_65
+  - first:
+      213: 5063718466316026413
+    second: sun_disc_walk_66
+  - first:
+      213: -3559979264765552380
+    second: sun_disc_walk_67
+  - first:
+      213: 7144925602755168049
+    second: sun_disc_walk_68
+  - first:
+      213: -1455930511814636007
+    second: sun_disc_walk_69
+  - first:
+      213: 625565913503366932
+    second: sun_disc_walk_70
+  - first:
+      213: -1407667752228693576
+    second: sun_disc_walk_71
+  - first:
+      213: -9058288954834973613
+    second: sun_disc_walk_72
+  - first:
+      213: 309990447431039461
+    second: sun_disc_walk_73
+  - first:
+      213: 6797995764529068513
+    second: sun_disc_walk_74
+  - first:
+      213: 329027694375346478
+    second: sun_disc_walk_75
+  - first:
+      213: 1099961118733620301
+    second: sun_disc_walk_76
+  - first:
+      213: 5184194920709239968
+    second: sun_disc_walk_77
+  - first:
+      213: 7915335032530556847
+    second: sun_disc_walk_78
+  - first:
+      213: -8870579075892018611
+    second: sun_disc_walk_79
+  - first:
+      213: 6138077107177585467
+    second: sun_disc_walk_80
+  - first:
+      213: 1646781272869173164
+    second: sun_disc_walk_81
+  - first:
+      213: 2582504542656728526
+    second: sun_disc_walk_82
+  - first:
+      213: -2451550325626722362
+    second: sun_disc_walk_83
+  - first:
+      213: -6533718681469883080
+    second: sun_disc_walk_84
+  - first:
+      213: -1441717896553424870
+    second: sun_disc_walk_85
+  - first:
+      213: -1824190065786309772
+    second: sun_disc_walk_86
+  - first:
+      213: -8825446999417223262
+    second: sun_disc_walk_87
+  - first:
+      213: 3432268650015045690
+    second: sun_disc_walk_88
+  - first:
+      213: -1569101294007603515
+    second: sun_disc_walk_89
+  - first:
+      213: -8660251208680833845
+    second: sun_disc_walk_90
+  - first:
+      213: 6843737486623207002
+    second: sun_disc_walk_91
+  - first:
+      213: -2435480396752085258
+    second: sun_disc_walk_92
+  - first:
+      213: -2184552522614055285
+    second: sun_disc_walk_93
+  - first:
+      213: -8604625743758990710
+    second: sun_disc_walk_94
+  - first:
+      213: -1564233025160907534
+    second: sun_disc_walk_95
+  - first:
+      213: 2777894666851978989
+    second: sun_disc_walk_96
+  - first:
+      213: 4459370199752129510
+    second: sun_disc_walk_97
+  - first:
+      213: -5092862241933019476
+    second: sun_disc_walk_98
+  - first:
+      213: 194117052083335288
+    second: sun_disc_walk_99
+  - first:
+      213: -1088640349765745226
+    second: sun_disc_walk_100
+  - first:
+      213: 4315545818354076896
+    second: sun_disc_walk_101
+  - first:
+      213: 3805231274780535126
+    second: sun_disc_walk_102
+  - first:
+      213: -2455473129315158990
+    second: sun_disc_walk_103
+  - first:
+      213: -7229659112743899863
+    second: sun_disc_walk_104
+  - first:
+      213: -5755970829311454068
+    second: sun_disc_walk_105
+  - first:
+      213: 3076665819525845913
+    second: sun_disc_walk_106
+  - first:
+      213: 5272233833580306165
+    second: sun_disc_walk_107
+  - first:
+      213: -8597763337335306240
+    second: sun_disc_walk_108
+  - first:
+      213: -3281650797412986260
+    second: sun_disc_walk_109
+  - first:
+      213: 4981948008153760065
+    second: sun_disc_walk_110
+  - first:
+      213: 6361595983566619390
+    second: sun_disc_walk_111
+  - first:
+      213: -7606690053118425774
+    second: sun_disc_walk_112
+  - first:
+      213: -8584153482584465386
+    second: sun_disc_walk_113
+  - first:
+      213: 1392582093361751528
+    second: sun_disc_walk_114
+  - first:
+      213: 3663119932928550518
+    second: sun_disc_walk_115
+  - first:
+      213: -8277724887538237579
+    second: sun_disc_walk_116
+  - first:
+      213: 4269454404894567439
+    second: sun_disc_walk_117
+  - first:
+      213: 1743915712620667479
+    second: sun_disc_walk_118
+  - first:
+      213: -3102617992273851787
+    second: sun_disc_walk_119
+  - first:
+      213: 7685266480295582316
+    second: sun_disc_walk_120
+  - first:
+      213: 366170745685514509
+    second: sun_disc_walk_121
+  - first:
+      213: -453928852001796879
+    second: sun_disc_walk_122
+  - first:
+      213: 3878539920993356494
+    second: sun_disc_walk_123
+  - first:
+      213: -6154782484889665387
+    second: sun_disc_walk_124
+  - first:
+      213: 2310277203116234593
+    second: sun_disc_walk_125
+  - first:
+      213: 3910263017734511910
+    second: sun_disc_walk_126
+  - first:
+      213: 5804820319077488816
+    second: sun_disc_walk_127
+  - first:
+      213: 1777705970824587376
+    second: sun_disc_walk_128
+  - first:
+      213: 6846294038232522588
+    second: sun_disc_walk_129
+  - first:
+      213: -1029819564859946838
+    second: sun_disc_walk_130
+  - first:
+      213: 8580872218006203237
+    second: sun_disc_walk_131
+  - first:
+      213: -8489148587329498035
+    second: sun_disc_walk_132
+  - first:
+      213: 8788709513413277976
+    second: sun_disc_walk_133
+  - first:
+      213: 5558415760322618933
+    second: sun_disc_walk_134
+  - first:
+      213: 2315087908446350339
+    second: sun_disc_walk_135
+  - first:
+      213: 8399919362109573584
+    second: sun_disc_walk_136
+  - first:
+      213: -4326471553326605734
+    second: sun_disc_walk_137
+  - first:
+      213: -1617488821783155537
+    second: sun_disc_walk_138
+  - first:
+      213: -2536260847481592331
+    second: sun_disc_walk_139
+  - first:
+      213: -869501405301474163
+    second: sun_disc_walk_140
+  - first:
+      213: 8922119906237943796
+    second: sun_disc_walk_141
+  - first:
+      213: -1818963902342081268
+    second: sun_disc_walk_142
+  - first:
+      213: -4644887105049721039
+    second: sun_disc_walk_143
+  - first:
+      213: 98647436555274061
+    second: sun_disc_walk_144
+  - first:
+      213: 5526660902701779440
+    second: sun_disc_walk_145
+  - first:
+      213: -8464768853168222182
+    second: sun_disc_walk_146
+  - first:
+      213: 135866856894886157
+    second: sun_disc_walk_147
+  - first:
+      213: -8768793841522062598
+    second: sun_disc_walk_148
+  - first:
+      213: 4765718886687595014
+    second: sun_disc_walk_149
+  - first:
+      213: -6909371405427868194
+    second: sun_disc_walk_150
+  - first:
+      213: -7712470561275546571
+    second: sun_disc_walk_151
+  - first:
+      213: 8511230775655427098
+    second: sun_disc_walk_152
+  - first:
+      213: -183310652628554391
+    second: sun_disc_walk_153
+  - first:
+      213: -1153818428739945711
+    second: sun_disc_walk_154
+  - first:
+      213: 3259455627877828079
+    second: sun_disc_walk_155
+  - first:
+      213: -4883421751967831095
+    second: sun_disc_walk_156
+  - first:
+      213: 4593411887884776880
+    second: sun_disc_walk_157
+  - first:
+      213: 8600964933295364860
+    second: sun_disc_walk_158
+  - first:
+      213: -925824302192757584
+    second: sun_disc_walk_159
+  - first:
+      213: 5597514987291282411
+    second: sun_disc_walk_160
+  - first:
+      213: -2007073361708540266
+    second: sun_disc_walk_161
+  - first:
+      213: 6245161865012233252
+    second: sun_disc_walk_162
+  - first:
+      213: 7115110510355304731
+    second: sun_disc_walk_163
+  - first:
+      213: 9002129613260991988
+    second: sun_disc_walk_164
+  - first:
+      213: -9209496174885833449
+    second: sun_disc_walk_165
+  - first:
+      213: 7709523584693899179
+    second: sun_disc_walk_166
+  - first:
+      213: 7923065695826279297
+    second: sun_disc_walk_167
+  - first:
+      213: -2093514600287406101
+    second: sun_disc_walk_168
+  - first:
+      213: 984477256729414299
+    second: sun_disc_walk_169
+  - first:
+      213: -1956194826716966792
+    second: sun_disc_walk_170
+  - first:
+      213: -3581851335022705263
+    second: sun_disc_walk_171
+  - first:
+      213: 2409775381313842025
+    second: sun_disc_walk_172
+  - first:
+      213: -7036795103448836869
+    second: sun_disc_walk_173
+  - first:
+      213: 9190435223154511850
+    second: sun_disc_walk_174
+  - first:
+      213: 3724343462299891308
+    second: sun_disc_walk_175
+  - first:
+      213: 8888280134804661077
+    second: sun_disc_walk_176
+  - first:
+      213: 2112672099756016560
+    second: sun_disc_walk_177
+  - first:
+      213: -6121843096842436415
+    second: sun_disc_walk_178
+  - first:
+      213: -9026807267871775123
+    second: sun_disc_walk_179
+  - first:
+      213: 6936926896117786591
+    second: sun_disc_walk_180
+  - first:
+      213: -7655124368819962400
+    second: sun_disc_walk_181
+  - first:
+      213: 7460759082379768552
+    second: sun_disc_walk_182
+  - first:
+      213: -4106358648155479309
+    second: sun_disc_walk_183
+  - first:
+      213: -5965144089867340034
+    second: sun_disc_walk_184
+  - first:
+      213: -1166493099434835543
+    second: sun_disc_walk_185
+  - first:
+      213: 4623018015786904893
+    second: sun_disc_walk_186
+  - first:
+      213: 2797437846064823019
+    second: sun_disc_walk_187
+  - first:
+      213: -9193490562342324128
+    second: sun_disc_walk_188
+  - first:
+      213: 4966426039216805706
+    second: sun_disc_walk_189
+  - first:
+      213: -4566910255910879119
+    second: sun_disc_walk_190
+  - first:
+      213: 5027495031943918282
+    second: sun_disc_walk_191
+  - first:
+      213: 5128169269834046019
+    second: sun_disc_walk_192
+  - first:
+      213: 7345914857139587394
+    second: sun_disc_walk_193
+  - first:
+      213: -2265299627273047746
+    second: sun_disc_walk_194
+  - first:
+      213: -8701635483270268763
+    second: sun_disc_walk_195
+  - first:
+      213: 4199610398539931550
+    second: sun_disc_walk_196
+  - first:
+      213: 4377166732072103590
+    second: sun_disc_walk_197
+  - first:
+      213: 1653612483542227933
+    second: sun_disc_walk_198
+  - first:
+      213: 7604981510583228383
+    second: sun_disc_walk_199
+  - first:
+      213: 3761587654467869083
+    second: sun_disc_walk_200
+  - first:
+      213: 339604122043002325
+    second: sun_disc_walk_201
+  - first:
+      213: 7845376683016771287
+    second: sun_disc_walk_202
+  - first:
+      213: 7912375050976224636
+    second: sun_disc_walk_203
+  - first:
+      213: 3681250363115865194
+    second: sun_disc_walk_204
+  - first:
+      213: 911621031259190814
+    second: sun_disc_walk_205
+  - first:
+      213: -4877199068244875669
+    second: sun_disc_walk_206
+  - first:
+      213: -6112855138864915353
+    second: sun_disc_walk_207
+  - first:
+      213: -3564327213882065781
+    second: sun_disc_walk_208
+  - first:
+      213: -4890039240019666601
+    second: sun_disc_walk_209
+  - first:
+      213: -887959547292972173
+    second: sun_disc_walk_210
+  - first:
+      213: -8705453040559642564
+    second: sun_disc_walk_211
+  - first:
+      213: 6598320903892810371
+    second: sun_disc_walk_212
+  - first:
+      213: 4164772047873522468
+    second: sun_disc_walk_213
+  - first:
+      213: -5890145707637163226
+    second: sun_disc_walk_214
+  - first:
+      213: 3036473970023582129
+    second: sun_disc_walk_215
+  - first:
+      213: 8214864955706710133
+    second: sun_disc_walk_216
+  - first:
+      213: -1736291232600689302
+    second: sun_disc_walk_217
+  - first:
+      213: -8531119907575926555
+    second: sun_disc_walk_218
+  - first:
+      213: -7748466972306670349
+    second: sun_disc_walk_219
+  - first:
+      213: 181059658839504833
+    second: sun_disc_walk_220
+  - first:
+      213: 804189446018886916
+    second: sun_disc_walk_221
+  - first:
+      213: -259870227015338364
+    second: sun_disc_walk_222
+  - first:
+      213: -1309041818026283164
+    second: sun_disc_walk_223
+  - first:
+      213: -2211563844577070651
+    second: sun_disc_walk_224
+  - first:
+      213: 1245754217186775416
+    second: sun_disc_walk_225
+  - first:
+      213: -8939639602554079444
+    second: sun_disc_walk_226
+  - first:
+      213: 6422216287830173842
+    second: sun_disc_walk_227
+  - first:
+      213: -97029326143189031
+    second: sun_disc_walk_228
+  - first:
+      213: -2749572889830367794
+    second: sun_disc_walk_229
+  - first:
+      213: -1430447293900158614
+    second: sun_disc_walk_230
+  - first:
+      213: 6134209852007850930
+    second: sun_disc_walk_231
+  - first:
+      213: 8951914788486892310
+    second: sun_disc_walk_232
+  - first:
+      213: 2314308903575614857
+    second: sun_disc_walk_233
+  - first:
+      213: -4198863633272007487
+    second: sun_disc_walk_234
+  - first:
+      213: -8459262975034595483
+    second: sun_disc_walk_235
+  - first:
+      213: -8281789989400134749
+    second: sun_disc_walk_236
+  - first:
+      213: -3261452848710411799
+    second: sun_disc_walk_237
+  - first:
+      213: -4451387654961062829
+    second: sun_disc_walk_238
+  - first:
+      213: 3653900588743842349
+    second: sun_disc_walk_239
+  - first:
+      213: 9110583959168354469
+    second: sun_disc_walk_000
+  - first:
+      213: -8900515275539599291
+    second: sun_disc_walk_001
+  - first:
+      213: 940050571714704837
+    second: sun_disc_walk_002
+  - first:
+      213: -6989423442004152044
+    second: sun_disc_walk_003
+  - first:
+      213: 6152409601565850517
+    second: sun_disc_walk_004
+  - first:
+      213: 6122073121925286156
+    second: sun_disc_walk_005
+  - first:
+      213: 766595755461269948
+    second: sun_disc_walk_006
+  - first:
+      213: -4862921293974599757
+    second: sun_disc_walk_007
+  - first:
+      213: 1215311942386859839
+    second: sun_disc_walk_008
+  - first:
+      213: -1324036896294919374
+    second: sun_disc_walk_009
+  - first:
+      213: -752674527915175479
+    second: sun_disc_walk_010
+  - first:
+      213: -3718282629926589669
+    second: sun_disc_walk_011
+  - first:
+      213: 1514293058446005580
+    second: sun_disc_walk_012
+  - first:
+      213: -5974100565854735480
+    second: sun_disc_walk_013
+  - first:
+      213: -6129055843950096094
+    second: sun_disc_walk_014
+  - first:
+      213: 1136635786691141012
+    second: sun_disc_walk_015
+  - first:
+      213: 1251258012832314288
+    second: sun_disc_walk_016
+  - first:
+      213: -5236594915827882989
+    second: sun_disc_walk_017
+  - first:
+      213: 651451457707692670
+    second: sun_disc_walk_018
+  - first:
+      213: 5732830931316673635
+    second: sun_disc_walk_019
+  - first:
+      213: -2769486848289301500
+    second: sun_disc_walk_020
+  - first:
+      213: 3106501993374664357
+    second: sun_disc_walk_021
+  - first:
+      213: 6269477535523172445
+    second: sun_disc_walk_022
+  - first:
+      213: 4356117057086022964
+    second: sun_disc_walk_023
+  - first:
+      213: -4000917507115021957
+    second: sun_disc_walk_024
+  - first:
+      213: -3191037475811737363
+    second: sun_disc_walk_025
+  - first:
+      213: 5146265557873610672
+    second: sun_disc_walk_026
+  - first:
+      213: 7263131715041008429
+    second: sun_disc_walk_027
+  - first:
+      213: 153579069217814107
+    second: sun_disc_walk_028
+  - first:
+      213: 7620107095406101384
+    second: sun_disc_walk_029
+  - first:
+      213: 4584618575181873084
+    second: sun_disc_walk_030
+  - first:
+      213: 8190758816595006662
+    second: sun_disc_walk_031
+  - first:
+      213: -6011466603193291497
+    second: sun_disc_walk_032
+  - first:
+      213: -3560099836168229766
+    second: sun_disc_walk_033
+  - first:
+      213: 7868976149722898499
+    second: sun_disc_walk_034
+  - first:
+      213: 8024402512604557483
+    second: sun_disc_walk_035
+  - first:
+      213: -8450722223082488427
+    second: sun_disc_walk_036
+  - first:
+      213: 2927153411985208909
+    second: sun_disc_walk_037
+  - first:
+      213: -4859912682462075948
+    second: sun_disc_walk_038
+  - first:
+      213: -962979950341290155
+    second: sun_disc_walk_039
+  - first:
+      213: -3610364671242075935
+    second: sun_disc_walk_040
+  - first:
+      213: 2220526671772995757
+    second: sun_disc_walk_041
+  - first:
+      213: -2802108518944485008
+    second: sun_disc_walk_042
+  - first:
+      213: 5849885126536984133
+    second: sun_disc_walk_043
+  - first:
+      213: -1093319834387474865
+    second: sun_disc_walk_044
+  - first:
+      213: 6751216141662298684
+    second: sun_disc_walk_045
+  - first:
+      213: -2412877290973420809
+    second: sun_disc_walk_046
+  - first:
+      213: -4199948241898203621
+    second: sun_disc_walk_047
+  - first:
+      213: 3228981583533756196
+    second: sun_disc_walk_048
+  - first:
+      213: 2437331419562458976
+    second: sun_disc_walk_049
+  - first:
+      213: -5735861011540636069
+    second: sun_disc_walk_050
+  - first:
+      213: 2079437288838131606
+    second: sun_disc_walk_051
+  - first:
+      213: 7493317340524903816
+    second: sun_disc_walk_052
+  - first:
+      213: -3149349132800421098
+    second: sun_disc_walk_053
+  - first:
+      213: 6001466174555910099
+    second: sun_disc_walk_054
+  - first:
+      213: -4251309096160234057
+    second: sun_disc_walk_055
+  - first:
+      213: -1015871511286535619
+    second: sun_disc_walk_056
+  - first:
+      213: -2895054927108975344
+    second: sun_disc_walk_057
+  - first:
+      213: 4544994580989990195
+    second: sun_disc_walk_058
+  - first:
+      213: 1317907931296719918
+    second: sun_disc_walk_059
+  - first:
+      213: 267218816255034977
+    second: sun_disc_walk_060
+  - first:
+      213: 613622927520356956
+    second: sun_disc_walk_061
+  - first:
+      213: -6803297434634497397
+    second: sun_disc_walk_062
+  - first:
+      213: -6777977012664426278
+    second: sun_disc_walk_063
+  - first:
+      213: 5317379792171182200
+    second: sun_disc_walk_064
+  - first:
+      213: 4102011604907975824
+    second: sun_disc_walk_065
+  - first:
+      213: 7687477243111709929
+    second: sun_disc_walk_066
+  - first:
+      213: 187658604495072261
+    second: sun_disc_walk_067
+  - first:
+      213: 4413568610431800151
+    second: sun_disc_walk_068
+  - first:
+      213: 2349337618088144548
+    second: sun_disc_walk_069
+  - first:
+      213: 3979584406439322213
+    second: sun_disc_walk_070
+  - first:
+      213: 2322890447969410022
+    second: sun_disc_walk_071
+  - first:
+      213: -1036553194714184341
+    second: sun_disc_walk_072
+  - first:
+      213: -4626647671161253516
+    second: sun_disc_walk_073
+  - first:
+      213: 5248159834483910993
+    second: sun_disc_walk_074
+  - first:
+      213: 6975075688807919013
+    second: sun_disc_walk_075
+  - first:
+      213: 1775921752887909093
+    second: sun_disc_walk_076
+  - first:
+      213: -674112374186009934
+    second: sun_disc_walk_077
+  - first:
+      213: 672720408084184545
+    second: sun_disc_walk_078
+  - first:
+      213: -3240029830856928584
+    second: sun_disc_walk_079
+  - first:
+      213: -8757735940065641626
+    second: sun_disc_walk_080
+  - first:
+      213: 2911131780223851713
+    second: sun_disc_walk_081
+  - first:
+      213: -7975730204623031173
+    second: sun_disc_walk_082
+  - first:
+      213: -2569683045422823859
+    second: sun_disc_walk_083
+  - first:
+      213: -7891911210068295007
+    second: sun_disc_walk_084
+  - first:
+      213: 9051682111867299381
+    second: sun_disc_walk_085
+  - first:
+      213: 8648329352144710454
+    second: sun_disc_walk_086
+  - first:
+      213: 4312692710602353386
+    second: sun_disc_walk_087
+  - first:
+      213: -130664259011122647
+    second: sun_disc_walk_088
+  - first:
+      213: -4402199249098062565
+    second: sun_disc_walk_089
+  - first:
+      213: 8947770149552211291
+    second: sun_disc_walk_090
+  - first:
+      213: -941279634340358394
+    second: sun_disc_walk_091
+  - first:
+      213: -6178742680847617382
+    second: sun_disc_walk_092
+  - first:
+      213: 3448007284707498287
+    second: sun_disc_walk_093
+  - first:
+      213: 6266333236029456309
+    second: sun_disc_walk_094
+  - first:
+      213: -1268549846788917236
+    second: sun_disc_walk_095
+  - first:
+      213: -843333796838631006
+    second: sun_disc_walk_096
+  - first:
+      213: -2803136593795978264
+    second: sun_disc_walk_097
+  - first:
+      213: 1914166750962622038
+    second: sun_disc_walk_098
+  - first:
+      213: -4307918752895622551
+    second: sun_disc_walk_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sun_disc_walk_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a80a9647db4f6e70800000000000000
+      internalID: 9110583959168354469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540368b83840b7480800000000000000
+      internalID: -8900515275539599291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c535fda30bbb0d00800000000000000
+      internalID: 940050571714704837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411fd8a3964900f90800000000000000
+      internalID: -6989423442004152044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59bf80e8fefb16550800000000000000
+      internalID: 6152409601565850517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09c2597119f5f450800000000000000
+      internalID: 6122073121925286156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9579a27ce73aa00800000000000000
+      internalID: 766595755461269948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b706f519de638cb0800000000000000
+      internalID: -4862921293974599757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f3249c5c7add010800000000000000
+      internalID: 1215311942386859839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233a4d6357310ade0800000000000000
+      internalID: -1324036896294919374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c191243186fd85f0800000000000000
+      internalID: -752674527915175479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b68bcf5a1066cc0800000000000000
+      internalID: -3718282629926589669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45938a7389d30510800000000000000
+      internalID: 1514293058446005580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883b4cfff2bb71da0800000000000000
+      internalID: -5974100565854735480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22192dcde2831faa0800000000000000
+      internalID: -6129055843950096094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49dd8b0d93426cf00800000000000000
+      internalID: 1136635786691141012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b33b31888c5d5110800000000000000
+      internalID: 1251258012832314288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31466713ba0e357b0800000000000000
+      internalID: -5236594915827882989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72d31536ab6a0900800000000000000
+      internalID: 651451457707692670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c8082bb5b1f8f40800000000000000
+      internalID: 5732830931316673635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c9995826ec099d0800000000000000
+      internalID: -2769486848289301500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6c321aa138c1b20800000000000000
+      internalID: 3106501993374664357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d507628f998a10750800000000000000
+      internalID: 6269477535523172445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435e1ab3269047c30800000000000000
+      internalID: 4356117057086022964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7984cc99b2e978c0800000000000000
+      internalID: -4000917507115021957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de04845925827b3d0800000000000000
+      internalID: -3191037475811737363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf42e042453b6740800000000000000
+      internalID: 5146265557873610672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b94e720d3dbc460800000000000000
+      internalID: 7263131715041008429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56b9a9895f912200800000000000000
+      internalID: 153579069217814107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8834d1cb70f00c960800000000000000
+      internalID: 7620107095406101384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf7f54cd46df9f30800000000000000
+      internalID: 4584618575181873084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c45b084fbb6ba170800000000000000
+      internalID: 8190758816595006662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d2a8979faf29ca0800000000000000
+      internalID: -6011466603193291497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c244caf0cf79ec0800000000000000
+      internalID: -3560099836168229766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3402146dd18343d60800000000000000
+      internalID: 7868976149722898499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0fb82f1976c5f60800000000000000
+      internalID: 8024402512604557483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d3ba579e009ba80800000000000000
+      internalID: -8450722223082488427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46737cf4865f9820800000000000000
+      internalID: 2927153411985208909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3ae6a0a2f1e8cb0800000000000000
+      internalID: -4859912682462075948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 557851656dec2a2f0800000000000000
+      internalID: -962979950341290155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e00ff4c57865edc0800000000000000
+      internalID: -3610364671242075935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da05f4d3e35e0de10800000000000000
+      internalID: 2220526671772995757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 071d732f529ec19d0800000000000000
+      internalID: -2802108518944485008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546f3105787fe2150800000000000000
+      internalID: 5849885126536984133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f46127d376fb3d0f0800000000000000
+      internalID: -1093319834387474865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c322aa5bf4321bd50800000000000000
+      internalID: 6751216141662298684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f22ce843ecb38ed0800000000000000
+      internalID: -2412877290973420809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1691a68359c6b5c0800000000000000
+      internalID: -4199948241898203621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fcec074a5afcc20800000000000000
+      internalID: 3228981583533756196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f3be6330423d120800000000000000
+      internalID: 2437331419562458976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e8b16ccc02660b0800000000000000
+      internalID: -5735861011540636069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69fe5e56235abdc10800000000000000
+      internalID: 2079437288838131606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88df24f7b6c9df760800000000000000
+      internalID: 7493317340524903816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6131fb156a34b44d0800000000000000
+      internalID: -3149349132800421098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df6de940bd794350800000000000000
+      internalID: 6001466174555910099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b57bf4c6e05005c0800000000000000
+      internalID: -4251309096160234057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3aa3582e36e6e1f0800000000000000
+      internalID: -1015871511286535619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015dc68e1e2b2d7d0800000000000000
+      internalID: -2895054927108975344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335dbf1bd70131f30800000000000000
+      internalID: 4544994580989990195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e246c9be7462a4210800000000000000
+      internalID: 1317907931296719918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1668e2cf81a55b300800000000000000
+      internalID: 267218816255034977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ad2ec2dc6048800800000000000000
+      internalID: 613622927520356956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82d8435705d591a0800000000000000
+      internalID: -6803297434634497397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad0af5871d9cfe1a0800000000000000
+      internalID: -6777977012664426278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87824309fb02bc940800000000000000
+      internalID: 5317379792171182200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094e11f32d54de830800000000000000
+      internalID: 4102011604907975824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec929692d76faa60800000000000000
+      internalID: 7687477243111709929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c69fba182ba9200800000000000000
+      internalID: 187658604495072261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7531a906445204d30800000000000000
+      internalID: 4413568610431800151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae2b97cd168a9020800000000000000
+      internalID: 2349337618088144548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562ef73dee25a3730800000000000000
+      internalID: 3979584406439322213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb5d532e809c3020800000000000000
+      internalID: 2322890447969410022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65c34e7c5c6d91f0800000000000000
+      internalID: -1036553194714184341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4719b83c478dacfb0800000000000000
+      internalID: -4626647671161253516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159e2e2409535d840800000000000000
+      internalID: 5248159834483910993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adebd822627cc060800000000000000
+      internalID: 6975075688807919013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ead5cdcc6755a810800000000000000
+      internalID: 1775921752887909093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba92f50e5215a6f0800000000000000
+      internalID: -674112374186009934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed730d95abf55900800000000000000
+      internalID: 672720408084184545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b29a16090a1903d0800000000000000
+      internalID: -3240029830856928584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b37bf1095467680800000000000000
+      internalID: -8757735940065641626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ccd7962eea666820800000000000000
+      internalID: 2911131780223851713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b743719d2a3805190800000000000000
+      internalID: -7975730204623031173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d468a3c82e6a65cd0800000000000000
+      internalID: -2569683045422823859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a2c4fc419c4a7290800000000000000
+      internalID: -7891911210068295007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 536ab914ce80e9d70800000000000000
+      internalID: 9051682111867299381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b6b2799b9050870800000000000000
+      internalID: 8648329352144710454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaaed0bb23c9db30800000000000000
+      internalID: 4312692710602353386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92a6dc87c89cf2ef0800000000000000
+      internalID: -130664259011122647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15c4075b1f38e2c0800000000000000
+      internalID: -4402199249098062565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5547ef2b8ddc2c70800000000000000
+      internalID: 8947770149552211291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60755d0e827efe2f0800000000000000
+      internalID: -941279634340358394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a927885a442b04aa0800000000000000
+      internalID: -6178742680847617382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2913fb6b58c9df20800000000000000
+      internalID: 3448007284707498287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf72c1b0ec76f650800000000000000
+      internalID: 6266333236029456309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08354aa2a4356ee0800000000000000
+      internalID: -1268549846788917236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a91a544160eb44f0800000000000000
+      internalID: -843333796838631006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb64ed9e124919d0800000000000000
+      internalID: -2803136593795978264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e9dffa48c709a10800000000000000
+      internalID: 1914166750962622038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962a964f7b23734c0800000000000000
+      internalID: -4307918752895622551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b54e08ae5f54e0f0800000000000000
+      internalID: -1088640349765745226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eccaea9e06e3eb30800000000000000
+      internalID: 4315545818354076896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6592085fea5eec430800000000000000
+      internalID: 3805231274780535126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23437a3d2386cedd0800000000000000
+      internalID: -2455473129315158990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92debb167571bab90800000000000000
+      internalID: -7229659112743899863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c845165f60fae10b0800000000000000
+      internalID: -5755970829311454068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9939c61134382ba20800000000000000
+      internalID: 3076665819525845913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fe9957fcbcba2940800000000000000
+      internalID: 5272233833580306165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008804f2ccb9ea880800000000000000
+      internalID: -8597763337335306240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6252579cfb3572d0800000000000000
+      internalID: -3281650797412986260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1414873615f632540800000000000000
+      internalID: 4981948008153760065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef24a0587dde84850800000000000000
+      internalID: 6361595983566619390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255016bd2bb9f6690800000000000000
+      internalID: -7606690053118425774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610ee1d63e5fed880800000000000000
+      internalID: -8584153482584465386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5a5632902735310800000000000000
+      internalID: 1392582093361751528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676ebd3cb2406d230800000000000000
+      internalID: 3663119932928550518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57f7fd1721d9f1d80800000000000000
+      internalID: -8277724887538237579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ca7742926204b30800000000000000
+      internalID: 4269454404894567439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7522af8d912a33810800000000000000
+      internalID: 1743915712620667479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_walk_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a08c8df5941f4d0800000000000000
+      internalID: -3102617992273851787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sun_disc_walk_0: -7828865215681382646
+      sun_disc_walk_000: 9110583959168354469
+      sun_disc_walk_001: -8900515275539599291
+      sun_disc_walk_002: 940050571714704837
+      sun_disc_walk_003: -6989423442004152044
+      sun_disc_walk_004: 6152409601565850517
+      sun_disc_walk_005: 6122073121925286156
+      sun_disc_walk_006: 766595755461269948
+      sun_disc_walk_007: -4862921293974599757
+      sun_disc_walk_008: 1215311942386859839
+      sun_disc_walk_009: -1324036896294919374
+      sun_disc_walk_010: -752674527915175479
+      sun_disc_walk_011: -3718282629926589669
+      sun_disc_walk_012: 1514293058446005580
+      sun_disc_walk_013: -5974100565854735480
+      sun_disc_walk_014: -6129055843950096094
+      sun_disc_walk_015: 1136635786691141012
+      sun_disc_walk_016: 1251258012832314288
+      sun_disc_walk_017: -5236594915827882989
+      sun_disc_walk_018: 651451457707692670
+      sun_disc_walk_019: 5732830931316673635
+      sun_disc_walk_020: -2769486848289301500
+      sun_disc_walk_021: 3106501993374664357
+      sun_disc_walk_022: 6269477535523172445
+      sun_disc_walk_023: 4356117057086022964
+      sun_disc_walk_024: -4000917507115021957
+      sun_disc_walk_025: -3191037475811737363
+      sun_disc_walk_026: 5146265557873610672
+      sun_disc_walk_027: 7263131715041008429
+      sun_disc_walk_028: 153579069217814107
+      sun_disc_walk_029: 7620107095406101384
+      sun_disc_walk_030: 4584618575181873084
+      sun_disc_walk_031: 8190758816595006662
+      sun_disc_walk_032: -6011466603193291497
+      sun_disc_walk_033: -3560099836168229766
+      sun_disc_walk_034: 7868976149722898499
+      sun_disc_walk_035: 8024402512604557483
+      sun_disc_walk_036: -8450722223082488427
+      sun_disc_walk_037: 2927153411985208909
+      sun_disc_walk_038: -4859912682462075948
+      sun_disc_walk_039: -962979950341290155
+      sun_disc_walk_040: -3610364671242075935
+      sun_disc_walk_041: 2220526671772995757
+      sun_disc_walk_042: -2802108518944485008
+      sun_disc_walk_043: 5849885126536984133
+      sun_disc_walk_044: -1093319834387474865
+      sun_disc_walk_045: 6751216141662298684
+      sun_disc_walk_046: -2412877290973420809
+      sun_disc_walk_047: -4199948241898203621
+      sun_disc_walk_048: 3228981583533756196
+      sun_disc_walk_049: 2437331419562458976
+      sun_disc_walk_050: -5735861011540636069
+      sun_disc_walk_051: 2079437288838131606
+      sun_disc_walk_052: 7493317340524903816
+      sun_disc_walk_053: -3149349132800421098
+      sun_disc_walk_054: 6001466174555910099
+      sun_disc_walk_055: -4251309096160234057
+      sun_disc_walk_056: -1015871511286535619
+      sun_disc_walk_057: -2895054927108975344
+      sun_disc_walk_058: 4544994580989990195
+      sun_disc_walk_059: 1317907931296719918
+      sun_disc_walk_060: 267218816255034977
+      sun_disc_walk_061: 613622927520356956
+      sun_disc_walk_062: -6803297434634497397
+      sun_disc_walk_063: -6777977012664426278
+      sun_disc_walk_064: 5317379792171182200
+      sun_disc_walk_065: 4102011604907975824
+      sun_disc_walk_066: 7687477243111709929
+      sun_disc_walk_067: 187658604495072261
+      sun_disc_walk_068: 4413568610431800151
+      sun_disc_walk_069: 2349337618088144548
+      sun_disc_walk_070: 3979584406439322213
+      sun_disc_walk_071: 2322890447969410022
+      sun_disc_walk_072: -1036553194714184341
+      sun_disc_walk_073: -4626647671161253516
+      sun_disc_walk_074: 5248159834483910993
+      sun_disc_walk_075: 6975075688807919013
+      sun_disc_walk_076: 1775921752887909093
+      sun_disc_walk_077: -674112374186009934
+      sun_disc_walk_078: 672720408084184545
+      sun_disc_walk_079: -3240029830856928584
+      sun_disc_walk_080: -8757735940065641626
+      sun_disc_walk_081: 2911131780223851713
+      sun_disc_walk_082: -7975730204623031173
+      sun_disc_walk_083: -2569683045422823859
+      sun_disc_walk_084: -7891911210068295007
+      sun_disc_walk_085: 9051682111867299381
+      sun_disc_walk_086: 8648329352144710454
+      sun_disc_walk_087: 4312692710602353386
+      sun_disc_walk_088: -130664259011122647
+      sun_disc_walk_089: -4402199249098062565
+      sun_disc_walk_090: 8947770149552211291
+      sun_disc_walk_091: -941279634340358394
+      sun_disc_walk_092: -6178742680847617382
+      sun_disc_walk_093: 3448007284707498287
+      sun_disc_walk_094: 6266333236029456309
+      sun_disc_walk_095: -1268549846788917236
+      sun_disc_walk_096: -843333796838631006
+      sun_disc_walk_097: -2803136593795978264
+      sun_disc_walk_098: 1914166750962622038
+      sun_disc_walk_099: -4307918752895622551
+      sun_disc_walk_1: 2273634463392248172
+      sun_disc_walk_10: -7529918326091385499
+      sun_disc_walk_100: -1088640349765745226
+      sun_disc_walk_101: 4315545818354076896
+      sun_disc_walk_102: 3805231274780535126
+      sun_disc_walk_103: -2455473129315158990
+      sun_disc_walk_104: -7229659112743899863
+      sun_disc_walk_105: -5755970829311454068
+      sun_disc_walk_106: 3076665819525845913
+      sun_disc_walk_107: 5272233833580306165
+      sun_disc_walk_108: -8597763337335306240
+      sun_disc_walk_109: -3281650797412986260
+      sun_disc_walk_11: 3339782083989078565
+      sun_disc_walk_110: 4981948008153760065
+      sun_disc_walk_111: 6361595983566619390
+      sun_disc_walk_112: -7606690053118425774
+      sun_disc_walk_113: -8584153482584465386
+      sun_disc_walk_114: 1392582093361751528
+      sun_disc_walk_115: 3663119932928550518
+      sun_disc_walk_116: -8277724887538237579
+      sun_disc_walk_117: 4269454404894567439
+      sun_disc_walk_118: 1743915712620667479
+      sun_disc_walk_119: -3102617992273851787
+      sun_disc_walk_12: -272288733852297726
+      sun_disc_walk_120: 7685266480295582316
+      sun_disc_walk_121: 366170745685514509
+      sun_disc_walk_122: -453928852001796879
+      sun_disc_walk_123: 3878539920993356494
+      sun_disc_walk_124: -6154782484889665387
+      sun_disc_walk_125: 2310277203116234593
+      sun_disc_walk_126: 3910263017734511910
+      sun_disc_walk_127: 5804820319077488816
+      sun_disc_walk_128: 1777705970824587376
+      sun_disc_walk_129: 6846294038232522588
+      sun_disc_walk_13: -7200920846167626361
+      sun_disc_walk_130: -1029819564859946838
+      sun_disc_walk_131: 8580872218006203237
+      sun_disc_walk_132: -8489148587329498035
+      sun_disc_walk_133: 8788709513413277976
+      sun_disc_walk_134: 5558415760322618933
+      sun_disc_walk_135: 2315087908446350339
+      sun_disc_walk_136: 8399919362109573584
+      sun_disc_walk_137: -4326471553326605734
+      sun_disc_walk_138: -1617488821783155537
+      sun_disc_walk_139: -2536260847481592331
+      sun_disc_walk_14: 7875206403858657817
+      sun_disc_walk_140: -869501405301474163
+      sun_disc_walk_141: 8922119906237943796
+      sun_disc_walk_142: -1818963902342081268
+      sun_disc_walk_143: -4644887105049721039
+      sun_disc_walk_144: 98647436555274061
+      sun_disc_walk_145: 5526660902701779440
+      sun_disc_walk_146: -8464768853168222182
+      sun_disc_walk_147: 135866856894886157
+      sun_disc_walk_148: -8768793841522062598
+      sun_disc_walk_149: 4765718886687595014
+      sun_disc_walk_15: -4593144040817189039
+      sun_disc_walk_150: -6909371405427868194
+      sun_disc_walk_151: -7712470561275546571
+      sun_disc_walk_152: 8511230775655427098
+      sun_disc_walk_153: -183310652628554391
+      sun_disc_walk_154: -1153818428739945711
+      sun_disc_walk_155: 3259455627877828079
+      sun_disc_walk_156: -4883421751967831095
+      sun_disc_walk_157: 4593411887884776880
+      sun_disc_walk_158: 8600964933295364860
+      sun_disc_walk_159: -925824302192757584
+      sun_disc_walk_16: -4063175613936677651
+      sun_disc_walk_160: 5597514987291282411
+      sun_disc_walk_161: -2007073361708540266
+      sun_disc_walk_162: 6245161865012233252
+      sun_disc_walk_163: 7115110510355304731
+      sun_disc_walk_164: 9002129613260991988
+      sun_disc_walk_165: -9209496174885833449
+      sun_disc_walk_166: 7709523584693899179
+      sun_disc_walk_167: 7923065695826279297
+      sun_disc_walk_168: -2093514600287406101
+      sun_disc_walk_169: 984477256729414299
+      sun_disc_walk_17: 5730160249081445940
+      sun_disc_walk_170: -1956194826716966792
+      sun_disc_walk_171: -3581851335022705263
+      sun_disc_walk_172: 2409775381313842025
+      sun_disc_walk_173: -7036795103448836869
+      sun_disc_walk_174: 9190435223154511850
+      sun_disc_walk_175: 3724343462299891308
+      sun_disc_walk_176: 8888280134804661077
+      sun_disc_walk_177: 2112672099756016560
+      sun_disc_walk_178: -6121843096842436415
+      sun_disc_walk_179: -9026807267871775123
+      sun_disc_walk_18: -2745851893708130378
+      sun_disc_walk_180: 6936926896117786591
+      sun_disc_walk_181: -7655124368819962400
+      sun_disc_walk_182: 7460759082379768552
+      sun_disc_walk_183: -4106358648155479309
+      sun_disc_walk_184: -5965144089867340034
+      sun_disc_walk_185: -1166493099434835543
+      sun_disc_walk_186: 4623018015786904893
+      sun_disc_walk_187: 2797437846064823019
+      sun_disc_walk_188: -9193490562342324128
+      sun_disc_walk_189: 4966426039216805706
+      sun_disc_walk_19: 7824527438605163790
+      sun_disc_walk_190: -4566910255910879119
+      sun_disc_walk_191: 5027495031943918282
+      sun_disc_walk_192: 5128169269834046019
+      sun_disc_walk_193: 7345914857139587394
+      sun_disc_walk_194: -2265299627273047746
+      sun_disc_walk_195: -8701635483270268763
+      sun_disc_walk_196: 4199610398539931550
+      sun_disc_walk_197: 4377166732072103590
+      sun_disc_walk_198: 1653612483542227933
+      sun_disc_walk_199: 7604981510583228383
+      sun_disc_walk_2: -3632422003041613348
+      sun_disc_walk_20: -3542574978758914255
+      sun_disc_walk_200: 3761587654467869083
+      sun_disc_walk_201: 339604122043002325
+      sun_disc_walk_202: 7845376683016771287
+      sun_disc_walk_203: 7912375050976224636
+      sun_disc_walk_204: 3681250363115865194
+      sun_disc_walk_205: 911621031259190814
+      sun_disc_walk_206: -4877199068244875669
+      sun_disc_walk_207: -6112855138864915353
+      sun_disc_walk_208: -3564327213882065781
+      sun_disc_walk_209: -4890039240019666601
+      sun_disc_walk_21: 8066240220689384559
+      sun_disc_walk_210: -887959547292972173
+      sun_disc_walk_211: -8705453040559642564
+      sun_disc_walk_212: 6598320903892810371
+      sun_disc_walk_213: 4164772047873522468
+      sun_disc_walk_214: -5890145707637163226
+      sun_disc_walk_215: 3036473970023582129
+      sun_disc_walk_216: 8214864955706710133
+      sun_disc_walk_217: -1736291232600689302
+      sun_disc_walk_218: -8531119907575926555
+      sun_disc_walk_219: -7748466972306670349
+      sun_disc_walk_22: 7937768696166512676
+      sun_disc_walk_220: 181059658839504833
+      sun_disc_walk_221: 804189446018886916
+      sun_disc_walk_222: -259870227015338364
+      sun_disc_walk_223: -1309041818026283164
+      sun_disc_walk_224: -2211563844577070651
+      sun_disc_walk_225: 1245754217186775416
+      sun_disc_walk_226: -8939639602554079444
+      sun_disc_walk_227: 6422216287830173842
+      sun_disc_walk_228: -97029326143189031
+      sun_disc_walk_229: -2749572889830367794
+      sun_disc_walk_23: -1899875048500076598
+      sun_disc_walk_230: -1430447293900158614
+      sun_disc_walk_231: 6134209852007850930
+      sun_disc_walk_232: 8951914788486892310
+      sun_disc_walk_233: 2314308903575614857
+      sun_disc_walk_234: -4198863633272007487
+      sun_disc_walk_235: -8459262975034595483
+      sun_disc_walk_236: -8281789989400134749
+      sun_disc_walk_237: -3261452848710411799
+      sun_disc_walk_238: -4451387654961062829
+      sun_disc_walk_239: 3653900588743842349
+      sun_disc_walk_24: 4014678450723234151
+      sun_disc_walk_25: 5734559149064207833
+      sun_disc_walk_26: 2595373128212294976
+      sun_disc_walk_27: -3324262022594075766
+      sun_disc_walk_28: 1775862196209148589
+      sun_disc_walk_29: 6377296652178916420
+      sun_disc_walk_3: -4725752554429830106
+      sun_disc_walk_30: 8004288212743866109
+      sun_disc_walk_31: -7769952563253049567
+      sun_disc_walk_32: -6416841998218231165
+      sun_disc_walk_33: 4367916946064121815
+      sun_disc_walk_34: 1956979275832335554
+      sun_disc_walk_35: -5766690343614284215
+      sun_disc_walk_36: -570043401741076824
+      sun_disc_walk_37: 5761772127051888028
+      sun_disc_walk_38: -6062217508346073606
+      sun_disc_walk_39: -279362008215241867
+      sun_disc_walk_4: 2536452559565891127
+      sun_disc_walk_40: 7617563472567561214
+      sun_disc_walk_41: -7315816879344439342
+      sun_disc_walk_42: -7382032637609843641
+      sun_disc_walk_43: 994609874459797353
+      sun_disc_walk_44: 5013462015842929917
+      sun_disc_walk_45: -9080731439096958360
+      sun_disc_walk_46: 748507524113645444
+      sun_disc_walk_47: 126011176682336764
+      sun_disc_walk_48: 5722550918937135437
+      sun_disc_walk_49: 7433686448876511669
+      sun_disc_walk_5: -2356221827399470896
+      sun_disc_walk_50: 1280609489923912192
+      sun_disc_walk_51: -9126871566523030310
+      sun_disc_walk_52: -709758112511984938
+      sun_disc_walk_53: 1173252634223008542
+      sun_disc_walk_54: 7100167996637151634
+      sun_disc_walk_55: 8059802885853073956
+      sun_disc_walk_56: -5067780160402509232
+      sun_disc_walk_57: 7565587573663092359
+      sun_disc_walk_58: -5543733008138722999
+      sun_disc_walk_59: -4769476731596206509
+      sun_disc_walk_6: -6087759469140983929
+      sun_disc_walk_60: 8619157143809783210
+      sun_disc_walk_61: 4430749625276599687
+      sun_disc_walk_62: -1136447400061696525
+      sun_disc_walk_63: 2574322991341474378
+      sun_disc_walk_64: 2027616008865649578
+      sun_disc_walk_65: -3101792915286998815
+      sun_disc_walk_66: 5063718466316026413
+      sun_disc_walk_67: -3559979264765552380
+      sun_disc_walk_68: 7144925602755168049
+      sun_disc_walk_69: -1455930511814636007
+      sun_disc_walk_7: 7434168018114090582
+      sun_disc_walk_70: 625565913503366932
+      sun_disc_walk_71: -1407667752228693576
+      sun_disc_walk_72: -9058288954834973613
+      sun_disc_walk_73: 309990447431039461
+      sun_disc_walk_74: 6797995764529068513
+      sun_disc_walk_75: 329027694375346478
+      sun_disc_walk_76: 1099961118733620301
+      sun_disc_walk_77: 5184194920709239968
+      sun_disc_walk_78: 7915335032530556847
+      sun_disc_walk_79: -8870579075892018611
+      sun_disc_walk_8: 6875474145636658986
+      sun_disc_walk_80: 6138077107177585467
+      sun_disc_walk_81: 1646781272869173164
+      sun_disc_walk_82: 2582504542656728526
+      sun_disc_walk_83: -2451550325626722362
+      sun_disc_walk_84: -6533718681469883080
+      sun_disc_walk_85: -1441717896553424870
+      sun_disc_walk_86: -1824190065786309772
+      sun_disc_walk_87: -8825446999417223262
+      sun_disc_walk_88: 3432268650015045690
+      sun_disc_walk_89: -1569101294007603515
+      sun_disc_walk_9: -6262230121972502023
+      sun_disc_walk_90: -8660251208680833845
+      sun_disc_walk_91: 6843737486623207002
+      sun_disc_walk_92: -2435480396752085258
+      sun_disc_walk_93: -2184552522614055285
+      sun_disc_walk_94: -8604625743758990710
+      sun_disc_walk_95: -1564233025160907534
+      sun_disc_walk_96: 2777894666851978989
+      sun_disc_walk_97: 4459370199752129510
+      sun_disc_walk_98: -5092862241933019476
+      sun_disc_walk_99: 194117052083335288
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

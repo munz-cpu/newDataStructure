@@ -1,0 +1,87 @@
+{
+	"frames": [
+		{
+			"duration": 0.0666666666666667,
+			"frame": {
+				"h": 256.0,
+				"w": 256.0,
+				"x": 0.0,
+				"y": 0.0
+			}
+		},
+		{
+			"duration": 0.0666666666666667,
+			"frame": {
+				"h": 256.0,
+				"w": 256.0,
+				"x": 256.0,
+				"y": 0.0
+			}
+		},
+		{
+			"duration": 0.0666666666666667,
+			"frame": {
+				"h": 256.0,
+				"w": 256.0,
+				"x": 512.0,
+				"y": 0.0
+			}
+		},
+		{
+			"duration": 0.0666666666666667,
+			"frame": {
+				"h": 256.0,
+				"w": 256.0,
+				"x": 0.0,
+				"y": 256.0
+			}
+		},
+		{
+			"duration": 0.0666666666666667,
+			"frame": {
+				"h": 256.0,
+				"w": 256.0,
+				"x": 256.0,
+				"y": 256.0
+			}
+		},
+		{
+			"duration": 0.0666666666666667,
+			"frame": {
+				"h": 256.0,
+				"w": 256.0,
+				"x": 512.0,
+				"y": 256.0
+			}
+		},
+		{
+			"duration": 0.0666666666666667,
+			"frame": {
+				"h": 256.0,
+				"w": 256.0,
+				"x": 0.0,
+				"y": 512.0
+			}
+		}
+	],
+	"meta": {
+		"app": "https://pixelover.io",
+		"direction": 1,
+		"filepath": "E:/AssetsAndTools/Assets/MyAssets/BlueKnightUnarmed/RunStrafeRight/HiRezUnarmedKnight_Unarmed_export_RunStrafeRight_dir2.png",
+		"frameAnimations": [
+			{
+				"fps": 10.0,
+				"from": 0,
+				"name": "RunStrafeRight",
+				"speed_scale": 1.5,
+				"to": 6
+			}
+		],
+		"size": {
+			"h": 768.0,
+			"w": 768.0
+		},
+		"version": "0.18.4",
+		"view": "Preview"
+	}
+}

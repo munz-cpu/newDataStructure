@@ -1,0 +1,3805 @@
+fileFormatVersion: 2
+guid: e010081869bda894da9c0cdfcfeb25c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2856924229526490455
+    second: sand_soldier_attack_0
+  - first:
+      213: 1032557507428557847
+    second: sand_soldier_attack_1
+  - first:
+      213: 2140858313133643556
+    second: sand_soldier_attack_2
+  - first:
+      213: -4231291779296171274
+    second: sand_soldier_attack_3
+  - first:
+      213: -7143806014777200810
+    second: sand_soldier_attack_4
+  - first:
+      213: 6154869049355286817
+    second: sand_soldier_attack_5
+  - first:
+      213: -5391139106630161253
+    second: sand_soldier_attack_6
+  - first:
+      213: -6005404082463453189
+    second: sand_soldier_attack_7
+  - first:
+      213: 2911809828982663962
+    second: sand_soldier_attack_8
+  - first:
+      213: -328905879943960108
+    second: sand_soldier_attack_9
+  - first:
+      213: 3701138596859995374
+    second: sand_soldier_attack_10
+  - first:
+      213: 7304145645593165354
+    second: sand_soldier_attack_11
+  - first:
+      213: 8565438777459151655
+    second: sand_soldier_attack_12
+  - first:
+      213: 8614496848218300959
+    second: sand_soldier_attack_13
+  - first:
+      213: 5647184917336651373
+    second: sand_soldier_attack_14
+  - first:
+      213: -4225179217018779028
+    second: sand_soldier_attack_15
+  - first:
+      213: 2987705872624313425
+    second: sand_soldier_attack_16
+  - first:
+      213: 649657961046344116
+    second: sand_soldier_attack_17
+  - first:
+      213: 1112571523052534210
+    second: sand_soldier_attack_18
+  - first:
+      213: 4569309640577177774
+    second: sand_soldier_attack_19
+  - first:
+      213: 8593992330811889726
+    second: sand_soldier_attack_20
+  - first:
+      213: 1159561195207570900
+    second: sand_soldier_attack_21
+  - first:
+      213: -8574490337131345996
+    second: sand_soldier_attack_22
+  - first:
+      213: -2428698776871666555
+    second: sand_soldier_attack_23
+  - first:
+      213: 5384857322469988293
+    second: sand_soldier_attack_24
+  - first:
+      213: 2609091030798704682
+    second: sand_soldier_attack_25
+  - first:
+      213: -5171494116792049208
+    second: sand_soldier_attack_26
+  - first:
+      213: 5376800237093191002
+    second: sand_soldier_attack_27
+  - first:
+      213: 6537786540819931852
+    second: sand_soldier_attack_28
+  - first:
+      213: 691720805367271230
+    second: sand_soldier_attack_29
+  - first:
+      213: 5213513786771958036
+    second: sand_soldier_attack_30
+  - first:
+      213: -5897266826581065733
+    second: sand_soldier_attack_31
+  - first:
+      213: -7141131945078397040
+    second: sand_soldier_attack_32
+  - first:
+      213: -2794451011766516650
+    second: sand_soldier_attack_33
+  - first:
+      213: 1126285582268116857
+    second: sand_soldier_attack_34
+  - first:
+      213: -4832716598319474634
+    second: sand_soldier_attack_35
+  - first:
+      213: -659420808375985576
+    second: sand_soldier_attack_36
+  - first:
+      213: -1678302839198408318
+    second: sand_soldier_attack_37
+  - first:
+      213: 3653065400335625455
+    second: sand_soldier_attack_38
+  - first:
+      213: 2766351355965188371
+    second: sand_soldier_attack_39
+  - first:
+      213: -272211547407981331
+    second: sand_soldier_attack_40
+  - first:
+      213: -1617130723235880860
+    second: sand_soldier_attack_41
+  - first:
+      213: 4033190807668684136
+    second: sand_soldier_attack_42
+  - first:
+      213: 321105132308823636
+    second: sand_soldier_attack_43
+  - first:
+      213: 8914881306318971867
+    second: sand_soldier_attack_44
+  - first:
+      213: 6391568594972839120
+    second: sand_soldier_attack_45
+  - first:
+      213: -1740575849365296536
+    second: sand_soldier_attack_46
+  - first:
+      213: 2219998063604154915
+    second: sand_soldier_attack_47
+  - first:
+      213: 3976585302951464989
+    second: sand_soldier_attack_48
+  - first:
+      213: 463702613913986194
+    second: sand_soldier_attack_49
+  - first:
+      213: 4463643540167821724
+    second: sand_soldier_attack_50
+  - first:
+      213: 8379506846618875158
+    second: sand_soldier_attack_51
+  - first:
+      213: 4357541975814011362
+    second: sand_soldier_attack_52
+  - first:
+      213: -5090253438581412962
+    second: sand_soldier_attack_53
+  - first:
+      213: 8640125642675610918
+    second: sand_soldier_attack_54
+  - first:
+      213: 2668134947795848406
+    second: sand_soldier_attack_55
+  - first:
+      213: 5642366230479043166
+    second: sand_soldier_attack_56
+  - first:
+      213: -4450924669093123056
+    second: sand_soldier_attack_57
+  - first:
+      213: 5318470019894708867
+    second: sand_soldier_attack_58
+  - first:
+      213: 1028641990951418210
+    second: sand_soldier_attack_59
+  - first:
+      213: -8789032913148202044
+    second: sand_soldier_attack_60
+  - first:
+      213: -8345712452521711379
+    second: sand_soldier_attack_61
+  - first:
+      213: 246265827349261908
+    second: sand_soldier_attack_62
+  - first:
+      213: 5765403352200175425
+    second: sand_soldier_attack_63
+  - first:
+      213: 1323958288510680114
+    second: sand_soldier_attack_64
+  - first:
+      213: -4750153276524974558
+    second: sand_soldier_attack_65
+  - first:
+      213: 6999962208738091256
+    second: sand_soldier_attack_66
+  - first:
+      213: -3916017767849350274
+    second: sand_soldier_attack_67
+  - first:
+      213: 222968598817431355
+    second: sand_soldier_attack_68
+  - first:
+      213: -5971006591480765159
+    second: sand_soldier_attack_69
+  - first:
+      213: -5418481221248550757
+    second: sand_soldier_attack_70
+  - first:
+      213: 415040549844994019
+    second: sand_soldier_attack_71
+  - first:
+      213: 7526180764645703595
+    second: sand_soldier_attack_72
+  - first:
+      213: -3263307461608440334
+    second: sand_soldier_attack_73
+  - first:
+      213: -4357686849938711438
+    second: sand_soldier_attack_74
+  - first:
+      213: 543454893705679057
+    second: sand_soldier_attack_75
+  - first:
+      213: -7810778801616087974
+    second: sand_soldier_attack_76
+  - first:
+      213: -8365753205593837884
+    second: sand_soldier_attack_77
+  - first:
+      213: -540773537213308731
+    second: sand_soldier_attack_78
+  - first:
+      213: -1851044716303085382
+    second: sand_soldier_attack_79
+  - first:
+      213: 4476341987401574482
+    second: sand_soldier_attack_80
+  - first:
+      213: 6243537010108075522
+    second: sand_soldier_attack_81
+  - first:
+      213: 3077674097081550035
+    second: sand_soldier_attack_82
+  - first:
+      213: 6199352780621903911
+    second: sand_soldier_attack_83
+  - first:
+      213: 5480683020084994854
+    second: sand_soldier_attack_84
+  - first:
+      213: 460915038603947231
+    second: sand_soldier_attack_85
+  - first:
+      213: 3710635965678790473
+    second: sand_soldier_attack_86
+  - first:
+      213: 3773114622390767569
+    second: sand_soldier_attack_87
+  - first:
+      213: 7857641422700301351
+    second: sand_soldier_attack_88
+  - first:
+      213: -7091115150998526783
+    second: sand_soldier_attack_89
+  - first:
+      213: -8299976696327112404
+    second: sand_soldier_attack_90
+  - first:
+      213: 5139497127597798034
+    second: sand_soldier_attack_91
+  - first:
+      213: 8856123989846381457
+    second: sand_soldier_attack_92
+  - first:
+      213: -5829058981471893155
+    second: sand_soldier_attack_93
+  - first:
+      213: -598468139955032479
+    second: sand_soldier_attack_94
+  - first:
+      213: -5344429597122928795
+    second: sand_soldier_attack_95
+  - first:
+      213: -6694161897187993140
+    second: sand_soldier_attack_96
+  - first:
+      213: 6465476045118003321
+    second: sand_soldier_attack_97
+  - first:
+      213: -9161119557531140044
+    second: sand_soldier_attack_98
+  - first:
+      213: 8327612483610452762
+    second: sand_soldier_attack_99
+  - first:
+      213: 2204829376744634925
+    second: sand_soldier_attack_100
+  - first:
+      213: -3414932112228120480
+    second: sand_soldier_attack_101
+  - first:
+      213: -2121061888709289153
+    second: sand_soldier_attack_102
+  - first:
+      213: -6637158475722601822
+    second: sand_soldier_attack_103
+  - first:
+      213: -6078253801301323157
+    second: sand_soldier_attack_104
+  - first:
+      213: 6023253796699477610
+    second: sand_soldier_attack_105
+  - first:
+      213: 5889406569645771148
+    second: sand_soldier_attack_106
+  - first:
+      213: 2420483092123693942
+    second: sand_soldier_attack_107
+  - first:
+      213: 6633053718368537171
+    second: sand_soldier_attack_108
+  - first:
+      213: 7689690064703179762
+    second: sand_soldier_attack_109
+  - first:
+      213: -8874783145995751859
+    second: sand_soldier_attack_110
+  - first:
+      213: -5836415247800816252
+    second: sand_soldier_attack_111
+  - first:
+      213: 8862059207033816372
+    second: sand_soldier_attack_112
+  - first:
+      213: -5163390434032631879
+    second: sand_soldier_attack_113
+  - first:
+      213: -8804070539101304843
+    second: sand_soldier_attack_114
+  - first:
+      213: 1730518027080295190
+    second: sand_soldier_attack_115
+  - first:
+      213: -8517724234127583723
+    second: sand_soldier_attack_116
+  - first:
+      213: 2923031534642660513
+    second: sand_soldier_attack_117
+  - first:
+      213: 4365874786066409066
+    second: sand_soldier_attack_118
+  - first:
+      213: 1601352432260605093
+    second: sand_soldier_attack_119
+  - first:
+      213: 6901052768489104481
+    second: sand_soldier_attack_120
+  - first:
+      213: 2258813080219177586
+    second: sand_soldier_attack_121
+  - first:
+      213: 8455809640676309300
+    second: sand_soldier_attack_122
+  - first:
+      213: -7673252507949876425
+    second: sand_soldier_attack_123
+  - first:
+      213: -6432391760906044156
+    second: sand_soldier_attack_124
+  - first:
+      213: -8026654364076607718
+    second: sand_soldier_attack_125
+  - first:
+      213: 6066631074294436732
+    second: sand_soldier_attack_126
+  - first:
+      213: 6107204466111773705
+    second: sand_soldier_attack_127
+  - first:
+      213: -688728907718362388
+    second: sand_soldier_attack_128
+  - first:
+      213: -3944588707275999859
+    second: sand_soldier_attack_129
+  - first:
+      213: -3742998529033226934
+    second: sand_soldier_attack_130
+  - first:
+      213: 4733647734285917351
+    second: sand_soldier_attack_131
+  - first:
+      213: -7043473823568185624
+    second: sand_soldier_attack_132
+  - first:
+      213: 6305109915086158538
+    second: sand_soldier_attack_133
+  - first:
+      213: -3874726245506678266
+    second: sand_soldier_attack_134
+  - first:
+      213: 2729637021106596510
+    second: sand_soldier_attack_135
+  - first:
+      213: -1453126586160454300
+    second: sand_soldier_attack_136
+  - first:
+      213: -6211109101098290386
+    second: sand_soldier_attack_137
+  - first:
+      213: -6874836086323716163
+    second: sand_soldier_attack_138
+  - first:
+      213: 1526411725171473287
+    second: sand_soldier_attack_139
+  - first:
+      213: 1979137395163710692
+    second: sand_soldier_attack_140
+  - first:
+      213: -1045809612359729814
+    second: sand_soldier_attack_141
+  - first:
+      213: -4922225697845850696
+    second: sand_soldier_attack_142
+  - first:
+      213: 8772262409183053075
+    second: sand_soldier_attack_143
+  - first:
+      213: 8650115255328695867
+    second: sand_soldier_attack_144
+  - first:
+      213: -5427868158360947088
+    second: sand_soldier_attack_145
+  - first:
+      213: -4065430150224828404
+    second: sand_soldier_attack_146
+  - first:
+      213: 3773771179316650043
+    second: sand_soldier_attack_147
+  - first:
+      213: -5168634205615205875
+    second: sand_soldier_attack_148
+  - first:
+      213: 4952693786435142317
+    second: sand_soldier_attack_149
+  - first:
+      213: -5544362667800968779
+    second: sand_soldier_attack_150
+  - first:
+      213: -2662397710328209427
+    second: sand_soldier_attack_151
+  - first:
+      213: -149586534569430435
+    second: sand_soldier_attack_152
+  - first:
+      213: 1755113117580864483
+    second: sand_soldier_attack_153
+  - first:
+      213: -878101505521818664
+    second: sand_soldier_attack_154
+  - first:
+      213: -2948548756574309267
+    second: sand_soldier_attack_000
+  - first:
+      213: -1136618054504260910
+    second: sand_soldier_attack_001
+  - first:
+      213: -5941801455793258602
+    second: sand_soldier_attack_002
+  - first:
+      213: -4239766457835598736
+    second: sand_soldier_attack_003
+  - first:
+      213: 7449528080259821699
+    second: sand_soldier_attack_004
+  - first:
+      213: -369279561573239324
+    second: sand_soldier_attack_005
+  - first:
+      213: -5681954954230536490
+    second: sand_soldier_attack_006
+  - first:
+      213: -3109763294882096287
+    second: sand_soldier_attack_007
+  - first:
+      213: 7800514968187433469
+    second: sand_soldier_attack_008
+  - first:
+      213: 1663755343208868122
+    second: sand_soldier_attack_009
+  - first:
+      213: -513394749454780460
+    second: sand_soldier_attack_010
+  - first:
+      213: -2821303848814520332
+    second: sand_soldier_attack_011
+  - first:
+      213: -4202326365545173323
+    second: sand_soldier_attack_012
+  - first:
+      213: -2121108527410446810
+    second: sand_soldier_attack_013
+  - first:
+      213: -7058678394925784171
+    second: sand_soldier_attack_014
+  - first:
+      213: -2137123294193151883
+    second: sand_soldier_attack_015
+  - first:
+      213: 6513378738798921212
+    second: sand_soldier_attack_016
+  - first:
+      213: -2115982529918675281
+    second: sand_soldier_attack_017
+  - first:
+      213: 3672564522595772522
+    second: sand_soldier_attack_018
+  - first:
+      213: 5023699116622417477
+    second: sand_soldier_attack_019
+  - first:
+      213: 4990951157686120054
+    second: sand_soldier_attack_020
+  - first:
+      213: -3371774830115766277
+    second: sand_soldier_attack_021
+  - first:
+      213: -4362567849989559879
+    second: sand_soldier_attack_022
+  - first:
+      213: -2375980503469361323
+    second: sand_soldier_attack_023
+  - first:
+      213: 6134639464606765755
+    second: sand_soldier_attack_024
+  - first:
+      213: -4076813007023516402
+    second: sand_soldier_attack_025
+  - first:
+      213: 2592354386483555444
+    second: sand_soldier_attack_026
+  - first:
+      213: 8549076711861388475
+    second: sand_soldier_attack_027
+  - first:
+      213: 4496591592154723334
+    second: sand_soldier_attack_028
+  - first:
+      213: 1361879813260213910
+    second: sand_soldier_attack_029
+  - first:
+      213: -371650622260240797
+    second: sand_soldier_attack_030
+  - first:
+      213: 8747835802559014954
+    second: sand_soldier_attack_031
+  - first:
+      213: -2458166933381972936
+    second: sand_soldier_attack_032
+  - first:
+      213: -6373475037352931814
+    second: sand_soldier_attack_033
+  - first:
+      213: -5982359986315793934
+    second: sand_soldier_attack_034
+  - first:
+      213: 1158581303903023109
+    second: sand_soldier_attack_035
+  - first:
+      213: -349942030017125760
+    second: sand_soldier_attack_036
+  - first:
+      213: -4578845242478922523
+    second: sand_soldier_attack_037
+  - first:
+      213: -2085373295154269335
+    second: sand_soldier_attack_038
+  - first:
+      213: -7701861388427338166
+    second: sand_soldier_attack_039
+  - first:
+      213: 2065779438982726799
+    second: sand_soldier_attack_040
+  - first:
+      213: 8950170186326304587
+    second: sand_soldier_attack_041
+  - first:
+      213: -1860182006816974090
+    second: sand_soldier_attack_042
+  - first:
+      213: 2880861054341208899
+    second: sand_soldier_attack_043
+  - first:
+      213: 5543794491362178127
+    second: sand_soldier_attack_044
+  - first:
+      213: 5971225314790278494
+    second: sand_soldier_attack_045
+  - first:
+      213: -2852738349553197044
+    second: sand_soldier_attack_046
+  - first:
+      213: 1910600153672993756
+    second: sand_soldier_attack_047
+  - first:
+      213: -8951418077203530522
+    second: sand_soldier_attack_048
+  - first:
+      213: -3465016643714207508
+    second: sand_soldier_attack_049
+  - first:
+      213: 4474883301459539721
+    second: sand_soldier_attack_050
+  - first:
+      213: 2397651165781663728
+    second: sand_soldier_attack_051
+  - first:
+      213: -5582924971841194328
+    second: sand_soldier_attack_052
+  - first:
+      213: 1148009773792400631
+    second: sand_soldier_attack_053
+  - first:
+      213: -4737387268028502550
+    second: sand_soldier_attack_054
+  - first:
+      213: 8139462141830792647
+    second: sand_soldier_attack_055
+  - first:
+      213: -3223856198634378987
+    second: sand_soldier_attack_056
+  - first:
+      213: -3057699798015759875
+    second: sand_soldier_attack_057
+  - first:
+      213: -1751780378361943626
+    second: sand_soldier_attack_058
+  - first:
+      213: 1737236189584696946
+    second: sand_soldier_attack_059
+  - first:
+      213: -2994660840537549491
+    second: sand_soldier_attack_060
+  - first:
+      213: 2229859442405116238
+    second: sand_soldier_attack_061
+  - first:
+      213: 3459236446723672480
+    second: sand_soldier_attack_062
+  - first:
+      213: -6674739604967364740
+    second: sand_soldier_attack_063
+  - first:
+      213: 2461036611404555170
+    second: sand_soldier_attack_064
+  - first:
+      213: -1251306321107094171
+    second: sand_soldier_attack_065
+  - first:
+      213: 6874722258741901341
+    second: sand_soldier_attack_066
+  - first:
+      213: 8944164470593747836
+    second: sand_soldier_attack_067
+  - first:
+      213: 6544640531960860554
+    second: sand_soldier_attack_068
+  - first:
+      213: -5740929863694299060
+    second: sand_soldier_attack_069
+  - first:
+      213: 4060449584372038590
+    second: sand_soldier_attack_070
+  - first:
+      213: 851408894998083135
+    second: sand_soldier_attack_071
+  - first:
+      213: 6258521728820422051
+    second: sand_soldier_attack_072
+  - first:
+      213: -2365829968200723846
+    second: sand_soldier_attack_073
+  - first:
+      213: -177817024822856396
+    second: sand_soldier_attack_074
+  - first:
+      213: 2532786814665608376
+    second: sand_soldier_attack_075
+  - first:
+      213: 7817618409553414784
+    second: sand_soldier_attack_076
+  - first:
+      213: 1125371704623600394
+    second: sand_soldier_attack_077
+  - first:
+      213: -2075046273683395995
+    second: sand_soldier_attack_078
+  - first:
+      213: -2910174407961010320
+    second: sand_soldier_attack_079
+  - first:
+      213: -2725042072365628670
+    second: sand_soldier_attack_080
+  - first:
+      213: -6436795630725504621
+    second: sand_soldier_attack_081
+  - first:
+      213: 7719239842738649590
+    second: sand_soldier_attack_082
+  - first:
+      213: 1210244108840956561
+    second: sand_soldier_attack_083
+  - first:
+      213: 6163776077466403493
+    second: sand_soldier_attack_084
+  - first:
+      213: 5494934471634740023
+    second: sand_soldier_attack_085
+  - first:
+      213: 6139838422692418149
+    second: sand_soldier_attack_086
+  - first:
+      213: 2248759688215588336
+    second: sand_soldier_attack_087
+  - first:
+      213: -1807642429762694209
+    second: sand_soldier_attack_088
+  - first:
+      213: 5722174249515191089
+    second: sand_soldier_attack_089
+  - first:
+      213: 1266793553507971868
+    second: sand_soldier_attack_090
+  - first:
+      213: 3094091344758068536
+    second: sand_soldier_attack_091
+  - first:
+      213: 7023633181607097374
+    second: sand_soldier_attack_092
+  - first:
+      213: 5910714866085782006
+    second: sand_soldier_attack_093
+  - first:
+      213: 4380039943092658019
+    second: sand_soldier_attack_094
+  - first:
+      213: 1074671912007331028
+    second: sand_soldier_attack_095
+  - first:
+      213: 6929415030077164994
+    second: sand_soldier_attack_096
+  - first:
+      213: 6794446990366875208
+    second: sand_soldier_attack_097
+  - first:
+      213: -3610932681907566931
+    second: sand_soldier_attack_098
+  - first:
+      213: -1848353169764773787
+    second: sand_soldier_attack_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sand_soldier_attack_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64f7792786a417d0800000000000000
+      internalID: -2948548756574309267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da5af7c6ebe930f0800000000000000
+      internalID: -1136618054504260910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f3b859e0b7a8da0800000000000000
+      internalID: -5941801455793258602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cc71eaed25925c0800000000000000
+      internalID: -4239766457835598736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3803f28d15a026760800000000000000
+      internalID: 7449528080259821699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e57d9df13e00eaf0800000000000000
+      internalID: -369279561573239324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6615bc214a521b0800000000000000
+      internalID: -5681954954230536490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16b110172c6e7d4d0800000000000000
+      internalID: -3109763294882096287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1fdefd80ff04c60800000000000000
+      internalID: 7800514968187433469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a196f117ba8d61710800000000000000
+      internalID: 1663755343208868122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d77239023e00e8f0800000000000000
+      internalID: -513394749454780460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7d7ffe817b8d8d0800000000000000
+      internalID: -2821303848814520332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5beeb677f665ea5c0800000000000000
+      internalID: -4202326365545173323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ef5ad480f4092e0800000000000000
+      internalID: -2121108527410446810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59369b6f5698a0e90800000000000000
+      internalID: -7058678394925784171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5709768dfa96752e0800000000000000
+      internalID: -2137123294193151883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf501bd147b246a50800000000000000
+      internalID: 6513378738798921212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa6d349991582a2e0800000000000000
+      internalID: -2115982529918675281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68e508a9f197f230800000000000000
+      internalID: 3672564522595772522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54e09b8dab3c7b540800000000000000
+      internalID: 5023699116622417477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ea43d72ab634540800000000000000
+      internalID: 4990951157686120054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffb85c08ac0531d0800000000000000
+      internalID: -3371774830115766277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b925d087ab0573c0800000000000000
+      internalID: -4362567849989559879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55774711252d60fd0800000000000000
+      internalID: -2375980503469361323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb29af0271e922550800000000000000
+      internalID: 6134639464606765755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05dba48b204c67c0800000000000000
+      internalID: -4076813007023516402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c27426494e9f320800000000000000
+      internalID: 2592354386483555444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4001879fb64a670800000000000000
+      internalID: 8549076711861388475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604f366aa3a176e30800000000000000
+      internalID: 4496591592154723334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e7620897e56e210800000000000000
+      internalID: 1361879813260213910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e10a76ab1a7daf0800000000000000
+      internalID: -371650622260240797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2869fc705e866970800000000000000
+      internalID: 8747835802559014954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cf721b236d2edd0800000000000000
+      internalID: -2458166933381972936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e42cdb83edc87a0800000000000000
+      internalID: -6373475037352931814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f9e221d9436afca0800000000000000
+      internalID: -5982359986315793934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5007c86be8b141010800000000000000
+      internalID: 1158581303903023109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082a9d8e391c42bf0800000000000000
+      internalID: -349942030017125760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e47e80038ca470c0800000000000000
+      internalID: -4578845242478922523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9637e3e69044f03e0800000000000000
+      internalID: -2085373295154269335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4edd799fdd7d1590800000000000000
+      internalID: -7701861388427338166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f840fdc647f1bac10800000000000000
+      internalID: 2065779438982726799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47654b4d54653c70800000000000000
+      internalID: 8950170186326304587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fad91a025e4f26e0800000000000000
+      internalID: -1860182006816974090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bd34f8ddfdaf720800000000000000
+      internalID: 2880861054341208899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44f865b7b38fec40800000000000000
+      internalID: 5543794491362178127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5505e179cd0ed250800000000000000
+      internalID: 5971225314790278494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c006fb5e5990968d0800000000000000
+      internalID: -2852738349553197044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdb4c7b87b0d38a10800000000000000
+      internalID: 1910600153672993756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecf5487fac26c380800000000000000
+      internalID: -8951418077203530522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0399298b9c9efc0800000000000000
+      internalID: -3465016643714207508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907b2da57aaf91e30800000000000000
+      internalID: 4474883301459539721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff97bf280b264120800000000000000
+      internalID: 2397651165781663728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a67fb551577582b0800000000000000
+      internalID: -5582924971841194328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f4929d8ecc8eef00800000000000000
+      internalID: 1148009773792400631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aede3b5216b614eb0800000000000000
+      internalID: -4737387268028502550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5809a71bd25f070800000000000000
+      internalID: 8139462141830792647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519e4793edf8243d0800000000000000
+      internalID: -3223856198634378987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9ac7deb3ed095d0800000000000000
+      internalID: -3057699798015759875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9ac37f60d60b7e0800000000000000
+      internalID: -1751780378361943626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27626233c17eb1810800000000000000
+      internalID: 1737236189584696946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d459cf8f4d3d076d0800000000000000
+      internalID: -2994660840537549491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e498b9b395d02fe10800000000000000
+      internalID: 2229859442405116238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a98c01783da10030800000000000000
+      internalID: 3459236446723672480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7760bd81bf8e53a0800000000000000
+      internalID: -6674739604967364740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3eff942cb572220800000000000000
+      internalID: 2461036611404555170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565f539d78772aee0800000000000000
+      internalID: -1251306321107094171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1838c1787be76f50800000000000000
+      internalID: 6874722258741901341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7bf862a23e002c70800000000000000
+      internalID: 8944164470593747836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f862a83eb33da50800000000000000
+      internalID: 6544640531960860554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40d11aa4be1450b0800000000000000
+      internalID: -5740929863694299060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebbb0e0426d995830800000000000000
+      internalID: 4060449584372038590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36f7f801efc0db00800000000000000
+      internalID: 851408894998083135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5a7617a5cbad650800000000000000
+      internalID: 6258521728820422051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a721c6abd22ea2fd0800000000000000
+      internalID: -2365829968200723846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435ba68ab54488df0800000000000000
+      internalID: -177817024822856396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bccfeb4034462320800000000000000
+      internalID: 2532786814665608376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a4cf22682cd7c60800000000000000
+      internalID: 7817618409553414784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a039d565a9f1e9f00800000000000000
+      internalID: 1125371704623600394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a6a9c7864f333e0800000000000000
+      internalID: -2075046273683395995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f1d037bcbfc97d0800000000000000
+      internalID: -2910174407961010320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20307ae4ca4be2ad0800000000000000
+      internalID: -2725042072365628670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391e1da3a78eba6a0800000000000000
+      internalID: -6436795630725504621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9ba7a1dbf302b60800000000000000
+      internalID: 7719239842738649590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19279f6da96abc010800000000000000
+      internalID: 1210244108840956561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a28f647fa12a8550800000000000000
+      internalID: 6163776077466403493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73366ddd9cde14c40800000000000000
+      internalID: 5494934471634740023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56250e2e386153550800000000000000
+      internalID: 6139838422692418149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fdee41a503353f10800000000000000
+      internalID: 2248759688215588336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3121599c6f9e6e0800000000000000
+      internalID: -1807642429762694209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b8d3d992f396f40800000000000000
+      internalID: 5722174249515191089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c13f890760e849110800000000000000
+      internalID: 1266793553507971868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8355ae25fab60fa20800000000000000
+      internalID: 3094091344758068536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1476567a25f87160800000000000000
+      internalID: 7023633181607097374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1e9a9bad3170250800000000000000
+      internalID: 5910714866085782006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36f5f0e2f1709cc30800000000000000
+      internalID: 4380039943092658019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc694df8600aee00800000000000000
+      internalID: 1074671912007331028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd8009914a3a2060800000000000000
+      internalID: 6929415030077164994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e1a0a0a89ba4e50800000000000000
+      internalID: 6794446990366875208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da60d0b7bd363edc0800000000000000
+      internalID: -3610932681907566931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56014b8c5945956e0800000000000000
+      internalID: -1848353169764773787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ab53fe2a0299e10800000000000000
+      internalID: 2204829376744634925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06881964659bb90d0800000000000000
+      internalID: -3414932112228120480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b1dd833797092e0800000000000000
+      internalID: -2121061888709289153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2aac490188314e3a0800000000000000
+      internalID: -6637158475722601822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6254c62f54b5aba0800000000000000
+      internalID: -6078253801301323157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a669b406a65e69350800000000000000
+      internalID: 6023253796699477610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89869952106bb150800000000000000
+      internalID: 5889406569645771148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6733fda4c88479120800000000000000
+      internalID: 2420483092123693942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ac073a6375d0c50800000000000000
+      internalID: 6633053718368537171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fbcb734f5447ba60800000000000000
+      internalID: 7689690064703179762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4eac44dfbf66d480800000000000000
+      internalID: -8874783145995751859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48da8293143e00fa0800000000000000
+      internalID: -5836415247800816252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4350bb545eb5cfa70800000000000000
+      internalID: 8862059207033816372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfb5dec1c3f758b0800000000000000
+      internalID: -5163390434032631879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7826b9d78a1d580800000000000000
+      internalID: -8804070539101304843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613e7891af8040810800000000000000
+      internalID: 1730518027080295190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516d61a10f6fac980800000000000000
+      internalID: -8517724234127583723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a404a1a1b1b09820800000000000000
+      internalID: 2923031534642660513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66a25d8cf3b69c30800000000000000
+      internalID: 4365874786066409066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_attack_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4e9158d85293610800000000000000
+      internalID: 1601352432260605093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sand_soldier_attack_0: -2856924229526490455
+      sand_soldier_attack_000: -2948548756574309267
+      sand_soldier_attack_001: -1136618054504260910
+      sand_soldier_attack_002: -5941801455793258602
+      sand_soldier_attack_003: -4239766457835598736
+      sand_soldier_attack_004: 7449528080259821699
+      sand_soldier_attack_005: -369279561573239324
+      sand_soldier_attack_006: -5681954954230536490
+      sand_soldier_attack_007: -3109763294882096287
+      sand_soldier_attack_008: 7800514968187433469
+      sand_soldier_attack_009: 1663755343208868122
+      sand_soldier_attack_010: -513394749454780460
+      sand_soldier_attack_011: -2821303848814520332
+      sand_soldier_attack_012: -4202326365545173323
+      sand_soldier_attack_013: -2121108527410446810
+      sand_soldier_attack_014: -7058678394925784171
+      sand_soldier_attack_015: -2137123294193151883
+      sand_soldier_attack_016: 6513378738798921212
+      sand_soldier_attack_017: -2115982529918675281
+      sand_soldier_attack_018: 3672564522595772522
+      sand_soldier_attack_019: 5023699116622417477
+      sand_soldier_attack_020: 4990951157686120054
+      sand_soldier_attack_021: -3371774830115766277
+      sand_soldier_attack_022: -4362567849989559879
+      sand_soldier_attack_023: -2375980503469361323
+      sand_soldier_attack_024: 6134639464606765755
+      sand_soldier_attack_025: -4076813007023516402
+      sand_soldier_attack_026: 2592354386483555444
+      sand_soldier_attack_027: 8549076711861388475
+      sand_soldier_attack_028: 4496591592154723334
+      sand_soldier_attack_029: 1361879813260213910
+      sand_soldier_attack_030: -371650622260240797
+      sand_soldier_attack_031: 8747835802559014954
+      sand_soldier_attack_032: -2458166933381972936
+      sand_soldier_attack_033: -6373475037352931814
+      sand_soldier_attack_034: -5982359986315793934
+      sand_soldier_attack_035: 1158581303903023109
+      sand_soldier_attack_036: -349942030017125760
+      sand_soldier_attack_037: -4578845242478922523
+      sand_soldier_attack_038: -2085373295154269335
+      sand_soldier_attack_039: -7701861388427338166
+      sand_soldier_attack_040: 2065779438982726799
+      sand_soldier_attack_041: 8950170186326304587
+      sand_soldier_attack_042: -1860182006816974090
+      sand_soldier_attack_043: 2880861054341208899
+      sand_soldier_attack_044: 5543794491362178127
+      sand_soldier_attack_045: 5971225314790278494
+      sand_soldier_attack_046: -2852738349553197044
+      sand_soldier_attack_047: 1910600153672993756
+      sand_soldier_attack_048: -8951418077203530522
+      sand_soldier_attack_049: -3465016643714207508
+      sand_soldier_attack_050: 4474883301459539721
+      sand_soldier_attack_051: 2397651165781663728
+      sand_soldier_attack_052: -5582924971841194328
+      sand_soldier_attack_053: 1148009773792400631
+      sand_soldier_attack_054: -4737387268028502550
+      sand_soldier_attack_055: 8139462141830792647
+      sand_soldier_attack_056: -3223856198634378987
+      sand_soldier_attack_057: -3057699798015759875
+      sand_soldier_attack_058: -1751780378361943626
+      sand_soldier_attack_059: 1737236189584696946
+      sand_soldier_attack_060: -2994660840537549491
+      sand_soldier_attack_061: 2229859442405116238
+      sand_soldier_attack_062: 3459236446723672480
+      sand_soldier_attack_063: -6674739604967364740
+      sand_soldier_attack_064: 2461036611404555170
+      sand_soldier_attack_065: -1251306321107094171
+      sand_soldier_attack_066: 6874722258741901341
+      sand_soldier_attack_067: 8944164470593747836
+      sand_soldier_attack_068: 6544640531960860554
+      sand_soldier_attack_069: -5740929863694299060
+      sand_soldier_attack_070: 4060449584372038590
+      sand_soldier_attack_071: 851408894998083135
+      sand_soldier_attack_072: 6258521728820422051
+      sand_soldier_attack_073: -2365829968200723846
+      sand_soldier_attack_074: -177817024822856396
+      sand_soldier_attack_075: 2532786814665608376
+      sand_soldier_attack_076: 7817618409553414784
+      sand_soldier_attack_077: 1125371704623600394
+      sand_soldier_attack_078: -2075046273683395995
+      sand_soldier_attack_079: -2910174407961010320
+      sand_soldier_attack_080: -2725042072365628670
+      sand_soldier_attack_081: -6436795630725504621
+      sand_soldier_attack_082: 7719239842738649590
+      sand_soldier_attack_083: 1210244108840956561
+      sand_soldier_attack_084: 6163776077466403493
+      sand_soldier_attack_085: 5494934471634740023
+      sand_soldier_attack_086: 6139838422692418149
+      sand_soldier_attack_087: 2248759688215588336
+      sand_soldier_attack_088: -1807642429762694209
+      sand_soldier_attack_089: 5722174249515191089
+      sand_soldier_attack_090: 1266793553507971868
+      sand_soldier_attack_091: 3094091344758068536
+      sand_soldier_attack_092: 7023633181607097374
+      sand_soldier_attack_093: 5910714866085782006
+      sand_soldier_attack_094: 4380039943092658019
+      sand_soldier_attack_095: 1074671912007331028
+      sand_soldier_attack_096: 6929415030077164994
+      sand_soldier_attack_097: 6794446990366875208
+      sand_soldier_attack_098: -3610932681907566931
+      sand_soldier_attack_099: -1848353169764773787
+      sand_soldier_attack_1: 1032557507428557847
+      sand_soldier_attack_10: 3701138596859995374
+      sand_soldier_attack_100: 2204829376744634925
+      sand_soldier_attack_101: -3414932112228120480
+      sand_soldier_attack_102: -2121061888709289153
+      sand_soldier_attack_103: -6637158475722601822
+      sand_soldier_attack_104: -6078253801301323157
+      sand_soldier_attack_105: 6023253796699477610
+      sand_soldier_attack_106: 5889406569645771148
+      sand_soldier_attack_107: 2420483092123693942
+      sand_soldier_attack_108: 6633053718368537171
+      sand_soldier_attack_109: 7689690064703179762
+      sand_soldier_attack_11: 7304145645593165354
+      sand_soldier_attack_110: -8874783145995751859
+      sand_soldier_attack_111: -5836415247800816252
+      sand_soldier_attack_112: 8862059207033816372
+      sand_soldier_attack_113: -5163390434032631879
+      sand_soldier_attack_114: -8804070539101304843
+      sand_soldier_attack_115: 1730518027080295190
+      sand_soldier_attack_116: -8517724234127583723
+      sand_soldier_attack_117: 2923031534642660513
+      sand_soldier_attack_118: 4365874786066409066
+      sand_soldier_attack_119: 1601352432260605093
+      sand_soldier_attack_12: 8565438777459151655
+      sand_soldier_attack_120: 6901052768489104481
+      sand_soldier_attack_121: 2258813080219177586
+      sand_soldier_attack_122: 8455809640676309300
+      sand_soldier_attack_123: -7673252507949876425
+      sand_soldier_attack_124: -6432391760906044156
+      sand_soldier_attack_125: -8026654364076607718
+      sand_soldier_attack_126: 6066631074294436732
+      sand_soldier_attack_127: 6107204466111773705
+      sand_soldier_attack_128: -688728907718362388
+      sand_soldier_attack_129: -3944588707275999859
+      sand_soldier_attack_13: 8614496848218300959
+      sand_soldier_attack_130: -3742998529033226934
+      sand_soldier_attack_131: 4733647734285917351
+      sand_soldier_attack_132: -7043473823568185624
+      sand_soldier_attack_133: 6305109915086158538
+      sand_soldier_attack_134: -3874726245506678266
+      sand_soldier_attack_135: 2729637021106596510
+      sand_soldier_attack_136: -1453126586160454300
+      sand_soldier_attack_137: -6211109101098290386
+      sand_soldier_attack_138: -6874836086323716163
+      sand_soldier_attack_139: 1526411725171473287
+      sand_soldier_attack_14: 5647184917336651373
+      sand_soldier_attack_140: 1979137395163710692
+      sand_soldier_attack_141: -1045809612359729814
+      sand_soldier_attack_142: -4922225697845850696
+      sand_soldier_attack_143: 8772262409183053075
+      sand_soldier_attack_144: 8650115255328695867
+      sand_soldier_attack_145: -5427868158360947088
+      sand_soldier_attack_146: -4065430150224828404
+      sand_soldier_attack_147: 3773771179316650043
+      sand_soldier_attack_148: -5168634205615205875
+      sand_soldier_attack_149: 4952693786435142317
+      sand_soldier_attack_15: -4225179217018779028
+      sand_soldier_attack_150: -5544362667800968779
+      sand_soldier_attack_151: -2662397710328209427
+      sand_soldier_attack_152: -149586534569430435
+      sand_soldier_attack_153: 1755113117580864483
+      sand_soldier_attack_154: -878101505521818664
+      sand_soldier_attack_16: 2987705872624313425
+      sand_soldier_attack_17: 649657961046344116
+      sand_soldier_attack_18: 1112571523052534210
+      sand_soldier_attack_19: 4569309640577177774
+      sand_soldier_attack_2: 2140858313133643556
+      sand_soldier_attack_20: 8593992330811889726
+      sand_soldier_attack_21: 1159561195207570900
+      sand_soldier_attack_22: -8574490337131345996
+      sand_soldier_attack_23: -2428698776871666555
+      sand_soldier_attack_24: 5384857322469988293
+      sand_soldier_attack_25: 2609091030798704682
+      sand_soldier_attack_26: -5171494116792049208
+      sand_soldier_attack_27: 5376800237093191002
+      sand_soldier_attack_28: 6537786540819931852
+      sand_soldier_attack_29: 691720805367271230
+      sand_soldier_attack_3: -4231291779296171274
+      sand_soldier_attack_30: 5213513786771958036
+      sand_soldier_attack_31: -5897266826581065733
+      sand_soldier_attack_32: -7141131945078397040
+      sand_soldier_attack_33: -2794451011766516650
+      sand_soldier_attack_34: 1126285582268116857
+      sand_soldier_attack_35: -4832716598319474634
+      sand_soldier_attack_36: -659420808375985576
+      sand_soldier_attack_37: -1678302839198408318
+      sand_soldier_attack_38: 3653065400335625455
+      sand_soldier_attack_39: 2766351355965188371
+      sand_soldier_attack_4: -7143806014777200810
+      sand_soldier_attack_40: -272211547407981331
+      sand_soldier_attack_41: -1617130723235880860
+      sand_soldier_attack_42: 4033190807668684136
+      sand_soldier_attack_43: 321105132308823636
+      sand_soldier_attack_44: 8914881306318971867
+      sand_soldier_attack_45: 6391568594972839120
+      sand_soldier_attack_46: -1740575849365296536
+      sand_soldier_attack_47: 2219998063604154915
+      sand_soldier_attack_48: 3976585302951464989
+      sand_soldier_attack_49: 463702613913986194
+      sand_soldier_attack_5: 6154869049355286817
+      sand_soldier_attack_50: 4463643540167821724
+      sand_soldier_attack_51: 8379506846618875158
+      sand_soldier_attack_52: 4357541975814011362
+      sand_soldier_attack_53: -5090253438581412962
+      sand_soldier_attack_54: 8640125642675610918
+      sand_soldier_attack_55: 2668134947795848406
+      sand_soldier_attack_56: 5642366230479043166
+      sand_soldier_attack_57: -4450924669093123056
+      sand_soldier_attack_58: 5318470019894708867
+      sand_soldier_attack_59: 1028641990951418210
+      sand_soldier_attack_6: -5391139106630161253
+      sand_soldier_attack_60: -8789032913148202044
+      sand_soldier_attack_61: -8345712452521711379
+      sand_soldier_attack_62: 246265827349261908
+      sand_soldier_attack_63: 5765403352200175425
+      sand_soldier_attack_64: 1323958288510680114
+      sand_soldier_attack_65: -4750153276524974558
+      sand_soldier_attack_66: 6999962208738091256
+      sand_soldier_attack_67: -3916017767849350274
+      sand_soldier_attack_68: 222968598817431355
+      sand_soldier_attack_69: -5971006591480765159
+      sand_soldier_attack_7: -6005404082463453189
+      sand_soldier_attack_70: -5418481221248550757
+      sand_soldier_attack_71: 415040549844994019
+      sand_soldier_attack_72: 7526180764645703595
+      sand_soldier_attack_73: -3263307461608440334
+      sand_soldier_attack_74: -4357686849938711438
+      sand_soldier_attack_75: 543454893705679057
+      sand_soldier_attack_76: -7810778801616087974
+      sand_soldier_attack_77: -8365753205593837884
+      sand_soldier_attack_78: -540773537213308731
+      sand_soldier_attack_79: -1851044716303085382
+      sand_soldier_attack_8: 2911809828982663962
+      sand_soldier_attack_80: 4476341987401574482
+      sand_soldier_attack_81: 6243537010108075522
+      sand_soldier_attack_82: 3077674097081550035
+      sand_soldier_attack_83: 6199352780621903911
+      sand_soldier_attack_84: 5480683020084994854
+      sand_soldier_attack_85: 460915038603947231
+      sand_soldier_attack_86: 3710635965678790473
+      sand_soldier_attack_87: 3773114622390767569
+      sand_soldier_attack_88: 7857641422700301351
+      sand_soldier_attack_89: -7091115150998526783
+      sand_soldier_attack_9: -328905879943960108
+      sand_soldier_attack_90: -8299976696327112404
+      sand_soldier_attack_91: 5139497127597798034
+      sand_soldier_attack_92: 8856123989846381457
+      sand_soldier_attack_93: -5829058981471893155
+      sand_soldier_attack_94: -598468139955032479
+      sand_soldier_attack_95: -5344429597122928795
+      sand_soldier_attack_96: -6694161897187993140
+      sand_soldier_attack_97: 6465476045118003321
+      sand_soldier_attack_98: -9161119557531140044
+      sand_soldier_attack_99: 8327612483610452762
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 844b97728009a50478084ab9b2fa3533
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3906952426216044414
+    second: ivern_idle_0
+  - first:
+      213: -1118387760031862693
+    second: ivern_idle_1
+  - first:
+      213: -4307647777173501287
+    second: ivern_idle_2
+  - first:
+      213: 7661684339572023109
+    second: ivern_idle_3
+  - first:
+      213: 5408103492648551027
+    second: ivern_idle_4
+  - first:
+      213: -8449144999748152808
+    second: ivern_idle_5
+  - first:
+      213: 115822754968721441
+    second: ivern_idle_6
+  - first:
+      213: 7292140054788591485
+    second: ivern_idle_7
+  - first:
+      213: -1395663299324994523
+    second: ivern_idle_8
+  - first:
+      213: 2821779002923205396
+    second: ivern_idle_9
+  - first:
+      213: 4928747026646344665
+    second: ivern_idle_10
+  - first:
+      213: 7587308472098413478
+    second: ivern_idle_11
+  - first:
+      213: -7071367607531003396
+    second: ivern_idle_12
+  - first:
+      213: -9117060014161820779
+    second: ivern_idle_13
+  - first:
+      213: 8941046511520537439
+    second: ivern_idle_14
+  - first:
+      213: -3821053632442038243
+    second: ivern_idle_15
+  - first:
+      213: -7327087880084161118
+    second: ivern_idle_16
+  - first:
+      213: 1602290971150110833
+    second: ivern_idle_17
+  - first:
+      213: -5111405292375993959
+    second: ivern_idle_18
+  - first:
+      213: 3819400139506047679
+    second: ivern_idle_19
+  - first:
+      213: 8943945175372365455
+    second: ivern_idle_20
+  - first:
+      213: 4638674070472009257
+    second: ivern_idle_21
+  - first:
+      213: 7466742054411188477
+    second: ivern_idle_22
+  - first:
+      213: 3216098910758527293
+    second: ivern_idle_23
+  - first:
+      213: -2292329944019566923
+    second: ivern_idle_24
+  - first:
+      213: 5020433174314984307
+    second: ivern_idle_25
+  - first:
+      213: 3721433291136143615
+    second: ivern_idle_26
+  - first:
+      213: 473199847666176782
+    second: ivern_idle_27
+  - first:
+      213: -7793896839436127981
+    second: ivern_idle_28
+  - first:
+      213: 5097484683401089925
+    second: ivern_idle_29
+  - first:
+      213: 7412984935156150579
+    second: ivern_idle_30
+  - first:
+      213: -4233542495157900279
+    second: ivern_idle_31
+  - first:
+      213: 216993389682039864
+    second: ivern_idle_32
+  - first:
+      213: -7684387511772289593
+    second: ivern_idle_33
+  - first:
+      213: -2307221874104781471
+    second: ivern_idle_34
+  - first:
+      213: -4250284418275652356
+    second: ivern_idle_35
+  - first:
+      213: 6681030632631981078
+    second: ivern_idle_36
+  - first:
+      213: 5079544868211456707
+    second: ivern_idle_37
+  - first:
+      213: -7401254625570405534
+    second: ivern_idle_38
+  - first:
+      213: -2460825017847773301
+    second: ivern_idle_39
+  - first:
+      213: -18829964312167137
+    second: ivern_idle_40
+  - first:
+      213: 3466094829938556959
+    second: ivern_idle_41
+  - first:
+      213: 698699735467720979
+    second: ivern_idle_42
+  - first:
+      213: 3359203286571400578
+    second: ivern_idle_43
+  - first:
+      213: -9045256465749289948
+    second: ivern_idle_44
+  - first:
+      213: -2631665712462562187
+    second: ivern_idle_45
+  - first:
+      213: -8977735589279741862
+    second: ivern_idle_46
+  - first:
+      213: -4406647118690365612
+    second: ivern_idle_47
+  - first:
+      213: 6792464075579660471
+    second: ivern_idle_48
+  - first:
+      213: -3867600661642318885
+    second: ivern_idle_49
+  - first:
+      213: 6185789567699413998
+    second: ivern_idle_50
+  - first:
+      213: -6152960673249747948
+    second: ivern_idle_51
+  - first:
+      213: 1151942110023706547
+    second: ivern_idle_52
+  - first:
+      213: -8077278379224164420
+    second: ivern_idle_53
+  - first:
+      213: 7273722418637677887
+    second: ivern_idle_54
+  - first:
+      213: 5810398791136606872
+    second: ivern_idle_55
+  - first:
+      213: -3734482043883063243
+    second: ivern_idle_56
+  - first:
+      213: 5347976696262605972
+    second: ivern_idle_57
+  - first:
+      213: -6881675604334075906
+    second: ivern_idle_58
+  - first:
+      213: 7518112612916347189
+    second: ivern_idle_59
+  - first:
+      213: -1787250218151522394
+    second: ivern_idle_60
+  - first:
+      213: 8126420064233263724
+    second: ivern_idle_61
+  - first:
+      213: -107853717767318984
+    second: ivern_idle_62
+  - first:
+      213: -6033378108815427127
+    second: ivern_idle_63
+  - first:
+      213: 6569870093542204109
+    second: ivern_idle_64
+  - first:
+      213: 7079410827209061482
+    second: ivern_idle_65
+  - first:
+      213: -5554564391273054773
+    second: ivern_idle_66
+  - first:
+      213: -6078481582854314262
+    second: ivern_idle_67
+  - first:
+      213: -5007147881444050629
+    second: ivern_idle_68
+  - first:
+      213: -5082043784714749263
+    second: ivern_idle_69
+  - first:
+      213: -1249061315839876427
+    second: ivern_idle_70
+  - first:
+      213: -4408267485764221283
+    second: ivern_idle_71
+  - first:
+      213: 3189190439779270649
+    second: ivern_idle_72
+  - first:
+      213: -8173823795913990802
+    second: ivern_idle_73
+  - first:
+      213: -8454381956227895875
+    second: ivern_idle_74
+  - first:
+      213: 4802527648225665897
+    second: ivern_idle_75
+  - first:
+      213: 5546303558158889358
+    second: ivern_idle_76
+  - first:
+      213: 8447284415559605041
+    second: ivern_idle_77
+  - first:
+      213: -2357171499755488875
+    second: ivern_idle_78
+  - first:
+      213: -5102216695378984388
+    second: ivern_idle_79
+  - first:
+      213: 1923465813234481483
+    second: ivern_idle_80
+  - first:
+      213: -4888196942909062272
+    second: ivern_idle_81
+  - first:
+      213: 7296316981802497194
+    second: ivern_idle_82
+  - first:
+      213: 5546253664365144992
+    second: ivern_idle_83
+  - first:
+      213: 1568310712564497441
+    second: ivern_idle_84
+  - first:
+      213: -8501008408976911392
+    second: ivern_idle_85
+  - first:
+      213: 4050327856449679726
+    second: ivern_idle_86
+  - first:
+      213: -2270284391408284245
+    second: ivern_idle_87
+  - first:
+      213: 7257955697565857900
+    second: ivern_idle_88
+  - first:
+      213: -5571286772013412493
+    second: ivern_idle_89
+  - first:
+      213: 6072871405952279771
+    second: ivern_idle_90
+  - first:
+      213: 7645591010470629123
+    second: ivern_idle_91
+  - first:
+      213: -4973093123741651196
+    second: ivern_idle_92
+  - first:
+      213: 287232907873397604
+    second: ivern_idle_93
+  - first:
+      213: -1951175640404199256
+    second: ivern_idle_94
+  - first:
+      213: -4643805995220365653
+    second: ivern_idle_95
+  - first:
+      213: 7253298077794881232
+    second: ivern_idle_96
+  - first:
+      213: -1028951689482824007
+    second: ivern_idle_97
+  - first:
+      213: 1338429217426756749
+    second: ivern_idle_98
+  - first:
+      213: -9078791413976683332
+    second: ivern_idle_99
+  - first:
+      213: 3649760126291803776
+    second: ivern_idle_100
+  - first:
+      213: -3776143590383547481
+    second: ivern_idle_101
+  - first:
+      213: 1504522745451473566
+    second: ivern_idle_102
+  - first:
+      213: -4758788349073684053
+    second: ivern_idle_103
+  - first:
+      213: -2959498015571896007
+    second: ivern_idle_104
+  - first:
+      213: 652347759645427566
+    second: ivern_idle_105
+  - first:
+      213: 7135318460483843712
+    second: ivern_idle_106
+  - first:
+      213: -4319909884706850769
+    second: ivern_idle_107
+  - first:
+      213: 8616735284204595340
+    second: ivern_idle_108
+  - first:
+      213: 6504963921589164300
+    second: ivern_idle_109
+  - first:
+      213: 6139430593135892705
+    second: ivern_idle_110
+  - first:
+      213: 7810702650997043387
+    second: ivern_idle_111
+  - first:
+      213: -24292733221986863
+    second: ivern_idle_112
+  - first:
+      213: -2166184120132356436
+    second: ivern_idle_113
+  - first:
+      213: 6932096043720697154
+    second: ivern_idle_114
+  - first:
+      213: -8060576192107066926
+    second: ivern_idle_115
+  - first:
+      213: 979423228801894341
+    second: ivern_idle_116
+  - first:
+      213: 2563120883217209623
+    second: ivern_idle_117
+  - first:
+      213: -3354845359056529335
+    second: ivern_idle_118
+  - first:
+      213: -3402158161320400681
+    second: ivern_idle_119
+  - first:
+      213: 4522228353843265512
+    second: ivern_idle_000
+  - first:
+      213: -1981898396080882267
+    second: ivern_idle_001
+  - first:
+      213: -1835253962551650640
+    second: ivern_idle_002
+  - first:
+      213: -7074485215543394202
+    second: ivern_idle_003
+  - first:
+      213: 6376918473578597279
+    second: ivern_idle_004
+  - first:
+      213: -7666838954166260202
+    second: ivern_idle_005
+  - first:
+      213: -4973839851787952659
+    second: ivern_idle_006
+  - first:
+      213: -6077770951110906855
+    second: ivern_idle_007
+  - first:
+      213: 5393766790727778399
+    second: ivern_idle_008
+  - first:
+      213: 3882396208897297784
+    second: ivern_idle_009
+  - first:
+      213: -1262098277426135780
+    second: ivern_idle_010
+  - first:
+      213: 2688177931905011801
+    second: ivern_idle_011
+  - first:
+      213: -5943304317838437115
+    second: ivern_idle_012
+  - first:
+      213: -8476181954799061372
+    second: ivern_idle_013
+  - first:
+      213: 1018223568299057722
+    second: ivern_idle_014
+  - first:
+      213: -7079805690017767752
+    second: ivern_idle_015
+  - first:
+      213: -8796343352023325889
+    second: ivern_idle_016
+  - first:
+      213: -1999172304822201100
+    second: ivern_idle_017
+  - first:
+      213: -7312513182539567131
+    second: ivern_idle_018
+  - first:
+      213: -3458595178734831992
+    second: ivern_idle_019
+  - first:
+      213: 5770899798512761421
+    second: ivern_idle_020
+  - first:
+      213: 8031743179903924958
+    second: ivern_idle_021
+  - first:
+      213: -6368707736540510333
+    second: ivern_idle_022
+  - first:
+      213: 938506892758867339
+    second: ivern_idle_023
+  - first:
+      213: -6703588347918381919
+    second: ivern_idle_024
+  - first:
+      213: 8659999309548720219
+    second: ivern_idle_025
+  - first:
+      213: 4756515447430961765
+    second: ivern_idle_026
+  - first:
+      213: 782048996069020545
+    second: ivern_idle_027
+  - first:
+      213: 2744177942051906310
+    second: ivern_idle_028
+  - first:
+      213: 6868241518383664201
+    second: ivern_idle_029
+  - first:
+      213: 6901414125857374870
+    second: ivern_idle_030
+  - first:
+      213: -3291166118576095076
+    second: ivern_idle_031
+  - first:
+      213: -4057792072528079763
+    second: ivern_idle_032
+  - first:
+      213: -8286768229347657356
+    second: ivern_idle_033
+  - first:
+      213: -6380728068482167140
+    second: ivern_idle_034
+  - first:
+      213: -6520956550801508144
+    second: ivern_idle_035
+  - first:
+      213: -8419336036233957116
+    second: ivern_idle_036
+  - first:
+      213: -6045578368692528165
+    second: ivern_idle_037
+  - first:
+      213: -5651978678996121279
+    second: ivern_idle_038
+  - first:
+      213: -7403372992200339975
+    second: ivern_idle_039
+  - first:
+      213: -2280736037753547949
+    second: ivern_idle_040
+  - first:
+      213: -2133958295694829815
+    second: ivern_idle_041
+  - first:
+      213: 5568459224128021662
+    second: ivern_idle_042
+  - first:
+      213: -7293159766304324680
+    second: ivern_idle_043
+  - first:
+      213: 4709215697505392421
+    second: ivern_idle_044
+  - first:
+      213: -6653294234067832724
+    second: ivern_idle_045
+  - first:
+      213: 4252895945725126596
+    second: ivern_idle_046
+  - first:
+      213: -6947951078955949027
+    second: ivern_idle_047
+  - first:
+      213: 3036508716888622025
+    second: ivern_idle_048
+  - first:
+      213: -4120607930781762852
+    second: ivern_idle_049
+  - first:
+      213: -2423126459355726098
+    second: ivern_idle_050
+  - first:
+      213: -6514893852004164338
+    second: ivern_idle_051
+  - first:
+      213: -5290735031694125270
+    second: ivern_idle_052
+  - first:
+      213: 4996314914652248100
+    second: ivern_idle_053
+  - first:
+      213: 131743582302211756
+    second: ivern_idle_054
+  - first:
+      213: -4840693819172460179
+    second: ivern_idle_055
+  - first:
+      213: -151930293216539737
+    second: ivern_idle_056
+  - first:
+      213: -4705204740622250086
+    second: ivern_idle_057
+  - first:
+      213: 6165643868165539688
+    second: ivern_idle_058
+  - first:
+      213: -1774198310473749434
+    second: ivern_idle_059
+  - first:
+      213: -1355144170777693671
+    second: ivern_idle_060
+  - first:
+      213: 2092210059181782450
+    second: ivern_idle_061
+  - first:
+      213: -8163184470542001562
+    second: ivern_idle_062
+  - first:
+      213: -4358059896311450045
+    second: ivern_idle_063
+  - first:
+      213: 5764096458779762993
+    second: ivern_idle_064
+  - first:
+      213: 3878633023003274589
+    second: ivern_idle_065
+  - first:
+      213: 3987237774543179725
+    second: ivern_idle_066
+  - first:
+      213: -1612840521486303843
+    second: ivern_idle_067
+  - first:
+      213: 7710027243110477411
+    second: ivern_idle_068
+  - first:
+      213: 1158668845299052636
+    second: ivern_idle_069
+  - first:
+      213: -5906338051936298155
+    second: ivern_idle_070
+  - first:
+      213: -8165068843415203280
+    second: ivern_idle_071
+  - first:
+      213: 4834707394858266905
+    second: ivern_idle_072
+  - first:
+      213: -6469568423582018639
+    second: ivern_idle_073
+  - first:
+      213: -1747267079664208985
+    second: ivern_idle_074
+  - first:
+      213: -1043393391561117756
+    second: ivern_idle_075
+  - first:
+      213: -617744004025858399
+    second: ivern_idle_076
+  - first:
+      213: -6976785976150698916
+    second: ivern_idle_077
+  - first:
+      213: -7328344610912517250
+    second: ivern_idle_078
+  - first:
+      213: 6131442493404664413
+    second: ivern_idle_079
+  - first:
+      213: -967973812793409327
+    second: ivern_idle_080
+  - first:
+      213: 967692718241764086
+    second: ivern_idle_081
+  - first:
+      213: 7795625368349375818
+    second: ivern_idle_082
+  - first:
+      213: -2177724481989734507
+    second: ivern_idle_083
+  - first:
+      213: -4204855682138058457
+    second: ivern_idle_084
+  - first:
+      213: -6852770552094002157
+    second: ivern_idle_085
+  - first:
+      213: -5601749828615470183
+    second: ivern_idle_086
+  - first:
+      213: -2368188366357104147
+    second: ivern_idle_087
+  - first:
+      213: 3365253331781975658
+    second: ivern_idle_088
+  - first:
+      213: 8015730664673426387
+    second: ivern_idle_089
+  - first:
+      213: -870463502603020574
+    second: ivern_idle_090
+  - first:
+      213: 1040231907321991974
+    second: ivern_idle_091
+  - first:
+      213: 8688496238771865383
+    second: ivern_idle_092
+  - first:
+      213: -4456870048886660459
+    second: ivern_idle_093
+  - first:
+      213: 3098755392835243453
+    second: ivern_idle_094
+  - first:
+      213: -2058424894471337407
+    second: ivern_idle_095
+  - first:
+      213: 6626236443417126784
+    second: ivern_idle_096
+  - first:
+      213: -6458008149316099081
+    second: ivern_idle_097
+  - first:
+      213: -8442556862200116662
+    second: ivern_idle_098
+  - first:
+      213: -1590381106142177090
+    second: ivern_idle_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ivern_idle_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eff6006abe22ce30800000000000000
+      internalID: 4522228353843265512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5adbea8c8e1ee74e0800000000000000
+      internalID: -1981898396080882267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b61b71ae3ed786e0800000000000000
+      internalID: -1835253962551650640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66088cebd2162dd90800000000000000
+      internalID: -7074485215543394202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9b474bb09d5f7850800000000000000
+      internalID: 6376918473578597279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61eeac2879ae99590800000000000000
+      internalID: -7666838954166260202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded5f70e10f59fab0800000000000000
+      internalID: -4973839851787952659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ca8d8758b67aba0800000000000000
+      internalID: -6077770951110906855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50c0aa91528ada40800000000000000
+      internalID: 5393766790727778399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d85ac38ca01e530800000000000000
+      internalID: 3882396208897297784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1df166bd402c7ee0800000000000000
+      internalID: -1262098277426135780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9501e3426935e4520800000000000000
+      internalID: 2688177931905011801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505d13f3634258da0800000000000000
+      internalID: -5943304317838437115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48630acbb6d8e5a80800000000000000
+      internalID: -8476181954799061372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32656ac0f4712e00800000000000000
+      internalID: 1018223568299057722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be93bf3c3a7fbd90800000000000000
+      internalID: -7079805690017767752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33e74c835c1de580800000000000000
+      internalID: -8796343352023325889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4164e71638144e0800000000000000
+      internalID: -1999172304822201100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef2e5bf00cb48a90800000000000000
+      internalID: -7312513182539567131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886b1a5620a9000d0800000000000000
+      internalID: -3458595178734831992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4af9bc8aca561050800000000000000
+      internalID: 5770899798512761421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edaf65d3edb767f60800000000000000
+      internalID: 8031743179903924958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38788357e0ecd97a0800000000000000
+      internalID: -6368707736540510333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8dd52aeb0f360d00800000000000000
+      internalID: 938506892758867339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac80e92ae118f2a0800000000000000
+      internalID: -6703588347918381919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5097c84d7f7e2870800000000000000
+      internalID: 8659999309548720219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ad7cc2999820240800000000000000
+      internalID: 4756515447430961765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18315af1b656ada00800000000000000
+      internalID: 782048996069020545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603677c8c47451620800000000000000
+      internalID: 2744177942051906310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c09de7545e05f50800000000000000
+      internalID: 6868241518383664201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692879b059fb6cf50800000000000000
+      internalID: 6901414125857374870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90887d3add6352d0800000000000000
+      internalID: -3291166118576095076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d645190fb93dfa7c0800000000000000
+      internalID: -4057792072528079763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4797db9533c7ffc80800000000000000
+      internalID: -8286768229347657356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e81c5d0a91377a0800000000000000
+      internalID: -6380728068482167140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d838b90198e085a0800000000000000
+      internalID: -6520956550801508144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40131ab8b72882b80800000000000000
+      internalID: -8419336036233957116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdbdb48218ac91ca0800000000000000
+      internalID: -6045578368692528165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149ca5046532091b0800000000000000
+      internalID: -5651978678996121279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd8d240d7fe14990800000000000000
+      internalID: -7403372992200339975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353944358a23950e0800000000000000
+      internalID: -2280736037753547949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9079c9b7c38a262e0800000000000000
+      internalID: -2133958295694829815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e94e5605924274d40800000000000000
+      internalID: 5568459224128021662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3824755dd79ca90800000000000000
+      internalID: -7293159766304324680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5279084f9be7a5140800000000000000
+      internalID: 4709215697505392421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c607b301520caa3a0800000000000000
+      internalID: -6653294234067832724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c725af6452550b30800000000000000
+      internalID: 4252895945725126596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d14e9063e4be39f90800000000000000
+      internalID: -6947951078955949027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c306830798d32a20800000000000000
+      internalID: 3036508716888622025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda781b3be8a0d6c0800000000000000
+      internalID: -4120607930781762852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee7040d2535f5ed0800000000000000
+      internalID: -2423126459355726098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d5ae91f827695a0800000000000000
+      internalID: -6514893852004164338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27182b25888396b0800000000000000
+      internalID: -5290735031694125270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42855d971f9765540800000000000000
+      internalID: 4996314914652248100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae8f80171c04d100800000000000000
+      internalID: 131743582302211756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69ebc95e9662dcb0800000000000000
+      internalID: -4840693819172460179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab053a043c34edf0800000000000000
+      internalID: -151930293216539737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f0ab7b731c3beb0800000000000000
+      internalID: -4705204740622250086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867829d5e64c09550800000000000000
+      internalID: 6165643868165539688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c2d176908c067e0800000000000000
+      internalID: -1774198310473749434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912ba597e8f813de0800000000000000
+      internalID: -1355144170777693671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5770db6f5090d10800000000000000
+      internalID: 2092210059181782450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66adb5579fa86be80800000000000000
+      internalID: -8163184470542001562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346fa724d9f0583c0800000000000000
+      internalID: -4358059896311450045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131a7a4903f2eff40800000000000000
+      internalID: 5764096458779762993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5da53e3f2ca3d530800000000000000
+      internalID: 3878633023003274589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf4aa271a3855730800000000000000
+      internalID: 3987237774543179725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9df375471a0e99e0800000000000000
+      internalID: -1612840521486303843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36e2f2a9de48ffa60800000000000000
+      internalID: 7710027243110477411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50bc580d2b641010800000000000000
+      internalID: 1158668845299052636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bd6fab5d8780ea0800000000000000
+      internalID: -5906338051936298155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03290a5b529dfae80800000000000000
+      internalID: -8165068843415203280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9113b7f92c4581340800000000000000
+      internalID: 4834707394858266905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b35f46cbc97736a0800000000000000
+      internalID: -6469568423582018639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a371e439d570c7e0800000000000000
+      internalID: -1747267079664208985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf620f0d3f1581f0800000000000000
+      internalID: -1043393391561117756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a649ede9155d67f0800000000000000
+      internalID: -617744004025858399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c545c998e1a7d2f90800000000000000
+      internalID: -6976785976150698916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7349e2576d7c4a90800000000000000
+      internalID: -7328344610912517250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52de144672471550800000000000000
+      internalID: 6131442493404664413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0819022f01192f0800000000000000
+      internalID: -967973812793409327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f25882766fed6d00800000000000000
+      internalID: 967692718241764086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dfc7238ff9f2c60800000000000000
+      internalID: 7795625368349375818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f84582f1b27c1e0800000000000000
+      internalID: -2177724481989734507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721d06e090a55a5c0800000000000000
+      internalID: -4204855682138058457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314fd2b8d7116e0a0800000000000000
+      internalID: -6852770552094002157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99305c0d5369242b0800000000000000
+      internalID: -5601749828615470183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de9721e5a31822fd0800000000000000
+      internalID: -2368188366357104147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e701c4318c3be20800000000000000
+      internalID: 3365253331781975658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dbb01302989d3f60800000000000000
+      internalID: 8015730664673426387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e697696e0e7be3f0800000000000000
+      internalID: -870463502603020574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62354f78865af6e00800000000000000
+      internalID: 1040231907321991974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7278058ab4db39870800000000000000
+      internalID: 8688496238771865383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5926806dd440622c0800000000000000
+      internalID: -4456870048886660459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd45c3ac9df00b20800000000000000
+      internalID: 3098755392835243453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a0738e6710f63e0800000000000000
+      internalID: -2058424894471337407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08720af10fe15fb50800000000000000
+      internalID: 6626236443417126784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3af6fddcb8066a0800000000000000
+      internalID: -6458008149316099081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a8680b34306da80800000000000000
+      internalID: -8442556862200116662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb817e66fc4dde9e0800000000000000
+      internalID: -1590381106142177090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ef1036f7d86a230800000000000000
+      internalID: 3649760126291803776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab02525961789bc0800000000000000
+      internalID: -3776143590383547481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9a6127377321e410800000000000000
+      internalID: 1504522745451473566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9023ca53365fdb0800000000000000
+      internalID: -4758788349073684053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9391d542c30cde6d0800000000000000
+      internalID: -2959498015571896007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6700b3c4da9d0900800000000000000
+      internalID: 652347759645427566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0863d64d55eb50360800000000000000
+      internalID: 7135318460483843712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28795409d89c04c0800000000000000
+      internalID: -4319909884706850769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c88e69a661bc49770800000000000000
+      internalID: 8616735284204595340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09dd0fc836464a50800000000000000
+      internalID: 6504963921589164300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8d70ba893a33550800000000000000
+      internalID: 6139430593135892705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb071ee9da0356c60800000000000000
+      internalID: 7810702650997043387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd1ea943e1b9aff0800000000000000
+      internalID: -24292733221986863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca63b69050b20f1e0800000000000000
+      internalID: -2166184120132356436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245ecdabf90c33060800000000000000
+      internalID: 6932096043720697154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9cc78f8a4132090800000000000000
+      internalID: -8060576192107066926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7c085cc3c979d00800000000000000
+      internalID: 979423228801894341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7191c800dd8029320800000000000000
+      internalID: 2563120883217209623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9485111bbe13171d0800000000000000
+      internalID: -3354845359056529335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ivern_idle_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d82dcc7d2b19c0d0800000000000000
+      internalID: -3402158161320400681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ivern_idle_0: -3906952426216044414
+      ivern_idle_000: 4522228353843265512
+      ivern_idle_001: -1981898396080882267
+      ivern_idle_002: -1835253962551650640
+      ivern_idle_003: -7074485215543394202
+      ivern_idle_004: 6376918473578597279
+      ivern_idle_005: -7666838954166260202
+      ivern_idle_006: -4973839851787952659
+      ivern_idle_007: -6077770951110906855
+      ivern_idle_008: 5393766790727778399
+      ivern_idle_009: 3882396208897297784
+      ivern_idle_010: -1262098277426135780
+      ivern_idle_011: 2688177931905011801
+      ivern_idle_012: -5943304317838437115
+      ivern_idle_013: -8476181954799061372
+      ivern_idle_014: 1018223568299057722
+      ivern_idle_015: -7079805690017767752
+      ivern_idle_016: -8796343352023325889
+      ivern_idle_017: -1999172304822201100
+      ivern_idle_018: -7312513182539567131
+      ivern_idle_019: -3458595178734831992
+      ivern_idle_020: 5770899798512761421
+      ivern_idle_021: 8031743179903924958
+      ivern_idle_022: -6368707736540510333
+      ivern_idle_023: 938506892758867339
+      ivern_idle_024: -6703588347918381919
+      ivern_idle_025: 8659999309548720219
+      ivern_idle_026: 4756515447430961765
+      ivern_idle_027: 782048996069020545
+      ivern_idle_028: 2744177942051906310
+      ivern_idle_029: 6868241518383664201
+      ivern_idle_030: 6901414125857374870
+      ivern_idle_031: -3291166118576095076
+      ivern_idle_032: -4057792072528079763
+      ivern_idle_033: -8286768229347657356
+      ivern_idle_034: -6380728068482167140
+      ivern_idle_035: -6520956550801508144
+      ivern_idle_036: -8419336036233957116
+      ivern_idle_037: -6045578368692528165
+      ivern_idle_038: -5651978678996121279
+      ivern_idle_039: -7403372992200339975
+      ivern_idle_040: -2280736037753547949
+      ivern_idle_041: -2133958295694829815
+      ivern_idle_042: 5568459224128021662
+      ivern_idle_043: -7293159766304324680
+      ivern_idle_044: 4709215697505392421
+      ivern_idle_045: -6653294234067832724
+      ivern_idle_046: 4252895945725126596
+      ivern_idle_047: -6947951078955949027
+      ivern_idle_048: 3036508716888622025
+      ivern_idle_049: -4120607930781762852
+      ivern_idle_050: -2423126459355726098
+      ivern_idle_051: -6514893852004164338
+      ivern_idle_052: -5290735031694125270
+      ivern_idle_053: 4996314914652248100
+      ivern_idle_054: 131743582302211756
+      ivern_idle_055: -4840693819172460179
+      ivern_idle_056: -151930293216539737
+      ivern_idle_057: -4705204740622250086
+      ivern_idle_058: 6165643868165539688
+      ivern_idle_059: -1774198310473749434
+      ivern_idle_060: -1355144170777693671
+      ivern_idle_061: 2092210059181782450
+      ivern_idle_062: -8163184470542001562
+      ivern_idle_063: -4358059896311450045
+      ivern_idle_064: 5764096458779762993
+      ivern_idle_065: 3878633023003274589
+      ivern_idle_066: 3987237774543179725
+      ivern_idle_067: -1612840521486303843
+      ivern_idle_068: 7710027243110477411
+      ivern_idle_069: 1158668845299052636
+      ivern_idle_070: -5906338051936298155
+      ivern_idle_071: -8165068843415203280
+      ivern_idle_072: 4834707394858266905
+      ivern_idle_073: -6469568423582018639
+      ivern_idle_074: -1747267079664208985
+      ivern_idle_075: -1043393391561117756
+      ivern_idle_076: -617744004025858399
+      ivern_idle_077: -6976785976150698916
+      ivern_idle_078: -7328344610912517250
+      ivern_idle_079: 6131442493404664413
+      ivern_idle_080: -967973812793409327
+      ivern_idle_081: 967692718241764086
+      ivern_idle_082: 7795625368349375818
+      ivern_idle_083: -2177724481989734507
+      ivern_idle_084: -4204855682138058457
+      ivern_idle_085: -6852770552094002157
+      ivern_idle_086: -5601749828615470183
+      ivern_idle_087: -2368188366357104147
+      ivern_idle_088: 3365253331781975658
+      ivern_idle_089: 8015730664673426387
+      ivern_idle_090: -870463502603020574
+      ivern_idle_091: 1040231907321991974
+      ivern_idle_092: 8688496238771865383
+      ivern_idle_093: -4456870048886660459
+      ivern_idle_094: 3098755392835243453
+      ivern_idle_095: -2058424894471337407
+      ivern_idle_096: 6626236443417126784
+      ivern_idle_097: -6458008149316099081
+      ivern_idle_098: -8442556862200116662
+      ivern_idle_099: -1590381106142177090
+      ivern_idle_1: -1118387760031862693
+      ivern_idle_10: 4928747026646344665
+      ivern_idle_100: 3649760126291803776
+      ivern_idle_101: -3776143590383547481
+      ivern_idle_102: 1504522745451473566
+      ivern_idle_103: -4758788349073684053
+      ivern_idle_104: -2959498015571896007
+      ivern_idle_105: 652347759645427566
+      ivern_idle_106: 7135318460483843712
+      ivern_idle_107: -4319909884706850769
+      ivern_idle_108: 8616735284204595340
+      ivern_idle_109: 6504963921589164300
+      ivern_idle_11: 7587308472098413478
+      ivern_idle_110: 6139430593135892705
+      ivern_idle_111: 7810702650997043387
+      ivern_idle_112: -24292733221986863
+      ivern_idle_113: -2166184120132356436
+      ivern_idle_114: 6932096043720697154
+      ivern_idle_115: -8060576192107066926
+      ivern_idle_116: 979423228801894341
+      ivern_idle_117: 2563120883217209623
+      ivern_idle_118: -3354845359056529335
+      ivern_idle_119: -3402158161320400681
+      ivern_idle_12: -7071367607531003396
+      ivern_idle_13: -9117060014161820779
+      ivern_idle_14: 8941046511520537439
+      ivern_idle_15: -3821053632442038243
+      ivern_idle_16: -7327087880084161118
+      ivern_idle_17: 1602290971150110833
+      ivern_idle_18: -5111405292375993959
+      ivern_idle_19: 3819400139506047679
+      ivern_idle_2: -4307647777173501287
+      ivern_idle_20: 8943945175372365455
+      ivern_idle_21: 4638674070472009257
+      ivern_idle_22: 7466742054411188477
+      ivern_idle_23: 3216098910758527293
+      ivern_idle_24: -2292329944019566923
+      ivern_idle_25: 5020433174314984307
+      ivern_idle_26: 3721433291136143615
+      ivern_idle_27: 473199847666176782
+      ivern_idle_28: -7793896839436127981
+      ivern_idle_29: 5097484683401089925
+      ivern_idle_3: 7661684339572023109
+      ivern_idle_30: 7412984935156150579
+      ivern_idle_31: -4233542495157900279
+      ivern_idle_32: 216993389682039864
+      ivern_idle_33: -7684387511772289593
+      ivern_idle_34: -2307221874104781471
+      ivern_idle_35: -4250284418275652356
+      ivern_idle_36: 6681030632631981078
+      ivern_idle_37: 5079544868211456707
+      ivern_idle_38: -7401254625570405534
+      ivern_idle_39: -2460825017847773301
+      ivern_idle_4: 5408103492648551027
+      ivern_idle_40: -18829964312167137
+      ivern_idle_41: 3466094829938556959
+      ivern_idle_42: 698699735467720979
+      ivern_idle_43: 3359203286571400578
+      ivern_idle_44: -9045256465749289948
+      ivern_idle_45: -2631665712462562187
+      ivern_idle_46: -8977735589279741862
+      ivern_idle_47: -4406647118690365612
+      ivern_idle_48: 6792464075579660471
+      ivern_idle_49: -3867600661642318885
+      ivern_idle_5: -8449144999748152808
+      ivern_idle_50: 6185789567699413998
+      ivern_idle_51: -6152960673249747948
+      ivern_idle_52: 1151942110023706547
+      ivern_idle_53: -8077278379224164420
+      ivern_idle_54: 7273722418637677887
+      ivern_idle_55: 5810398791136606872
+      ivern_idle_56: -3734482043883063243
+      ivern_idle_57: 5347976696262605972
+      ivern_idle_58: -6881675604334075906
+      ivern_idle_59: 7518112612916347189
+      ivern_idle_6: 115822754968721441
+      ivern_idle_60: -1787250218151522394
+      ivern_idle_61: 8126420064233263724
+      ivern_idle_62: -107853717767318984
+      ivern_idle_63: -6033378108815427127
+      ivern_idle_64: 6569870093542204109
+      ivern_idle_65: 7079410827209061482
+      ivern_idle_66: -5554564391273054773
+      ivern_idle_67: -6078481582854314262
+      ivern_idle_68: -5007147881444050629
+      ivern_idle_69: -5082043784714749263
+      ivern_idle_7: 7292140054788591485
+      ivern_idle_70: -1249061315839876427
+      ivern_idle_71: -4408267485764221283
+      ivern_idle_72: 3189190439779270649
+      ivern_idle_73: -8173823795913990802
+      ivern_idle_74: -8454381956227895875
+      ivern_idle_75: 4802527648225665897
+      ivern_idle_76: 5546303558158889358
+      ivern_idle_77: 8447284415559605041
+      ivern_idle_78: -2357171499755488875
+      ivern_idle_79: -5102216695378984388
+      ivern_idle_8: -1395663299324994523
+      ivern_idle_80: 1923465813234481483
+      ivern_idle_81: -4888196942909062272
+      ivern_idle_82: 7296316981802497194
+      ivern_idle_83: 5546253664365144992
+      ivern_idle_84: 1568310712564497441
+      ivern_idle_85: -8501008408976911392
+      ivern_idle_86: 4050327856449679726
+      ivern_idle_87: -2270284391408284245
+      ivern_idle_88: 7257955697565857900
+      ivern_idle_89: -5571286772013412493
+      ivern_idle_9: 2821779002923205396
+      ivern_idle_90: 6072871405952279771
+      ivern_idle_91: 7645591010470629123
+      ivern_idle_92: -4973093123741651196
+      ivern_idle_93: 287232907873397604
+      ivern_idle_94: -1951175640404199256
+      ivern_idle_95: -4643805995220365653
+      ivern_idle_96: 7253298077794881232
+      ivern_idle_97: -1028951689482824007
+      ivern_idle_98: 1338429217426756749
+      ivern_idle_99: -9078791413976683332
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

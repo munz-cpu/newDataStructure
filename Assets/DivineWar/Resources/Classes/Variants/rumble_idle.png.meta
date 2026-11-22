@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 3aebee2b304d2e14fb773078fc1cba3a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3117132841680271286
+    second: rumble_idle_0
+  - first:
+      213: -3153062605415590365
+    second: rumble_idle_1
+  - first:
+      213: -701342838062486387
+    second: rumble_idle_2
+  - first:
+      213: -2811259741654035192
+    second: rumble_idle_3
+  - first:
+      213: 9125106877928407758
+    second: rumble_idle_4
+  - first:
+      213: 1873536473204055372
+    second: rumble_idle_5
+  - first:
+      213: 8527701130576529548
+    second: rumble_idle_6
+  - first:
+      213: -7355646640879480828
+    second: rumble_idle_7
+  - first:
+      213: -4809032056181225145
+    second: rumble_idle_8
+  - first:
+      213: -3363468672585846947
+    second: rumble_idle_9
+  - first:
+      213: 6177307953131723378
+    second: rumble_idle_10
+  - first:
+      213: -137397286369344189
+    second: rumble_idle_11
+  - first:
+      213: -7020820763367052075
+    second: rumble_idle_12
+  - first:
+      213: -5117801015810337736
+    second: rumble_idle_13
+  - first:
+      213: 3673329565212464854
+    second: rumble_idle_14
+  - first:
+      213: -8531298383219861503
+    second: rumble_idle_15
+  - first:
+      213: -3912354859933563174
+    second: rumble_idle_16
+  - first:
+      213: 4919103211518974017
+    second: rumble_idle_17
+  - first:
+      213: -5788985871683775835
+    second: rumble_idle_18
+  - first:
+      213: 7492943189113104417
+    second: rumble_idle_19
+  - first:
+      213: 4012347097501239059
+    second: rumble_idle_20
+  - first:
+      213: -7194215127333787058
+    second: rumble_idle_21
+  - first:
+      213: 6677802292589419605
+    second: rumble_idle_22
+  - first:
+      213: -7629235901330365193
+    second: rumble_idle_23
+  - first:
+      213: 7016176225694270381
+    second: rumble_idle_24
+  - first:
+      213: -8795153220452154813
+    second: rumble_idle_25
+  - first:
+      213: 5051964346931500432
+    second: rumble_idle_26
+  - first:
+      213: -1692856610804716256
+    second: rumble_idle_27
+  - first:
+      213: 7461570386722508407
+    second: rumble_idle_28
+  - first:
+      213: -2988759292161080890
+    second: rumble_idle_29
+  - first:
+      213: -7811121459044609413
+    second: rumble_idle_30
+  - first:
+      213: 6434616907498500359
+    second: rumble_idle_31
+  - first:
+      213: -7955075531496458042
+    second: rumble_idle_32
+  - first:
+      213: 7167122309726749283
+    second: rumble_idle_33
+  - first:
+      213: 3818563591315336449
+    second: rumble_idle_34
+  - first:
+      213: -7423102420894008535
+    second: rumble_idle_35
+  - first:
+      213: -5593905522305863404
+    second: rumble_idle_36
+  - first:
+      213: -4346354974680237559
+    second: rumble_idle_37
+  - first:
+      213: 2580476481710586303
+    second: rumble_idle_38
+  - first:
+      213: -5164621508468514473
+    second: rumble_idle_39
+  - first:
+      213: 5198546764331767110
+    second: rumble_idle_40
+  - first:
+      213: 3886681729224701923
+    second: rumble_idle_41
+  - first:
+      213: 4567167729377384724
+    second: rumble_idle_42
+  - first:
+      213: -8393576221543397371
+    second: rumble_idle_43
+  - first:
+      213: 4218487581130157091
+    second: rumble_idle_44
+  - first:
+      213: -1708581887947551889
+    second: rumble_idle_45
+  - first:
+      213: -167147502381368337
+    second: rumble_idle_46
+  - first:
+      213: 5985873871049221619
+    second: rumble_idle_47
+  - first:
+      213: 6351805247789240005
+    second: rumble_idle_48
+  - first:
+      213: -4611765180108270288
+    second: rumble_idle_49
+  - first:
+      213: -4246271249055210726
+    second: rumble_idle_50
+  - first:
+      213: 3245964274802197524
+    second: rumble_idle_51
+  - first:
+      213: -1114224216398027813
+    second: rumble_idle_52
+  - first:
+      213: -1664763072602064601
+    second: rumble_idle_53
+  - first:
+      213: 4296072985774028766
+    second: rumble_idle_54
+  - first:
+      213: -2527597352489571171
+    second: rumble_idle_55
+  - first:
+      213: -4904709265184538815
+    second: rumble_idle_56
+  - first:
+      213: 7138251382403145680
+    second: rumble_idle_57
+  - first:
+      213: -3509816903839923682
+    second: rumble_idle_58
+  - first:
+      213: 941042024944181269
+    second: rumble_idle_59
+  - first:
+      213: 231263026753671305
+    second: rumble_idle_60
+  - first:
+      213: -4594477132112787339
+    second: rumble_idle_61
+  - first:
+      213: -2708824524930400123
+    second: rumble_idle_62
+  - first:
+      213: 7680809564079828567
+    second: rumble_idle_63
+  - first:
+      213: -2630911817896622500
+    second: rumble_idle_64
+  - first:
+      213: 6574239195845505288
+    second: rumble_idle_65
+  - first:
+      213: 6950648691696567313
+    second: rumble_idle_66
+  - first:
+      213: -5349201862903697758
+    second: rumble_idle_67
+  - first:
+      213: -3820403168942066892
+    second: rumble_idle_68
+  - first:
+      213: 5990293693564965038
+    second: rumble_idle_69
+  - first:
+      213: 3887237250851846399
+    second: rumble_idle_70
+  - first:
+      213: -1818367348974457933
+    second: rumble_idle_71
+  - first:
+      213: 1196949452942203829
+    second: rumble_idle_72
+  - first:
+      213: 6391606713298004296
+    second: rumble_idle_73
+  - first:
+      213: 7161381096438104159
+    second: rumble_idle_74
+  - first:
+      213: 822253554998507545
+    second: rumble_idle_75
+  - first:
+      213: 1477093999739251343
+    second: rumble_idle_76
+  - first:
+      213: 4306617300390147512
+    second: rumble_idle_77
+  - first:
+      213: 8020867700149931747
+    second: rumble_idle_78
+  - first:
+      213: -8741724334240786128
+    second: rumble_idle_79
+  - first:
+      213: -6362227628063645764
+    second: rumble_idle_80
+  - first:
+      213: 733913546876484634
+    second: rumble_idle_81
+  - first:
+      213: 5345731747260673997
+    second: rumble_idle_82
+  - first:
+      213: 9087880617632414567
+    second: rumble_idle_83
+  - first:
+      213: -1232180138034348077
+    second: rumble_idle_84
+  - first:
+      213: 8444338646588342462
+    second: rumble_idle_85
+  - first:
+      213: -2217544331282376658
+    second: rumble_idle_86
+  - first:
+      213: 7619021079176115408
+    second: rumble_idle_87
+  - first:
+      213: 4916464832511068186
+    second: rumble_idle_88
+  - first:
+      213: 2091837078740978767
+    second: rumble_idle_89
+  - first:
+      213: -352272816659257513
+    second: rumble_idle_90
+  - first:
+      213: 1327613604634302076
+    second: rumble_idle_91
+  - first:
+      213: 369128080184474804
+    second: rumble_idle_92
+  - first:
+      213: -4084007960699184542
+    second: rumble_idle_93
+  - first:
+      213: -1294443995995857707
+    second: rumble_idle_94
+  - first:
+      213: -2328397009011978953
+    second: rumble_idle_95
+  - first:
+      213: -5307522647471059895
+    second: rumble_idle_96
+  - first:
+      213: -101256659418720550
+    second: rumble_idle_97
+  - first:
+      213: 5209377690312493746
+    second: rumble_idle_98
+  - first:
+      213: -6495453165616406580
+    second: rumble_idle_99
+  - first:
+      213: 6982175624897467549
+    second: rumble_idle_100
+  - first:
+      213: 3983730734849832656
+    second: rumble_idle_101
+  - first:
+      213: 1295147042695800325
+    second: rumble_idle_102
+  - first:
+      213: 7874282071004719003
+    second: rumble_idle_103
+  - first:
+      213: -3604992630088280335
+    second: rumble_idle_104
+  - first:
+      213: 5529919991263901929
+    second: rumble_idle_105
+  - first:
+      213: 1311171162472877044
+    second: rumble_idle_106
+  - first:
+      213: -5705704120175467718
+    second: rumble_idle_107
+  - first:
+      213: -5335684652749654673
+    second: rumble_idle_108
+  - first:
+      213: -8690658853485389813
+    second: rumble_idle_109
+  - first:
+      213: 7494371876191412465
+    second: rumble_idle_110
+  - first:
+      213: 568992630736151722
+    second: rumble_idle_111
+  - first:
+      213: 5694181488015991347
+    second: rumble_idle_112
+  - first:
+      213: -3976532428152663648
+    second: rumble_idle_113
+  - first:
+      213: 748782922776753130
+    second: rumble_idle_114
+  - first:
+      213: -3179800832879991539
+    second: rumble_idle_115
+  - first:
+      213: 7965356732806012941
+    second: rumble_idle_116
+  - first:
+      213: -9195784520173415039
+    second: rumble_idle_117
+  - first:
+      213: 7812206589361414476
+    second: rumble_idle_118
+  - first:
+      213: -4430191270630860205
+    second: rumble_idle_119
+  - first:
+      213: 6369391664524905154
+    second: rumble_idle_000
+  - first:
+      213: 5400645081291219235
+    second: rumble_idle_001
+  - first:
+      213: 5798530214082842056
+    second: rumble_idle_002
+  - first:
+      213: 5831543144810645628
+    second: rumble_idle_003
+  - first:
+      213: 5857243300097434243
+    second: rumble_idle_004
+  - first:
+      213: 857164135527566465
+    second: rumble_idle_005
+  - first:
+      213: 7430817631578358483
+    second: rumble_idle_006
+  - first:
+      213: -8498996941225943480
+    second: rumble_idle_007
+  - first:
+      213: 8267023418948767852
+    second: rumble_idle_008
+  - first:
+      213: 1661259237515689504
+    second: rumble_idle_009
+  - first:
+      213: 2467960950280444419
+    second: rumble_idle_010
+  - first:
+      213: -875238279551040874
+    second: rumble_idle_011
+  - first:
+      213: 4291025974713563081
+    second: rumble_idle_012
+  - first:
+      213: -7091262341453581102
+    second: rumble_idle_013
+  - first:
+      213: 285966148969744593
+    second: rumble_idle_014
+  - first:
+      213: 1785052518018051456
+    second: rumble_idle_015
+  - first:
+      213: -6986013055193408431
+    second: rumble_idle_016
+  - first:
+      213: -5584782999889291840
+    second: rumble_idle_017
+  - first:
+      213: -4221753375223546352
+    second: rumble_idle_018
+  - first:
+      213: -441539544940894740
+    second: rumble_idle_019
+  - first:
+      213: -638971573106190101
+    second: rumble_idle_020
+  - first:
+      213: 1528808954959754852
+    second: rumble_idle_021
+  - first:
+      213: -1135811529978268180
+    second: rumble_idle_022
+  - first:
+      213: -2885362403353476518
+    second: rumble_idle_023
+  - first:
+      213: -3793042913359209714
+    second: rumble_idle_024
+  - first:
+      213: 3424375863813883127
+    second: rumble_idle_025
+  - first:
+      213: 6895065336787382520
+    second: rumble_idle_026
+  - first:
+      213: -5473032563199782109
+    second: rumble_idle_027
+  - first:
+      213: -6833303400011149474
+    second: rumble_idle_028
+  - first:
+      213: -6160615556720861975
+    second: rumble_idle_029
+  - first:
+      213: 2401390925802035428
+    second: rumble_idle_030
+  - first:
+      213: 3276068182582832901
+    second: rumble_idle_031
+  - first:
+      213: 8142168860707833487
+    second: rumble_idle_032
+  - first:
+      213: 8372950261823758273
+    second: rumble_idle_033
+  - first:
+      213: -4901033664812248066
+    second: rumble_idle_034
+  - first:
+      213: 5450709501856587720
+    second: rumble_idle_035
+  - first:
+      213: -2257437565438648129
+    second: rumble_idle_036
+  - first:
+      213: -3845094748830952748
+    second: rumble_idle_037
+  - first:
+      213: -1779618108046082197
+    second: rumble_idle_038
+  - first:
+      213: 3259410362875771252
+    second: rumble_idle_039
+  - first:
+      213: -6534997517369839041
+    second: rumble_idle_040
+  - first:
+      213: 3250063817108944229
+    second: rumble_idle_041
+  - first:
+      213: -3555810323828386443
+    second: rumble_idle_042
+  - first:
+      213: -1939484511464665288
+    second: rumble_idle_043
+  - first:
+      213: 8541496444462314733
+    second: rumble_idle_044
+  - first:
+      213: 6956947759079835472
+    second: rumble_idle_045
+  - first:
+      213: 4351063377583199941
+    second: rumble_idle_046
+  - first:
+      213: -1291795951762208512
+    second: rumble_idle_047
+  - first:
+      213: -7512445067615219574
+    second: rumble_idle_048
+  - first:
+      213: 6502617238747349340
+    second: rumble_idle_049
+  - first:
+      213: -420340502155671340
+    second: rumble_idle_050
+  - first:
+      213: 5252226337524636763
+    second: rumble_idle_051
+  - first:
+      213: 4290301155800538817
+    second: rumble_idle_052
+  - first:
+      213: -2169447366594539700
+    second: rumble_idle_053
+  - first:
+      213: 3154288619274856782
+    second: rumble_idle_054
+  - first:
+      213: 6089748414593430671
+    second: rumble_idle_055
+  - first:
+      213: 9153423484822138286
+    second: rumble_idle_056
+  - first:
+      213: -5793390873002279294
+    second: rumble_idle_057
+  - first:
+      213: 4668712789266172310
+    second: rumble_idle_058
+  - first:
+      213: 2863664236284861038
+    second: rumble_idle_059
+  - first:
+      213: -742037610976496259
+    second: rumble_idle_060
+  - first:
+      213: -1041142827672361781
+    second: rumble_idle_061
+  - first:
+      213: -2478202608810748656
+    second: rumble_idle_062
+  - first:
+      213: -2344835087200558010
+    second: rumble_idle_063
+  - first:
+      213: 2444216747112568113
+    second: rumble_idle_064
+  - first:
+      213: 6520038554719452271
+    second: rumble_idle_065
+  - first:
+      213: 3478944796631127507
+    second: rumble_idle_066
+  - first:
+      213: 8292335653501261501
+    second: rumble_idle_067
+  - first:
+      213: 8917896890133561004
+    second: rumble_idle_068
+  - first:
+      213: 7054799213589123603
+    second: rumble_idle_069
+  - first:
+      213: 8631959851839584757
+    second: rumble_idle_070
+  - first:
+      213: 7990070455392943015
+    second: rumble_idle_071
+  - first:
+      213: -3576275175627035420
+    second: rumble_idle_072
+  - first:
+      213: -7716707120800655499
+    second: rumble_idle_073
+  - first:
+      213: -6309227241756231326
+    second: rumble_idle_074
+  - first:
+      213: 4797188749459158323
+    second: rumble_idle_075
+  - first:
+      213: 8967700397717661823
+    second: rumble_idle_076
+  - first:
+      213: 5234053903242130123
+    second: rumble_idle_077
+  - first:
+      213: -1068326471920239579
+    second: rumble_idle_078
+  - first:
+      213: 1483427746785949662
+    second: rumble_idle_079
+  - first:
+      213: 3309950945703066591
+    second: rumble_idle_080
+  - first:
+      213: -5011263327149359992
+    second: rumble_idle_081
+  - first:
+      213: -5386426030040602427
+    second: rumble_idle_082
+  - first:
+      213: -2970709371022612266
+    second: rumble_idle_083
+  - first:
+      213: -3176169907870744172
+    second: rumble_idle_084
+  - first:
+      213: 5362652054141654215
+    second: rumble_idle_085
+  - first:
+      213: -7460275479234899630
+    second: rumble_idle_086
+  - first:
+      213: -4020580615653752088
+    second: rumble_idle_087
+  - first:
+      213: -7328744914293549580
+    second: rumble_idle_088
+  - first:
+      213: -6027257829896504177
+    second: rumble_idle_089
+  - first:
+      213: 3590240980371002399
+    second: rumble_idle_090
+  - first:
+      213: 2609661315954556453
+    second: rumble_idle_091
+  - first:
+      213: 3361195277574423257
+    second: rumble_idle_092
+  - first:
+      213: -8304562547724684181
+    second: rumble_idle_093
+  - first:
+      213: -6185739029903345856
+    second: rumble_idle_094
+  - first:
+      213: 1609931557219329422
+    second: rumble_idle_095
+  - first:
+      213: 8509141417181207192
+    second: rumble_idle_096
+  - first:
+      213: -2165980380535920679
+    second: rumble_idle_097
+  - first:
+      213: 6513496699884618396
+    second: rumble_idle_098
+  - first:
+      213: 2110733789572858562
+    second: rumble_idle_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rumble_idle_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca475fe8ff946850800000000000000
+      internalID: 6369391664524905154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 321e25c6612f2fa40800000000000000
+      internalID: 5400645081291219235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd07cdf184887050800000000000000
+      internalID: 5798530214082842056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c788dc6e79dcde050800000000000000
+      internalID: 5831543144810645628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38228599fbb194150800000000000000
+      internalID: 5857243300097434243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c43546d3245eb00800000000000000
+      internalID: 857164135527566465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d200f804419f1760800000000000000
+      internalID: 7430817631578358483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84e9813cf4f7d0a80800000000000000
+      internalID: -8498996941225943480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60d64cbffd5ab270800000000000000
+      internalID: 8267023418948767852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e75fb897afd0710800000000000000
+      internalID: 1661259237515689504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a50019865ff3220800000000000000
+      internalID: 2467960950280444419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69249850c678ad3f0800000000000000
+      internalID: -875238279551040874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7b6c0a369cc8b30800000000000000
+      internalID: 4291025974713563081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4fd88b876c69d90800000000000000
+      internalID: -7091262341453581102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8c02782b4f7f300800000000000000
+      internalID: 285966148969744593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08de1e9bec7c5c810800000000000000
+      internalID: 1785052518018051456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c94f8c322bc0f90800000000000000
+      internalID: -6986013055193408431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c555f7737dde72b0800000000000000
+      internalID: -5584782999889291840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e7e7c4ca15965c0800000000000000
+      internalID: -4221753375223546352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5a28d8f165fd9f0800000000000000
+      internalID: -441539544940894740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8de6b5dbae127f0800000000000000
+      internalID: -638971573106190101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466ffc105ab673510800000000000000
+      internalID: 1528808954959754852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce53ad76e69cc30f0800000000000000
+      internalID: -1135811529978268180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5249d37e2225f7d0800000000000000
+      internalID: -2885362403353476518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b596311976c5bc0800000000000000
+      internalID: -3793042913359209714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f44c0c74b3d58f20800000000000000
+      internalID: 3424375863813883127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f03256646130bf50800000000000000
+      internalID: 6895065336787382520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323d45291e1eb04b0800000000000000
+      internalID: -5473032563199782109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fcdd713ca3b21a0800000000000000
+      internalID: -6833303400011149474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec58ef9ac8118aa0800000000000000
+      internalID: -6160615556720861975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8d64be254735120800000000000000
+      internalID: 2401390925802035428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f2fca97aee67d20800000000000000
+      internalID: 3276068182582832901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86ccb3907bcef070800000000000000
+      internalID: 8142168860707833487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfd40eb6e1b23470800000000000000
+      internalID: 8372950261823758273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef392a049d70cfbb0800000000000000
+      internalID: -4901033664812248066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf1200b96fc4ab40800000000000000
+      internalID: 5450709501856587720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb02861ae78fba0e0800000000000000
+      internalID: -2257437565438648129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d21638b2ba73aac0800000000000000
+      internalID: -3845094748830952748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f7f0272c68d47e0800000000000000
+      internalID: -1779618108046082197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479ff68b470cb3d20800000000000000
+      internalID: 3259410362875771252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f327c11c1660f45a0800000000000000
+      internalID: -6534997517369839041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565f02472db8a1d20800000000000000
+      internalID: 3250063817108944229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575da87995937aec0800000000000000
+      internalID: -3555810323828386443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fc6c6dc119515e0800000000000000
+      internalID: -1939484511464665288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4307ee2cd798670800000000000000
+      internalID: 8541496444462314733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05747ec902b0c8060800000000000000
+      internalID: 6956947759079835472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6de08c615126c30800000000000000
+      internalID: 4351063377583199941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0090de41d6e921ee0800000000000000
+      internalID: -1291795951762208512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80d82e730f6eb790800000000000000
+      internalID: -7512445067615219574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c510ed12defed3a50800000000000000
+      internalID: 6502617238747349340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d84d445a86aa2af0800000000000000
+      internalID: -420340502155671340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c5b18c608a3e840800000000000000
+      internalID: 5252226337524636763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce50f29b263a8b30800000000000000
+      internalID: 4290301155800538817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4fc9334d1394e1e0800000000000000
+      internalID: -2169447366594539700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e496fee79c846cb20800000000000000
+      internalID: 3154288619274856782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84f65f0be1238450800000000000000
+      internalID: 6089748414593430671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eadaa8b992e770f70800000000000000
+      internalID: 9153423484822138286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e75b912bdb99fa0800000000000000
+      internalID: -5793390873002279294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6998882cb899ac040800000000000000
+      internalID: 4668712789266172310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6adfb75377cdb720800000000000000
+      internalID: 2863664236284861038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7534cb69b0c3b5f0800000000000000
+      internalID: -742037610976496259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc4a42c4d1e1d81f0800000000000000
+      internalID: -1041142827672361781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015936c7bd7ab9dd0800000000000000
+      internalID: -2478202608810748656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644e98269e8757fd0800000000000000
+      internalID: -2344835087200558010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13594b57e2a9be120800000000000000
+      internalID: 2444216747112568113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c77e75584db7a50800000000000000
+      internalID: 6520038554719452271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5546c3cd1b74030800000000000000
+      internalID: 3478944796631127507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6df39975b441370800000000000000
+      internalID: 8292335653501261501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caeb8f7f8fbb2cb70800000000000000
+      internalID: 8917896890133561004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3125fafb18ea7e160800000000000000
+      internalID: 7054799213589123603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9f45c40c1eac770800000000000000
+      internalID: 8631959851839584757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab3a08febe62ee60800000000000000
+      internalID: 7990070455392943015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ece3b9fca48e5ec0800000000000000
+      internalID: -3576275175627035420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57713fc22cfb8e490800000000000000
+      internalID: -7716707120800655499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269f6e7504f1178a0800000000000000
+      internalID: -6309227241756231326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335730440c9039240800000000000000
+      internalID: 4797188749459158323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f782712bffba37c70800000000000000
+      internalID: 8967700397717661823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc27ef53b4813a840800000000000000
+      internalID: 5234053903242130123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52c3c09ebba8c21f0800000000000000
+      internalID: -1068326471920239579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed772291da1369410800000000000000
+      internalID: 1483427746785949662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb799629de4fed20800000000000000
+      internalID: 3309950945703066591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cf1550e8a647ab0800000000000000
+      internalID: -5011263327149359992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8238e60129f35b0800000000000000
+      internalID: -5386426030040602427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8e549019be5c6d0800000000000000
+      internalID: -2970709371022612266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491441ffb4afbe3d0800000000000000
+      internalID: -3176169907870744172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4d12571a7fb6a40800000000000000
+      internalID: 5362652054141654215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25195a55af6c77890800000000000000
+      internalID: -7460275479234899630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e203256b370438c0800000000000000
+      internalID: -4020580615653752088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5151e64511b4a90800000000000000
+      internalID: -7328744914293549580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8cb35fffe0ea5ca0800000000000000
+      internalID: -6027257829896504177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f145015562913d130800000000000000
+      internalID: 3590240980371002399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ebc89e321673420800000000000000
+      internalID: 2609661315954556453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d24b8ceb4d55ae20800000000000000
+      internalID: 3361195277574423257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b647bdfbc5440cc80800000000000000
+      internalID: -8304562547724684181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04777513027d72aa0800000000000000
+      internalID: -6185739029903345856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e85efb4b830a75610800000000000000
+      internalID: 1609931557219329422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89a56aa190b861670800000000000000
+      internalID: 8509141417181207192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7e0bbd154e0f1e0800000000000000
+      internalID: -2165980380535920679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c924d421db6946a50800000000000000
+      internalID: 6513496699884618396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c287eec235da4d10800000000000000
+      internalID: 2110733789572858562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d949769dcbba5e060800000000000000
+      internalID: 6982175624897467549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6b7832ffd094730800000000000000
+      internalID: 3983730734849832656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506e7c39f5949f110800000000000000
+      internalID: 1295147042695800325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97a677e2d1174d60800000000000000
+      internalID: 7874282071004719003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6dfa19d4e78fdc0800000000000000
+      internalID: -3604992630088280335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8bd9beee83ebc40800000000000000
+      internalID: 5529919991263901929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb8ee2b937323210800000000000000
+      internalID: 1311171162472877044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a336573355441d0b0800000000000000
+      internalID: -5705704120175467718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f657a57f317d3f5b0800000000000000
+      internalID: -5335684652749654673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0856ed51d3946780800000000000000
+      internalID: -8690658853485389813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f02117b38b510860800000000000000
+      internalID: 7494371876191412465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4e7d278c775e700800000000000000
+      internalID: 568992630736151722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3326ccfe4ebc50f40800000000000000
+      internalID: 5694181488015991347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1932e33d480d8c0800000000000000
+      internalID: -3976532428152663648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3bcfdd916346a00800000000000000
+      internalID: 748782922776753130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0562b36df31fd3d0800000000000000
+      internalID: -3179800832879991539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d002b280fb1aa8e60800000000000000
+      internalID: 7965356732806012941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185170443b2026080800000000000000
+      internalID: -9195784520173415039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c416ade80888a6c60800000000000000
+      internalID: 7812206589361414476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_idle_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ad203f28cc482c0800000000000000
+      internalID: -4430191270630860205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rumble_idle_0: -3117132841680271286
+      rumble_idle_000: 6369391664524905154
+      rumble_idle_001: 5400645081291219235
+      rumble_idle_002: 5798530214082842056
+      rumble_idle_003: 5831543144810645628
+      rumble_idle_004: 5857243300097434243
+      rumble_idle_005: 857164135527566465
+      rumble_idle_006: 7430817631578358483
+      rumble_idle_007: -8498996941225943480
+      rumble_idle_008: 8267023418948767852
+      rumble_idle_009: 1661259237515689504
+      rumble_idle_010: 2467960950280444419
+      rumble_idle_011: -875238279551040874
+      rumble_idle_012: 4291025974713563081
+      rumble_idle_013: -7091262341453581102
+      rumble_idle_014: 285966148969744593
+      rumble_idle_015: 1785052518018051456
+      rumble_idle_016: -6986013055193408431
+      rumble_idle_017: -5584782999889291840
+      rumble_idle_018: -4221753375223546352
+      rumble_idle_019: -441539544940894740
+      rumble_idle_020: -638971573106190101
+      rumble_idle_021: 1528808954959754852
+      rumble_idle_022: -1135811529978268180
+      rumble_idle_023: -2885362403353476518
+      rumble_idle_024: -3793042913359209714
+      rumble_idle_025: 3424375863813883127
+      rumble_idle_026: 6895065336787382520
+      rumble_idle_027: -5473032563199782109
+      rumble_idle_028: -6833303400011149474
+      rumble_idle_029: -6160615556720861975
+      rumble_idle_030: 2401390925802035428
+      rumble_idle_031: 3276068182582832901
+      rumble_idle_032: 8142168860707833487
+      rumble_idle_033: 8372950261823758273
+      rumble_idle_034: -4901033664812248066
+      rumble_idle_035: 5450709501856587720
+      rumble_idle_036: -2257437565438648129
+      rumble_idle_037: -3845094748830952748
+      rumble_idle_038: -1779618108046082197
+      rumble_idle_039: 3259410362875771252
+      rumble_idle_040: -6534997517369839041
+      rumble_idle_041: 3250063817108944229
+      rumble_idle_042: -3555810323828386443
+      rumble_idle_043: -1939484511464665288
+      rumble_idle_044: 8541496444462314733
+      rumble_idle_045: 6956947759079835472
+      rumble_idle_046: 4351063377583199941
+      rumble_idle_047: -1291795951762208512
+      rumble_idle_048: -7512445067615219574
+      rumble_idle_049: 6502617238747349340
+      rumble_idle_050: -420340502155671340
+      rumble_idle_051: 5252226337524636763
+      rumble_idle_052: 4290301155800538817
+      rumble_idle_053: -2169447366594539700
+      rumble_idle_054: 3154288619274856782
+      rumble_idle_055: 6089748414593430671
+      rumble_idle_056: 9153423484822138286
+      rumble_idle_057: -5793390873002279294
+      rumble_idle_058: 4668712789266172310
+      rumble_idle_059: 2863664236284861038
+      rumble_idle_060: -742037610976496259
+      rumble_idle_061: -1041142827672361781
+      rumble_idle_062: -2478202608810748656
+      rumble_idle_063: -2344835087200558010
+      rumble_idle_064: 2444216747112568113
+      rumble_idle_065: 6520038554719452271
+      rumble_idle_066: 3478944796631127507
+      rumble_idle_067: 8292335653501261501
+      rumble_idle_068: 8917896890133561004
+      rumble_idle_069: 7054799213589123603
+      rumble_idle_070: 8631959851839584757
+      rumble_idle_071: 7990070455392943015
+      rumble_idle_072: -3576275175627035420
+      rumble_idle_073: -7716707120800655499
+      rumble_idle_074: -6309227241756231326
+      rumble_idle_075: 4797188749459158323
+      rumble_idle_076: 8967700397717661823
+      rumble_idle_077: 5234053903242130123
+      rumble_idle_078: -1068326471920239579
+      rumble_idle_079: 1483427746785949662
+      rumble_idle_080: 3309950945703066591
+      rumble_idle_081: -5011263327149359992
+      rumble_idle_082: -5386426030040602427
+      rumble_idle_083: -2970709371022612266
+      rumble_idle_084: -3176169907870744172
+      rumble_idle_085: 5362652054141654215
+      rumble_idle_086: -7460275479234899630
+      rumble_idle_087: -4020580615653752088
+      rumble_idle_088: -7328744914293549580
+      rumble_idle_089: -6027257829896504177
+      rumble_idle_090: 3590240980371002399
+      rumble_idle_091: 2609661315954556453
+      rumble_idle_092: 3361195277574423257
+      rumble_idle_093: -8304562547724684181
+      rumble_idle_094: -6185739029903345856
+      rumble_idle_095: 1609931557219329422
+      rumble_idle_096: 8509141417181207192
+      rumble_idle_097: -2165980380535920679
+      rumble_idle_098: 6513496699884618396
+      rumble_idle_099: 2110733789572858562
+      rumble_idle_1: -3153062605415590365
+      rumble_idle_10: 6177307953131723378
+      rumble_idle_100: 6982175624897467549
+      rumble_idle_101: 3983730734849832656
+      rumble_idle_102: 1295147042695800325
+      rumble_idle_103: 7874282071004719003
+      rumble_idle_104: -3604992630088280335
+      rumble_idle_105: 5529919991263901929
+      rumble_idle_106: 1311171162472877044
+      rumble_idle_107: -5705704120175467718
+      rumble_idle_108: -5335684652749654673
+      rumble_idle_109: -8690658853485389813
+      rumble_idle_11: -137397286369344189
+      rumble_idle_110: 7494371876191412465
+      rumble_idle_111: 568992630736151722
+      rumble_idle_112: 5694181488015991347
+      rumble_idle_113: -3976532428152663648
+      rumble_idle_114: 748782922776753130
+      rumble_idle_115: -3179800832879991539
+      rumble_idle_116: 7965356732806012941
+      rumble_idle_117: -9195784520173415039
+      rumble_idle_118: 7812206589361414476
+      rumble_idle_119: -4430191270630860205
+      rumble_idle_12: -7020820763367052075
+      rumble_idle_13: -5117801015810337736
+      rumble_idle_14: 3673329565212464854
+      rumble_idle_15: -8531298383219861503
+      rumble_idle_16: -3912354859933563174
+      rumble_idle_17: 4919103211518974017
+      rumble_idle_18: -5788985871683775835
+      rumble_idle_19: 7492943189113104417
+      rumble_idle_2: -701342838062486387
+      rumble_idle_20: 4012347097501239059
+      rumble_idle_21: -7194215127333787058
+      rumble_idle_22: 6677802292589419605
+      rumble_idle_23: -7629235901330365193
+      rumble_idle_24: 7016176225694270381
+      rumble_idle_25: -8795153220452154813
+      rumble_idle_26: 5051964346931500432
+      rumble_idle_27: -1692856610804716256
+      rumble_idle_28: 7461570386722508407
+      rumble_idle_29: -2988759292161080890
+      rumble_idle_3: -2811259741654035192
+      rumble_idle_30: -7811121459044609413
+      rumble_idle_31: 6434616907498500359
+      rumble_idle_32: -7955075531496458042
+      rumble_idle_33: 7167122309726749283
+      rumble_idle_34: 3818563591315336449
+      rumble_idle_35: -7423102420894008535
+      rumble_idle_36: -5593905522305863404
+      rumble_idle_37: -4346354974680237559
+      rumble_idle_38: 2580476481710586303
+      rumble_idle_39: -5164621508468514473
+      rumble_idle_4: 9125106877928407758
+      rumble_idle_40: 5198546764331767110
+      rumble_idle_41: 3886681729224701923
+      rumble_idle_42: 4567167729377384724
+      rumble_idle_43: -8393576221543397371
+      rumble_idle_44: 4218487581130157091
+      rumble_idle_45: -1708581887947551889
+      rumble_idle_46: -167147502381368337
+      rumble_idle_47: 5985873871049221619
+      rumble_idle_48: 6351805247789240005
+      rumble_idle_49: -4611765180108270288
+      rumble_idle_5: 1873536473204055372
+      rumble_idle_50: -4246271249055210726
+      rumble_idle_51: 3245964274802197524
+      rumble_idle_52: -1114224216398027813
+      rumble_idle_53: -1664763072602064601
+      rumble_idle_54: 4296072985774028766
+      rumble_idle_55: -2527597352489571171
+      rumble_idle_56: -4904709265184538815
+      rumble_idle_57: 7138251382403145680
+      rumble_idle_58: -3509816903839923682
+      rumble_idle_59: 941042024944181269
+      rumble_idle_6: 8527701130576529548
+      rumble_idle_60: 231263026753671305
+      rumble_idle_61: -4594477132112787339
+      rumble_idle_62: -2708824524930400123
+      rumble_idle_63: 7680809564079828567
+      rumble_idle_64: -2630911817896622500
+      rumble_idle_65: 6574239195845505288
+      rumble_idle_66: 6950648691696567313
+      rumble_idle_67: -5349201862903697758
+      rumble_idle_68: -3820403168942066892
+      rumble_idle_69: 5990293693564965038
+      rumble_idle_7: -7355646640879480828
+      rumble_idle_70: 3887237250851846399
+      rumble_idle_71: -1818367348974457933
+      rumble_idle_72: 1196949452942203829
+      rumble_idle_73: 6391606713298004296
+      rumble_idle_74: 7161381096438104159
+      rumble_idle_75: 822253554998507545
+      rumble_idle_76: 1477093999739251343
+      rumble_idle_77: 4306617300390147512
+      rumble_idle_78: 8020867700149931747
+      rumble_idle_79: -8741724334240786128
+      rumble_idle_8: -4809032056181225145
+      rumble_idle_80: -6362227628063645764
+      rumble_idle_81: 733913546876484634
+      rumble_idle_82: 5345731747260673997
+      rumble_idle_83: 9087880617632414567
+      rumble_idle_84: -1232180138034348077
+      rumble_idle_85: 8444338646588342462
+      rumble_idle_86: -2217544331282376658
+      rumble_idle_87: 7619021079176115408
+      rumble_idle_88: 4916464832511068186
+      rumble_idle_89: 2091837078740978767
+      rumble_idle_9: -3363468672585846947
+      rumble_idle_90: -352272816659257513
+      rumble_idle_91: 1327613604634302076
+      rumble_idle_92: 369128080184474804
+      rumble_idle_93: -4084007960699184542
+      rumble_idle_94: -1294443995995857707
+      rumble_idle_95: -2328397009011978953
+      rumble_idle_96: -5307522647471059895
+      rumble_idle_97: -101256659418720550
+      rumble_idle_98: 5209377690312493746
+      rumble_idle_99: -6495453165616406580
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

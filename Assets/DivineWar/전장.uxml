@@ -1,7 +1,32 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements">
     <Style src="project://database/Assets/DivineWar/food-inventory.uss" />
+    <Style src="project://database/Assets/DivineWar/interaction-hints.uss" />
     <ui:VisualElement name="draw" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0; overflow: hidden; display: none;" />
+    <ui:VisualElement name="death-overlay" picking-mode="Ignore" style="display: none; position: absolute; left: 0; right: 0; top: 0; bottom: 0; background-color: rgba(28, 13, 18, 0.53);">
+        <ui:VisualElement picking-mode="Ignore" style="position: absolute; left: 0; right: 0; top: 50%; align-items: center;">
+            <ui:Label text="전사했습니다" picking-mode="Ignore" style="font-size: 42px; color: rgb(255, 196, 171); -unity-font-style: bold; text-shadow: 0 2px 3px black;" />
+            <ui:Label name="respawn-countdown" picking-mode="Ignore" style="font-size: 24px; color: rgb(255, 240, 213); background-color: rgba(32, 22, 22, 0.91); padding-left: 18px; padding-right: 18px; padding-top: 3px; padding-bottom: 3px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
     <ui:VisualElement name="minimap" style="position: absolute; overflow: hidden; display: none; background-color: #344e44; background-size: 100% 100%;" />
+    <ui:VisualElement picking-mode="Ignore" style="position: absolute; left: 4%; right: 4%; top: 62%; align-items: center;">
+        <ui:Label name="army-selection-hint" text="[Z] 주민 · [X] 병사 · [C] 브루저 · [V] 아처" picking-mode="Ignore" style="display: none; font-size: 20px; color: rgb(255, 235, 187); -unity-text-align: middle-center; white-space: normal; background-color: rgba(39, 29, 20, 0.92); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(126, 91, 53); border-right-color: rgb(126, 91, 53); border-top-color: rgb(159, 119, 74); border-bottom-color: rgb(81, 57, 34); padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="army-class-filter" class="army-class-filter" style="display: none;">
+        <ui:Label name="army-class-title" class="filter-title" />
+        <ui:VisualElement class="filter-row">
+            <ui:Button name="select-resident" text="주민 [Z]" class="filter-button" />
+            <ui:Button name="select-regular" text="병사 [X]" class="filter-button" />
+            <ui:Button name="select-bruiser" text="브루저 [C]" class="filter-button" />
+            <ui:Button name="select-archer" text="아처 [V]" class="filter-button" />
+            <ui:Button name="restore-selection" text="선택 복원" class="filter-button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="training-cost" class="training-cost" picking-mode="Ignore" style="display: none;">
+        <ui:Label name="training-cost-title" class="training-cost-title" picking-mode="Ignore" />
+        <ui:Label name="training-cost-total" class="training-cost-total" picking-mode="Ignore" />
+        <ui:Label name="training-cost-detail" class="training-cost-detail" picking-mode="Ignore" />
+    </ui:VisualElement>
     <ui:Button name="food-toggle" text="인벤토리 [I]" class="food-toggle" style="display: none;" />
     <ui:VisualElement name="food-panel" class="food-panel" style="display: none;">
         <ui:Label text="고기 인벤토리" class="food-title" />
