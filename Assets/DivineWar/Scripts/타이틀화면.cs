@@ -202,11 +202,17 @@ public sealed class 타이틀화면 : MonoBehaviour
         {
             직업버튼[i].선택표시(왕직업목록.선택[i] == 직업);
             var 글 = 직업버튼[i].GetComponentInChildren<TMP_Text>();
+            var 초상 = 목록?.표시외형(왕직업목록.선택[i])?.대기;
+            bool 그림있음 = 초상 is { Length: > 30 };
+            글.enabled = !그림있음;
             글.text = 왕직업목록.선택[i].ToString();
-            글.enableAutoSizing = true; 글.fontSizeMin = 12; 글.fontSizeMax = 22;
-            글.rectTransform.offsetMin = Vector2.zero; 글.rectTransform.offsetMax = Vector2.zero;
             foreach (var 그림 in 직업버튼[i].GetComponentsInChildren<Image>())
-                if (그림.sprite != null && 그림.sprite.name.Contains("emblem")) 그림.enabled = false;
+                if (그림.name.EndsWith("-emblem"))
+                {
+                    그림.enabled = 그림있음;
+                    if (그림있음) 그림.sprite = 초상[30];
+                    그림.preserveAspect = true;
+                }
         }
         직업정보.enableAutoSizing = true; 직업정보.fontSizeMin = 12; 직업정보.fontSizeMax = 19;
         장착갱신();
@@ -242,7 +248,8 @@ public sealed class 타이틀화면 : MonoBehaviour
             버튼.선택표시(i == 고른후보);
         }
         var 설명 = 왕직업목록.정보(왕직업목록.후보(고른직업, 고른후보));
-        장착설명.text = $"<color=#FFD99B>{설명.이름}  ·  쿨다운 {설명.쿨다운}초</color>\n{설명.설명}";
+        var 대기 = 설명.쿨다운 > 0 ? $"  ·  쿨다운 {설명.쿨다운}초" : "";
+        장착설명.text = $"<color=#FFD99B>{설명.이름}{대기}</color>\n{설명.설명}";
     }
 
     async void 연결시작()
