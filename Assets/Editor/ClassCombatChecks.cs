@@ -299,7 +299,7 @@ public static class ClassCombatChecks
             UnityEngine.InputSystem.InputSystem.Update();
             Require(keyboard.qKey.wasPressedThisFrame && Application.isFocused, "Q was not received on the focused Game view");
             typeof(신들의전쟁).GetMethod("키입력읽기", Private).Invoke(game, null);
-            Require(king.폭탄화살준비 && team.쿨다운[0] == 15, "Q must activate the equipped Bomb Arrow");
+            Require(king.폭탄화살준비 && team.쿨다운[0] == 40, "Q must activate the equipped Bomb Arrow");
             Debug.Log("[EquippedSkillShortcut] PASS: Q activated the non-default equipped Bomb Arrow in Play Mode.");
         }
         finally
@@ -330,6 +330,7 @@ public static class ClassCombatChecks
         Require(Vector2.Distance(king.위치, soldier.위치) <= 1.25f, "Protect dash destination");
         commander.Step(3.05f);
         Require(Mathf.Abs(king.체력 - 390) < .05f && Mathf.Abs(soldier.체력 - 68) < .05f, "Protect total healing");
+        commander.Equip(1, 6);
         commander.Cast(3, soldier.위치);
         commander.Damage(30, 999);
         Require(commander.Effect(king, "복수남음") == 2 && commander.Effect(second, "복수오라남음") == 3, "Marked death and passive revenge");
@@ -406,8 +407,56 @@ public static class ClassCombatChecks
         sword.Step(.8f);
         Require(!sword.Enemy.생존 && sword.Effect(king, "분노남음") > 3.5f, "Fury refreshes on a kill");
 
+        commander.Equip(0, 7);
+        float 지휘관체력 = commander.King.체력;
+        float 병사체력 = second.체력;
+        commander.Damage(0, 40);
+        Require(Mathf.Approximately(commander.King.체력, 지휘관체력 - 20)
+            && Mathf.Approximately(second.체력, 병사체력 - 15), "Liability transfers half at 75 percent");
+
+        var volley = new Fixture(왕직업.아처);
+        volley.Enemy.위치 = volley.Enemy.목적지 = volley.King.위치 + Vector2.right * 4;
+        volley.Equip(0, 5);
+        volley.Cast(0, volley.Enemy.위치);
+        volley.Attack(전장규칙.왕번호(1));
+        volley.Step(.25f);
+        Require(volley.State.지대들.Count(z => z.종류 == 지대종류.기본투사체 && z.팀 == 0) == 4, "Multishot releases four arrows");
+
+        var blade = new Fixture(왕직업.검사);
+        blade.Equip(0, 5);
+        var behind = blade.Soldier(전장규칙.왕번호(1) + 35, 1, blade.Enemy.위치 + Vector2.right);
+        blade.Cast(0, behind.위치);
+        blade.Step(.25f);
+        Require(blade.Enemy.둔화량 == .2f && behind.둔화량 == .2f, "Thrown blade pierces both targets");
+
+        var assassin = new Fixture(왕직업.암살자);
+        assassin.Equip(0, 4);
+        assassin.Cast(0, assassin.King.위치);
+        Require(assassin.King.은신 && assassin.State.진영들[0].쿨다운[0] == 20, "Camouflage starts immediately");
+        assassin.Cast(1, assassin.Enemy.위치);
+        assassin.Step(.3f);
+        Require(!assassin.King.은신 && assassin.Enemy.체력 < 500 && assassin.State.진영들[0].쿨다운[1] < 19,
+            "Piercing dash reveals caster and refunds cooldown once per target");
+        assassin.Enemy.위치 = assassin.Enemy.목적지 = assassin.King.위치 + Vector2.right * .5f;
+        assassin.Enemy.체력 = 12;
+        assassin.King.체력 = 200;
+        assassin.Cast(3, assassin.Enemy.위치);
+        assassin.Attack(전장규칙.왕번호(1));
+        assassin.Step(.55f);
+        Require(!assassin.Enemy.생존 && assassin.State.진영들[0].쿨다운[3] <= 0 && assassin.King.체력 > 207,
+            "Empowered kill heals and resets its slot");
+        Require(assassin.Effect(assassin.King, "수혈남음") > 0, "Transfusion starts on kill");
+
+        var bleed = new Fixture(왕직업.암살자);
+        bleed.Equip(0, 6);
+        bleed.Cast(0, bleed.Enemy.위치);
+        bleed.Step(.25f);
+        float 피격후 = bleed.Enemy.체력;
+        bleed.Step(3.1f);
+        Require(Mathf.Abs(피격후 - bleed.Enemy.체력 - 60) < .05f, "Bleed deals three four-percent ticks");
+
         var packed = 왕직업목록.장착변경(왕직업목록.기본장착, 2, 5);
-        Require(왕직업목록.유효장착(왕직업.지휘관, packed) && !왕직업목록.유효장착(왕직업.아처, packed)
+        Require(왕직업목록.유효장착(왕직업.지휘관, packed) && 왕직업목록.유효장착(왕직업.아처, packed)
             && !왕직업목록.유효장착(왕직업.트린다미어, packed) && !왕직업목록.유효장착(왕직업.지휘관, 0), "Loadout class and duplicate validation");
         var roundtrip = JsonUtility.FromJson<전장상태>(JsonUtility.ToJson(commander.State));
         Require(roundtrip.진영들[0].장착구성 == commander.State.진영들[0].장착구성, "Snapshot contains equipped slots");

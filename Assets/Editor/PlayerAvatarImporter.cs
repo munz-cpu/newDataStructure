@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEditor.AssetImporters;
 using UnityEngine;
 
-[ScriptedImporter(1, "hdavatars")]
+[ScriptedImporter(2, "hdavatars")]
 public sealed class PlayerAvatarImporter : ScriptedImporter
 {
     public const string CataloguePath = "Assets/DivineWar/Resources/Classes/PlayerAppearances.hdavatars";
@@ -32,7 +32,9 @@ public sealed class PlayerAvatarImporter : ScriptedImporter
 
         var catalogue = ScriptableObject.CreateInstance<왕외형목록>();
         catalogue.name = "PlayerAppearances";
-        catalogue.직업들 = new[] { commander, archer, swordsman };
+        var assassin = Appearance(왕직업.암살자, "Shadow Knight",
+            KnightFrames(context, "Idle", true), KnightFrames(context, "Run", true), KnightFrames(context, "Melee", true));
+        catalogue.직업들 = new[] { commander, archer, swordsman, assassin };
         catalogue.소환물들 = summons.소환물들;
         catalogue.검사회전 = KnightFrames(context, "MeleeSpin");
         catalogue.검사구르기 = KnightFrames(context, "Rolling");
@@ -43,9 +45,9 @@ public sealed class PlayerAvatarImporter : ScriptedImporter
     static 왕외형목록.배정 Appearance(왕직업 job, string label, Sprite[] idle, Sprite[] walk, Sprite[] attack) =>
         new 왕외형목록.배정 { 직업 = job, 에셋이름 = label, 대기 = idle, 이동 = walk, 공격 = attack };
 
-    static Sprite[] KnightFrames(AssetImportContext context, string action)
+    static Sprite[] KnightFrames(AssetImportContext context, string action, bool shadow = false)
     {
-        var texture = SourceTexture(context, $"{Pack}Spritesheets/Shadowless/1Knight/{action}_Shadowless.png");
+        var texture = SourceTexture(context, shadow ? $"Assets/Images/2D HD Character Knight/Spritesheets/With shadows/{action}.png" : $"{Pack}Spritesheets/Shadowless/1Knight/{action}_Shadowless.png");
         const int cell = 128;
         var sprites = new Sprite[DirectionCount * FramesPerDirection];
         for (int direction = 0; direction < DirectionCount; direction++)
@@ -53,7 +55,7 @@ public sealed class PlayerAvatarImporter : ScriptedImporter
         {
             var rect = new Rect(frame * cell, (DirectionCount - 1 - direction) * cell, cell, cell);
             int index = direction * FramesPerDirection + frame;
-            sprites[index] = AddFrame(context, $"knight_{action}_{index:D3}", texture, rect, 28f / cell, 120);
+            sprites[index] = AddFrame(context, $"{(shadow ? "shadow" : "knight")}_{action}_{index:D3}", texture, rect, 28f / cell, 120);
         }
         return sprites;
     }

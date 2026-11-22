@@ -13,6 +13,7 @@ public static class DivineWarBuild
         EditorSceneManager.OpenScene("Assets/Scenes/Main.unity");
         const string results = "Temp/TrainingWork/results.txt";
         if (File.Exists(results)) File.Delete(results);
+        ClassCombatChecks.EquippedSkills();
         TrainingQueueChecks.Run();
         if (File.Exists(results))
         {
