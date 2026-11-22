@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="256" viewBox="0 0 256 128">
+<path transform="translate(0 0)" d="M6 26V5L23 7 19 12 23 17 6 15" stroke="#ffd48a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(32 0)" d="M3 5L12 14M8 14H12V10M29 5L20 14M20 10V14H24M5 25L13 19M27 25L19 19" stroke="#ffd48a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(64 0)" d="M16 3L26 7V16L22 23 16 28 10 23 6 16V7ZM11 14L15 18 22 10" stroke="#ffd48a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(96 0)" d="M6 26L23 7 26 5 25 11 10 27M5 19L14 26M4 6H11V10" stroke="#ffd48a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(128 0)" d="M11 4H21V11H28V21H21V28H11V21H4V11H11Z" stroke="#ffd48a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(160 0)" d="M3 22L9 11 16 7 24 11 29 22ZM9 24L16 13 23 24" stroke="#ffd48a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(192 0)" d="M4 6L15 17 13 20 23 28M28 6L17 17 19 20 9 28M3 5L4 11 8 10M29 5L28 11 24 10" stroke="#ffd48a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(224 0)" d="M5 6L15 8V15L10 21 5 15ZM16 18H24M21 14L26 18 21 22M24 23V27" stroke="#ffd48a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(0 32)" d="M3 8L10 14 16 5 22 14 29 8 25 24H7ZM8 27H24" stroke="#b7e19a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(32 32)" d="M5 26L25 6M18 6H26V14M5 17Q1 23 6 23Q11 22 5 17Z" stroke="#b7e19a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(64 32)" d="M3 23L12 7 18 23 28 8M21 10L28 7 29 15" stroke="#b7e19a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(96 32)" d="M4 28L23 9M19 6H25V11H30V17H25V22H19V17H14V11H19Z" stroke="#b7e19a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(128 32)" d="M8 13L18 10 24 16 23 24 16 28 8 25 5 20ZM19 11L23 5 27 6M24 3L26 1" stroke="#b7e19a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(160 32)" d="M3 27L16 5M12 7L17 4 17 10M9 28L22 6M16 28L29 6M2 18L10 5" stroke="#b7e19a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(192 32)" d="M16 3V10M16 22V29M3 16H10M22 16H29M16 6L23 9 26 16 23 23 16 26 9 23 6 16 9 9Z" stroke="#b7e19a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(224 32)" d="M4 7H14M2 12H11M4 18H9M11 25L26 7M19 8L27 5 26 13" stroke="#b7e19a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(0 64)" d="M3 21Q1 11 11 7L9 4M26 9Q32 18 22 24L25 26M7 25L24 7 25 13 12 26ZM6 19L14 27" stroke="#f5b093" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(32 64)" d="M4 16L11 8 21 6 27 10 20 13 28 17 24 24 15 26 9 22M14 16L20 18M9 13H12" stroke="#f5b093" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(64 64)" d="M3 27L12 18 16 19 26 5 24 13 19 21 14 22 7 29M7 16L16 25" stroke="#f5b093" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(96 64)" d="M7 8Q15 2 23 9Q31 18 23 24Q13 30 7 22Q3 16 11 13Q19 11 19 18Q17 23 13 19M4 4V11H11" stroke="#f5b093" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(128 64)" d="M8 26L15 17H10L20 4 19 14H25L13 28 15 21Z" stroke="#f5b093" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(160 64)" d="M2 13H13M4 20H11M9 26L25 7 29 4 27 13 15 26M10 17L19 24" stroke="#f5b093" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(192 64)" d="M3 23L16 7 16 13 7 26ZM14 25L27 9 27 15 18 28Z" stroke="#f5b093" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(224 64)" d="M5 6L16 17 26 5 24 15 18 21 22 27M8 27L12 20 7 16ZM4 18L11 12M21 12L28 18" stroke="#f5b093" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(0 96)" d="M4 25L9 11 16 4 23 11 28 25 19 21H13ZM11 15L15 17M21 15L17 17" stroke="#cdb9ff" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(32 96)" d="M2 19H13M3 13H16M9 25L27 5 25 15 14 24ZM9 18L17 26" stroke="#cdb9ff" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(64 96)" d="M16 3Q13 10 7 17Q3 27 16 29Q29 27 25 17ZM11 21H21M16 16V26" stroke="#cdb9ff" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(96 96)" d="M4 27L13 14 12 10 26 4 24 17 19 16 8 29ZM10 15L18 23" stroke="#cdb9ff" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(128 96)" d="M3 17Q15 3 29 17Q17 29 3 17ZM5 28L27 5" stroke="#cdb9ff" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(160 96)" d="M6 6L22 15Q32 23 23 28Q16 30 14 24Q12 18 20 18M5 6L5 13M5 6L12 6" stroke="#cdb9ff" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(192 96)" d="M3 27L25 5M18 6L27 4 25 13M21 18Q15 27 22 28Q29 27 21 18Z" stroke="#cdb9ff" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+<path transform="translate(224 96)" d="M3 10H15M2 16H11M4 22H9M13 25L21 8 25 5 27 11 23 21 18 25Z" stroke="#cdb9ff" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+</svg>

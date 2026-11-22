@@ -48,7 +48,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
     [SerializeField] 메뉴버튼[] 행동버튼;
     [SerializeField] Image[] 건축미리보기;
     [SerializeField] CanvasGroup[] 스킬표시;
-    [SerializeField] TMP_Text[] 스킬이름글;
+    [SerializeField] RawImage[] 스킬그림;
     [SerializeField] 스킬쿨다운테두리[] 스킬테두리;
     [SerializeField] Sprite 스킬설명프레임;
     [SerializeField] Sprite 주민패널그림, 주민패널구분선, 주민일반버튼, 주민강조버튼;
@@ -1898,11 +1898,11 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         if (팀.시련유물 > 0) 왕상태.text += $"  유물 {팀.시련유물}";
         임무.text = 팀.심부름 switch
         {
-            0 => "심부름 1/4   자원 우클릭 또는 가까이서 G로 왕이 직접 채집하세요.",
-            1 => "심부름 2/4   제재소를 지으세요.",
-            2 => "심부름 3/4   주민을 선택하고 훈련소를 클릭해 병사로 훈련하세요.",
-            3 => "심부름 4/4   적 회관 근처에 병력을 보내세요.",
-            _ => "심부름 완료   적 마을회관을 무너뜨리세요."
+            0 => "1/4   왕으로 자원 채집 · 우클릭 / G",
+            1 => "2/4   제재소 건설",
+            2 => "3/4   주민 선택 → 훈련소 클릭",
+            3 => "4/4   적 회관으로 병력 이동",
+            _ => "최종 목표 · 적 회관 파괴"
         };
         알림.text = 팀.알림시간 > 0 ? 팀.알림 : 팀.훈련대기인원 > 0
             ? $"병사 훈련 {팀.훈련대기인원}명   {Mathf.CeilToInt(팀.훈련남은시간)}초 · 앞 주민 도착 후 진행"
@@ -1915,7 +1915,13 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             float 남은시간 = 팀.쿨다운[i];
             스킬표시[i].alpha = 남은시간 <= 0 && 왕.생존 ? 1 : .52f;
             var 기술 = 슬롯기술(팀, i);
-            if (스킬이름글[i].text != 기술.이름) 스킬이름글[i].text = 기술.이름;
+            int 행 = Array.IndexOf(왕직업목록.선택, 팀.직업);
+            스킬그림[i].enabled = 행 >= 0;
+            if (행 >= 0)
+            {
+                int 열 = 왕직업목록.후보번호(팀.장착구성, i);
+                스킬그림[i].uvRect = new Rect(열 / 8f, (3 - 행) / 4f, 1f / 8, 1f / 4);
+            }
             스킬테두리[i].진행표시(남은시간, 기술.쿨다운, 왕.생존);
         }
         for (int i = 0; i < 행동버튼.Length; i++)
@@ -2042,7 +2048,8 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         if (왕직업목록.장착가능(직업) || 왕직업목록.신규(직업))
         {
             var 기술 = 슬롯기술(진영, 번호);
-            도움.text = $"<size=20>{기술.이름}  [{키}]</size>\n{기술.설명}\n재사용 대기 {기술.쿨다운}초";
+            var 대기 = 기술.쿨다운 > 0 ? $"\n재사용 대기 {기술.쿨다운}초" : "";
+            도움.text = $"<size=20>{기술.이름}  [{키}]</size>\n{기술.설명}{대기}";
             return;
         }
         string 효과 = 번호 switch

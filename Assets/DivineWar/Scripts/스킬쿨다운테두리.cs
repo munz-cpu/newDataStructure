@@ -47,7 +47,7 @@ public sealed class 스킬쿨다운테두리 : MaskableGraphic
             남은시간글.gameObject.SetActive(초 > 0);
         }
 
-        float 진행률 = 사용가능 ? Mathf.Clamp01(1 - 남은시간 / 쿨다운길이) : 0;
+        float 진행률 = 사용가능 ? (쿨다운길이 > 0 ? Mathf.Clamp01(1 - 남은시간 / 쿨다운길이) : 1) : 0;
         bool 재사용대기 = 초 > 0;
         if (채움 == 진행률 && 대기중 == 재사용대기) return;
         채움 = 진행률;
