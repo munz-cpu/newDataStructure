@@ -1,0 +1,3677 @@
+fileFormatVersion: 2
+guid: ee0c8f7c8bc3ea749a724f4ddf880f22
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3344029606273258903
+    second: soraka_attack_0
+  - first:
+      213: 7739126024938439526
+    second: soraka_attack_1
+  - first:
+      213: 6773776295706276784
+    second: soraka_attack_2
+  - first:
+      213: -5903529930153576099
+    second: soraka_attack_3
+  - first:
+      213: -1018734740244524059
+    second: soraka_attack_4
+  - first:
+      213: 259125305766395884
+    second: soraka_attack_5
+  - first:
+      213: -5296287186890330624
+    second: soraka_attack_6
+  - first:
+      213: 3436301162169308782
+    second: soraka_attack_7
+  - first:
+      213: 9087007601820353023
+    second: soraka_attack_8
+  - first:
+      213: -4986096107203897733
+    second: soraka_attack_9
+  - first:
+      213: -5262994511991647998
+    second: soraka_attack_10
+  - first:
+      213: -922359156615028131
+    second: soraka_attack_11
+  - first:
+      213: -384058782545176993
+    second: soraka_attack_12
+  - first:
+      213: -7112753615391647259
+    second: soraka_attack_13
+  - first:
+      213: -2091189385956810663
+    second: soraka_attack_14
+  - first:
+      213: -7877561185578434831
+    second: soraka_attack_15
+  - first:
+      213: -5296212562544000612
+    second: soraka_attack_16
+  - first:
+      213: -5716489423085602924
+    second: soraka_attack_17
+  - first:
+      213: -4912770493161132758
+    second: soraka_attack_18
+  - first:
+      213: 1254876830979301566
+    second: soraka_attack_19
+  - first:
+      213: -1971006610963849742
+    second: soraka_attack_20
+  - first:
+      213: 8031926469765503316
+    second: soraka_attack_21
+  - first:
+      213: 4543465131849451693
+    second: soraka_attack_22
+  - first:
+      213: -4172547673961527708
+    second: soraka_attack_23
+  - first:
+      213: -7997491276744889838
+    second: soraka_attack_24
+  - first:
+      213: -5484889879192986594
+    second: soraka_attack_25
+  - first:
+      213: 2351404314718529126
+    second: soraka_attack_26
+  - first:
+      213: -1573050414445425489
+    second: soraka_attack_27
+  - first:
+      213: -2160653291700277222
+    second: soraka_attack_28
+  - first:
+      213: 7367625560885309755
+    second: soraka_attack_29
+  - first:
+      213: 237209253078108937
+    second: soraka_attack_30
+  - first:
+      213: 7349126146045321957
+    second: soraka_attack_31
+  - first:
+      213: -465749251329605350
+    second: soraka_attack_32
+  - first:
+      213: 6032951455471324762
+    second: soraka_attack_33
+  - first:
+      213: 4992112476557154841
+    second: soraka_attack_34
+  - first:
+      213: 1237020717617759447
+    second: soraka_attack_35
+  - first:
+      213: -3636986923512165352
+    second: soraka_attack_36
+  - first:
+      213: -1548663454774055570
+    second: soraka_attack_37
+  - first:
+      213: 3413361461558817653
+    second: soraka_attack_38
+  - first:
+      213: -643301437851726244
+    second: soraka_attack_39
+  - first:
+      213: -3589722355015529095
+    second: soraka_attack_40
+  - first:
+      213: -7887907064114012867
+    second: soraka_attack_41
+  - first:
+      213: 9135788797433143085
+    second: soraka_attack_42
+  - first:
+      213: 3410526386849916739
+    second: soraka_attack_43
+  - first:
+      213: -2591707098404024352
+    second: soraka_attack_44
+  - first:
+      213: 8535622703693378431
+    second: soraka_attack_45
+  - first:
+      213: 8777576950151508235
+    second: soraka_attack_46
+  - first:
+      213: 7224173347214719079
+    second: soraka_attack_47
+  - first:
+      213: 390100991169932788
+    second: soraka_attack_48
+  - first:
+      213: -8130718910292688819
+    second: soraka_attack_49
+  - first:
+      213: 7552010573885322511
+    second: soraka_attack_50
+  - first:
+      213: -2972867590404876197
+    second: soraka_attack_51
+  - first:
+      213: -6696324353470842037
+    second: soraka_attack_52
+  - first:
+      213: 6853382440554026735
+    second: soraka_attack_53
+  - first:
+      213: 1742420852652673457
+    second: soraka_attack_54
+  - first:
+      213: 6620740356807988893
+    second: soraka_attack_55
+  - first:
+      213: 3767885266372663899
+    second: soraka_attack_56
+  - first:
+      213: -3203221496536445866
+    second: soraka_attack_57
+  - first:
+      213: -3384178461168294723
+    second: soraka_attack_58
+  - first:
+      213: 7641391142221956444
+    second: soraka_attack_59
+  - first:
+      213: 5202055750285860767
+    second: soraka_attack_60
+  - first:
+      213: 896903128294385610
+    second: soraka_attack_61
+  - first:
+      213: -1342942966501560873
+    second: soraka_attack_62
+  - first:
+      213: -8242661335671374985
+    second: soraka_attack_63
+  - first:
+      213: 5916206075582337273
+    second: soraka_attack_64
+  - first:
+      213: -2334448018322240705
+    second: soraka_attack_65
+  - first:
+      213: -4254199785295726550
+    second: soraka_attack_66
+  - first:
+      213: -1552117081144217507
+    second: soraka_attack_67
+  - first:
+      213: 3493469244212842448
+    second: soraka_attack_68
+  - first:
+      213: -32277841028228864
+    second: soraka_attack_69
+  - first:
+      213: -4980142709965532257
+    second: soraka_attack_70
+  - first:
+      213: 2992595191839968820
+    second: soraka_attack_71
+  - first:
+      213: -2498854686870384092
+    second: soraka_attack_72
+  - first:
+      213: -7963908161907500259
+    second: soraka_attack_73
+  - first:
+      213: -3712156242128025112
+    second: soraka_attack_74
+  - first:
+      213: -7215373402190552919
+    second: soraka_attack_75
+  - first:
+      213: 109016962129537692
+    second: soraka_attack_76
+  - first:
+      213: -754058293354939030
+    second: soraka_attack_77
+  - first:
+      213: -6751551317630234200
+    second: soraka_attack_78
+  - first:
+      213: -9118306351082061863
+    second: soraka_attack_79
+  - first:
+      213: -4024048138827833523
+    second: soraka_attack_80
+  - first:
+      213: -5124915032705974695
+    second: soraka_attack_81
+  - first:
+      213: 9219240865053263239
+    second: soraka_attack_82
+  - first:
+      213: 6742808717661624248
+    second: soraka_attack_83
+  - first:
+      213: -7762638999801171598
+    second: soraka_attack_84
+  - first:
+      213: -7325081894261952755
+    second: soraka_attack_85
+  - first:
+      213: -8233275807813020141
+    second: soraka_attack_86
+  - first:
+      213: -7025191564013893192
+    second: soraka_attack_87
+  - first:
+      213: -7666544178787285584
+    second: soraka_attack_88
+  - first:
+      213: 3413939193839366214
+    second: soraka_attack_89
+  - first:
+      213: 6678295584302793955
+    second: soraka_attack_90
+  - first:
+      213: 2221108528021129827
+    second: soraka_attack_91
+  - first:
+      213: -3548249592553415438
+    second: soraka_attack_92
+  - first:
+      213: -3204241823064950581
+    second: soraka_attack_93
+  - first:
+      213: -5233065985000398647
+    second: soraka_attack_94
+  - first:
+      213: 1691124287087276140
+    second: soraka_attack_95
+  - first:
+      213: 1444734162146688472
+    second: soraka_attack_96
+  - first:
+      213: -1819033422783725639
+    second: soraka_attack_97
+  - first:
+      213: -5876906775782106675
+    second: soraka_attack_98
+  - first:
+      213: 7852859852236616904
+    second: soraka_attack_99
+  - first:
+      213: -3263661497805053863
+    second: soraka_attack_100
+  - first:
+      213: 3118122178705268907
+    second: soraka_attack_101
+  - first:
+      213: -6484257707218806963
+    second: soraka_attack_102
+  - first:
+      213: -6940695224577705084
+    second: soraka_attack_103
+  - first:
+      213: -5492304853257084698
+    second: soraka_attack_104
+  - first:
+      213: -2848410159902392222
+    second: soraka_attack_105
+  - first:
+      213: -6738538991243437161
+    second: soraka_attack_106
+  - first:
+      213: -2539703709604900798
+    second: soraka_attack_107
+  - first:
+      213: 6400011047439231254
+    second: soraka_attack_108
+  - first:
+      213: 7314450308036710921
+    second: soraka_attack_109
+  - first:
+      213: 3774973546617703992
+    second: soraka_attack_110
+  - first:
+      213: 4383047555248877662
+    second: soraka_attack_111
+  - first:
+      213: 6472742104904921152
+    second: soraka_attack_112
+  - first:
+      213: 1070521260378528225
+    second: soraka_attack_113
+  - first:
+      213: -4328187574307278971
+    second: soraka_attack_114
+  - first:
+      213: -2351828486831407968
+    second: soraka_attack_115
+  - first:
+      213: 8293960170127569462
+    second: soraka_attack_116
+  - first:
+      213: 1525279145412059364
+    second: soraka_attack_117
+  - first:
+      213: -7720020985902611148
+    second: soraka_attack_118
+  - first:
+      213: -3419755733151289805
+    second: soraka_attack_119
+  - first:
+      213: -1932742567155616056
+    second: soraka_attack_120
+  - first:
+      213: -3082813896170908735
+    second: soraka_attack_121
+  - first:
+      213: -131612768520838017
+    second: soraka_attack_122
+  - first:
+      213: 8969388487831550442
+    second: soraka_attack_000
+  - first:
+      213: -7535172404447199965
+    second: soraka_attack_001
+  - first:
+      213: 3460537284239719237
+    second: soraka_attack_002
+  - first:
+      213: -6624304783751645950
+    second: soraka_attack_003
+  - first:
+      213: 3893930392073123724
+    second: soraka_attack_004
+  - first:
+      213: -7202007175221975433
+    second: soraka_attack_005
+  - first:
+      213: 4510170505103630004
+    second: soraka_attack_006
+  - first:
+      213: 1218325348362004622
+    second: soraka_attack_007
+  - first:
+      213: -6278068394653002189
+    second: soraka_attack_008
+  - first:
+      213: -2122053002417213556
+    second: soraka_attack_009
+  - first:
+      213: 7230791144049178534
+    second: soraka_attack_010
+  - first:
+      213: -3198641201046915477
+    second: soraka_attack_011
+  - first:
+      213: 5224866096668449136
+    second: soraka_attack_012
+  - first:
+      213: 194907649431734486
+    second: soraka_attack_013
+  - first:
+      213: 6020147224169883460
+    second: soraka_attack_014
+  - first:
+      213: 3736390223083226083
+    second: soraka_attack_015
+  - first:
+      213: 6442940058929401903
+    second: soraka_attack_016
+  - first:
+      213: -8181807019081236452
+    second: soraka_attack_017
+  - first:
+      213: -7796521468420223582
+    second: soraka_attack_018
+  - first:
+      213: -7468414255554434701
+    second: soraka_attack_019
+  - first:
+      213: -8172577506424581099
+    second: soraka_attack_020
+  - first:
+      213: 6820054473659771146
+    second: soraka_attack_021
+  - first:
+      213: 382245970255069311
+    second: soraka_attack_022
+  - first:
+      213: 2104312426498234643
+    second: soraka_attack_023
+  - first:
+      213: 6818221262283974716
+    second: soraka_attack_024
+  - first:
+      213: 3234814746957485104
+    second: soraka_attack_025
+  - first:
+      213: -5124712874444367763
+    second: soraka_attack_026
+  - first:
+      213: -2792548926324609577
+    second: soraka_attack_027
+  - first:
+      213: 1351260970494508310
+    second: soraka_attack_028
+  - first:
+      213: 190406724235546613
+    second: soraka_attack_029
+  - first:
+      213: -1312391017488554259
+    second: soraka_attack_030
+  - first:
+      213: -6865261875376428828
+    second: soraka_attack_031
+  - first:
+      213: 4248575010743952530
+    second: soraka_attack_032
+  - first:
+      213: -7709388923961048576
+    second: soraka_attack_033
+  - first:
+      213: -2536558194998380414
+    second: soraka_attack_034
+  - first:
+      213: 8592563323145768206
+    second: soraka_attack_035
+  - first:
+      213: -2888386229034401892
+    second: soraka_attack_036
+  - first:
+      213: -2608516310302038711
+    second: soraka_attack_037
+  - first:
+      213: -1893983693612422531
+    second: soraka_attack_038
+  - first:
+      213: 148845016477705850
+    second: soraka_attack_039
+  - first:
+      213: -7798088121422740697
+    second: soraka_attack_040
+  - first:
+      213: -450120667638794781
+    second: soraka_attack_041
+  - first:
+      213: 8595777103979488611
+    second: soraka_attack_042
+  - first:
+      213: 8252466719282564066
+    second: soraka_attack_043
+  - first:
+      213: -7997934310775709644
+    second: soraka_attack_044
+  - first:
+      213: -6373951091072226358
+    second: soraka_attack_045
+  - first:
+      213: -6568955660991637511
+    second: soraka_attack_046
+  - first:
+      213: 1339327076244835004
+    second: soraka_attack_047
+  - first:
+      213: -4312374153369138842
+    second: soraka_attack_048
+  - first:
+      213: -8557732011595551326
+    second: soraka_attack_049
+  - first:
+      213: -6009798214567830401
+    second: soraka_attack_050
+  - first:
+      213: 560895441425087946
+    second: soraka_attack_051
+  - first:
+      213: -5958060300091622943
+    second: soraka_attack_052
+  - first:
+      213: -5867647961593104769
+    second: soraka_attack_053
+  - first:
+      213: -7315961831178637457
+    second: soraka_attack_054
+  - first:
+      213: 8418923986923839535
+    second: soraka_attack_055
+  - first:
+      213: 2962875079521117464
+    second: soraka_attack_056
+  - first:
+      213: 2246531196986768035
+    second: soraka_attack_057
+  - first:
+      213: -8648012597983544301
+    second: soraka_attack_058
+  - first:
+      213: -3682394779646877806
+    second: soraka_attack_059
+  - first:
+      213: -4392365433544545101
+    second: soraka_attack_060
+  - first:
+      213: -5423825206295018488
+    second: soraka_attack_061
+  - first:
+      213: -5247067810047472952
+    second: soraka_attack_062
+  - first:
+      213: -3678651197012644357
+    second: soraka_attack_063
+  - first:
+      213: -7721113938882848938
+    second: soraka_attack_064
+  - first:
+      213: -4695401033485698798
+    second: soraka_attack_065
+  - first:
+      213: -2550917417866742352
+    second: soraka_attack_066
+  - first:
+      213: 7559700148574679719
+    second: soraka_attack_067
+  - first:
+      213: 5952319160825077022
+    second: soraka_attack_068
+  - first:
+      213: 998111316467732525
+    second: soraka_attack_069
+  - first:
+      213: -8953303777334126596
+    second: soraka_attack_070
+  - first:
+      213: -6958753580834642597
+    second: soraka_attack_071
+  - first:
+      213: 8728371729381994119
+    second: soraka_attack_072
+  - first:
+      213: -4098128325888737731
+    second: soraka_attack_073
+  - first:
+      213: -4384676718267030011
+    second: soraka_attack_074
+  - first:
+      213: -7841269526139671509
+    second: soraka_attack_075
+  - first:
+      213: 1164057749063100550
+    second: soraka_attack_076
+  - first:
+      213: -1779981233077852713
+    second: soraka_attack_077
+  - first:
+      213: -2688047183440431115
+    second: soraka_attack_078
+  - first:
+      213: 5279073790091753350
+    second: soraka_attack_079
+  - first:
+      213: -1730232004069074747
+    second: soraka_attack_080
+  - first:
+      213: -6369072684607364123
+    second: soraka_attack_081
+  - first:
+      213: -7496339681567825849
+    second: soraka_attack_082
+  - first:
+      213: 1237176248746550287
+    second: soraka_attack_083
+  - first:
+      213: -1634229495726114812
+    second: soraka_attack_084
+  - first:
+      213: 4193883566390443245
+    second: soraka_attack_085
+  - first:
+      213: 3074050418744027461
+    second: soraka_attack_086
+  - first:
+      213: 1873455893083177173
+    second: soraka_attack_087
+  - first:
+      213: -1163767217179361920
+    second: soraka_attack_088
+  - first:
+      213: -4556054817411023210
+    second: soraka_attack_089
+  - first:
+      213: 5526410684022115190
+    second: soraka_attack_090
+  - first:
+      213: -1867426785029159376
+    second: soraka_attack_091
+  - first:
+      213: 7847723775397831502
+    second: soraka_attack_092
+  - first:
+      213: -5957459140576289171
+    second: soraka_attack_093
+  - first:
+      213: 9189703139248071126
+    second: soraka_attack_094
+  - first:
+      213: 1571391776764267045
+    second: soraka_attack_095
+  - first:
+      213: 451294057565347522
+    second: soraka_attack_096
+  - first:
+      213: 8757176834612064638
+    second: soraka_attack_097
+  - first:
+      213: -5079940873493435007
+    second: soraka_attack_098
+  - first:
+      213: 7437857914739692326
+    second: soraka_attack_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: soraka_attack_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae97dadce4ba97c70800000000000000
+      internalID: 8969388487831550442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d39970f90bd6790800000000000000
+      internalID: -7535172404447199965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b7a17435c460030800000000000000
+      internalID: 3460537284239719237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205ff8075edb114a0800000000000000
+      internalID: -6624304783751645950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87bd978f050a0630800000000000000
+      internalID: 3893930392073123724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776641bc1a45d0c90800000000000000
+      internalID: -7202007175221975433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4be5521bd28579e30800000000000000
+      internalID: 4510170505103630004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88a8f9037c58e010800000000000000
+      internalID: 1218325348362004622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336d915ce02dfd8a0800000000000000
+      internalID: -6278068394653002189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fee549904fc82e0800000000000000
+      internalID: -2122053002417213556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a777123c3ee85460800000000000000
+      internalID: 7230791144049178534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b667ba756c42c93d0800000000000000
+      internalID: -3198641201046915477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07997ea4804728840800000000000000
+      internalID: 5224866096668449136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d88268797374b200800000000000000
+      internalID: 194907649431734486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4472338110cdb8350800000000000000
+      internalID: 6020147224169883460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e34e159c135ad330800000000000000
+      internalID: 3736390223083226083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f201f91f8dbe96950800000000000000
+      internalID: 6442940058929401903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c108dde7dd1647e80800000000000000
+      internalID: -8181807019081236452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad0b1f38013dc390800000000000000
+      internalID: -7796521468420223582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379e63ecdccda5890800000000000000
+      internalID: -7468414255554434701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514173ede0c259e80800000000000000
+      internalID: -8172577506424581099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09ed4bd863b5ae50800000000000000
+      internalID: 6820054473659771146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70c0e94fa20e4500800000000000000
+      internalID: 382245970255069311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3191ed5b005043d10800000000000000
+      internalID: 2104312426498234643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38a3721d103f9e50800000000000000
+      internalID: 6818221262283974716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0349892afde54ec20800000000000000
+      internalID: 3234814746957485104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d685fd6eacc51e8b0800000000000000
+      internalID: -5124712874444367763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dde58c0c8fde39d0800000000000000
+      internalID: -2792548926324609577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61dbc2181b4a0c210800000000000000
+      internalID: 1351260970494508310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ffc7e828e574a200800000000000000
+      internalID: 190406724235546613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de66e2ca25379cde0800000000000000
+      internalID: -1312391017488554259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8e724b2b0b9b0a0800000000000000
+      internalID: -6865261875376428828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 294aefc5678f5fa30800000000000000
+      internalID: 4248575010743952530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00288f7ae9fb20590800000000000000
+      internalID: -7709388923961048576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 288f30bc2c55cccd0800000000000000
+      internalID: -2536558194998380414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d472a21daee3770800000000000000
+      internalID: 8592563323145768206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f364c27046ae7d0800000000000000
+      internalID: -2888386229034401892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94562ad7c30bccbd0800000000000000
+      internalID: -2608516310302038711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a69db8dd737b5e0800000000000000
+      internalID: -1893983693612422531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76adbdf0cdc01200800000000000000
+      internalID: 148845016477705850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723876b6b20a7c390800000000000000
+      internalID: -7798088121422740697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5f35b33a9d0c9f0800000000000000
+      internalID: -450120667638794781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3652223dbb55a4770800000000000000
+      internalID: 8595777103979488611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb029bf1c6a68270800000000000000
+      internalID: 8252466719282564066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4302e458e11a10190800000000000000
+      internalID: -7997934310775709644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb2de8d04d2b87a0800000000000000
+      internalID: -6373951091072226358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f75d4151a166d4a0800000000000000
+      internalID: -6568955660991637511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbac2a931ee369210800000000000000
+      internalID: 1339327076244835004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6694bd13e8e5724c0800000000000000
+      internalID: -4312374153369138842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adabd58314dc3980800000000000000
+      internalID: -8557732011595551326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c58e87d58e89ca0800000000000000
+      internalID: -6009798214567830401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd3746ae63b8c700800000000000000
+      internalID: 560895441425087946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e97ea669b7b05da0800000000000000
+      internalID: -5958060300091622943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76b23e544de19ea0800000000000000
+      internalID: -5867647961593104769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fe746e97b787a90800000000000000
+      internalID: -7315961831178637457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f206c9fb2c606d470800000000000000
+      internalID: 8418923986923839535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 815a6b4df2f3e1920800000000000000
+      internalID: 2962875079521117464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aaba3598384d2f10800000000000000
+      internalID: 2246531196986768035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c761c7c561cf780800000000000000
+      internalID: -8648012597983544301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f1564457185ecc0800000000000000
+      internalID: -3682394779646877806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc6fd1f8ee2b03c0800000000000000
+      internalID: -4392365433544545101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804c9f626b3bab4b0800000000000000
+      internalID: -5423825206295018488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cacbbd70abae27b0800000000000000
+      internalID: -5247067810047472952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdee750a3ec2fcc0800000000000000
+      internalID: -3678651197012644357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6571292e7c719d490800000000000000
+      internalID: -7721113938882848938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219351923a596deb0800000000000000
+      internalID: -4695401033485698798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b532b0bf12599cd0800000000000000
+      internalID: -2550917417866742352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2f24c6b3379e860800000000000000
+      internalID: 7559700148574679719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ddab27db2ea9250800000000000000
+      internalID: 5952319160825077022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d205b5044f00add00800000000000000
+      internalID: 998111316467732525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf716d1b6a97fb380800000000000000
+      internalID: -8953303777334126596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55afdebc7a8d6f90800000000000000
+      internalID: -6958753580834642597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e206dc7d7612970800000000000000
+      internalID: 8728371729381994119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e7f6b10068027c0800000000000000
+      internalID: -4098128325888737731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 506a4c871cf7623c0800000000000000
+      internalID: -4384676718267030011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c695a29e63e2390800000000000000
+      internalID: -7841269526139671509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68862f6fa50972010800000000000000
+      internalID: 1164057749063100550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d5688fcf7c3c47e0800000000000000
+      internalID: -1779981233077852713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f73b8b145322bad0800000000000000
+      internalID: -2688047183440431115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6877e7174a9034940800000000000000
+      internalID: 5279073790091753350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c85372d82bfcf7e0800000000000000
+      internalID: -1730232004069074747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3a55d53228c97a0800000000000000
+      internalID: -6369072684607364123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7402c74e6c6a7f790800000000000000
+      internalID: -7496339681567825849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04a61f4e355b2110800000000000000
+      internalID: 1237176248746550287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40877c1aeec0259e0800000000000000
+      internalID: -1634229495726114812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decfc0c22eaa33a30800000000000000
+      internalID: 4193883566390443245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549e0ee919839aa20800000000000000
+      internalID: 3074050418744027461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0c591753adff910800000000000000
+      internalID: 1873455893083177173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08d77c2c1e779dfe0800000000000000
+      internalID: -1163767217179361920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e32075844a5c0c0800000000000000
+      internalID: -4556054817411023210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bcf08ac31c1bc40800000000000000
+      internalID: 5526410684022115190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036894aab319516e0800000000000000
+      internalID: -1867426785029159376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e43a9f7d137b8ec60800000000000000
+      internalID: 7847723775397831502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6edb02c97ad25da0800000000000000
+      internalID: -5957459140576289171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d16c26e052688f70800000000000000
+      internalID: 9189703139248071126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a0101de74bec510800000000000000
+      internalID: 1571391776764267045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce5d66ed81534600800000000000000
+      internalID: 451294057565347522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71f45efeedb78970800000000000000
+      internalID: 8757176834612064638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18daf63b0bc6089b0800000000000000
+      internalID: -5079940873493435007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62313e1bd54983760800000000000000
+      internalID: 7437857914739692326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950e53cc82525b2d0800000000000000
+      internalID: -3263661497805053863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0aefbd99bc54b20800000000000000
+      internalID: 3118122178705268907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47522968f94306a0800000000000000
+      internalID: -6484257707218806963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48bbbc47772bdaf90800000000000000
+      internalID: -6940695224577705084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0257fd5d967c3b0800000000000000
+      internalID: -5492304853257084698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26087641d0a6878d0800000000000000
+      internalID: -2848410159902392222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79bd0d16d76eb72a0800000000000000
+      internalID: -6738538991243437161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240124a9ee821ccd0800000000000000
+      internalID: -2539703709604900798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619e031932861d850800000000000000
+      internalID: 6400011047439231254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90256c13dc5228560800000000000000
+      internalID: 7314450308036710921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e05a2a076636430800000000000000
+      internalID: 3774973546617703992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e50f0447786b3dc30800000000000000
+      internalID: 4383047555248877662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040729d76acc3d950800000000000000
+      internalID: 6472742104904921152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e99d591a614bde00800000000000000
+      internalID: 1070521260378528225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58fa72835503fe3c0800000000000000
+      internalID: -4328187574307278971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acf4c5a370ac5fd0800000000000000
+      internalID: -2351828486831407968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63231b9d4d01a1370800000000000000
+      internalID: 8293960170127569462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e0e89d2d41ea2510800000000000000
+      internalID: 1525279145412059364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435c6b4d0d9fcd490800000000000000
+      internalID: -7720020985902611148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_attack_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e69e287469a80d0800000000000000
+      internalID: -3419755733151289805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      soraka_attack_0: 3344029606273258903
+      soraka_attack_000: 8969388487831550442
+      soraka_attack_001: -7535172404447199965
+      soraka_attack_002: 3460537284239719237
+      soraka_attack_003: -6624304783751645950
+      soraka_attack_004: 3893930392073123724
+      soraka_attack_005: -7202007175221975433
+      soraka_attack_006: 4510170505103630004
+      soraka_attack_007: 1218325348362004622
+      soraka_attack_008: -6278068394653002189
+      soraka_attack_009: -2122053002417213556
+      soraka_attack_010: 7230791144049178534
+      soraka_attack_011: -3198641201046915477
+      soraka_attack_012: 5224866096668449136
+      soraka_attack_013: 194907649431734486
+      soraka_attack_014: 6020147224169883460
+      soraka_attack_015: 3736390223083226083
+      soraka_attack_016: 6442940058929401903
+      soraka_attack_017: -8181807019081236452
+      soraka_attack_018: -7796521468420223582
+      soraka_attack_019: -7468414255554434701
+      soraka_attack_020: -8172577506424581099
+      soraka_attack_021: 6820054473659771146
+      soraka_attack_022: 382245970255069311
+      soraka_attack_023: 2104312426498234643
+      soraka_attack_024: 6818221262283974716
+      soraka_attack_025: 3234814746957485104
+      soraka_attack_026: -5124712874444367763
+      soraka_attack_027: -2792548926324609577
+      soraka_attack_028: 1351260970494508310
+      soraka_attack_029: 190406724235546613
+      soraka_attack_030: -1312391017488554259
+      soraka_attack_031: -6865261875376428828
+      soraka_attack_032: 4248575010743952530
+      soraka_attack_033: -7709388923961048576
+      soraka_attack_034: -2536558194998380414
+      soraka_attack_035: 8592563323145768206
+      soraka_attack_036: -2888386229034401892
+      soraka_attack_037: -2608516310302038711
+      soraka_attack_038: -1893983693612422531
+      soraka_attack_039: 148845016477705850
+      soraka_attack_040: -7798088121422740697
+      soraka_attack_041: -450120667638794781
+      soraka_attack_042: 8595777103979488611
+      soraka_attack_043: 8252466719282564066
+      soraka_attack_044: -7997934310775709644
+      soraka_attack_045: -6373951091072226358
+      soraka_attack_046: -6568955660991637511
+      soraka_attack_047: 1339327076244835004
+      soraka_attack_048: -4312374153369138842
+      soraka_attack_049: -8557732011595551326
+      soraka_attack_050: -6009798214567830401
+      soraka_attack_051: 560895441425087946
+      soraka_attack_052: -5958060300091622943
+      soraka_attack_053: -5867647961593104769
+      soraka_attack_054: -7315961831178637457
+      soraka_attack_055: 8418923986923839535
+      soraka_attack_056: 2962875079521117464
+      soraka_attack_057: 2246531196986768035
+      soraka_attack_058: -8648012597983544301
+      soraka_attack_059: -3682394779646877806
+      soraka_attack_060: -4392365433544545101
+      soraka_attack_061: -5423825206295018488
+      soraka_attack_062: -5247067810047472952
+      soraka_attack_063: -3678651197012644357
+      soraka_attack_064: -7721113938882848938
+      soraka_attack_065: -4695401033485698798
+      soraka_attack_066: -2550917417866742352
+      soraka_attack_067: 7559700148574679719
+      soraka_attack_068: 5952319160825077022
+      soraka_attack_069: 998111316467732525
+      soraka_attack_070: -8953303777334126596
+      soraka_attack_071: -6958753580834642597
+      soraka_attack_072: 8728371729381994119
+      soraka_attack_073: -4098128325888737731
+      soraka_attack_074: -4384676718267030011
+      soraka_attack_075: -7841269526139671509
+      soraka_attack_076: 1164057749063100550
+      soraka_attack_077: -1779981233077852713
+      soraka_attack_078: -2688047183440431115
+      soraka_attack_079: 5279073790091753350
+      soraka_attack_080: -1730232004069074747
+      soraka_attack_081: -6369072684607364123
+      soraka_attack_082: -7496339681567825849
+      soraka_attack_083: 1237176248746550287
+      soraka_attack_084: -1634229495726114812
+      soraka_attack_085: 4193883566390443245
+      soraka_attack_086: 3074050418744027461
+      soraka_attack_087: 1873455893083177173
+      soraka_attack_088: -1163767217179361920
+      soraka_attack_089: -4556054817411023210
+      soraka_attack_090: 5526410684022115190
+      soraka_attack_091: -1867426785029159376
+      soraka_attack_092: 7847723775397831502
+      soraka_attack_093: -5957459140576289171
+      soraka_attack_094: 9189703139248071126
+      soraka_attack_095: 1571391776764267045
+      soraka_attack_096: 451294057565347522
+      soraka_attack_097: 8757176834612064638
+      soraka_attack_098: -5079940873493435007
+      soraka_attack_099: 7437857914739692326
+      soraka_attack_1: 7739126024938439526
+      soraka_attack_10: -5262994511991647998
+      soraka_attack_100: -3263661497805053863
+      soraka_attack_101: 3118122178705268907
+      soraka_attack_102: -6484257707218806963
+      soraka_attack_103: -6940695224577705084
+      soraka_attack_104: -5492304853257084698
+      soraka_attack_105: -2848410159902392222
+      soraka_attack_106: -6738538991243437161
+      soraka_attack_107: -2539703709604900798
+      soraka_attack_108: 6400011047439231254
+      soraka_attack_109: 7314450308036710921
+      soraka_attack_11: -922359156615028131
+      soraka_attack_110: 3774973546617703992
+      soraka_attack_111: 4383047555248877662
+      soraka_attack_112: 6472742104904921152
+      soraka_attack_113: 1070521260378528225
+      soraka_attack_114: -4328187574307278971
+      soraka_attack_115: -2351828486831407968
+      soraka_attack_116: 8293960170127569462
+      soraka_attack_117: 1525279145412059364
+      soraka_attack_118: -7720020985902611148
+      soraka_attack_119: -3419755733151289805
+      soraka_attack_12: -384058782545176993
+      soraka_attack_120: -1932742567155616056
+      soraka_attack_121: -3082813896170908735
+      soraka_attack_122: -131612768520838017
+      soraka_attack_13: -7112753615391647259
+      soraka_attack_14: -2091189385956810663
+      soraka_attack_15: -7877561185578434831
+      soraka_attack_16: -5296212562544000612
+      soraka_attack_17: -5716489423085602924
+      soraka_attack_18: -4912770493161132758
+      soraka_attack_19: 1254876830979301566
+      soraka_attack_2: 6773776295706276784
+      soraka_attack_20: -1971006610963849742
+      soraka_attack_21: 8031926469765503316
+      soraka_attack_22: 4543465131849451693
+      soraka_attack_23: -4172547673961527708
+      soraka_attack_24: -7997491276744889838
+      soraka_attack_25: -5484889879192986594
+      soraka_attack_26: 2351404314718529126
+      soraka_attack_27: -1573050414445425489
+      soraka_attack_28: -2160653291700277222
+      soraka_attack_29: 7367625560885309755
+      soraka_attack_3: -5903529930153576099
+      soraka_attack_30: 237209253078108937
+      soraka_attack_31: 7349126146045321957
+      soraka_attack_32: -465749251329605350
+      soraka_attack_33: 6032951455471324762
+      soraka_attack_34: 4992112476557154841
+      soraka_attack_35: 1237020717617759447
+      soraka_attack_36: -3636986923512165352
+      soraka_attack_37: -1548663454774055570
+      soraka_attack_38: 3413361461558817653
+      soraka_attack_39: -643301437851726244
+      soraka_attack_4: -1018734740244524059
+      soraka_attack_40: -3589722355015529095
+      soraka_attack_41: -7887907064114012867
+      soraka_attack_42: 9135788797433143085
+      soraka_attack_43: 3410526386849916739
+      soraka_attack_44: -2591707098404024352
+      soraka_attack_45: 8535622703693378431
+      soraka_attack_46: 8777576950151508235
+      soraka_attack_47: 7224173347214719079
+      soraka_attack_48: 390100991169932788
+      soraka_attack_49: -8130718910292688819
+      soraka_attack_5: 259125305766395884
+      soraka_attack_50: 7552010573885322511
+      soraka_attack_51: -2972867590404876197
+      soraka_attack_52: -6696324353470842037
+      soraka_attack_53: 6853382440554026735
+      soraka_attack_54: 1742420852652673457
+      soraka_attack_55: 6620740356807988893
+      soraka_attack_56: 3767885266372663899
+      soraka_attack_57: -3203221496536445866
+      soraka_attack_58: -3384178461168294723
+      soraka_attack_59: 7641391142221956444
+      soraka_attack_6: -5296287186890330624
+      soraka_attack_60: 5202055750285860767
+      soraka_attack_61: 896903128294385610
+      soraka_attack_62: -1342942966501560873
+      soraka_attack_63: -8242661335671374985
+      soraka_attack_64: 5916206075582337273
+      soraka_attack_65: -2334448018322240705
+      soraka_attack_66: -4254199785295726550
+      soraka_attack_67: -1552117081144217507
+      soraka_attack_68: 3493469244212842448
+      soraka_attack_69: -32277841028228864
+      soraka_attack_7: 3436301162169308782
+      soraka_attack_70: -4980142709965532257
+      soraka_attack_71: 2992595191839968820
+      soraka_attack_72: -2498854686870384092
+      soraka_attack_73: -7963908161907500259
+      soraka_attack_74: -3712156242128025112
+      soraka_attack_75: -7215373402190552919
+      soraka_attack_76: 109016962129537692
+      soraka_attack_77: -754058293354939030
+      soraka_attack_78: -6751551317630234200
+      soraka_attack_79: -9118306351082061863
+      soraka_attack_8: 9087007601820353023
+      soraka_attack_80: -4024048138827833523
+      soraka_attack_81: -5124915032705974695
+      soraka_attack_82: 9219240865053263239
+      soraka_attack_83: 6742808717661624248
+      soraka_attack_84: -7762638999801171598
+      soraka_attack_85: -7325081894261952755
+      soraka_attack_86: -8233275807813020141
+      soraka_attack_87: -7025191564013893192
+      soraka_attack_88: -7666544178787285584
+      soraka_attack_89: 3413939193839366214
+      soraka_attack_9: -4986096107203897733
+      soraka_attack_90: 6678295584302793955
+      soraka_attack_91: 2221108528021129827
+      soraka_attack_92: -3548249592553415438
+      soraka_attack_93: -3204241823064950581
+      soraka_attack_94: -5233065985000398647
+      soraka_attack_95: 1691124287087276140
+      soraka_attack_96: 1444734162146688472
+      soraka_attack_97: -1819033422783725639
+      soraka_attack_98: -5876906775782106675
+      soraka_attack_99: 7852859852236616904
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

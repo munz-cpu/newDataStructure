@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 5bf5b77c3ca8cec408dcb0d41d31c786
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4222111533519659894
+    second: heimerdinger_idle_0
+  - first:
+      213: -2852471307938345258
+    second: heimerdinger_idle_1
+  - first:
+      213: 5408164519653120487
+    second: heimerdinger_idle_2
+  - first:
+      213: -5120814159677156553
+    second: heimerdinger_idle_3
+  - first:
+      213: 1647500488201823758
+    second: heimerdinger_idle_4
+  - first:
+      213: 6702405297366281881
+    second: heimerdinger_idle_5
+  - first:
+      213: -746181068969627252
+    second: heimerdinger_idle_6
+  - first:
+      213: -6312145674396904803
+    second: heimerdinger_idle_7
+  - first:
+      213: -2766738212271217827
+    second: heimerdinger_idle_8
+  - first:
+      213: -4345424779154396811
+    second: heimerdinger_idle_9
+  - first:
+      213: -2237127196011254789
+    second: heimerdinger_idle_10
+  - first:
+      213: -8027259367469037783
+    second: heimerdinger_idle_11
+  - first:
+      213: 4560466991948738980
+    second: heimerdinger_idle_12
+  - first:
+      213: 3266376918531018729
+    second: heimerdinger_idle_13
+  - first:
+      213: 8419495154844122503
+    second: heimerdinger_idle_14
+  - first:
+      213: -8885215677362585467
+    second: heimerdinger_idle_15
+  - first:
+      213: -7824328288832465822
+    second: heimerdinger_idle_16
+  - first:
+      213: -4783727441919908576
+    second: heimerdinger_idle_17
+  - first:
+      213: -5133811555632289356
+    second: heimerdinger_idle_18
+  - first:
+      213: 1783875132693605664
+    second: heimerdinger_idle_19
+  - first:
+      213: -8824068330610972644
+    second: heimerdinger_idle_20
+  - first:
+      213: -6825053711597050986
+    second: heimerdinger_idle_21
+  - first:
+      213: 4498185655826406151
+    second: heimerdinger_idle_22
+  - first:
+      213: 1900450835919500531
+    second: heimerdinger_idle_23
+  - first:
+      213: 3654618796137082897
+    second: heimerdinger_idle_24
+  - first:
+      213: 7492137937696883408
+    second: heimerdinger_idle_25
+  - first:
+      213: -8846328916615081530
+    second: heimerdinger_idle_26
+  - first:
+      213: 3333128564454840333
+    second: heimerdinger_idle_27
+  - first:
+      213: 2170268340158705760
+    second: heimerdinger_idle_28
+  - first:
+      213: 5627542826211840186
+    second: heimerdinger_idle_29
+  - first:
+      213: 8414744669369761678
+    second: heimerdinger_idle_30
+  - first:
+      213: -4472831912637081664
+    second: heimerdinger_idle_31
+  - first:
+      213: -2862947399663004751
+    second: heimerdinger_idle_32
+  - first:
+      213: 5619080971685398793
+    second: heimerdinger_idle_33
+  - first:
+      213: 882575853568033393
+    second: heimerdinger_idle_34
+  - first:
+      213: 8645554321348993485
+    second: heimerdinger_idle_35
+  - first:
+      213: 5643794301193599062
+    second: heimerdinger_idle_36
+  - first:
+      213: 5075726690472014394
+    second: heimerdinger_idle_37
+  - first:
+      213: 7092406231774550144
+    second: heimerdinger_idle_38
+  - first:
+      213: 2355947891140026214
+    second: heimerdinger_idle_39
+  - first:
+      213: 5403034904264800637
+    second: heimerdinger_idle_40
+  - first:
+      213: -5501433260733305867
+    second: heimerdinger_idle_41
+  - first:
+      213: -2041244638899148822
+    second: heimerdinger_idle_42
+  - first:
+      213: 832326441962233062
+    second: heimerdinger_idle_43
+  - first:
+      213: 6487557127522112118
+    second: heimerdinger_idle_44
+  - first:
+      213: -2019311275156024965
+    second: heimerdinger_idle_45
+  - first:
+      213: 899574907119423501
+    second: heimerdinger_idle_46
+  - first:
+      213: -2909009589358186846
+    second: heimerdinger_idle_47
+  - first:
+      213: 4496946213408452440
+    second: heimerdinger_idle_48
+  - first:
+      213: -435634962755374120
+    second: heimerdinger_idle_49
+  - first:
+      213: -1059854348728898002
+    second: heimerdinger_idle_50
+  - first:
+      213: 1536671908124594548
+    second: heimerdinger_idle_51
+  - first:
+      213: -8919893352180086227
+    second: heimerdinger_idle_52
+  - first:
+      213: 5698309374923392107
+    second: heimerdinger_idle_53
+  - first:
+      213: -138390336430492256
+    second: heimerdinger_idle_54
+  - first:
+      213: 1036096037112641252
+    second: heimerdinger_idle_55
+  - first:
+      213: -7967447637681680609
+    second: heimerdinger_idle_56
+  - first:
+      213: 5692750725900286843
+    second: heimerdinger_idle_57
+  - first:
+      213: -7332403438472470596
+    second: heimerdinger_idle_58
+  - first:
+      213: 927133580399640725
+    second: heimerdinger_idle_59
+  - first:
+      213: 6214754323300797787
+    second: heimerdinger_idle_60
+  - first:
+      213: -4731591860373747336
+    second: heimerdinger_idle_61
+  - first:
+      213: 2856211453025513049
+    second: heimerdinger_idle_62
+  - first:
+      213: 6701439838282394521
+    second: heimerdinger_idle_63
+  - first:
+      213: -7746529986010723131
+    second: heimerdinger_idle_64
+  - first:
+      213: -3726739310399088282
+    second: heimerdinger_idle_65
+  - first:
+      213: -1126716760721662197
+    second: heimerdinger_idle_66
+  - first:
+      213: 4458932574969124942
+    second: heimerdinger_idle_67
+  - first:
+      213: -8183756018903139040
+    second: heimerdinger_idle_68
+  - first:
+      213: -7669152074875949936
+    second: heimerdinger_idle_69
+  - first:
+      213: 4229727122741244235
+    second: heimerdinger_idle_70
+  - first:
+      213: 111055826753365551
+    second: heimerdinger_idle_71
+  - first:
+      213: -5913087058965796998
+    second: heimerdinger_idle_72
+  - first:
+      213: -1025103293678861407
+    second: heimerdinger_idle_73
+  - first:
+      213: -4842945945618063846
+    second: heimerdinger_idle_74
+  - first:
+      213: -7958371314732895476
+    second: heimerdinger_idle_75
+  - first:
+      213: -4638376773795085113
+    second: heimerdinger_idle_76
+  - first:
+      213: 4320159931292892724
+    second: heimerdinger_idle_77
+  - first:
+      213: 9094849662438492405
+    second: heimerdinger_idle_78
+  - first:
+      213: 6661798273539657178
+    second: heimerdinger_idle_79
+  - first:
+      213: -475247819648553150
+    second: heimerdinger_idle_80
+  - first:
+      213: 7935927236847949913
+    second: heimerdinger_idle_81
+  - first:
+      213: 7201100675294550730
+    second: heimerdinger_idle_82
+  - first:
+      213: -6318252003605867981
+    second: heimerdinger_idle_83
+  - first:
+      213: -2952402171122318818
+    second: heimerdinger_idle_84
+  - first:
+      213: 3547395796201578961
+    second: heimerdinger_idle_85
+  - first:
+      213: -6959396380057924451
+    second: heimerdinger_idle_86
+  - first:
+      213: -510968979120511458
+    second: heimerdinger_idle_87
+  - first:
+      213: -5150998281532986611
+    second: heimerdinger_idle_88
+  - first:
+      213: -4534439238333734213
+    second: heimerdinger_idle_89
+  - first:
+      213: 295769798100307936
+    second: heimerdinger_idle_90
+  - first:
+      213: -1357288775749526159
+    second: heimerdinger_idle_91
+  - first:
+      213: -756319998499975241
+    second: heimerdinger_idle_92
+  - first:
+      213: -7734212145777807687
+    second: heimerdinger_idle_93
+  - first:
+      213: 8668020086977498857
+    second: heimerdinger_idle_94
+  - first:
+      213: 1861075021130230923
+    second: heimerdinger_idle_95
+  - first:
+      213: -6107785124464570013
+    second: heimerdinger_idle_96
+  - first:
+      213: -7378830998737461395
+    second: heimerdinger_idle_97
+  - first:
+      213: 4726064358507668298
+    second: heimerdinger_idle_98
+  - first:
+      213: -2477722887932403127
+    second: heimerdinger_idle_99
+  - first:
+      213: -1471369152016659584
+    second: heimerdinger_idle_100
+  - first:
+      213: -3344156042499158342
+    second: heimerdinger_idle_101
+  - first:
+      213: -7015297513980802
+    second: heimerdinger_idle_102
+  - first:
+      213: 4874676017118509865
+    second: heimerdinger_idle_103
+  - first:
+      213: -7632229320494882474
+    second: heimerdinger_idle_104
+  - first:
+      213: -7645167225129464809
+    second: heimerdinger_idle_105
+  - first:
+      213: 3651255616365651783
+    second: heimerdinger_idle_106
+  - first:
+      213: -1459821788450975035
+    second: heimerdinger_idle_107
+  - first:
+      213: -3081433534710321398
+    second: heimerdinger_idle_108
+  - first:
+      213: -7147382970891382317
+    second: heimerdinger_idle_109
+  - first:
+      213: -7418208040225563529
+    second: heimerdinger_idle_110
+  - first:
+      213: 6380531754805271118
+    second: heimerdinger_idle_111
+  - first:
+      213: 101146426665499901
+    second: heimerdinger_idle_112
+  - first:
+      213: 6635160090993317509
+    second: heimerdinger_idle_113
+  - first:
+      213: 7720138022257417091
+    second: heimerdinger_idle_114
+  - first:
+      213: -4255992092369623537
+    second: heimerdinger_idle_115
+  - first:
+      213: -3925346411699667364
+    second: heimerdinger_idle_116
+  - first:
+      213: -7846234239668150258
+    second: heimerdinger_idle_117
+  - first:
+      213: -4374821034865814666
+    second: heimerdinger_idle_118
+  - first:
+      213: 3517635190794216592
+    second: heimerdinger_idle_119
+  - first:
+      213: -3882015322135532617
+    second: heimerdinger_idle_000
+  - first:
+      213: -2062659127923919361
+    second: heimerdinger_idle_001
+  - first:
+      213: -8435423432489658064
+    second: heimerdinger_idle_002
+  - first:
+      213: 105349052553910244
+    second: heimerdinger_idle_003
+  - first:
+      213: 8096881911404334187
+    second: heimerdinger_idle_004
+  - first:
+      213: -2704759456723663132
+    second: heimerdinger_idle_005
+  - first:
+      213: -6578957049011154348
+    second: heimerdinger_idle_006
+  - first:
+      213: -8767209935447585477
+    second: heimerdinger_idle_007
+  - first:
+      213: -8522105165917789205
+    second: heimerdinger_idle_008
+  - first:
+      213: 5247113908426993939
+    second: heimerdinger_idle_009
+  - first:
+      213: 9003658284440474011
+    second: heimerdinger_idle_010
+  - first:
+      213: 111200784329601137
+    second: heimerdinger_idle_011
+  - first:
+      213: 5456390680150276258
+    second: heimerdinger_idle_012
+  - first:
+      213: 6049369001090257316
+    second: heimerdinger_idle_013
+  - first:
+      213: -9155810864544067810
+    second: heimerdinger_idle_014
+  - first:
+      213: 809165523201489888
+    second: heimerdinger_idle_015
+  - first:
+      213: 5701608849112503589
+    second: heimerdinger_idle_016
+  - first:
+      213: -7234098251791162167
+    second: heimerdinger_idle_017
+  - first:
+      213: -8611467148017414598
+    second: heimerdinger_idle_018
+  - first:
+      213: 333328561976740134
+    second: heimerdinger_idle_019
+  - first:
+      213: 1587062424141053553
+    second: heimerdinger_idle_020
+  - first:
+      213: -3058686083013545921
+    second: heimerdinger_idle_021
+  - first:
+      213: 2184917749185356897
+    second: heimerdinger_idle_022
+  - first:
+      213: 2949064282654245413
+    second: heimerdinger_idle_023
+  - first:
+      213: -8657122123969260531
+    second: heimerdinger_idle_024
+  - first:
+      213: 1210774776603123474
+    second: heimerdinger_idle_025
+  - first:
+      213: 1954694223497452870
+    second: heimerdinger_idle_026
+  - first:
+      213: -5367531599399518886
+    second: heimerdinger_idle_027
+  - first:
+      213: -3469559626416578812
+    second: heimerdinger_idle_028
+  - first:
+      213: -7798515236234555168
+    second: heimerdinger_idle_029
+  - first:
+      213: 7255070760255786166
+    second: heimerdinger_idle_030
+  - first:
+      213: -6626136723207829598
+    second: heimerdinger_idle_031
+  - first:
+      213: 3865926492626102463
+    second: heimerdinger_idle_032
+  - first:
+      213: 7459608224508463328
+    second: heimerdinger_idle_033
+  - first:
+      213: -2807349813178612574
+    second: heimerdinger_idle_034
+  - first:
+      213: -5956728774251932798
+    second: heimerdinger_idle_035
+  - first:
+      213: -3779758198218106770
+    second: heimerdinger_idle_036
+  - first:
+      213: -3584770043945469912
+    second: heimerdinger_idle_037
+  - first:
+      213: 3202128076931349184
+    second: heimerdinger_idle_038
+  - first:
+      213: -2631041724919944913
+    second: heimerdinger_idle_039
+  - first:
+      213: -8709716484564109966
+    second: heimerdinger_idle_040
+  - first:
+      213: 8063750709305740857
+    second: heimerdinger_idle_041
+  - first:
+      213: -3187811884095736757
+    second: heimerdinger_idle_042
+  - first:
+      213: -8677928809993435827
+    second: heimerdinger_idle_043
+  - first:
+      213: -8730355135350094615
+    second: heimerdinger_idle_044
+  - first:
+      213: -8905264137164174970
+    second: heimerdinger_idle_045
+  - first:
+      213: 985790025115965364
+    second: heimerdinger_idle_046
+  - first:
+      213: -647711695371677747
+    second: heimerdinger_idle_047
+  - first:
+      213: 9194380209521183589
+    second: heimerdinger_idle_048
+  - first:
+      213: 2271720597972541606
+    second: heimerdinger_idle_049
+  - first:
+      213: -2174857133588616599
+    second: heimerdinger_idle_050
+  - first:
+      213: 8826502553947229267
+    second: heimerdinger_idle_051
+  - first:
+      213: 5520611863330532893
+    second: heimerdinger_idle_052
+  - first:
+      213: -2922793595522562242
+    second: heimerdinger_idle_053
+  - first:
+      213: 6659146122518967589
+    second: heimerdinger_idle_054
+  - first:
+      213: -9174987118841105541
+    second: heimerdinger_idle_055
+  - first:
+      213: 8565029885883099710
+    second: heimerdinger_idle_056
+  - first:
+      213: 437916229511950144
+    second: heimerdinger_idle_057
+  - first:
+      213: -6027248549088666013
+    second: heimerdinger_idle_058
+  - first:
+      213: -6485080643516209749
+    second: heimerdinger_idle_059
+  - first:
+      213: 6212678715418899371
+    second: heimerdinger_idle_060
+  - first:
+      213: -1900268275905220745
+    second: heimerdinger_idle_061
+  - first:
+      213: 6731952818806993041
+    second: heimerdinger_idle_062
+  - first:
+      213: -6005359607695469014
+    second: heimerdinger_idle_063
+  - first:
+      213: -3493365288835534644
+    second: heimerdinger_idle_064
+  - first:
+      213: 998802720804168910
+    second: heimerdinger_idle_065
+  - first:
+      213: 6689291389876797195
+    second: heimerdinger_idle_066
+  - first:
+      213: -6217642737195466409
+    second: heimerdinger_idle_067
+  - first:
+      213: -4161160658680694147
+    second: heimerdinger_idle_068
+  - first:
+      213: -2773672160827878159
+    second: heimerdinger_idle_069
+  - first:
+      213: -5978816116999947826
+    second: heimerdinger_idle_070
+  - first:
+      213: 4685760391330065602
+    second: heimerdinger_idle_071
+  - first:
+      213: -8761778558753494806
+    second: heimerdinger_idle_072
+  - first:
+      213: -1229986989229185386
+    second: heimerdinger_idle_073
+  - first:
+      213: -5563193475746293034
+    second: heimerdinger_idle_074
+  - first:
+      213: -9081017494168538240
+    second: heimerdinger_idle_075
+  - first:
+      213: -2671181470801519755
+    second: heimerdinger_idle_076
+  - first:
+      213: -6805601447593084266
+    second: heimerdinger_idle_077
+  - first:
+      213: -953716137191378020
+    second: heimerdinger_idle_078
+  - first:
+      213: -8925495150955691256
+    second: heimerdinger_idle_079
+  - first:
+      213: -2949912800773469222
+    second: heimerdinger_idle_080
+  - first:
+      213: 5861418308756783440
+    second: heimerdinger_idle_081
+  - first:
+      213: -6582124810104986995
+    second: heimerdinger_idle_082
+  - first:
+      213: 5091387767603474974
+    second: heimerdinger_idle_083
+  - first:
+      213: -9168392938925610820
+    second: heimerdinger_idle_084
+  - first:
+      213: 5525394532010397911
+    second: heimerdinger_idle_085
+  - first:
+      213: 3506808313465161970
+    second: heimerdinger_idle_086
+  - first:
+      213: 6314247262504299677
+    second: heimerdinger_idle_087
+  - first:
+      213: -1713284680184595744
+    second: heimerdinger_idle_088
+  - first:
+      213: -9038669017785628436
+    second: heimerdinger_idle_089
+  - first:
+      213: 3609353850636920728
+    second: heimerdinger_idle_090
+  - first:
+      213: -766553455028814667
+    second: heimerdinger_idle_091
+  - first:
+      213: -5384057218727097453
+    second: heimerdinger_idle_092
+  - first:
+      213: -4898460692921611349
+    second: heimerdinger_idle_093
+  - first:
+      213: 1257040591515741207
+    second: heimerdinger_idle_094
+  - first:
+      213: -4582473206722592605
+    second: heimerdinger_idle_095
+  - first:
+      213: -5097362097607886541
+    second: heimerdinger_idle_096
+  - first:
+      213: -3591636902243820647
+    second: heimerdinger_idle_097
+  - first:
+      213: 6492618785241174622
+    second: heimerdinger_idle_098
+  - first:
+      213: -16741719396075500
+    second: heimerdinger_idle_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: heimerdinger_idle_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbec7fd1af402ac0800000000000000
+      internalID: -3882015322135532617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5b06b9376ff53e0800000000000000
+      internalID: -2062659127923919361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0399278b41b5fea80800000000000000
+      internalID: -8435423432489658064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e756e6b766467100800000000000000
+      internalID: 105349052553910244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c8a850337ed5070800000000000000
+      internalID: 8096881911404334187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e68b13ca93c67ad0800000000000000
+      internalID: -2704759456723663132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4525325bb69d2b4a0800000000000000
+      internalID: -6578957049011154348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d0f5ea30d945680800000000000000
+      internalID: -8767209935447585477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3e2fee0866bb980800000000000000
+      internalID: -8522105165917789205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3117dcf9c4e71d840800000000000000
+      internalID: 5247113908426993939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91d31b918b63fc70800000000000000
+      internalID: 9003658284440474011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170f5b036801b8100800000000000000
+      internalID: 111200784329601137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8fb161a6ef8bb40800000000000000
+      internalID: 5456390680150276258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a19e393e0da3f350800000000000000
+      internalID: 6049369001090257316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f403c378600f080800000000000000
+      internalID: -9155810864544067810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebfae691cbba3b00800000000000000
+      internalID: 809165523201489888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52513933a0f202f40800000000000000
+      internalID: 5701608849112503589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4a6b7c7f15b9b90800000000000000
+      internalID: -7234098251791162167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ec97f114ced7880800000000000000
+      internalID: -8611467148017414598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6298d12af8830a400800000000000000
+      internalID: 333328561976740134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e3c4bbdd0660610800000000000000
+      internalID: 1587062424141053553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30fb8e863d5d85d0800000000000000
+      internalID: -3058686083013545921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164a3afdd13625e10800000000000000
+      internalID: 2184917749185356897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522066b175e2de820800000000000000
+      internalID: 2949064282654245413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0413afab49bbd780800000000000000
+      internalID: -8657122123969260531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f9e6e8e398dc010800000000000000
+      internalID: 1210774776603123474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dd2143a08702b10800000000000000
+      internalID: 1954694223497452870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d7b11e272b285b0800000000000000
+      internalID: -5367531599399518886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f176cf6e5a9dfc0800000000000000
+      internalID: -3469559626416578812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e094c006bb16c390800000000000000
+      internalID: -7798515236234555168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc8e5dda603fa460800000000000000
+      internalID: 7255070760255786166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7c60cc1cb3b04a0800000000000000
+      internalID: -6626136723207829598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb820c899a786a530800000000000000
+      internalID: 3865926492626102463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8c861582ad58760800000000000000
+      internalID: 7459608224508463328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4ca39083a4a09d0800000000000000
+      internalID: -2807349813178612574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2839d5b6db2755da0800000000000000
+      internalID: -5956728774251932798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68d65ad1f99b8bc0800000000000000
+      internalID: -3779758198218106770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8283b2153a6504ec0800000000000000
+      internalID: -3584770043945469912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca3cc6358e307c20800000000000000
+      internalID: 3202128076931349184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f296ae4bd79ac7bd0800000000000000
+      internalID: -2631041724919944913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 275313bd00fd02780800000000000000
+      internalID: -8709716484564109966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e0979eb8238ef60800000000000000
+      internalID: 8063750709305740857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4474bd2bfd92c3d0800000000000000
+      internalID: -3187811884095736757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45863699bdc19780800000000000000
+      internalID: -8677928809993435827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e44372824c87d680800000000000000
+      internalID: -8730355135350094615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689cd4903752a6480800000000000000
+      internalID: -8905264137164174970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7192e0eca3ead00800000000000000
+      internalID: 985790025115965364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcf418015add207f0800000000000000
+      internalID: -647711695371677747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b446e2610099f70800000000000000
+      internalID: 9194380209521183589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a0671709d5c68f10800000000000000
+      internalID: 2271720597972541606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96ae93bb5fa51d1e0800000000000000
+      internalID: -2174857133588616599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c4a19de490e7a70800000000000000
+      internalID: 8826502553947229267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1eaf908d372d9c40800000000000000
+      internalID: 5520611863330532893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e374713e5b62077d0800000000000000
+      internalID: -2922793595522562242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525b924ed1a0a6c50800000000000000
+      internalID: 6659146122518967589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73f0ba93d5eba080800000000000000
+      internalID: -9174987118841105541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3aaaae3d491dd670800000000000000
+      internalID: 8565029885883099710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f20759d7ac31600800000000000000
+      internalID: 437916229511950144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ed49ad069ea5ca0800000000000000
+      internalID: -6027248549088666013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5647f938d5006a0800000000000000
+      internalID: -6485080643516209749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba37c20206ed73650800000000000000
+      internalID: 6212678715418899371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fa9b43214e0a5e0800000000000000
+      internalID: -1900268275905220745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1903ea9db63bc6d50800000000000000
+      internalID: 6731952818806993041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2615da214da8aca0800000000000000
+      internalID: -6005359607695469014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0374847c2158fc0800000000000000
+      internalID: -3493365288835534644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec4e93e58c57cdd00800000000000000
+      internalID: 998802720804168910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0f7fa4e31325dc50800000000000000
+      internalID: 6689291389876797195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7514d2d7fde76b9a0800000000000000
+      internalID: -6217642737195466409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ab10e7d669046c0800000000000000
+      internalID: -4161160658680694147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4d6728ddfe189d0800000000000000
+      internalID: -2773672160827878159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec976d03b6af60da0800000000000000
+      internalID: -5978816116999947826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cce2dbef3a270140800000000000000
+      internalID: 4685760391330065602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae82ddc92d8e76680800000000000000
+      internalID: -8761778558753494806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69664ac99553eeee0800000000000000
+      internalID: -1229986989229185386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da1f5542019bc2b0800000000000000
+      internalID: -5563193475746293034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083f9fcc3beb9f180800000000000000
+      internalID: -9081017494168538240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57b1546da9e0eead0800000000000000
+      internalID: -2671181470801519755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69a74518a85ad81a0800000000000000
+      internalID: -6805601447593084266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93762ae938b3c2f0800000000000000
+      internalID: -953716137191378020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80380d21375422480800000000000000
+      internalID: -8925495150955691256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb058fdfedcf07d0800000000000000
+      internalID: -2949912800773469222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0514b6d85e0f75150800000000000000
+      internalID: 5861418308756783440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82286adb5897a4a0800000000000000
+      internalID: -6582124810104986995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1236c5033e38a640800000000000000
+      internalID: 5091387767603474974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8a322c23353c080800000000000000
+      internalID: -9168392938925610820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d09d545d052eac40800000000000000
+      internalID: 5525394532010397911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f84a7bc49faaa030800000000000000
+      internalID: 3506808313465161970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c2d815e66b0a750800000000000000
+      internalID: 6314247262504299677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea7a7629a03938e0800000000000000
+      internalID: -1713284680184595744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce80f80da62309280800000000000000
+      internalID: -9038669017785628436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897e6e73430071230800000000000000
+      internalID: 3609353850636920728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcb8aba1b7ac55f0800000000000000
+      internalID: -766553455028814667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39bc46b4c7cf745b0800000000000000
+      internalID: -5384057218727097453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab8134f3fb250cb0800000000000000
+      internalID: -4898460692921611349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71cea8502c7e17110800000000000000
+      internalID: 1257040591515741207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a00e80c5e8c760c0800000000000000
+      internalID: -4582473206722592605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339ba80ed288249b0800000000000000
+      internalID: -5097362097607886541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b92974441f72ec0800000000000000
+      internalID: -3591636902243820647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e521454c26a6a1a50800000000000000
+      internalID: 6492618785241174622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418b772be7584cff0800000000000000
+      internalID: -16741719396075500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b44984d85a49be0800000000000000
+      internalID: -1471369152016659584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe8c552ccb2791d0800000000000000
+      internalID: -3344156042499158342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7c7fa3cf9317eff0800000000000000
+      internalID: -7015297513980802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92bf67ba20456a340800000000000000
+      internalID: 4874676017118509865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651e49bcedfd41690800000000000000
+      internalID: -7632229320494882474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c03b12ae8e6e590800000000000000
+      internalID: -7645167225129464809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 747ef9d43addba230800000000000000
+      internalID: 3651255616365651783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2110061dbadbbe0800000000000000
+      internalID: -1459821788450975035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f6d9cb68c8c35d0800000000000000
+      internalID: -3081433534710321398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1d7527e056fcc90800000000000000
+      internalID: -7147382970891382317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c986c371b3d0990800000000000000
+      internalID: -7418208040225563529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a944353d33c8850800000000000000
+      internalID: 6380531754805271118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfc72bf9328576100800000000000000
+      internalID: 101146426665499901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586518bb2f2d41c50800000000000000
+      internalID: 6635160090993317509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38bd3a1d0a0732b60800000000000000
+      internalID: 7720138022257417091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06ef6fbdbdafe4c0800000000000000
+      internalID: -4255992092369623537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e79466c3e5689c0800000000000000
+      internalID: -3925346411699667364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00a218b7839c1390800000000000000
+      internalID: -7846234239668150258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6739ae492738943c0800000000000000
+      internalID: -4374821034865814666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: heimerdinger_idle_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094e3bc919621d030800000000000000
+      internalID: 3517635190794216592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      heimerdinger_idle_0: -4222111533519659894
+      heimerdinger_idle_000: -3882015322135532617
+      heimerdinger_idle_001: -2062659127923919361
+      heimerdinger_idle_002: -8435423432489658064
+      heimerdinger_idle_003: 105349052553910244
+      heimerdinger_idle_004: 8096881911404334187
+      heimerdinger_idle_005: -2704759456723663132
+      heimerdinger_idle_006: -6578957049011154348
+      heimerdinger_idle_007: -8767209935447585477
+      heimerdinger_idle_008: -8522105165917789205
+      heimerdinger_idle_009: 5247113908426993939
+      heimerdinger_idle_010: 9003658284440474011
+      heimerdinger_idle_011: 111200784329601137
+      heimerdinger_idle_012: 5456390680150276258
+      heimerdinger_idle_013: 6049369001090257316
+      heimerdinger_idle_014: -9155810864544067810
+      heimerdinger_idle_015: 809165523201489888
+      heimerdinger_idle_016: 5701608849112503589
+      heimerdinger_idle_017: -7234098251791162167
+      heimerdinger_idle_018: -8611467148017414598
+      heimerdinger_idle_019: 333328561976740134
+      heimerdinger_idle_020: 1587062424141053553
+      heimerdinger_idle_021: -3058686083013545921
+      heimerdinger_idle_022: 2184917749185356897
+      heimerdinger_idle_023: 2949064282654245413
+      heimerdinger_idle_024: -8657122123969260531
+      heimerdinger_idle_025: 1210774776603123474
+      heimerdinger_idle_026: 1954694223497452870
+      heimerdinger_idle_027: -5367531599399518886
+      heimerdinger_idle_028: -3469559626416578812
+      heimerdinger_idle_029: -7798515236234555168
+      heimerdinger_idle_030: 7255070760255786166
+      heimerdinger_idle_031: -6626136723207829598
+      heimerdinger_idle_032: 3865926492626102463
+      heimerdinger_idle_033: 7459608224508463328
+      heimerdinger_idle_034: -2807349813178612574
+      heimerdinger_idle_035: -5956728774251932798
+      heimerdinger_idle_036: -3779758198218106770
+      heimerdinger_idle_037: -3584770043945469912
+      heimerdinger_idle_038: 3202128076931349184
+      heimerdinger_idle_039: -2631041724919944913
+      heimerdinger_idle_040: -8709716484564109966
+      heimerdinger_idle_041: 8063750709305740857
+      heimerdinger_idle_042: -3187811884095736757
+      heimerdinger_idle_043: -8677928809993435827
+      heimerdinger_idle_044: -8730355135350094615
+      heimerdinger_idle_045: -8905264137164174970
+      heimerdinger_idle_046: 985790025115965364
+      heimerdinger_idle_047: -647711695371677747
+      heimerdinger_idle_048: 9194380209521183589
+      heimerdinger_idle_049: 2271720597972541606
+      heimerdinger_idle_050: -2174857133588616599
+      heimerdinger_idle_051: 8826502553947229267
+      heimerdinger_idle_052: 5520611863330532893
+      heimerdinger_idle_053: -2922793595522562242
+      heimerdinger_idle_054: 6659146122518967589
+      heimerdinger_idle_055: -9174987118841105541
+      heimerdinger_idle_056: 8565029885883099710
+      heimerdinger_idle_057: 437916229511950144
+      heimerdinger_idle_058: -6027248549088666013
+      heimerdinger_idle_059: -6485080643516209749
+      heimerdinger_idle_060: 6212678715418899371
+      heimerdinger_idle_061: -1900268275905220745
+      heimerdinger_idle_062: 6731952818806993041
+      heimerdinger_idle_063: -6005359607695469014
+      heimerdinger_idle_064: -3493365288835534644
+      heimerdinger_idle_065: 998802720804168910
+      heimerdinger_idle_066: 6689291389876797195
+      heimerdinger_idle_067: -6217642737195466409
+      heimerdinger_idle_068: -4161160658680694147
+      heimerdinger_idle_069: -2773672160827878159
+      heimerdinger_idle_070: -5978816116999947826
+      heimerdinger_idle_071: 4685760391330065602
+      heimerdinger_idle_072: -8761778558753494806
+      heimerdinger_idle_073: -1229986989229185386
+      heimerdinger_idle_074: -5563193475746293034
+      heimerdinger_idle_075: -9081017494168538240
+      heimerdinger_idle_076: -2671181470801519755
+      heimerdinger_idle_077: -6805601447593084266
+      heimerdinger_idle_078: -953716137191378020
+      heimerdinger_idle_079: -8925495150955691256
+      heimerdinger_idle_080: -2949912800773469222
+      heimerdinger_idle_081: 5861418308756783440
+      heimerdinger_idle_082: -6582124810104986995
+      heimerdinger_idle_083: 5091387767603474974
+      heimerdinger_idle_084: -9168392938925610820
+      heimerdinger_idle_085: 5525394532010397911
+      heimerdinger_idle_086: 3506808313465161970
+      heimerdinger_idle_087: 6314247262504299677
+      heimerdinger_idle_088: -1713284680184595744
+      heimerdinger_idle_089: -9038669017785628436
+      heimerdinger_idle_090: 3609353850636920728
+      heimerdinger_idle_091: -766553455028814667
+      heimerdinger_idle_092: -5384057218727097453
+      heimerdinger_idle_093: -4898460692921611349
+      heimerdinger_idle_094: 1257040591515741207
+      heimerdinger_idle_095: -4582473206722592605
+      heimerdinger_idle_096: -5097362097607886541
+      heimerdinger_idle_097: -3591636902243820647
+      heimerdinger_idle_098: 6492618785241174622
+      heimerdinger_idle_099: -16741719396075500
+      heimerdinger_idle_1: -2852471307938345258
+      heimerdinger_idle_10: -2237127196011254789
+      heimerdinger_idle_100: -1471369152016659584
+      heimerdinger_idle_101: -3344156042499158342
+      heimerdinger_idle_102: -7015297513980802
+      heimerdinger_idle_103: 4874676017118509865
+      heimerdinger_idle_104: -7632229320494882474
+      heimerdinger_idle_105: -7645167225129464809
+      heimerdinger_idle_106: 3651255616365651783
+      heimerdinger_idle_107: -1459821788450975035
+      heimerdinger_idle_108: -3081433534710321398
+      heimerdinger_idle_109: -7147382970891382317
+      heimerdinger_idle_11: -8027259367469037783
+      heimerdinger_idle_110: -7418208040225563529
+      heimerdinger_idle_111: 6380531754805271118
+      heimerdinger_idle_112: 101146426665499901
+      heimerdinger_idle_113: 6635160090993317509
+      heimerdinger_idle_114: 7720138022257417091
+      heimerdinger_idle_115: -4255992092369623537
+      heimerdinger_idle_116: -3925346411699667364
+      heimerdinger_idle_117: -7846234239668150258
+      heimerdinger_idle_118: -4374821034865814666
+      heimerdinger_idle_119: 3517635190794216592
+      heimerdinger_idle_12: 4560466991948738980
+      heimerdinger_idle_13: 3266376918531018729
+      heimerdinger_idle_14: 8419495154844122503
+      heimerdinger_idle_15: -8885215677362585467
+      heimerdinger_idle_16: -7824328288832465822
+      heimerdinger_idle_17: -4783727441919908576
+      heimerdinger_idle_18: -5133811555632289356
+      heimerdinger_idle_19: 1783875132693605664
+      heimerdinger_idle_2: 5408164519653120487
+      heimerdinger_idle_20: -8824068330610972644
+      heimerdinger_idle_21: -6825053711597050986
+      heimerdinger_idle_22: 4498185655826406151
+      heimerdinger_idle_23: 1900450835919500531
+      heimerdinger_idle_24: 3654618796137082897
+      heimerdinger_idle_25: 7492137937696883408
+      heimerdinger_idle_26: -8846328916615081530
+      heimerdinger_idle_27: 3333128564454840333
+      heimerdinger_idle_28: 2170268340158705760
+      heimerdinger_idle_29: 5627542826211840186
+      heimerdinger_idle_3: -5120814159677156553
+      heimerdinger_idle_30: 8414744669369761678
+      heimerdinger_idle_31: -4472831912637081664
+      heimerdinger_idle_32: -2862947399663004751
+      heimerdinger_idle_33: 5619080971685398793
+      heimerdinger_idle_34: 882575853568033393
+      heimerdinger_idle_35: 8645554321348993485
+      heimerdinger_idle_36: 5643794301193599062
+      heimerdinger_idle_37: 5075726690472014394
+      heimerdinger_idle_38: 7092406231774550144
+      heimerdinger_idle_39: 2355947891140026214
+      heimerdinger_idle_4: 1647500488201823758
+      heimerdinger_idle_40: 5403034904264800637
+      heimerdinger_idle_41: -5501433260733305867
+      heimerdinger_idle_42: -2041244638899148822
+      heimerdinger_idle_43: 832326441962233062
+      heimerdinger_idle_44: 6487557127522112118
+      heimerdinger_idle_45: -2019311275156024965
+      heimerdinger_idle_46: 899574907119423501
+      heimerdinger_idle_47: -2909009589358186846
+      heimerdinger_idle_48: 4496946213408452440
+      heimerdinger_idle_49: -435634962755374120
+      heimerdinger_idle_5: 6702405297366281881
+      heimerdinger_idle_50: -1059854348728898002
+      heimerdinger_idle_51: 1536671908124594548
+      heimerdinger_idle_52: -8919893352180086227
+      heimerdinger_idle_53: 5698309374923392107
+      heimerdinger_idle_54: -138390336430492256
+      heimerdinger_idle_55: 1036096037112641252
+      heimerdinger_idle_56: -7967447637681680609
+      heimerdinger_idle_57: 5692750725900286843
+      heimerdinger_idle_58: -7332403438472470596
+      heimerdinger_idle_59: 927133580399640725
+      heimerdinger_idle_6: -746181068969627252
+      heimerdinger_idle_60: 6214754323300797787
+      heimerdinger_idle_61: -4731591860373747336
+      heimerdinger_idle_62: 2856211453025513049
+      heimerdinger_idle_63: 6701439838282394521
+      heimerdinger_idle_64: -7746529986010723131
+      heimerdinger_idle_65: -3726739310399088282
+      heimerdinger_idle_66: -1126716760721662197
+      heimerdinger_idle_67: 4458932574969124942
+      heimerdinger_idle_68: -8183756018903139040
+      heimerdinger_idle_69: -7669152074875949936
+      heimerdinger_idle_7: -6312145674396904803
+      heimerdinger_idle_70: 4229727122741244235
+      heimerdinger_idle_71: 111055826753365551
+      heimerdinger_idle_72: -5913087058965796998
+      heimerdinger_idle_73: -1025103293678861407
+      heimerdinger_idle_74: -4842945945618063846
+      heimerdinger_idle_75: -7958371314732895476
+      heimerdinger_idle_76: -4638376773795085113
+      heimerdinger_idle_77: 4320159931292892724
+      heimerdinger_idle_78: 9094849662438492405
+      heimerdinger_idle_79: 6661798273539657178
+      heimerdinger_idle_8: -2766738212271217827
+      heimerdinger_idle_80: -475247819648553150
+      heimerdinger_idle_81: 7935927236847949913
+      heimerdinger_idle_82: 7201100675294550730
+      heimerdinger_idle_83: -6318252003605867981
+      heimerdinger_idle_84: -2952402171122318818
+      heimerdinger_idle_85: 3547395796201578961
+      heimerdinger_idle_86: -6959396380057924451
+      heimerdinger_idle_87: -510968979120511458
+      heimerdinger_idle_88: -5150998281532986611
+      heimerdinger_idle_89: -4534439238333734213
+      heimerdinger_idle_9: -4345424779154396811
+      heimerdinger_idle_90: 295769798100307936
+      heimerdinger_idle_91: -1357288775749526159
+      heimerdinger_idle_92: -756319998499975241
+      heimerdinger_idle_93: -7734212145777807687
+      heimerdinger_idle_94: 8668020086977498857
+      heimerdinger_idle_95: 1861075021130230923
+      heimerdinger_idle_96: -6107785124464570013
+      heimerdinger_idle_97: -7378830998737461395
+      heimerdinger_idle_98: 4726064358507668298
+      heimerdinger_idle_99: -2477722887932403127
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

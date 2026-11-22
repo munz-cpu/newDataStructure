@@ -1,0 +1,865 @@
+fileFormatVersion: 2
+guid: b5b8b069fb034b34386d2ccf9bb7e114
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4441181106087101997
+    second: trial-warden_0
+  - first:
+      213: 8809948102809445300
+    second: trial-warden_1
+  - first:
+      213: 1949871898138155122
+    second: trial-warden_2
+  - first:
+      213: -7802694936327167086
+    second: trial-warden_3
+  - first:
+      213: 3911980715138587945
+    second: trial-warden_4
+  - first:
+      213: -2863168375831246149
+    second: trial-warden_5
+  - first:
+      213: 8984820520368603968
+    second: trial-warden_6
+  - first:
+      213: 6828892254254705111
+    second: trial-warden_7
+  - first:
+      213: 8688418677179709088
+    second: trial-warden_8
+  - first:
+      213: 533036472158783238
+    second: trial-warden_9
+  - first:
+      213: -4294082457886431438
+    second: trial-warden_10
+  - first:
+      213: -725215395223130477
+    second: trial-warden_11
+  - first:
+      213: 6674415797844610936
+    second: trial-warden_12
+  - first:
+      213: -1416723401030063305
+    second: trial-warden_13
+  - first:
+      213: -6338762586839177742
+    second: trial-warden_14
+  - first:
+      213: -7451352433577816616
+    second: trial-warden_15
+  - first:
+      213: 3208911761408789017
+    second: trial-warden_16
+  - first:
+      213: -4838817412496292204
+    second: trial-warden_17
+  - first:
+      213: -7627433561435825389
+    second: trial-warden_18
+  - first:
+      213: -1886381234820628514
+    second: trial-warden_19
+  - first:
+      213: 8153929361305451749
+    second: trial-warden_20
+  - first:
+      213: 7723694562774837835
+    second: trial-warden_21
+  - first:
+      213: 5056425242941452421
+    second: trial-warden_22
+  - first:
+      213: -3351017054219351619
+    second: trial-warden_23
+  - first:
+      213: -6474957815979060538
+    second: trial-warden_000
+  - first:
+      213: -6438659512777063965
+    second: trial-warden_001
+  - first:
+      213: -4798245111618338692
+    second: trial-warden_002
+  - first:
+      213: -7716310305059523784
+    second: trial-warden_003
+  - first:
+      213: -2794804045363372871
+    second: trial-warden_004
+  - first:
+      213: 4203721133314511091
+    second: trial-warden_005
+  - first:
+      213: 4654852391029078682
+    second: trial-warden_006
+  - first:
+      213: -7288770357927847797
+    second: trial-warden_007
+  - first:
+      213: 3568740638526662090
+    second: trial-warden_008
+  - first:
+      213: 2646755638851373058
+    second: trial-warden_009
+  - first:
+      213: 8724743648253693046
+    second: trial-warden_010
+  - first:
+      213: 4958254699685785100
+    second: trial-warden_011
+  - first:
+      213: -4299694470296806467
+    second: trial-warden_012
+  - first:
+      213: -2438362197248268432
+    second: trial-warden_013
+  - first:
+      213: 834210571875672310
+    second: trial-warden_014
+  - first:
+      213: 5195352634801244725
+    second: trial-warden_015
+  - first:
+      213: -6144076489541335360
+    second: trial-warden_016
+  - first:
+      213: -1530449669506233545
+    second: trial-warden_017
+  - first:
+      213: -5791418094372267905
+    second: trial-warden_018
+  - first:
+      213: -3459706098296101010
+    second: trial-warden_019
+  - first:
+      213: 3484225314338477989
+    second: trial-warden_020
+  - first:
+      213: 138051624159739596
+    second: trial-warden_021
+  - first:
+      213: -5068689743229669196
+    second: trial-warden_022
+  - first:
+      213: -6127383242520410832
+    second: trial-warden_023
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: trial-warden_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2dde21c245426a0800000000000000
+      internalID: -6474957815979060538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1cb3f594945a6a0800000000000000
+      internalID: -6438659512777063965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c700cb04e75396db0800000000000000
+      internalID: -4798245111618338692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833bd3a09a82ae490800000000000000
+      internalID: -7716310305059523784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc9a4b378cd639d0800000000000000
+      internalID: -2794804045363372871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f09306391e965a30800000000000000
+      internalID: 4203721133314511091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a7a21569b599040800000000000000
+      internalID: 4654852391029078682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88505e1af519da90800000000000000
+      internalID: -7288770357927847797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5e1e6e3b6b68130800000000000000
+      internalID: 3568740638526662090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2088ffcfa3a2bb420800000000000000
+      internalID: 2646755638851373058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cc1865f14841970800000000000000
+      internalID: 8724743648253693046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0eaea021624fc440800000000000000
+      internalID: 4958254699685785100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb5f37f8aa6454c0800000000000000
+      internalID: -4299694470296806467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077a6472082392ed0800000000000000
+      internalID: -2438362197248268432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f066846816b39b00800000000000000
+      internalID: 834210571875672310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_015
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ac738f1b9991840800000000000000
+      internalID: 5195352634801244725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_016
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c64f084cfadbbaa0800000000000000
+      internalID: -6144076489541335360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_017
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b877e5220c2cae0800000000000000
+      internalID: -1530449669506233545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_018
+      rect:
+        serializedVersion: 2
+        x: 2304
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78db2b6defb0afa0800000000000000
+      internalID: -5791418094372267905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_019
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67eec742a7acffc0800000000000000
+      internalID: -3459706098296101010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_020
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7919296747a5030800000000000000
+      internalID: 3484225314338477989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_021
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccef4b288357ae100800000000000000
+      internalID: 138051624159739596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_022
+      rect:
+        serializedVersion: 2
+        x: 2816
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0312a988568a9b0800000000000000
+      internalID: -5068689743229669196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trial-warden_023
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.46, y: 0.14}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035c3eab76927faa0800000000000000
+      internalID: -6127383242520410832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      trial-warden_0: 4441181106087101997
+      trial-warden_000: -6474957815979060538
+      trial-warden_001: -6438659512777063965
+      trial-warden_002: -4798245111618338692
+      trial-warden_003: -7716310305059523784
+      trial-warden_004: -2794804045363372871
+      trial-warden_005: 4203721133314511091
+      trial-warden_006: 4654852391029078682
+      trial-warden_007: -7288770357927847797
+      trial-warden_008: 3568740638526662090
+      trial-warden_009: 2646755638851373058
+      trial-warden_010: 8724743648253693046
+      trial-warden_011: 4958254699685785100
+      trial-warden_012: -4299694470296806467
+      trial-warden_013: -2438362197248268432
+      trial-warden_014: 834210571875672310
+      trial-warden_015: 5195352634801244725
+      trial-warden_016: -6144076489541335360
+      trial-warden_017: -1530449669506233545
+      trial-warden_018: -5791418094372267905
+      trial-warden_019: -3459706098296101010
+      trial-warden_020: 3484225314338477989
+      trial-warden_021: 138051624159739596
+      trial-warden_022: -5068689743229669196
+      trial-warden_023: -6127383242520410832
+      trial-warden_1: 8809948102809445300
+      trial-warden_10: -4294082457886431438
+      trial-warden_11: -725215395223130477
+      trial-warden_12: 6674415797844610936
+      trial-warden_13: -1416723401030063305
+      trial-warden_14: -6338762586839177742
+      trial-warden_15: -7451352433577816616
+      trial-warden_16: 3208911761408789017
+      trial-warden_17: -4838817412496292204
+      trial-warden_18: -7627433561435825389
+      trial-warden_19: -1886381234820628514
+      trial-warden_2: 1949871898138155122
+      trial-warden_20: 8153929361305451749
+      trial-warden_21: 7723694562774837835
+      trial-warden_22: 5056425242941452421
+      trial-warden_23: -3351017054219351619
+      trial-warden_3: -7802694936327167086
+      trial-warden_4: 3911980715138587945
+      trial-warden_5: -2863168375831246149
+      trial-warden_6: 8984820520368603968
+      trial-warden_7: 6828892254254705111
+      trial-warden_8: 8688418677179709088
+      trial-warden_9: 533036472158783238
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

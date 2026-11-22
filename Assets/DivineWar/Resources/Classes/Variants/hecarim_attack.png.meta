@@ -1,0 +1,3669 @@
+fileFormatVersion: 2
+guid: 1a684b4e517a0f1468f1cd451f07d645
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2335925541143227373
+    second: hecarim_attack_0
+  - first:
+      213: -1740464242992007444
+    second: hecarim_attack_1
+  - first:
+      213: 4864241948983464299
+    second: hecarim_attack_2
+  - first:
+      213: 8934986379510177806
+    second: hecarim_attack_3
+  - first:
+      213: 3103254583535666142
+    second: hecarim_attack_4
+  - first:
+      213: -3049776638406719868
+    second: hecarim_attack_5
+  - first:
+      213: -2980653480529342381
+    second: hecarim_attack_6
+  - first:
+      213: 4584256199388683950
+    second: hecarim_attack_7
+  - first:
+      213: 4202907135387828239
+    second: hecarim_attack_8
+  - first:
+      213: -3079890278776766462
+    second: hecarim_attack_9
+  - first:
+      213: 4810154204015650772
+    second: hecarim_attack_10
+  - first:
+      213: -8073809186935367668
+    second: hecarim_attack_11
+  - first:
+      213: 8006868529223108496
+    second: hecarim_attack_12
+  - first:
+      213: -8248799530484887566
+    second: hecarim_attack_13
+  - first:
+      213: -7981726489692755219
+    second: hecarim_attack_14
+  - first:
+      213: 5327053380932341173
+    second: hecarim_attack_15
+  - first:
+      213: 5926775824913512482
+    second: hecarim_attack_16
+  - first:
+      213: -4073974865847809742
+    second: hecarim_attack_17
+  - first:
+      213: -7440256053955932256
+    second: hecarim_attack_18
+  - first:
+      213: -362407468624201050
+    second: hecarim_attack_19
+  - first:
+      213: 4922937018534175870
+    second: hecarim_attack_20
+  - first:
+      213: 4118656975132810046
+    second: hecarim_attack_21
+  - first:
+      213: 1201518102628950202
+    second: hecarim_attack_22
+  - first:
+      213: -6293990342094125591
+    second: hecarim_attack_23
+  - first:
+      213: 6541575513570048956
+    second: hecarim_attack_24
+  - first:
+      213: 565946332258084783
+    second: hecarim_attack_25
+  - first:
+      213: 1096910015157549389
+    second: hecarim_attack_26
+  - first:
+      213: -1653885190019878010
+    second: hecarim_attack_27
+  - first:
+      213: 7474162654533521610
+    second: hecarim_attack_28
+  - first:
+      213: -5461505868362195665
+    second: hecarim_attack_29
+  - first:
+      213: 8679951046595704168
+    second: hecarim_attack_30
+  - first:
+      213: -1742546738016792141
+    second: hecarim_attack_31
+  - first:
+      213: -6058318154423766137
+    second: hecarim_attack_32
+  - first:
+      213: -525679813760014029
+    second: hecarim_attack_33
+  - first:
+      213: -1538948109991311899
+    second: hecarim_attack_34
+  - first:
+      213: -5275135527857685950
+    second: hecarim_attack_35
+  - first:
+      213: -1055243979566540080
+    second: hecarim_attack_36
+  - first:
+      213: 6768111005731003826
+    second: hecarim_attack_37
+  - first:
+      213: -3580429528739199261
+    second: hecarim_attack_38
+  - first:
+      213: 2025632827656261371
+    second: hecarim_attack_39
+  - first:
+      213: -3062982564591955384
+    second: hecarim_attack_40
+  - first:
+      213: 351269832047053777
+    second: hecarim_attack_41
+  - first:
+      213: -1256736561246073736
+    second: hecarim_attack_42
+  - first:
+      213: 22513274047135484
+    second: hecarim_attack_43
+  - first:
+      213: 5724634513941118789
+    second: hecarim_attack_44
+  - first:
+      213: -3873615414040928529
+    second: hecarim_attack_45
+  - first:
+      213: 8935782593472053667
+    second: hecarim_attack_46
+  - first:
+      213: -7274948142931096190
+    second: hecarim_attack_47
+  - first:
+      213: -4022538551079281873
+    second: hecarim_attack_48
+  - first:
+      213: -6201959947824542021
+    second: hecarim_attack_49
+  - first:
+      213: 1439016011175281581
+    second: hecarim_attack_50
+  - first:
+      213: 9216261256933446287
+    second: hecarim_attack_51
+  - first:
+      213: -1259378486412648858
+    second: hecarim_attack_52
+  - first:
+      213: 7166572499777489210
+    second: hecarim_attack_53
+  - first:
+      213: 6221814484900127172
+    second: hecarim_attack_54
+  - first:
+      213: 159550380510344080
+    second: hecarim_attack_55
+  - first:
+      213: -3727778667497954826
+    second: hecarim_attack_56
+  - first:
+      213: -4741288233509570089
+    second: hecarim_attack_57
+  - first:
+      213: -1487622468330293319
+    second: hecarim_attack_58
+  - first:
+      213: 452217860991575383
+    second: hecarim_attack_59
+  - first:
+      213: 1284174567576524369
+    second: hecarim_attack_60
+  - first:
+      213: -8968870819150829166
+    second: hecarim_attack_61
+  - first:
+      213: -8902999552309120355
+    second: hecarim_attack_62
+  - first:
+      213: 2618186432943227663
+    second: hecarim_attack_63
+  - first:
+      213: 7025309588915645164
+    second: hecarim_attack_64
+  - first:
+      213: -2575077504347153419
+    second: hecarim_attack_65
+  - first:
+      213: -870879865817927106
+    second: hecarim_attack_66
+  - first:
+      213: 1850598734400783597
+    second: hecarim_attack_67
+  - first:
+      213: 5936511391305923636
+    second: hecarim_attack_68
+  - first:
+      213: 2134442868771895986
+    second: hecarim_attack_69
+  - first:
+      213: -4824271641520528160
+    second: hecarim_attack_70
+  - first:
+      213: 4162482129368578482
+    second: hecarim_attack_71
+  - first:
+      213: -5769037546865304307
+    second: hecarim_attack_72
+  - first:
+      213: 4477558394628397585
+    second: hecarim_attack_73
+  - first:
+      213: -3264936248189051199
+    second: hecarim_attack_74
+  - first:
+      213: -8217925691273759658
+    second: hecarim_attack_75
+  - first:
+      213: 4645291603291674583
+    second: hecarim_attack_76
+  - first:
+      213: -9063432483819579499
+    second: hecarim_attack_77
+  - first:
+      213: 6926526150504901419
+    second: hecarim_attack_78
+  - first:
+      213: -2507881913998234206
+    second: hecarim_attack_79
+  - first:
+      213: 4935803161761686162
+    second: hecarim_attack_80
+  - first:
+      213: 3757004821002135823
+    second: hecarim_attack_81
+  - first:
+      213: 6938359810045188250
+    second: hecarim_attack_82
+  - first:
+      213: 444091187274662213
+    second: hecarim_attack_83
+  - first:
+      213: -4233449662002045146
+    second: hecarim_attack_84
+  - first:
+      213: -1337655156245722554
+    second: hecarim_attack_85
+  - first:
+      213: 2857364632937928055
+    second: hecarim_attack_86
+  - first:
+      213: 1507891802151739050
+    second: hecarim_attack_87
+  - first:
+      213: 4023673465293136509
+    second: hecarim_attack_88
+  - first:
+      213: -7617860306066872162
+    second: hecarim_attack_89
+  - first:
+      213: -6721644476722668117
+    second: hecarim_attack_90
+  - first:
+      213: -2872909685308986518
+    second: hecarim_attack_91
+  - first:
+      213: 962582243000084272
+    second: hecarim_attack_92
+  - first:
+      213: 7098761070272849182
+    second: hecarim_attack_93
+  - first:
+      213: 8022176005592322460
+    second: hecarim_attack_94
+  - first:
+      213: 7352927198831447949
+    second: hecarim_attack_95
+  - first:
+      213: -573960820484326649
+    second: hecarim_attack_96
+  - first:
+      213: -3704531704601238483
+    second: hecarim_attack_97
+  - first:
+      213: -3592520972699613863
+    second: hecarim_attack_98
+  - first:
+      213: -1697545613434218216
+    second: hecarim_attack_99
+  - first:
+      213: 5770742017942929921
+    second: hecarim_attack_100
+  - first:
+      213: 6487192801340849525
+    second: hecarim_attack_101
+  - first:
+      213: -7571487059305584337
+    second: hecarim_attack_102
+  - first:
+      213: 7589609120952738883
+    second: hecarim_attack_103
+  - first:
+      213: 5381573882852094251
+    second: hecarim_attack_104
+  - first:
+      213: 8278824790888071425
+    second: hecarim_attack_105
+  - first:
+      213: 1191940777284724360
+    second: hecarim_attack_106
+  - first:
+      213: 4905725647470316773
+    second: hecarim_attack_107
+  - first:
+      213: 2383810172551337640
+    second: hecarim_attack_108
+  - first:
+      213: 330475965327479272
+    second: hecarim_attack_109
+  - first:
+      213: -5781124771984313532
+    second: hecarim_attack_110
+  - first:
+      213: -1023071555257626002
+    second: hecarim_attack_111
+  - first:
+      213: -8906484338253636230
+    second: hecarim_attack_112
+  - first:
+      213: 255905579629584851
+    second: hecarim_attack_113
+  - first:
+      213: 8172712229911125079
+    second: hecarim_attack_114
+  - first:
+      213: 1436118680661647260
+    second: hecarim_attack_115
+  - first:
+      213: -3137801274640067288
+    second: hecarim_attack_116
+  - first:
+      213: 8093566351291099809
+    second: hecarim_attack_117
+  - first:
+      213: 5156498484275636836
+    second: hecarim_attack_118
+  - first:
+      213: -4051953376228794137
+    second: hecarim_attack_119
+  - first:
+      213: 1740151347494533297
+    second: hecarim_attack_120
+  - first:
+      213: 8924284961798102835
+    second: hecarim_attack_000
+  - first:
+      213: -5040391489521487172
+    second: hecarim_attack_001
+  - first:
+      213: 536331601587396701
+    second: hecarim_attack_002
+  - first:
+      213: -2726028713186927325
+    second: hecarim_attack_003
+  - first:
+      213: 3060462516441544474
+    second: hecarim_attack_004
+  - first:
+      213: -7324469940035500424
+    second: hecarim_attack_005
+  - first:
+      213: -3144823403033703658
+    second: hecarim_attack_006
+  - first:
+      213: 8357298356398318275
+    second: hecarim_attack_007
+  - first:
+      213: -8269166305448893251
+    second: hecarim_attack_008
+  - first:
+      213: -1294041970490813766
+    second: hecarim_attack_009
+  - first:
+      213: -2431002094998939231
+    second: hecarim_attack_010
+  - first:
+      213: -2717799466129891058
+    second: hecarim_attack_011
+  - first:
+      213: 902016355748719328
+    second: hecarim_attack_012
+  - first:
+      213: 161762545297751938
+    second: hecarim_attack_013
+  - first:
+      213: 7049320525329939788
+    second: hecarim_attack_014
+  - first:
+      213: 2125968402216953341
+    second: hecarim_attack_015
+  - first:
+      213: 5868617756791100280
+    second: hecarim_attack_016
+  - first:
+      213: -1358736044983259303
+    second: hecarim_attack_017
+  - first:
+      213: 7110911120976769173
+    second: hecarim_attack_018
+  - first:
+      213: 3513793825222859508
+    second: hecarim_attack_019
+  - first:
+      213: 1159948616174701777
+    second: hecarim_attack_020
+  - first:
+      213: -1336143118167019968
+    second: hecarim_attack_021
+  - first:
+      213: -8095905085914351438
+    second: hecarim_attack_022
+  - first:
+      213: 5157404418560041245
+    second: hecarim_attack_023
+  - first:
+      213: -7022135037461794309
+    second: hecarim_attack_024
+  - first:
+      213: -5523473178893873578
+    second: hecarim_attack_025
+  - first:
+      213: -4095843502911647366
+    second: hecarim_attack_026
+  - first:
+      213: -8208891752632850618
+    second: hecarim_attack_027
+  - first:
+      213: -1541424526496450881
+    second: hecarim_attack_028
+  - first:
+      213: -660248168120813196
+    second: hecarim_attack_029
+  - first:
+      213: 1939645602230985568
+    second: hecarim_attack_030
+  - first:
+      213: 5040811041892306265
+    second: hecarim_attack_031
+  - first:
+      213: -5691617038840629835
+    second: hecarim_attack_032
+  - first:
+      213: -5054469271547275201
+    second: hecarim_attack_033
+  - first:
+      213: 7225020978010974795
+    second: hecarim_attack_034
+  - first:
+      213: -6768944693871801171
+    second: hecarim_attack_035
+  - first:
+      213: -5924841660440128611
+    second: hecarim_attack_036
+  - first:
+      213: 6593475450482310222
+    second: hecarim_attack_037
+  - first:
+      213: 8656514059465129181
+    second: hecarim_attack_038
+  - first:
+      213: 5832665804949823340
+    second: hecarim_attack_039
+  - first:
+      213: 630624578277691099
+    second: hecarim_attack_040
+  - first:
+      213: -2848952648539881691
+    second: hecarim_attack_041
+  - first:
+      213: -5539773907039310202
+    second: hecarim_attack_042
+  - first:
+      213: -1000234441955233115
+    second: hecarim_attack_043
+  - first:
+      213: -7067547323241989356
+    second: hecarim_attack_044
+  - first:
+      213: 2940620781000844325
+    second: hecarim_attack_045
+  - first:
+      213: -2140730745291664317
+    second: hecarim_attack_046
+  - first:
+      213: 4430354477513081360
+    second: hecarim_attack_047
+  - first:
+      213: 537556248555147918
+    second: hecarim_attack_048
+  - first:
+      213: 5120092459939593094
+    second: hecarim_attack_049
+  - first:
+      213: -5750486826614051923
+    second: hecarim_attack_050
+  - first:
+      213: 330647193006497797
+    second: hecarim_attack_051
+  - first:
+      213: -9219466102381930653
+    second: hecarim_attack_052
+  - first:
+      213: 6224923312139687808
+    second: hecarim_attack_053
+  - first:
+      213: 4845086336970783823
+    second: hecarim_attack_054
+  - first:
+      213: 8117700186521308051
+    second: hecarim_attack_055
+  - first:
+      213: 524339835729035217
+    second: hecarim_attack_056
+  - first:
+      213: 9056029569566146454
+    second: hecarim_attack_057
+  - first:
+      213: -4594359130921519542
+    second: hecarim_attack_058
+  - first:
+      213: -3687560604392569283
+    second: hecarim_attack_059
+  - first:
+      213: 4672022517559154575
+    second: hecarim_attack_060
+  - first:
+      213: -6007031918630997536
+    second: hecarim_attack_061
+  - first:
+      213: -888233977338786683
+    second: hecarim_attack_062
+  - first:
+      213: -6859230958787432302
+    second: hecarim_attack_063
+  - first:
+      213: 1048732496576316971
+    second: hecarim_attack_064
+  - first:
+      213: 3125990628809997969
+    second: hecarim_attack_065
+  - first:
+      213: 5434942669417702957
+    second: hecarim_attack_066
+  - first:
+      213: -5015286812814613922
+    second: hecarim_attack_067
+  - first:
+      213: 3772450267105344200
+    second: hecarim_attack_068
+  - first:
+      213: 8801779237818440943
+    second: hecarim_attack_069
+  - first:
+      213: 5078783000854901813
+    second: hecarim_attack_070
+  - first:
+      213: 327733835825442577
+    second: hecarim_attack_071
+  - first:
+      213: 308512859683277839
+    second: hecarim_attack_072
+  - first:
+      213: -1647177652397899600
+    second: hecarim_attack_073
+  - first:
+      213: -7594193067897096320
+    second: hecarim_attack_074
+  - first:
+      213: -4563480434810784661
+    second: hecarim_attack_075
+  - first:
+      213: -9140813835464857292
+    second: hecarim_attack_076
+  - first:
+      213: 119433512732328543
+    second: hecarim_attack_077
+  - first:
+      213: -5022785174853675716
+    second: hecarim_attack_078
+  - first:
+      213: 1932000913124733204
+    second: hecarim_attack_079
+  - first:
+      213: 1251435286856978925
+    second: hecarim_attack_080
+  - first:
+      213: 2004992142214406166
+    second: hecarim_attack_081
+  - first:
+      213: -4633934060120867096
+    second: hecarim_attack_082
+  - first:
+      213: 2819579625142780946
+    second: hecarim_attack_083
+  - first:
+      213: 5749219683555160530
+    second: hecarim_attack_084
+  - first:
+      213: 3929722913718913457
+    second: hecarim_attack_085
+  - first:
+      213: 1878595669504383463
+    second: hecarim_attack_086
+  - first:
+      213: 2849983117472155343
+    second: hecarim_attack_087
+  - first:
+      213: 2125976717703849310
+    second: hecarim_attack_088
+  - first:
+      213: -906966067458598455
+    second: hecarim_attack_089
+  - first:
+      213: -3533043291738829449
+    second: hecarim_attack_090
+  - first:
+      213: 8165776970315388961
+    second: hecarim_attack_091
+  - first:
+      213: -5713775335320322060
+    second: hecarim_attack_092
+  - first:
+      213: 6944512170961138853
+    second: hecarim_attack_093
+  - first:
+      213: 5829314178243190314
+    second: hecarim_attack_094
+  - first:
+      213: -3599576547687339764
+    second: hecarim_attack_095
+  - first:
+      213: -4727559432227889398
+    second: hecarim_attack_096
+  - first:
+      213: -4775182188420037452
+    second: hecarim_attack_097
+  - first:
+      213: -2165860307240739128
+    second: hecarim_attack_098
+  - first:
+      213: 802134027936824083
+    second: hecarim_attack_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hecarim_attack_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f165ec3ed69db70800000000000000
+      internalID: 8924284961798102835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb27b2a35aeec0ab0800000000000000
+      internalID: -5040391489521487172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50ee6200ce617700800000000000000
+      internalID: 536331601587396701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d5af614533b2ad0800000000000000
+      internalID: -2726028713186927325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1775e49172f87a20800000000000000
+      internalID: 3060462516441544474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876482075614a5a90800000000000000
+      internalID: -7324469940035500424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b47d4e6c75b54d0800000000000000
+      internalID: -3144823403033703658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2e31783961bf370800000000000000
+      internalID: 8357298356398318275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4e61f9e050e3d80800000000000000
+      internalID: -8269166305448893251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2d2781fa3aa0ee0800000000000000
+      internalID: -1294041970490813766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a99b5f7978534ed0800000000000000
+      internalID: -2431002094998939231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01e49af8cf684ad0800000000000000
+      internalID: -2717799466129891058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eaaef1b81b948c00800000000000000
+      internalID: 902016355748719328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f7f6a8d22be3200800000000000000
+      internalID: 161762545297751938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d392c3ba734d160800000000000000
+      internalID: 7049320525329939788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5a8d97ff4f08d10800000000000000
+      internalID: 2125968402216953341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873551ca1c4817150800000000000000
+      internalID: 5868617756791100280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fe04714ccc42de0800000000000000
+      internalID: -1358736044983259303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590f1334df70fa260800000000000000
+      internalID: 7110911120976769173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa9e5efdd083c030800000000000000
+      internalID: 3513793825222859508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc8cc8ee17f81010800000000000000
+      internalID: 1159948616174701777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e6298c9e0157de0800000000000000
+      internalID: -1336143118167019968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8fbc2e73195af80800000000000000
+      internalID: -8095905085914351438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d112d4b5ef7c29740800000000000000
+      internalID: 5157404418560041245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1f347636d5c8e90800000000000000
+      internalID: -7022135037461794309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e02ad886ea853b0800000000000000
+      internalID: -5523473178893873578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a711c59e804a827c0800000000000000
+      internalID: -4095843502911647366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6476fac8178241e80800000000000000
+      internalID: -8208891752632850618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6ba1a5f82cb9ae0800000000000000
+      internalID: -1541424526496450881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4797e8b0ac356d6f0800000000000000
+      internalID: -660248168120813196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063602706610bea10800000000000000
+      internalID: 1939645602230985568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d8bdb6fee84f540800000000000000
+      internalID: 5040811041892306265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5f75a65705301b0800000000000000
+      internalID: -5691617038840629835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f381c4d2afaead9b0800000000000000
+      internalID: -5054469271547275201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ae619bc4e644460800000000000000
+      internalID: 7225020978010974795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac81811aa0ef02a0800000000000000
+      internalID: -6768944693871801171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93d707a6ebb6cda0800000000000000
+      internalID: -5924841660440128611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4cb14d0dfab08b50800000000000000
+      internalID: 6593475450482310222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcf7934cad122870800000000000000
+      internalID: 8656514059465129181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f1a9595aac1f050800000000000000
+      internalID: 5832665804949823340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde4fd676bd60c800800000000000000
+      internalID: 630624578277691099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f3fd919ac7678d0800000000000000
+      internalID: -2848952648539881691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ea1f68bf4ce13b0800000000000000
+      internalID: -5539773907039310202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2b52313147e12f0800000000000000
+      internalID: -1000234441955233115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bf5eca7270bed90800000000000000
+      internalID: -7067547323241989356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524efae250f2fc820800000000000000
+      internalID: 2940620781000844325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344122faab89a42e0800000000000000
+      internalID: -2140730745291664317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0128a3d9ce7cb7d30800000000000000
+      internalID: 4430354477513081360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82dbe95f88c57700800000000000000
+      internalID: 537556248555147918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68bfad307f83e0740800000000000000
+      internalID: 5120092459939593094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab2b16d2ba2230b0800000000000000
+      internalID: -5750486826614051923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500e125ced1b69400800000000000000
+      internalID: 330647193006497797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36715cc3d60ed0080800000000000000
+      internalID: -9219466102381930653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087522675ce536650800000000000000
+      internalID: 6224923312139687808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4cfd356a543d3340800000000000000
+      internalID: 4845086336970783823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b89ba6f4dd7a070800000000000000
+      internalID: 8117700186521308051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df37327d44d64700800000000000000
+      internalID: 524339835729035217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f7c61a9ea7dad70800000000000000
+      internalID: 9056029569566146454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46b9de56be8d30c0800000000000000
+      internalID: -4594359130921519542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36c477fa2723dcc0800000000000000
+      internalID: -3687560604392569283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f875dbde9bb56d040800000000000000
+      internalID: 4672022517559154575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1f09feb4cb2aca0800000000000000
+      internalID: -6007031918630997536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c0a4757eb5ca3f0800000000000000
+      internalID: -888233977338786683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290fc15e8cd1fc0a0800000000000000
+      internalID: -6859230958787432302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2607d236a8dd8e00800000000000000
+      internalID: 1048732496576316971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e7b692aefb16b20800000000000000
+      internalID: 3125990628809997969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d266141ff8bcc6b40800000000000000
+      internalID: 5434942669417702957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52eb73473f166ab0800000000000000
+      internalID: -5015286812814613922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca34a7d78f6a5430800000000000000
+      internalID: 3772450267105344200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec939d3593362a70800000000000000
+      internalID: 8801779237818440943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 534bf311b367b7640800000000000000
+      internalID: 5078783000854901813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f6041ff285c8400800000000000000
+      internalID: 327733835825442577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ccf02bfce084400800000000000000
+      internalID: 308512859683277839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b08cdaf6ac0429e0800000000000000
+      internalID: -1647177652397899600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0877248f3a10c9690800000000000000
+      internalID: -7594193067897096320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6478af09b24ba0c0800000000000000
+      internalID: -4563480434810784661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439242b2f3e452180800000000000000
+      internalID: -9140813835464857292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5200b4a52058a100800000000000000
+      internalID: 119433512732328543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c359fbdce7b7b4ab0800000000000000
+      internalID: -5022785174853675716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411b7842898dfca10800000000000000
+      internalID: 1932000913124733204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1df7453cdfd5110800000000000000
+      internalID: 1251435286856978925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610a32efab923db10800000000000000
+      internalID: 2004992142214406166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee79e12685f0bfb0800000000000000
+      internalID: -4633934060120867096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2148094fab8212720800000000000000
+      internalID: 2819579625142780946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d13dfd67d459cf40800000000000000
+      internalID: 5749219683555160530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9cde16b2e298630800000000000000
+      internalID: 3929722913718913457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e95565eecc121a10800000000000000
+      internalID: 1878595669504383463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6c9c4ab8c2d8720800000000000000
+      internalID: 2849983117472155343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e552d739f8cf08d10800000000000000
+      internalID: 2125976717703849310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c91ccdba2fc963f0800000000000000
+      internalID: -906966067458598455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d84d358db18fec0800000000000000
+      internalID: -3533043291738829449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128d6bee3eaa25170800000000000000
+      internalID: 8165776970315388961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fff7dbfa9794b0b0800000000000000
+      internalID: -5713775335320322060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4f380a60ddf5060800000000000000
+      internalID: 6944512170961138853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e555e2c52e5e050800000000000000
+      internalID: 5829314178243190314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09e445833cbb0ec0800000000000000
+      internalID: -3599576547687339764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f528b7eb5546eb0800000000000000
+      internalID: -4727559432227889398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4837189152bbdb0800000000000000
+      internalID: -4775182188420037452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce1cc9968151f1e0800000000000000
+      internalID: -2165860307240739128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b7d6506a0c12b00800000000000000
+      internalID: 802134027936824083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102c8e56a4bc51050800000000000000
+      internalID: 5770742017942929921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d74617b73270a50800000000000000
+      internalID: 6487192801340849525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29af9092acace690800000000000000
+      internalID: -7571487059305584337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344e376b845b35960800000000000000
+      internalID: 7589609120952738883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b213be30fe03faa40800000000000000
+      internalID: 5381573882852094251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101c492c84b44e270800000000000000
+      internalID: 8278824790888071425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 886eb5f52df9a8010800000000000000
+      internalID: 1191940777284724360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eccdf61c73a41440800000000000000
+      internalID: 4905725647470316773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a692e2d8bef41120800000000000000
+      internalID: 2383810172551337640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e11628b326169400800000000000000
+      internalID: 330475965327479272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443f9ab46a155cfa0800000000000000
+      internalID: -5781124771984313532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62101947d15dc1f0800000000000000
+      internalID: -1023071555257626002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ddfc4deafc56480800000000000000
+      internalID: -8906484338253636230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d1acd1d4c82d8300800000000000000
+      internalID: 255905579629584851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cd753e87e4b6170800000000000000
+      internalID: 8172712229911125079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9fd328c45e1ee310800000000000000
+      internalID: 1436118680661647260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8259f419d5a4474d0800000000000000
+      internalID: -3137801274640067288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aaa2c607bf125070800000000000000
+      internalID: 8093566351291099809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ae6181d009f8740800000000000000
+      internalID: 5156498484275636836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hecarim_attack_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0207b5fd194c7c0800000000000000
+      internalID: -4051953376228794137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hecarim_attack_0: 2335925541143227373
+      hecarim_attack_000: 8924284961798102835
+      hecarim_attack_001: -5040391489521487172
+      hecarim_attack_002: 536331601587396701
+      hecarim_attack_003: -2726028713186927325
+      hecarim_attack_004: 3060462516441544474
+      hecarim_attack_005: -7324469940035500424
+      hecarim_attack_006: -3144823403033703658
+      hecarim_attack_007: 8357298356398318275
+      hecarim_attack_008: -8269166305448893251
+      hecarim_attack_009: -1294041970490813766
+      hecarim_attack_010: -2431002094998939231
+      hecarim_attack_011: -2717799466129891058
+      hecarim_attack_012: 902016355748719328
+      hecarim_attack_013: 161762545297751938
+      hecarim_attack_014: 7049320525329939788
+      hecarim_attack_015: 2125968402216953341
+      hecarim_attack_016: 5868617756791100280
+      hecarim_attack_017: -1358736044983259303
+      hecarim_attack_018: 7110911120976769173
+      hecarim_attack_019: 3513793825222859508
+      hecarim_attack_020: 1159948616174701777
+      hecarim_attack_021: -1336143118167019968
+      hecarim_attack_022: -8095905085914351438
+      hecarim_attack_023: 5157404418560041245
+      hecarim_attack_024: -7022135037461794309
+      hecarim_attack_025: -5523473178893873578
+      hecarim_attack_026: -4095843502911647366
+      hecarim_attack_027: -8208891752632850618
+      hecarim_attack_028: -1541424526496450881
+      hecarim_attack_029: -660248168120813196
+      hecarim_attack_030: 1939645602230985568
+      hecarim_attack_031: 5040811041892306265
+      hecarim_attack_032: -5691617038840629835
+      hecarim_attack_033: -5054469271547275201
+      hecarim_attack_034: 7225020978010974795
+      hecarim_attack_035: -6768944693871801171
+      hecarim_attack_036: -5924841660440128611
+      hecarim_attack_037: 6593475450482310222
+      hecarim_attack_038: 8656514059465129181
+      hecarim_attack_039: 5832665804949823340
+      hecarim_attack_040: 630624578277691099
+      hecarim_attack_041: -2848952648539881691
+      hecarim_attack_042: -5539773907039310202
+      hecarim_attack_043: -1000234441955233115
+      hecarim_attack_044: -7067547323241989356
+      hecarim_attack_045: 2940620781000844325
+      hecarim_attack_046: -2140730745291664317
+      hecarim_attack_047: 4430354477513081360
+      hecarim_attack_048: 537556248555147918
+      hecarim_attack_049: 5120092459939593094
+      hecarim_attack_050: -5750486826614051923
+      hecarim_attack_051: 330647193006497797
+      hecarim_attack_052: -9219466102381930653
+      hecarim_attack_053: 6224923312139687808
+      hecarim_attack_054: 4845086336970783823
+      hecarim_attack_055: 8117700186521308051
+      hecarim_attack_056: 524339835729035217
+      hecarim_attack_057: 9056029569566146454
+      hecarim_attack_058: -4594359130921519542
+      hecarim_attack_059: -3687560604392569283
+      hecarim_attack_060: 4672022517559154575
+      hecarim_attack_061: -6007031918630997536
+      hecarim_attack_062: -888233977338786683
+      hecarim_attack_063: -6859230958787432302
+      hecarim_attack_064: 1048732496576316971
+      hecarim_attack_065: 3125990628809997969
+      hecarim_attack_066: 5434942669417702957
+      hecarim_attack_067: -5015286812814613922
+      hecarim_attack_068: 3772450267105344200
+      hecarim_attack_069: 8801779237818440943
+      hecarim_attack_070: 5078783000854901813
+      hecarim_attack_071: 327733835825442577
+      hecarim_attack_072: 308512859683277839
+      hecarim_attack_073: -1647177652397899600
+      hecarim_attack_074: -7594193067897096320
+      hecarim_attack_075: -4563480434810784661
+      hecarim_attack_076: -9140813835464857292
+      hecarim_attack_077: 119433512732328543
+      hecarim_attack_078: -5022785174853675716
+      hecarim_attack_079: 1932000913124733204
+      hecarim_attack_080: 1251435286856978925
+      hecarim_attack_081: 2004992142214406166
+      hecarim_attack_082: -4633934060120867096
+      hecarim_attack_083: 2819579625142780946
+      hecarim_attack_084: 5749219683555160530
+      hecarim_attack_085: 3929722913718913457
+      hecarim_attack_086: 1878595669504383463
+      hecarim_attack_087: 2849983117472155343
+      hecarim_attack_088: 2125976717703849310
+      hecarim_attack_089: -906966067458598455
+      hecarim_attack_090: -3533043291738829449
+      hecarim_attack_091: 8165776970315388961
+      hecarim_attack_092: -5713775335320322060
+      hecarim_attack_093: 6944512170961138853
+      hecarim_attack_094: 5829314178243190314
+      hecarim_attack_095: -3599576547687339764
+      hecarim_attack_096: -4727559432227889398
+      hecarim_attack_097: -4775182188420037452
+      hecarim_attack_098: -2165860307240739128
+      hecarim_attack_099: 802134027936824083
+      hecarim_attack_1: -1740464242992007444
+      hecarim_attack_10: 4810154204015650772
+      hecarim_attack_100: 5770742017942929921
+      hecarim_attack_101: 6487192801340849525
+      hecarim_attack_102: -7571487059305584337
+      hecarim_attack_103: 7589609120952738883
+      hecarim_attack_104: 5381573882852094251
+      hecarim_attack_105: 8278824790888071425
+      hecarim_attack_106: 1191940777284724360
+      hecarim_attack_107: 4905725647470316773
+      hecarim_attack_108: 2383810172551337640
+      hecarim_attack_109: 330475965327479272
+      hecarim_attack_11: -8073809186935367668
+      hecarim_attack_110: -5781124771984313532
+      hecarim_attack_111: -1023071555257626002
+      hecarim_attack_112: -8906484338253636230
+      hecarim_attack_113: 255905579629584851
+      hecarim_attack_114: 8172712229911125079
+      hecarim_attack_115: 1436118680661647260
+      hecarim_attack_116: -3137801274640067288
+      hecarim_attack_117: 8093566351291099809
+      hecarim_attack_118: 5156498484275636836
+      hecarim_attack_119: -4051953376228794137
+      hecarim_attack_12: 8006868529223108496
+      hecarim_attack_120: 1740151347494533297
+      hecarim_attack_13: -8248799530484887566
+      hecarim_attack_14: -7981726489692755219
+      hecarim_attack_15: 5327053380932341173
+      hecarim_attack_16: 5926775824913512482
+      hecarim_attack_17: -4073974865847809742
+      hecarim_attack_18: -7440256053955932256
+      hecarim_attack_19: -362407468624201050
+      hecarim_attack_2: 4864241948983464299
+      hecarim_attack_20: 4922937018534175870
+      hecarim_attack_21: 4118656975132810046
+      hecarim_attack_22: 1201518102628950202
+      hecarim_attack_23: -6293990342094125591
+      hecarim_attack_24: 6541575513570048956
+      hecarim_attack_25: 565946332258084783
+      hecarim_attack_26: 1096910015157549389
+      hecarim_attack_27: -1653885190019878010
+      hecarim_attack_28: 7474162654533521610
+      hecarim_attack_29: -5461505868362195665
+      hecarim_attack_3: 8934986379510177806
+      hecarim_attack_30: 8679951046595704168
+      hecarim_attack_31: -1742546738016792141
+      hecarim_attack_32: -6058318154423766137
+      hecarim_attack_33: -525679813760014029
+      hecarim_attack_34: -1538948109991311899
+      hecarim_attack_35: -5275135527857685950
+      hecarim_attack_36: -1055243979566540080
+      hecarim_attack_37: 6768111005731003826
+      hecarim_attack_38: -3580429528739199261
+      hecarim_attack_39: 2025632827656261371
+      hecarim_attack_4: 3103254583535666142
+      hecarim_attack_40: -3062982564591955384
+      hecarim_attack_41: 351269832047053777
+      hecarim_attack_42: -1256736561246073736
+      hecarim_attack_43: 22513274047135484
+      hecarim_attack_44: 5724634513941118789
+      hecarim_attack_45: -3873615414040928529
+      hecarim_attack_46: 8935782593472053667
+      hecarim_attack_47: -7274948142931096190
+      hecarim_attack_48: -4022538551079281873
+      hecarim_attack_49: -6201959947824542021
+      hecarim_attack_5: -3049776638406719868
+      hecarim_attack_50: 1439016011175281581
+      hecarim_attack_51: 9216261256933446287
+      hecarim_attack_52: -1259378486412648858
+      hecarim_attack_53: 7166572499777489210
+      hecarim_attack_54: 6221814484900127172
+      hecarim_attack_55: 159550380510344080
+      hecarim_attack_56: -3727778667497954826
+      hecarim_attack_57: -4741288233509570089
+      hecarim_attack_58: -1487622468330293319
+      hecarim_attack_59: 452217860991575383
+      hecarim_attack_6: -2980653480529342381
+      hecarim_attack_60: 1284174567576524369
+      hecarim_attack_61: -8968870819150829166
+      hecarim_attack_62: -8902999552309120355
+      hecarim_attack_63: 2618186432943227663
+      hecarim_attack_64: 7025309588915645164
+      hecarim_attack_65: -2575077504347153419
+      hecarim_attack_66: -870879865817927106
+      hecarim_attack_67: 1850598734400783597
+      hecarim_attack_68: 5936511391305923636
+      hecarim_attack_69: 2134442868771895986
+      hecarim_attack_7: 4584256199388683950
+      hecarim_attack_70: -4824271641520528160
+      hecarim_attack_71: 4162482129368578482
+      hecarim_attack_72: -5769037546865304307
+      hecarim_attack_73: 4477558394628397585
+      hecarim_attack_74: -3264936248189051199
+      hecarim_attack_75: -8217925691273759658
+      hecarim_attack_76: 4645291603291674583
+      hecarim_attack_77: -9063432483819579499
+      hecarim_attack_78: 6926526150504901419
+      hecarim_attack_79: -2507881913998234206
+      hecarim_attack_8: 4202907135387828239
+      hecarim_attack_80: 4935803161761686162
+      hecarim_attack_81: 3757004821002135823
+      hecarim_attack_82: 6938359810045188250
+      hecarim_attack_83: 444091187274662213
+      hecarim_attack_84: -4233449662002045146
+      hecarim_attack_85: -1337655156245722554
+      hecarim_attack_86: 2857364632937928055
+      hecarim_attack_87: 1507891802151739050
+      hecarim_attack_88: 4023673465293136509
+      hecarim_attack_89: -7617860306066872162
+      hecarim_attack_9: -3079890278776766462
+      hecarim_attack_90: -6721644476722668117
+      hecarim_attack_91: -2872909685308986518
+      hecarim_attack_92: 962582243000084272
+      hecarim_attack_93: 7098761070272849182
+      hecarim_attack_94: 8022176005592322460
+      hecarim_attack_95: 7352927198831447949
+      hecarim_attack_96: -573960820484326649
+      hecarim_attack_97: -3704531704601238483
+      hecarim_attack_98: -3592520972699613863
+      hecarim_attack_99: -1697545613434218216
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3717 @@
+fileFormatVersion: 2
+guid: ecb7654441f9cc244b4a6857f6196202
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7678601297059796953
+    second: evelynn_idle_0
+  - first:
+      213: -4752334783346360755
+    second: evelynn_idle_1
+  - first:
+      213: -4707254966549425642
+    second: evelynn_idle_2
+  - first:
+      213: -2816747256023988812
+    second: evelynn_idle_3
+  - first:
+      213: 5797193232472043315
+    second: evelynn_idle_4
+  - first:
+      213: -5578741664092275107
+    second: evelynn_idle_5
+  - first:
+      213: -1102324272781589872
+    second: evelynn_idle_6
+  - first:
+      213: -9072293594254676650
+    second: evelynn_idle_7
+  - first:
+      213: -2601567890296265668
+    second: evelynn_idle_8
+  - first:
+      213: -1984054361847969342
+    second: evelynn_idle_9
+  - first:
+      213: 9119913169773346061
+    second: evelynn_idle_10
+  - first:
+      213: -4315435799713930722
+    second: evelynn_idle_11
+  - first:
+      213: 2289114599757609540
+    second: evelynn_idle_12
+  - first:
+      213: -4915897198564539340
+    second: evelynn_idle_13
+  - first:
+      213: 2788307500933348152
+    second: evelynn_idle_14
+  - first:
+      213: -2564000684928064137
+    second: evelynn_idle_15
+  - first:
+      213: 5589744881342870203
+    second: evelynn_idle_16
+  - first:
+      213: -2368437760333774783
+    second: evelynn_idle_17
+  - first:
+      213: -2017390872270670703
+    second: evelynn_idle_18
+  - first:
+      213: 3409663075425516295
+    second: evelynn_idle_19
+  - first:
+      213: -7224336801609657703
+    second: evelynn_idle_20
+  - first:
+      213: 2509541581091979810
+    second: evelynn_idle_21
+  - first:
+      213: -6935696631348204261
+    second: evelynn_idle_22
+  - first:
+      213: -3311251020175681695
+    second: evelynn_idle_23
+  - first:
+      213: 3103017903718083986
+    second: evelynn_idle_24
+  - first:
+      213: 1446619707829102698
+    second: evelynn_idle_25
+  - first:
+      213: -1715174172148130187
+    second: evelynn_idle_26
+  - first:
+      213: -3782173193523461600
+    second: evelynn_idle_27
+  - first:
+      213: 8480593387897520905
+    second: evelynn_idle_28
+  - first:
+      213: -1923030859996675853
+    second: evelynn_idle_29
+  - first:
+      213: 8184067228476771005
+    second: evelynn_idle_30
+  - first:
+      213: 5929970158790212784
+    second: evelynn_idle_31
+  - first:
+      213: -4787004446841198611
+    second: evelynn_idle_32
+  - first:
+      213: 2858342079528071831
+    second: evelynn_idle_33
+  - first:
+      213: 4990393222785569636
+    second: evelynn_idle_34
+  - first:
+      213: 3653454223890058118
+    second: evelynn_idle_35
+  - first:
+      213: -5033282755479556893
+    second: evelynn_idle_36
+  - first:
+      213: -7776758608824717618
+    second: evelynn_idle_37
+  - first:
+      213: 3792236088766250885
+    second: evelynn_idle_38
+  - first:
+      213: 7881538302846877722
+    second: evelynn_idle_39
+  - first:
+      213: -3296369158617270056
+    second: evelynn_idle_40
+  - first:
+      213: 1779204684116375099
+    second: evelynn_idle_41
+  - first:
+      213: 6566871351000597381
+    second: evelynn_idle_42
+  - first:
+      213: 3276415169568690992
+    second: evelynn_idle_43
+  - first:
+      213: -4578448352978152346
+    second: evelynn_idle_44
+  - first:
+      213: -620189346290822467
+    second: evelynn_idle_45
+  - first:
+      213: -7442435529107040899
+    second: evelynn_idle_46
+  - first:
+      213: -3243174117669355784
+    second: evelynn_idle_47
+  - first:
+      213: -3011712528553177903
+    second: evelynn_idle_48
+  - first:
+      213: -5761005321572779215
+    second: evelynn_idle_49
+  - first:
+      213: 478280617013015381
+    second: evelynn_idle_50
+  - first:
+      213: 1429827082645520238
+    second: evelynn_idle_51
+  - first:
+      213: 4828677299412823755
+    second: evelynn_idle_52
+  - first:
+      213: 9053261251641513823
+    second: evelynn_idle_53
+  - first:
+      213: -6579614883349939735
+    second: evelynn_idle_54
+  - first:
+      213: 5702357446473849223
+    second: evelynn_idle_55
+  - first:
+      213: 457661474056543516
+    second: evelynn_idle_56
+  - first:
+      213: -8591494073793674071
+    second: evelynn_idle_57
+  - first:
+      213: 7128513479384079639
+    second: evelynn_idle_58
+  - first:
+      213: -1674132635510699538
+    second: evelynn_idle_59
+  - first:
+      213: 6196389818155275434
+    second: evelynn_idle_60
+  - first:
+      213: -9013501538146721378
+    second: evelynn_idle_61
+  - first:
+      213: 4661057678561104783
+    second: evelynn_idle_62
+  - first:
+      213: -15480074104772452
+    second: evelynn_idle_63
+  - first:
+      213: 3476903096994625669
+    second: evelynn_idle_64
+  - first:
+      213: -6604901032136179856
+    second: evelynn_idle_65
+  - first:
+      213: 7806608930391695711
+    second: evelynn_idle_66
+  - first:
+      213: 982951031450010596
+    second: evelynn_idle_67
+  - first:
+      213: -920186218432966678
+    second: evelynn_idle_68
+  - first:
+      213: -6412656236537285579
+    second: evelynn_idle_69
+  - first:
+      213: 5655619443459815531
+    second: evelynn_idle_70
+  - first:
+      213: 3325457522410070092
+    second: evelynn_idle_71
+  - first:
+      213: 4930358041155927082
+    second: evelynn_idle_72
+  - first:
+      213: -5413649818182765984
+    second: evelynn_idle_73
+  - first:
+      213: -7699745654475109472
+    second: evelynn_idle_74
+  - first:
+      213: -4758653428632608366
+    second: evelynn_idle_75
+  - first:
+      213: -5367095490358614932
+    second: evelynn_idle_76
+  - first:
+      213: -2938161966087299516
+    second: evelynn_idle_77
+  - first:
+      213: -6671715154381279503
+    second: evelynn_idle_78
+  - first:
+      213: -6195476466793444595
+    second: evelynn_idle_79
+  - first:
+      213: 7445801669051278769
+    second: evelynn_idle_80
+  - first:
+      213: 286496449985099946
+    second: evelynn_idle_81
+  - first:
+      213: -2709061524849351545
+    second: evelynn_idle_82
+  - first:
+      213: -1543901946072920772
+    second: evelynn_idle_83
+  - first:
+      213: 2079426318483772273
+    second: evelynn_idle_84
+  - first:
+      213: 6421298005239526578
+    second: evelynn_idle_85
+  - first:
+      213: 7370299027836761348
+    second: evelynn_idle_86
+  - first:
+      213: 2872927516408203310
+    second: evelynn_idle_87
+  - first:
+      213: 6177737176358269402
+    second: evelynn_idle_88
+  - first:
+      213: 3477941640075437688
+    second: evelynn_idle_89
+  - first:
+      213: -9084428378045283181
+    second: evelynn_idle_90
+  - first:
+      213: -7930621173218024609
+    second: evelynn_idle_91
+  - first:
+      213: 7805907598557831580
+    second: evelynn_idle_92
+  - first:
+      213: -6672937608092214616
+    second: evelynn_idle_93
+  - first:
+      213: 4877244724908625116
+    second: evelynn_idle_94
+  - first:
+      213: 7227671819978257554
+    second: evelynn_idle_95
+  - first:
+      213: -8525548059312844931
+    second: evelynn_idle_96
+  - first:
+      213: -3546277716894661534
+    second: evelynn_idle_97
+  - first:
+      213: 5548499449608819468
+    second: evelynn_idle_98
+  - first:
+      213: -9066758741917648745
+    second: evelynn_idle_99
+  - first:
+      213: -6933889139240290731
+    second: evelynn_idle_100
+  - first:
+      213: 1095399843974269420
+    second: evelynn_idle_101
+  - first:
+      213: 5806818540121947188
+    second: evelynn_idle_102
+  - first:
+      213: -8987113189432774039
+    second: evelynn_idle_103
+  - first:
+      213: -4528878161898709766
+    second: evelynn_idle_104
+  - first:
+      213: 2827281832568972291
+    second: evelynn_idle_105
+  - first:
+      213: 8102804700999146304
+    second: evelynn_idle_106
+  - first:
+      213: -2128278521585143939
+    second: evelynn_idle_107
+  - first:
+      213: 6820661304570570118
+    second: evelynn_idle_108
+  - first:
+      213: 4400432501055276090
+    second: evelynn_idle_109
+  - first:
+      213: 1016648549767479482
+    second: evelynn_idle_110
+  - first:
+      213: -2948318889187178866
+    second: evelynn_idle_111
+  - first:
+      213: -975871946530477385
+    second: evelynn_idle_112
+  - first:
+      213: -6287384896041159948
+    second: evelynn_idle_113
+  - first:
+      213: 171827607355301471
+    second: evelynn_idle_114
+  - first:
+      213: -7376081503206242842
+    second: evelynn_idle_115
+  - first:
+      213: -4935795212781449471
+    second: evelynn_idle_116
+  - first:
+      213: 9099453298261295450
+    second: evelynn_idle_117
+  - first:
+      213: -7022512342699516349
+    second: evelynn_idle_118
+  - first:
+      213: 5655973303018775570
+    second: evelynn_idle_119
+  - first:
+      213: -2390378636928483682
+    second: evelynn_idle_120
+  - first:
+      213: -8807295049045889998
+    second: evelynn_idle_121
+  - first:
+      213: -2022182699573141626
+    second: evelynn_idle_122
+  - first:
+      213: -6348189045998949631
+    second: evelynn_idle_123
+  - first:
+      213: 7123070479880722139
+    second: evelynn_idle_124
+  - first:
+      213: 4479977717803571551
+    second: evelynn_idle_125
+  - first:
+      213: 1818916753994357872
+    second: evelynn_idle_126
+  - first:
+      213: -2431253952099959193
+    second: evelynn_idle_127
+  - first:
+      213: -5065875702061208288
+    second: evelynn_idle_128
+  - first:
+      213: 5032848121778015548
+    second: evelynn_idle_129
+  - first:
+      213: 7243844258468569552
+    second: evelynn_idle_130
+  - first:
+      213: -9219660941067543743
+    second: evelynn_idle_131
+  - first:
+      213: -4045138779144292615
+    second: evelynn_idle_132
+  - first:
+      213: -1446277234316680112
+    second: evelynn_idle_000
+  - first:
+      213: -7485695227149073914
+    second: evelynn_idle_001
+  - first:
+      213: -139201578124178457
+    second: evelynn_idle_002
+  - first:
+      213: 766162367786012932
+    second: evelynn_idle_003
+  - first:
+      213: 7597860868121316253
+    second: evelynn_idle_004
+  - first:
+      213: -8325756805286512268
+    second: evelynn_idle_005
+  - first:
+      213: 5479375913880651620
+    second: evelynn_idle_006
+  - first:
+      213: -3038131946116168813
+    second: evelynn_idle_007
+  - first:
+      213: -2210071942557633949
+    second: evelynn_idle_008
+  - first:
+      213: -4166723392465493143
+    second: evelynn_idle_009
+  - first:
+      213: -7195656108081229103
+    second: evelynn_idle_010
+  - first:
+      213: 3363561301078984346
+    second: evelynn_idle_011
+  - first:
+      213: -437118159373355031
+    second: evelynn_idle_012
+  - first:
+      213: -7189192938776706101
+    second: evelynn_idle_013
+  - first:
+      213: -6421835172388369072
+    second: evelynn_idle_014
+  - first:
+      213: -2448789911079422183
+    second: evelynn_idle_015
+  - first:
+      213: 4423672253196649534
+    second: evelynn_idle_016
+  - first:
+      213: 4543031223820222981
+    second: evelynn_idle_017
+  - first:
+      213: 140564058646741650
+    second: evelynn_idle_018
+  - first:
+      213: 4230572597742906906
+    second: evelynn_idle_019
+  - first:
+      213: 5544628824902182225
+    second: evelynn_idle_020
+  - first:
+      213: -4117548806312830241
+    second: evelynn_idle_021
+  - first:
+      213: -3596379381833783135
+    second: evelynn_idle_022
+  - first:
+      213: 5963577270251826950
+    second: evelynn_idle_023
+  - first:
+      213: 9092708945105708070
+    second: evelynn_idle_024
+  - first:
+      213: -4481497141307611432
+    second: evelynn_idle_025
+  - first:
+      213: 2427956196780110614
+    second: evelynn_idle_026
+  - first:
+      213: -3996102115049008378
+    second: evelynn_idle_027
+  - first:
+      213: 3995235340913269437
+    second: evelynn_idle_028
+  - first:
+      213: 5701276437095302294
+    second: evelynn_idle_029
+  - first:
+      213: 7326066144909825958
+    second: evelynn_idle_030
+  - first:
+      213: 4205998717455282906
+    second: evelynn_idle_031
+  - first:
+      213: 7342656829878944405
+    second: evelynn_idle_032
+  - first:
+      213: -5443816643049858520
+    second: evelynn_idle_033
+  - first:
+      213: -5397463155564668432
+    second: evelynn_idle_034
+  - first:
+      213: -1483227832518404746
+    second: evelynn_idle_035
+  - first:
+      213: -3981666729712880233
+    second: evelynn_idle_036
+  - first:
+      213: 2468540464147805732
+    second: evelynn_idle_037
+  - first:
+      213: -1714244441936744594
+    second: evelynn_idle_038
+  - first:
+      213: 6154694381093200361
+    second: evelynn_idle_039
+  - first:
+      213: -110952680329035211
+    second: evelynn_idle_040
+  - first:
+      213: 2874139116395845687
+    second: evelynn_idle_041
+  - first:
+      213: -4398936706296374808
+    second: evelynn_idle_042
+  - first:
+      213: 1374496620711213827
+    second: evelynn_idle_043
+  - first:
+      213: -5900808052419679761
+    second: evelynn_idle_044
+  - first:
+      213: 1232607918943034374
+    second: evelynn_idle_045
+  - first:
+      213: -899856200968258026
+    second: evelynn_idle_046
+  - first:
+      213: -7364216919534259629
+    second: evelynn_idle_047
+  - first:
+      213: 5993506746712532805
+    second: evelynn_idle_048
+  - first:
+      213: 4946687825592594405
+    second: evelynn_idle_049
+  - first:
+      213: -958896779425540824
+    second: evelynn_idle_050
+  - first:
+      213: 2421781101228300551
+    second: evelynn_idle_051
+  - first:
+      213: -5827758935157948105
+    second: evelynn_idle_052
+  - first:
+      213: -3890029568431976939
+    second: evelynn_idle_053
+  - first:
+      213: 6183948482317605281
+    second: evelynn_idle_054
+  - first:
+      213: -3331672321929069831
+    second: evelynn_idle_055
+  - first:
+      213: 6850122326329485627
+    second: evelynn_idle_056
+  - first:
+      213: 5725371416599711475
+    second: evelynn_idle_057
+  - first:
+      213: 3258716352033151723
+    second: evelynn_idle_058
+  - first:
+      213: 2588884987314879678
+    second: evelynn_idle_059
+  - first:
+      213: 1169794240326901093
+    second: evelynn_idle_060
+  - first:
+      213: -7035991045026507343
+    second: evelynn_idle_061
+  - first:
+      213: -4403741269220928644
+    second: evelynn_idle_062
+  - first:
+      213: -2676221641167789891
+    second: evelynn_idle_063
+  - first:
+      213: 6031520416409983433
+    second: evelynn_idle_064
+  - first:
+      213: -8391964679671303479
+    second: evelynn_idle_065
+  - first:
+      213: 36332094911891001
+    second: evelynn_idle_066
+  - first:
+      213: -1492889483788453979
+    second: evelynn_idle_067
+  - first:
+      213: -564596984010930146
+    second: evelynn_idle_068
+  - first:
+      213: -8901396773252578688
+    second: evelynn_idle_069
+  - first:
+      213: 4038998353986901257
+    second: evelynn_idle_070
+  - first:
+      213: -4632747353266255585
+    second: evelynn_idle_071
+  - first:
+      213: -3473930078719210556
+    second: evelynn_idle_072
+  - first:
+      213: 5324644734884737745
+    second: evelynn_idle_073
+  - first:
+      213: 7150947388727118737
+    second: evelynn_idle_074
+  - first:
+      213: -5513641408904905523
+    second: evelynn_idle_075
+  - first:
+      213: -4417047314236793398
+    second: evelynn_idle_076
+  - first:
+      213: -1524773028581708934
+    second: evelynn_idle_077
+  - first:
+      213: 4306956268382179331
+    second: evelynn_idle_078
+  - first:
+      213: 1056240608171302713
+    second: evelynn_idle_079
+  - first:
+      213: -1267325315920470470
+    second: evelynn_idle_080
+  - first:
+      213: 1723454119148763530
+    second: evelynn_idle_081
+  - first:
+      213: 1876209873121346903
+    second: evelynn_idle_082
+  - first:
+      213: 2185677831711820649
+    second: evelynn_idle_083
+  - first:
+      213: 4454914651811914373
+    second: evelynn_idle_084
+  - first:
+      213: -4320607671818942893
+    second: evelynn_idle_085
+  - first:
+      213: -4725823791704906015
+    second: evelynn_idle_086
+  - first:
+      213: -4813584644388779970
+    second: evelynn_idle_087
+  - first:
+      213: -3278177086158283733
+    second: evelynn_idle_088
+  - first:
+      213: -8577849235721950227
+    second: evelynn_idle_089
+  - first:
+      213: -306299221335752496
+    second: evelynn_idle_090
+  - first:
+      213: -3729895532124910564
+    second: evelynn_idle_091
+  - first:
+      213: -2087003832067764029
+    second: evelynn_idle_092
+  - first:
+      213: -6067765057660568261
+    second: evelynn_idle_093
+  - first:
+      213: -6620610414856181349
+    second: evelynn_idle_094
+  - first:
+      213: -2557933876407736478
+    second: evelynn_idle_095
+  - first:
+      213: 2761683764073626167
+    second: evelynn_idle_096
+  - first:
+      213: 2215544217548314904
+    second: evelynn_idle_097
+  - first:
+      213: 7456689150342912488
+    second: evelynn_idle_098
+  - first:
+      213: -2351464700803798195
+    second: evelynn_idle_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: evelynn_idle_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054e1d1a48acdebe0800000000000000
+      internalID: -1446277234316680112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60241f01ad77d1890800000000000000
+      internalID: -7485695227149073914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb0cb7f6e4711ef0800000000000000
+      internalID: -139201578124178457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401582c3d94f1aa00800000000000000
+      internalID: 766162367786012932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b46315436017960800000000000000
+      internalID: 7597860868121316253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4793b9e1c48f47c80800000000000000
+      internalID: -8325756805286512268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46700b9dc57aa0c40800000000000000
+      internalID: 5479375913880651620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393cafa771366d5d0800000000000000
+      internalID: -3038131946116168813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3627bc7174f3451e0800000000000000
+      internalID: -2210071942557633949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963a8ca9623dc26c0800000000000000
+      internalID: -4166723392465493143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2d2f7d4e4e32c90800000000000000
+      internalID: -7195656108081229103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a964013be25cdae20800000000000000
+      internalID: 3363561301078984346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7bda9995b0fe9f0800000000000000
+      internalID: -437118159373355031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc3c776bc1bda3c90800000000000000
+      internalID: -7189192938776706101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d8eaf5fee01e6a0800000000000000
+      internalID: -6421835172388369072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917fc84dc86240ed0800000000000000
+      internalID: -2448789911079422183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34c9860a7a046d30800000000000000
+      internalID: 4423672253196649534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 502005bf3d61c0f30800000000000000
+      internalID: 4543031223820222981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29283df344263f100800000000000000
+      internalID: 140564058646741650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ea7f4fc5306ba30800000000000000
+      internalID: 4230572597742906906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155afaf1a8a72fc40800000000000000
+      internalID: 5544628824902182225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdad3662d278bd6c0800000000000000
+      internalID: -4117548806312830241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a82244b108171ec0800000000000000
+      internalID: -3596379381833783135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f24ff4ee1e2c250800000000000000
+      internalID: 5963577270251826950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624ea0f3c9acf2e70800000000000000
+      internalID: 9092708945105708070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d66e6e08168ec1c0800000000000000
+      internalID: -4481497141307611432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613794f0c45d1b120800000000000000
+      internalID: 2427956196780110614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60311527c4efa88c0800000000000000
+      internalID: -3996102115049008378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbad839ff5de17730800000000000000
+      internalID: 3995235340913269437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694ce5f76b00f1f40800000000000000
+      internalID: 5701276437095302294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a79d58f75a6ba560800000000000000
+      internalID: 7326066144909825958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2bba79c85be5a30800000000000000
+      internalID: 4205998717455282906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592c784db7b56e560800000000000000
+      internalID: 7342656829878944405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a57a01b9da374b0800000000000000
+      internalID: -5443816643049858520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f91f446bdb5815b0800000000000000
+      internalID: -5397463155564668432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67594c115248a6be0800000000000000
+      internalID: -1483227832518404746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 795f87184374eb8c0800000000000000
+      internalID: -3981666729712880233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42635372974024220800000000000000
+      internalID: 2468540464147805732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6f2c2433c7c538e0800000000000000
+      internalID: -1714244441936744594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e1272e3eedd96550800000000000000
+      internalID: 6154694381093200361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5324c160021d57ef0800000000000000
+      internalID: -110952680329035211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73854db6c4ef2e720800000000000000
+      internalID: 2874139116395845687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e917c74f56d3f2c0800000000000000
+      internalID: -4398936706296374808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b7776e461331310800000000000000
+      internalID: 1374496620711213827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9a2c3175e1c1ea0800000000000000
+      internalID: -5900808052419679761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cdee32f5a1b1110800000000000000
+      internalID: 1232607918943034374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61eba588d811383f0800000000000000
+      internalID: -899856200968258026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3523d3e9abb0dc990800000000000000
+      internalID: -7364216919534259629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54725b491a63d2350800000000000000
+      internalID: 5993506746712532805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef22336e5a26a440800000000000000
+      internalID: 4946687825592594405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8251316a57051b2f0800000000000000
+      internalID: -958896779425540824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70997769415eb9120800000000000000
+      internalID: 2421781101228300551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7314d411024af1fa0800000000000000
+      internalID: -5827758935157948105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e88dfb7b6d30ac0800000000000000
+      internalID: -3890029568431976939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a95bd5716cc1d550800000000000000
+      internalID: 6183948482317605281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9faba67dca583c1d0800000000000000
+      internalID: -3331672321929069831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3967d856f5801f50800000000000000
+      internalID: 6850122326329485627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fec99518fa947f40800000000000000
+      internalID: 5725371416599711475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea51bab149493d20800000000000000
+      internalID: 3258716352033151723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebcbe31fd219de320800000000000000
+      internalID: 2588884987314879678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d9bfae9a1fb3010800000000000000
+      internalID: 1169794240326901093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b59d5e3c632b5e90800000000000000
+      internalID: -7035991045026507343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73db5dc5a4c2e2c0800000000000000
+      internalID: -4403741269220928644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db02bf9b8962cdad0800000000000000
+      internalID: -2676221641167789891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c912a3ccd344b350800000000000000
+      internalID: 6031520416409983433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2319c1690c98b80800000000000000
+      internalID: -8391964679671303479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9364b2b09d3118000800000000000000
+      internalID: 36332094911891001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a77fd59ce0384be0800000000000000
+      internalID: -1492889483788453979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1885cec8062a28f0800000000000000
+      internalID: -564596984010930146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082c87ddbc2e77480800000000000000
+      internalID: -8901396773252578688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905d6c97a976d0830800000000000000
+      internalID: 4038998353986901257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f190f6ad3dc25bfb0800000000000000
+      internalID: -4632747353266255585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb8563cffe1acfc0800000000000000
+      internalID: -3473930078719210556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d275f9dc20f4e940800000000000000
+      internalID: 5324644734884737745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b469043c44d3360800000000000000
+      internalID: 7150947388727118737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccb653e95c9b73b0800000000000000
+      internalID: -5513641408904905523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd92d6cede73b2c0800000000000000
+      internalID: -4417047314236793398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b6a44520be6dae0800000000000000
+      internalID: -1524773028581708934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300df0828e165cb30800000000000000
+      internalID: 4306956268382179331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f9467ac3588ae00800000000000000
+      internalID: 1056240608171302713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e53b9f65e896ee0800000000000000
+      internalID: -1267325315920470470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89bb8ed360fae710800000000000000
+      internalID: 1723454119148763530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7558a7360f2a90a10800000000000000
+      internalID: 1876209873121346903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b01a06866155e10800000000000000
+      internalID: 2185677831711820649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 582aeedc54903dd30800000000000000
+      internalID: 4454914651811914373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356876bc63e1a04c0800000000000000
+      internalID: -4320607671818942893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6e658cc408a6eb0800000000000000
+      internalID: -4725823791704906015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e388ee6f446b23db0800000000000000
+      internalID: -4813584644388779970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2cd5b40f439182d0800000000000000
+      internalID: -3278177086158283733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debefe7419b55f880800000000000000
+      internalID: -8577849235721950227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0cd452b7ecfbbf0800000000000000
+      internalID: -306299221335752496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cc06e76cfbc3cc0800000000000000
+      internalID: -3729895532124910564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c0d8b872197903e0800000000000000
+      internalID: -2087003832067764029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d3d9514d7facba0800000000000000
+      internalID: -6067765057660568261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99ee3ab7edde14a0800000000000000
+      internalID: -6620610414856181349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26767c121b4608cd0800000000000000
+      internalID: -2557933876407736478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73a729b50c8735620800000000000000
+      internalID: 2761683764073626167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81953273ab13fbe10800000000000000
+      internalID: 2215544217548314904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9d2b6664b7b7760800000000000000
+      internalID: 7456689150342912488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b28be205bed5fd0800000000000000
+      internalID: -2351464700803798195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556b4afa090e5cf90800000000000000
+      internalID: -6933889139240290731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9ca1bba54a33f00800000000000000
+      internalID: 1095399843974269420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43cfe1742b6f59050800000000000000
+      internalID: 5806818540121947188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962b1a38b2c574380800000000000000
+      internalID: -8987113189432774039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afcd0098e413621c0800000000000000
+      internalID: -4528878161898709766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304603ed8d58c3720800000000000000
+      internalID: 2827281832568972291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b5b6fe1f1f27070800000000000000
+      internalID: 8102804700999146304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fe2d1f5f5d672e0800000000000000
+      internalID: -2128278521585143939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6856e20b15bd7ae50800000000000000
+      internalID: 6820661304570570118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a34cb739b0a711d30800000000000000
+      internalID: 4400432501055276090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab08e46387cdb1e00800000000000000
+      internalID: 1016648549767479482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e868c6557977517d0800000000000000
+      internalID: -2948318889187178866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba28c092a10572f0800000000000000
+      internalID: -975871946530477385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f27f41cfb8beb8a0800000000000000
+      internalID: -6287384896041159948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e940b6c44726200800000000000000
+      internalID: 171827607355301471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e50017f3f4e2a990800000000000000
+      internalID: -7376081503206242842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f861aa768808bb0800000000000000
+      internalID: -4935795212781449471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a510f155090c74e70800000000000000
+      internalID: 9099453298261295450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e599e2b360b8e90800000000000000
+      internalID: -7022512342699516349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: evelynn_idle_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 214e681a0cd0e7e40800000000000000
+      internalID: 5655973303018775570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      evelynn_idle_0: -7678601297059796953
+      evelynn_idle_000: -1446277234316680112
+      evelynn_idle_001: -7485695227149073914
+      evelynn_idle_002: -139201578124178457
+      evelynn_idle_003: 766162367786012932
+      evelynn_idle_004: 7597860868121316253
+      evelynn_idle_005: -8325756805286512268
+      evelynn_idle_006: 5479375913880651620
+      evelynn_idle_007: -3038131946116168813
+      evelynn_idle_008: -2210071942557633949
+      evelynn_idle_009: -4166723392465493143
+      evelynn_idle_010: -7195656108081229103
+      evelynn_idle_011: 3363561301078984346
+      evelynn_idle_012: -437118159373355031
+      evelynn_idle_013: -7189192938776706101
+      evelynn_idle_014: -6421835172388369072
+      evelynn_idle_015: -2448789911079422183
+      evelynn_idle_016: 4423672253196649534
+      evelynn_idle_017: 4543031223820222981
+      evelynn_idle_018: 140564058646741650
+      evelynn_idle_019: 4230572597742906906
+      evelynn_idle_020: 5544628824902182225
+      evelynn_idle_021: -4117548806312830241
+      evelynn_idle_022: -3596379381833783135
+      evelynn_idle_023: 5963577270251826950
+      evelynn_idle_024: 9092708945105708070
+      evelynn_idle_025: -4481497141307611432
+      evelynn_idle_026: 2427956196780110614
+      evelynn_idle_027: -3996102115049008378
+      evelynn_idle_028: 3995235340913269437
+      evelynn_idle_029: 5701276437095302294
+      evelynn_idle_030: 7326066144909825958
+      evelynn_idle_031: 4205998717455282906
+      evelynn_idle_032: 7342656829878944405
+      evelynn_idle_033: -5443816643049858520
+      evelynn_idle_034: -5397463155564668432
+      evelynn_idle_035: -1483227832518404746
+      evelynn_idle_036: -3981666729712880233
+      evelynn_idle_037: 2468540464147805732
+      evelynn_idle_038: -1714244441936744594
+      evelynn_idle_039: 6154694381093200361
+      evelynn_idle_040: -110952680329035211
+      evelynn_idle_041: 2874139116395845687
+      evelynn_idle_042: -4398936706296374808
+      evelynn_idle_043: 1374496620711213827
+      evelynn_idle_044: -5900808052419679761
+      evelynn_idle_045: 1232607918943034374
+      evelynn_idle_046: -899856200968258026
+      evelynn_idle_047: -7364216919534259629
+      evelynn_idle_048: 5993506746712532805
+      evelynn_idle_049: 4946687825592594405
+      evelynn_idle_050: -958896779425540824
+      evelynn_idle_051: 2421781101228300551
+      evelynn_idle_052: -5827758935157948105
+      evelynn_idle_053: -3890029568431976939
+      evelynn_idle_054: 6183948482317605281
+      evelynn_idle_055: -3331672321929069831
+      evelynn_idle_056: 6850122326329485627
+      evelynn_idle_057: 5725371416599711475
+      evelynn_idle_058: 3258716352033151723
+      evelynn_idle_059: 2588884987314879678
+      evelynn_idle_060: 1169794240326901093
+      evelynn_idle_061: -7035991045026507343
+      evelynn_idle_062: -4403741269220928644
+      evelynn_idle_063: -2676221641167789891
+      evelynn_idle_064: 6031520416409983433
+      evelynn_idle_065: -8391964679671303479
+      evelynn_idle_066: 36332094911891001
+      evelynn_idle_067: -1492889483788453979
+      evelynn_idle_068: -564596984010930146
+      evelynn_idle_069: -8901396773252578688
+      evelynn_idle_070: 4038998353986901257
+      evelynn_idle_071: -4632747353266255585
+      evelynn_idle_072: -3473930078719210556
+      evelynn_idle_073: 5324644734884737745
+      evelynn_idle_074: 7150947388727118737
+      evelynn_idle_075: -5513641408904905523
+      evelynn_idle_076: -4417047314236793398
+      evelynn_idle_077: -1524773028581708934
+      evelynn_idle_078: 4306956268382179331
+      evelynn_idle_079: 1056240608171302713
+      evelynn_idle_080: -1267325315920470470
+      evelynn_idle_081: 1723454119148763530
+      evelynn_idle_082: 1876209873121346903
+      evelynn_idle_083: 2185677831711820649
+      evelynn_idle_084: 4454914651811914373
+      evelynn_idle_085: -4320607671818942893
+      evelynn_idle_086: -4725823791704906015
+      evelynn_idle_087: -4813584644388779970
+      evelynn_idle_088: -3278177086158283733
+      evelynn_idle_089: -8577849235721950227
+      evelynn_idle_090: -306299221335752496
+      evelynn_idle_091: -3729895532124910564
+      evelynn_idle_092: -2087003832067764029
+      evelynn_idle_093: -6067765057660568261
+      evelynn_idle_094: -6620610414856181349
+      evelynn_idle_095: -2557933876407736478
+      evelynn_idle_096: 2761683764073626167
+      evelynn_idle_097: 2215544217548314904
+      evelynn_idle_098: 7456689150342912488
+      evelynn_idle_099: -2351464700803798195
+      evelynn_idle_1: -4752334783346360755
+      evelynn_idle_10: 9119913169773346061
+      evelynn_idle_100: -6933889139240290731
+      evelynn_idle_101: 1095399843974269420
+      evelynn_idle_102: 5806818540121947188
+      evelynn_idle_103: -8987113189432774039
+      evelynn_idle_104: -4528878161898709766
+      evelynn_idle_105: 2827281832568972291
+      evelynn_idle_106: 8102804700999146304
+      evelynn_idle_107: -2128278521585143939
+      evelynn_idle_108: 6820661304570570118
+      evelynn_idle_109: 4400432501055276090
+      evelynn_idle_11: -4315435799713930722
+      evelynn_idle_110: 1016648549767479482
+      evelynn_idle_111: -2948318889187178866
+      evelynn_idle_112: -975871946530477385
+      evelynn_idle_113: -6287384896041159948
+      evelynn_idle_114: 171827607355301471
+      evelynn_idle_115: -7376081503206242842
+      evelynn_idle_116: -4935795212781449471
+      evelynn_idle_117: 9099453298261295450
+      evelynn_idle_118: -7022512342699516349
+      evelynn_idle_119: 5655973303018775570
+      evelynn_idle_12: 2289114599757609540
+      evelynn_idle_120: -2390378636928483682
+      evelynn_idle_121: -8807295049045889998
+      evelynn_idle_122: -2022182699573141626
+      evelynn_idle_123: -6348189045998949631
+      evelynn_idle_124: 7123070479880722139
+      evelynn_idle_125: 4479977717803571551
+      evelynn_idle_126: 1818916753994357872
+      evelynn_idle_127: -2431253952099959193
+      evelynn_idle_128: -5065875702061208288
+      evelynn_idle_129: 5032848121778015548
+      evelynn_idle_13: -4915897198564539340
+      evelynn_idle_130: 7243844258468569552
+      evelynn_idle_131: -9219660941067543743
+      evelynn_idle_132: -4045138779144292615
+      evelynn_idle_14: 2788307500933348152
+      evelynn_idle_15: -2564000684928064137
+      evelynn_idle_16: 5589744881342870203
+      evelynn_idle_17: -2368437760333774783
+      evelynn_idle_18: -2017390872270670703
+      evelynn_idle_19: 3409663075425516295
+      evelynn_idle_2: -4707254966549425642
+      evelynn_idle_20: -7224336801609657703
+      evelynn_idle_21: 2509541581091979810
+      evelynn_idle_22: -6935696631348204261
+      evelynn_idle_23: -3311251020175681695
+      evelynn_idle_24: 3103017903718083986
+      evelynn_idle_25: 1446619707829102698
+      evelynn_idle_26: -1715174172148130187
+      evelynn_idle_27: -3782173193523461600
+      evelynn_idle_28: 8480593387897520905
+      evelynn_idle_29: -1923030859996675853
+      evelynn_idle_3: -2816747256023988812
+      evelynn_idle_30: 8184067228476771005
+      evelynn_idle_31: 5929970158790212784
+      evelynn_idle_32: -4787004446841198611
+      evelynn_idle_33: 2858342079528071831
+      evelynn_idle_34: 4990393222785569636
+      evelynn_idle_35: 3653454223890058118
+      evelynn_idle_36: -5033282755479556893
+      evelynn_idle_37: -7776758608824717618
+      evelynn_idle_38: 3792236088766250885
+      evelynn_idle_39: 7881538302846877722
+      evelynn_idle_4: 5797193232472043315
+      evelynn_idle_40: -3296369158617270056
+      evelynn_idle_41: 1779204684116375099
+      evelynn_idle_42: 6566871351000597381
+      evelynn_idle_43: 3276415169568690992
+      evelynn_idle_44: -4578448352978152346
+      evelynn_idle_45: -620189346290822467
+      evelynn_idle_46: -7442435529107040899
+      evelynn_idle_47: -3243174117669355784
+      evelynn_idle_48: -3011712528553177903
+      evelynn_idle_49: -5761005321572779215
+      evelynn_idle_5: -5578741664092275107
+      evelynn_idle_50: 478280617013015381
+      evelynn_idle_51: 1429827082645520238
+      evelynn_idle_52: 4828677299412823755
+      evelynn_idle_53: 9053261251641513823
+      evelynn_idle_54: -6579614883349939735
+      evelynn_idle_55: 5702357446473849223
+      evelynn_idle_56: 457661474056543516
+      evelynn_idle_57: -8591494073793674071
+      evelynn_idle_58: 7128513479384079639
+      evelynn_idle_59: -1674132635510699538
+      evelynn_idle_6: -1102324272781589872
+      evelynn_idle_60: 6196389818155275434
+      evelynn_idle_61: -9013501538146721378
+      evelynn_idle_62: 4661057678561104783
+      evelynn_idle_63: -15480074104772452
+      evelynn_idle_64: 3476903096994625669
+      evelynn_idle_65: -6604901032136179856
+      evelynn_idle_66: 7806608930391695711
+      evelynn_idle_67: 982951031450010596
+      evelynn_idle_68: -920186218432966678
+      evelynn_idle_69: -6412656236537285579
+      evelynn_idle_7: -9072293594254676650
+      evelynn_idle_70: 5655619443459815531
+      evelynn_idle_71: 3325457522410070092
+      evelynn_idle_72: 4930358041155927082
+      evelynn_idle_73: -5413649818182765984
+      evelynn_idle_74: -7699745654475109472
+      evelynn_idle_75: -4758653428632608366
+      evelynn_idle_76: -5367095490358614932
+      evelynn_idle_77: -2938161966087299516
+      evelynn_idle_78: -6671715154381279503
+      evelynn_idle_79: -6195476466793444595
+      evelynn_idle_8: -2601567890296265668
+      evelynn_idle_80: 7445801669051278769
+      evelynn_idle_81: 286496449985099946
+      evelynn_idle_82: -2709061524849351545
+      evelynn_idle_83: -1543901946072920772
+      evelynn_idle_84: 2079426318483772273
+      evelynn_idle_85: 6421298005239526578
+      evelynn_idle_86: 7370299027836761348
+      evelynn_idle_87: 2872927516408203310
+      evelynn_idle_88: 6177737176358269402
+      evelynn_idle_89: 3477941640075437688
+      evelynn_idle_9: -1984054361847969342
+      evelynn_idle_90: -9084428378045283181
+      evelynn_idle_91: -7930621173218024609
+      evelynn_idle_92: 7805907598557831580
+      evelynn_idle_93: -6672937608092214616
+      evelynn_idle_94: 4877244724908625116
+      evelynn_idle_95: 7227671819978257554
+      evelynn_idle_96: -8525548059312844931
+      evelynn_idle_97: -3546277716894661534
+      evelynn_idle_98: 5548499449608819468
+      evelynn_idle_99: -9066758741917648745
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

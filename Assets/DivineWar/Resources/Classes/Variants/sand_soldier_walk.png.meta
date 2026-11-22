@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 3c19dd68219e1404b9f363c87cc99543
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4921480782843849759
+    second: sand_soldier_walk_0
+  - first:
+      213: 5612670145701378459
+    second: sand_soldier_walk_1
+  - first:
+      213: 5475755732617771696
+    second: sand_soldier_walk_2
+  - first:
+      213: -2248494121811601250
+    second: sand_soldier_walk_3
+  - first:
+      213: -415621058595120962
+    second: sand_soldier_walk_4
+  - first:
+      213: -2149139679453589753
+    second: sand_soldier_walk_5
+  - first:
+      213: 5152809821014544650
+    second: sand_soldier_walk_6
+  - first:
+      213: 8853378222282439390
+    second: sand_soldier_walk_7
+  - first:
+      213: 8124405039369463923
+    second: sand_soldier_walk_8
+  - first:
+      213: 8189554432357799267
+    second: sand_soldier_walk_9
+  - first:
+      213: -1018145165358136606
+    second: sand_soldier_walk_10
+  - first:
+      213: -6283364886588160714
+    second: sand_soldier_walk_11
+  - first:
+      213: 8081566501845343555
+    second: sand_soldier_walk_12
+  - first:
+      213: 8260367681964223974
+    second: sand_soldier_walk_13
+  - first:
+      213: 7190326707636709282
+    second: sand_soldier_walk_14
+  - first:
+      213: 8938186090986003134
+    second: sand_soldier_walk_15
+  - first:
+      213: 1028333549182454446
+    second: sand_soldier_walk_16
+  - first:
+      213: -7241070233574543533
+    second: sand_soldier_walk_17
+  - first:
+      213: -7782845857895235296
+    second: sand_soldier_walk_18
+  - first:
+      213: -826940788950618608
+    second: sand_soldier_walk_19
+  - first:
+      213: -8261741298196603870
+    second: sand_soldier_walk_20
+  - first:
+      213: 3748828177114920384
+    second: sand_soldier_walk_21
+  - first:
+      213: -7176092029108089768
+    second: sand_soldier_walk_22
+  - first:
+      213: -2142049813155131659
+    second: sand_soldier_walk_23
+  - first:
+      213: 7710146098813757218
+    second: sand_soldier_walk_24
+  - first:
+      213: -6455214135326348872
+    second: sand_soldier_walk_25
+  - first:
+      213: 2020942831405206274
+    second: sand_soldier_walk_26
+  - first:
+      213: 3867045969474145421
+    second: sand_soldier_walk_27
+  - first:
+      213: 4453855583242877146
+    second: sand_soldier_walk_28
+  - first:
+      213: 6149478785788113355
+    second: sand_soldier_walk_29
+  - first:
+      213: -9115774981144059111
+    second: sand_soldier_walk_30
+  - first:
+      213: -7516617628284586163
+    second: sand_soldier_walk_31
+  - first:
+      213: -5450485975130926850
+    second: sand_soldier_walk_32
+  - first:
+      213: 5613936529569279051
+    second: sand_soldier_walk_33
+  - first:
+      213: 1809117117686864371
+    second: sand_soldier_walk_34
+  - first:
+      213: -6093942445670013153
+    second: sand_soldier_walk_35
+  - first:
+      213: 2052929648155463241
+    second: sand_soldier_walk_36
+  - first:
+      213: 741333483602924872
+    second: sand_soldier_walk_37
+  - first:
+      213: -6651652501059743493
+    second: sand_soldier_walk_38
+  - first:
+      213: 349648665616273906
+    second: sand_soldier_walk_39
+  - first:
+      213: 8243193163413325192
+    second: sand_soldier_walk_40
+  - first:
+      213: 1675158864877751113
+    second: sand_soldier_walk_41
+  - first:
+      213: -5572490888052332503
+    second: sand_soldier_walk_42
+  - first:
+      213: -1240046147580101508
+    second: sand_soldier_walk_43
+  - first:
+      213: -6515283695784556218
+    second: sand_soldier_walk_44
+  - first:
+      213: 2012436449230311799
+    second: sand_soldier_walk_45
+  - first:
+      213: -3750806218611061320
+    second: sand_soldier_walk_46
+  - first:
+      213: -1146377833903470132
+    second: sand_soldier_walk_47
+  - first:
+      213: 5114117786087170025
+    second: sand_soldier_walk_48
+  - first:
+      213: 6139782563623963439
+    second: sand_soldier_walk_49
+  - first:
+      213: -8454755768356279752
+    second: sand_soldier_walk_50
+  - first:
+      213: 6365658831408071778
+    second: sand_soldier_walk_51
+  - first:
+      213: 3109411134760369816
+    second: sand_soldier_walk_52
+  - first:
+      213: -1006088054331631738
+    second: sand_soldier_walk_53
+  - first:
+      213: -8498241906225427844
+    second: sand_soldier_walk_54
+  - first:
+      213: -4271330433401930559
+    second: sand_soldier_walk_55
+  - first:
+      213: -4592242562537793632
+    second: sand_soldier_walk_56
+  - first:
+      213: -6975807595793445970
+    second: sand_soldier_walk_57
+  - first:
+      213: 5091017851498857997
+    second: sand_soldier_walk_58
+  - first:
+      213: -3856191012348246868
+    second: sand_soldier_walk_59
+  - first:
+      213: 140692624758424516
+    second: sand_soldier_walk_60
+  - first:
+      213: -3449442325643813304
+    second: sand_soldier_walk_61
+  - first:
+      213: -7363515160596332279
+    second: sand_soldier_walk_62
+  - first:
+      213: 8209628008652432298
+    second: sand_soldier_walk_63
+  - first:
+      213: -3684856331122514769
+    second: sand_soldier_walk_64
+  - first:
+      213: 3495626435485326771
+    second: sand_soldier_walk_65
+  - first:
+      213: 9133913138004079257
+    second: sand_soldier_walk_66
+  - first:
+      213: 3081464017890601368
+    second: sand_soldier_walk_67
+  - first:
+      213: -1338356297574816313
+    second: sand_soldier_walk_68
+  - first:
+      213: -7960056244274738167
+    second: sand_soldier_walk_69
+  - first:
+      213: 6556928033670643506
+    second: sand_soldier_walk_70
+  - first:
+      213: 4435506913231692932
+    second: sand_soldier_walk_71
+  - first:
+      213: 6885794365669424500
+    second: sand_soldier_walk_72
+  - first:
+      213: 7721996471118941599
+    second: sand_soldier_walk_73
+  - first:
+      213: -4528164139758295099
+    second: sand_soldier_walk_74
+  - first:
+      213: -3633176102100014819
+    second: sand_soldier_walk_75
+  - first:
+      213: -8566097148849095416
+    second: sand_soldier_walk_76
+  - first:
+      213: -4131660234006134578
+    second: sand_soldier_walk_77
+  - first:
+      213: 5956487951911381207
+    second: sand_soldier_walk_78
+  - first:
+      213: 1923418068506853959
+    second: sand_soldier_walk_79
+  - first:
+      213: 5964092701767660818
+    second: sand_soldier_walk_80
+  - first:
+      213: -4373216528801963071
+    second: sand_soldier_walk_81
+  - first:
+      213: -6171398611771370862
+    second: sand_soldier_walk_82
+  - first:
+      213: 5473640561749344670
+    second: sand_soldier_walk_83
+  - first:
+      213: -7059524403852844258
+    second: sand_soldier_walk_84
+  - first:
+      213: 8369199908156998094
+    second: sand_soldier_walk_85
+  - first:
+      213: -4080918452395366464
+    second: sand_soldier_walk_86
+  - first:
+      213: 7038951732335030767
+    second: sand_soldier_walk_87
+  - first:
+      213: 2138211684410759747
+    second: sand_soldier_walk_88
+  - first:
+      213: 8726771692208007400
+    second: sand_soldier_walk_89
+  - first:
+      213: 8899865906641516142
+    second: sand_soldier_walk_90
+  - first:
+      213: -3264726782065200932
+    second: sand_soldier_walk_91
+  - first:
+      213: 4035512840062249055
+    second: sand_soldier_walk_92
+  - first:
+      213: 7317180062277846257
+    second: sand_soldier_walk_93
+  - first:
+      213: 1551278741987802534
+    second: sand_soldier_walk_94
+  - first:
+      213: -2706802018179800960
+    second: sand_soldier_walk_95
+  - first:
+      213: -6223004658519148380
+    second: sand_soldier_walk_96
+  - first:
+      213: 6172423117252731267
+    second: sand_soldier_walk_97
+  - first:
+      213: 3676682439398136285
+    second: sand_soldier_walk_98
+  - first:
+      213: 4890627895979924320
+    second: sand_soldier_walk_99
+  - first:
+      213: 9212734713591444801
+    second: sand_soldier_walk_100
+  - first:
+      213: 102129152153731663
+    second: sand_soldier_walk_101
+  - first:
+      213: -416790521546869242
+    second: sand_soldier_walk_102
+  - first:
+      213: -4022959956610830549
+    second: sand_soldier_walk_103
+  - first:
+      213: -2898645207515701308
+    second: sand_soldier_walk_104
+  - first:
+      213: 4649649024585218939
+    second: sand_soldier_walk_105
+  - first:
+      213: -6113899163605266372
+    second: sand_soldier_walk_106
+  - first:
+      213: 154609409277303085
+    second: sand_soldier_walk_107
+  - first:
+      213: -6276372128682832126
+    second: sand_soldier_walk_108
+  - first:
+      213: 5382104970309898165
+    second: sand_soldier_walk_109
+  - first:
+      213: -5031591998725755277
+    second: sand_soldier_walk_110
+  - first:
+      213: 9062935730373012125
+    second: sand_soldier_walk_111
+  - first:
+      213: 2816980109862209804
+    second: sand_soldier_walk_112
+  - first:
+      213: 3044047373413968338
+    second: sand_soldier_walk_113
+  - first:
+      213: -5193543780529029028
+    second: sand_soldier_walk_114
+  - first:
+      213: -4684517222855204391
+    second: sand_soldier_walk_115
+  - first:
+      213: -7024955223092599300
+    second: sand_soldier_walk_116
+  - first:
+      213: -4966653969443041461
+    second: sand_soldier_walk_117
+  - first:
+      213: 1746981497845477055
+    second: sand_soldier_walk_118
+  - first:
+      213: -1056209962434728065
+    second: sand_soldier_walk_119
+  - first:
+      213: -4205928657555542102
+    second: sand_soldier_walk_000
+  - first:
+      213: 1736566921502589395
+    second: sand_soldier_walk_001
+  - first:
+      213: -8843447002077020432
+    second: sand_soldier_walk_002
+  - first:
+      213: 8657823016245523141
+    second: sand_soldier_walk_003
+  - first:
+      213: -3361060502741120745
+    second: sand_soldier_walk_004
+  - first:
+      213: -5881688087597190354
+    second: sand_soldier_walk_005
+  - first:
+      213: -2200259699818038548
+    second: sand_soldier_walk_006
+  - first:
+      213: -8064499084065281693
+    second: sand_soldier_walk_007
+  - first:
+      213: 2417826920499135804
+    second: sand_soldier_walk_008
+  - first:
+      213: -8170864332495440841
+    second: sand_soldier_walk_009
+  - first:
+      213: 591329660696969071
+    second: sand_soldier_walk_010
+  - first:
+      213: -3966846808158727927
+    second: sand_soldier_walk_011
+  - first:
+      213: 940101736409678363
+    second: sand_soldier_walk_012
+  - first:
+      213: 4578971642732161198
+    second: sand_soldier_walk_013
+  - first:
+      213: -3343597288726649068
+    second: sand_soldier_walk_014
+  - first:
+      213: -5194308227740390896
+    second: sand_soldier_walk_015
+  - first:
+      213: -4370904037896847602
+    second: sand_soldier_walk_016
+  - first:
+      213: 660267475130919868
+    second: sand_soldier_walk_017
+  - first:
+      213: -5163431774381585777
+    second: sand_soldier_walk_018
+  - first:
+      213: -3182041274447076093
+    second: sand_soldier_walk_019
+  - first:
+      213: 5410585303402326502
+    second: sand_soldier_walk_020
+  - first:
+      213: -7090389717116574643
+    second: sand_soldier_walk_021
+  - first:
+      213: -5711580938955200952
+    second: sand_soldier_walk_022
+  - first:
+      213: 6174689115672988446
+    second: sand_soldier_walk_023
+  - first:
+      213: -2994146709199666183
+    second: sand_soldier_walk_024
+  - first:
+      213: -1668694356592880457
+    second: sand_soldier_walk_025
+  - first:
+      213: -1505332545145873128
+    second: sand_soldier_walk_026
+  - first:
+      213: 3705408278448387911
+    second: sand_soldier_walk_027
+  - first:
+      213: -122302938217836644
+    second: sand_soldier_walk_028
+  - first:
+      213: 2319555397348094946
+    second: sand_soldier_walk_029
+  - first:
+      213: -5022442616211934550
+    second: sand_soldier_walk_030
+  - first:
+      213: -8025396962337329475
+    second: sand_soldier_walk_031
+  - first:
+      213: 7168277366159218908
+    second: sand_soldier_walk_032
+  - first:
+      213: -6082649435446959223
+    second: sand_soldier_walk_033
+  - first:
+      213: -6372059141726301991
+    second: sand_soldier_walk_034
+  - first:
+      213: 4909257095559210163
+    second: sand_soldier_walk_035
+  - first:
+      213: 7898730567180995280
+    second: sand_soldier_walk_036
+  - first:
+      213: 2269002814684597301
+    second: sand_soldier_walk_037
+  - first:
+      213: -6100920294037930482
+    second: sand_soldier_walk_038
+  - first:
+      213: 1930256557147981016
+    second: sand_soldier_walk_039
+  - first:
+      213: 9041812772113804450
+    second: sand_soldier_walk_040
+  - first:
+      213: 7922447100681492989
+    second: sand_soldier_walk_041
+  - first:
+      213: -8711372648273343826
+    second: sand_soldier_walk_042
+  - first:
+      213: 4041320264686728766
+    second: sand_soldier_walk_043
+  - first:
+      213: 9212178868384474187
+    second: sand_soldier_walk_044
+  - first:
+      213: -1211573959338579310
+    second: sand_soldier_walk_045
+  - first:
+      213: 1243409069761958578
+    second: sand_soldier_walk_046
+  - first:
+      213: -2041584372558206447
+    second: sand_soldier_walk_047
+  - first:
+      213: 5795123801963194254
+    second: sand_soldier_walk_048
+  - first:
+      213: -8019039149323915801
+    second: sand_soldier_walk_049
+  - first:
+      213: -4045679069395146070
+    second: sand_soldier_walk_050
+  - first:
+      213: 5829609860992174676
+    second: sand_soldier_walk_051
+  - first:
+      213: 445135607566703470
+    second: sand_soldier_walk_052
+  - first:
+      213: 5258302465783687845
+    second: sand_soldier_walk_053
+  - first:
+      213: 2454984411276265192
+    second: sand_soldier_walk_054
+  - first:
+      213: 8595025302776434743
+    second: sand_soldier_walk_055
+  - first:
+      213: 4639083546539273459
+    second: sand_soldier_walk_056
+  - first:
+      213: -5026420925959126707
+    second: sand_soldier_walk_057
+  - first:
+      213: -4055653106127418448
+    second: sand_soldier_walk_058
+  - first:
+      213: 5293967944598979460
+    second: sand_soldier_walk_059
+  - first:
+      213: -2836578882138233284
+    second: sand_soldier_walk_060
+  - first:
+      213: 1430315408223854137
+    second: sand_soldier_walk_061
+  - first:
+      213: -4578131775257401528
+    second: sand_soldier_walk_062
+  - first:
+      213: 4218490880538160564
+    second: sand_soldier_walk_063
+  - first:
+      213: 2452042654747421606
+    second: sand_soldier_walk_064
+  - first:
+      213: -5415261671722252938
+    second: sand_soldier_walk_065
+  - first:
+      213: 8887268454005834556
+    second: sand_soldier_walk_066
+  - first:
+      213: 4064183440591533315
+    second: sand_soldier_walk_067
+  - first:
+      213: -2453626741923028488
+    second: sand_soldier_walk_068
+  - first:
+      213: 8607808769677570338
+    second: sand_soldier_walk_069
+  - first:
+      213: 99312428055889281
+    second: sand_soldier_walk_070
+  - first:
+      213: 8572585746181992913
+    second: sand_soldier_walk_071
+  - first:
+      213: -7843468667746797339
+    second: sand_soldier_walk_072
+  - first:
+      213: 8590753502280776435
+    second: sand_soldier_walk_073
+  - first:
+      213: -5724706244956073893
+    second: sand_soldier_walk_074
+  - first:
+      213: -635169919271443019
+    second: sand_soldier_walk_075
+  - first:
+      213: 189799447712656047
+    second: sand_soldier_walk_076
+  - first:
+      213: 513480117695558147
+    second: sand_soldier_walk_077
+  - first:
+      213: -7402432377801162156
+    second: sand_soldier_walk_078
+  - first:
+      213: -2365316746716185557
+    second: sand_soldier_walk_079
+  - first:
+      213: 4942259358684793586
+    second: sand_soldier_walk_080
+  - first:
+      213: -6605418679154142220
+    second: sand_soldier_walk_081
+  - first:
+      213: 577973218794077340
+    second: sand_soldier_walk_082
+  - first:
+      213: -2588275055047777373
+    second: sand_soldier_walk_083
+  - first:
+      213: 2481770505970075345
+    second: sand_soldier_walk_084
+  - first:
+      213: -2783767213955104590
+    second: sand_soldier_walk_085
+  - first:
+      213: -8348974440326310191
+    second: sand_soldier_walk_086
+  - first:
+      213: 3514483574995961351
+    second: sand_soldier_walk_087
+  - first:
+      213: 4913824198997719316
+    second: sand_soldier_walk_088
+  - first:
+      213: -2132022866870297310
+    second: sand_soldier_walk_089
+  - first:
+      213: -6955091293744761459
+    second: sand_soldier_walk_090
+  - first:
+      213: 1598174958152720116
+    second: sand_soldier_walk_091
+  - first:
+      213: 1047771102768155585
+    second: sand_soldier_walk_092
+  - first:
+      213: -7157706390589253681
+    second: sand_soldier_walk_093
+  - first:
+      213: -2628764298676749484
+    second: sand_soldier_walk_094
+  - first:
+      213: -5298237464459973115
+    second: sand_soldier_walk_095
+  - first:
+      213: 7341402161270732743
+    second: sand_soldier_walk_096
+  - first:
+      213: 1734829765505336157
+    second: sand_soldier_walk_097
+  - first:
+      213: -494250932609025041
+    second: sand_soldier_walk_098
+  - first:
+      213: -2297864059185752175
+    second: sand_soldier_walk_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sand_soldier_walk_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf24cf7b2a81a5c0800000000000000
+      internalID: -4205928657555542102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d10bd41a66891810800000000000000
+      internalID: 1736566921502589395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0feb4336ec3c54580800000000000000
+      internalID: -8843447002077020432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c2f3838924c62870800000000000000
+      internalID: 8657823016245523141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7190589c74d1b51d0800000000000000
+      internalID: -3361060502741120745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e237f1bc8db006ea0800000000000000
+      internalID: -5881688087597190354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceafcb2e57b1771e0800000000000000
+      internalID: -2200259699818038548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36963d28fc4251090800000000000000
+      internalID: -8064499084065281693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c354ab426c8dd8120800000000000000
+      internalID: 2417826920499135804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73433b14e224b9e80800000000000000
+      internalID: -8170864332495440841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fbef28133d43800800000000000000
+      internalID: 591329660696969071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9019e4168dde2f8c0800000000000000
+      internalID: -3966846808158727927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b124d636c89eb0d00800000000000000
+      internalID: 940101736409678363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea823a9d276cb8f30800000000000000
+      internalID: 4578971642732161198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4172d752bf72991d0800000000000000
+      internalID: -3343597288726649068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a25afff2c1ae7b0800000000000000
+      internalID: -5194308227740390896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f76d18fed6753c0800000000000000
+      internalID: -4370904037896847602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb2ce735cdb92900800000000000000
+      internalID: 660267475130919868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a4502882ec758b0800000000000000
+      internalID: -5163431774381585777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30563ffe15e17d3d0800000000000000
+      internalID: -3182041274447076093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9ae3cbaa2461b40800000000000000
+      internalID: 5410585303402326502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d442f286e10e99d90800000000000000
+      internalID: -7090389717116574643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 846eea3b5636cb0b0800000000000000
+      internalID: -5711580938955200952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1bc82a2907e0b550800000000000000
+      internalID: 6174689115672988446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f3cfb08e67a276d0800000000000000
+      internalID: -2994146709199666183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b41594e25b97d8e0800000000000000
+      internalID: -1668694356592880457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ddeb9960cfb1be0800000000000000
+      internalID: -1505332545145873128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74735b872314c6330800000000000000
+      internalID: 3705408278448387911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f0a8c202e7d4ef0800000000000000
+      internalID: -122302938217836644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e3f5c72857b03020800000000000000
+      internalID: 2319555397348094946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa277e3fc03bc4ab0800000000000000
+      internalID: -5022442616211934550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe626eabff00a090800000000000000
+      internalID: -8025396962337329475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8946d0946da7360800000000000000
+      internalID: 7168277366159218908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98324f2d096169ba0800000000000000
+      internalID: -6082649435446959223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d09f91a8f5e197a0800000000000000
+      internalID: -6372059141726301991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b46fdb615f212440800000000000000
+      internalID: 4909257095559210163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dac7510a9ded9d60800000000000000
+      internalID: 7898730567180995280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c03abc90e1d7f10800000000000000
+      internalID: 2269002814684597301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0eb5ee015d255ba0800000000000000
+      internalID: -6100920294037930482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d48c2e9c16a9ca10800000000000000
+      internalID: 1930256557147981016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2acee678fc8fa7d70800000000000000
+      internalID: 9041812772113804450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df991f3c9af22fd60800000000000000
+      internalID: 7922447100681492989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa0d913bbcfa1780800000000000000
+      internalID: -8711372648273343826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e367d307e57a51830800000000000000
+      internalID: 4041320264686728766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44aa616fdb38df70800000000000000
+      internalID: 9212178868384474187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29aa28637ef9f2fe0800000000000000
+      internalID: -1211573959338579310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b219a906f9714110800000000000000
+      internalID: 1243409069761958578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11aeda674d5daa3e0800000000000000
+      internalID: -2041584372558206447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e876d6dd46a6c6050800000000000000
+      internalID: 5795123801963194254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ede8906166a6b090800000000000000
+      internalID: -8019039149323915801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa2871425cdad7c0800000000000000
+      internalID: -4045679069395146070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a8d8f284fe6e050800000000000000
+      internalID: 5829609860992174676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b14e50a707d2600800000000000000
+      internalID: 445135607566703470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aae892ab3e39f840800000000000000
+      internalID: 5258302465783687845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e64e33a05bd11220800000000000000
+      internalID: 2454984411276265192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 730db7779f9a74770800000000000000
+      internalID: 8595025302776434743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc25da18e5516040800000000000000
+      internalID: 4639083546539273459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41cd988cc09e3ab0800000000000000
+      internalID: -5026420925959126707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bbc01ddcfc67b7c0800000000000000
+      internalID: -4055653106127418448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48380260cc3f77940800000000000000
+      internalID: 5293967944598979460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36a6c8198272a8d0800000000000000
+      internalID: -2836578882138233284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e53ff194089d310800000000000000
+      internalID: 1430315408223854137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847aad808653770c0800000000000000
+      internalID: -4578131775257401528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bda3b6fa171b8a30800000000000000
+      internalID: 4218490880538160564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab63529dc7670220800000000000000
+      internalID: 2452042654747421606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675053b633029d4b0800000000000000
+      internalID: -5415261671722252938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c338d88729be55b70800000000000000
+      internalID: 8887268454005834556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 305bb766e41e66830800000000000000
+      internalID: 4064183440591533315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f167446a77f2fdd0800000000000000
+      internalID: -2453626741923028488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221bf1b4874157770800000000000000
+      internalID: 8607808769677570338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1858d0c8024d06100800000000000000
+      internalID: 99312428055889281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d131cf0151f7f670800000000000000
+      internalID: 8572585746181992913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8bb0c9dc6662390800000000000000
+      internalID: -7843468667746797339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa73686bcc783770800000000000000
+      internalID: 8590753502280776435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50dee14002cd80b0800000000000000
+      internalID: -5724706244956073893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5efcdd25c6f27f0800000000000000
+      internalID: -635169919271443019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faa6a73979d42a200800000000000000
+      internalID: 189799447712656047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302387e427f302700800000000000000
+      internalID: 513480117695558147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452cf4fd8f6454990800000000000000
+      internalID: -7402432377801162156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2cf2ba63f4bc2fd0800000000000000
+      internalID: -2365316746716185557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fac14693be669440800000000000000
+      internalID: 4942259358684793586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3994455b6d454a0800000000000000
+      internalID: -6605418679154142220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cf8eb849f550800800000000000000
+      internalID: 577973218794077340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a36fdafc89941cd0800000000000000
+      internalID: -2588275055047777373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6436e4025017220800000000000000
+      internalID: 2481770505970075345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0c3dac7721e59d0800000000000000
+      internalID: -2783767213955104590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6d8853bfb722c80800000000000000
+      internalID: -8348974440326310191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7064490e034f5c030800000000000000
+      internalID: 3514483574995961351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4193afd0319613440800000000000000
+      internalID: 4913824198997719316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d9f2f9f788962e0800000000000000
+      internalID: -2132022866870297310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d857ee7615d8a7f90800000000000000
+      internalID: -6955091293744761459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fe1e9d28abdd2610800000000000000
+      internalID: 1598174958152720116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb4a62444e6a8e00800000000000000
+      internalID: 1047771102768155585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7526ef5f7baac90800000000000000
+      internalID: -7157706390589253681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bb4235cc0c48bd0800000000000000
+      internalID: -2628764298676749484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e623be811e876b0800000000000000
+      internalID: -5298237464459973115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c7b3d78e56e1e560800000000000000
+      internalID: 7341402161270732743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5348beea7a531810800000000000000
+      internalID: 1734829765505336157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febfeeb35611429f0800000000000000
+      internalID: -494250932609025041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197981210d85c10e0800000000000000
+      internalID: -2297864059185752175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145378d29653adf70800000000000000
+      internalID: 9212734713591444801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42c55b3ce5da6100800000000000000
+      internalID: 102129152153731663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606f2799a33473af0800000000000000
+      internalID: -416790521546869242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f2798eb339b28c0800000000000000
+      internalID: -4022959956610830549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf532c9a81f5c7d0800000000000000
+      internalID: -2898645207515701308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bb4a8272fd68040800000000000000
+      internalID: 4649649024585218939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3010c08a11172ba0800000000000000
+      internalID: -6113899163605266372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2918e64078452200800000000000000
+      internalID: 154609409277303085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f82b77dc8d5e8a0800000000000000
+      internalID: -6276372128682832126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf8f2374f311ba40800000000000000
+      internalID: 5382104970309898165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ee0455cb13c2ab0800000000000000
+      internalID: -5031591998725755277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a241f770406cd70800000000000000
+      internalID: 9062935730373012125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c098da32c7ce71720800000000000000
+      internalID: 2816980109862209804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9ecc345f0ae3a20800000000000000
+      internalID: 3044047373413968338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50c02cb273dce7b0800000000000000
+      internalID: -5193543780529029028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1248bc7604dfeb0800000000000000
+      internalID: -4684517222855204391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf56a84c178528e90800000000000000
+      internalID: -7024955223092599300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f401d7786e21bb0800000000000000
+      internalID: -4966653969443041461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe62489a668e3810800000000000000
+      internalID: 1746981497845477055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand_soldier_walk_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f69dc92a69751f0800000000000000
+      internalID: -1056209962434728065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sand_soldier_walk_0: 4921480782843849759
+      sand_soldier_walk_000: -4205928657555542102
+      sand_soldier_walk_001: 1736566921502589395
+      sand_soldier_walk_002: -8843447002077020432
+      sand_soldier_walk_003: 8657823016245523141
+      sand_soldier_walk_004: -3361060502741120745
+      sand_soldier_walk_005: -5881688087597190354
+      sand_soldier_walk_006: -2200259699818038548
+      sand_soldier_walk_007: -8064499084065281693
+      sand_soldier_walk_008: 2417826920499135804
+      sand_soldier_walk_009: -8170864332495440841
+      sand_soldier_walk_010: 591329660696969071
+      sand_soldier_walk_011: -3966846808158727927
+      sand_soldier_walk_012: 940101736409678363
+      sand_soldier_walk_013: 4578971642732161198
+      sand_soldier_walk_014: -3343597288726649068
+      sand_soldier_walk_015: -5194308227740390896
+      sand_soldier_walk_016: -4370904037896847602
+      sand_soldier_walk_017: 660267475130919868
+      sand_soldier_walk_018: -5163431774381585777
+      sand_soldier_walk_019: -3182041274447076093
+      sand_soldier_walk_020: 5410585303402326502
+      sand_soldier_walk_021: -7090389717116574643
+      sand_soldier_walk_022: -5711580938955200952
+      sand_soldier_walk_023: 6174689115672988446
+      sand_soldier_walk_024: -2994146709199666183
+      sand_soldier_walk_025: -1668694356592880457
+      sand_soldier_walk_026: -1505332545145873128
+      sand_soldier_walk_027: 3705408278448387911
+      sand_soldier_walk_028: -122302938217836644
+      sand_soldier_walk_029: 2319555397348094946
+      sand_soldier_walk_030: -5022442616211934550
+      sand_soldier_walk_031: -8025396962337329475
+      sand_soldier_walk_032: 7168277366159218908
+      sand_soldier_walk_033: -6082649435446959223
+      sand_soldier_walk_034: -6372059141726301991
+      sand_soldier_walk_035: 4909257095559210163
+      sand_soldier_walk_036: 7898730567180995280
+      sand_soldier_walk_037: 2269002814684597301
+      sand_soldier_walk_038: -6100920294037930482
+      sand_soldier_walk_039: 1930256557147981016
+      sand_soldier_walk_040: 9041812772113804450
+      sand_soldier_walk_041: 7922447100681492989
+      sand_soldier_walk_042: -8711372648273343826
+      sand_soldier_walk_043: 4041320264686728766
+      sand_soldier_walk_044: 9212178868384474187
+      sand_soldier_walk_045: -1211573959338579310
+      sand_soldier_walk_046: 1243409069761958578
+      sand_soldier_walk_047: -2041584372558206447
+      sand_soldier_walk_048: 5795123801963194254
+      sand_soldier_walk_049: -8019039149323915801
+      sand_soldier_walk_050: -4045679069395146070
+      sand_soldier_walk_051: 5829609860992174676
+      sand_soldier_walk_052: 445135607566703470
+      sand_soldier_walk_053: 5258302465783687845
+      sand_soldier_walk_054: 2454984411276265192
+      sand_soldier_walk_055: 8595025302776434743
+      sand_soldier_walk_056: 4639083546539273459
+      sand_soldier_walk_057: -5026420925959126707
+      sand_soldier_walk_058: -4055653106127418448
+      sand_soldier_walk_059: 5293967944598979460
+      sand_soldier_walk_060: -2836578882138233284
+      sand_soldier_walk_061: 1430315408223854137
+      sand_soldier_walk_062: -4578131775257401528
+      sand_soldier_walk_063: 4218490880538160564
+      sand_soldier_walk_064: 2452042654747421606
+      sand_soldier_walk_065: -5415261671722252938
+      sand_soldier_walk_066: 8887268454005834556
+      sand_soldier_walk_067: 4064183440591533315
+      sand_soldier_walk_068: -2453626741923028488
+      sand_soldier_walk_069: 8607808769677570338
+      sand_soldier_walk_070: 99312428055889281
+      sand_soldier_walk_071: 8572585746181992913
+      sand_soldier_walk_072: -7843468667746797339
+      sand_soldier_walk_073: 8590753502280776435
+      sand_soldier_walk_074: -5724706244956073893
+      sand_soldier_walk_075: -635169919271443019
+      sand_soldier_walk_076: 189799447712656047
+      sand_soldier_walk_077: 513480117695558147
+      sand_soldier_walk_078: -7402432377801162156
+      sand_soldier_walk_079: -2365316746716185557
+      sand_soldier_walk_080: 4942259358684793586
+      sand_soldier_walk_081: -6605418679154142220
+      sand_soldier_walk_082: 577973218794077340
+      sand_soldier_walk_083: -2588275055047777373
+      sand_soldier_walk_084: 2481770505970075345
+      sand_soldier_walk_085: -2783767213955104590
+      sand_soldier_walk_086: -8348974440326310191
+      sand_soldier_walk_087: 3514483574995961351
+      sand_soldier_walk_088: 4913824198997719316
+      sand_soldier_walk_089: -2132022866870297310
+      sand_soldier_walk_090: -6955091293744761459
+      sand_soldier_walk_091: 1598174958152720116
+      sand_soldier_walk_092: 1047771102768155585
+      sand_soldier_walk_093: -7157706390589253681
+      sand_soldier_walk_094: -2628764298676749484
+      sand_soldier_walk_095: -5298237464459973115
+      sand_soldier_walk_096: 7341402161270732743
+      sand_soldier_walk_097: 1734829765505336157
+      sand_soldier_walk_098: -494250932609025041
+      sand_soldier_walk_099: -2297864059185752175
+      sand_soldier_walk_1: 5612670145701378459
+      sand_soldier_walk_10: -1018145165358136606
+      sand_soldier_walk_100: 9212734713591444801
+      sand_soldier_walk_101: 102129152153731663
+      sand_soldier_walk_102: -416790521546869242
+      sand_soldier_walk_103: -4022959956610830549
+      sand_soldier_walk_104: -2898645207515701308
+      sand_soldier_walk_105: 4649649024585218939
+      sand_soldier_walk_106: -6113899163605266372
+      sand_soldier_walk_107: 154609409277303085
+      sand_soldier_walk_108: -6276372128682832126
+      sand_soldier_walk_109: 5382104970309898165
+      sand_soldier_walk_11: -6283364886588160714
+      sand_soldier_walk_110: -5031591998725755277
+      sand_soldier_walk_111: 9062935730373012125
+      sand_soldier_walk_112: 2816980109862209804
+      sand_soldier_walk_113: 3044047373413968338
+      sand_soldier_walk_114: -5193543780529029028
+      sand_soldier_walk_115: -4684517222855204391
+      sand_soldier_walk_116: -7024955223092599300
+      sand_soldier_walk_117: -4966653969443041461
+      sand_soldier_walk_118: 1746981497845477055
+      sand_soldier_walk_119: -1056209962434728065
+      sand_soldier_walk_12: 8081566501845343555
+      sand_soldier_walk_13: 8260367681964223974
+      sand_soldier_walk_14: 7190326707636709282
+      sand_soldier_walk_15: 8938186090986003134
+      sand_soldier_walk_16: 1028333549182454446
+      sand_soldier_walk_17: -7241070233574543533
+      sand_soldier_walk_18: -7782845857895235296
+      sand_soldier_walk_19: -826940788950618608
+      sand_soldier_walk_2: 5475755732617771696
+      sand_soldier_walk_20: -8261741298196603870
+      sand_soldier_walk_21: 3748828177114920384
+      sand_soldier_walk_22: -7176092029108089768
+      sand_soldier_walk_23: -2142049813155131659
+      sand_soldier_walk_24: 7710146098813757218
+      sand_soldier_walk_25: -6455214135326348872
+      sand_soldier_walk_26: 2020942831405206274
+      sand_soldier_walk_27: 3867045969474145421
+      sand_soldier_walk_28: 4453855583242877146
+      sand_soldier_walk_29: 6149478785788113355
+      sand_soldier_walk_3: -2248494121811601250
+      sand_soldier_walk_30: -9115774981144059111
+      sand_soldier_walk_31: -7516617628284586163
+      sand_soldier_walk_32: -5450485975130926850
+      sand_soldier_walk_33: 5613936529569279051
+      sand_soldier_walk_34: 1809117117686864371
+      sand_soldier_walk_35: -6093942445670013153
+      sand_soldier_walk_36: 2052929648155463241
+      sand_soldier_walk_37: 741333483602924872
+      sand_soldier_walk_38: -6651652501059743493
+      sand_soldier_walk_39: 349648665616273906
+      sand_soldier_walk_4: -415621058595120962
+      sand_soldier_walk_40: 8243193163413325192
+      sand_soldier_walk_41: 1675158864877751113
+      sand_soldier_walk_42: -5572490888052332503
+      sand_soldier_walk_43: -1240046147580101508
+      sand_soldier_walk_44: -6515283695784556218
+      sand_soldier_walk_45: 2012436449230311799
+      sand_soldier_walk_46: -3750806218611061320
+      sand_soldier_walk_47: -1146377833903470132
+      sand_soldier_walk_48: 5114117786087170025
+      sand_soldier_walk_49: 6139782563623963439
+      sand_soldier_walk_5: -2149139679453589753
+      sand_soldier_walk_50: -8454755768356279752
+      sand_soldier_walk_51: 6365658831408071778
+      sand_soldier_walk_52: 3109411134760369816
+      sand_soldier_walk_53: -1006088054331631738
+      sand_soldier_walk_54: -8498241906225427844
+      sand_soldier_walk_55: -4271330433401930559
+      sand_soldier_walk_56: -4592242562537793632
+      sand_soldier_walk_57: -6975807595793445970
+      sand_soldier_walk_58: 5091017851498857997
+      sand_soldier_walk_59: -3856191012348246868
+      sand_soldier_walk_6: 5152809821014544650
+      sand_soldier_walk_60: 140692624758424516
+      sand_soldier_walk_61: -3449442325643813304
+      sand_soldier_walk_62: -7363515160596332279
+      sand_soldier_walk_63: 8209628008652432298
+      sand_soldier_walk_64: -3684856331122514769
+      sand_soldier_walk_65: 3495626435485326771
+      sand_soldier_walk_66: 9133913138004079257
+      sand_soldier_walk_67: 3081464017890601368
+      sand_soldier_walk_68: -1338356297574816313
+      sand_soldier_walk_69: -7960056244274738167
+      sand_soldier_walk_7: 8853378222282439390
+      sand_soldier_walk_70: 6556928033670643506
+      sand_soldier_walk_71: 4435506913231692932
+      sand_soldier_walk_72: 6885794365669424500
+      sand_soldier_walk_73: 7721996471118941599
+      sand_soldier_walk_74: -4528164139758295099
+      sand_soldier_walk_75: -3633176102100014819
+      sand_soldier_walk_76: -8566097148849095416
+      sand_soldier_walk_77: -4131660234006134578
+      sand_soldier_walk_78: 5956487951911381207
+      sand_soldier_walk_79: 1923418068506853959
+      sand_soldier_walk_8: 8124405039369463923
+      sand_soldier_walk_80: 5964092701767660818
+      sand_soldier_walk_81: -4373216528801963071
+      sand_soldier_walk_82: -6171398611771370862
+      sand_soldier_walk_83: 5473640561749344670
+      sand_soldier_walk_84: -7059524403852844258
+      sand_soldier_walk_85: 8369199908156998094
+      sand_soldier_walk_86: -4080918452395366464
+      sand_soldier_walk_87: 7038951732335030767
+      sand_soldier_walk_88: 2138211684410759747
+      sand_soldier_walk_89: 8726771692208007400
+      sand_soldier_walk_9: 8189554432357799267
+      sand_soldier_walk_90: 8899865906641516142
+      sand_soldier_walk_91: -3264726782065200932
+      sand_soldier_walk_92: 4035512840062249055
+      sand_soldier_walk_93: 7317180062277846257
+      sand_soldier_walk_94: 1551278741987802534
+      sand_soldier_walk_95: -2706802018179800960
+      sand_soldier_walk_96: -6223004658519148380
+      sand_soldier_walk_97: 6172423117252731267
+      sand_soldier_walk_98: 3676682439398136285
+      sand_soldier_walk_99: 4890627895979924320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

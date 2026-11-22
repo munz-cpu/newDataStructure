@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 12f7fed07fcee204f961e673a2e6164b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3812938427760678281
+    second: tryndamere_walk_0
+  - first:
+      213: 8197920070060286418
+    second: tryndamere_walk_1
+  - first:
+      213: -9162172730641735532
+    second: tryndamere_walk_2
+  - first:
+      213: -8190561707619203495
+    second: tryndamere_walk_3
+  - first:
+      213: -5887560214191932003
+    second: tryndamere_walk_4
+  - first:
+      213: -3415850907651983847
+    second: tryndamere_walk_5
+  - first:
+      213: 7749607615098642269
+    second: tryndamere_walk_6
+  - first:
+      213: -7304959259339475989
+    second: tryndamere_walk_7
+  - first:
+      213: -5146691603154663980
+    second: tryndamere_walk_8
+  - first:
+      213: 248279346324283934
+    second: tryndamere_walk_9
+  - first:
+      213: -2246283233834877613
+    second: tryndamere_walk_10
+  - first:
+      213: 6522286346104322512
+    second: tryndamere_walk_11
+  - first:
+      213: -4090376656791573337
+    second: tryndamere_walk_12
+  - first:
+      213: 3258272186126703809
+    second: tryndamere_walk_13
+  - first:
+      213: -8281030006964937490
+    second: tryndamere_walk_14
+  - first:
+      213: 686924444337491686
+    second: tryndamere_walk_15
+  - first:
+      213: 3851111501825186837
+    second: tryndamere_walk_16
+  - first:
+      213: 9075025903341399695
+    second: tryndamere_walk_17
+  - first:
+      213: 2803448320423460328
+    second: tryndamere_walk_18
+  - first:
+      213: -3231705484717131521
+    second: tryndamere_walk_19
+  - first:
+      213: 2858563865707317390
+    second: tryndamere_walk_20
+  - first:
+      213: -2592763854978988513
+    second: tryndamere_walk_21
+  - first:
+      213: 3301209789695361643
+    second: tryndamere_walk_22
+  - first:
+      213: -7466067530609379777
+    second: tryndamere_walk_23
+  - first:
+      213: 4823130675211360219
+    second: tryndamere_walk_24
+  - first:
+      213: -5920109560006740929
+    second: tryndamere_walk_25
+  - first:
+      213: -5888427297975969108
+    second: tryndamere_walk_26
+  - first:
+      213: 511981655515149287
+    second: tryndamere_walk_27
+  - first:
+      213: 3133192176238409611
+    second: tryndamere_walk_28
+  - first:
+      213: 3130379878987514162
+    second: tryndamere_walk_29
+  - first:
+      213: 1586820917192083619
+    second: tryndamere_walk_30
+  - first:
+      213: 4204342933153643970
+    second: tryndamere_walk_31
+  - first:
+      213: -6925254340362708039
+    second: tryndamere_walk_32
+  - first:
+      213: -2985986826195363115
+    second: tryndamere_walk_33
+  - first:
+      213: 4370796233275808767
+    second: tryndamere_walk_34
+  - first:
+      213: 7608431899842133895
+    second: tryndamere_walk_35
+  - first:
+      213: 121376046965635366
+    second: tryndamere_walk_36
+  - first:
+      213: -7791858013407481944
+    second: tryndamere_walk_37
+  - first:
+      213: -5491908331428334877
+    second: tryndamere_walk_38
+  - first:
+      213: -1379650435863919122
+    second: tryndamere_walk_39
+  - first:
+      213: 5481563261461598768
+    second: tryndamere_walk_40
+  - first:
+      213: -1242457033156056407
+    second: tryndamere_walk_41
+  - first:
+      213: 6649406366670992851
+    second: tryndamere_walk_42
+  - first:
+      213: -3869033499224112272
+    second: tryndamere_walk_43
+  - first:
+      213: -991300082615157668
+    second: tryndamere_walk_44
+  - first:
+      213: 1726244348486355164
+    second: tryndamere_walk_45
+  - first:
+      213: -3187797445320081980
+    second: tryndamere_walk_46
+  - first:
+      213: -2312938791901994393
+    second: tryndamere_walk_47
+  - first:
+      213: -8808071182417899486
+    second: tryndamere_walk_48
+  - first:
+      213: 7480606114344885868
+    second: tryndamere_walk_49
+  - first:
+      213: 8655128760369866827
+    second: tryndamere_walk_50
+  - first:
+      213: -6824738046016627969
+    second: tryndamere_walk_51
+  - first:
+      213: -7306140409249325552
+    second: tryndamere_walk_52
+  - first:
+      213: 882615159561965348
+    second: tryndamere_walk_53
+  - first:
+      213: -8240585049123780933
+    second: tryndamere_walk_54
+  - first:
+      213: 1240570745946860790
+    second: tryndamere_walk_55
+  - first:
+      213: -5783600200172086667
+    second: tryndamere_walk_56
+  - first:
+      213: -7830751014851579410
+    second: tryndamere_walk_57
+  - first:
+      213: 4436562381308675272
+    second: tryndamere_walk_58
+  - first:
+      213: 254518527956723176
+    second: tryndamere_walk_59
+  - first:
+      213: 1309669237883048214
+    second: tryndamere_walk_60
+  - first:
+      213: 3109272923789899708
+    second: tryndamere_walk_61
+  - first:
+      213: 2508138494129962676
+    second: tryndamere_walk_62
+  - first:
+      213: 802333909236662553
+    second: tryndamere_walk_63
+  - first:
+      213: -2338216307227877337
+    second: tryndamere_walk_64
+  - first:
+      213: 4010705644761572516
+    second: tryndamere_walk_65
+  - first:
+      213: -8986189123111889256
+    second: tryndamere_walk_66
+  - first:
+      213: 2157827458890756081
+    second: tryndamere_walk_67
+  - first:
+      213: -350387887719043251
+    second: tryndamere_walk_68
+  - first:
+      213: 3608386780609734759
+    second: tryndamere_walk_69
+  - first:
+      213: -2555041333014818274
+    second: tryndamere_walk_70
+  - first:
+      213: 543395055050485787
+    second: tryndamere_walk_71
+  - first:
+      213: -6950910435201419978
+    second: tryndamere_walk_72
+  - first:
+      213: 590933063844885745
+    second: tryndamere_walk_73
+  - first:
+      213: 8979336523593660942
+    second: tryndamere_walk_74
+  - first:
+      213: 5942599978247357714
+    second: tryndamere_walk_75
+  - first:
+      213: 1014237584800983806
+    second: tryndamere_walk_76
+  - first:
+      213: -4823623736434019131
+    second: tryndamere_walk_77
+  - first:
+      213: 3831122521472990488
+    second: tryndamere_walk_78
+  - first:
+      213: -2231583927490535361
+    second: tryndamere_walk_79
+  - first:
+      213: 6445290047150166173
+    second: tryndamere_walk_80
+  - first:
+      213: -6964732015570698338
+    second: tryndamere_walk_81
+  - first:
+      213: 5176326015092088523
+    second: tryndamere_walk_82
+  - first:
+      213: 4882460724998212826
+    second: tryndamere_walk_83
+  - first:
+      213: 6431068979757071093
+    second: tryndamere_walk_84
+  - first:
+      213: 1578762921210480203
+    second: tryndamere_walk_85
+  - first:
+      213: 8008394070371441552
+    second: tryndamere_walk_86
+  - first:
+      213: -4360538625902138283
+    second: tryndamere_walk_87
+  - first:
+      213: 1585501700845296838
+    second: tryndamere_walk_88
+  - first:
+      213: -3596419601241729169
+    second: tryndamere_walk_89
+  - first:
+      213: -6056855293785540384
+    second: tryndamere_walk_90
+  - first:
+      213: -5747486666432131349
+    second: tryndamere_walk_91
+  - first:
+      213: -7105115335548202803
+    second: tryndamere_walk_92
+  - first:
+      213: 4956651303790970811
+    second: tryndamere_walk_93
+  - first:
+      213: 5028834435099404935
+    second: tryndamere_walk_94
+  - first:
+      213: 2047415853971210236
+    second: tryndamere_walk_95
+  - first:
+      213: 6458320474183337475
+    second: tryndamere_walk_96
+  - first:
+      213: -1787738467350279552
+    second: tryndamere_walk_97
+  - first:
+      213: 530273088304595039
+    second: tryndamere_walk_98
+  - first:
+      213: -790655519622729573
+    second: tryndamere_walk_99
+  - first:
+      213: -1928894499780474775
+    second: tryndamere_walk_100
+  - first:
+      213: -3812644324992533247
+    second: tryndamere_walk_101
+  - first:
+      213: -5170961080009137074
+    second: tryndamere_walk_102
+  - first:
+      213: 8473059979142153385
+    second: tryndamere_walk_103
+  - first:
+      213: -4663226615981761972
+    second: tryndamere_walk_104
+  - first:
+      213: -3816481350806089084
+    second: tryndamere_walk_105
+  - first:
+      213: -3548130530401483800
+    second: tryndamere_walk_106
+  - first:
+      213: -6934091724149342338
+    second: tryndamere_walk_107
+  - first:
+      213: 4031937510979041994
+    second: tryndamere_walk_108
+  - first:
+      213: 4636541162717585684
+    second: tryndamere_walk_109
+  - first:
+      213: 7130098223154531186
+    second: tryndamere_walk_110
+  - first:
+      213: 4448173772695464446
+    second: tryndamere_walk_111
+  - first:
+      213: -8787880558631756441
+    second: tryndamere_walk_112
+  - first:
+      213: -325553618546232923
+    second: tryndamere_walk_113
+  - first:
+      213: -6562413204140327005
+    second: tryndamere_walk_114
+  - first:
+      213: 3199153389295274604
+    second: tryndamere_walk_115
+  - first:
+      213: -6908919419677465289
+    second: tryndamere_walk_116
+  - first:
+      213: 5947433223289543313
+    second: tryndamere_walk_117
+  - first:
+      213: -9192101218753158985
+    second: tryndamere_walk_118
+  - first:
+      213: -1751668998933209154
+    second: tryndamere_walk_119
+  - first:
+      213: -2584953631015885816
+    second: tryndamere_walk_000
+  - first:
+      213: -6893045028773277799
+    second: tryndamere_walk_001
+  - first:
+      213: 8173526332711479286
+    second: tryndamere_walk_002
+  - first:
+      213: -8735257100843736681
+    second: tryndamere_walk_003
+  - first:
+      213: -8647652993221116130
+    second: tryndamere_walk_004
+  - first:
+      213: 646969379706316481
+    second: tryndamere_walk_005
+  - first:
+      213: -4121349784472240198
+    second: tryndamere_walk_006
+  - first:
+      213: -6469229425130883181
+    second: tryndamere_walk_007
+  - first:
+      213: -8452964116743865196
+    second: tryndamere_walk_008
+  - first:
+      213: -182539943888165212
+    second: tryndamere_walk_009
+  - first:
+      213: -5741696465948924925
+    second: tryndamere_walk_010
+  - first:
+      213: 1806277126019763242
+    second: tryndamere_walk_011
+  - first:
+      213: 587710920149584497
+    second: tryndamere_walk_012
+  - first:
+      213: 303500703898643716
+    second: tryndamere_walk_013
+  - first:
+      213: -7770600311959531039
+    second: tryndamere_walk_014
+  - first:
+      213: -7206386840607409321
+    second: tryndamere_walk_015
+  - first:
+      213: -3614069601385376969
+    second: tryndamere_walk_016
+  - first:
+      213: -2542183462387044562
+    second: tryndamere_walk_017
+  - first:
+      213: -746707751188539348
+    second: tryndamere_walk_018
+  - first:
+      213: 4183633175934221434
+    second: tryndamere_walk_019
+  - first:
+      213: -5313090566798314391
+    second: tryndamere_walk_020
+  - first:
+      213: -8602874218389965835
+    second: tryndamere_walk_021
+  - first:
+      213: -6569591124838151217
+    second: tryndamere_walk_022
+  - first:
+      213: -2906632041601887624
+    second: tryndamere_walk_023
+  - first:
+      213: 1304562476772876351
+    second: tryndamere_walk_024
+  - first:
+      213: 1767874724791894330
+    second: tryndamere_walk_025
+  - first:
+      213: 3087486329579575847
+    second: tryndamere_walk_026
+  - first:
+      213: -2794910712269827757
+    second: tryndamere_walk_027
+  - first:
+      213: -13570350015693046
+    second: tryndamere_walk_028
+  - first:
+      213: 2385154051772633793
+    second: tryndamere_walk_029
+  - first:
+      213: -3434503537326020225
+    second: tryndamere_walk_030
+  - first:
+      213: -5601369321710573385
+    second: tryndamere_walk_031
+  - first:
+      213: -3019120844481618296
+    second: tryndamere_walk_032
+  - first:
+      213: -2202263364197078611
+    second: tryndamere_walk_033
+  - first:
+      213: -5244319590839396944
+    second: tryndamere_walk_034
+  - first:
+      213: 6455046431191418302
+    second: tryndamere_walk_035
+  - first:
+      213: -2974733652151616990
+    second: tryndamere_walk_036
+  - first:
+      213: -2552998456237486115
+    second: tryndamere_walk_037
+  - first:
+      213: 8698417315754172178
+    second: tryndamere_walk_038
+  - first:
+      213: -4645822954756675332
+    second: tryndamere_walk_039
+  - first:
+      213: -1078212483149436728
+    second: tryndamere_walk_040
+  - first:
+      213: -147328883084695957
+    second: tryndamere_walk_041
+  - first:
+      213: 8508404987771327057
+    second: tryndamere_walk_042
+  - first:
+      213: 9008646000645370590
+    second: tryndamere_walk_043
+  - first:
+      213: -1310843538372080472
+    second: tryndamere_walk_044
+  - first:
+      213: -2146453818933794045
+    second: tryndamere_walk_045
+  - first:
+      213: -289371965360635902
+    second: tryndamere_walk_046
+  - first:
+      213: -3379654416833755906
+    second: tryndamere_walk_047
+  - first:
+      213: -2834722824513495967
+    second: tryndamere_walk_048
+  - first:
+      213: -7310441296166909694
+    second: tryndamere_walk_049
+  - first:
+      213: 8363444128177468741
+    second: tryndamere_walk_050
+  - first:
+      213: -4803115992267714573
+    second: tryndamere_walk_051
+  - first:
+      213: 3280209920791283907
+    second: tryndamere_walk_052
+  - first:
+      213: 7108903672624334807
+    second: tryndamere_walk_053
+  - first:
+      213: -8879263902285107703
+    second: tryndamere_walk_054
+  - first:
+      213: 2193404417780942525
+    second: tryndamere_walk_055
+  - first:
+      213: -463732489947583396
+    second: tryndamere_walk_056
+  - first:
+      213: -2684689366734366215
+    second: tryndamere_walk_057
+  - first:
+      213: 7105543036722039036
+    second: tryndamere_walk_058
+  - first:
+      213: 7958941776310834120
+    second: tryndamere_walk_059
+  - first:
+      213: 1715289221186265060
+    second: tryndamere_walk_060
+  - first:
+      213: 8675424751069944092
+    second: tryndamere_walk_061
+  - first:
+      213: -3038022116592020938
+    second: tryndamere_walk_062
+  - first:
+      213: -8483271220762864994
+    second: tryndamere_walk_063
+  - first:
+      213: -3603268756494713633
+    second: tryndamere_walk_064
+  - first:
+      213: 8283257727260078632
+    second: tryndamere_walk_065
+  - first:
+      213: -5096862380709578347
+    second: tryndamere_walk_066
+  - first:
+      213: -2449940481742947978
+    second: tryndamere_walk_067
+  - first:
+      213: -8192373826733307749
+    second: tryndamere_walk_068
+  - first:
+      213: -270278765068190708
+    second: tryndamere_walk_069
+  - first:
+      213: -4402231630576635677
+    second: tryndamere_walk_070
+  - first:
+      213: -6860126259001558645
+    second: tryndamere_walk_071
+  - first:
+      213: -7156308936864698716
+    second: tryndamere_walk_072
+  - first:
+      213: 1205068714246353906
+    second: tryndamere_walk_073
+  - first:
+      213: -5419354061382969364
+    second: tryndamere_walk_074
+  - first:
+      213: -6229116448286231195
+    second: tryndamere_walk_075
+  - first:
+      213: 8778498127988531600
+    second: tryndamere_walk_076
+  - first:
+      213: -1254445813673978474
+    second: tryndamere_walk_077
+  - first:
+      213: 2078213857603701014
+    second: tryndamere_walk_078
+  - first:
+      213: -8134131578054568750
+    second: tryndamere_walk_079
+  - first:
+      213: -6421268298599451071
+    second: tryndamere_walk_080
+  - first:
+      213: 8430424574638189361
+    second: tryndamere_walk_081
+  - first:
+      213: -7342911201853629870
+    second: tryndamere_walk_082
+  - first:
+      213: -5686076306115475464
+    second: tryndamere_walk_083
+  - first:
+      213: -250622059439524315
+    second: tryndamere_walk_084
+  - first:
+      213: -7255424512999607115
+    second: tryndamere_walk_085
+  - first:
+      213: -7447581484655130159
+    second: tryndamere_walk_086
+  - first:
+      213: 4984629727802334399
+    second: tryndamere_walk_087
+  - first:
+      213: 8470235575883836888
+    second: tryndamere_walk_088
+  - first:
+      213: 8265245661295935166
+    second: tryndamere_walk_089
+  - first:
+      213: 9209239514640283187
+    second: tryndamere_walk_090
+  - first:
+      213: -1354289404697994725
+    second: tryndamere_walk_091
+  - first:
+      213: -2986457154681368416
+    second: tryndamere_walk_092
+  - first:
+      213: 4451346855245136675
+    second: tryndamere_walk_093
+  - first:
+      213: -5302573822996674230
+    second: tryndamere_walk_094
+  - first:
+      213: -2424863484632024220
+    second: tryndamere_walk_095
+  - first:
+      213: -346514991189870076
+    second: tryndamere_walk_096
+  - first:
+      213: -2847316414951828030
+    second: tryndamere_walk_097
+  - first:
+      213: -5110936495846405241
+    second: tryndamere_walk_098
+  - first:
+      213: -293537595065411963
+    second: tryndamere_walk_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tryndamere_walk_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80421764e56602cd0800000000000000
+      internalID: -2584953631015885816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f4237311cf650a0800000000000000
+      internalID: -6893045028773277799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7a197f4e23e6170800000000000000
+      internalID: 8173526332711479286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791208ab2f126c680800000000000000
+      internalID: -8735257100843736681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1f363e7b6d5df780800000000000000
+      internalID: -8647652993221116130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c623f9193f7af800800000000000000
+      internalID: 646969379706316481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf3665f4360ec6c0800000000000000
+      internalID: -4121349784472240198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397b1900d1ea836a0800000000000000
+      internalID: -6469229425130883181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cbb5aebe901ba80800000000000000
+      internalID: -8452964116743865196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6e93f53ec777df0800000000000000
+      internalID: -182539943888165212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304affa2c756150b0800000000000000
+      internalID: -5741696465948924925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c425ed97f211910800000000000000
+      internalID: 1806277126019763242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a4222d7f7f72800800000000000000
+      internalID: 587710920149584497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40da5fc3840463400800000000000000
+      internalID: 303500703898643716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1dc1acf28492490800000000000000
+      internalID: -7770600311959531039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75bbb8b7955cdfb90800000000000000
+      internalID: -7206386840607409321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73313ef78de38ddc0800000000000000
+      internalID: -3614069601385376969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f2c8a2c9958bcd0800000000000000
+      internalID: -2542183462387044562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c28506ba14923a5f0800000000000000
+      internalID: -746707751188539348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c391a25304f0a30800000000000000
+      internalID: 4183633175934221434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964f18a874c1446b0800000000000000
+      internalID: -5313090566798314391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3ff757a737c9880800000000000000
+      internalID: -8602874218389965835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb867cddaf14d4a0800000000000000
+      internalID: -6569591124838151217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8721d83ee8199a7d0800000000000000
+      internalID: -2906632041601887624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30e95729acba1210800000000000000
+      internalID: 1304562476772876351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31cc9212b0c88810800000000000000
+      internalID: 1767874724791894330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a17736574f8da20800000000000000
+      internalID: 3087486329579575847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3511938e38b7639d0800000000000000
+      internalID: -2794910712269827757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f36dba6d9cfcff0800000000000000
+      internalID: -13570350015693046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2dd7619f4c91120800000000000000
+      internalID: 2385154051772633793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f792cd5ca313650d0800000000000000
+      internalID: -3434503537326020225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8abab7740f342b0800000000000000
+      internalID: -5601369321710573385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e12b2869de916d0800000000000000
+      internalID: -3019120844481618296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da92d2b632dff61e0800000000000000
+      internalID: -2202263364197078611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b555632e1f6837b0800000000000000
+      internalID: -5244319590839396944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb541d3678ee49950800000000000000
+      internalID: 6455046431191418302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22a3a12118f97b6d0800000000000000
+      internalID: -2974733652151616990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf08df2e6de19cd0800000000000000
+      internalID: -2552998456237486115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f52a5667cf6b870800000000000000
+      internalID: 8698417315754172178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf86f5423a8b68fb0800000000000000
+      internalID: -4645822954756675332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c86c7d857b6901f0800000000000000
+      internalID: -1078212483149436728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b66e492592594fdf0800000000000000
+      internalID: -147328883084695957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1529545c14de31670800000000000000
+      internalID: 8508404987771327057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2f5b7cec3250d70800000000000000
+      internalID: 9008646000645370590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ac473b3fb2fecde0800000000000000
+      internalID: -1310843538372080472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30baba3cf934632e0800000000000000
+      internalID: -2146453818933794045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20009bc0bb1fbfbf0800000000000000
+      internalID: -289371965360635902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef44b0dc63e0911d0800000000000000
+      internalID: -3379654416833755906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16c5e203c9a09a8d0800000000000000
+      internalID: -2834722824513495967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20900ae9f581c8a90800000000000000
+      internalID: -7310441296166909694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54538d68f1ce01470800000000000000
+      internalID: 8363444128177468741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff82e9f377e75db0800000000000000
+      internalID: -4803115992267714573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c80a7d2b85a58d20800000000000000
+      internalID: 3280209920791283907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d74e35c936e7a260800000000000000
+      internalID: 7108903672624334807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ee855768486c480800000000000000
+      internalID: -8879263902285107703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db60b9262b9807e10800000000000000
+      internalID: 2193404417780942525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cedd1e1cd7099f0800000000000000
+      internalID: -463732489947583396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9978bbe311ebad0800000000000000
+      internalID: -2684689366734366215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf84110ceb5fb9260800000000000000
+      internalID: 7105543036722039036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c316059067d37e60800000000000000
+      internalID: 7958941776310834120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef1ddb657eedc710800000000000000
+      internalID: 1715289221186265060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c19d723c8dc456870800000000000000
+      internalID: 8675424751069944092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63290c82bf6c6d5d0800000000000000
+      internalID: -3038022116592020938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92922165cd554a80800000000000000
+      internalID: -8483271220762864994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc7eda282e9efdc0800000000000000
+      internalID: -3603268756494713633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822b850340b04f270800000000000000
+      internalID: 8283257727260078632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599f0c84bae4449b0800000000000000
+      internalID: -5096862380709578347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 679bcd8bc10100ed0800000000000000
+      internalID: -2449940481742947978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b988a5ed867de4e80800000000000000
+      internalID: -8192373826733307749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c77c925e6cf3cf0800000000000000
+      internalID: -270278765068190708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0bd70f7a128e2c0800000000000000
+      internalID: -4402231630576635677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89f1e1938febc0a0800000000000000
+      internalID: -6860126259001558645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aee93b00feafac90800000000000000
+      internalID: -7156308936864698716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f337926c9349b010800000000000000
+      internalID: 1205068714246353906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce79233b1369ac4b0800000000000000
+      internalID: -5419354061382969364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5653b53f79bbd89a0800000000000000
+      internalID: -6229116448286231195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0912034798d73d970800000000000000
+      internalID: 8778498127988531600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6959cf5cd20579ee0800000000000000
+      internalID: -1254445813673978474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61943cd1e7c47dc10800000000000000
+      internalID: 2078213857603701014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d415cd1d62cd1f80800000000000000
+      internalID: -8134131578054568750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146b086f08213e6a0800000000000000
+      internalID: -6421268298599451071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b680dfb72eef470800000000000000
+      internalID: 8430424574638189361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a17449a2db81a90800000000000000
+      internalID: -7342911201853629870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7c838c9bff611b0800000000000000
+      internalID: -5686076306115475464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526fa36909c958cf0800000000000000
+      internalID: -250622059439524315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b43ff7a8dd8f4b90800000000000000
+      internalID: -7255424512999607115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9ca534910e4a890800000000000000
+      internalID: -7447581484655130159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbc9286e356fc2540800000000000000
+      internalID: 4984629727802334399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ddae6801625c8570800000000000000
+      internalID: 8470235575883836888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebef1e6432d04b270800000000000000
+      internalID: 8265245661295935166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 336ff91cb8acdcf70800000000000000
+      internalID: 9209239514640283187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a96e536f8943de0800000000000000
+      internalID: -1354289404697994725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a01b4e6a09fd86d0800000000000000
+      internalID: -2986457154681368416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32340fe616c56cd30800000000000000
+      internalID: 4451346855245136675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a498ff4c3397966b0800000000000000
+      internalID: -5302573822996674230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b31b91287295ed0800000000000000
+      internalID: -2424863484632024220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ab7c0937ee03bf0800000000000000
+      internalID: -346514991189870076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c558ab6ecc4c78d0800000000000000
+      internalID: -2847316414951828030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78bce7ff55e4219b0800000000000000
+      internalID: -5110936495846405241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58657edcc152debf0800000000000000
+      internalID: -293537595065411963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96841631ca03b35e0800000000000000
+      internalID: -1928894499780474775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d39e9cf24c61bc0800000000000000
+      internalID: -3812644324992533247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e446fae6b4e0d38b0800000000000000
+      internalID: -5170961080009137074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4c859a82b569570800000000000000
+      internalID: 8473059979142153385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4a924f7914e84fb0800000000000000
+      internalID: -4663226615981761972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482dc499e62290bc0800000000000000
+      internalID: -3816481350806089084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e383b6d41282cec0800000000000000
+      internalID: -3548130530401483800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f3a16b05825cf90800000000000000
+      internalID: -6934091724149342338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca7a7addc154f730800000000000000
+      internalID: 4031937510979041994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411224e3f9d485040800000000000000
+      internalID: 4636541162717585684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27b05cc9e8233f260800000000000000
+      internalID: 7130098223154531186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9e8b49a761bbd30800000000000000
+      internalID: 4448173772695464446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d513e213d2b0680800000000000000
+      internalID: -8787880558631756441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1753375b66b7bf0800000000000000
+      internalID: -325553618546232923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aff1e1c5ff9de4a0800000000000000
+      internalID: -6562413204140327005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a8ee6ce0da56c20800000000000000
+      internalID: 3199153389295274604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 735a35094669e10a0800000000000000
+      internalID: -6908919419677465289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a97877107898250800000000000000
+      internalID: 5947433223289543313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b068c4b4a81f6080800000000000000
+      internalID: -9192101218753158985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_walk_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf95828352d0b7e0800000000000000
+      internalID: -1751668998933209154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tryndamere_walk_0: -3812938427760678281
+      tryndamere_walk_000: -2584953631015885816
+      tryndamere_walk_001: -6893045028773277799
+      tryndamere_walk_002: 8173526332711479286
+      tryndamere_walk_003: -8735257100843736681
+      tryndamere_walk_004: -8647652993221116130
+      tryndamere_walk_005: 646969379706316481
+      tryndamere_walk_006: -4121349784472240198
+      tryndamere_walk_007: -6469229425130883181
+      tryndamere_walk_008: -8452964116743865196
+      tryndamere_walk_009: -182539943888165212
+      tryndamere_walk_010: -5741696465948924925
+      tryndamere_walk_011: 1806277126019763242
+      tryndamere_walk_012: 587710920149584497
+      tryndamere_walk_013: 303500703898643716
+      tryndamere_walk_014: -7770600311959531039
+      tryndamere_walk_015: -7206386840607409321
+      tryndamere_walk_016: -3614069601385376969
+      tryndamere_walk_017: -2542183462387044562
+      tryndamere_walk_018: -746707751188539348
+      tryndamere_walk_019: 4183633175934221434
+      tryndamere_walk_020: -5313090566798314391
+      tryndamere_walk_021: -8602874218389965835
+      tryndamere_walk_022: -6569591124838151217
+      tryndamere_walk_023: -2906632041601887624
+      tryndamere_walk_024: 1304562476772876351
+      tryndamere_walk_025: 1767874724791894330
+      tryndamere_walk_026: 3087486329579575847
+      tryndamere_walk_027: -2794910712269827757
+      tryndamere_walk_028: -13570350015693046
+      tryndamere_walk_029: 2385154051772633793
+      tryndamere_walk_030: -3434503537326020225
+      tryndamere_walk_031: -5601369321710573385
+      tryndamere_walk_032: -3019120844481618296
+      tryndamere_walk_033: -2202263364197078611
+      tryndamere_walk_034: -5244319590839396944
+      tryndamere_walk_035: 6455046431191418302
+      tryndamere_walk_036: -2974733652151616990
+      tryndamere_walk_037: -2552998456237486115
+      tryndamere_walk_038: 8698417315754172178
+      tryndamere_walk_039: -4645822954756675332
+      tryndamere_walk_040: -1078212483149436728
+      tryndamere_walk_041: -147328883084695957
+      tryndamere_walk_042: 8508404987771327057
+      tryndamere_walk_043: 9008646000645370590
+      tryndamere_walk_044: -1310843538372080472
+      tryndamere_walk_045: -2146453818933794045
+      tryndamere_walk_046: -289371965360635902
+      tryndamere_walk_047: -3379654416833755906
+      tryndamere_walk_048: -2834722824513495967
+      tryndamere_walk_049: -7310441296166909694
+      tryndamere_walk_050: 8363444128177468741
+      tryndamere_walk_051: -4803115992267714573
+      tryndamere_walk_052: 3280209920791283907
+      tryndamere_walk_053: 7108903672624334807
+      tryndamere_walk_054: -8879263902285107703
+      tryndamere_walk_055: 2193404417780942525
+      tryndamere_walk_056: -463732489947583396
+      tryndamere_walk_057: -2684689366734366215
+      tryndamere_walk_058: 7105543036722039036
+      tryndamere_walk_059: 7958941776310834120
+      tryndamere_walk_060: 1715289221186265060
+      tryndamere_walk_061: 8675424751069944092
+      tryndamere_walk_062: -3038022116592020938
+      tryndamere_walk_063: -8483271220762864994
+      tryndamere_walk_064: -3603268756494713633
+      tryndamere_walk_065: 8283257727260078632
+      tryndamere_walk_066: -5096862380709578347
+      tryndamere_walk_067: -2449940481742947978
+      tryndamere_walk_068: -8192373826733307749
+      tryndamere_walk_069: -270278765068190708
+      tryndamere_walk_070: -4402231630576635677
+      tryndamere_walk_071: -6860126259001558645
+      tryndamere_walk_072: -7156308936864698716
+      tryndamere_walk_073: 1205068714246353906
+      tryndamere_walk_074: -5419354061382969364
+      tryndamere_walk_075: -6229116448286231195
+      tryndamere_walk_076: 8778498127988531600
+      tryndamere_walk_077: -1254445813673978474
+      tryndamere_walk_078: 2078213857603701014
+      tryndamere_walk_079: -8134131578054568750
+      tryndamere_walk_080: -6421268298599451071
+      tryndamere_walk_081: 8430424574638189361
+      tryndamere_walk_082: -7342911201853629870
+      tryndamere_walk_083: -5686076306115475464
+      tryndamere_walk_084: -250622059439524315
+      tryndamere_walk_085: -7255424512999607115
+      tryndamere_walk_086: -7447581484655130159
+      tryndamere_walk_087: 4984629727802334399
+      tryndamere_walk_088: 8470235575883836888
+      tryndamere_walk_089: 8265245661295935166
+      tryndamere_walk_090: 9209239514640283187
+      tryndamere_walk_091: -1354289404697994725
+      tryndamere_walk_092: -2986457154681368416
+      tryndamere_walk_093: 4451346855245136675
+      tryndamere_walk_094: -5302573822996674230
+      tryndamere_walk_095: -2424863484632024220
+      tryndamere_walk_096: -346514991189870076
+      tryndamere_walk_097: -2847316414951828030
+      tryndamere_walk_098: -5110936495846405241
+      tryndamere_walk_099: -293537595065411963
+      tryndamere_walk_1: 8197920070060286418
+      tryndamere_walk_10: -2246283233834877613
+      tryndamere_walk_100: -1928894499780474775
+      tryndamere_walk_101: -3812644324992533247
+      tryndamere_walk_102: -5170961080009137074
+      tryndamere_walk_103: 8473059979142153385
+      tryndamere_walk_104: -4663226615981761972
+      tryndamere_walk_105: -3816481350806089084
+      tryndamere_walk_106: -3548130530401483800
+      tryndamere_walk_107: -6934091724149342338
+      tryndamere_walk_108: 4031937510979041994
+      tryndamere_walk_109: 4636541162717585684
+      tryndamere_walk_11: 6522286346104322512
+      tryndamere_walk_110: 7130098223154531186
+      tryndamere_walk_111: 4448173772695464446
+      tryndamere_walk_112: -8787880558631756441
+      tryndamere_walk_113: -325553618546232923
+      tryndamere_walk_114: -6562413204140327005
+      tryndamere_walk_115: 3199153389295274604
+      tryndamere_walk_116: -6908919419677465289
+      tryndamere_walk_117: 5947433223289543313
+      tryndamere_walk_118: -9192101218753158985
+      tryndamere_walk_119: -1751668998933209154
+      tryndamere_walk_12: -4090376656791573337
+      tryndamere_walk_13: 3258272186126703809
+      tryndamere_walk_14: -8281030006964937490
+      tryndamere_walk_15: 686924444337491686
+      tryndamere_walk_16: 3851111501825186837
+      tryndamere_walk_17: 9075025903341399695
+      tryndamere_walk_18: 2803448320423460328
+      tryndamere_walk_19: -3231705484717131521
+      tryndamere_walk_2: -9162172730641735532
+      tryndamere_walk_20: 2858563865707317390
+      tryndamere_walk_21: -2592763854978988513
+      tryndamere_walk_22: 3301209789695361643
+      tryndamere_walk_23: -7466067530609379777
+      tryndamere_walk_24: 4823130675211360219
+      tryndamere_walk_25: -5920109560006740929
+      tryndamere_walk_26: -5888427297975969108
+      tryndamere_walk_27: 511981655515149287
+      tryndamere_walk_28: 3133192176238409611
+      tryndamere_walk_29: 3130379878987514162
+      tryndamere_walk_3: -8190561707619203495
+      tryndamere_walk_30: 1586820917192083619
+      tryndamere_walk_31: 4204342933153643970
+      tryndamere_walk_32: -6925254340362708039
+      tryndamere_walk_33: -2985986826195363115
+      tryndamere_walk_34: 4370796233275808767
+      tryndamere_walk_35: 7608431899842133895
+      tryndamere_walk_36: 121376046965635366
+      tryndamere_walk_37: -7791858013407481944
+      tryndamere_walk_38: -5491908331428334877
+      tryndamere_walk_39: -1379650435863919122
+      tryndamere_walk_4: -5887560214191932003
+      tryndamere_walk_40: 5481563261461598768
+      tryndamere_walk_41: -1242457033156056407
+      tryndamere_walk_42: 6649406366670992851
+      tryndamere_walk_43: -3869033499224112272
+      tryndamere_walk_44: -991300082615157668
+      tryndamere_walk_45: 1726244348486355164
+      tryndamere_walk_46: -3187797445320081980
+      tryndamere_walk_47: -2312938791901994393
+      tryndamere_walk_48: -8808071182417899486
+      tryndamere_walk_49: 7480606114344885868
+      tryndamere_walk_5: -3415850907651983847
+      tryndamere_walk_50: 8655128760369866827
+      tryndamere_walk_51: -6824738046016627969
+      tryndamere_walk_52: -7306140409249325552
+      tryndamere_walk_53: 882615159561965348
+      tryndamere_walk_54: -8240585049123780933
+      tryndamere_walk_55: 1240570745946860790
+      tryndamere_walk_56: -5783600200172086667
+      tryndamere_walk_57: -7830751014851579410
+      tryndamere_walk_58: 4436562381308675272
+      tryndamere_walk_59: 254518527956723176
+      tryndamere_walk_6: 7749607615098642269
+      tryndamere_walk_60: 1309669237883048214
+      tryndamere_walk_61: 3109272923789899708
+      tryndamere_walk_62: 2508138494129962676
+      tryndamere_walk_63: 802333909236662553
+      tryndamere_walk_64: -2338216307227877337
+      tryndamere_walk_65: 4010705644761572516
+      tryndamere_walk_66: -8986189123111889256
+      tryndamere_walk_67: 2157827458890756081
+      tryndamere_walk_68: -350387887719043251
+      tryndamere_walk_69: 3608386780609734759
+      tryndamere_walk_7: -7304959259339475989
+      tryndamere_walk_70: -2555041333014818274
+      tryndamere_walk_71: 543395055050485787
+      tryndamere_walk_72: -6950910435201419978
+      tryndamere_walk_73: 590933063844885745
+      tryndamere_walk_74: 8979336523593660942
+      tryndamere_walk_75: 5942599978247357714
+      tryndamere_walk_76: 1014237584800983806
+      tryndamere_walk_77: -4823623736434019131
+      tryndamere_walk_78: 3831122521472990488
+      tryndamere_walk_79: -2231583927490535361
+      tryndamere_walk_8: -5146691603154663980
+      tryndamere_walk_80: 6445290047150166173
+      tryndamere_walk_81: -6964732015570698338
+      tryndamere_walk_82: 5176326015092088523
+      tryndamere_walk_83: 4882460724998212826
+      tryndamere_walk_84: 6431068979757071093
+      tryndamere_walk_85: 1578762921210480203
+      tryndamere_walk_86: 8008394070371441552
+      tryndamere_walk_87: -4360538625902138283
+      tryndamere_walk_88: 1585501700845296838
+      tryndamere_walk_89: -3596419601241729169
+      tryndamere_walk_9: 248279346324283934
+      tryndamere_walk_90: -6056855293785540384
+      tryndamere_walk_91: -5747486666432131349
+      tryndamere_walk_92: -7105115335548202803
+      tryndamere_walk_93: 4956651303790970811
+      tryndamere_walk_94: 5028834435099404935
+      tryndamere_walk_95: 2047415853971210236
+      tryndamere_walk_96: 6458320474183337475
+      tryndamere_walk_97: -1787738467350279552
+      tryndamere_walk_98: 530273088304595039
+      tryndamere_walk_99: -790655519622729573
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

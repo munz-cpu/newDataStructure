@@ -1,0 +1,44 @@
+.army-class-filter {
+    position: absolute;
+    bottom: 48px;
+    left: 31%;
+    right: 21%;
+    background-color: rgba(39, 29, 20, 0.96);
+    border-width: 2px;
+    border-color: rgb(139, 102, 61);
+    padding: 6px 10px;
+}
+.filter-title {
+    font-size: 13px;
+    color: rgb(242, 222, 179);
+    -unity-text-align: middle-center;
+}
+.filter-row { flex-direction: row; justify-content: center; }
+.filter-button {
+    flex-grow: 1;
+    font-size: 12px;
+    color: rgb(249, 233, 198);
+    background-color: rgb(76, 57, 36);
+    border-width: 1px;
+    border-color: rgb(143, 105, 62);
+    border-radius: 0;
+    padding: 5px 4px;
+    margin: 3px;
+}
+.filter-button:hover { background-color: rgb(109, 82, 48); }
+.filter-button:disabled { opacity: 0.4; }
+.training-cost {
+    position: absolute;
+    width: 350px;
+    min-height: 98px;
+    padding: 9px 12px;
+    border-width: 2px;
+    border-left-color: rgb(163, 124, 76);
+    border-top-color: rgb(163, 124, 76);
+    border-right-color: rgb(86, 60, 34);
+    border-bottom-color: rgb(86, 60, 34);
+    background-color: rgba(35, 29, 21, 0.97);
+}
+.training-cost-title { font-size: 16px; color: rgb(249, 232, 194); margin-bottom: 5px; }
+.training-cost-total { font-size: 14px; white-space: normal; }
+.training-cost-detail { font-size: 12px; white-space: normal; color: rgb(186, 198, 172); margin-top: 6px; }

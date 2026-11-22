@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: f4052a21dd68b424faf3796ba5c4bc0f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -337759828827070030
+    second: turret_attack_0
+  - first:
+      213: 4862874857439475389
+    second: turret_attack_1
+  - first:
+      213: 7096665175751012427
+    second: turret_attack_2
+  - first:
+      213: 6750867341144097366
+    second: turret_attack_3
+  - first:
+      213: 7461172783439652565
+    second: turret_attack_4
+  - first:
+      213: 4996545853993304038
+    second: turret_attack_5
+  - first:
+      213: -8215496440588076331
+    second: turret_attack_6
+  - first:
+      213: -5231411077355852193
+    second: turret_attack_7
+  - first:
+      213: -5075566573317841997
+    second: turret_attack_8
+  - first:
+      213: 7576194071604317189
+    second: turret_attack_9
+  - first:
+      213: -6464143213574265386
+    second: turret_attack_10
+  - first:
+      213: 8264971344755457182
+    second: turret_attack_11
+  - first:
+      213: -8126527771468843635
+    second: turret_attack_12
+  - first:
+      213: 7783453554708457787
+    second: turret_attack_13
+  - first:
+      213: 1430386154931618916
+    second: turret_attack_14
+  - first:
+      213: -32236368692834351
+    second: turret_attack_15
+  - first:
+      213: -5037115303199887729
+    second: turret_attack_16
+  - first:
+      213: -7192578820737195283
+    second: turret_attack_17
+  - first:
+      213: -853683306210472977
+    second: turret_attack_18
+  - first:
+      213: 5294594707558325852
+    second: turret_attack_19
+  - first:
+      213: 5245563391613581458
+    second: turret_attack_20
+  - first:
+      213: -668718822164266680
+    second: turret_attack_21
+  - first:
+      213: -5485534747412189997
+    second: turret_attack_22
+  - first:
+      213: 5599575726852937814
+    second: turret_attack_23
+  - first:
+      213: -7601021516870253018
+    second: turret_attack_24
+  - first:
+      213: -7516113785661723598
+    second: turret_attack_25
+  - first:
+      213: -3353996374906698104
+    second: turret_attack_26
+  - first:
+      213: 8232412701076987477
+    second: turret_attack_27
+  - first:
+      213: 3209911947445524492
+    second: turret_attack_28
+  - first:
+      213: 2046034380426657049
+    second: turret_attack_29
+  - first:
+      213: -2315168737473577891
+    second: turret_attack_30
+  - first:
+      213: 1160510010292071972
+    second: turret_attack_31
+  - first:
+      213: 4095148982592888317
+    second: turret_attack_32
+  - first:
+      213: -372574669986005234
+    second: turret_attack_33
+  - first:
+      213: 1585864022752152085
+    second: turret_attack_34
+  - first:
+      213: -874706792837965673
+    second: turret_attack_35
+  - first:
+      213: -2201681439084539827
+    second: turret_attack_36
+  - first:
+      213: -177683051315185563
+    second: turret_attack_37
+  - first:
+      213: 7203056837269900791
+    second: turret_attack_38
+  - first:
+      213: 4807118869983352505
+    second: turret_attack_39
+  - first:
+      213: -613333423621923297
+    second: turret_attack_40
+  - first:
+      213: -7495977822423528614
+    second: turret_attack_41
+  - first:
+      213: 2026507735409578961
+    second: turret_attack_42
+  - first:
+      213: 5060237409182689490
+    second: turret_attack_43
+  - first:
+      213: -1614619495019687732
+    second: turret_attack_44
+  - first:
+      213: 1206875447892368278
+    second: turret_attack_45
+  - first:
+      213: -4832965887969298414
+    second: turret_attack_46
+  - first:
+      213: -8704212890558798251
+    second: turret_attack_47
+  - first:
+      213: 6394195437342281554
+    second: turret_attack_48
+  - first:
+      213: -5785686595127240472
+    second: turret_attack_49
+  - first:
+      213: -7766814693379586863
+    second: turret_attack_50
+  - first:
+      213: -3373107366308448543
+    second: turret_attack_51
+  - first:
+      213: 4807747102701796756
+    second: turret_attack_52
+  - first:
+      213: 8229677228543548482
+    second: turret_attack_53
+  - first:
+      213: 749039050823845855
+    second: turret_attack_54
+  - first:
+      213: -3613552184078045136
+    second: turret_attack_55
+  - first:
+      213: 7582530712136626933
+    second: turret_attack_56
+  - first:
+      213: -318744276537385075
+    second: turret_attack_57
+  - first:
+      213: 9028010499138969521
+    second: turret_attack_58
+  - first:
+      213: 4891235659245710412
+    second: turret_attack_59
+  - first:
+      213: 3523932812207801330
+    second: turret_attack_60
+  - first:
+      213: 2617948233071256218
+    second: turret_attack_61
+  - first:
+      213: 1453499410371768148
+    second: turret_attack_62
+  - first:
+      213: 1741625686245758496
+    second: turret_attack_63
+  - first:
+      213: 3770007258023984260
+    second: turret_attack_64
+  - first:
+      213: 479225029735770623
+    second: turret_attack_65
+  - first:
+      213: -8139240614419204586
+    second: turret_attack_66
+  - first:
+      213: 741392636096850115
+    second: turret_attack_67
+  - first:
+      213: -2224391743252265642
+    second: turret_attack_68
+  - first:
+      213: 1858771911497237151
+    second: turret_attack_69
+  - first:
+      213: -4145626058282130563
+    second: turret_attack_70
+  - first:
+      213: 6519962806400518417
+    second: turret_attack_71
+  - first:
+      213: -3345400545319946457
+    second: turret_attack_72
+  - first:
+      213: -7478938608365759690
+    second: turret_attack_73
+  - first:
+      213: 3062143962582362135
+    second: turret_attack_74
+  - first:
+      213: -2442072162121737600
+    second: turret_attack_75
+  - first:
+      213: 674631562112643420
+    second: turret_attack_76
+  - first:
+      213: -7513101275136752516
+    second: turret_attack_77
+  - first:
+      213: 7687208582397963298
+    second: turret_attack_78
+  - first:
+      213: -178338544563985674
+    second: turret_attack_79
+  - first:
+      213: -2234118755153257392
+    second: turret_attack_80
+  - first:
+      213: 5284065564502832507
+    second: turret_attack_81
+  - first:
+      213: 167661430925783883
+    second: turret_attack_82
+  - first:
+      213: -3784043387041417537
+    second: turret_attack_83
+  - first:
+      213: 371574144811469752
+    second: turret_attack_84
+  - first:
+      213: -8419489301540910582
+    second: turret_attack_85
+  - first:
+      213: -6404437101805805488
+    second: turret_attack_86
+  - first:
+      213: 2311707550564136690
+    second: turret_attack_87
+  - first:
+      213: 6424365742896871497
+    second: turret_attack_88
+  - first:
+      213: -7175699798788849142
+    second: turret_attack_89
+  - first:
+      213: 1918550654183501616
+    second: turret_attack_90
+  - first:
+      213: -3952171604772258747
+    second: turret_attack_91
+  - first:
+      213: 5594024416710642358
+    second: turret_attack_92
+  - first:
+      213: 324343352616856500
+    second: turret_attack_93
+  - first:
+      213: 8236663726790002455
+    second: turret_attack_94
+  - first:
+      213: 9072169567393439679
+    second: turret_attack_95
+  - first:
+      213: -3048931868760002579
+    second: turret_attack_96
+  - first:
+      213: 4914691506429728452
+    second: turret_attack_97
+  - first:
+      213: 9168370563979701253
+    second: turret_attack_98
+  - first:
+      213: 3834705798683876485
+    second: turret_attack_99
+  - first:
+      213: -4242632066989255572
+    second: turret_attack_100
+  - first:
+      213: 8038153072961074876
+    second: turret_attack_101
+  - first:
+      213: -8390277903294317562
+    second: turret_attack_102
+  - first:
+      213: -1396130644412752493
+    second: turret_attack_103
+  - first:
+      213: -6734256342620384310
+    second: turret_attack_104
+  - first:
+      213: -5063443348751088810
+    second: turret_attack_105
+  - first:
+      213: -8553956678453800945
+    second: turret_attack_106
+  - first:
+      213: -1443925090378850018
+    second: turret_attack_107
+  - first:
+      213: 157550119973756127
+    second: turret_attack_108
+  - first:
+      213: -2398140839636111457
+    second: turret_attack_109
+  - first:
+      213: 7621710146120543217
+    second: turret_attack_110
+  - first:
+      213: 1564073296570620504
+    second: turret_attack_111
+  - first:
+      213: -126759073485618050
+    second: turret_attack_112
+  - first:
+      213: -5502255028963314222
+    second: turret_attack_113
+  - first:
+      213: -5123491428355484459
+    second: turret_attack_114
+  - first:
+      213: 6770799557107721714
+    second: turret_attack_115
+  - first:
+      213: 4082129104449725501
+    second: turret_attack_116
+  - first:
+      213: 7851590589226863127
+    second: turret_attack_117
+  - first:
+      213: -8471095335941035086
+    second: turret_attack_118
+  - first:
+      213: 8354310666683349444
+    second: turret_attack_119
+  - first:
+      213: 8230783860423711640
+    second: turret_attack_000
+  - first:
+      213: -9169281122115904122
+    second: turret_attack_001
+  - first:
+      213: 4321175651904230320
+    second: turret_attack_002
+  - first:
+      213: 7092737861288281420
+    second: turret_attack_003
+  - first:
+      213: -1312897813672238520
+    second: turret_attack_004
+  - first:
+      213: 404412007606098850
+    second: turret_attack_005
+  - first:
+      213: 7810900482638331791
+    second: turret_attack_006
+  - first:
+      213: -443675622723975149
+    second: turret_attack_007
+  - first:
+      213: -1125927564479387626
+    second: turret_attack_008
+  - first:
+      213: -2137680220715784376
+    second: turret_attack_009
+  - first:
+      213: 7921391279653246846
+    second: turret_attack_010
+  - first:
+      213: -7969934594131136958
+    second: turret_attack_011
+  - first:
+      213: -5198735801452173796
+    second: turret_attack_012
+  - first:
+      213: 1929845775465596912
+    second: turret_attack_013
+  - first:
+      213: -6445141826872619281
+    second: turret_attack_014
+  - first:
+      213: -3485747551024626804
+    second: turret_attack_015
+  - first:
+      213: 2205759686357171706
+    second: turret_attack_016
+  - first:
+      213: -6003778037973731426
+    second: turret_attack_017
+  - first:
+      213: -4644739154210295714
+    second: turret_attack_018
+  - first:
+      213: -8301907585701550077
+    second: turret_attack_019
+  - first:
+      213: 6124077646957679187
+    second: turret_attack_020
+  - first:
+      213: 7646125172266179667
+    second: turret_attack_021
+  - first:
+      213: 5083054920588277045
+    second: turret_attack_022
+  - first:
+      213: 3822254748575114383
+    second: turret_attack_023
+  - first:
+      213: 4540006845575987203
+    second: turret_attack_024
+  - first:
+      213: -3143452848957370610
+    second: turret_attack_025
+  - first:
+      213: 3336289818231005787
+    second: turret_attack_026
+  - first:
+      213: 1237757637390269524
+    second: turret_attack_027
+  - first:
+      213: -5723474905170313831
+    second: turret_attack_028
+  - first:
+      213: -4321951224306083246
+    second: turret_attack_029
+  - first:
+      213: -5127960712784242783
+    second: turret_attack_030
+  - first:
+      213: 1986707485224305578
+    second: turret_attack_031
+  - first:
+      213: -3490634813363401192
+    second: turret_attack_032
+  - first:
+      213: 6168996509646233845
+    second: turret_attack_033
+  - first:
+      213: -5540414893671372673
+    second: turret_attack_034
+  - first:
+      213: 6363736827956363043
+    second: turret_attack_035
+  - first:
+      213: 1955178195344209731
+    second: turret_attack_036
+  - first:
+      213: -5552813595668137630
+    second: turret_attack_037
+  - first:
+      213: 90120589128933766
+    second: turret_attack_038
+  - first:
+      213: 3509009136923107763
+    second: turret_attack_039
+  - first:
+      213: 3988422987636637161
+    second: turret_attack_040
+  - first:
+      213: 6974474175808838443
+    second: turret_attack_041
+  - first:
+      213: 530575556576212910
+    second: turret_attack_042
+  - first:
+      213: 2648357400743479516
+    second: turret_attack_043
+  - first:
+      213: -3581429594056266683
+    second: turret_attack_044
+  - first:
+      213: -5887627026538961592
+    second: turret_attack_045
+  - first:
+      213: 8712885411876908298
+    second: turret_attack_046
+  - first:
+      213: -3026634902051815835
+    second: turret_attack_047
+  - first:
+      213: -8526714658285033679
+    second: turret_attack_048
+  - first:
+      213: -6950487742545669993
+    second: turret_attack_049
+  - first:
+      213: -6792235703183396512
+    second: turret_attack_050
+  - first:
+      213: 1202128140786194101
+    second: turret_attack_051
+  - first:
+      213: 6042300108770429738
+    second: turret_attack_052
+  - first:
+      213: 954869707035129240
+    second: turret_attack_053
+  - first:
+      213: 3655283431158496518
+    second: turret_attack_054
+  - first:
+      213: 8920306537874165259
+    second: turret_attack_055
+  - first:
+      213: 3948764588411929501
+    second: turret_attack_056
+  - first:
+      213: 8670733002752993885
+    second: turret_attack_057
+  - first:
+      213: -6257501681962481420
+    second: turret_attack_058
+  - first:
+      213: -9073816461222584006
+    second: turret_attack_059
+  - first:
+      213: 7869630362358239492
+    second: turret_attack_060
+  - first:
+      213: 1878044312087927552
+    second: turret_attack_061
+  - first:
+      213: -8444107094856370741
+    second: turret_attack_062
+  - first:
+      213: 3714138884878713667
+    second: turret_attack_063
+  - first:
+      213: -1874173447240739560
+    second: turret_attack_064
+  - first:
+      213: 2489679261172474705
+    second: turret_attack_065
+  - first:
+      213: -1200570311455716793
+    second: turret_attack_066
+  - first:
+      213: 3069677162522406787
+    second: turret_attack_067
+  - first:
+      213: 3829719831001591313
+    second: turret_attack_068
+  - first:
+      213: 7811404292223034590
+    second: turret_attack_069
+  - first:
+      213: 3244712167183017146
+    second: turret_attack_070
+  - first:
+      213: 5338696394956448365
+    second: turret_attack_071
+  - first:
+      213: -5085037480813218870
+    second: turret_attack_072
+  - first:
+      213: 8391691577657738922
+    second: turret_attack_073
+  - first:
+      213: -5071629260862527192
+    second: turret_attack_074
+  - first:
+      213: -7817628301682682219
+    second: turret_attack_075
+  - first:
+      213: -1819298495523521858
+    second: turret_attack_076
+  - first:
+      213: -3917773712914539059
+    second: turret_attack_077
+  - first:
+      213: -7459449957629719617
+    second: turret_attack_078
+  - first:
+      213: 932932598430586381
+    second: turret_attack_079
+  - first:
+      213: -408821813930754934
+    second: turret_attack_080
+  - first:
+      213: 8551240297644508091
+    second: turret_attack_081
+  - first:
+      213: 1131393297894375103
+    second: turret_attack_082
+  - first:
+      213: -1596958853271072586
+    second: turret_attack_083
+  - first:
+      213: 9022880155416334168
+    second: turret_attack_084
+  - first:
+      213: -6871088533241675728
+    second: turret_attack_085
+  - first:
+      213: -2445324940400309808
+    second: turret_attack_086
+  - first:
+      213: 4315733211413000574
+    second: turret_attack_087
+  - first:
+      213: -3815559392574869286
+    second: turret_attack_088
+  - first:
+      213: -4064454432705357386
+    second: turret_attack_089
+  - first:
+      213: -8023736863330796658
+    second: turret_attack_090
+  - first:
+      213: -4099241525532896919
+    second: turret_attack_091
+  - first:
+      213: -7467800124651778877
+    second: turret_attack_092
+  - first:
+      213: 9204343869395380477
+    second: turret_attack_093
+  - first:
+      213: -8075953262959814861
+    second: turret_attack_094
+  - first:
+      213: 2319235159707351015
+    second: turret_attack_095
+  - first:
+      213: -833205368597453025
+    second: turret_attack_096
+  - first:
+      213: -8564703683906217939
+    second: turret_attack_097
+  - first:
+      213: 4151610078685861140
+    second: turret_attack_098
+  - first:
+      213: -5666994900657951781
+    second: turret_attack_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: turret_attack_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89bd29fff4e993270800000000000000
+      internalID: 8230783860423711640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d169e766b20c080800000000000000
+      internalID: -9169281122115904122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b391df5c56e7fb30800000000000000
+      internalID: 4321175651904230320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c454d0381877e6260800000000000000
+      internalID: 7092737861288281420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842edadf466a7cde0800000000000000
+      internalID: -1312897813672238520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ab93480492cc9500800000000000000
+      internalID: 404412007606098850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8fb593ea94e56c60800000000000000
+      internalID: 7810900482638331791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31889003f5fb7d9f0800000000000000
+      internalID: -443675622723975149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618a26478d6ef50f0800000000000000
+      internalID: -1125927564479387626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8476bd84a2f6552e0800000000000000
+      internalID: -2137680220715784376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77db96466f6eed60800000000000000
+      internalID: 7921391279653246846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e67b196ba156190800000000000000
+      internalID: -7969934594131136958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16665925516ad7b0800000000000000
+      internalID: -5198735801452173796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f74aed028038ca10800000000000000
+      internalID: 1929845775465596912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feece3208a14e86a0800000000000000
+      internalID: -6445141826872619281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c834d74121320afc0800000000000000
+      internalID: -3485747551024626804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd32358fbe6c9e10800000000000000
+      internalID: 2205759686357171706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e97b8401fab4eaca0800000000000000
+      internalID: -6003778037973731426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5072fe19529a8fb0800000000000000
+      internalID: -4644739154210295714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30863244903b9cc80800000000000000
+      internalID: -8301907585701550077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35292d35c281df450800000000000000
+      internalID: 6124077646957679187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c1911555e7c1a60800000000000000
+      internalID: 7646125172266179667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5353773e483aa8640800000000000000
+      internalID: 5083054920588277045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84aed151706b0530800000000000000
+      internalID: 3822254748575114383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300066c0c28510f30800000000000000
+      internalID: 4540006845575987203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fc4b1e9463064d0800000000000000
+      internalID: -3143452848957370610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52696bc9e1ec4e20800000000000000
+      internalID: 3336289818231005787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c7ca663066d2110800000000000000
+      internalID: 1237757637390269524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99df574e5e12290b0800000000000000
+      internalID: -5723474905170313831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25adbaa92485504c0800000000000000
+      internalID: -4321951224306083246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a7165c96e2d5d8b0800000000000000
+      internalID: -5127960712784242783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa387698ee3329b10800000000000000
+      internalID: 1986707485224305578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81eccd4a126ce8fc0800000000000000
+      internalID: -3490634813363401192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0a61a04adac9550800000000000000
+      internalID: 6168996509646233845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f782f62320e7c13b0800000000000000
+      internalID: -5540414893671372673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ff862bde8805850800000000000000
+      internalID: 6363736827956363043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347b41ea530322b10800000000000000
+      internalID: 1955178195344209731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 269bd3e647170f2b0800000000000000
+      internalID: -5552813595668137630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 681aaf5c23c204100800000000000000
+      internalID: 90120589128933766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1e6efe73182b030800000000000000
+      internalID: 3509009136923107763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed75106399b95730800000000000000
+      internalID: 3988422987636637161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b98308f4f4ac060800000000000000
+      internalID: 6974474175808838443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7fa3858abfc5700800000000000000
+      internalID: 530575556576212910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8879d360bd0c420800000000000000
+      internalID: 2648357400743479516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c643a62c43c4ec0800000000000000
+      internalID: -3581429594056266683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845e721d962fa4ea0800000000000000
+      internalID: -5887627026538961592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0d2b978e136ae870800000000000000
+      internalID: 8712885411876908298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ef666a79b3ff5d0800000000000000
+      internalID: -3026634902051815835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137edcbd1360ba980800000000000000
+      internalID: -8526714658285033679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790dbd13938ea8f90800000000000000
+      internalID: -6950487742545669993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06137016d912db1a0800000000000000
+      internalID: -6792235703183396512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6df06cc21dea010800000000000000
+      internalID: 1202128140786194101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2bc0997fef8ad350800000000000000
+      internalID: 6042300108770429738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8953c9e70f0604d00800000000000000
+      internalID: 954869707035129240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60db2930aec2ab230800000000000000
+      internalID: 3655283431158496518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e859dc88b4bcb70800000000000000
+      internalID: 8920306537874165259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d934fe1c874dcc630800000000000000
+      internalID: 3948764588411929501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a295bf9b1a45870800000000000000
+      internalID: 8670733002752993885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f88739bf53e829a0800000000000000
+      internalID: -6257501681962481420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a316cbfe004531280800000000000000
+      internalID: -9073816461222584006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401ddf59e1b863d60800000000000000
+      internalID: 7869630362358239492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b917ef957201a10800000000000000
+      internalID: 1878044312087927552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5fab5065180da80800000000000000
+      internalID: -8444107094856370741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34349af23a54b8330800000000000000
+      internalID: 3714138884878713667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8151fb5fd299df5e0800000000000000
+      internalID: -1874173447240739560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153a7ded81e1d8220800000000000000
+      internalID: 2489679261172474705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a4dc1a9a7b65fe0800000000000000
+      internalID: -1200570311455716793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fe64f8d1fa99a20800000000000000
+      internalID: 3069677162522406787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e6e1445e5e52530800000000000000
+      internalID: 3829719831001591313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed46ae231dea76c60800000000000000
+      internalID: 7811404292223034590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab4e45b5688870d20800000000000000
+      internalID: 3244712167183017146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62a909e51cd61a40800000000000000
+      internalID: 5338696394956448365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3b4965a515e69b0800000000000000
+      internalID: -5085037480813218870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa64dee5707457470800000000000000
+      internalID: 8391691577657738922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 829efc1de04fd99b0800000000000000
+      internalID: -5071629260862527192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 596d92caa74328390800000000000000
+      internalID: -7817628301682682219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebafae948ad80c6e0800000000000000
+      internalID: -1819298495523521858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd9d5bb09541a9c0800000000000000
+      internalID: -3917773712914539059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb8daf09c5ba7890800000000000000
+      internalID: -7459449957629719617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0656d0614172fc00800000000000000
+      internalID: 932932598430586381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8cf93ce9b2935af0800000000000000
+      internalID: -408821813930754934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb34b1a8ebb1ca670800000000000000
+      internalID: 8551240297644508091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbe7046c53483bf00800000000000000
+      internalID: 1131393297894375103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0dcdd426676d9e0800000000000000
+      internalID: -1596958853271072586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f038232b5b73d70800000000000000
+      internalID: 9022880155416334168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030ced3326df4a0a0800000000000000
+      internalID: -6871088533241675728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9490f2ce5701ed0800000000000000
+      internalID: -2445324940400309808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71b0a37d7094eb30800000000000000
+      internalID: 4315733211413000574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad07b2ab2f86c0bc0800000000000000
+      internalID: -3815559392574869286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9d5d45a382897c0800000000000000
+      internalID: -4064454432705357386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bf5f995d5f5a090800000000000000
+      internalID: -8023736863330796658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961d41e1d819c17c0800000000000000
+      internalID: -4099241525532896919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc438c4a5b0d5890800000000000000
+      internalID: -7467800124651778877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df82bd58bf56cbf70800000000000000
+      internalID: 9204343869395380477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3379f9aab437cef80800000000000000
+      internalID: -8075953262959814861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7f3f407149f2020800000000000000
+      internalID: 2319235159707351015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17eccbb12cdf64f0800000000000000
+      internalID: -833205368597453025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d285a42906f042980800000000000000
+      internalID: -8564703683906217939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4159002de5b7d9930800000000000000
+      internalID: 4151610078685861140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb2552b92aca51b0800000000000000
+      internalID: -5666994900657951781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c649c6e0d942f15c0800000000000000
+      internalID: -4242632066989255572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb63f04c1a14d8f60800000000000000
+      internalID: 8038153072961074876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c355753bebf8b80800000000000000
+      internalID: -8390277903294317562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d9dbf6392ff9ce0800000000000000
+      internalID: -1396130644412752493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac3d0b7398d1b82a0800000000000000
+      internalID: -6734256342620384310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65380610a190bb9b0800000000000000
+      internalID: -5063443348751088810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f005ea4c8bd3a4980800000000000000
+      internalID: -8553956678453800945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11e1b1d7c526fbe0800000000000000
+      internalID: -1443925090378850018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc1b57dffabf2200800000000000000
+      internalID: 157550119973756127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fe12cbc9718bed0800000000000000
+      internalID: -2398140839636111457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb61801ff0c5c960800000000000000
+      internalID: 7621710146120543217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a14cc5064b4b510800000000000000
+      internalID: 1564073296570620504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7405d45b49ad3ef0800000000000000
+      internalID: -126759073485618050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5f80f043014a3b0800000000000000
+      internalID: -5502255028963314222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4dc1bf0b3b5e8b0800000000000000
+      internalID: -5123491428355484459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f527cee256b6fd50800000000000000
+      internalID: 6770799557107721714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34620edac2a6a830800000000000000
+      internalID: 4082129104449725501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71acaa89a0476fc60800000000000000
+      internalID: 7851590589226863127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb24ca7caf907a80800000000000000
+      internalID: -8471095335941035086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: turret_attack_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9faeec94970f370800000000000000
+      internalID: 8354310666683349444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      turret_attack_0: -337759828827070030
+      turret_attack_000: 8230783860423711640
+      turret_attack_001: -9169281122115904122
+      turret_attack_002: 4321175651904230320
+      turret_attack_003: 7092737861288281420
+      turret_attack_004: -1312897813672238520
+      turret_attack_005: 404412007606098850
+      turret_attack_006: 7810900482638331791
+      turret_attack_007: -443675622723975149
+      turret_attack_008: -1125927564479387626
+      turret_attack_009: -2137680220715784376
+      turret_attack_010: 7921391279653246846
+      turret_attack_011: -7969934594131136958
+      turret_attack_012: -5198735801452173796
+      turret_attack_013: 1929845775465596912
+      turret_attack_014: -6445141826872619281
+      turret_attack_015: -3485747551024626804
+      turret_attack_016: 2205759686357171706
+      turret_attack_017: -6003778037973731426
+      turret_attack_018: -4644739154210295714
+      turret_attack_019: -8301907585701550077
+      turret_attack_020: 6124077646957679187
+      turret_attack_021: 7646125172266179667
+      turret_attack_022: 5083054920588277045
+      turret_attack_023: 3822254748575114383
+      turret_attack_024: 4540006845575987203
+      turret_attack_025: -3143452848957370610
+      turret_attack_026: 3336289818231005787
+      turret_attack_027: 1237757637390269524
+      turret_attack_028: -5723474905170313831
+      turret_attack_029: -4321951224306083246
+      turret_attack_030: -5127960712784242783
+      turret_attack_031: 1986707485224305578
+      turret_attack_032: -3490634813363401192
+      turret_attack_033: 6168996509646233845
+      turret_attack_034: -5540414893671372673
+      turret_attack_035: 6363736827956363043
+      turret_attack_036: 1955178195344209731
+      turret_attack_037: -5552813595668137630
+      turret_attack_038: 90120589128933766
+      turret_attack_039: 3509009136923107763
+      turret_attack_040: 3988422987636637161
+      turret_attack_041: 6974474175808838443
+      turret_attack_042: 530575556576212910
+      turret_attack_043: 2648357400743479516
+      turret_attack_044: -3581429594056266683
+      turret_attack_045: -5887627026538961592
+      turret_attack_046: 8712885411876908298
+      turret_attack_047: -3026634902051815835
+      turret_attack_048: -8526714658285033679
+      turret_attack_049: -6950487742545669993
+      turret_attack_050: -6792235703183396512
+      turret_attack_051: 1202128140786194101
+      turret_attack_052: 6042300108770429738
+      turret_attack_053: 954869707035129240
+      turret_attack_054: 3655283431158496518
+      turret_attack_055: 8920306537874165259
+      turret_attack_056: 3948764588411929501
+      turret_attack_057: 8670733002752993885
+      turret_attack_058: -6257501681962481420
+      turret_attack_059: -9073816461222584006
+      turret_attack_060: 7869630362358239492
+      turret_attack_061: 1878044312087927552
+      turret_attack_062: -8444107094856370741
+      turret_attack_063: 3714138884878713667
+      turret_attack_064: -1874173447240739560
+      turret_attack_065: 2489679261172474705
+      turret_attack_066: -1200570311455716793
+      turret_attack_067: 3069677162522406787
+      turret_attack_068: 3829719831001591313
+      turret_attack_069: 7811404292223034590
+      turret_attack_070: 3244712167183017146
+      turret_attack_071: 5338696394956448365
+      turret_attack_072: -5085037480813218870
+      turret_attack_073: 8391691577657738922
+      turret_attack_074: -5071629260862527192
+      turret_attack_075: -7817628301682682219
+      turret_attack_076: -1819298495523521858
+      turret_attack_077: -3917773712914539059
+      turret_attack_078: -7459449957629719617
+      turret_attack_079: 932932598430586381
+      turret_attack_080: -408821813930754934
+      turret_attack_081: 8551240297644508091
+      turret_attack_082: 1131393297894375103
+      turret_attack_083: -1596958853271072586
+      turret_attack_084: 9022880155416334168
+      turret_attack_085: -6871088533241675728
+      turret_attack_086: -2445324940400309808
+      turret_attack_087: 4315733211413000574
+      turret_attack_088: -3815559392574869286
+      turret_attack_089: -4064454432705357386
+      turret_attack_090: -8023736863330796658
+      turret_attack_091: -4099241525532896919
+      turret_attack_092: -7467800124651778877
+      turret_attack_093: 9204343869395380477
+      turret_attack_094: -8075953262959814861
+      turret_attack_095: 2319235159707351015
+      turret_attack_096: -833205368597453025
+      turret_attack_097: -8564703683906217939
+      turret_attack_098: 4151610078685861140
+      turret_attack_099: -5666994900657951781
+      turret_attack_1: 4862874857439475389
+      turret_attack_10: -6464143213574265386
+      turret_attack_100: -4242632066989255572
+      turret_attack_101: 8038153072961074876
+      turret_attack_102: -8390277903294317562
+      turret_attack_103: -1396130644412752493
+      turret_attack_104: -6734256342620384310
+      turret_attack_105: -5063443348751088810
+      turret_attack_106: -8553956678453800945
+      turret_attack_107: -1443925090378850018
+      turret_attack_108: 157550119973756127
+      turret_attack_109: -2398140839636111457
+      turret_attack_11: 8264971344755457182
+      turret_attack_110: 7621710146120543217
+      turret_attack_111: 1564073296570620504
+      turret_attack_112: -126759073485618050
+      turret_attack_113: -5502255028963314222
+      turret_attack_114: -5123491428355484459
+      turret_attack_115: 6770799557107721714
+      turret_attack_116: 4082129104449725501
+      turret_attack_117: 7851590589226863127
+      turret_attack_118: -8471095335941035086
+      turret_attack_119: 8354310666683349444
+      turret_attack_12: -8126527771468843635
+      turret_attack_13: 7783453554708457787
+      turret_attack_14: 1430386154931618916
+      turret_attack_15: -32236368692834351
+      turret_attack_16: -5037115303199887729
+      turret_attack_17: -7192578820737195283
+      turret_attack_18: -853683306210472977
+      turret_attack_19: 5294594707558325852
+      turret_attack_2: 7096665175751012427
+      turret_attack_20: 5245563391613581458
+      turret_attack_21: -668718822164266680
+      turret_attack_22: -5485534747412189997
+      turret_attack_23: 5599575726852937814
+      turret_attack_24: -7601021516870253018
+      turret_attack_25: -7516113785661723598
+      turret_attack_26: -3353996374906698104
+      turret_attack_27: 8232412701076987477
+      turret_attack_28: 3209911947445524492
+      turret_attack_29: 2046034380426657049
+      turret_attack_3: 6750867341144097366
+      turret_attack_30: -2315168737473577891
+      turret_attack_31: 1160510010292071972
+      turret_attack_32: 4095148982592888317
+      turret_attack_33: -372574669986005234
+      turret_attack_34: 1585864022752152085
+      turret_attack_35: -874706792837965673
+      turret_attack_36: -2201681439084539827
+      turret_attack_37: -177683051315185563
+      turret_attack_38: 7203056837269900791
+      turret_attack_39: 4807118869983352505
+      turret_attack_4: 7461172783439652565
+      turret_attack_40: -613333423621923297
+      turret_attack_41: -7495977822423528614
+      turret_attack_42: 2026507735409578961
+      turret_attack_43: 5060237409182689490
+      turret_attack_44: -1614619495019687732
+      turret_attack_45: 1206875447892368278
+      turret_attack_46: -4832965887969298414
+      turret_attack_47: -8704212890558798251
+      turret_attack_48: 6394195437342281554
+      turret_attack_49: -5785686595127240472
+      turret_attack_5: 4996545853993304038
+      turret_attack_50: -7766814693379586863
+      turret_attack_51: -3373107366308448543
+      turret_attack_52: 4807747102701796756
+      turret_attack_53: 8229677228543548482
+      turret_attack_54: 749039050823845855
+      turret_attack_55: -3613552184078045136
+      turret_attack_56: 7582530712136626933
+      turret_attack_57: -318744276537385075
+      turret_attack_58: 9028010499138969521
+      turret_attack_59: 4891235659245710412
+      turret_attack_6: -8215496440588076331
+      turret_attack_60: 3523932812207801330
+      turret_attack_61: 2617948233071256218
+      turret_attack_62: 1453499410371768148
+      turret_attack_63: 1741625686245758496
+      turret_attack_64: 3770007258023984260
+      turret_attack_65: 479225029735770623
+      turret_attack_66: -8139240614419204586
+      turret_attack_67: 741392636096850115
+      turret_attack_68: -2224391743252265642
+      turret_attack_69: 1858771911497237151
+      turret_attack_7: -5231411077355852193
+      turret_attack_70: -4145626058282130563
+      turret_attack_71: 6519962806400518417
+      turret_attack_72: -3345400545319946457
+      turret_attack_73: -7478938608365759690
+      turret_attack_74: 3062143962582362135
+      turret_attack_75: -2442072162121737600
+      turret_attack_76: 674631562112643420
+      turret_attack_77: -7513101275136752516
+      turret_attack_78: 7687208582397963298
+      turret_attack_79: -178338544563985674
+      turret_attack_8: -5075566573317841997
+      turret_attack_80: -2234118755153257392
+      turret_attack_81: 5284065564502832507
+      turret_attack_82: 167661430925783883
+      turret_attack_83: -3784043387041417537
+      turret_attack_84: 371574144811469752
+      turret_attack_85: -8419489301540910582
+      turret_attack_86: -6404437101805805488
+      turret_attack_87: 2311707550564136690
+      turret_attack_88: 6424365742896871497
+      turret_attack_89: -7175699798788849142
+      turret_attack_9: 7576194071604317189
+      turret_attack_90: 1918550654183501616
+      turret_attack_91: -3952171604772258747
+      turret_attack_92: 5594024416710642358
+      turret_attack_93: 324343352616856500
+      turret_attack_94: 8236663726790002455
+      turret_attack_95: 9072169567393439679
+      turret_attack_96: -3048931868760002579
+      turret_attack_97: 4914691506429728452
+      turret_attack_98: 9168370563979701253
+      turret_attack_99: 3834705798683876485
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 89a1ba88ed1e79c4fb7f7cbd0c8fdbd5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8343477599452243904
+    second: daisy_idle_0
+  - first:
+      213: 8501571511618873645
+    second: daisy_idle_1
+  - first:
+      213: 1118699866218785515
+    second: daisy_idle_2
+  - first:
+      213: -6645180434351316861
+    second: daisy_idle_3
+  - first:
+      213: 4054149677225024641
+    second: daisy_idle_4
+  - first:
+      213: 5418621973027894371
+    second: daisy_idle_5
+  - first:
+      213: 7652447027551177954
+    second: daisy_idle_6
+  - first:
+      213: 2293519684930746201
+    second: daisy_idle_7
+  - first:
+      213: 2464257523907345703
+    second: daisy_idle_8
+  - first:
+      213: -4895771109403714020
+    second: daisy_idle_9
+  - first:
+      213: 3816054129410483562
+    second: daisy_idle_10
+  - first:
+      213: -720797516536600800
+    second: daisy_idle_11
+  - first:
+      213: -2749418173943993809
+    second: daisy_idle_12
+  - first:
+      213: 2185828911652491693
+    second: daisy_idle_13
+  - first:
+      213: 380498651516796628
+    second: daisy_idle_14
+  - first:
+      213: 847591601968138886
+    second: daisy_idle_15
+  - first:
+      213: -5721825653393456589
+    second: daisy_idle_16
+  - first:
+      213: -690380948327494810
+    second: daisy_idle_17
+  - first:
+      213: -8155262830982043811
+    second: daisy_idle_18
+  - first:
+      213: 3773681094588173749
+    second: daisy_idle_19
+  - first:
+      213: 909000214999245590
+    second: daisy_idle_20
+  - first:
+      213: 8691457266594448
+    second: daisy_idle_21
+  - first:
+      213: -749034453310736397
+    second: daisy_idle_22
+  - first:
+      213: 7352849571956841721
+    second: daisy_idle_23
+  - first:
+      213: -1934286252682986826
+    second: daisy_idle_24
+  - first:
+      213: 8550597461462167283
+    second: daisy_idle_25
+  - first:
+      213: -5612695893273643717
+    second: daisy_idle_26
+  - first:
+      213: 8224015995569638018
+    second: daisy_idle_27
+  - first:
+      213: 5041751089258349998
+    second: daisy_idle_28
+  - first:
+      213: 377793271823411313
+    second: daisy_idle_29
+  - first:
+      213: 6239984728632505496
+    second: daisy_idle_30
+  - first:
+      213: -3290341313456762439
+    second: daisy_idle_31
+  - first:
+      213: -1965409746165164547
+    second: daisy_idle_32
+  - first:
+      213: -3179779940159922198
+    second: daisy_idle_33
+  - first:
+      213: -2316352484032799187
+    second: daisy_idle_34
+  - first:
+      213: 5459379050572553252
+    second: daisy_idle_35
+  - first:
+      213: 5303864909683486314
+    second: daisy_idle_36
+  - first:
+      213: 7013179415159919709
+    second: daisy_idle_37
+  - first:
+      213: -1564589042908811631
+    second: daisy_idle_38
+  - first:
+      213: 8967181891297129246
+    second: daisy_idle_39
+  - first:
+      213: 4074879291243117703
+    second: daisy_idle_40
+  - first:
+      213: 1741403704989740200
+    second: daisy_idle_41
+  - first:
+      213: -5746766561273572250
+    second: daisy_idle_42
+  - first:
+      213: 6904514154610619037
+    second: daisy_idle_43
+  - first:
+      213: -2335174548549636042
+    second: daisy_idle_44
+  - first:
+      213: -3538166635085926956
+    second: daisy_idle_45
+  - first:
+      213: -7575228228366784571
+    second: daisy_idle_46
+  - first:
+      213: 2443544964702026129
+    second: daisy_idle_47
+  - first:
+      213: -6938514188885031319
+    second: daisy_idle_48
+  - first:
+      213: -7504550103965405663
+    second: daisy_idle_49
+  - first:
+      213: 248881927487522619
+    second: daisy_idle_50
+  - first:
+      213: 3024261895346776845
+    second: daisy_idle_51
+  - first:
+      213: 7092862063698090042
+    second: daisy_idle_52
+  - first:
+      213: -8372744572160515007
+    second: daisy_idle_53
+  - first:
+      213: 6471999473119498653
+    second: daisy_idle_54
+  - first:
+      213: -2999044697366953838
+    second: daisy_idle_55
+  - first:
+      213: 9130499002463114467
+    second: daisy_idle_56
+  - first:
+      213: -6654948529123792877
+    second: daisy_idle_57
+  - first:
+      213: 8857927658795333729
+    second: daisy_idle_58
+  - first:
+      213: -5090869121678498401
+    second: daisy_idle_59
+  - first:
+      213: -8994141225919305682
+    second: daisy_idle_60
+  - first:
+      213: -2892133110612153475
+    second: daisy_idle_61
+  - first:
+      213: 1058000452671754004
+    second: daisy_idle_62
+  - first:
+      213: 8729567767236381799
+    second: daisy_idle_63
+  - first:
+      213: 55041660173621365
+    second: daisy_idle_64
+  - first:
+      213: -4599794098520164988
+    second: daisy_idle_65
+  - first:
+      213: -5499002661137957285
+    second: daisy_idle_66
+  - first:
+      213: -4286710247322446547
+    second: daisy_idle_67
+  - first:
+      213: -9120361125449999342
+    second: daisy_idle_68
+  - first:
+      213: -5861296219352944457
+    second: daisy_idle_69
+  - first:
+      213: 7678347643579080519
+    second: daisy_idle_70
+  - first:
+      213: 5956108653638543003
+    second: daisy_idle_71
+  - first:
+      213: 112247303597609173
+    second: daisy_idle_72
+  - first:
+      213: -3859906297797458491
+    second: daisy_idle_73
+  - first:
+      213: 7813033675048975284
+    second: daisy_idle_74
+  - first:
+      213: 3990900887514885751
+    second: daisy_idle_75
+  - first:
+      213: 3003760175597538576
+    second: daisy_idle_76
+  - first:
+      213: -7154865939531689388
+    second: daisy_idle_77
+  - first:
+      213: 1407185918704820855
+    second: daisy_idle_78
+  - first:
+      213: -2290518144508902369
+    second: daisy_idle_79
+  - first:
+      213: 5055634152340651318
+    second: daisy_idle_80
+  - first:
+      213: 1719585108275847549
+    second: daisy_idle_81
+  - first:
+      213: 6441753921336568808
+    second: daisy_idle_82
+  - first:
+      213: 6265824751971632922
+    second: daisy_idle_83
+  - first:
+      213: 3707118796024384286
+    second: daisy_idle_84
+  - first:
+      213: 8850225967989914448
+    second: daisy_idle_85
+  - first:
+      213: 1001067344325395858
+    second: daisy_idle_86
+  - first:
+      213: 4617942287828514039
+    second: daisy_idle_87
+  - first:
+      213: 8027980686382788532
+    second: daisy_idle_88
+  - first:
+      213: 6047536173805234591
+    second: daisy_idle_89
+  - first:
+      213: -4196230248227627916
+    second: daisy_idle_90
+  - first:
+      213: -5906690357008126639
+    second: daisy_idle_91
+  - first:
+      213: -4218074106833739199
+    second: daisy_idle_92
+  - first:
+      213: -5868236928391119834
+    second: daisy_idle_93
+  - first:
+      213: -4380816651567019838
+    second: daisy_idle_94
+  - first:
+      213: -8220862758227913268
+    second: daisy_idle_95
+  - first:
+      213: 8113550434762206293
+    second: daisy_idle_96
+  - first:
+      213: 8077459775882615120
+    second: daisy_idle_97
+  - first:
+      213: 1996575386879536217
+    second: daisy_idle_98
+  - first:
+      213: -7330531439046055933
+    second: daisy_idle_99
+  - first:
+      213: 8598872645845832315
+    second: daisy_idle_100
+  - first:
+      213: 3813224879438400256
+    second: daisy_idle_101
+  - first:
+      213: 7326208625967908144
+    second: daisy_idle_102
+  - first:
+      213: 979869485174310595
+    second: daisy_idle_103
+  - first:
+      213: 155660307358005297
+    second: daisy_idle_104
+  - first:
+      213: -8075098438447871028
+    second: daisy_idle_105
+  - first:
+      213: 2994104749407690845
+    second: daisy_idle_106
+  - first:
+      213: -8813706095397274606
+    second: daisy_idle_107
+  - first:
+      213: 9015371513768147771
+    second: daisy_idle_108
+  - first:
+      213: -4794607615564250702
+    second: daisy_idle_109
+  - first:
+      213: 5881340393873547978
+    second: daisy_idle_110
+  - first:
+      213: 6038726763829413252
+    second: daisy_idle_111
+  - first:
+      213: -4904095116619126662
+    second: daisy_idle_112
+  - first:
+      213: 6068173851777219558
+    second: daisy_idle_113
+  - first:
+      213: 122614581324301502
+    second: daisy_idle_114
+  - first:
+      213: -4248904777141101123
+    second: daisy_idle_115
+  - first:
+      213: -3010036287168346203
+    second: daisy_idle_116
+  - first:
+      213: 8345563976360795457
+    second: daisy_idle_117
+  - first:
+      213: -8568005622390371591
+    second: daisy_idle_118
+  - first:
+      213: -181168112964526173
+    second: daisy_idle_119
+  - first:
+      213: -9041910402747864123
+    second: daisy_idle_000
+  - first:
+      213: -759102396738033122
+    second: daisy_idle_001
+  - first:
+      213: 6751170360134466105
+    second: daisy_idle_002
+  - first:
+      213: 8676019484248712627
+    second: daisy_idle_003
+  - first:
+      213: 8962762958585767695
+    second: daisy_idle_004
+  - first:
+      213: 2231180855788877370
+    second: daisy_idle_005
+  - first:
+      213: -6664763208952738756
+    second: daisy_idle_006
+  - first:
+      213: -263053039464354722
+    second: daisy_idle_007
+  - first:
+      213: -8819040326559430086
+    second: daisy_idle_008
+  - first:
+      213: 5985125170461590209
+    second: daisy_idle_009
+  - first:
+      213: -2715677700207722227
+    second: daisy_idle_010
+  - first:
+      213: -1806015950078036285
+    second: daisy_idle_011
+  - first:
+      213: 8641326126261250618
+    second: daisy_idle_012
+  - first:
+      213: 1159813362407954134
+    second: daisy_idle_013
+  - first:
+      213: 6189094122646799323
+    second: daisy_idle_014
+  - first:
+      213: 3840540901702908340
+    second: daisy_idle_015
+  - first:
+      213: -9086303569692004011
+    second: daisy_idle_016
+  - first:
+      213: -8573788504219141072
+    second: daisy_idle_017
+  - first:
+      213: -4455572617883752265
+    second: daisy_idle_018
+  - first:
+      213: 1907994489683559674
+    second: daisy_idle_019
+  - first:
+      213: 262520229979317299
+    second: daisy_idle_020
+  - first:
+      213: -7508983182644845202
+    second: daisy_idle_021
+  - first:
+      213: 8132307936524210338
+    second: daisy_idle_022
+  - first:
+      213: -2143024642985085811
+    second: daisy_idle_023
+  - first:
+      213: -4612115869914315346
+    second: daisy_idle_024
+  - first:
+      213: 6275645706632360313
+    second: daisy_idle_025
+  - first:
+      213: 2075051848405435778
+    second: daisy_idle_026
+  - first:
+      213: 3867649138089368739
+    second: daisy_idle_027
+  - first:
+      213: 7901947741063063780
+    second: daisy_idle_028
+  - first:
+      213: -285647020438750750
+    second: daisy_idle_029
+  - first:
+      213: 3911780102824683870
+    second: daisy_idle_030
+  - first:
+      213: -7430831874685531632
+    second: daisy_idle_031
+  - first:
+      213: 8160838338632950989
+    second: daisy_idle_032
+  - first:
+      213: 674355289043212388
+    second: daisy_idle_033
+  - first:
+      213: -6249672830168258492
+    second: daisy_idle_034
+  - first:
+      213: 8961631859098211871
+    second: daisy_idle_035
+  - first:
+      213: -8698064705095931814
+    second: daisy_idle_036
+  - first:
+      213: -4883131340906012195
+    second: daisy_idle_037
+  - first:
+      213: -22358302105634746
+    second: daisy_idle_038
+  - first:
+      213: 2401318365468490879
+    second: daisy_idle_039
+  - first:
+      213: -754008984726277101
+    second: daisy_idle_040
+  - first:
+      213: -5614483905560895250
+    second: daisy_idle_041
+  - first:
+      213: -8156921020313293484
+    second: daisy_idle_042
+  - first:
+      213: -4955988553787709560
+    second: daisy_idle_043
+  - first:
+      213: -7118773975638918964
+    second: daisy_idle_044
+  - first:
+      213: 6110696611688196661
+    second: daisy_idle_045
+  - first:
+      213: -2725098239763344526
+    second: daisy_idle_046
+  - first:
+      213: -5412545584371509159
+    second: daisy_idle_047
+  - first:
+      213: -284268009628899097
+    second: daisy_idle_048
+  - first:
+      213: 7052901250619737735
+    second: daisy_idle_049
+  - first:
+      213: -6385808546069279782
+    second: daisy_idle_050
+  - first:
+      213: -1851399306412988764
+    second: daisy_idle_051
+  - first:
+      213: -4247800229072836246
+    second: daisy_idle_052
+  - first:
+      213: 7025791259007423552
+    second: daisy_idle_053
+  - first:
+      213: 2862548680279232187
+    second: daisy_idle_054
+  - first:
+      213: 114212206824285842
+    second: daisy_idle_055
+  - first:
+      213: 5070701982069058795
+    second: daisy_idle_056
+  - first:
+      213: -5452424360733166787
+    second: daisy_idle_057
+  - first:
+      213: 3506408351353273757
+    second: daisy_idle_058
+  - first:
+      213: -5299192719322403707
+    second: daisy_idle_059
+  - first:
+      213: 6394722597435673581
+    second: daisy_idle_060
+  - first:
+      213: 1151588140498129948
+    second: daisy_idle_061
+  - first:
+      213: 7609848816693153710
+    second: daisy_idle_062
+  - first:
+      213: -380347679548273206
+    second: daisy_idle_063
+  - first:
+      213: 8361989301300616876
+    second: daisy_idle_064
+  - first:
+      213: -4513616549821833788
+    second: daisy_idle_065
+  - first:
+      213: 4593112265444836257
+    second: daisy_idle_066
+  - first:
+      213: 953360654769717716
+    second: daisy_idle_067
+  - first:
+      213: -7203747307338148567
+    second: daisy_idle_068
+  - first:
+      213: -5227091802528741286
+    second: daisy_idle_069
+  - first:
+      213: -4206479230013955806
+    second: daisy_idle_070
+  - first:
+      213: -8381705101119654717
+    second: daisy_idle_071
+  - first:
+      213: -7143970553796300233
+    second: daisy_idle_072
+  - first:
+      213: 7868182567284231554
+    second: daisy_idle_073
+  - first:
+      213: -6490236889227423816
+    second: daisy_idle_074
+  - first:
+      213: 52324385464625783
+    second: daisy_idle_075
+  - first:
+      213: 8893239997453537080
+    second: daisy_idle_076
+  - first:
+      213: 2351297483887828265
+    second: daisy_idle_077
+  - first:
+      213: -163379901842402469
+    second: daisy_idle_078
+  - first:
+      213: -7629296094604830547
+    second: daisy_idle_079
+  - first:
+      213: 8795151425090475711
+    second: daisy_idle_080
+  - first:
+      213: 6055707412407230566
+    second: daisy_idle_081
+  - first:
+      213: -5511705225699731523
+    second: daisy_idle_082
+  - first:
+      213: 5922638099766144182
+    second: daisy_idle_083
+  - first:
+      213: 4441028880671154497
+    second: daisy_idle_084
+  - first:
+      213: -1656445689595497769
+    second: daisy_idle_085
+  - first:
+      213: 7592324909558275235
+    second: daisy_idle_086
+  - first:
+      213: -2604450083174356298
+    second: daisy_idle_087
+  - first:
+      213: 5641798777396067795
+    second: daisy_idle_088
+  - first:
+      213: -8650754183858930365
+    second: daisy_idle_089
+  - first:
+      213: -3848820306148936514
+    second: daisy_idle_090
+  - first:
+      213: -3705784200350470990
+    second: daisy_idle_091
+  - first:
+      213: 9181835366604967766
+    second: daisy_idle_092
+  - first:
+      213: -4728172916692491977
+    second: daisy_idle_093
+  - first:
+      213: -1991533224882069262
+    second: daisy_idle_094
+  - first:
+      213: 5196136694235648361
+    second: daisy_idle_095
+  - first:
+      213: 6430391145086998800
+    second: daisy_idle_096
+  - first:
+      213: 4666096047001460790
+    second: daisy_idle_097
+  - first:
+      213: -2076036491265206808
+    second: daisy_idle_098
+  - first:
+      213: 3553312615615854937
+    second: daisy_idle_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: daisy_idle_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbed41156ea48280800000000000000
+      internalID: -9041910402747864123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a284e54602775f0800000000000000
+      internalID: -759102396738033122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93af5fd5ca9f0bd50800000000000000
+      internalID: 6751170360134466105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5230fd0c9676870800000000000000
+      internalID: 8676019484248712627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07a8809c61226c70800000000000000
+      internalID: 8962762958585767695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36b2f2ca2fb6fe10800000000000000
+      internalID: 2231180855788877370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c87424c210283a0800000000000000
+      internalID: -6664763208952738756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ce3a187a2795cf0800000000000000
+      internalID: -263053039464354722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a849b5c897c9580800000000000000
+      internalID: -8819040326559430086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2cc99c1af6f0350800000000000000
+      internalID: 5985125170461590209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d014baa1589ff4ad0800000000000000
+      internalID: -2715677700207722227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6b8e4ef0ebfe6e0800000000000000
+      internalID: -1806015950078036285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3aaa1004582ce770800000000000000
+      internalID: 8641326126261250618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6d310bb1c781010800000000000000
+      internalID: 1159813362407954134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd302d5305414e550800000000000000
+      internalID: 6189094122646799323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b93c5f1a975c4530800000000000000
+      internalID: 3840540901702908340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 551f42f6b07f6e180800000000000000
+      internalID: -9086303569692004011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03cb0b208c8c30980800000000000000
+      internalID: -8573788504219141072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8e4188f40aa22c0800000000000000
+      internalID: -4455572617883752265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4cdfe11ee8a7a10800000000000000
+      internalID: 1907994489683559674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334654e12c8a4a300800000000000000
+      internalID: 262520229979317299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e656216649bbac790800000000000000
+      internalID: -7508983182644845202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a09d904bf2cbd070800000000000000
+      internalID: 8132307936524210338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8437f101727242e0800000000000000
+      internalID: -2143024642985085811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5c0d66d097effb0800000000000000
+      internalID: -4612115869914315346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971f6083582971750800000000000000
+      internalID: 6275645706632360313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28549ba79a01ccc10800000000000000
+      internalID: 2075051848405435778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac99af3666aca530800000000000000
+      internalID: 3867649138089368739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8a3cbaa9b59ad60800000000000000
+      internalID: 7901947741063063780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9799f5c8d290cf0800000000000000
+      internalID: -285647020438750750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e596e4c274f694630800000000000000
+      internalID: 3911780102824683870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a08bbb7c160e890800000000000000
+      internalID: -7430831874685531632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc42b932b3f114170800000000000000
+      internalID: 8160838338632950989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46893dfff8acb5900800000000000000
+      internalID: 674355289043212388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44829635ca3b449a0800000000000000
+      internalID: -6249672830168258492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f165f51f1bc1e5c70800000000000000
+      internalID: 8961631859098211871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58e46b2c344a4780800000000000000
+      internalID: -8698064705095931814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd168b9dae1ab3cb0800000000000000
+      internalID: -4883131340906012195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64876312e3190bff0800000000000000
+      internalID: -22358302105634746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7cfe56a452335120800000000000000
+      internalID: 2401318365468490879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314ffe3c2d83985f0800000000000000
+      internalID: -754008984726277101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee025eb72a85512b0800000000000000
+      internalID: -5614483905560895250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d2f4b9c8bccce80800000000000000
+      internalID: -8156921020313293484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887e4941baac83bb0800000000000000
+      internalID: -4955988553787709560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc83fb939c8053d90800000000000000
+      internalID: -7118773975638918964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53aabd5413e8dc450800000000000000
+      internalID: 6110696611688196661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2731dd0d6918e2ad0800000000000000
+      internalID: -2725098239763344526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9585de8c776c2e4b0800000000000000
+      internalID: -5412545584371509159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8ef0950c31e0cf0800000000000000
+      internalID: -284268009628899097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786091fc150f0e160800000000000000
+      internalID: 7052901250619737735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb03e7f5fc0167a0800000000000000
+      internalID: -6385808546069279782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a669d3d3228e46e0800000000000000
+      internalID: -1851399306412988764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a696a4d8238cc05c0800000000000000
+      internalID: -4247800229072836246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0449e230def908160800000000000000
+      internalID: 7025791259007423552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe8e48bbd0d9b720800000000000000
+      internalID: 2862548680279232187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29666c0a563c59100800000000000000
+      internalID: 114212206824285842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec68134690ce5640800000000000000
+      internalID: 5070701982069058795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3330dd9ee81554b0800000000000000
+      internalID: -5452424360733166787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dffdb51d349a030800000000000000
+      internalID: 3506408351353273757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ca3705c4c7576b0800000000000000
+      internalID: -5299192719322403707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb0159525e9eb850800000000000000
+      internalID: 6394722597435673581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1491f9ff434bff00800000000000000
+      internalID: 1151588140498129948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf0c691e2d9b9960800000000000000
+      internalID: 7609848816693153710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acd8165fccbb8baf0800000000000000
+      internalID: -380347679548273206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caed3af37f0cb0470800000000000000
+      internalID: 8361989301300616876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd9b8f79a96c51c0800000000000000
+      internalID: -4513616549821833788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a3445325430ebf30800000000000000
+      internalID: 4593112265444836257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d10262e6740b3d00800000000000000
+      internalID: 953360654769717716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925de66bdf5270c90800000000000000
+      internalID: -7203747307338148567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a580bed23b3a577b0800000000000000
+      internalID: -5227091802528741286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221a5fb5d659f95c0800000000000000
+      internalID: -4206479230013955806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4fea36e933eab80800000000000000
+      internalID: -8381705101119654717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732fe17b1a48bdc90800000000000000
+      internalID: -7143970553796300233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28dc5e68b56613d60800000000000000
+      internalID: 7868182567284231554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bf867d9feb0ee5a0800000000000000
+      internalID: -6490236889227423816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77aa5b850c4e9b000800000000000000
+      internalID: 52324385464625783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f8386c8a22b6b70800000000000000
+      internalID: 8893239997453537080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d57689a9c71a020800000000000000
+      internalID: 2351297483887828265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53de3b48de8bbdf0800000000000000
+      internalID: -163379901842402469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da8ddcaaf9b4f1690800000000000000
+      internalID: -7629296094604830547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6d9465f97ae0a70800000000000000
+      internalID: 8795151425090475711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660ab3c9ec13a0450800000000000000
+      internalID: 6055707412407230566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7d08bac4d7283b0800000000000000
+      internalID: -5511705225699731523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc61c5e8ff613250800000000000000
+      internalID: 5922638099766144182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141a7a5cc34b1ad30800000000000000
+      internalID: 4441028880671154497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2fee9eb6f1309e0800000000000000
+      internalID: -1656445689595497769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac1295874b5d5960800000000000000
+      internalID: 7592324909558275235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bae725c2722bdbd0800000000000000
+      internalID: -2604450083174356298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ddfce4b812bb4e40800000000000000
+      internalID: 5641798777396067795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d3dd747e852f780800000000000000
+      internalID: -8650754183858930365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4beafc25e369ac0800000000000000
+      internalID: -3848820306148936514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bcead367e8629cc0800000000000000
+      internalID: -3705784200350470990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f8b945e9e6c6f70800000000000000
+      internalID: 9181835366604967766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731ebef78c7226eb0800000000000000
+      internalID: -4728172916692491977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f024846517ac54e0800000000000000
+      internalID: -1991533224882069262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961d9480bc26c1840800000000000000
+      internalID: 5196136694235648361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0195ab14da65d3950800000000000000
+      internalID: 6430391145086998800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6306069f1ad41c040800000000000000
+      internalID: 4666096047001460790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e5936d7fcf6033e0800000000000000
+      internalID: -2076036491265206808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95972b56ff6ef4130800000000000000
+      internalID: 3553312615615854937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b72d674dc15555770800000000000000
+      internalID: 8598872645845832315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b8b9313db4be430800000000000000
+      internalID: 3813224879438400256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035483dedebeba560800000000000000
+      internalID: 7326208625967908144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c64f0eea12399d00800000000000000
+      internalID: 979869485174310595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138b3bd8934092200800000000000000
+      internalID: 155660307358005297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbc00201cc7fef80800000000000000
+      internalID: -8075098438447871028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5061c8f7623d8920800000000000000
+      internalID: 2994104749407690845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c7625d00d6fa580800000000000000
+      internalID: -8813706095397274606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3b735450a80d1d70800000000000000
+      internalID: 9015371513768147771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b109ecc6c1267db0800000000000000
+      internalID: -4794607615564250702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac22df37de7be9150800000000000000
+      internalID: 5881340393873547978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48542b54ffdddc350800000000000000
+      internalID: 6038726763829413252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a786035797721fbb0800000000000000
+      internalID: -4904095116619126662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ebbe76b7fb763450800000000000000
+      internalID: 6068173851777219558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb44e14ef4d93b100800000000000000
+      internalID: 122614581324301502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd5b0aed9bd805c0800000000000000
+      internalID: -4248904777141101123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a78b46d1f33a36d0800000000000000
+      internalID: -3010036287168346203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d1845483661d370800000000000000
+      internalID: 8345563976360795457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa4fdb1844581980800000000000000
+      internalID: -8568005622390371591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_idle_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af1f16af8c5c7df0800000000000000
+      internalID: -181168112964526173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      daisy_idle_0: 8343477599452243904
+      daisy_idle_000: -9041910402747864123
+      daisy_idle_001: -759102396738033122
+      daisy_idle_002: 6751170360134466105
+      daisy_idle_003: 8676019484248712627
+      daisy_idle_004: 8962762958585767695
+      daisy_idle_005: 2231180855788877370
+      daisy_idle_006: -6664763208952738756
+      daisy_idle_007: -263053039464354722
+      daisy_idle_008: -8819040326559430086
+      daisy_idle_009: 5985125170461590209
+      daisy_idle_010: -2715677700207722227
+      daisy_idle_011: -1806015950078036285
+      daisy_idle_012: 8641326126261250618
+      daisy_idle_013: 1159813362407954134
+      daisy_idle_014: 6189094122646799323
+      daisy_idle_015: 3840540901702908340
+      daisy_idle_016: -9086303569692004011
+      daisy_idle_017: -8573788504219141072
+      daisy_idle_018: -4455572617883752265
+      daisy_idle_019: 1907994489683559674
+      daisy_idle_020: 262520229979317299
+      daisy_idle_021: -7508983182644845202
+      daisy_idle_022: 8132307936524210338
+      daisy_idle_023: -2143024642985085811
+      daisy_idle_024: -4612115869914315346
+      daisy_idle_025: 6275645706632360313
+      daisy_idle_026: 2075051848405435778
+      daisy_idle_027: 3867649138089368739
+      daisy_idle_028: 7901947741063063780
+      daisy_idle_029: -285647020438750750
+      daisy_idle_030: 3911780102824683870
+      daisy_idle_031: -7430831874685531632
+      daisy_idle_032: 8160838338632950989
+      daisy_idle_033: 674355289043212388
+      daisy_idle_034: -6249672830168258492
+      daisy_idle_035: 8961631859098211871
+      daisy_idle_036: -8698064705095931814
+      daisy_idle_037: -4883131340906012195
+      daisy_idle_038: -22358302105634746
+      daisy_idle_039: 2401318365468490879
+      daisy_idle_040: -754008984726277101
+      daisy_idle_041: -5614483905560895250
+      daisy_idle_042: -8156921020313293484
+      daisy_idle_043: -4955988553787709560
+      daisy_idle_044: -7118773975638918964
+      daisy_idle_045: 6110696611688196661
+      daisy_idle_046: -2725098239763344526
+      daisy_idle_047: -5412545584371509159
+      daisy_idle_048: -284268009628899097
+      daisy_idle_049: 7052901250619737735
+      daisy_idle_050: -6385808546069279782
+      daisy_idle_051: -1851399306412988764
+      daisy_idle_052: -4247800229072836246
+      daisy_idle_053: 7025791259007423552
+      daisy_idle_054: 2862548680279232187
+      daisy_idle_055: 114212206824285842
+      daisy_idle_056: 5070701982069058795
+      daisy_idle_057: -5452424360733166787
+      daisy_idle_058: 3506408351353273757
+      daisy_idle_059: -5299192719322403707
+      daisy_idle_060: 6394722597435673581
+      daisy_idle_061: 1151588140498129948
+      daisy_idle_062: 7609848816693153710
+      daisy_idle_063: -380347679548273206
+      daisy_idle_064: 8361989301300616876
+      daisy_idle_065: -4513616549821833788
+      daisy_idle_066: 4593112265444836257
+      daisy_idle_067: 953360654769717716
+      daisy_idle_068: -7203747307338148567
+      daisy_idle_069: -5227091802528741286
+      daisy_idle_070: -4206479230013955806
+      daisy_idle_071: -8381705101119654717
+      daisy_idle_072: -7143970553796300233
+      daisy_idle_073: 7868182567284231554
+      daisy_idle_074: -6490236889227423816
+      daisy_idle_075: 52324385464625783
+      daisy_idle_076: 8893239997453537080
+      daisy_idle_077: 2351297483887828265
+      daisy_idle_078: -163379901842402469
+      daisy_idle_079: -7629296094604830547
+      daisy_idle_080: 8795151425090475711
+      daisy_idle_081: 6055707412407230566
+      daisy_idle_082: -5511705225699731523
+      daisy_idle_083: 5922638099766144182
+      daisy_idle_084: 4441028880671154497
+      daisy_idle_085: -1656445689595497769
+      daisy_idle_086: 7592324909558275235
+      daisy_idle_087: -2604450083174356298
+      daisy_idle_088: 5641798777396067795
+      daisy_idle_089: -8650754183858930365
+      daisy_idle_090: -3848820306148936514
+      daisy_idle_091: -3705784200350470990
+      daisy_idle_092: 9181835366604967766
+      daisy_idle_093: -4728172916692491977
+      daisy_idle_094: -1991533224882069262
+      daisy_idle_095: 5196136694235648361
+      daisy_idle_096: 6430391145086998800
+      daisy_idle_097: 4666096047001460790
+      daisy_idle_098: -2076036491265206808
+      daisy_idle_099: 3553312615615854937
+      daisy_idle_1: 8501571511618873645
+      daisy_idle_10: 3816054129410483562
+      daisy_idle_100: 8598872645845832315
+      daisy_idle_101: 3813224879438400256
+      daisy_idle_102: 7326208625967908144
+      daisy_idle_103: 979869485174310595
+      daisy_idle_104: 155660307358005297
+      daisy_idle_105: -8075098438447871028
+      daisy_idle_106: 2994104749407690845
+      daisy_idle_107: -8813706095397274606
+      daisy_idle_108: 9015371513768147771
+      daisy_idle_109: -4794607615564250702
+      daisy_idle_11: -720797516536600800
+      daisy_idle_110: 5881340393873547978
+      daisy_idle_111: 6038726763829413252
+      daisy_idle_112: -4904095116619126662
+      daisy_idle_113: 6068173851777219558
+      daisy_idle_114: 122614581324301502
+      daisy_idle_115: -4248904777141101123
+      daisy_idle_116: -3010036287168346203
+      daisy_idle_117: 8345563976360795457
+      daisy_idle_118: -8568005622390371591
+      daisy_idle_119: -181168112964526173
+      daisy_idle_12: -2749418173943993809
+      daisy_idle_13: 2185828911652491693
+      daisy_idle_14: 380498651516796628
+      daisy_idle_15: 847591601968138886
+      daisy_idle_16: -5721825653393456589
+      daisy_idle_17: -690380948327494810
+      daisy_idle_18: -8155262830982043811
+      daisy_idle_19: 3773681094588173749
+      daisy_idle_2: 1118699866218785515
+      daisy_idle_20: 909000214999245590
+      daisy_idle_21: 8691457266594448
+      daisy_idle_22: -749034453310736397
+      daisy_idle_23: 7352849571956841721
+      daisy_idle_24: -1934286252682986826
+      daisy_idle_25: 8550597461462167283
+      daisy_idle_26: -5612695893273643717
+      daisy_idle_27: 8224015995569638018
+      daisy_idle_28: 5041751089258349998
+      daisy_idle_29: 377793271823411313
+      daisy_idle_3: -6645180434351316861
+      daisy_idle_30: 6239984728632505496
+      daisy_idle_31: -3290341313456762439
+      daisy_idle_32: -1965409746165164547
+      daisy_idle_33: -3179779940159922198
+      daisy_idle_34: -2316352484032799187
+      daisy_idle_35: 5459379050572553252
+      daisy_idle_36: 5303864909683486314
+      daisy_idle_37: 7013179415159919709
+      daisy_idle_38: -1564589042908811631
+      daisy_idle_39: 8967181891297129246
+      daisy_idle_4: 4054149677225024641
+      daisy_idle_40: 4074879291243117703
+      daisy_idle_41: 1741403704989740200
+      daisy_idle_42: -5746766561273572250
+      daisy_idle_43: 6904514154610619037
+      daisy_idle_44: -2335174548549636042
+      daisy_idle_45: -3538166635085926956
+      daisy_idle_46: -7575228228366784571
+      daisy_idle_47: 2443544964702026129
+      daisy_idle_48: -6938514188885031319
+      daisy_idle_49: -7504550103965405663
+      daisy_idle_5: 5418621973027894371
+      daisy_idle_50: 248881927487522619
+      daisy_idle_51: 3024261895346776845
+      daisy_idle_52: 7092862063698090042
+      daisy_idle_53: -8372744572160515007
+      daisy_idle_54: 6471999473119498653
+      daisy_idle_55: -2999044697366953838
+      daisy_idle_56: 9130499002463114467
+      daisy_idle_57: -6654948529123792877
+      daisy_idle_58: 8857927658795333729
+      daisy_idle_59: -5090869121678498401
+      daisy_idle_6: 7652447027551177954
+      daisy_idle_60: -8994141225919305682
+      daisy_idle_61: -2892133110612153475
+      daisy_idle_62: 1058000452671754004
+      daisy_idle_63: 8729567767236381799
+      daisy_idle_64: 55041660173621365
+      daisy_idle_65: -4599794098520164988
+      daisy_idle_66: -5499002661137957285
+      daisy_idle_67: -4286710247322446547
+      daisy_idle_68: -9120361125449999342
+      daisy_idle_69: -5861296219352944457
+      daisy_idle_7: 2293519684930746201
+      daisy_idle_70: 7678347643579080519
+      daisy_idle_71: 5956108653638543003
+      daisy_idle_72: 112247303597609173
+      daisy_idle_73: -3859906297797458491
+      daisy_idle_74: 7813033675048975284
+      daisy_idle_75: 3990900887514885751
+      daisy_idle_76: 3003760175597538576
+      daisy_idle_77: -7154865939531689388
+      daisy_idle_78: 1407185918704820855
+      daisy_idle_79: -2290518144508902369
+      daisy_idle_8: 2464257523907345703
+      daisy_idle_80: 5055634152340651318
+      daisy_idle_81: 1719585108275847549
+      daisy_idle_82: 6441753921336568808
+      daisy_idle_83: 6265824751971632922
+      daisy_idle_84: 3707118796024384286
+      daisy_idle_85: 8850225967989914448
+      daisy_idle_86: 1001067344325395858
+      daisy_idle_87: 4617942287828514039
+      daisy_idle_88: 8027980686382788532
+      daisy_idle_89: 6047536173805234591
+      daisy_idle_9: -4895771109403714020
+      daisy_idle_90: -4196230248227627916
+      daisy_idle_91: -5906690357008126639
+      daisy_idle_92: -4218074106833739199
+      daisy_idle_93: -5868236928391119834
+      daisy_idle_94: -4380816651567019838
+      daisy_idle_95: -8220862758227913268
+      daisy_idle_96: 8113550434762206293
+      daisy_idle_97: 8077459775882615120
+      daisy_idle_98: 1996575386879536217
+      daisy_idle_99: -7330531439046055933
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

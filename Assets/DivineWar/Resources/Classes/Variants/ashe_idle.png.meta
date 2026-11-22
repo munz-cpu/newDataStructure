@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: f607cee77d618c84a80a009704545e3f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3866900311196828762
+    second: ashe_idle_0
+  - first:
+      213: 1156721415929857940
+    second: ashe_idle_1
+  - first:
+      213: 5768878665379335328
+    second: ashe_idle_2
+  - first:
+      213: -8591081626686179227
+    second: ashe_idle_3
+  - first:
+      213: 5445996819462354068
+    second: ashe_idle_4
+  - first:
+      213: 3453830986258282070
+    second: ashe_idle_5
+  - first:
+      213: -1827779959709331826
+    second: ashe_idle_6
+  - first:
+      213: -2230371935064727503
+    second: ashe_idle_7
+  - first:
+      213: -1260089832152296362
+    second: ashe_idle_8
+  - first:
+      213: -4210591485568188136
+    second: ashe_idle_9
+  - first:
+      213: 2985613037149450312
+    second: ashe_idle_10
+  - first:
+      213: -515740498172613649
+    second: ashe_idle_11
+  - first:
+      213: -1687477386403036817
+    second: ashe_idle_12
+  - first:
+      213: -6493066914683164213
+    second: ashe_idle_13
+  - first:
+      213: -6106282700501567516
+    second: ashe_idle_14
+  - first:
+      213: 6574986420987528493
+    second: ashe_idle_15
+  - first:
+      213: -7033542686714166690
+    second: ashe_idle_16
+  - first:
+      213: 3857946323392105071
+    second: ashe_idle_17
+  - first:
+      213: -3461721239688266326
+    second: ashe_idle_18
+  - first:
+      213: 7032766827921812863
+    second: ashe_idle_19
+  - first:
+      213: 5882780580453822947
+    second: ashe_idle_20
+  - first:
+      213: -7716705183290418804
+    second: ashe_idle_21
+  - first:
+      213: 4620568488396173391
+    second: ashe_idle_22
+  - first:
+      213: -5354937353854977327
+    second: ashe_idle_23
+  - first:
+      213: -6744583364131802031
+    second: ashe_idle_24
+  - first:
+      213: -810987637906460278
+    second: ashe_idle_25
+  - first:
+      213: 8354547250659428939
+    second: ashe_idle_26
+  - first:
+      213: -6980101992149936931
+    second: ashe_idle_27
+  - first:
+      213: 7318031786479216057
+    second: ashe_idle_28
+  - first:
+      213: -8908739670070864331
+    second: ashe_idle_29
+  - first:
+      213: 8993082104198937425
+    second: ashe_idle_30
+  - first:
+      213: -4190370885833546389
+    second: ashe_idle_31
+  - first:
+      213: 2804315385788195810
+    second: ashe_idle_32
+  - first:
+      213: 1865734444468788477
+    second: ashe_idle_33
+  - first:
+      213: 3257425530905384466
+    second: ashe_idle_34
+  - first:
+      213: -7686517392444501939
+    second: ashe_idle_35
+  - first:
+      213: 3499137059219462045
+    second: ashe_idle_36
+  - first:
+      213: -449740323883480544
+    second: ashe_idle_37
+  - first:
+      213: -417211111765764473
+    second: ashe_idle_38
+  - first:
+      213: -8203877325771004264
+    second: ashe_idle_39
+  - first:
+      213: -2875509477908110817
+    second: ashe_idle_40
+  - first:
+      213: -4671581061747769705
+    second: ashe_idle_41
+  - first:
+      213: -1245620192893744607
+    second: ashe_idle_42
+  - first:
+      213: 3406172113438301427
+    second: ashe_idle_43
+  - first:
+      213: -1542610207159677178
+    second: ashe_idle_44
+  - first:
+      213: -6712637516809077045
+    second: ashe_idle_45
+  - first:
+      213: -4028595666464284422
+    second: ashe_idle_46
+  - first:
+      213: 6410575318644297197
+    second: ashe_idle_47
+  - first:
+      213: -6204239953395306401
+    second: ashe_idle_48
+  - first:
+      213: -7371762868081881765
+    second: ashe_idle_49
+  - first:
+      213: -764592529252539608
+    second: ashe_idle_50
+  - first:
+      213: -6835580166975057294
+    second: ashe_idle_51
+  - first:
+      213: -506529911150330262
+    second: ashe_idle_52
+  - first:
+      213: -8188225067231570672
+    second: ashe_idle_53
+  - first:
+      213: 477811663447863294
+    second: ashe_idle_54
+  - first:
+      213: -3106207049430899339
+    second: ashe_idle_55
+  - first:
+      213: -2993742473615363080
+    second: ashe_idle_56
+  - first:
+      213: 63415381863987882
+    second: ashe_idle_57
+  - first:
+      213: -50164691595314557
+    second: ashe_idle_58
+  - first:
+      213: -1324601866724347524
+    second: ashe_idle_59
+  - first:
+      213: -7683233562953464943
+    second: ashe_idle_60
+  - first:
+      213: -622713781842021269
+    second: ashe_idle_61
+  - first:
+      213: -1886912825799617134
+    second: ashe_idle_62
+  - first:
+      213: 7240886602691002376
+    second: ashe_idle_63
+  - first:
+      213: -330950791626552966
+    second: ashe_idle_64
+  - first:
+      213: -6561342250116695752
+    second: ashe_idle_65
+  - first:
+      213: 6436268346905948057
+    second: ashe_idle_66
+  - first:
+      213: -6753893784842347620
+    second: ashe_idle_67
+  - first:
+      213: 6108386405521919204
+    second: ashe_idle_68
+  - first:
+      213: -4949681444775380780
+    second: ashe_idle_69
+  - first:
+      213: -3195155358034715080
+    second: ashe_idle_70
+  - first:
+      213: 5362963158478508406
+    second: ashe_idle_71
+  - first:
+      213: -6855313270518676289
+    second: ashe_idle_72
+  - first:
+      213: 8127403141268199508
+    second: ashe_idle_73
+  - first:
+      213: 3625304580304667007
+    second: ashe_idle_74
+  - first:
+      213: -9132217071554037256
+    second: ashe_idle_75
+  - first:
+      213: 1103963207784350682
+    second: ashe_idle_76
+  - first:
+      213: 3278029008242920248
+    second: ashe_idle_77
+  - first:
+      213: -7129954954297873387
+    second: ashe_idle_78
+  - first:
+      213: -2359721296892133982
+    second: ashe_idle_79
+  - first:
+      213: -5677342284700799227
+    second: ashe_idle_80
+  - first:
+      213: -3498557865489372961
+    second: ashe_idle_81
+  - first:
+      213: -2813240433651838106
+    second: ashe_idle_82
+  - first:
+      213: 5462608647818019861
+    second: ashe_idle_83
+  - first:
+      213: 1752133743199072471
+    second: ashe_idle_84
+  - first:
+      213: 5043955246791883775
+    second: ashe_idle_85
+  - first:
+      213: 816343967308879540
+    second: ashe_idle_86
+  - first:
+      213: -9037191191203777438
+    second: ashe_idle_87
+  - first:
+      213: 4119604545298375908
+    second: ashe_idle_88
+  - first:
+      213: -5021816126633388604
+    second: ashe_idle_89
+  - first:
+      213: -3515162518021492084
+    second: ashe_idle_90
+  - first:
+      213: -24810301323091356
+    second: ashe_idle_91
+  - first:
+      213: 6175296846580647567
+    second: ashe_idle_92
+  - first:
+      213: -5410148854286148916
+    second: ashe_idle_93
+  - first:
+      213: 2258530767448582413
+    second: ashe_idle_94
+  - first:
+      213: -8858284162779248900
+    second: ashe_idle_95
+  - first:
+      213: 6565236299838561183
+    second: ashe_idle_96
+  - first:
+      213: 5490437596320822353
+    second: ashe_idle_97
+  - first:
+      213: 5438902126370232754
+    second: ashe_idle_98
+  - first:
+      213: 578594667383025061
+    second: ashe_idle_99
+  - first:
+      213: 5646615340586400395
+    second: ashe_idle_100
+  - first:
+      213: -2071524239647644102
+    second: ashe_idle_101
+  - first:
+      213: -7569416113387612328
+    second: ashe_idle_102
+  - first:
+      213: 4894936489779599696
+    second: ashe_idle_103
+  - first:
+      213: 5299978231094576764
+    second: ashe_idle_104
+  - first:
+      213: 3531657675651649409
+    second: ashe_idle_105
+  - first:
+      213: -5063532588532193640
+    second: ashe_idle_106
+  - first:
+      213: -539716102463072743
+    second: ashe_idle_107
+  - first:
+      213: 8075231769850528887
+    second: ashe_idle_108
+  - first:
+      213: 6530124299496658838
+    second: ashe_idle_109
+  - first:
+      213: 8437629491646897003
+    second: ashe_idle_110
+  - first:
+      213: 8811576758940172672
+    second: ashe_idle_111
+  - first:
+      213: -5765223535018679549
+    second: ashe_idle_112
+  - first:
+      213: 1796630224755826415
+    second: ashe_idle_113
+  - first:
+      213: -1484679821960359369
+    second: ashe_idle_114
+  - first:
+      213: -2461507841752660241
+    second: ashe_idle_115
+  - first:
+      213: -1659582848970890836
+    second: ashe_idle_116
+  - first:
+      213: 2426435659765510218
+    second: ashe_idle_117
+  - first:
+      213: -4562574881713213360
+    second: ashe_idle_118
+  - first:
+      213: 5407831975500320510
+    second: ashe_idle_119
+  - first:
+      213: 7351147174849755727
+    second: ashe_idle_000
+  - first:
+      213: -7077414668149800625
+    second: ashe_idle_001
+  - first:
+      213: -8073510672716458281
+    second: ashe_idle_002
+  - first:
+      213: -4019344133495966553
+    second: ashe_idle_003
+  - first:
+      213: 1993389312891356460
+    second: ashe_idle_004
+  - first:
+      213: -2972522530630377803
+    second: ashe_idle_005
+  - first:
+      213: -8417085007063813884
+    second: ashe_idle_006
+  - first:
+      213: 1230971355465408915
+    second: ashe_idle_007
+  - first:
+      213: 6024572993367176885
+    second: ashe_idle_008
+  - first:
+      213: -7652804165003208907
+    second: ashe_idle_009
+  - first:
+      213: -764258772478464795
+    second: ashe_idle_010
+  - first:
+      213: -9188774117206193397
+    second: ashe_idle_011
+  - first:
+      213: -7558597082064150906
+    second: ashe_idle_012
+  - first:
+      213: 4232384721658705576
+    second: ashe_idle_013
+  - first:
+      213: 9202675379780483580
+    second: ashe_idle_014
+  - first:
+      213: -1649625744777039148
+    second: ashe_idle_015
+  - first:
+      213: -3277189298640494395
+    second: ashe_idle_016
+  - first:
+      213: -5430549533006187417
+    second: ashe_idle_017
+  - first:
+      213: 8868781379569087406
+    second: ashe_idle_018
+  - first:
+      213: -2483362676764860920
+    second: ashe_idle_019
+  - first:
+      213: -1864249943863729255
+    second: ashe_idle_020
+  - first:
+      213: 6076537038579540276
+    second: ashe_idle_021
+  - first:
+      213: -7762085555910397496
+    second: ashe_idle_022
+  - first:
+      213: 4152482274513588095
+    second: ashe_idle_023
+  - first:
+      213: 1688672997367503784
+    second: ashe_idle_024
+  - first:
+      213: -270254596288385466
+    second: ashe_idle_025
+  - first:
+      213: -5860929193902448358
+    second: ashe_idle_026
+  - first:
+      213: -8032428503543442736
+    second: ashe_idle_027
+  - first:
+      213: 8806744694672873238
+    second: ashe_idle_028
+  - first:
+      213: -2438725741290478831
+    second: ashe_idle_029
+  - first:
+      213: 5865024529875634129
+    second: ashe_idle_030
+  - first:
+      213: -4007272862820408919
+    second: ashe_idle_031
+  - first:
+      213: 4986260341846253391
+    second: ashe_idle_032
+  - first:
+      213: -4768635759438988403
+    second: ashe_idle_033
+  - first:
+      213: -4100759982506189255
+    second: ashe_idle_034
+  - first:
+      213: -4629767237381841914
+    second: ashe_idle_035
+  - first:
+      213: 5433483610839223407
+    second: ashe_idle_036
+  - first:
+      213: -1824930445151707697
+    second: ashe_idle_037
+  - first:
+      213: -4423656735728931843
+    second: ashe_idle_038
+  - first:
+      213: -4609128469293506198
+    second: ashe_idle_039
+  - first:
+      213: -7183519011705906954
+    second: ashe_idle_040
+  - first:
+      213: -5054201789491667261
+    second: ashe_idle_041
+  - first:
+      213: 6722975271976730794
+    second: ashe_idle_042
+  - first:
+      213: 931030075253954222
+    second: ashe_idle_043
+  - first:
+      213: -985015508765620382
+    second: ashe_idle_044
+  - first:
+      213: 7928335731691211395
+    second: ashe_idle_045
+  - first:
+      213: -6342026239594292078
+    second: ashe_idle_046
+  - first:
+      213: -3188926923440568842
+    second: ashe_idle_047
+  - first:
+      213: 690281286223226610
+    second: ashe_idle_048
+  - first:
+      213: 1141139720396377843
+    second: ashe_idle_049
+  - first:
+      213: -7013104007037653655
+    second: ashe_idle_050
+  - first:
+      213: -1465189221695774705
+    second: ashe_idle_051
+  - first:
+      213: -470791369927164190
+    second: ashe_idle_052
+  - first:
+      213: 8281710568262667102
+    second: ashe_idle_053
+  - first:
+      213: -5661968224731582770
+    second: ashe_idle_054
+  - first:
+      213: -2879310399445535677
+    second: ashe_idle_055
+  - first:
+      213: 3633916553740840480
+    second: ashe_idle_056
+  - first:
+      213: -7658089558074303536
+    second: ashe_idle_057
+  - first:
+      213: -4689334470698767055
+    second: ashe_idle_058
+  - first:
+      213: 6441630518022560216
+    second: ashe_idle_059
+  - first:
+      213: -4328995551134948522
+    second: ashe_idle_060
+  - first:
+      213: 3545051572522885666
+    second: ashe_idle_061
+  - first:
+      213: 420914177421531754
+    second: ashe_idle_062
+  - first:
+      213: 8877884335421478479
+    second: ashe_idle_063
+  - first:
+      213: 7383188005445220552
+    second: ashe_idle_064
+  - first:
+      213: 5308158238277514787
+    second: ashe_idle_065
+  - first:
+      213: 5478669024588371950
+    second: ashe_idle_066
+  - first:
+      213: -1208675720826068334
+    second: ashe_idle_067
+  - first:
+      213: 6025343672844205677
+    second: ashe_idle_068
+  - first:
+      213: 3424498239394473510
+    second: ashe_idle_069
+  - first:
+      213: -6812637920282415074
+    second: ashe_idle_070
+  - first:
+      213: 377070411513205513
+    second: ashe_idle_071
+  - first:
+      213: -1688318040377488556
+    second: ashe_idle_072
+  - first:
+      213: -158608218707139253
+    second: ashe_idle_073
+  - first:
+      213: 1835674928154290827
+    second: ashe_idle_074
+  - first:
+      213: 1425429845863178876
+    second: ashe_idle_075
+  - first:
+      213: -1053093419059957386
+    second: ashe_idle_076
+  - first:
+      213: -2407757167999357032
+    second: ashe_idle_077
+  - first:
+      213: 6847498251708507481
+    second: ashe_idle_078
+  - first:
+      213: -7256413272173435341
+    second: ashe_idle_079
+  - first:
+      213: -6100710769989533787
+    second: ashe_idle_080
+  - first:
+      213: 8068005310223645928
+    second: ashe_idle_081
+  - first:
+      213: 2400146415392113547
+    second: ashe_idle_082
+  - first:
+      213: 1105872572459179963
+    second: ashe_idle_083
+  - first:
+      213: 2770015657509274070
+    second: ashe_idle_084
+  - first:
+      213: -5690105737701256099
+    second: ashe_idle_085
+  - first:
+      213: -7698739294536999848
+    second: ashe_idle_086
+  - first:
+      213: -2759241350740939133
+    second: ashe_idle_087
+  - first:
+      213: -860083309893983947
+    second: ashe_idle_088
+  - first:
+      213: 6120668414629020478
+    second: ashe_idle_089
+  - first:
+      213: 6899355019469515114
+    second: ashe_idle_090
+  - first:
+      213: -3030256739345398371
+    second: ashe_idle_091
+  - first:
+      213: 544632941598061929
+    second: ashe_idle_092
+  - first:
+      213: 4630861610241508109
+    second: ashe_idle_093
+  - first:
+      213: -3666537274268632894
+    second: ashe_idle_094
+  - first:
+      213: 2136564927700312799
+    second: ashe_idle_095
+  - first:
+      213: 6592731096974292229
+    second: ashe_idle_096
+  - first:
+      213: -3435197392663660326
+    second: ashe_idle_097
+  - first:
+      213: 1964358930497891086
+    second: ashe_idle_098
+  - first:
+      213: 2522158484710821396
+    second: ashe_idle_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ashe_idle_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a39805865840660800000000000000
+      internalID: 7351147174849755727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41cac86bd8f7cd90800000000000000
+      internalID: -7077414668149800625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6196681d025ff80800000000000000
+      internalID: -8073510672716458281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a43ce45ecb6838c0800000000000000
+      internalID: -4019344133495966553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2503f5c401f9ab10800000000000000
+      internalID: 1993389312891356460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be5eeae18a7fb6d0800000000000000
+      internalID: -2972522530630377803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401f1bd18c1803b80800000000000000
+      internalID: -8417085007063813884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39162330de9451110800000000000000
+      internalID: 1230971355465408915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6ff09c7359b9350800000000000000
+      internalID: 6024572993367176885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5379a518827cbc590800000000000000
+      internalID: -7652804165003208907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ece1f512bec465f0800000000000000
+      internalID: -764258772478464795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b0f96ef9aea7080800000000000000
+      internalID: -9188774117206193397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e134340087a1790800000000000000
+      internalID: -7558597082064150906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6f14fea737cba30800000000000000
+      internalID: 4232384721658705576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf97c03008876bf70800000000000000
+      internalID: 9202675379780483580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2b93e002a5b19e0800000000000000
+      internalID: -1649625744777039148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c062d832b51582d0800000000000000
+      internalID: -3277189298640494395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764b006d8ffc2a4b0800000000000000
+      internalID: -5430549533006187417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea370d70dad341b70800000000000000
+      internalID: 8868781379569087406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e97fa8dc2598dd0800000000000000
+      internalID: -2483362676764860920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993e573ad8ad026e0800000000000000
+      internalID: -1864249943863729255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431a901ed32345450800000000000000
+      internalID: 6076537038579540276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c135cbef48874490800000000000000
+      internalID: -7762085555910397496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f0d7cb0a490a930800000000000000
+      internalID: 4152482274513588095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab52e5e42f5f6710800000000000000
+      internalID: 1688672997367503784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64e605560ecdf3cf0800000000000000
+      internalID: -270254596288385466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a116abf53fbc9aea0800000000000000
+      internalID: -5860929193902448358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2129a65d4178090800000000000000
+      internalID: -8032428503543442736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6175881c3a7d73a70800000000000000
+      internalID: 8806744694672873238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113a7c5fbd7e72ed0800000000000000
+      internalID: -2438725741290478831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d780365cb0c46150800000000000000
+      internalID: 5865024529875634129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1e68d009e4368c0800000000000000
+      internalID: -4007272862820408919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f1d51dc51c23540800000000000000
+      internalID: 4986260341846253391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bf967ca0762ddb0800000000000000
+      internalID: -4768635759438988403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ed49dc58c2717c0800000000000000
+      internalID: -4100759982506189255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60c1d172a33cfbfb0800000000000000
+      internalID: -4629767237381841914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c8af46e8c976b40800000000000000
+      internalID: 5433483610839223407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcddfe4dd6b8ca6e0800000000000000
+      internalID: -1824930445151707697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbec9ae2a30c92c0800000000000000
+      internalID: -4423656735728931843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61ee9fc3161900c0800000000000000
+      internalID: -4609128469293506198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f8110ec4830f4c90800000000000000
+      internalID: -7183519011705906954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce9432304edbd9b0800000000000000
+      internalID: -5054201789491667261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa088e7d36ecc4d50800000000000000
+      internalID: 6722975271976730794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea697beabeeabec00800000000000000
+      internalID: 931030075253954222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26746c51d958452f0800000000000000
+      internalID: -985015508765620382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38acd73875b170e60800000000000000
+      internalID: 7928335731691211395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c96c09cb89cf7a0800000000000000
+      internalID: -6342026239594292078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f545a9dbd7aeb3d0800000000000000
+      internalID: -3188926923440568842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f66f6c2c2f549900800000000000000
+      internalID: 690281286223226610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe8059978426df00800000000000000
+      internalID: 1141139720396377843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96de6a700137cae90800000000000000
+      internalID: -7013104007037653655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00a7107a2a9aabe0800000000000000
+      internalID: -1465189221695774705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eefb205eb96779f0800000000000000
+      internalID: -470791369927164190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b05e922eb8ee270800000000000000
+      internalID: 8281710568262667102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece2353e5e5ac61b0800000000000000
+      internalID: -5661968224731582770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344f5fa6272aa08d0800000000000000
+      internalID: -2879310399445535677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e62213ad34e6230800000000000000
+      internalID: 3633916553740840480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db5ad80f1009b590800000000000000
+      internalID: -7658089558074303536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d6101e4232ceeb0800000000000000
+      internalID: -4689334470698767055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d9dc01b3d4456950800000000000000
+      internalID: 6441630518022560216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653ea547b715ce3c0800000000000000
+      internalID: -4328995551134948522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222aaaa6f9d823130800000000000000
+      internalID: 3545051572522885666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ad22ad63367d500800000000000000
+      internalID: 420914177421531754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f465dc914c4943b70800000000000000
+      internalID: 8877884335421478479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c8bc768f5a567660800000000000000
+      internalID: 7383188005445220552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326381c3bcd5aa940800000000000000
+      internalID: 5308158238277514787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7968c5374280c40800000000000000
+      internalID: 5478669024588371950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 292e583f5dbe93fe0800000000000000
+      internalID: -1208675720826068334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6eb68595225e9350800000000000000
+      internalID: 6025343672844205677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626ee054103468f20800000000000000
+      internalID: 3424498239394473510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10f53a08e5a471a0800000000000000
+      internalID: -6812637920282415074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9031e8d9a8f9b3500800000000000000
+      internalID: 377070411513205513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b8a67ffa3e198e0800000000000000
+      internalID: -1688318040377488556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45e0895aa28ccdf0800000000000000
+      internalID: -158608218707139253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a2abf0f90a97910800000000000000
+      internalID: 1835674928154290827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c722aee74e428c310800000000000000
+      internalID: 1425429845863178876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67131a96d19a261f0800000000000000
+      internalID: -1053093419059957386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f6fffcc9de59ed0800000000000000
+      internalID: -2407757167999357032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955a13d5163370f50800000000000000
+      internalID: 6847498251708507481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3362ca8339a0c4b90800000000000000
+      internalID: -7256413272173435341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afbf5da0ebe55ba0800000000000000
+      internalID: -6100710769989533787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec78d1651057ff60800000000000000
+      internalID: 8068005310223645928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b83cf52c2780f4120800000000000000
+      internalID: 2400146415392113547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfd648de39d85f00800000000000000
+      internalID: 1105872572459179963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d14c187092117620800000000000000
+      internalID: 2770015657509274070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5497e1aafea801b0800000000000000
+      internalID: -5690105737701256099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85cd7cab665982590800000000000000
+      internalID: -7698739294536999848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e648f4c9435b9d0800000000000000
+      internalID: -2759241350740939133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 531e68c59ce5014f0800000000000000
+      internalID: -860083309893983947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e338ae19e7bf0f450800000000000000
+      internalID: 6120668414629020478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69e9caf5de6fbf50800000000000000
+      internalID: 6899355019469515114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d958511fc8d52f5d0800000000000000
+      internalID: -3030256739345398371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965bde856ccee8700800000000000000
+      internalID: 544632941598061929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0340726910244040800000000000000
+      internalID: 4630861610241508109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c83d7376c7dd1dc0800000000000000
+      internalID: -3666537274268632894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2a2235b7a96ad10800000000000000
+      internalID: 2136564927700312799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505f2deb0061e7b50800000000000000
+      internalID: 6592731096974292229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad83fecfb2ab350d0800000000000000
+      internalID: -3435197392663660326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b61b72a0ec24b10800000000000000
+      internalID: 1964358930497891086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e0d6467c1800320800000000000000
+      internalID: 2522158484710821396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a7ce63cbecc5e40800000000000000
+      internalID: 5646615340586400395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36e030fda77043e0800000000000000
+      internalID: -2071524239647644102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 857d96c362804f690800000000000000
+      internalID: -7569416113387612328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059196f8dce4ee340800000000000000
+      internalID: 4894936489779599696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7602b5ee1e4d8940800000000000000
+      internalID: 5299978231094576764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f8f79c1f7f20130800000000000000
+      internalID: 3531657675651649409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896acef30f7bab9b0800000000000000
+      internalID: -5063532588532193640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9165129701b8288f0800000000000000
+      internalID: -539716102463072743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 774c3e0a28cf01070800000000000000
+      internalID: 8075231769850528887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69715aac379af9a50800000000000000
+      internalID: 6530124299496658838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b19f3715b781570800000000000000
+      internalID: 8437629491646897003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08187b36062094a70800000000000000
+      internalID: 8811576758940172672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3036d788dbfcdffa0800000000000000
+      internalID: -5765223535018679549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee1d43aba9eee810800000000000000
+      internalID: 1796630224755826415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732dcde619b556be0800000000000000
+      internalID: -1484679821960359369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe68e78d8a7f6ddd0800000000000000
+      internalID: -2461507841752660241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca162c3113af7f8e0800000000000000
+      internalID: -1659582848970890836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40f9a2706e6ca120800000000000000
+      internalID: 2426435659765510218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0503d52915a7ea0c0800000000000000
+      internalID: -4562574881713213360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_idle_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe02b0a78a7c0b40800000000000000
+      internalID: 5407831975500320510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ashe_idle_0: -3866900311196828762
+      ashe_idle_000: 7351147174849755727
+      ashe_idle_001: -7077414668149800625
+      ashe_idle_002: -8073510672716458281
+      ashe_idle_003: -4019344133495966553
+      ashe_idle_004: 1993389312891356460
+      ashe_idle_005: -2972522530630377803
+      ashe_idle_006: -8417085007063813884
+      ashe_idle_007: 1230971355465408915
+      ashe_idle_008: 6024572993367176885
+      ashe_idle_009: -7652804165003208907
+      ashe_idle_010: -764258772478464795
+      ashe_idle_011: -9188774117206193397
+      ashe_idle_012: -7558597082064150906
+      ashe_idle_013: 4232384721658705576
+      ashe_idle_014: 9202675379780483580
+      ashe_idle_015: -1649625744777039148
+      ashe_idle_016: -3277189298640494395
+      ashe_idle_017: -5430549533006187417
+      ashe_idle_018: 8868781379569087406
+      ashe_idle_019: -2483362676764860920
+      ashe_idle_020: -1864249943863729255
+      ashe_idle_021: 6076537038579540276
+      ashe_idle_022: -7762085555910397496
+      ashe_idle_023: 4152482274513588095
+      ashe_idle_024: 1688672997367503784
+      ashe_idle_025: -270254596288385466
+      ashe_idle_026: -5860929193902448358
+      ashe_idle_027: -8032428503543442736
+      ashe_idle_028: 8806744694672873238
+      ashe_idle_029: -2438725741290478831
+      ashe_idle_030: 5865024529875634129
+      ashe_idle_031: -4007272862820408919
+      ashe_idle_032: 4986260341846253391
+      ashe_idle_033: -4768635759438988403
+      ashe_idle_034: -4100759982506189255
+      ashe_idle_035: -4629767237381841914
+      ashe_idle_036: 5433483610839223407
+      ashe_idle_037: -1824930445151707697
+      ashe_idle_038: -4423656735728931843
+      ashe_idle_039: -4609128469293506198
+      ashe_idle_040: -7183519011705906954
+      ashe_idle_041: -5054201789491667261
+      ashe_idle_042: 6722975271976730794
+      ashe_idle_043: 931030075253954222
+      ashe_idle_044: -985015508765620382
+      ashe_idle_045: 7928335731691211395
+      ashe_idle_046: -6342026239594292078
+      ashe_idle_047: -3188926923440568842
+      ashe_idle_048: 690281286223226610
+      ashe_idle_049: 1141139720396377843
+      ashe_idle_050: -7013104007037653655
+      ashe_idle_051: -1465189221695774705
+      ashe_idle_052: -470791369927164190
+      ashe_idle_053: 8281710568262667102
+      ashe_idle_054: -5661968224731582770
+      ashe_idle_055: -2879310399445535677
+      ashe_idle_056: 3633916553740840480
+      ashe_idle_057: -7658089558074303536
+      ashe_idle_058: -4689334470698767055
+      ashe_idle_059: 6441630518022560216
+      ashe_idle_060: -4328995551134948522
+      ashe_idle_061: 3545051572522885666
+      ashe_idle_062: 420914177421531754
+      ashe_idle_063: 8877884335421478479
+      ashe_idle_064: 7383188005445220552
+      ashe_idle_065: 5308158238277514787
+      ashe_idle_066: 5478669024588371950
+      ashe_idle_067: -1208675720826068334
+      ashe_idle_068: 6025343672844205677
+      ashe_idle_069: 3424498239394473510
+      ashe_idle_070: -6812637920282415074
+      ashe_idle_071: 377070411513205513
+      ashe_idle_072: -1688318040377488556
+      ashe_idle_073: -158608218707139253
+      ashe_idle_074: 1835674928154290827
+      ashe_idle_075: 1425429845863178876
+      ashe_idle_076: -1053093419059957386
+      ashe_idle_077: -2407757167999357032
+      ashe_idle_078: 6847498251708507481
+      ashe_idle_079: -7256413272173435341
+      ashe_idle_080: -6100710769989533787
+      ashe_idle_081: 8068005310223645928
+      ashe_idle_082: 2400146415392113547
+      ashe_idle_083: 1105872572459179963
+      ashe_idle_084: 2770015657509274070
+      ashe_idle_085: -5690105737701256099
+      ashe_idle_086: -7698739294536999848
+      ashe_idle_087: -2759241350740939133
+      ashe_idle_088: -860083309893983947
+      ashe_idle_089: 6120668414629020478
+      ashe_idle_090: 6899355019469515114
+      ashe_idle_091: -3030256739345398371
+      ashe_idle_092: 544632941598061929
+      ashe_idle_093: 4630861610241508109
+      ashe_idle_094: -3666537274268632894
+      ashe_idle_095: 2136564927700312799
+      ashe_idle_096: 6592731096974292229
+      ashe_idle_097: -3435197392663660326
+      ashe_idle_098: 1964358930497891086
+      ashe_idle_099: 2522158484710821396
+      ashe_idle_1: 1156721415929857940
+      ashe_idle_10: 2985613037149450312
+      ashe_idle_100: 5646615340586400395
+      ashe_idle_101: -2071524239647644102
+      ashe_idle_102: -7569416113387612328
+      ashe_idle_103: 4894936489779599696
+      ashe_idle_104: 5299978231094576764
+      ashe_idle_105: 3531657675651649409
+      ashe_idle_106: -5063532588532193640
+      ashe_idle_107: -539716102463072743
+      ashe_idle_108: 8075231769850528887
+      ashe_idle_109: 6530124299496658838
+      ashe_idle_11: -515740498172613649
+      ashe_idle_110: 8437629491646897003
+      ashe_idle_111: 8811576758940172672
+      ashe_idle_112: -5765223535018679549
+      ashe_idle_113: 1796630224755826415
+      ashe_idle_114: -1484679821960359369
+      ashe_idle_115: -2461507841752660241
+      ashe_idle_116: -1659582848970890836
+      ashe_idle_117: 2426435659765510218
+      ashe_idle_118: -4562574881713213360
+      ashe_idle_119: 5407831975500320510
+      ashe_idle_12: -1687477386403036817
+      ashe_idle_13: -6493066914683164213
+      ashe_idle_14: -6106282700501567516
+      ashe_idle_15: 6574986420987528493
+      ashe_idle_16: -7033542686714166690
+      ashe_idle_17: 3857946323392105071
+      ashe_idle_18: -3461721239688266326
+      ashe_idle_19: 7032766827921812863
+      ashe_idle_2: 5768878665379335328
+      ashe_idle_20: 5882780580453822947
+      ashe_idle_21: -7716705183290418804
+      ashe_idle_22: 4620568488396173391
+      ashe_idle_23: -5354937353854977327
+      ashe_idle_24: -6744583364131802031
+      ashe_idle_25: -810987637906460278
+      ashe_idle_26: 8354547250659428939
+      ashe_idle_27: -6980101992149936931
+      ashe_idle_28: 7318031786479216057
+      ashe_idle_29: -8908739670070864331
+      ashe_idle_3: -8591081626686179227
+      ashe_idle_30: 8993082104198937425
+      ashe_idle_31: -4190370885833546389
+      ashe_idle_32: 2804315385788195810
+      ashe_idle_33: 1865734444468788477
+      ashe_idle_34: 3257425530905384466
+      ashe_idle_35: -7686517392444501939
+      ashe_idle_36: 3499137059219462045
+      ashe_idle_37: -449740323883480544
+      ashe_idle_38: -417211111765764473
+      ashe_idle_39: -8203877325771004264
+      ashe_idle_4: 5445996819462354068
+      ashe_idle_40: -2875509477908110817
+      ashe_idle_41: -4671581061747769705
+      ashe_idle_42: -1245620192893744607
+      ashe_idle_43: 3406172113438301427
+      ashe_idle_44: -1542610207159677178
+      ashe_idle_45: -6712637516809077045
+      ashe_idle_46: -4028595666464284422
+      ashe_idle_47: 6410575318644297197
+      ashe_idle_48: -6204239953395306401
+      ashe_idle_49: -7371762868081881765
+      ashe_idle_5: 3453830986258282070
+      ashe_idle_50: -764592529252539608
+      ashe_idle_51: -6835580166975057294
+      ashe_idle_52: -506529911150330262
+      ashe_idle_53: -8188225067231570672
+      ashe_idle_54: 477811663447863294
+      ashe_idle_55: -3106207049430899339
+      ashe_idle_56: -2993742473615363080
+      ashe_idle_57: 63415381863987882
+      ashe_idle_58: -50164691595314557
+      ashe_idle_59: -1324601866724347524
+      ashe_idle_6: -1827779959709331826
+      ashe_idle_60: -7683233562953464943
+      ashe_idle_61: -622713781842021269
+      ashe_idle_62: -1886912825799617134
+      ashe_idle_63: 7240886602691002376
+      ashe_idle_64: -330950791626552966
+      ashe_idle_65: -6561342250116695752
+      ashe_idle_66: 6436268346905948057
+      ashe_idle_67: -6753893784842347620
+      ashe_idle_68: 6108386405521919204
+      ashe_idle_69: -4949681444775380780
+      ashe_idle_7: -2230371935064727503
+      ashe_idle_70: -3195155358034715080
+      ashe_idle_71: 5362963158478508406
+      ashe_idle_72: -6855313270518676289
+      ashe_idle_73: 8127403141268199508
+      ashe_idle_74: 3625304580304667007
+      ashe_idle_75: -9132217071554037256
+      ashe_idle_76: 1103963207784350682
+      ashe_idle_77: 3278029008242920248
+      ashe_idle_78: -7129954954297873387
+      ashe_idle_79: -2359721296892133982
+      ashe_idle_8: -1260089832152296362
+      ashe_idle_80: -5677342284700799227
+      ashe_idle_81: -3498557865489372961
+      ashe_idle_82: -2813240433651838106
+      ashe_idle_83: 5462608647818019861
+      ashe_idle_84: 1752133743199072471
+      ashe_idle_85: 5043955246791883775
+      ashe_idle_86: 816343967308879540
+      ashe_idle_87: -9037191191203777438
+      ashe_idle_88: 4119604545298375908
+      ashe_idle_89: -5021816126633388604
+      ashe_idle_9: -4210591485568188136
+      ashe_idle_90: -3515162518021492084
+      ashe_idle_91: -24810301323091356
+      ashe_idle_92: 6175296846580647567
+      ashe_idle_93: -5410148854286148916
+      ashe_idle_94: 2258530767448582413
+      ashe_idle_95: -8858284162779248900
+      ashe_idle_96: 6565236299838561183
+      ashe_idle_97: 5490437596320822353
+      ashe_idle_98: 5438902126370232754
+      ashe_idle_99: 578594667383025061
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

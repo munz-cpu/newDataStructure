@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: c13f64605c06fb948aa9f7b56784e83e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3252833295525461835
+    second: rumble_walk_0
+  - first:
+      213: 5151993522683992263
+    second: rumble_walk_1
+  - first:
+      213: -1505150501963123072
+    second: rumble_walk_2
+  - first:
+      213: -2818913720137213702
+    second: rumble_walk_3
+  - first:
+      213: -62430732870852171
+    second: rumble_walk_4
+  - first:
+      213: -3364185733868231416
+    second: rumble_walk_5
+  - first:
+      213: -2973766104801619704
+    second: rumble_walk_6
+  - first:
+      213: -2331291714115683106
+    second: rumble_walk_7
+  - first:
+      213: 4099403049718750755
+    second: rumble_walk_8
+  - first:
+      213: -7767984584651741635
+    second: rumble_walk_9
+  - first:
+      213: -3720785602404066904
+    second: rumble_walk_10
+  - first:
+      213: 1045241682113293328
+    second: rumble_walk_11
+  - first:
+      213: 6592113991701278338
+    second: rumble_walk_12
+  - first:
+      213: -700574143656839013
+    second: rumble_walk_13
+  - first:
+      213: -1893524618010893273
+    second: rumble_walk_14
+  - first:
+      213: 6245250691231117822
+    second: rumble_walk_15
+  - first:
+      213: -4059968112039992255
+    second: rumble_walk_16
+  - first:
+      213: -3457038200586933314
+    second: rumble_walk_17
+  - first:
+      213: 657324266208584761
+    second: rumble_walk_18
+  - first:
+      213: -4854923976859511605
+    second: rumble_walk_19
+  - first:
+      213: -1308573614493716294
+    second: rumble_walk_20
+  - first:
+      213: 7529852898285203172
+    second: rumble_walk_21
+  - first:
+      213: -2533962229761563147
+    second: rumble_walk_22
+  - first:
+      213: -5278184202846178921
+    second: rumble_walk_23
+  - first:
+      213: -81202463479101114
+    second: rumble_walk_24
+  - first:
+      213: -4193575392558438776
+    second: rumble_walk_25
+  - first:
+      213: -8565234735555113664
+    second: rumble_walk_26
+  - first:
+      213: -6712162684993304971
+    second: rumble_walk_27
+  - first:
+      213: -3660738716526718973
+    second: rumble_walk_28
+  - first:
+      213: -6717673843765058545
+    second: rumble_walk_29
+  - first:
+      213: 4685585825898258278
+    second: rumble_walk_30
+  - first:
+      213: 3849347355079826187
+    second: rumble_walk_31
+  - first:
+      213: 1754531098253075192
+    second: rumble_walk_32
+  - first:
+      213: 8727005426180430664
+    second: rumble_walk_33
+  - first:
+      213: 6903919304027596444
+    second: rumble_walk_34
+  - first:
+      213: -5612426385170018604
+    second: rumble_walk_35
+  - first:
+      213: 4027730223945134642
+    second: rumble_walk_36
+  - first:
+      213: -4535481024863776932
+    second: rumble_walk_37
+  - first:
+      213: -3344722218532523098
+    second: rumble_walk_38
+  - first:
+      213: 1192009125021434399
+    second: rumble_walk_39
+  - first:
+      213: -2421861621075930081
+    second: rumble_walk_40
+  - first:
+      213: 6871146284934314189
+    second: rumble_walk_41
+  - first:
+      213: 814876770319122031
+    second: rumble_walk_42
+  - first:
+      213: 4492920392093468982
+    second: rumble_walk_43
+  - first:
+      213: 4736227087038802316
+    second: rumble_walk_44
+  - first:
+      213: 4342920400475825649
+    second: rumble_walk_45
+  - first:
+      213: -6027663434625134182
+    second: rumble_walk_46
+  - first:
+      213: -4162454483401065529
+    second: rumble_walk_47
+  - first:
+      213: 7236460585291839560
+    second: rumble_walk_48
+  - first:
+      213: -3168693734600886199
+    second: rumble_walk_49
+  - first:
+      213: -2897673695688375063
+    second: rumble_walk_50
+  - first:
+      213: 3384367401683821001
+    second: rumble_walk_51
+  - first:
+      213: -3512881772778210165
+    second: rumble_walk_52
+  - first:
+      213: -8679696251296242721
+    second: rumble_walk_53
+  - first:
+      213: 8239392942449998655
+    second: rumble_walk_54
+  - first:
+      213: 3514369816725668991
+    second: rumble_walk_55
+  - first:
+      213: -7736954158997735187
+    second: rumble_walk_56
+  - first:
+      213: -274688637813422136
+    second: rumble_walk_57
+  - first:
+      213: -5358280244020720285
+    second: rumble_walk_58
+  - first:
+      213: -771530075452672427
+    second: rumble_walk_59
+  - first:
+      213: -8245762511279116379
+    second: rumble_walk_60
+  - first:
+      213: -1266230777053311703
+    second: rumble_walk_61
+  - first:
+      213: 4219778067894712493
+    second: rumble_walk_62
+  - first:
+      213: -3599799257692843115
+    second: rumble_walk_63
+  - first:
+      213: 6526878633940472117
+    second: rumble_walk_64
+  - first:
+      213: 6791180092204814500
+    second: rumble_walk_65
+  - first:
+      213: 5479821526926827414
+    second: rumble_walk_66
+  - first:
+      213: -3776796687315608108
+    second: rumble_walk_67
+  - first:
+      213: 140917742372367971
+    second: rumble_walk_68
+  - first:
+      213: 7830859732045742318
+    second: rumble_walk_69
+  - first:
+      213: 6641386035513935707
+    second: rumble_walk_70
+  - first:
+      213: 228935287221573342
+    second: rumble_walk_71
+  - first:
+      213: -297275198386987110
+    second: rumble_walk_72
+  - first:
+      213: -4789043666414020782
+    second: rumble_walk_73
+  - first:
+      213: 2147413537947126536
+    second: rumble_walk_74
+  - first:
+      213: -243156233255853552
+    second: rumble_walk_75
+  - first:
+      213: 5466379272974638825
+    second: rumble_walk_76
+  - first:
+      213: 4543030980796009620
+    second: rumble_walk_77
+  - first:
+      213: 6745226912481193089
+    second: rumble_walk_78
+  - first:
+      213: -8189031587196217873
+    second: rumble_walk_79
+  - first:
+      213: 5592143920765709619
+    second: rumble_walk_80
+  - first:
+      213: 1577372823765938232
+    second: rumble_walk_81
+  - first:
+      213: 4121993197327819656
+    second: rumble_walk_82
+  - first:
+      213: 2799070106232386143
+    second: rumble_walk_83
+  - first:
+      213: 7284578775578173283
+    second: rumble_walk_84
+  - first:
+      213: 8000011530659731081
+    second: rumble_walk_85
+  - first:
+      213: -6510644751270030847
+    second: rumble_walk_86
+  - first:
+      213: -3544881594535794930
+    second: rumble_walk_87
+  - first:
+      213: -1147612294915104659
+    second: rumble_walk_88
+  - first:
+      213: -3119978757569393782
+    second: rumble_walk_89
+  - first:
+      213: 8269543674066937162
+    second: rumble_walk_90
+  - first:
+      213: 6044939309909623534
+    second: rumble_walk_91
+  - first:
+      213: -2036254135178161287
+    second: rumble_walk_92
+  - first:
+      213: -3213663815983360932
+    second: rumble_walk_93
+  - first:
+      213: -8932002079278497414
+    second: rumble_walk_94
+  - first:
+      213: -129302574272355019
+    second: rumble_walk_95
+  - first:
+      213: 1615971238379545621
+    second: rumble_walk_96
+  - first:
+      213: -4350400306206051444
+    second: rumble_walk_97
+  - first:
+      213: 4189686932987169588
+    second: rumble_walk_98
+  - first:
+      213: -7854052142465743111
+    second: rumble_walk_99
+  - first:
+      213: -1564782012854834426
+    second: rumble_walk_100
+  - first:
+      213: 6336801876103898668
+    second: rumble_walk_101
+  - first:
+      213: 7918400113977150733
+    second: rumble_walk_102
+  - first:
+      213: -2523835515080908969
+    second: rumble_walk_103
+  - first:
+      213: -2849337948609476965
+    second: rumble_walk_104
+  - first:
+      213: 3326064348052700590
+    second: rumble_walk_105
+  - first:
+      213: 1735065253757810767
+    second: rumble_walk_106
+  - first:
+      213: -1347566484283110615
+    second: rumble_walk_107
+  - first:
+      213: 6924029955748319241
+    second: rumble_walk_108
+  - first:
+      213: -8463734497259992448
+    second: rumble_walk_109
+  - first:
+      213: 1094306251510225929
+    second: rumble_walk_110
+  - first:
+      213: -8922669894765452842
+    second: rumble_walk_111
+  - first:
+      213: -6762337386959227147
+    second: rumble_walk_112
+  - first:
+      213: -2665754348177817320
+    second: rumble_walk_113
+  - first:
+      213: -2962403483606248373
+    second: rumble_walk_114
+  - first:
+      213: -4473398330049796342
+    second: rumble_walk_115
+  - first:
+      213: -8188427292489053673
+    second: rumble_walk_116
+  - first:
+      213: -1935792439582213013
+    second: rumble_walk_117
+  - first:
+      213: 4460854949137525864
+    second: rumble_walk_118
+  - first:
+      213: 584038894577234851
+    second: rumble_walk_119
+  - first:
+      213: -5233485990109493505
+    second: rumble_walk_000
+  - first:
+      213: -4109688049739729282
+    second: rumble_walk_001
+  - first:
+      213: 2121287306437483118
+    second: rumble_walk_002
+  - first:
+      213: 5751985910119110164
+    second: rumble_walk_003
+  - first:
+      213: -1956820735860564776
+    second: rumble_walk_004
+  - first:
+      213: -3235028224400682879
+    second: rumble_walk_005
+  - first:
+      213: 4012956920420316255
+    second: rumble_walk_006
+  - first:
+      213: 9154075402879271901
+    second: rumble_walk_007
+  - first:
+      213: 2616508403561997463
+    second: rumble_walk_008
+  - first:
+      213: 3544641401583743828
+    second: rumble_walk_009
+  - first:
+      213: 7900853970696626016
+    second: rumble_walk_010
+  - first:
+      213: 286074146805624426
+    second: rumble_walk_011
+  - first:
+      213: -7371376323986451621
+    second: rumble_walk_012
+  - first:
+      213: 5032979621892441462
+    second: rumble_walk_013
+  - first:
+      213: -5009497210234808182
+    second: rumble_walk_014
+  - first:
+      213: 4824299299185465096
+    second: rumble_walk_015
+  - first:
+      213: -6487719021171086551
+    second: rumble_walk_016
+  - first:
+      213: 7476819528654617724
+    second: rumble_walk_017
+  - first:
+      213: 2441904049461283133
+    second: rumble_walk_018
+  - first:
+      213: 6426468012841943058
+    second: rumble_walk_019
+  - first:
+      213: 671586941511542607
+    second: rumble_walk_020
+  - first:
+      213: 567010029618172100
+    second: rumble_walk_021
+  - first:
+      213: 6493389182597254856
+    second: rumble_walk_022
+  - first:
+      213: -5595852152980500152
+    second: rumble_walk_023
+  - first:
+      213: 2759775606788175819
+    second: rumble_walk_024
+  - first:
+      213: -5573161109764160209
+    second: rumble_walk_025
+  - first:
+      213: 20533214663174688
+    second: rumble_walk_026
+  - first:
+      213: 4542969912524756802
+    second: rumble_walk_027
+  - first:
+      213: -6461509618660369842
+    second: rumble_walk_028
+  - first:
+      213: 2910773495886891438
+    second: rumble_walk_029
+  - first:
+      213: 2499475066141838201
+    second: rumble_walk_030
+  - first:
+      213: -8666250441031546087
+    second: rumble_walk_031
+  - first:
+      213: 3656717353445721942
+    second: rumble_walk_032
+  - first:
+      213: -8009199399213696260
+    second: rumble_walk_033
+  - first:
+      213: 7941189863260486700
+    second: rumble_walk_034
+  - first:
+      213: 3129785024396353446
+    second: rumble_walk_035
+  - first:
+      213: -1587965607803242789
+    second: rumble_walk_036
+  - first:
+      213: -7206768242209855634
+    second: rumble_walk_037
+  - first:
+      213: 3082442024449952835
+    second: rumble_walk_038
+  - first:
+      213: 7195102195492993105
+    second: rumble_walk_039
+  - first:
+      213: -8927290504352831784
+    second: rumble_walk_040
+  - first:
+      213: -5232452394378360236
+    second: rumble_walk_041
+  - first:
+      213: -6148183467716751638
+    second: rumble_walk_042
+  - first:
+      213: 4444316419893304251
+    second: rumble_walk_043
+  - first:
+      213: 8267610049255087634
+    second: rumble_walk_044
+  - first:
+      213: 2503861426163955244
+    second: rumble_walk_045
+  - first:
+      213: 2783877439669406619
+    second: rumble_walk_046
+  - first:
+      213: -8080525888102611442
+    second: rumble_walk_047
+  - first:
+      213: 6150569601969950707
+    second: rumble_walk_048
+  - first:
+      213: 8701414653924852564
+    second: rumble_walk_049
+  - first:
+      213: -8812279719905508717
+    second: rumble_walk_050
+  - first:
+      213: -2969793113639120276
+    second: rumble_walk_051
+  - first:
+      213: 3433504880303164423
+    second: rumble_walk_052
+  - first:
+      213: -8587811146689069052
+    second: rumble_walk_053
+  - first:
+      213: -8751548175294211074
+    second: rumble_walk_054
+  - first:
+      213: 1090504351928634355
+    second: rumble_walk_055
+  - first:
+      213: -5597577932428991203
+    second: rumble_walk_056
+  - first:
+      213: -4349035004874770873
+    second: rumble_walk_057
+  - first:
+      213: 4403144660601137237
+    second: rumble_walk_058
+  - first:
+      213: 597804836247659890
+    second: rumble_walk_059
+  - first:
+      213: -2465314118284136197
+    second: rumble_walk_060
+  - first:
+      213: 1079473599854835344
+    second: rumble_walk_061
+  - first:
+      213: 1554206052231439283
+    second: rumble_walk_062
+  - first:
+      213: 2130162587719520221
+    second: rumble_walk_063
+  - first:
+      213: -7463249128541499040
+    second: rumble_walk_064
+  - first:
+      213: -73867791597233469
+    second: rumble_walk_065
+  - first:
+      213: -9117216196930924931
+    second: rumble_walk_066
+  - first:
+      213: -5463644776544174378
+    second: rumble_walk_067
+  - first:
+      213: 886915882916642318
+    second: rumble_walk_068
+  - first:
+      213: 3689696583723083388
+    second: rumble_walk_069
+  - first:
+      213: -7987884127950200502
+    second: rumble_walk_070
+  - first:
+      213: 8435945771685088258
+    second: rumble_walk_071
+  - first:
+      213: -8545165889907432232
+    second: rumble_walk_072
+  - first:
+      213: -58787370703700205
+    second: rumble_walk_073
+  - first:
+      213: -1430110020026671907
+    second: rumble_walk_074
+  - first:
+      213: -5778091825410384640
+    second: rumble_walk_075
+  - first:
+      213: -5293611982131420611
+    second: rumble_walk_076
+  - first:
+      213: 8898526664193836262
+    second: rumble_walk_077
+  - first:
+      213: -5506061479600717639
+    second: rumble_walk_078
+  - first:
+      213: -4637338286372883888
+    second: rumble_walk_079
+  - first:
+      213: -3794847252019367174
+    second: rumble_walk_080
+  - first:
+      213: -8452431133616057382
+    second: rumble_walk_081
+  - first:
+      213: -4183891843784728732
+    second: rumble_walk_082
+  - first:
+      213: -7283533823775521046
+    second: rumble_walk_083
+  - first:
+      213: 8502471168196354230
+    second: rumble_walk_084
+  - first:
+      213: -8139406023857634307
+    second: rumble_walk_085
+  - first:
+      213: -2008836852443430407
+    second: rumble_walk_086
+  - first:
+      213: -6087880718636873070
+    second: rumble_walk_087
+  - first:
+      213: -5571638127009240434
+    second: rumble_walk_088
+  - first:
+      213: 2291588588297968365
+    second: rumble_walk_089
+  - first:
+      213: -8416674580361903650
+    second: rumble_walk_090
+  - first:
+      213: 7728242928569874897
+    second: rumble_walk_091
+  - first:
+      213: -4625057622495542054
+    second: rumble_walk_092
+  - first:
+      213: -1775796582764686329
+    second: rumble_walk_093
+  - first:
+      213: -3876513540618896585
+    second: rumble_walk_094
+  - first:
+      213: 1771200754974707143
+    second: rumble_walk_095
+  - first:
+      213: 8559450037607430427
+    second: rumble_walk_096
+  - first:
+      213: 3314863171245437519
+    second: rumble_walk_097
+  - first:
+      213: 4821758932295573324
+    second: rumble_walk_098
+  - first:
+      213: 152591611249076206
+    second: rumble_walk_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rumble_walk_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff64a8e583cee57b0800000000000000
+      internalID: -5233485990109493505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7678992e7477f6c0800000000000000
+      internalID: -4109688049739729282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a50cee093507d10800000000000000
+      internalID: 2121287306437483118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41693bdb5b823df40800000000000000
+      internalID: 5751985910119110164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc99ed88e9f7d4e0800000000000000
+      internalID: -1956820735860564776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1801c3648feda13d0800000000000000
+      internalID: -3235028224400682879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f54399cbe03e0b730800000000000000
+      internalID: 4012956920420316255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd382cb141fc90f70800000000000000
+      internalID: 9154075402879271901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794232ab784bf4420800000000000000
+      internalID: 2616508403561997463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453ba8d0398113130800000000000000
+      internalID: 3544641401583743828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f5b9963d875ad60800000000000000
+      internalID: 7900853970696626016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ea5cbbbe658f300800000000000000
+      internalID: 286074146805624426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53101fd94c93b990800000000000000
+      internalID: -7371376323986451621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675cdacdc4cb8d540800000000000000
+      internalID: 5032979621892441462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88d4a824d0ba7ab0800000000000000
+      internalID: -5009497210234808182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8079d1207aa53f240800000000000000
+      internalID: 4824299299185465096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b6d847cedf6f5a0800000000000000
+      internalID: -6487719021171086551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c79275fbff2c760800000000000000
+      internalID: 7476819528654617724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d394ab39bc263e120800000000000000
+      internalID: 2441904049461283133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210cad9db966f2950800000000000000
+      internalID: 6426468012841943058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47269cd3c4f15900800000000000000
+      internalID: 671586941511542607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c099772e9c6ed700800000000000000
+      internalID: 567010029618172100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cec211ee072d1a50800000000000000
+      internalID: 6493389182597254856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8411efd6d1a8752b0800000000000000
+      internalID: -5595852152980500152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7b56eda41bc4620800000000000000
+      internalID: 2759775606788175819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f254c70af7728a2b0800000000000000
+      internalID: -5573161109764160209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a681699d2f84000800000000000000
+      internalID: 20533214663174688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2475355d01fdb0f30800000000000000
+      internalID: 4542969912524756802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a9af28c3b1456a0800000000000000
+      internalID: -6461509618660369842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9c5f39215256820800000000000000
+      internalID: 2910773495886891438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b8452745befa220800000000000000
+      internalID: 2499475066141838201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b0ebfb32b4bb780800000000000000
+      internalID: -8666250441031546087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65783201f054fb230800000000000000
+      internalID: 3656717353445721942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa789ab49b99d090800000000000000
+      internalID: -8009199399213696260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cf29d3b16c43e60800000000000000
+      internalID: 7941189863260486700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af5b7ab5ea3f6b20800000000000000
+      internalID: 3129785024396353446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6b95f61b966f9e0800000000000000
+      internalID: -1587965607803242789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e67e380877a6cfb90800000000000000
+      internalID: -7206768242209855634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c431490b807ca20800000000000000
+      internalID: 3082442024449952835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1583ef453532ad360800000000000000
+      internalID: 7195102195492993105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6e459c594eb1480800000000000000
+      internalID: -8927290504352831784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a8fe025489267b0800000000000000
+      internalID: -5232452394378360236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee40d8e5b34daaa0800000000000000
+      internalID: -6148183467716751638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb1d25ac326dad30800000000000000
+      internalID: 4444316419893304251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e9c4f39837cb270800000000000000
+      internalID: 8267610049255087634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c263e4973b08fb220800000000000000
+      internalID: 2503861426163955244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b08b128c152a620800000000000000
+      internalID: 2783877439669406619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06cb4964843cdf80800000000000000
+      internalID: -8080525888102611442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff0cb347763b5550800000000000000
+      internalID: 6150569601969950707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453c1929682a1c870800000000000000
+      internalID: 8701414653924852564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39247a1c84e74b580800000000000000
+      internalID: -8812279719905508717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c629325d5ec29c6d0800000000000000
+      internalID: -2969793113639120276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c4a054f7246af20800000000000000
+      internalID: 3433504880303164423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40045732347f1d880800000000000000
+      internalID: -8587811146689069052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbded06d414c8680800000000000000
+      internalID: -8751548175294211074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb49ba2eef322f00800000000000000
+      internalID: 1090504351928634355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15210717886152b0800000000000000
+      internalID: -5597577932428991203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74633ba84bf15a3c0800000000000000
+      internalID: -4349035004874770873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558e9cd6dbc1b1d30800000000000000
+      internalID: 4403144660601137237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2756d8dc454db4800800000000000000
+      internalID: 597804836247659890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf03be70fd179cdd0800000000000000
+      internalID: -2465314118284136197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09672cf058f0bfe00800000000000000
+      internalID: 1079473599854835344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b364038b26a19510800000000000000
+      internalID: 1554206052231439283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf49d2669bdf8d10800000000000000
+      internalID: 2130162587719520221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0615a07a5763d6890800000000000000
+      internalID: -7463249128541499040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ca118982a199fef0800000000000000
+      internalID: -73867791597233469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e8e798c24297180800000000000000
+      internalID: -9117216196930924931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de7a2bf50c3d24b0800000000000000
+      internalID: -5463644776544174378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ef5e2eb45fe4c00800000000000000
+      internalID: 886915882916642318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7669c97e7f643330800000000000000
+      internalID: 3689696583723083388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a412c8e05b5552190800000000000000
+      internalID: -7987884127950200502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20c8fb9dbff721570800000000000000
+      internalID: 8435945771685088258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d46849b5e8796980800000000000000
+      internalID: -8545165889907432232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f3de3a2352f2ff0800000000000000
+      internalID: -58787370703700205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc559a838a372ce0800000000000000
+      internalID: -1430110020026671907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d53d2391810dfa0800000000000000
+      internalID: -5778091825410384640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d322e42f2ff4986b0800000000000000
+      internalID: -5293611982131420611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e48d9bcadaed7b70800000000000000
+      internalID: 8898526664193836262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b000f4b14a8693b0800000000000000
+      internalID: -5506061479600717639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052fc61f56dd4afb0800000000000000
+      internalID: -4637338286372883888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2b48eb78ef55bc0800000000000000
+      internalID: -3794847252019367174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad3dc58baaee2ba80800000000000000
+      internalID: -8452431133616057382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f9e880984dfe5c0800000000000000
+      internalID: -4183891843784728732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6415cb390bbea90800000000000000
+      internalID: -7283533823775521046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0285dba78def570800000000000000
+      internalID: 8502471168196354230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df38a4188550b0f80800000000000000
+      internalID: -8139406023857634307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f14566a68d2f14e0800000000000000
+      internalID: -2008836852443430407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a03bacdb0838ba0800000000000000
+      internalID: -6087880718636873070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a679ea4a09da2b0800000000000000
+      internalID: -5571638127009240434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dead6d00eab5dcf10800000000000000
+      internalID: 2291588588297968365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed108770017f13b80800000000000000
+      internalID: -8416674580361903650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d9f45f5ffb304b60800000000000000
+      internalID: 7728242928569874897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4c071d89e70dfb0800000000000000
+      internalID: -4625057622495542054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70455f2aa6a1b57e0800000000000000
+      internalID: -1775796582764686329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b3b64397bd33ac0800000000000000
+      internalID: -3876513540618896585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cdcb22d3b1949810800000000000000
+      internalID: 1771200754974707143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b197b44957649c670800000000000000
+      internalID: 8559450037607430427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42fb19cd72c00e20800000000000000
+      internalID: 3314863171245437519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f5b00c3345ae240800000000000000
+      internalID: 4821758932295573324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7a430134d1e1200800000000000000
+      internalID: 152591611249076206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60bedd4cc07c84ae0800000000000000
+      internalID: -1564782012854834426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c26a3358bb7d0f750800000000000000
+      internalID: 6336801876103898668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0d450f33fec3ed60800000000000000
+      internalID: 7918400113977150733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f561c88f889fcd0800000000000000
+      internalID: -2523835515080908969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9687107b3e1578d0800000000000000
+      internalID: -2849337948609476965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eadb5cdf6ed882e20800000000000000
+      internalID: 3326064348052700590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f487b50d7a0341810800000000000000
+      internalID: 1735065253757810767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b45191c6b7c4de0800000000000000
+      internalID: -1347566484283110615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900da864f88171060800000000000000
+      internalID: 6924029955748319241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a49994156ca8a80800000000000000
+      internalID: -8463734497259992448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c91c4ecb1cf2f00800000000000000
+      internalID: 1094306251510225929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1ee6a410f4c2480800000000000000
+      internalID: -8922669894765452842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6b3f699f95722a0800000000000000
+      internalID: -6762337386959227147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811886a4b86510bd0800000000000000
+      internalID: -2665754348177817320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4415462abd63e6d0800000000000000
+      internalID: -2962403483606248373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a076e8e7beb4be1c0800000000000000
+      internalID: -4473398330049796342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a831af2ccdc5e80800000000000000
+      internalID: -8188427292489053673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cb0df480fa225e0800000000000000
+      internalID: -1935792439582213013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ca2ed01f328ed30800000000000000
+      internalID: 4460854949137525864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rumble_walk_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3b94eb74cea1800800000000000000
+      internalID: 584038894577234851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rumble_walk_0: -3252833295525461835
+      rumble_walk_000: -5233485990109493505
+      rumble_walk_001: -4109688049739729282
+      rumble_walk_002: 2121287306437483118
+      rumble_walk_003: 5751985910119110164
+      rumble_walk_004: -1956820735860564776
+      rumble_walk_005: -3235028224400682879
+      rumble_walk_006: 4012956920420316255
+      rumble_walk_007: 9154075402879271901
+      rumble_walk_008: 2616508403561997463
+      rumble_walk_009: 3544641401583743828
+      rumble_walk_010: 7900853970696626016
+      rumble_walk_011: 286074146805624426
+      rumble_walk_012: -7371376323986451621
+      rumble_walk_013: 5032979621892441462
+      rumble_walk_014: -5009497210234808182
+      rumble_walk_015: 4824299299185465096
+      rumble_walk_016: -6487719021171086551
+      rumble_walk_017: 7476819528654617724
+      rumble_walk_018: 2441904049461283133
+      rumble_walk_019: 6426468012841943058
+      rumble_walk_020: 671586941511542607
+      rumble_walk_021: 567010029618172100
+      rumble_walk_022: 6493389182597254856
+      rumble_walk_023: -5595852152980500152
+      rumble_walk_024: 2759775606788175819
+      rumble_walk_025: -5573161109764160209
+      rumble_walk_026: 20533214663174688
+      rumble_walk_027: 4542969912524756802
+      rumble_walk_028: -6461509618660369842
+      rumble_walk_029: 2910773495886891438
+      rumble_walk_030: 2499475066141838201
+      rumble_walk_031: -8666250441031546087
+      rumble_walk_032: 3656717353445721942
+      rumble_walk_033: -8009199399213696260
+      rumble_walk_034: 7941189863260486700
+      rumble_walk_035: 3129785024396353446
+      rumble_walk_036: -1587965607803242789
+      rumble_walk_037: -7206768242209855634
+      rumble_walk_038: 3082442024449952835
+      rumble_walk_039: 7195102195492993105
+      rumble_walk_040: -8927290504352831784
+      rumble_walk_041: -5232452394378360236
+      rumble_walk_042: -6148183467716751638
+      rumble_walk_043: 4444316419893304251
+      rumble_walk_044: 8267610049255087634
+      rumble_walk_045: 2503861426163955244
+      rumble_walk_046: 2783877439669406619
+      rumble_walk_047: -8080525888102611442
+      rumble_walk_048: 6150569601969950707
+      rumble_walk_049: 8701414653924852564
+      rumble_walk_050: -8812279719905508717
+      rumble_walk_051: -2969793113639120276
+      rumble_walk_052: 3433504880303164423
+      rumble_walk_053: -8587811146689069052
+      rumble_walk_054: -8751548175294211074
+      rumble_walk_055: 1090504351928634355
+      rumble_walk_056: -5597577932428991203
+      rumble_walk_057: -4349035004874770873
+      rumble_walk_058: 4403144660601137237
+      rumble_walk_059: 597804836247659890
+      rumble_walk_060: -2465314118284136197
+      rumble_walk_061: 1079473599854835344
+      rumble_walk_062: 1554206052231439283
+      rumble_walk_063: 2130162587719520221
+      rumble_walk_064: -7463249128541499040
+      rumble_walk_065: -73867791597233469
+      rumble_walk_066: -9117216196930924931
+      rumble_walk_067: -5463644776544174378
+      rumble_walk_068: 886915882916642318
+      rumble_walk_069: 3689696583723083388
+      rumble_walk_070: -7987884127950200502
+      rumble_walk_071: 8435945771685088258
+      rumble_walk_072: -8545165889907432232
+      rumble_walk_073: -58787370703700205
+      rumble_walk_074: -1430110020026671907
+      rumble_walk_075: -5778091825410384640
+      rumble_walk_076: -5293611982131420611
+      rumble_walk_077: 8898526664193836262
+      rumble_walk_078: -5506061479600717639
+      rumble_walk_079: -4637338286372883888
+      rumble_walk_080: -3794847252019367174
+      rumble_walk_081: -8452431133616057382
+      rumble_walk_082: -4183891843784728732
+      rumble_walk_083: -7283533823775521046
+      rumble_walk_084: 8502471168196354230
+      rumble_walk_085: -8139406023857634307
+      rumble_walk_086: -2008836852443430407
+      rumble_walk_087: -6087880718636873070
+      rumble_walk_088: -5571638127009240434
+      rumble_walk_089: 2291588588297968365
+      rumble_walk_090: -8416674580361903650
+      rumble_walk_091: 7728242928569874897
+      rumble_walk_092: -4625057622495542054
+      rumble_walk_093: -1775796582764686329
+      rumble_walk_094: -3876513540618896585
+      rumble_walk_095: 1771200754974707143
+      rumble_walk_096: 8559450037607430427
+      rumble_walk_097: 3314863171245437519
+      rumble_walk_098: 4821758932295573324
+      rumble_walk_099: 152591611249076206
+      rumble_walk_1: 5151993522683992263
+      rumble_walk_10: -3720785602404066904
+      rumble_walk_100: -1564782012854834426
+      rumble_walk_101: 6336801876103898668
+      rumble_walk_102: 7918400113977150733
+      rumble_walk_103: -2523835515080908969
+      rumble_walk_104: -2849337948609476965
+      rumble_walk_105: 3326064348052700590
+      rumble_walk_106: 1735065253757810767
+      rumble_walk_107: -1347566484283110615
+      rumble_walk_108: 6924029955748319241
+      rumble_walk_109: -8463734497259992448
+      rumble_walk_11: 1045241682113293328
+      rumble_walk_110: 1094306251510225929
+      rumble_walk_111: -8922669894765452842
+      rumble_walk_112: -6762337386959227147
+      rumble_walk_113: -2665754348177817320
+      rumble_walk_114: -2962403483606248373
+      rumble_walk_115: -4473398330049796342
+      rumble_walk_116: -8188427292489053673
+      rumble_walk_117: -1935792439582213013
+      rumble_walk_118: 4460854949137525864
+      rumble_walk_119: 584038894577234851
+      rumble_walk_12: 6592113991701278338
+      rumble_walk_13: -700574143656839013
+      rumble_walk_14: -1893524618010893273
+      rumble_walk_15: 6245250691231117822
+      rumble_walk_16: -4059968112039992255
+      rumble_walk_17: -3457038200586933314
+      rumble_walk_18: 657324266208584761
+      rumble_walk_19: -4854923976859511605
+      rumble_walk_2: -1505150501963123072
+      rumble_walk_20: -1308573614493716294
+      rumble_walk_21: 7529852898285203172
+      rumble_walk_22: -2533962229761563147
+      rumble_walk_23: -5278184202846178921
+      rumble_walk_24: -81202463479101114
+      rumble_walk_25: -4193575392558438776
+      rumble_walk_26: -8565234735555113664
+      rumble_walk_27: -6712162684993304971
+      rumble_walk_28: -3660738716526718973
+      rumble_walk_29: -6717673843765058545
+      rumble_walk_3: -2818913720137213702
+      rumble_walk_30: 4685585825898258278
+      rumble_walk_31: 3849347355079826187
+      rumble_walk_32: 1754531098253075192
+      rumble_walk_33: 8727005426180430664
+      rumble_walk_34: 6903919304027596444
+      rumble_walk_35: -5612426385170018604
+      rumble_walk_36: 4027730223945134642
+      rumble_walk_37: -4535481024863776932
+      rumble_walk_38: -3344722218532523098
+      rumble_walk_39: 1192009125021434399
+      rumble_walk_4: -62430732870852171
+      rumble_walk_40: -2421861621075930081
+      rumble_walk_41: 6871146284934314189
+      rumble_walk_42: 814876770319122031
+      rumble_walk_43: 4492920392093468982
+      rumble_walk_44: 4736227087038802316
+      rumble_walk_45: 4342920400475825649
+      rumble_walk_46: -6027663434625134182
+      rumble_walk_47: -4162454483401065529
+      rumble_walk_48: 7236460585291839560
+      rumble_walk_49: -3168693734600886199
+      rumble_walk_5: -3364185733868231416
+      rumble_walk_50: -2897673695688375063
+      rumble_walk_51: 3384367401683821001
+      rumble_walk_52: -3512881772778210165
+      rumble_walk_53: -8679696251296242721
+      rumble_walk_54: 8239392942449998655
+      rumble_walk_55: 3514369816725668991
+      rumble_walk_56: -7736954158997735187
+      rumble_walk_57: -274688637813422136
+      rumble_walk_58: -5358280244020720285
+      rumble_walk_59: -771530075452672427
+      rumble_walk_6: -2973766104801619704
+      rumble_walk_60: -8245762511279116379
+      rumble_walk_61: -1266230777053311703
+      rumble_walk_62: 4219778067894712493
+      rumble_walk_63: -3599799257692843115
+      rumble_walk_64: 6526878633940472117
+      rumble_walk_65: 6791180092204814500
+      rumble_walk_66: 5479821526926827414
+      rumble_walk_67: -3776796687315608108
+      rumble_walk_68: 140917742372367971
+      rumble_walk_69: 7830859732045742318
+      rumble_walk_7: -2331291714115683106
+      rumble_walk_70: 6641386035513935707
+      rumble_walk_71: 228935287221573342
+      rumble_walk_72: -297275198386987110
+      rumble_walk_73: -4789043666414020782
+      rumble_walk_74: 2147413537947126536
+      rumble_walk_75: -243156233255853552
+      rumble_walk_76: 5466379272974638825
+      rumble_walk_77: 4543030980796009620
+      rumble_walk_78: 6745226912481193089
+      rumble_walk_79: -8189031587196217873
+      rumble_walk_8: 4099403049718750755
+      rumble_walk_80: 5592143920765709619
+      rumble_walk_81: 1577372823765938232
+      rumble_walk_82: 4121993197327819656
+      rumble_walk_83: 2799070106232386143
+      rumble_walk_84: 7284578775578173283
+      rumble_walk_85: 8000011530659731081
+      rumble_walk_86: -6510644751270030847
+      rumble_walk_87: -3544881594535794930
+      rumble_walk_88: -1147612294915104659
+      rumble_walk_89: -3119978757569393782
+      rumble_walk_9: -7767984584651741635
+      rumble_walk_90: 8269543674066937162
+      rumble_walk_91: 6044939309909623534
+      rumble_walk_92: -2036254135178161287
+      rumble_walk_93: -3213663815983360932
+      rumble_walk_94: -8932002079278497414
+      rumble_walk_95: -129302574272355019
+      rumble_walk_96: 1615971238379545621
+      rumble_walk_97: -4350400306206051444
+      rumble_walk_98: 4189686932987169588
+      rumble_walk_99: -7854052142465743111
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

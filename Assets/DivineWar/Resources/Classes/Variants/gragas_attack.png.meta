@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 878fcd557ef612541816b5bc9089a6fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 982848111256834812
+    second: gragas_attack_0
+  - first:
+      213: -6965938052710800007
+    second: gragas_attack_1
+  - first:
+      213: -4961151567896716165
+    second: gragas_attack_2
+  - first:
+      213: 8820188533246122928
+    second: gragas_attack_3
+  - first:
+      213: 2464910434742360037
+    second: gragas_attack_4
+  - first:
+      213: -8365089958598991897
+    second: gragas_attack_5
+  - first:
+      213: -5082717630092727567
+    second: gragas_attack_6
+  - first:
+      213: -4606771913895529276
+    second: gragas_attack_7
+  - first:
+      213: 173399909054434232
+    second: gragas_attack_8
+  - first:
+      213: -4820220167896393236
+    second: gragas_attack_9
+  - first:
+      213: 2233997311389290598
+    second: gragas_attack_10
+  - first:
+      213: -7722514939591798832
+    second: gragas_attack_11
+  - first:
+      213: -6555470007269190390
+    second: gragas_attack_12
+  - first:
+      213: -3840492823102142243
+    second: gragas_attack_13
+  - first:
+      213: 6754443506838921776
+    second: gragas_attack_14
+  - first:
+      213: 7174658389581780606
+    second: gragas_attack_15
+  - first:
+      213: 1960492318542747760
+    second: gragas_attack_16
+  - first:
+      213: 8387858011509423453
+    second: gragas_attack_17
+  - first:
+      213: 1716582620625855381
+    second: gragas_attack_18
+  - first:
+      213: -4148169777147723626
+    second: gragas_attack_19
+  - first:
+      213: -4967612187509248656
+    second: gragas_attack_20
+  - first:
+      213: 4751067525180644143
+    second: gragas_attack_21
+  - first:
+      213: -7525925111176484483
+    second: gragas_attack_22
+  - first:
+      213: -1223241913327294358
+    second: gragas_attack_23
+  - first:
+      213: -835702915044096871
+    second: gragas_attack_24
+  - first:
+      213: 6445571333823778810
+    second: gragas_attack_25
+  - first:
+      213: -2387081030577933844
+    second: gragas_attack_26
+  - first:
+      213: 5606428191745528153
+    second: gragas_attack_27
+  - first:
+      213: 7963241344598113416
+    second: gragas_attack_28
+  - first:
+      213: -4084715948935055160
+    second: gragas_attack_29
+  - first:
+      213: 6208703019218472547
+    second: gragas_attack_30
+  - first:
+      213: 3350791150010224378
+    second: gragas_attack_31
+  - first:
+      213: -5147247957498375446
+    second: gragas_attack_32
+  - first:
+      213: 1779959985452317121
+    second: gragas_attack_33
+  - first:
+      213: 4598516337732340627
+    second: gragas_attack_34
+  - first:
+      213: -571333442205618940
+    second: gragas_attack_35
+  - first:
+      213: -5520622507499031484
+    second: gragas_attack_36
+  - first:
+      213: 4802486106399722805
+    second: gragas_attack_37
+  - first:
+      213: 4912745260498271589
+    second: gragas_attack_38
+  - first:
+      213: 7548490570906583294
+    second: gragas_attack_39
+  - first:
+      213: 1980504207591852523
+    second: gragas_attack_40
+  - first:
+      213: 6866790077019481299
+    second: gragas_attack_41
+  - first:
+      213: 7701792746859697545
+    second: gragas_attack_42
+  - first:
+      213: -488530359665783003
+    second: gragas_attack_43
+  - first:
+      213: -4595730929151660229
+    second: gragas_attack_44
+  - first:
+      213: -3892684753434087431
+    second: gragas_attack_45
+  - first:
+      213: -3494982930307997572
+    second: gragas_attack_46
+  - first:
+      213: -6975605198035891091
+    second: gragas_attack_47
+  - first:
+      213: 1201948259472108702
+    second: gragas_attack_48
+  - first:
+      213: 7274337645485023787
+    second: gragas_attack_49
+  - first:
+      213: -8543687958573870298
+    second: gragas_attack_50
+  - first:
+      213: 852179081926506519
+    second: gragas_attack_51
+  - first:
+      213: -669706563458835544
+    second: gragas_attack_52
+  - first:
+      213: 3177079945032119575
+    second: gragas_attack_53
+  - first:
+      213: -3172735157187095042
+    second: gragas_attack_54
+  - first:
+      213: -308021804844113123
+    second: gragas_attack_55
+  - first:
+      213: 801919324040662435
+    second: gragas_attack_56
+  - first:
+      213: 3337007294716445810
+    second: gragas_attack_57
+  - first:
+      213: 8245705626769362151
+    second: gragas_attack_58
+  - first:
+      213: 1569355579302795748
+    second: gragas_attack_59
+  - first:
+      213: 8768894444678280667
+    second: gragas_attack_60
+  - first:
+      213: -1799974403607249775
+    second: gragas_attack_61
+  - first:
+      213: -7304274222318792451
+    second: gragas_attack_62
+  - first:
+      213: -5734241936643144756
+    second: gragas_attack_63
+  - first:
+      213: 6968859984269981854
+    second: gragas_attack_64
+  - first:
+      213: 3556796565288832034
+    second: gragas_attack_65
+  - first:
+      213: -7460742521036210065
+    second: gragas_attack_66
+  - first:
+      213: 7996983838917613612
+    second: gragas_attack_67
+  - first:
+      213: 6369492011402452130
+    second: gragas_attack_68
+  - first:
+      213: 575159767030554088
+    second: gragas_attack_69
+  - first:
+      213: -5943458565688250451
+    second: gragas_attack_70
+  - first:
+      213: 3408869329493262166
+    second: gragas_attack_71
+  - first:
+      213: 2741192463686243968
+    second: gragas_attack_72
+  - first:
+      213: 4711194794037684939
+    second: gragas_attack_73
+  - first:
+      213: 5182110318895780291
+    second: gragas_attack_74
+  - first:
+      213: 1254222304119950811
+    second: gragas_attack_75
+  - first:
+      213: 4381830669630423432
+    second: gragas_attack_76
+  - first:
+      213: 4246898588561112388
+    second: gragas_attack_77
+  - first:
+      213: 5348784880232872733
+    second: gragas_attack_78
+  - first:
+      213: 2083603651576293862
+    second: gragas_attack_79
+  - first:
+      213: 2183925978664191318
+    second: gragas_attack_80
+  - first:
+      213: -1333667501917072753
+    second: gragas_attack_81
+  - first:
+      213: 5891445015608034036
+    second: gragas_attack_82
+  - first:
+      213: 5434268577482802058
+    second: gragas_attack_83
+  - first:
+      213: -2173836317291017982
+    second: gragas_attack_84
+  - first:
+      213: 3512784053183308590
+    second: gragas_attack_85
+  - first:
+      213: -4766554348877997139
+    second: gragas_attack_86
+  - first:
+      213: 6268434408904323803
+    second: gragas_attack_87
+  - first:
+      213: 7365481063970565118
+    second: gragas_attack_88
+  - first:
+      213: -732646518308333908
+    second: gragas_attack_89
+  - first:
+      213: 1423976542855127107
+    second: gragas_attack_90
+  - first:
+      213: -9102799170872630254
+    second: gragas_attack_91
+  - first:
+      213: 1209246612668878718
+    second: gragas_attack_92
+  - first:
+      213: 5508391272211916084
+    second: gragas_attack_93
+  - first:
+      213: -295356775600652018
+    second: gragas_attack_94
+  - first:
+      213: 5945261749850109965
+    second: gragas_attack_95
+  - first:
+      213: -8294483545944253474
+    second: gragas_attack_96
+  - first:
+      213: -7053309612478713176
+    second: gragas_attack_97
+  - first:
+      213: 4804006405821768897
+    second: gragas_attack_98
+  - first:
+      213: 2542885062994165401
+    second: gragas_attack_99
+  - first:
+      213: -3861961455676301172
+    second: gragas_attack_100
+  - first:
+      213: 4524259397804272717
+    second: gragas_attack_101
+  - first:
+      213: 6127404273196669806
+    second: gragas_attack_102
+  - first:
+      213: 8237150284435657584
+    second: gragas_attack_103
+  - first:
+      213: 1351636797342421947
+    second: gragas_attack_104
+  - first:
+      213: 251145259999624758
+    second: gragas_attack_105
+  - first:
+      213: -6664272018402003937
+    second: gragas_attack_106
+  - first:
+      213: -8940782915613214912
+    second: gragas_attack_107
+  - first:
+      213: 4640932090241840982
+    second: gragas_attack_108
+  - first:
+      213: -4591425355308805527
+    second: gragas_attack_109
+  - first:
+      213: 1555563789206318728
+    second: gragas_attack_110
+  - first:
+      213: 6744193802130091718
+    second: gragas_attack_111
+  - first:
+      213: -8138259229905590883
+    second: gragas_attack_112
+  - first:
+      213: -7452974450895988684
+    second: gragas_attack_113
+  - first:
+      213: 2022173126509729140
+    second: gragas_attack_114
+  - first:
+      213: 5553713240980025087
+    second: gragas_attack_115
+  - first:
+      213: -4464488936832246357
+    second: gragas_attack_116
+  - first:
+      213: 1769966884000223384
+    second: gragas_attack_117
+  - first:
+      213: -5085931008820455280
+    second: gragas_attack_118
+  - first:
+      213: 196794743521593571
+    second: gragas_attack_119
+  - first:
+      213: 2220336770808924037
+    second: gragas_attack_000
+  - first:
+      213: -1496875047256092206
+    second: gragas_attack_001
+  - first:
+      213: -1120342757141904486
+    second: gragas_attack_002
+  - first:
+      213: 4323612125661947411
+    second: gragas_attack_003
+  - first:
+      213: -61857711337535367
+    second: gragas_attack_004
+  - first:
+      213: 242927499835204528
+    second: gragas_attack_005
+  - first:
+      213: 1491460458925526024
+    second: gragas_attack_006
+  - first:
+      213: -5928539636841519233
+    second: gragas_attack_007
+  - first:
+      213: -1494897606859953412
+    second: gragas_attack_008
+  - first:
+      213: 2384641061937224261
+    second: gragas_attack_009
+  - first:
+      213: -1763959901821917137
+    second: gragas_attack_010
+  - first:
+      213: 345625854843405085
+    second: gragas_attack_011
+  - first:
+      213: 8669643235061480266
+    second: gragas_attack_012
+  - first:
+      213: 2276087695653170626
+    second: gragas_attack_013
+  - first:
+      213: -8638643858501292061
+    second: gragas_attack_014
+  - first:
+      213: -7628066770177522493
+    second: gragas_attack_015
+  - first:
+      213: 8695788361740678082
+    second: gragas_attack_016
+  - first:
+      213: 3212861976584120840
+    second: gragas_attack_017
+  - first:
+      213: -6715011697398251780
+    second: gragas_attack_018
+  - first:
+      213: -1563085654025488305
+    second: gragas_attack_019
+  - first:
+      213: -8647739646105788835
+    second: gragas_attack_020
+  - first:
+      213: -959810920532091403
+    second: gragas_attack_021
+  - first:
+      213: -7701531709482758424
+    second: gragas_attack_022
+  - first:
+      213: 4320403154368712391
+    second: gragas_attack_023
+  - first:
+      213: -728117375797829476
+    second: gragas_attack_024
+  - first:
+      213: 1124888637800078364
+    second: gragas_attack_025
+  - first:
+      213: -5717056486249468393
+    second: gragas_attack_026
+  - first:
+      213: 4053540625466022699
+    second: gragas_attack_027
+  - first:
+      213: 559071255956470432
+    second: gragas_attack_028
+  - first:
+      213: 8411276279071492934
+    second: gragas_attack_029
+  - first:
+      213: -6476276677603670990
+    second: gragas_attack_030
+  - first:
+      213: 6788035645482156067
+    second: gragas_attack_031
+  - first:
+      213: 8860300259553198040
+    second: gragas_attack_032
+  - first:
+      213: -6031924785705059283
+    second: gragas_attack_033
+  - first:
+      213: 7127574770121132414
+    second: gragas_attack_034
+  - first:
+      213: 7887860141159303422
+    second: gragas_attack_035
+  - first:
+      213: -6535472647042877447
+    second: gragas_attack_036
+  - first:
+      213: -1179705802246661573
+    second: gragas_attack_037
+  - first:
+      213: 5715123924160836766
+    second: gragas_attack_038
+  - first:
+      213: -4293896361136328550
+    second: gragas_attack_039
+  - first:
+      213: 1075771111237470314
+    second: gragas_attack_040
+  - first:
+      213: 201587863259753265
+    second: gragas_attack_041
+  - first:
+      213: -522413633678300619
+    second: gragas_attack_042
+  - first:
+      213: 581226238640127089
+    second: gragas_attack_043
+  - first:
+      213: 3977583824883856806
+    second: gragas_attack_044
+  - first:
+      213: -3482053985943585344
+    second: gragas_attack_045
+  - first:
+      213: 5066654739642939608
+    second: gragas_attack_046
+  - first:
+      213: 3141452755578753382
+    second: gragas_attack_047
+  - first:
+      213: -7996462655116555947
+    second: gragas_attack_048
+  - first:
+      213: 1610510251600578868
+    second: gragas_attack_049
+  - first:
+      213: 4395511723774525170
+    second: gragas_attack_050
+  - first:
+      213: 2264026954347041321
+    second: gragas_attack_051
+  - first:
+      213: 3365793607812910103
+    second: gragas_attack_052
+  - first:
+      213: 8926800652866393430
+    second: gragas_attack_053
+  - first:
+      213: 8497516915124189718
+    second: gragas_attack_054
+  - first:
+      213: -7936394815425545823
+    second: gragas_attack_055
+  - first:
+      213: 7129475680129790865
+    second: gragas_attack_056
+  - first:
+      213: 55361999401537783
+    second: gragas_attack_057
+  - first:
+      213: 7618757975400383038
+    second: gragas_attack_058
+  - first:
+      213: 5756800092011576147
+    second: gragas_attack_059
+  - first:
+      213: -3343582278538247012
+    second: gragas_attack_060
+  - first:
+      213: 657747273944946556
+    second: gragas_attack_061
+  - first:
+      213: -1634609930385042425
+    second: gragas_attack_062
+  - first:
+      213: 4875699955632316208
+    second: gragas_attack_063
+  - first:
+      213: 6196667529302453208
+    second: gragas_attack_064
+  - first:
+      213: 7340818661198791587
+    second: gragas_attack_065
+  - first:
+      213: -4518972719916866679
+    second: gragas_attack_066
+  - first:
+      213: 7142346936740677135
+    second: gragas_attack_067
+  - first:
+      213: 4146026090767629042
+    second: gragas_attack_068
+  - first:
+      213: -4891763794378829143
+    second: gragas_attack_069
+  - first:
+      213: 35018930167253561
+    second: gragas_attack_070
+  - first:
+      213: 7006519379020252357
+    second: gragas_attack_071
+  - first:
+      213: -8724102617354053700
+    second: gragas_attack_072
+  - first:
+      213: 5821799984462685264
+    second: gragas_attack_073
+  - first:
+      213: 5088018038458390824
+    second: gragas_attack_074
+  - first:
+      213: 8093786528432809402
+    second: gragas_attack_075
+  - first:
+      213: 6645183414422286182
+    second: gragas_attack_076
+  - first:
+      213: -2662862883657134971
+    second: gragas_attack_077
+  - first:
+      213: 5764582602303140651
+    second: gragas_attack_078
+  - first:
+      213: 1288191250274950839
+    second: gragas_attack_079
+  - first:
+      213: 8873029477617906992
+    second: gragas_attack_080
+  - first:
+      213: 3315566880860763603
+    second: gragas_attack_081
+  - first:
+      213: -4773030522479980366
+    second: gragas_attack_082
+  - first:
+      213: 2652881311631188468
+    second: gragas_attack_083
+  - first:
+      213: 6508399093052621613
+    second: gragas_attack_084
+  - first:
+      213: -5323138207237281633
+    second: gragas_attack_085
+  - first:
+      213: 3649731388693372242
+    second: gragas_attack_086
+  - first:
+      213: 9094899416390547705
+    second: gragas_attack_087
+  - first:
+      213: -4685968561913629613
+    second: gragas_attack_088
+  - first:
+      213: -4932481576365319814
+    second: gragas_attack_089
+  - first:
+      213: 2043994260663002275
+    second: gragas_attack_090
+  - first:
+      213: -2092273272990614753
+    second: gragas_attack_091
+  - first:
+      213: -7258389643813264594
+    second: gragas_attack_092
+  - first:
+      213: 3217604684680555483
+    second: gragas_attack_093
+  - first:
+      213: 4790956319323053394
+    second: gragas_attack_094
+  - first:
+      213: 448546883836598382
+    second: gragas_attack_095
+  - first:
+      213: 9009760567966413114
+    second: gragas_attack_096
+  - first:
+      213: 6241083194813433152
+    second: gragas_attack_097
+  - first:
+      213: 5508802172201519739
+    second: gragas_attack_098
+  - first:
+      213: 8467291258553271681
+    second: gragas_attack_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gragas_attack_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587cdc9778830de10800000000000000
+      internalID: 2220336770808924037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1972743180a3be0800000000000000
+      internalID: -1496875047256092206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9300edb23eb370f0800000000000000
+      internalID: -1120342757141904486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316e6a0225e800c30800000000000000
+      internalID: 4323612125661947411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9788b114dbc342ff0800000000000000
+      internalID: -61857711337535367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3e9d5264d0f5300800000000000000
+      internalID: 242927499835204528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c0cc2a26bb2b410800000000000000
+      internalID: 1491460458925526024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77ec3d6c9899bda0800000000000000
+      internalID: -5928539636841519233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfae78ffb8e014be0800000000000000
+      internalID: -1494897606859953412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a14955962f71120800000000000000
+      internalID: 2384641061937224261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f282fdda0d72587e0800000000000000
+      internalID: -1763959901821917137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13c12f32e8ebc400800000000000000
+      internalID: 345625854843405085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b353ba692c05870800000000000000
+      internalID: 8669643235061480266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd6b0133b9469f10800000000000000
+      internalID: 2276087695653170626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3efabe02e2f5d1880800000000000000
+      internalID: -8638643858501292061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c48b9010b9a32690800000000000000
+      internalID: -7628066770177522493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c377875175ada870800000000000000
+      internalID: 8695788361740678082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ae7aaf1f0669c20800000000000000
+      internalID: 3212861976584120840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfefbf9507c7fc2a0800000000000000
+      internalID: -6715011697398251780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f483d4611edce4ae0800000000000000
+      internalID: -1563085654025488305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5e5dcb0c9e0df780800000000000000
+      internalID: -8647739646105788835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fdd4269d011ea2f0800000000000000
+      internalID: -959810920532091403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee8fd5f6b9ae1590800000000000000
+      internalID: -7701531709482758424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cecf9647c725fb30800000000000000
+      internalID: 4320403154368712391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c90e7ccba1535e5f0800000000000000
+      internalID: -728117375797829476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c52f391486c9f00800000000000000
+      internalID: 1124888637800078364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ee1408a6fe8a0b0800000000000000
+      internalID: -5717056486249468393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b5487e8b1114830800000000000000
+      internalID: 4053540625466022699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aaba6f585832c700800000000000000
+      internalID: 559071255956470432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64bc9b1063bdab470800000000000000
+      internalID: 8411276279071492934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234494caca4af16a0800000000000000
+      internalID: -6476276677603670990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32047ab7472f33e50800000000000000
+      internalID: 6788035645482156067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df38f5642c16fa70800000000000000
+      internalID: 8860300259553198040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2cfc2cad5c4a4ca0800000000000000
+      internalID: -6031924785705059283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e794b1b6d7b3ae260800000000000000
+      internalID: 7127574770121132414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef843c7b10f477d60800000000000000
+      internalID: 7887860141159303422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f73ab101465d45a0800000000000000
+      internalID: -6535472647042877447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ade9db2d7d0afe0800000000000000
+      internalID: -1179705802246661573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9471f2dde2305f40800000000000000
+      internalID: 5715123924160836766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90702472040964c0800000000000000
+      internalID: -4293896361136328550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68cfe04028edee00800000000000000
+      internalID: 1075771111237470314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ba0a4f71f2cc200800000000000000
+      internalID: 201587863259753265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53aa8ca619300c8f0800000000000000
+      internalID: -522413633678300619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17cf7404f2ee01800800000000000000
+      internalID: 581226238640127089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5ba822a67333730800000000000000
+      internalID: 3977583824883856806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cd791739524dafc0800000000000000
+      internalID: -3482053985943585344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d877f334af505640800000000000000
+      internalID: 5066654739642939608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66191f613aea89b20800000000000000
+      internalID: 3141452755578753382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559c91e059bd60190800000000000000
+      internalID: -7996462655116555947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43907cd7a8ea95610800000000000000
+      internalID: 1610510251600578868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe35a5df9efffc30800000000000000
+      internalID: 4395511723774525170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922d3c705807b6f10800000000000000
+      internalID: 2264026954347041321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c08fc1473b5be20800000000000000
+      internalID: 3365793607812910103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65593d6c5ed52eb70800000000000000
+      internalID: 8926800652866393430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61ab9decc9e3de570800000000000000
+      internalID: 8497516915124189718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a9fe45d6f24cd190800000000000000
+      internalID: -7936394815425545823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1933ce48b5cf0f260800000000000000
+      internalID: 7129475680129790865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f05264f17fa4c000800000000000000
+      internalID: 55361999401537783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e320a6143044bb960800000000000000
+      internalID: 7618757975400383038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b394fce2344ef40800000000000000
+      internalID: 5756800092011576147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94cf6af1a53991d0800000000000000
+      internalID: -3343582278538247012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77587729a9c02900800000000000000
+      internalID: 657747273944946556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704d219cde2b059e0800000000000000
+      internalID: -1634609930385042425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f1adee647f9a340800000000000000
+      internalID: 4875699955632316208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db254b594cfef550800000000000000
+      internalID: 6196667529302453208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a30055dda3dfd560800000000000000
+      internalID: 7340818661198791587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 983aca7f0426941c0800000000000000
+      internalID: -4518972719916866679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06070b72b6be1360800000000000000
+      internalID: 7142346936740677135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fab4b153c4a98930800000000000000
+      internalID: 4146026090767629042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2dee62fb6fc1cb0800000000000000
+      internalID: -4891763794378829143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a880d08896c7000800000000000000
+      internalID: 35018930167253561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4846ac0482c3160800000000000000
+      internalID: 7006519379020252357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb75e8c44e2cde680800000000000000
+      internalID: -8724102617354053700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054e54b9d303bc050800000000000000
+      internalID: 5821799984462685264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8299711d2754c9640800000000000000
+      internalID: 5088018038458390824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5641307f7e25070800000000000000
+      internalID: 8093786528432809402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f25f39b1f683c50800000000000000
+      internalID: 6645183414422286182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58c4b06d05c9b0bd0800000000000000
+      internalID: -2662862883657134971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b23fca0b559efff40800000000000000
+      internalID: 5764582602303140651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be9763fd1390e110800000000000000
+      internalID: 1288191250274950839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0353cfe6c45532b70800000000000000
+      internalID: 8873029477617906992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d571c2f282430e20800000000000000
+      internalID: 3315566880860763603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0db75470ac2cdb0800000000000000
+      internalID: -4773030522479980366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1ac035f7de0d420800000000000000
+      internalID: 2652881311631188468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2340edfd7a725a50800000000000000
+      internalID: 6508399093052621613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98ef43f00a6026b0800000000000000
+      internalID: -5323138207237281633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d59a46c5376a230800000000000000
+      internalID: 3649731388693372242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8bdd515d2973e70800000000000000
+      internalID: 9094899416390547705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3547d769b6818feb0800000000000000
+      internalID: -4685968561913629613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a791693c32e4c8bb0800000000000000
+      internalID: -4932481576365319814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a461c553f9bd5c10800000000000000
+      internalID: 2043994260663002275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1bb9562b80c6f2e0800000000000000
+      internalID: -2092273272990614753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23e2275315054b90800000000000000
+      internalID: -7258389643813264594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb6402c96a37ac20800000000000000
+      internalID: 3217604684680555483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25dd9ab8365ec7240800000000000000
+      internalID: 4790956319323053394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68503ca30f893600800000000000000
+      internalID: 448546883836598382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31b5f43089190d70800000000000000
+      internalID: 9009760567966413114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045c3885918cc9650800000000000000
+      internalID: 6241083194813433152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ac8f38362337c40800000000000000
+      internalID: 5508802172201519739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18586dbb98cd18570800000000000000
+      internalID: 8467291258553271681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80e922848e876ac0800000000000000
+      internalID: -3861961455676301172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ca8d5a3f569ce30800000000000000
+      internalID: 4524259397804272717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b191bd8b9e80550800000000000000
+      internalID: 6127404273196669806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0739b499a8c305270800000000000000
+      internalID: 8237150284435657584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb311f2818af1c210800000000000000
+      internalID: 1351636797342421947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63efc49884f3c7300800000000000000
+      internalID: 251145259999624758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14b29878efb383a0800000000000000
+      internalID: -6664272018402003937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0473efcfe45fbe380800000000000000
+      internalID: -8940782915613214912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6577399b527e76040800000000000000
+      internalID: 4640932090241840982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962d81c37faf740c0800000000000000
+      internalID: -4591425355308805527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e6a194609769510800000000000000
+      internalID: 1555563789206318728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ceea50e780389d50800000000000000
+      internalID: 6744193802130091718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d95ee6749581f0f80800000000000000
+      internalID: -8138259229905590883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43858467937b19890800000000000000
+      internalID: -7452974450895988684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47514ff9eb3301c10800000000000000
+      internalID: 2022173126509729140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe6ff094c0c21d40800000000000000
+      internalID: 5553713240980025087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: badd37047f2fa02c0800000000000000
+      internalID: -4464488936832246357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890d909d08f209810800000000000000
+      internalID: 1769966884000223384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098dc13a1b42b69b0800000000000000
+      internalID: -5085931008820455280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gragas_attack_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8c44dc6c72bb200800000000000000
+      internalID: 196794743521593571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      gragas_attack_0: 982848111256834812
+      gragas_attack_000: 2220336770808924037
+      gragas_attack_001: -1496875047256092206
+      gragas_attack_002: -1120342757141904486
+      gragas_attack_003: 4323612125661947411
+      gragas_attack_004: -61857711337535367
+      gragas_attack_005: 242927499835204528
+      gragas_attack_006: 1491460458925526024
+      gragas_attack_007: -5928539636841519233
+      gragas_attack_008: -1494897606859953412
+      gragas_attack_009: 2384641061937224261
+      gragas_attack_010: -1763959901821917137
+      gragas_attack_011: 345625854843405085
+      gragas_attack_012: 8669643235061480266
+      gragas_attack_013: 2276087695653170626
+      gragas_attack_014: -8638643858501292061
+      gragas_attack_015: -7628066770177522493
+      gragas_attack_016: 8695788361740678082
+      gragas_attack_017: 3212861976584120840
+      gragas_attack_018: -6715011697398251780
+      gragas_attack_019: -1563085654025488305
+      gragas_attack_020: -8647739646105788835
+      gragas_attack_021: -959810920532091403
+      gragas_attack_022: -7701531709482758424
+      gragas_attack_023: 4320403154368712391
+      gragas_attack_024: -728117375797829476
+      gragas_attack_025: 1124888637800078364
+      gragas_attack_026: -5717056486249468393
+      gragas_attack_027: 4053540625466022699
+      gragas_attack_028: 559071255956470432
+      gragas_attack_029: 8411276279071492934
+      gragas_attack_030: -6476276677603670990
+      gragas_attack_031: 6788035645482156067
+      gragas_attack_032: 8860300259553198040
+      gragas_attack_033: -6031924785705059283
+      gragas_attack_034: 7127574770121132414
+      gragas_attack_035: 7887860141159303422
+      gragas_attack_036: -6535472647042877447
+      gragas_attack_037: -1179705802246661573
+      gragas_attack_038: 5715123924160836766
+      gragas_attack_039: -4293896361136328550
+      gragas_attack_040: 1075771111237470314
+      gragas_attack_041: 201587863259753265
+      gragas_attack_042: -522413633678300619
+      gragas_attack_043: 581226238640127089
+      gragas_attack_044: 3977583824883856806
+      gragas_attack_045: -3482053985943585344
+      gragas_attack_046: 5066654739642939608
+      gragas_attack_047: 3141452755578753382
+      gragas_attack_048: -7996462655116555947
+      gragas_attack_049: 1610510251600578868
+      gragas_attack_050: 4395511723774525170
+      gragas_attack_051: 2264026954347041321
+      gragas_attack_052: 3365793607812910103
+      gragas_attack_053: 8926800652866393430
+      gragas_attack_054: 8497516915124189718
+      gragas_attack_055: -7936394815425545823
+      gragas_attack_056: 7129475680129790865
+      gragas_attack_057: 55361999401537783
+      gragas_attack_058: 7618757975400383038
+      gragas_attack_059: 5756800092011576147
+      gragas_attack_060: -3343582278538247012
+      gragas_attack_061: 657747273944946556
+      gragas_attack_062: -1634609930385042425
+      gragas_attack_063: 4875699955632316208
+      gragas_attack_064: 6196667529302453208
+      gragas_attack_065: 7340818661198791587
+      gragas_attack_066: -4518972719916866679
+      gragas_attack_067: 7142346936740677135
+      gragas_attack_068: 4146026090767629042
+      gragas_attack_069: -4891763794378829143
+      gragas_attack_070: 35018930167253561
+      gragas_attack_071: 7006519379020252357
+      gragas_attack_072: -8724102617354053700
+      gragas_attack_073: 5821799984462685264
+      gragas_attack_074: 5088018038458390824
+      gragas_attack_075: 8093786528432809402
+      gragas_attack_076: 6645183414422286182
+      gragas_attack_077: -2662862883657134971
+      gragas_attack_078: 5764582602303140651
+      gragas_attack_079: 1288191250274950839
+      gragas_attack_080: 8873029477617906992
+      gragas_attack_081: 3315566880860763603
+      gragas_attack_082: -4773030522479980366
+      gragas_attack_083: 2652881311631188468
+      gragas_attack_084: 6508399093052621613
+      gragas_attack_085: -5323138207237281633
+      gragas_attack_086: 3649731388693372242
+      gragas_attack_087: 9094899416390547705
+      gragas_attack_088: -4685968561913629613
+      gragas_attack_089: -4932481576365319814
+      gragas_attack_090: 2043994260663002275
+      gragas_attack_091: -2092273272990614753
+      gragas_attack_092: -7258389643813264594
+      gragas_attack_093: 3217604684680555483
+      gragas_attack_094: 4790956319323053394
+      gragas_attack_095: 448546883836598382
+      gragas_attack_096: 9009760567966413114
+      gragas_attack_097: 6241083194813433152
+      gragas_attack_098: 5508802172201519739
+      gragas_attack_099: 8467291258553271681
+      gragas_attack_1: -6965938052710800007
+      gragas_attack_10: 2233997311389290598
+      gragas_attack_100: -3861961455676301172
+      gragas_attack_101: 4524259397804272717
+      gragas_attack_102: 6127404273196669806
+      gragas_attack_103: 8237150284435657584
+      gragas_attack_104: 1351636797342421947
+      gragas_attack_105: 251145259999624758
+      gragas_attack_106: -6664272018402003937
+      gragas_attack_107: -8940782915613214912
+      gragas_attack_108: 4640932090241840982
+      gragas_attack_109: -4591425355308805527
+      gragas_attack_11: -7722514939591798832
+      gragas_attack_110: 1555563789206318728
+      gragas_attack_111: 6744193802130091718
+      gragas_attack_112: -8138259229905590883
+      gragas_attack_113: -7452974450895988684
+      gragas_attack_114: 2022173126509729140
+      gragas_attack_115: 5553713240980025087
+      gragas_attack_116: -4464488936832246357
+      gragas_attack_117: 1769966884000223384
+      gragas_attack_118: -5085931008820455280
+      gragas_attack_119: 196794743521593571
+      gragas_attack_12: -6555470007269190390
+      gragas_attack_13: -3840492823102142243
+      gragas_attack_14: 6754443506838921776
+      gragas_attack_15: 7174658389581780606
+      gragas_attack_16: 1960492318542747760
+      gragas_attack_17: 8387858011509423453
+      gragas_attack_18: 1716582620625855381
+      gragas_attack_19: -4148169777147723626
+      gragas_attack_2: -4961151567896716165
+      gragas_attack_20: -4967612187509248656
+      gragas_attack_21: 4751067525180644143
+      gragas_attack_22: -7525925111176484483
+      gragas_attack_23: -1223241913327294358
+      gragas_attack_24: -835702915044096871
+      gragas_attack_25: 6445571333823778810
+      gragas_attack_26: -2387081030577933844
+      gragas_attack_27: 5606428191745528153
+      gragas_attack_28: 7963241344598113416
+      gragas_attack_29: -4084715948935055160
+      gragas_attack_3: 8820188533246122928
+      gragas_attack_30: 6208703019218472547
+      gragas_attack_31: 3350791150010224378
+      gragas_attack_32: -5147247957498375446
+      gragas_attack_33: 1779959985452317121
+      gragas_attack_34: 4598516337732340627
+      gragas_attack_35: -571333442205618940
+      gragas_attack_36: -5520622507499031484
+      gragas_attack_37: 4802486106399722805
+      gragas_attack_38: 4912745260498271589
+      gragas_attack_39: 7548490570906583294
+      gragas_attack_4: 2464910434742360037
+      gragas_attack_40: 1980504207591852523
+      gragas_attack_41: 6866790077019481299
+      gragas_attack_42: 7701792746859697545
+      gragas_attack_43: -488530359665783003
+      gragas_attack_44: -4595730929151660229
+      gragas_attack_45: -3892684753434087431
+      gragas_attack_46: -3494982930307997572
+      gragas_attack_47: -6975605198035891091
+      gragas_attack_48: 1201948259472108702
+      gragas_attack_49: 7274337645485023787
+      gragas_attack_5: -8365089958598991897
+      gragas_attack_50: -8543687958573870298
+      gragas_attack_51: 852179081926506519
+      gragas_attack_52: -669706563458835544
+      gragas_attack_53: 3177079945032119575
+      gragas_attack_54: -3172735157187095042
+      gragas_attack_55: -308021804844113123
+      gragas_attack_56: 801919324040662435
+      gragas_attack_57: 3337007294716445810
+      gragas_attack_58: 8245705626769362151
+      gragas_attack_59: 1569355579302795748
+      gragas_attack_6: -5082717630092727567
+      gragas_attack_60: 8768894444678280667
+      gragas_attack_61: -1799974403607249775
+      gragas_attack_62: -7304274222318792451
+      gragas_attack_63: -5734241936643144756
+      gragas_attack_64: 6968859984269981854
+      gragas_attack_65: 3556796565288832034
+      gragas_attack_66: -7460742521036210065
+      gragas_attack_67: 7996983838917613612
+      gragas_attack_68: 6369492011402452130
+      gragas_attack_69: 575159767030554088
+      gragas_attack_7: -4606771913895529276
+      gragas_attack_70: -5943458565688250451
+      gragas_attack_71: 3408869329493262166
+      gragas_attack_72: 2741192463686243968
+      gragas_attack_73: 4711194794037684939
+      gragas_attack_74: 5182110318895780291
+      gragas_attack_75: 1254222304119950811
+      gragas_attack_76: 4381830669630423432
+      gragas_attack_77: 4246898588561112388
+      gragas_attack_78: 5348784880232872733
+      gragas_attack_79: 2083603651576293862
+      gragas_attack_8: 173399909054434232
+      gragas_attack_80: 2183925978664191318
+      gragas_attack_81: -1333667501917072753
+      gragas_attack_82: 5891445015608034036
+      gragas_attack_83: 5434268577482802058
+      gragas_attack_84: -2173836317291017982
+      gragas_attack_85: 3512784053183308590
+      gragas_attack_86: -4766554348877997139
+      gragas_attack_87: 6268434408904323803
+      gragas_attack_88: 7365481063970565118
+      gragas_attack_89: -732646518308333908
+      gragas_attack_9: -4820220167896393236
+      gragas_attack_90: 1423976542855127107
+      gragas_attack_91: -9102799170872630254
+      gragas_attack_92: 1209246612668878718
+      gragas_attack_93: 5508391272211916084
+      gragas_attack_94: -295356775600652018
+      gragas_attack_95: 5945261749850109965
+      gragas_attack_96: -8294483545944253474
+      gragas_attack_97: -7053309612478713176
+      gragas_attack_98: 4804006405821768897
+      gragas_attack_99: 2542885062994165401
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

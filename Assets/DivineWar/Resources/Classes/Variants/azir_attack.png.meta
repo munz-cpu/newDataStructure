@@ -1,0 +1,3809 @@
+fileFormatVersion: 2
+guid: 965149533bdff204cbaed9dc93cb23f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2648365470655610159
+    second: azir_attack_0
+  - first:
+      213: 6810585679113127433
+    second: azir_attack_1
+  - first:
+      213: 841886790965394393
+    second: azir_attack_2
+  - first:
+      213: -6117363247384383030
+    second: azir_attack_3
+  - first:
+      213: -672964761565848577
+    second: azir_attack_4
+  - first:
+      213: 8824889178253377253
+    second: azir_attack_5
+  - first:
+      213: 1645419042226235503
+    second: azir_attack_6
+  - first:
+      213: 5170438548395583533
+    second: azir_attack_7
+  - first:
+      213: -6725726232175927924
+    second: azir_attack_8
+  - first:
+      213: -1601780968652584364
+    second: azir_attack_9
+  - first:
+      213: -5259380384878871185
+    second: azir_attack_10
+  - first:
+      213: 9172210221908518514
+    second: azir_attack_11
+  - first:
+      213: -8378555313411503685
+    second: azir_attack_12
+  - first:
+      213: -1113972997086890858
+    second: azir_attack_13
+  - first:
+      213: -5358777479168928260
+    second: azir_attack_14
+  - first:
+      213: 2214375060921828774
+    second: azir_attack_15
+  - first:
+      213: 6217174361522334816
+    second: azir_attack_16
+  - first:
+      213: 9087010165610056811
+    second: azir_attack_17
+  - first:
+      213: -967545309233965748
+    second: azir_attack_18
+  - first:
+      213: 8417839853589594792
+    second: azir_attack_19
+  - first:
+      213: -6558745015090097004
+    second: azir_attack_20
+  - first:
+      213: 4870387177212722509
+    second: azir_attack_21
+  - first:
+      213: 6738299087219825391
+    second: azir_attack_22
+  - first:
+      213: 3260151613959712127
+    second: azir_attack_23
+  - first:
+      213: -1623350640527757056
+    second: azir_attack_24
+  - first:
+      213: 4861251233397690847
+    second: azir_attack_25
+  - first:
+      213: 2778501177869319399
+    second: azir_attack_26
+  - first:
+      213: -5603892768911601715
+    second: azir_attack_27
+  - first:
+      213: 104342203465778522
+    second: azir_attack_28
+  - first:
+      213: 4941876965996830251
+    second: azir_attack_29
+  - first:
+      213: 7730378391013068058
+    second: azir_attack_30
+  - first:
+      213: -64546184647639275
+    second: azir_attack_31
+  - first:
+      213: 858226506798827842
+    second: azir_attack_32
+  - first:
+      213: 4253331458404302415
+    second: azir_attack_33
+  - first:
+      213: -7951308743483682077
+    second: azir_attack_34
+  - first:
+      213: -174449564212072489
+    second: azir_attack_35
+  - first:
+      213: -1676860331604433103
+    second: azir_attack_36
+  - first:
+      213: -565678576890021136
+    second: azir_attack_37
+  - first:
+      213: 7054924054421847656
+    second: azir_attack_38
+  - first:
+      213: -3945898563218577089
+    second: azir_attack_39
+  - first:
+      213: 5958122307947398025
+    second: azir_attack_40
+  - first:
+      213: 182362980934949957
+    second: azir_attack_41
+  - first:
+      213: -1290181204557377579
+    second: azir_attack_42
+  - first:
+      213: 4741337045183116289
+    second: azir_attack_43
+  - first:
+      213: 6823654814263099538
+    second: azir_attack_44
+  - first:
+      213: -8410135330214700048
+    second: azir_attack_45
+  - first:
+      213: -8439001276857338365
+    second: azir_attack_46
+  - first:
+      213: -4974550428552735109
+    second: azir_attack_47
+  - first:
+      213: -5260564308490526851
+    second: azir_attack_48
+  - first:
+      213: 1843751094460130200
+    second: azir_attack_49
+  - first:
+      213: 4960828055887665674
+    second: azir_attack_50
+  - first:
+      213: 6196046274350177378
+    second: azir_attack_51
+  - first:
+      213: 2155583645881559044
+    second: azir_attack_52
+  - first:
+      213: 1649673412434725934
+    second: azir_attack_53
+  - first:
+      213: 3655861561963709187
+    second: azir_attack_54
+  - first:
+      213: 4572519081029126166
+    second: azir_attack_55
+  - first:
+      213: 7988813926012356081
+    second: azir_attack_56
+  - first:
+      213: 5971392220728649724
+    second: azir_attack_57
+  - first:
+      213: 3806686821929692373
+    second: azir_attack_58
+  - first:
+      213: -4114509167920703916
+    second: azir_attack_59
+  - first:
+      213: -3474809478678381652
+    second: azir_attack_60
+  - first:
+      213: -1463318643572280742
+    second: azir_attack_61
+  - first:
+      213: 4082768998191482546
+    second: azir_attack_62
+  - first:
+      213: 1367888663783279227
+    second: azir_attack_63
+  - first:
+      213: -422747650495730355
+    second: azir_attack_64
+  - first:
+      213: -1129195863589119086
+    second: azir_attack_65
+  - first:
+      213: -2392753959744464133
+    second: azir_attack_66
+  - first:
+      213: -6122967894061917336
+    second: azir_attack_67
+  - first:
+      213: -4659408685491338548
+    second: azir_attack_68
+  - first:
+      213: 6547850447093782130
+    second: azir_attack_69
+  - first:
+      213: 3136906013704984840
+    second: azir_attack_70
+  - first:
+      213: -4099216590967162276
+    second: azir_attack_71
+  - first:
+      213: 6575257294122645355
+    second: azir_attack_72
+  - first:
+      213: 7066350605479646813
+    second: azir_attack_73
+  - first:
+      213: -1802824371308360402
+    second: azir_attack_74
+  - first:
+      213: -3080799280897730955
+    second: azir_attack_75
+  - first:
+      213: 9012029515499380651
+    second: azir_attack_76
+  - first:
+      213: 6589942407611222264
+    second: azir_attack_77
+  - first:
+      213: -6400297192624391447
+    second: azir_attack_78
+  - first:
+      213: -1784630124687709238
+    second: azir_attack_79
+  - first:
+      213: 967655993842105819
+    second: azir_attack_80
+  - first:
+      213: 6349548291772454608
+    second: azir_attack_81
+  - first:
+      213: 3302095169457972885
+    second: azir_attack_82
+  - first:
+      213: 79583663503909773
+    second: azir_attack_83
+  - first:
+      213: -310162250807423489
+    second: azir_attack_84
+  - first:
+      213: 4096055248405919409
+    second: azir_attack_85
+  - first:
+      213: 6537689609841518261
+    second: azir_attack_86
+  - first:
+      213: 8090155013898260009
+    second: azir_attack_87
+  - first:
+      213: -463578647747119346
+    second: azir_attack_88
+  - first:
+      213: 8217997398023215267
+    second: azir_attack_89
+  - first:
+      213: -5918644157429460592
+    second: azir_attack_90
+  - first:
+      213: 185677709533899057
+    second: azir_attack_91
+  - first:
+      213: -5692858616576099085
+    second: azir_attack_92
+  - first:
+      213: 2463611929545962263
+    second: azir_attack_93
+  - first:
+      213: -3231837950829878150
+    second: azir_attack_94
+  - first:
+      213: -6233227025009160072
+    second: azir_attack_95
+  - first:
+      213: 3470835943405653554
+    second: azir_attack_96
+  - first:
+      213: -8257069363069974250
+    second: azir_attack_97
+  - first:
+      213: 4155249671224513527
+    second: azir_attack_98
+  - first:
+      213: -5211970622483231704
+    second: azir_attack_99
+  - first:
+      213: 1788329609244322882
+    second: azir_attack_100
+  - first:
+      213: 2629455339070414358
+    second: azir_attack_101
+  - first:
+      213: 8156743247574606628
+    second: azir_attack_102
+  - first:
+      213: -6329525082008080641
+    second: azir_attack_103
+  - first:
+      213: 3566231432801463398
+    second: azir_attack_104
+  - first:
+      213: 168735096880985431
+    second: azir_attack_105
+  - first:
+      213: 4678647667905539841
+    second: azir_attack_106
+  - first:
+      213: 2694567696620613393
+    second: azir_attack_107
+  - first:
+      213: -6839828856676490074
+    second: azir_attack_108
+  - first:
+      213: 8355357971673689620
+    second: azir_attack_109
+  - first:
+      213: 4250746428238874993
+    second: azir_attack_110
+  - first:
+      213: -1158394935801706514
+    second: azir_attack_111
+  - first:
+      213: -5734305933853566201
+    second: azir_attack_112
+  - first:
+      213: 1966914498803026004
+    second: azir_attack_113
+  - first:
+      213: 8866090096921040599
+    second: azir_attack_114
+  - first:
+      213: -7188330787602216156
+    second: azir_attack_115
+  - first:
+      213: 2482213608466666542
+    second: azir_attack_116
+  - first:
+      213: 56210912815430863
+    second: azir_attack_117
+  - first:
+      213: -5291654092609704523
+    second: azir_attack_118
+  - first:
+      213: -5802082688495559592
+    second: azir_attack_119
+  - first:
+      213: 7265390288165404389
+    second: azir_attack_120
+  - first:
+      213: 9111127950097896327
+    second: azir_attack_121
+  - first:
+      213: 8502229848183361477
+    second: azir_attack_122
+  - first:
+      213: -2186560626939862446
+    second: azir_attack_123
+  - first:
+      213: -2324898968657304020
+    second: azir_attack_124
+  - first:
+      213: 6909641813779670547
+    second: azir_attack_125
+  - first:
+      213: -177791175700855330
+    second: azir_attack_126
+  - first:
+      213: 1749905202486789780
+    second: azir_attack_127
+  - first:
+      213: 7571143497861921097
+    second: azir_attack_128
+  - first:
+      213: 491487042824819367
+    second: azir_attack_129
+  - first:
+      213: 4999037100751973410
+    second: azir_attack_130
+  - first:
+      213: -8240269628488267508
+    second: azir_attack_131
+  - first:
+      213: 5250277676256473196
+    second: azir_attack_132
+  - first:
+      213: -75518058158234748
+    second: azir_attack_133
+  - first:
+      213: -7132905440473557982
+    second: azir_attack_134
+  - first:
+      213: 845886624094295048
+    second: azir_attack_135
+  - first:
+      213: 3880348936502070304
+    second: azir_attack_136
+  - first:
+      213: 5326721752881856869
+    second: azir_attack_137
+  - first:
+      213: 5697728513896343186
+    second: azir_attack_138
+  - first:
+      213: -6046713209553566690
+    second: azir_attack_139
+  - first:
+      213: -8482715556684921237
+    second: azir_attack_140
+  - first:
+      213: 4781198289101822611
+    second: azir_attack_141
+  - first:
+      213: 5329811428220825385
+    second: azir_attack_142
+  - first:
+      213: -5405663661104920084
+    second: azir_attack_143
+  - first:
+      213: -1510234419001361238
+    second: azir_attack_144
+  - first:
+      213: -3531571340591536441
+    second: azir_attack_145
+  - first:
+      213: -3165581097630318726
+    second: azir_attack_146
+  - first:
+      213: -5092781731418916266
+    second: azir_attack_147
+  - first:
+      213: -7750618220483110778
+    second: azir_attack_148
+  - first:
+      213: 3784266995895215383
+    second: azir_attack_149
+  - first:
+      213: 8397102609002936341
+    second: azir_attack_150
+  - first:
+      213: -3464173970425432998
+    second: azir_attack_151
+  - first:
+      213: 3330445906217151693
+    second: azir_attack_152
+  - first:
+      213: 8310397959011866829
+    second: azir_attack_153
+  - first:
+      213: 9155559400785542323
+    second: azir_attack_154
+  - first:
+      213: 6180255815110333913
+    second: azir_attack_155
+  - first:
+      213: -1468152130705892626
+    second: azir_attack_000
+  - first:
+      213: -3866252575377830214
+    second: azir_attack_001
+  - first:
+      213: -4749618267611828167
+    second: azir_attack_002
+  - first:
+      213: -7919644984394416630
+    second: azir_attack_003
+  - first:
+      213: -5642583925091413374
+    second: azir_attack_004
+  - first:
+      213: -691652623801209331
+    second: azir_attack_005
+  - first:
+      213: 907563031907730702
+    second: azir_attack_006
+  - first:
+      213: -8711749387784662200
+    second: azir_attack_007
+  - first:
+      213: -4009040992268527670
+    second: azir_attack_008
+  - first:
+      213: 2297369294349528020
+    second: azir_attack_009
+  - first:
+      213: 8178578427562965828
+    second: azir_attack_010
+  - first:
+      213: -4524332982765191290
+    second: azir_attack_011
+  - first:
+      213: 8043565553980862958
+    second: azir_attack_012
+  - first:
+      213: -4593252404136577925
+    second: azir_attack_013
+  - first:
+      213: 1408112248116292898
+    second: azir_attack_014
+  - first:
+      213: -3974431061599604673
+    second: azir_attack_015
+  - first:
+      213: 6826454799784059687
+    second: azir_attack_016
+  - first:
+      213: -3000246185967191
+    second: azir_attack_017
+  - first:
+      213: -5803255684240859913
+    second: azir_attack_018
+  - first:
+      213: 6597984650352595951
+    second: azir_attack_019
+  - first:
+      213: 94103378480205
+    second: azir_attack_020
+  - first:
+      213: -2005198366387047175
+    second: azir_attack_021
+  - first:
+      213: -6886852857726783386
+    second: azir_attack_022
+  - first:
+      213: 364776851053642665
+    second: azir_attack_023
+  - first:
+      213: 7423199576638786951
+    second: azir_attack_024
+  - first:
+      213: 3100979845860290817
+    second: azir_attack_025
+  - first:
+      213: -2876209168979636509
+    second: azir_attack_026
+  - first:
+      213: -2130781898892980230
+    second: azir_attack_027
+  - first:
+      213: -2129834705066713900
+    second: azir_attack_028
+  - first:
+      213: -7424121705772241401
+    second: azir_attack_029
+  - first:
+      213: 2618341714227809556
+    second: azir_attack_030
+  - first:
+      213: 965557470931211237
+    second: azir_attack_031
+  - first:
+      213: 955483551667890834
+    second: azir_attack_032
+  - first:
+      213: 2324236103537623062
+    second: azir_attack_033
+  - first:
+      213: 2329056995592099442
+    second: azir_attack_034
+  - first:
+      213: -8756309573783087668
+    second: azir_attack_035
+  - first:
+      213: 206340669322894333
+    second: azir_attack_036
+  - first:
+      213: 1294288137721840643
+    second: azir_attack_037
+  - first:
+      213: -7331494696217052815
+    second: azir_attack_038
+  - first:
+      213: -1761342357463690667
+    second: azir_attack_039
+  - first:
+      213: -3508356554762628434
+    second: azir_attack_040
+  - first:
+      213: -733171511523700770
+    second: azir_attack_041
+  - first:
+      213: 6460590124411093025
+    second: azir_attack_042
+  - first:
+      213: -9200805054117545164
+    second: azir_attack_043
+  - first:
+      213: 88049609578748929
+    second: azir_attack_044
+  - first:
+      213: -8123091731996586429
+    second: azir_attack_045
+  - first:
+      213: -293466063766265
+    second: azir_attack_046
+  - first:
+      213: -7836073221113826416
+    second: azir_attack_047
+  - first:
+      213: -528999405269052784
+    second: azir_attack_048
+  - first:
+      213: 3732254839179253193
+    second: azir_attack_049
+  - first:
+      213: 2876251533075360583
+    second: azir_attack_050
+  - first:
+      213: -2525788460153439286
+    second: azir_attack_051
+  - first:
+      213: 13855626815309110
+    second: azir_attack_052
+  - first:
+      213: -919500978330393743
+    second: azir_attack_053
+  - first:
+      213: -8515355576863529474
+    second: azir_attack_054
+  - first:
+      213: 7677834793897277931
+    second: azir_attack_055
+  - first:
+      213: -1003399563931887639
+    second: azir_attack_056
+  - first:
+      213: -1611594117651966410
+    second: azir_attack_057
+  - first:
+      213: 7379957602929039558
+    second: azir_attack_058
+  - first:
+      213: 6491091735426118504
+    second: azir_attack_059
+  - first:
+      213: -369693756762355473
+    second: azir_attack_060
+  - first:
+      213: 126704623502347708
+    second: azir_attack_061
+  - first:
+      213: 3736274162404325711
+    second: azir_attack_062
+  - first:
+      213: -2072507028428196951
+    second: azir_attack_063
+  - first:
+      213: 924428656310144009
+    second: azir_attack_064
+  - first:
+      213: 8495002079415171000
+    second: azir_attack_065
+  - first:
+      213: -9215871115931434485
+    second: azir_attack_066
+  - first:
+      213: 1891880463569733732
+    second: azir_attack_067
+  - first:
+      213: -3413150585590091234
+    second: azir_attack_068
+  - first:
+      213: -7435361789154655639
+    second: azir_attack_069
+  - first:
+      213: 7095297723900461198
+    second: azir_attack_070
+  - first:
+      213: -3351480579813743108
+    second: azir_attack_071
+  - first:
+      213: -6673024274615777252
+    second: azir_attack_072
+  - first:
+      213: -5702823575307311860
+    second: azir_attack_073
+  - first:
+      213: 6365813674931236373
+    second: azir_attack_074
+  - first:
+      213: 6848484787471330894
+    second: azir_attack_075
+  - first:
+      213: -8686624522517198802
+    second: azir_attack_076
+  - first:
+      213: 2341405364324377879
+    second: azir_attack_077
+  - first:
+      213: -79591756964576629
+    second: azir_attack_078
+  - first:
+      213: 4967828141316615264
+    second: azir_attack_079
+  - first:
+      213: -5356884674316113806
+    second: azir_attack_080
+  - first:
+      213: -459727631169275160
+    second: azir_attack_081
+  - first:
+      213: -7641697169391891455
+    second: azir_attack_082
+  - first:
+      213: -1595678178770959150
+    second: azir_attack_083
+  - first:
+      213: -4134930145047915652
+    second: azir_attack_084
+  - first:
+      213: -6762680508521586595
+    second: azir_attack_085
+  - first:
+      213: 5175447819938598880
+    second: azir_attack_086
+  - first:
+      213: -2208803937674178822
+    second: azir_attack_087
+  - first:
+      213: -6863931959950079661
+    second: azir_attack_088
+  - first:
+      213: -2459652236940994002
+    second: azir_attack_089
+  - first:
+      213: -8442757209730232590
+    second: azir_attack_090
+  - first:
+      213: -8741733490786996691
+    second: azir_attack_091
+  - first:
+      213: 8374581488161163805
+    second: azir_attack_092
+  - first:
+      213: -4389582384569244402
+    second: azir_attack_093
+  - first:
+      213: 2512705822455422890
+    second: azir_attack_094
+  - first:
+      213: 4006707586218764552
+    second: azir_attack_095
+  - first:
+      213: -8818836330303110890
+    second: azir_attack_096
+  - first:
+      213: 5019380526396195548
+    second: azir_attack_097
+  - first:
+      213: 2496860722820932624
+    second: azir_attack_098
+  - first:
+      213: -7756917807212862067
+    second: azir_attack_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: azir_attack_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeada0d6a6310abe0800000000000000
+      internalID: -1468152130705892626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe4aa854cf485ac0800000000000000
+      internalID: -3866252575377830214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9307a44a957f51eb0800000000000000
+      internalID: -4749618267611828167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e77f5c8d4c71290800000000000000
+      internalID: -7919644984394416630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 282d899d0d381b1b0800000000000000
+      internalID: -5642583925091413374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0eac5a6a91c666f0800000000000000
+      internalID: -691652623801209331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e050320e4cf489c00800000000000000
+      internalID: 907563031907730702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8435ed0b616a91780800000000000000
+      internalID: -8711749387784662200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7dad555760d58c0800000000000000
+      internalID: -4009040992268527670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbe7938335e1ef10800000000000000
+      internalID: 2297369294349528020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b30967fb5208170800000000000000
+      internalID: 8178578427562965828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f72b48f175631c0800000000000000
+      internalID: -4524332982765191290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1f894314c70af60800000000000000
+      internalID: 8043565553980862958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74fab7464d7140c0800000000000000
+      internalID: -4593252404136577925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d29d011ae9a8310800000000000000
+      internalID: 1408112248116292898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f30b315c10cf7d8c0800000000000000
+      internalID: -3974431061599604673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723a368e8707cbe50800000000000000
+      internalID: 6826454799784059687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1c8dfba4755fff0800000000000000
+      internalID: -3000246185967191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc9e00c3b1b67fa0800000000000000
+      internalID: -5803255684240859913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe31fb5f410c09b50800000000000000
+      internalID: 6597984650352595951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c42762695500000800000000000000
+      internalID: 94103378480205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f47e43b5ba1c24e0800000000000000
+      internalID: -2005198366387047175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660bfc260dbfc60a0800000000000000
+      internalID: -6886852857726783386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a386550d92ff0500800000000000000
+      internalID: 364776851053642665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d82666fa0840760800000000000000
+      internalID: 7423199576638786951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101f5287db4e80b20800000000000000
+      internalID: 3100979845860290817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee4f37eff6a518d0800000000000000
+      internalID: -2876209168979636509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affc6aef621fd62e0800000000000000
+      internalID: -2130781898892980230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc133ebe9e4172e0800000000000000
+      internalID: -2129834705066713900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ead2ea4a838f890800000000000000
+      internalID: -7424121705772241401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41dc221aae7365420800000000000000
+      internalID: 2618341714227809556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e354117769566d00800000000000000
+      internalID: 965557470931211237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29aa4e55a3f824d00800000000000000
+      internalID: 955483551667890834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6108f7dfb68514020800000000000000
+      internalID: 2324236103537623062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276d7e36ff8725020800000000000000
+      internalID: 2329056995592099442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc59e47e5d65b7680800000000000000
+      internalID: -8756309573783087668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb15b9deb11dd200800000000000000
+      internalID: 206340669322894333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30489ed243c36f110800000000000000
+      internalID: 1294288137721840643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179725fea6c414a90800000000000000
+      internalID: -7331494696217052815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552178735747e87e0800000000000000
+      internalID: -1761342357463690667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2d5ff2d40df4fc0800000000000000
+      internalID: -3508356554762628434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf8130156043d5f0800000000000000
+      internalID: -733171511523700770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1208bec0d70a8a950800000000000000
+      internalID: 6460590124411093025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b74bd1d8c205080800000000000000
+      internalID: -9200805054117545164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c9d8547a0d83100800000000000000
+      internalID: 88049609578748929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e4e649b1bf44f80800000000000000
+      internalID: -8123091731996586429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70df38b1815fefff0800000000000000
+      internalID: -293466063766265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0933f853ceca04390800000000000000
+      internalID: -7836073221113826416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0929b8af7dd98a8f0800000000000000
+      internalID: -528999405269052784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5138c7002abc330800000000000000
+      internalID: 3732254839179253193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b21a1c78f7ae720800000000000000
+      internalID: 2876251533075360583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbf5c617c892fcd0800000000000000
+      internalID: -2525788460153439286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63587728e99313000800000000000000
+      internalID: 13855626815309110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1732eff5bb64d33f0800000000000000
+      internalID: -919500978330393743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef568e8183163d980800000000000000
+      internalID: -8515355576863529474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9b16ee0162d8a60800000000000000
+      internalID: 7677834793897277931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7de00b9653312f0800000000000000
+      internalID: -1003399563931887639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636de3740b772a9e0800000000000000
+      internalID: -1611594117651966410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c85704d650ea6660800000000000000
+      internalID: 7379957602929039558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8633c86ca8df41a50800000000000000
+      internalID: 6491091735426118504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe80088ac759edaf0800000000000000
+      internalID: -369693756762355473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdc14b0f2522c100800000000000000
+      internalID: 126704623502347708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4974991e89e9d330800000000000000
+      internalID: 3736274162404325711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3790896d9fc33e0800000000000000
+      internalID: -2072507028428196951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cce8f07fa34dc00800000000000000
+      internalID: 924428656310144009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7febdf16f44e570800000000000000
+      internalID: 8495002079415171000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02cf1f3c06aa1080800000000000000
+      internalID: -9215871115931434485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468439c024f414a10800000000000000
+      internalID: 1891880463569733732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e127cf440ad02a0d0800000000000000
+      internalID: -3413150585590091234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9628ce4d8d940d890800000000000000
+      internalID: -7435361789154655639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8089b8ffaf877260800000000000000
+      internalID: 7095297723900461198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf5e4986b262d71d0800000000000000
+      internalID: -3351480579813743108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18c7f507c7a463a0800000000000000
+      internalID: -6673024274615777252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05a5115c208bd0b0800000000000000
+      internalID: -5702823575307311860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ea9905fc9e75850800000000000000
+      internalID: 6365813674931236373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e25ee11a4ba0f50800000000000000
+      internalID: 6848484787471330894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e284a2e3509e27780800000000000000
+      internalID: -8686624522517198802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 715afb706c75e7020800000000000000
+      internalID: 2341405364324377879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82c31ff7bb35eef0800000000000000
+      internalID: -79591756964576629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cad54bf5541f440800000000000000
+      internalID: 4967828141316615264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27867ac45c588a5b0800000000000000
+      internalID: -5356884674316113806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea39bab728be99f0800000000000000
+      internalID: -459727631169275160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10cc94179ec33f590800000000000000
+      internalID: -7641697169391891455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4c38296230bd9e0800000000000000
+      internalID: -1595678178770959150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c735d5dd0f6cd96c0800000000000000
+      internalID: -4134930145047915652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50ec1068e12622a0800000000000000
+      internalID: -6762680508521586595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef820d1f52e2d740800000000000000
+      internalID: 5175447819938598880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe427c7580c851e0800000000000000
+      internalID: -2208803937674178822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35989b4cf3a6eb0a0800000000000000
+      internalID: -6863931959950079661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a1322825f8dddd0800000000000000
+      internalID: -2459652236940994002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe4925ac0d45da80800000000000000
+      internalID: -8442757209730232590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e6180b4bf1fa680800000000000000
+      internalID: -8741733490786996691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1a88683e7d783470800000000000000
+      internalID: 8374581488161163805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05207704121513c0800000000000000
+      internalID: -4389582384569244402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafd284f1aceed220800000000000000
+      internalID: 2512705822455422890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809ae6b325faa9730800000000000000
+      internalID: 4006707586218764552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61149ffe4133d9580800000000000000
+      internalID: -8818836330303110890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2cb54befb68a540800000000000000
+      internalID: 5019380526396195548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014ed553991a6a220800000000000000
+      internalID: 2496860722820932624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85ec2d2a54e95490800000000000000
+      internalID: -7756917807212862067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c225cfd4c61d810800000000000000
+      internalID: 1788329609244322882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61edb0e03b3bd7420800000000000000
+      internalID: 2629455339070414358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42320c374c2923170800000000000000
+      internalID: 8156743247574606628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffeabf129720928a0800000000000000
+      internalID: -6329525082008080641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ca6fae79ccd7130800000000000000
+      internalID: 3566231432801463398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7557bb63da7775200800000000000000
+      internalID: 168735096880985431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f28b2f345ede040800000000000000
+      internalID: 4678647667905539841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f605c2b07056520800000000000000
+      internalID: 2694567696620613393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a4e451d4eb0411a0800000000000000
+      internalID: -6839828856676490074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ea6d08ec134f370800000000000000
+      internalID: 8355357971673689620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1794075ea5fadfa30800000000000000
+      internalID: 4250746428238874993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee78ded71fd8cefe0800000000000000
+      internalID: -1158394935801706514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b5e338227ab60b0800000000000000
+      internalID: -5734305933853566201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45848b4c052eb4b10800000000000000
+      internalID: 1966914498803026004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d65695f7fdaa0b70800000000000000
+      internalID: 8866090096921040599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b47fceb3bed3c90800000000000000
+      internalID: -7188330787602216156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e24db452028927220800000000000000
+      internalID: 2482213608466666542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc3dd20783b7c000800000000000000
+      internalID: 56210912815430863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bda1cf93a44096b0800000000000000
+      internalID: -5291654092609704523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: azir_attack_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c57ca198cda7fa0800000000000000
+      internalID: -5802082688495559592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      azir_attack_0: -2648365470655610159
+      azir_attack_000: -1468152130705892626
+      azir_attack_001: -3866252575377830214
+      azir_attack_002: -4749618267611828167
+      azir_attack_003: -7919644984394416630
+      azir_attack_004: -5642583925091413374
+      azir_attack_005: -691652623801209331
+      azir_attack_006: 907563031907730702
+      azir_attack_007: -8711749387784662200
+      azir_attack_008: -4009040992268527670
+      azir_attack_009: 2297369294349528020
+      azir_attack_010: 8178578427562965828
+      azir_attack_011: -4524332982765191290
+      azir_attack_012: 8043565553980862958
+      azir_attack_013: -4593252404136577925
+      azir_attack_014: 1408112248116292898
+      azir_attack_015: -3974431061599604673
+      azir_attack_016: 6826454799784059687
+      azir_attack_017: -3000246185967191
+      azir_attack_018: -5803255684240859913
+      azir_attack_019: 6597984650352595951
+      azir_attack_020: 94103378480205
+      azir_attack_021: -2005198366387047175
+      azir_attack_022: -6886852857726783386
+      azir_attack_023: 364776851053642665
+      azir_attack_024: 7423199576638786951
+      azir_attack_025: 3100979845860290817
+      azir_attack_026: -2876209168979636509
+      azir_attack_027: -2130781898892980230
+      azir_attack_028: -2129834705066713900
+      azir_attack_029: -7424121705772241401
+      azir_attack_030: 2618341714227809556
+      azir_attack_031: 965557470931211237
+      azir_attack_032: 955483551667890834
+      azir_attack_033: 2324236103537623062
+      azir_attack_034: 2329056995592099442
+      azir_attack_035: -8756309573783087668
+      azir_attack_036: 206340669322894333
+      azir_attack_037: 1294288137721840643
+      azir_attack_038: -7331494696217052815
+      azir_attack_039: -1761342357463690667
+      azir_attack_040: -3508356554762628434
+      azir_attack_041: -733171511523700770
+      azir_attack_042: 6460590124411093025
+      azir_attack_043: -9200805054117545164
+      azir_attack_044: 88049609578748929
+      azir_attack_045: -8123091731996586429
+      azir_attack_046: -293466063766265
+      azir_attack_047: -7836073221113826416
+      azir_attack_048: -528999405269052784
+      azir_attack_049: 3732254839179253193
+      azir_attack_050: 2876251533075360583
+      azir_attack_051: -2525788460153439286
+      azir_attack_052: 13855626815309110
+      azir_attack_053: -919500978330393743
+      azir_attack_054: -8515355576863529474
+      azir_attack_055: 7677834793897277931
+      azir_attack_056: -1003399563931887639
+      azir_attack_057: -1611594117651966410
+      azir_attack_058: 7379957602929039558
+      azir_attack_059: 6491091735426118504
+      azir_attack_060: -369693756762355473
+      azir_attack_061: 126704623502347708
+      azir_attack_062: 3736274162404325711
+      azir_attack_063: -2072507028428196951
+      azir_attack_064: 924428656310144009
+      azir_attack_065: 8495002079415171000
+      azir_attack_066: -9215871115931434485
+      azir_attack_067: 1891880463569733732
+      azir_attack_068: -3413150585590091234
+      azir_attack_069: -7435361789154655639
+      azir_attack_070: 7095297723900461198
+      azir_attack_071: -3351480579813743108
+      azir_attack_072: -6673024274615777252
+      azir_attack_073: -5702823575307311860
+      azir_attack_074: 6365813674931236373
+      azir_attack_075: 6848484787471330894
+      azir_attack_076: -8686624522517198802
+      azir_attack_077: 2341405364324377879
+      azir_attack_078: -79591756964576629
+      azir_attack_079: 4967828141316615264
+      azir_attack_080: -5356884674316113806
+      azir_attack_081: -459727631169275160
+      azir_attack_082: -7641697169391891455
+      azir_attack_083: -1595678178770959150
+      azir_attack_084: -4134930145047915652
+      azir_attack_085: -6762680508521586595
+      azir_attack_086: 5175447819938598880
+      azir_attack_087: -2208803937674178822
+      azir_attack_088: -6863931959950079661
+      azir_attack_089: -2459652236940994002
+      azir_attack_090: -8442757209730232590
+      azir_attack_091: -8741733490786996691
+      azir_attack_092: 8374581488161163805
+      azir_attack_093: -4389582384569244402
+      azir_attack_094: 2512705822455422890
+      azir_attack_095: 4006707586218764552
+      azir_attack_096: -8818836330303110890
+      azir_attack_097: 5019380526396195548
+      azir_attack_098: 2496860722820932624
+      azir_attack_099: -7756917807212862067
+      azir_attack_1: 6810585679113127433
+      azir_attack_10: -5259380384878871185
+      azir_attack_100: 1788329609244322882
+      azir_attack_101: 2629455339070414358
+      azir_attack_102: 8156743247574606628
+      azir_attack_103: -6329525082008080641
+      azir_attack_104: 3566231432801463398
+      azir_attack_105: 168735096880985431
+      azir_attack_106: 4678647667905539841
+      azir_attack_107: 2694567696620613393
+      azir_attack_108: -6839828856676490074
+      azir_attack_109: 8355357971673689620
+      azir_attack_11: 9172210221908518514
+      azir_attack_110: 4250746428238874993
+      azir_attack_111: -1158394935801706514
+      azir_attack_112: -5734305933853566201
+      azir_attack_113: 1966914498803026004
+      azir_attack_114: 8866090096921040599
+      azir_attack_115: -7188330787602216156
+      azir_attack_116: 2482213608466666542
+      azir_attack_117: 56210912815430863
+      azir_attack_118: -5291654092609704523
+      azir_attack_119: -5802082688495559592
+      azir_attack_12: -8378555313411503685
+      azir_attack_120: 7265390288165404389
+      azir_attack_121: 9111127950097896327
+      azir_attack_122: 8502229848183361477
+      azir_attack_123: -2186560626939862446
+      azir_attack_124: -2324898968657304020
+      azir_attack_125: 6909641813779670547
+      azir_attack_126: -177791175700855330
+      azir_attack_127: 1749905202486789780
+      azir_attack_128: 7571143497861921097
+      azir_attack_129: 491487042824819367
+      azir_attack_13: -1113972997086890858
+      azir_attack_130: 4999037100751973410
+      azir_attack_131: -8240269628488267508
+      azir_attack_132: 5250277676256473196
+      azir_attack_133: -75518058158234748
+      azir_attack_134: -7132905440473557982
+      azir_attack_135: 845886624094295048
+      azir_attack_136: 3880348936502070304
+      azir_attack_137: 5326721752881856869
+      azir_attack_138: 5697728513896343186
+      azir_attack_139: -6046713209553566690
+      azir_attack_14: -5358777479168928260
+      azir_attack_140: -8482715556684921237
+      azir_attack_141: 4781198289101822611
+      azir_attack_142: 5329811428220825385
+      azir_attack_143: -5405663661104920084
+      azir_attack_144: -1510234419001361238
+      azir_attack_145: -3531571340591536441
+      azir_attack_146: -3165581097630318726
+      azir_attack_147: -5092781731418916266
+      azir_attack_148: -7750618220483110778
+      azir_attack_149: 3784266995895215383
+      azir_attack_15: 2214375060921828774
+      azir_attack_150: 8397102609002936341
+      azir_attack_151: -3464173970425432998
+      azir_attack_152: 3330445906217151693
+      azir_attack_153: 8310397959011866829
+      azir_attack_154: 9155559400785542323
+      azir_attack_155: 6180255815110333913
+      azir_attack_16: 6217174361522334816
+      azir_attack_17: 9087010165610056811
+      azir_attack_18: -967545309233965748
+      azir_attack_19: 8417839853589594792
+      azir_attack_2: 841886790965394393
+      azir_attack_20: -6558745015090097004
+      azir_attack_21: 4870387177212722509
+      azir_attack_22: 6738299087219825391
+      azir_attack_23: 3260151613959712127
+      azir_attack_24: -1623350640527757056
+      azir_attack_25: 4861251233397690847
+      azir_attack_26: 2778501177869319399
+      azir_attack_27: -5603892768911601715
+      azir_attack_28: 104342203465778522
+      azir_attack_29: 4941876965996830251
+      azir_attack_3: -6117363247384383030
+      azir_attack_30: 7730378391013068058
+      azir_attack_31: -64546184647639275
+      azir_attack_32: 858226506798827842
+      azir_attack_33: 4253331458404302415
+      azir_attack_34: -7951308743483682077
+      azir_attack_35: -174449564212072489
+      azir_attack_36: -1676860331604433103
+      azir_attack_37: -565678576890021136
+      azir_attack_38: 7054924054421847656
+      azir_attack_39: -3945898563218577089
+      azir_attack_4: -672964761565848577
+      azir_attack_40: 5958122307947398025
+      azir_attack_41: 182362980934949957
+      azir_attack_42: -1290181204557377579
+      azir_attack_43: 4741337045183116289
+      azir_attack_44: 6823654814263099538
+      azir_attack_45: -8410135330214700048
+      azir_attack_46: -8439001276857338365
+      azir_attack_47: -4974550428552735109
+      azir_attack_48: -5260564308490526851
+      azir_attack_49: 1843751094460130200
+      azir_attack_5: 8824889178253377253
+      azir_attack_50: 4960828055887665674
+      azir_attack_51: 6196046274350177378
+      azir_attack_52: 2155583645881559044
+      azir_attack_53: 1649673412434725934
+      azir_attack_54: 3655861561963709187
+      azir_attack_55: 4572519081029126166
+      azir_attack_56: 7988813926012356081
+      azir_attack_57: 5971392220728649724
+      azir_attack_58: 3806686821929692373
+      azir_attack_59: -4114509167920703916
+      azir_attack_6: 1645419042226235503
+      azir_attack_60: -3474809478678381652
+      azir_attack_61: -1463318643572280742
+      azir_attack_62: 4082768998191482546
+      azir_attack_63: 1367888663783279227
+      azir_attack_64: -422747650495730355
+      azir_attack_65: -1129195863589119086
+      azir_attack_66: -2392753959744464133
+      azir_attack_67: -6122967894061917336
+      azir_attack_68: -4659408685491338548
+      azir_attack_69: 6547850447093782130
+      azir_attack_7: 5170438548395583533
+      azir_attack_70: 3136906013704984840
+      azir_attack_71: -4099216590967162276
+      azir_attack_72: 6575257294122645355
+      azir_attack_73: 7066350605479646813
+      azir_attack_74: -1802824371308360402
+      azir_attack_75: -3080799280897730955
+      azir_attack_76: 9012029515499380651
+      azir_attack_77: 6589942407611222264
+      azir_attack_78: -6400297192624391447
+      azir_attack_79: -1784630124687709238
+      azir_attack_8: -6725726232175927924
+      azir_attack_80: 967655993842105819
+      azir_attack_81: 6349548291772454608
+      azir_attack_82: 3302095169457972885
+      azir_attack_83: 79583663503909773
+      azir_attack_84: -310162250807423489
+      azir_attack_85: 4096055248405919409
+      azir_attack_86: 6537689609841518261
+      azir_attack_87: 8090155013898260009
+      azir_attack_88: -463578647747119346
+      azir_attack_89: 8217997398023215267
+      azir_attack_9: -1601780968652584364
+      azir_attack_90: -5918644157429460592
+      azir_attack_91: 185677709533899057
+      azir_attack_92: -5692858616576099085
+      azir_attack_93: 2463611929545962263
+      azir_attack_94: -3231837950829878150
+      azir_attack_95: -6233227025009160072
+      azir_attack_96: 3470835943405653554
+      azir_attack_97: -8257069363069974250
+      azir_attack_98: 4155249671224513527
+      azir_attack_99: -5211970622483231704
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

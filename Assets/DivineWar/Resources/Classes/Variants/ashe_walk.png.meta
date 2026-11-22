@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 059931ecd4bb01e4694bab0267c09162
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -698679969746424343
+    second: ashe_walk_0
+  - first:
+      213: -5627693089103539009
+    second: ashe_walk_1
+  - first:
+      213: -8120763114869384373
+    second: ashe_walk_2
+  - first:
+      213: 5336214662227574828
+    second: ashe_walk_3
+  - first:
+      213: -7922539232552382857
+    second: ashe_walk_4
+  - first:
+      213: -8743384929663009558
+    second: ashe_walk_5
+  - first:
+      213: 1379404772922329612
+    second: ashe_walk_6
+  - first:
+      213: -8959184966450199030
+    second: ashe_walk_7
+  - first:
+      213: 4560522667465324535
+    second: ashe_walk_8
+  - first:
+      213: 3794241214405606717
+    second: ashe_walk_9
+  - first:
+      213: -5012919616925549870
+    second: ashe_walk_10
+  - first:
+      213: 4315923400364141675
+    second: ashe_walk_11
+  - first:
+      213: 6735006402946609731
+    second: ashe_walk_12
+  - first:
+      213: -239111445146987609
+    second: ashe_walk_13
+  - first:
+      213: -7915713489136730712
+    second: ashe_walk_14
+  - first:
+      213: 5876353506297090414
+    second: ashe_walk_15
+  - first:
+      213: -5719641793975785577
+    second: ashe_walk_16
+  - first:
+      213: 76188026185788507
+    second: ashe_walk_17
+  - first:
+      213: 8749600927321470680
+    second: ashe_walk_18
+  - first:
+      213: -6400891059011065995
+    second: ashe_walk_19
+  - first:
+      213: 4610881933168093145
+    second: ashe_walk_20
+  - first:
+      213: -3096261029353451416
+    second: ashe_walk_21
+  - first:
+      213: -5735058611575348991
+    second: ashe_walk_22
+  - first:
+      213: -3333085535689447614
+    second: ashe_walk_23
+  - first:
+      213: -8657901991249501295
+    second: ashe_walk_24
+  - first:
+      213: 8179601350927851222
+    second: ashe_walk_25
+  - first:
+      213: -7599672912288037699
+    second: ashe_walk_26
+  - first:
+      213: -4942416363110388620
+    second: ashe_walk_27
+  - first:
+      213: -3228708551923301547
+    second: ashe_walk_28
+  - first:
+      213: -7310119949199316527
+    second: ashe_walk_29
+  - first:
+      213: 5345398769820136133
+    second: ashe_walk_30
+  - first:
+      213: 2690917695605725256
+    second: ashe_walk_31
+  - first:
+      213: -7111366533212302682
+    second: ashe_walk_32
+  - first:
+      213: 6942893665078764762
+    second: ashe_walk_33
+  - first:
+      213: 2332819556429130205
+    second: ashe_walk_34
+  - first:
+      213: 1011424039953337458
+    second: ashe_walk_35
+  - first:
+      213: 817261669632347519
+    second: ashe_walk_36
+  - first:
+      213: 4639668372271050826
+    second: ashe_walk_37
+  - first:
+      213: -885637653522189521
+    second: ashe_walk_38
+  - first:
+      213: 2483777377138336862
+    second: ashe_walk_39
+  - first:
+      213: -8920065158758049365
+    second: ashe_walk_40
+  - first:
+      213: 6932721473623915721
+    second: ashe_walk_41
+  - first:
+      213: 3642783793582656269
+    second: ashe_walk_42
+  - first:
+      213: -4262695873927298496
+    second: ashe_walk_43
+  - first:
+      213: -1431540437908026564
+    second: ashe_walk_44
+  - first:
+      213: 6560992304387610992
+    second: ashe_walk_45
+  - first:
+      213: 277635657864905080
+    second: ashe_walk_46
+  - first:
+      213: 36264913553752479
+    second: ashe_walk_47
+  - first:
+      213: 8558746904047167836
+    second: ashe_walk_48
+  - first:
+      213: 6242906444265903009
+    second: ashe_walk_49
+  - first:
+      213: -1855422996754004121
+    second: ashe_walk_50
+  - first:
+      213: -6589284469710597190
+    second: ashe_walk_51
+  - first:
+      213: -3838964094145101900
+    second: ashe_walk_52
+  - first:
+      213: -2030067768339262542
+    second: ashe_walk_53
+  - first:
+      213: 1979997821935386144
+    second: ashe_walk_54
+  - first:
+      213: 212520181608773591
+    second: ashe_walk_55
+  - first:
+      213: 7935355059862120659
+    second: ashe_walk_56
+  - first:
+      213: 4286433621208056261
+    second: ashe_walk_57
+  - first:
+      213: -91725722257180179
+    second: ashe_walk_58
+  - first:
+      213: 645440275307724605
+    second: ashe_walk_59
+  - first:
+      213: 3544949573475125879
+    second: ashe_walk_60
+  - first:
+      213: 4631326271215880160
+    second: ashe_walk_61
+  - first:
+      213: 5267298908278051195
+    second: ashe_walk_62
+  - first:
+      213: 7747336900856560213
+    second: ashe_walk_63
+  - first:
+      213: -8084716895111363102
+    second: ashe_walk_64
+  - first:
+      213: -3033964220658751294
+    second: ashe_walk_65
+  - first:
+      213: 7432242958089690375
+    second: ashe_walk_66
+  - first:
+      213: 276800268086308774
+    second: ashe_walk_67
+  - first:
+      213: 6489125812056887328
+    second: ashe_walk_68
+  - first:
+      213: 6870657118104782809
+    second: ashe_walk_69
+  - first:
+      213: -1074317633634807705
+    second: ashe_walk_70
+  - first:
+      213: 3045419840564937341
+    second: ashe_walk_71
+  - first:
+      213: -1036897525626599901
+    second: ashe_walk_72
+  - first:
+      213: 6073996813675714086
+    second: ashe_walk_73
+  - first:
+      213: 5485997420209198182
+    second: ashe_walk_74
+  - first:
+      213: 7306977149910058411
+    second: ashe_walk_75
+  - first:
+      213: -7030068700865382123
+    second: ashe_walk_76
+  - first:
+      213: 2739047304021723559
+    second: ashe_walk_77
+  - first:
+      213: -7510984761379639120
+    second: ashe_walk_78
+  - first:
+      213: -8527368618321903938
+    second: ashe_walk_79
+  - first:
+      213: 931521274359302501
+    second: ashe_walk_80
+  - first:
+      213: -7473738017725040829
+    second: ashe_walk_81
+  - first:
+      213: 3586603806548529105
+    second: ashe_walk_82
+  - first:
+      213: 1624388033083619322
+    second: ashe_walk_83
+  - first:
+      213: -1446712967100911930
+    second: ashe_walk_84
+  - first:
+      213: -2482674868757477824
+    second: ashe_walk_85
+  - first:
+      213: -3823686977762233403
+    second: ashe_walk_86
+  - first:
+      213: -3735285392515488096
+    second: ashe_walk_87
+  - first:
+      213: -5638363186938849863
+    second: ashe_walk_88
+  - first:
+      213: -7603681780302629500
+    second: ashe_walk_89
+  - first:
+      213: -4070883342579170865
+    second: ashe_walk_90
+  - first:
+      213: 1440031694053566427
+    second: ashe_walk_91
+  - first:
+      213: 3183488945889976204
+    second: ashe_walk_92
+  - first:
+      213: 7767469016493700516
+    second: ashe_walk_93
+  - first:
+      213: 4064578874146856242
+    second: ashe_walk_94
+  - first:
+      213: -2420716278423983829
+    second: ashe_walk_95
+  - first:
+      213: -2992327291268765763
+    second: ashe_walk_96
+  - first:
+      213: 7092538550353292111
+    second: ashe_walk_97
+  - first:
+      213: -2260612004076088157
+    second: ashe_walk_98
+  - first:
+      213: 5849890115924651558
+    second: ashe_walk_99
+  - first:
+      213: -7657379199211261196
+    second: ashe_walk_100
+  - first:
+      213: 5191146696955759401
+    second: ashe_walk_101
+  - first:
+      213: -3247086744020513510
+    second: ashe_walk_102
+  - first:
+      213: -3004391102359608176
+    second: ashe_walk_103
+  - first:
+      213: 4736194038101228686
+    second: ashe_walk_104
+  - first:
+      213: 7778987305039995187
+    second: ashe_walk_105
+  - first:
+      213: -2159347796864787970
+    second: ashe_walk_106
+  - first:
+      213: -2723135524982960782
+    second: ashe_walk_107
+  - first:
+      213: -1067485469444441240
+    second: ashe_walk_108
+  - first:
+      213: -6209301658956867307
+    second: ashe_walk_109
+  - first:
+      213: 6922856913933731322
+    second: ashe_walk_110
+  - first:
+      213: -2558804864031735782
+    second: ashe_walk_111
+  - first:
+      213: 2017925741936205091
+    second: ashe_walk_112
+  - first:
+      213: -3428100093443480422
+    second: ashe_walk_113
+  - first:
+      213: 508999595921715081
+    second: ashe_walk_114
+  - first:
+      213: -3060075096600928080
+    second: ashe_walk_115
+  - first:
+      213: 9013410997984590256
+    second: ashe_walk_116
+  - first:
+      213: 1993173507342064161
+    second: ashe_walk_117
+  - first:
+      213: 151400811912163714
+    second: ashe_walk_118
+  - first:
+      213: -6886794063696737893
+    second: ashe_walk_119
+  - first:
+      213: 3843951961245090544
+    second: ashe_walk_000
+  - first:
+      213: -472788783420194652
+    second: ashe_walk_001
+  - first:
+      213: 5315530739924779214
+    second: ashe_walk_002
+  - first:
+      213: 7356619140863562263
+    second: ashe_walk_003
+  - first:
+      213: 6418626488852669869
+    second: ashe_walk_004
+  - first:
+      213: -4765850823146411264
+    second: ashe_walk_005
+  - first:
+      213: -1742022496605016346
+    second: ashe_walk_006
+  - first:
+      213: 1390935803068551278
+    second: ashe_walk_007
+  - first:
+      213: 2904416929708967077
+    second: ashe_walk_008
+  - first:
+      213: -926377396045349086
+    second: ashe_walk_009
+  - first:
+      213: -8999709436994914264
+    second: ashe_walk_010
+  - first:
+      213: -1428225598024882581
+    second: ashe_walk_011
+  - first:
+      213: -5217962379227275730
+    second: ashe_walk_012
+  - first:
+      213: -6137967528971977266
+    second: ashe_walk_013
+  - first:
+      213: 9221088765162157014
+    second: ashe_walk_014
+  - first:
+      213: 7566784802692505778
+    second: ashe_walk_015
+  - first:
+      213: -2013791112019772648
+    second: ashe_walk_016
+  - first:
+      213: -8474831897719114145
+    second: ashe_walk_017
+  - first:
+      213: -6941570371770718712
+    second: ashe_walk_018
+  - first:
+      213: 7965992629015951926
+    second: ashe_walk_019
+  - first:
+      213: -1324359200515022652
+    second: ashe_walk_020
+  - first:
+      213: 3457180936695900990
+    second: ashe_walk_021
+  - first:
+      213: -1833509257936459730
+    second: ashe_walk_022
+  - first:
+      213: -7637532022725977573
+    second: ashe_walk_023
+  - first:
+      213: 317973282158656357
+    second: ashe_walk_024
+  - first:
+      213: 2377385467056037916
+    second: ashe_walk_025
+  - first:
+      213: 1699508268794610587
+    second: ashe_walk_026
+  - first:
+      213: -340515337071315240
+    second: ashe_walk_027
+  - first:
+      213: -6538478672367606112
+    second: ashe_walk_028
+  - first:
+      213: 8235542538561962840
+    second: ashe_walk_029
+  - first:
+      213: -1087586000547379705
+    second: ashe_walk_030
+  - first:
+      213: -7175390996161638968
+    second: ashe_walk_031
+  - first:
+      213: 4114898581446029979
+    second: ashe_walk_032
+  - first:
+      213: -7161116519853609952
+    second: ashe_walk_033
+  - first:
+      213: 1057420384278120470
+    second: ashe_walk_034
+  - first:
+      213: 5468679597844509715
+    second: ashe_walk_035
+  - first:
+      213: 4216954244707641459
+    second: ashe_walk_036
+  - first:
+      213: -5117463675196991360
+    second: ashe_walk_037
+  - first:
+      213: -4792081183806519239
+    second: ashe_walk_038
+  - first:
+      213: -5186216141512821951
+    second: ashe_walk_039
+  - first:
+      213: 5510195978427181338
+    second: ashe_walk_040
+  - first:
+      213: 2082471504889367862
+    second: ashe_walk_041
+  - first:
+      213: 1967200821182300179
+    second: ashe_walk_042
+  - first:
+      213: -7343810481477270899
+    second: ashe_walk_043
+  - first:
+      213: -1419926859429616231
+    second: ashe_walk_044
+  - first:
+      213: -5898752057589943345
+    second: ashe_walk_045
+  - first:
+      213: -1528517095186947794
+    second: ashe_walk_046
+  - first:
+      213: 8716194035066140527
+    second: ashe_walk_047
+  - first:
+      213: 6127762940965184945
+    second: ashe_walk_048
+  - first:
+      213: 6104006796514903853
+    second: ashe_walk_049
+  - first:
+      213: 3416185451687554207
+    second: ashe_walk_050
+  - first:
+      213: 9049789156961841171
+    second: ashe_walk_051
+  - first:
+      213: -12586036431393191
+    second: ashe_walk_052
+  - first:
+      213: 237513155406418444
+    second: ashe_walk_053
+  - first:
+      213: 1646658642520547449
+    second: ashe_walk_054
+  - first:
+      213: -3519388561166711385
+    second: ashe_walk_055
+  - first:
+      213: -7532380848474941524
+    second: ashe_walk_056
+  - first:
+      213: 5228201253267474837
+    second: ashe_walk_057
+  - first:
+      213: -5996343142468052834
+    second: ashe_walk_058
+  - first:
+      213: -2481240032576709435
+    second: ashe_walk_059
+  - first:
+      213: 3174653012994474825
+    second: ashe_walk_060
+  - first:
+      213: 6200311649266244427
+    second: ashe_walk_061
+  - first:
+      213: -6986860696934794093
+    second: ashe_walk_062
+  - first:
+      213: -1406418441013169435
+    second: ashe_walk_063
+  - first:
+      213: -645698395230353226
+    second: ashe_walk_064
+  - first:
+      213: -5524548997383022074
+    second: ashe_walk_065
+  - first:
+      213: 8485154488950176872
+    second: ashe_walk_066
+  - first:
+      213: 3240710347536431662
+    second: ashe_walk_067
+  - first:
+      213: -5786031968409908890
+    second: ashe_walk_068
+  - first:
+      213: 3635455701290533604
+    second: ashe_walk_069
+  - first:
+      213: 3955189483953011650
+    second: ashe_walk_070
+  - first:
+      213: -8044383562876530789
+    second: ashe_walk_071
+  - first:
+      213: 1817374849006875990
+    second: ashe_walk_072
+  - first:
+      213: 5369399928494685344
+    second: ashe_walk_073
+  - first:
+      213: 285579079056270379
+    second: ashe_walk_074
+  - first:
+      213: 7125874561125017718
+    second: ashe_walk_075
+  - first:
+      213: -1561258810923872674
+    second: ashe_walk_076
+  - first:
+      213: -5125848243459325237
+    second: ashe_walk_077
+  - first:
+      213: -8015884587152398014
+    second: ashe_walk_078
+  - first:
+      213: -3846198418773500226
+    second: ashe_walk_079
+  - first:
+      213: 5596670822395869400
+    second: ashe_walk_080
+  - first:
+      213: 6650967957184638753
+    second: ashe_walk_081
+  - first:
+      213: -3679193734214183241
+    second: ashe_walk_082
+  - first:
+      213: -5481880311837047145
+    second: ashe_walk_083
+  - first:
+      213: 2109225417821941768
+    second: ashe_walk_084
+  - first:
+      213: 7418681838445037374
+    second: ashe_walk_085
+  - first:
+      213: 1835865157393646238
+    second: ashe_walk_086
+  - first:
+      213: 1877269777759936511
+    second: ashe_walk_087
+  - first:
+      213: -4958445094107176
+    second: ashe_walk_088
+  - first:
+      213: -5082436889015008040
+    second: ashe_walk_089
+  - first:
+      213: 1397528973321102146
+    second: ashe_walk_090
+  - first:
+      213: 3442837620897189182
+    second: ashe_walk_091
+  - first:
+      213: 4101718047087159547
+    second: ashe_walk_092
+  - first:
+      213: -86932703838826985
+    second: ashe_walk_093
+  - first:
+      213: -7777376346243103996
+    second: ashe_walk_094
+  - first:
+      213: -8192375497739374382
+    second: ashe_walk_095
+  - first:
+      213: 4135673469205553803
+    second: ashe_walk_096
+  - first:
+      213: 3410859268336113986
+    second: ashe_walk_097
+  - first:
+      213: -1546130484492832585
+    second: ashe_walk_098
+  - first:
+      213: -5867981764888633004
+    second: ashe_walk_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ashe_walk_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f20eaf41f5785530800000000000000
+      internalID: 3843951961245090544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0437e3b115079f0800000000000000
+      internalID: -472788783420194652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0c2e98b0f84c940800000000000000
+      internalID: 5315530739924779214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712130fa126f71660800000000000000
+      internalID: 7356619140863562263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5e9f5c8ca831950800000000000000
+      internalID: 6418626488852669869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bead94deb4cddb0800000000000000
+      internalID: -4765850823146411264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ee6e1bd4c713d7e0800000000000000
+      internalID: -1742022496605016346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60164f4eb89d4310800000000000000
+      internalID: 1390935803068551278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a40fee2fcf8e4820800000000000000
+      internalID: 2904416929708967077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ff3cc9aa8d423f0800000000000000
+      internalID: -926377396045349086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828ff2613fb9a1380800000000000000
+      internalID: -8999709436994914264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b666b9ab26ced2ce0800000000000000
+      internalID: -1428225598024882581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e5eceacd21697b0800000000000000
+      internalID: -5217962379227275730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd3eb08d0f81daa0800000000000000
+      internalID: -6137967528971977266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3f5d16063e7ff70800000000000000
+      internalID: 9221088765162157014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0af4000be920960800000000000000
+      internalID: 7566784802692505778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81bf83437a39d04e0800000000000000
+      internalID: -2013791112019772648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f567d456a49536a80800000000000000
+      internalID: -8474831897719114145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806ea3f56869aaf90800000000000000
+      internalID: -6941570371770718712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a30e72714ec8e60800000000000000
+      internalID: 7965992629015951926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0284ae25eee9de0800000000000000
+      internalID: -1324359200515022652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3be208bebf5aff20800000000000000
+      internalID: 3457180936695900990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28ae445b011e86e0800000000000000
+      internalID: -1833509257936459730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a5fb83719020690800000000000000
+      internalID: -7637532022725977573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bb123f30ba96400800000000000000
+      internalID: 317973282158656357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c102d028c7b2ef020800000000000000
+      internalID: 2377385467056037916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93875e14cdd59710800000000000000
+      internalID: 1699508268794610587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6ba45ea1f364bf0800000000000000
+      internalID: -340515337071315240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6af023a48a245a0800000000000000
+      internalID: -6538478672367606112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853ca971e468a4270800000000000000
+      internalID: 8235542538561962840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7068fa67b4e18e0f0800000000000000
+      internalID: -1087586000547379705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cdcf35e7e3eb6c90800000000000000
+      internalID: -7175390996161638968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9279d9457e0b1930800000000000000
+      internalID: 4114898581446029979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ca1f6677a9e9c90800000000000000
+      internalID: -7161116519853609952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618872fac36bcae00800000000000000
+      internalID: 1057420384278120470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314b2f3be17a4eb40800000000000000
+      internalID: 5468679597844509715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 378efdd0b81a58a30800000000000000
+      internalID: 4216954244707641459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0881be0a6ed1bf8b0800000000000000
+      internalID: -5117463675196991360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93801688d8b1f7db0800000000000000
+      internalID: -4792081183806519239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1433bb4a5ebd608b0800000000000000
+      internalID: -5186216141512821951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1920f05c06287c40800000000000000
+      internalID: 5510195978427181338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dcdcfdccc66ec10800000000000000
+      internalID: 2082471504889367862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3108d6469b6ec4b10800000000000000
+      internalID: 1967200821182300179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d82c1c9b64b851a90800000000000000
+      internalID: -7343810481477270899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99569a06b086b4ce0800000000000000
+      internalID: -1419926859429616231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc33f3da14c632ea0800000000000000
+      internalID: -5898752057589943345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e212544eccd99cae0800000000000000
+      internalID: -1528517095186947794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67fe756b4426f870800000000000000
+      internalID: 8716194035066140527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b56804bdef2a0550800000000000000
+      internalID: 6127762940965184945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2747dc47d9c5b450800000000000000
+      internalID: 6104006796514903853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ca1be819ab86f20800000000000000
+      internalID: 3416185451687554207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31074e85a4f479d70800000000000000
+      internalID: 9049789156961841171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e6069011943dff0800000000000000
+      internalID: -12586036431393191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c025b79d4f0db4300800000000000000
+      internalID: 237513155406418444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970a3cd9f4b1ad610800000000000000
+      internalID: 1646658642520547449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5c51900ce982fc0800000000000000
+      internalID: -3519388561166711385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca712bdc68b977790800000000000000
+      internalID: -7532380848474941524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5998243f65d4e8840800000000000000
+      internalID: 5228201253267474837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9897d19ea5b8cca0800000000000000
+      internalID: -5996343142468052834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc59c7265dd09dd0800000000000000
+      internalID: -2481240032576709435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943c8a46812ae0c20800000000000000
+      internalID: 3174653012994474825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b1b37289eeb0650800000000000000
+      internalID: 6200311649266244427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39c3010d63fa90f90800000000000000
+      internalID: -6986860696934794093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e2f9d121e56b7ce0800000000000000
+      internalID: -1406418441013169435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b841480bb40a07f0800000000000000
+      internalID: -645698395230353226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a9eba05fbd453b0800000000000000
+      internalID: -5524548997383022074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86cbf2a2d0351c570800000000000000
+      internalID: 8485154488950176872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a77dc14e059fc20800000000000000
+      internalID: 3240710347536431662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6698fd79492e3bfa0800000000000000
+      internalID: -5786031968409908890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e24718e2bbb37230800000000000000
+      internalID: 3635455701290533604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb316251e7a3e630800000000000000
+      internalID: 3955189483953011650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9fc0c145cb9c5090800000000000000
+      internalID: -8044383562876530789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655b8cadbcc983910800000000000000
+      internalID: 1817374849006875990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0acfee269c0f38a40800000000000000
+      internalID: 5369399928494685344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24ae6ac8a496f300800000000000000
+      internalID: 285579079056270379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67869d9a82134e260800000000000000
+      internalID: 7125874561125017718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e0f64226b455ae0800000000000000
+      internalID: -1561258810923872674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc20c043e245dd8b0800000000000000
+      internalID: -5125848243459325237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249a04e107bd1c090800000000000000
+      internalID: -8015884587152398014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe16598aee8f9ac0800000000000000
+      internalID: -3846198418773500226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8f2b5e57e5bad40800000000000000
+      internalID: 5596670822395869400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12fee746e1cfc4c50800000000000000
+      internalID: 6650967957184638753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6125cbac0e0fcc0800000000000000
+      internalID: -3679193734214183241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796cebf86e27ce3b0800000000000000
+      internalID: -5481880311837047145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8007084a759754d10800000000000000
+      internalID: 2109225417821941768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37882283d374f660800000000000000
+      internalID: 7418681838445037374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9207f142ad4a7910800000000000000
+      internalID: 1835865157393646238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff15faaae66d0a10800000000000000
+      internalID: 1877269777759936511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7078902526eeff0800000000000000
+      internalID: -4958445094107176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d44becc39e8779b0800000000000000
+      internalID: -5082436889015008040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243ee126235056310800000000000000
+      internalID: 1397528973321102146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d8de4439a67cf20800000000000000
+      internalID: 3442837620897189182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8607df4da3ce830800000000000000
+      internalID: 4101718047087159547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e825c9a272bcef0800000000000000
+      internalID: -86932703838826985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40387ad5b65311490800000000000000
+      internalID: -7777376346243103996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d071aec3e5de4e80800000000000000
+      internalID: -8192375497739374382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b822107cb1dd46930800000000000000
+      internalID: 4135673469205553803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249d50cde6ec55f20800000000000000
+      internalID: 3410859268336113986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0f66f148a0b8ae0800000000000000
+      internalID: -1546130484492832585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451e75bbcadb09ea0800000000000000
+      internalID: -5867981764888633004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f23c8850368bb590800000000000000
+      internalID: -7657379199211261196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b8df0ca68aa0840800000000000000
+      internalID: 5191146696955759401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d07c36fc700f2d0800000000000000
+      internalID: -3247086744020513510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094e289d5324e46d0800000000000000
+      internalID: -3004391102359608176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8cb85c52675ab140800000000000000
+      internalID: 4736194038101228686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331ae253db384fb60800000000000000
+      internalID: 7778987305039995187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef91a559e947802e0800000000000000
+      internalID: -2159347796864787970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dc426faaa753ad0800000000000000
+      internalID: -2723135524982960782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b7fde0f978f21f0800000000000000
+      internalID: -1067485469444441240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519d1aa1a0124d9a0800000000000000
+      internalID: -6209301658956867307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af580e13fade21060800000000000000
+      internalID: 6922856913933731322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10c8d5888c4d7cd0800000000000000
+      internalID: -2558804864031735782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d593755cc110c10800000000000000
+      internalID: 2017925741936205091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9461dbb021fc60d0800000000000000
+      internalID: -3428100093443480422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f2bb98f64501700800000000000000
+      internalID: 508999595921715081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b02511a9ed6885d0800000000000000
+      internalID: -3060075096600928080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b9787d2c81161d70800000000000000
+      internalID: 9013410997984590256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12ad7d0aebc29ab10800000000000000
+      internalID: 1993173507342064161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281fabc7c32e91200800000000000000
+      internalID: 151400811912163714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_walk_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b99461079413d60a0800000000000000
+      internalID: -6886794063696737893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ashe_walk_0: -698679969746424343
+      ashe_walk_000: 3843951961245090544
+      ashe_walk_001: -472788783420194652
+      ashe_walk_002: 5315530739924779214
+      ashe_walk_003: 7356619140863562263
+      ashe_walk_004: 6418626488852669869
+      ashe_walk_005: -4765850823146411264
+      ashe_walk_006: -1742022496605016346
+      ashe_walk_007: 1390935803068551278
+      ashe_walk_008: 2904416929708967077
+      ashe_walk_009: -926377396045349086
+      ashe_walk_010: -8999709436994914264
+      ashe_walk_011: -1428225598024882581
+      ashe_walk_012: -5217962379227275730
+      ashe_walk_013: -6137967528971977266
+      ashe_walk_014: 9221088765162157014
+      ashe_walk_015: 7566784802692505778
+      ashe_walk_016: -2013791112019772648
+      ashe_walk_017: -8474831897719114145
+      ashe_walk_018: -6941570371770718712
+      ashe_walk_019: 7965992629015951926
+      ashe_walk_020: -1324359200515022652
+      ashe_walk_021: 3457180936695900990
+      ashe_walk_022: -1833509257936459730
+      ashe_walk_023: -7637532022725977573
+      ashe_walk_024: 317973282158656357
+      ashe_walk_025: 2377385467056037916
+      ashe_walk_026: 1699508268794610587
+      ashe_walk_027: -340515337071315240
+      ashe_walk_028: -6538478672367606112
+      ashe_walk_029: 8235542538561962840
+      ashe_walk_030: -1087586000547379705
+      ashe_walk_031: -7175390996161638968
+      ashe_walk_032: 4114898581446029979
+      ashe_walk_033: -7161116519853609952
+      ashe_walk_034: 1057420384278120470
+      ashe_walk_035: 5468679597844509715
+      ashe_walk_036: 4216954244707641459
+      ashe_walk_037: -5117463675196991360
+      ashe_walk_038: -4792081183806519239
+      ashe_walk_039: -5186216141512821951
+      ashe_walk_040: 5510195978427181338
+      ashe_walk_041: 2082471504889367862
+      ashe_walk_042: 1967200821182300179
+      ashe_walk_043: -7343810481477270899
+      ashe_walk_044: -1419926859429616231
+      ashe_walk_045: -5898752057589943345
+      ashe_walk_046: -1528517095186947794
+      ashe_walk_047: 8716194035066140527
+      ashe_walk_048: 6127762940965184945
+      ashe_walk_049: 6104006796514903853
+      ashe_walk_050: 3416185451687554207
+      ashe_walk_051: 9049789156961841171
+      ashe_walk_052: -12586036431393191
+      ashe_walk_053: 237513155406418444
+      ashe_walk_054: 1646658642520547449
+      ashe_walk_055: -3519388561166711385
+      ashe_walk_056: -7532380848474941524
+      ashe_walk_057: 5228201253267474837
+      ashe_walk_058: -5996343142468052834
+      ashe_walk_059: -2481240032576709435
+      ashe_walk_060: 3174653012994474825
+      ashe_walk_061: 6200311649266244427
+      ashe_walk_062: -6986860696934794093
+      ashe_walk_063: -1406418441013169435
+      ashe_walk_064: -645698395230353226
+      ashe_walk_065: -5524548997383022074
+      ashe_walk_066: 8485154488950176872
+      ashe_walk_067: 3240710347536431662
+      ashe_walk_068: -5786031968409908890
+      ashe_walk_069: 3635455701290533604
+      ashe_walk_070: 3955189483953011650
+      ashe_walk_071: -8044383562876530789
+      ashe_walk_072: 1817374849006875990
+      ashe_walk_073: 5369399928494685344
+      ashe_walk_074: 285579079056270379
+      ashe_walk_075: 7125874561125017718
+      ashe_walk_076: -1561258810923872674
+      ashe_walk_077: -5125848243459325237
+      ashe_walk_078: -8015884587152398014
+      ashe_walk_079: -3846198418773500226
+      ashe_walk_080: 5596670822395869400
+      ashe_walk_081: 6650967957184638753
+      ashe_walk_082: -3679193734214183241
+      ashe_walk_083: -5481880311837047145
+      ashe_walk_084: 2109225417821941768
+      ashe_walk_085: 7418681838445037374
+      ashe_walk_086: 1835865157393646238
+      ashe_walk_087: 1877269777759936511
+      ashe_walk_088: -4958445094107176
+      ashe_walk_089: -5082436889015008040
+      ashe_walk_090: 1397528973321102146
+      ashe_walk_091: 3442837620897189182
+      ashe_walk_092: 4101718047087159547
+      ashe_walk_093: -86932703838826985
+      ashe_walk_094: -7777376346243103996
+      ashe_walk_095: -8192375497739374382
+      ashe_walk_096: 4135673469205553803
+      ashe_walk_097: 3410859268336113986
+      ashe_walk_098: -1546130484492832585
+      ashe_walk_099: -5867981764888633004
+      ashe_walk_1: -5627693089103539009
+      ashe_walk_10: -5012919616925549870
+      ashe_walk_100: -7657379199211261196
+      ashe_walk_101: 5191146696955759401
+      ashe_walk_102: -3247086744020513510
+      ashe_walk_103: -3004391102359608176
+      ashe_walk_104: 4736194038101228686
+      ashe_walk_105: 7778987305039995187
+      ashe_walk_106: -2159347796864787970
+      ashe_walk_107: -2723135524982960782
+      ashe_walk_108: -1067485469444441240
+      ashe_walk_109: -6209301658956867307
+      ashe_walk_11: 4315923400364141675
+      ashe_walk_110: 6922856913933731322
+      ashe_walk_111: -2558804864031735782
+      ashe_walk_112: 2017925741936205091
+      ashe_walk_113: -3428100093443480422
+      ashe_walk_114: 508999595921715081
+      ashe_walk_115: -3060075096600928080
+      ashe_walk_116: 9013410997984590256
+      ashe_walk_117: 1993173507342064161
+      ashe_walk_118: 151400811912163714
+      ashe_walk_119: -6886794063696737893
+      ashe_walk_12: 6735006402946609731
+      ashe_walk_13: -239111445146987609
+      ashe_walk_14: -7915713489136730712
+      ashe_walk_15: 5876353506297090414
+      ashe_walk_16: -5719641793975785577
+      ashe_walk_17: 76188026185788507
+      ashe_walk_18: 8749600927321470680
+      ashe_walk_19: -6400891059011065995
+      ashe_walk_2: -8120763114869384373
+      ashe_walk_20: 4610881933168093145
+      ashe_walk_21: -3096261029353451416
+      ashe_walk_22: -5735058611575348991
+      ashe_walk_23: -3333085535689447614
+      ashe_walk_24: -8657901991249501295
+      ashe_walk_25: 8179601350927851222
+      ashe_walk_26: -7599672912288037699
+      ashe_walk_27: -4942416363110388620
+      ashe_walk_28: -3228708551923301547
+      ashe_walk_29: -7310119949199316527
+      ashe_walk_3: 5336214662227574828
+      ashe_walk_30: 5345398769820136133
+      ashe_walk_31: 2690917695605725256
+      ashe_walk_32: -7111366533212302682
+      ashe_walk_33: 6942893665078764762
+      ashe_walk_34: 2332819556429130205
+      ashe_walk_35: 1011424039953337458
+      ashe_walk_36: 817261669632347519
+      ashe_walk_37: 4639668372271050826
+      ashe_walk_38: -885637653522189521
+      ashe_walk_39: 2483777377138336862
+      ashe_walk_4: -7922539232552382857
+      ashe_walk_40: -8920065158758049365
+      ashe_walk_41: 6932721473623915721
+      ashe_walk_42: 3642783793582656269
+      ashe_walk_43: -4262695873927298496
+      ashe_walk_44: -1431540437908026564
+      ashe_walk_45: 6560992304387610992
+      ashe_walk_46: 277635657864905080
+      ashe_walk_47: 36264913553752479
+      ashe_walk_48: 8558746904047167836
+      ashe_walk_49: 6242906444265903009
+      ashe_walk_5: -8743384929663009558
+      ashe_walk_50: -1855422996754004121
+      ashe_walk_51: -6589284469710597190
+      ashe_walk_52: -3838964094145101900
+      ashe_walk_53: -2030067768339262542
+      ashe_walk_54: 1979997821935386144
+      ashe_walk_55: 212520181608773591
+      ashe_walk_56: 7935355059862120659
+      ashe_walk_57: 4286433621208056261
+      ashe_walk_58: -91725722257180179
+      ashe_walk_59: 645440275307724605
+      ashe_walk_6: 1379404772922329612
+      ashe_walk_60: 3544949573475125879
+      ashe_walk_61: 4631326271215880160
+      ashe_walk_62: 5267298908278051195
+      ashe_walk_63: 7747336900856560213
+      ashe_walk_64: -8084716895111363102
+      ashe_walk_65: -3033964220658751294
+      ashe_walk_66: 7432242958089690375
+      ashe_walk_67: 276800268086308774
+      ashe_walk_68: 6489125812056887328
+      ashe_walk_69: 6870657118104782809
+      ashe_walk_7: -8959184966450199030
+      ashe_walk_70: -1074317633634807705
+      ashe_walk_71: 3045419840564937341
+      ashe_walk_72: -1036897525626599901
+      ashe_walk_73: 6073996813675714086
+      ashe_walk_74: 5485997420209198182
+      ashe_walk_75: 7306977149910058411
+      ashe_walk_76: -7030068700865382123
+      ashe_walk_77: 2739047304021723559
+      ashe_walk_78: -7510984761379639120
+      ashe_walk_79: -8527368618321903938
+      ashe_walk_8: 4560522667465324535
+      ashe_walk_80: 931521274359302501
+      ashe_walk_81: -7473738017725040829
+      ashe_walk_82: 3586603806548529105
+      ashe_walk_83: 1624388033083619322
+      ashe_walk_84: -1446712967100911930
+      ashe_walk_85: -2482674868757477824
+      ashe_walk_86: -3823686977762233403
+      ashe_walk_87: -3735285392515488096
+      ashe_walk_88: -5638363186938849863
+      ashe_walk_89: -7603681780302629500
+      ashe_walk_9: 3794241214405606717
+      ashe_walk_90: -4070883342579170865
+      ashe_walk_91: 1440031694053566427
+      ashe_walk_92: 3183488945889976204
+      ashe_walk_93: 7767469016493700516
+      ashe_walk_94: 4064578874146856242
+      ashe_walk_95: -2420716278423983829
+      ashe_walk_96: -2992327291268765763
+      ashe_walk_97: 7092538550353292111
+      ashe_walk_98: -2260612004076088157
+      ashe_walk_99: 5849890115924651558
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

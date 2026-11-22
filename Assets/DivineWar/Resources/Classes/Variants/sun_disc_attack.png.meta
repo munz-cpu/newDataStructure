@@ -1,0 +1,4145 @@
+fileFormatVersion: 2
+guid: 0d6dadd6e5cf1ac449e9847b480d45b8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8196780807052039170
+    second: sun_disc_attack_0
+  - first:
+      213: -2163120720972645358
+    second: sun_disc_attack_1
+  - first:
+      213: -627121649283128398
+    second: sun_disc_attack_2
+  - first:
+      213: 5446242528179483418
+    second: sun_disc_attack_3
+  - first:
+      213: 3152326489558064286
+    second: sun_disc_attack_4
+  - first:
+      213: 7189125472720909682
+    second: sun_disc_attack_5
+  - first:
+      213: 7272305733885736088
+    second: sun_disc_attack_6
+  - first:
+      213: -3797890279883502866
+    second: sun_disc_attack_7
+  - first:
+      213: -1702756671342241260
+    second: sun_disc_attack_8
+  - first:
+      213: 1638283758735711287
+    second: sun_disc_attack_9
+  - first:
+      213: -3056684792288187439
+    second: sun_disc_attack_10
+  - first:
+      213: 7032981291158830185
+    second: sun_disc_attack_11
+  - first:
+      213: -2810423195902345850
+    second: sun_disc_attack_12
+  - first:
+      213: 4887784930506450505
+    second: sun_disc_attack_13
+  - first:
+      213: -2141028872100903714
+    second: sun_disc_attack_14
+  - first:
+      213: 8127845622586900569
+    second: sun_disc_attack_15
+  - first:
+      213: 7112379482659797503
+    second: sun_disc_attack_16
+  - first:
+      213: 7320531484178980194
+    second: sun_disc_attack_17
+  - first:
+      213: -2127190042944586198
+    second: sun_disc_attack_18
+  - first:
+      213: 8272276208754342199
+    second: sun_disc_attack_19
+  - first:
+      213: -4387238472014868900
+    second: sun_disc_attack_20
+  - first:
+      213: 5620963734356209842
+    second: sun_disc_attack_21
+  - first:
+      213: -7853362826163496353
+    second: sun_disc_attack_22
+  - first:
+      213: -7922035419519645193
+    second: sun_disc_attack_23
+  - first:
+      213: -2638251584846918887
+    second: sun_disc_attack_24
+  - first:
+      213: -2463402841865508121
+    second: sun_disc_attack_25
+  - first:
+      213: -8075088748314521086
+    second: sun_disc_attack_26
+  - first:
+      213: 2741203938237235303
+    second: sun_disc_attack_27
+  - first:
+      213: -3677419762478313610
+    second: sun_disc_attack_28
+  - first:
+      213: 8350542415033157822
+    second: sun_disc_attack_29
+  - first:
+      213: -3678433931166657139
+    second: sun_disc_attack_30
+  - first:
+      213: -6858102947541859884
+    second: sun_disc_attack_31
+  - first:
+      213: -1192287706532020624
+    second: sun_disc_attack_32
+  - first:
+      213: -1197956875098332736
+    second: sun_disc_attack_33
+  - first:
+      213: 6464746495217825236
+    second: sun_disc_attack_34
+  - first:
+      213: 2980473131819215794
+    second: sun_disc_attack_35
+  - first:
+      213: 58298329255655611
+    second: sun_disc_attack_36
+  - first:
+      213: 3889564283991586063
+    second: sun_disc_attack_37
+  - first:
+      213: 522914787956531978
+    second: sun_disc_attack_38
+  - first:
+      213: -1105828217171416945
+    second: sun_disc_attack_39
+  - first:
+      213: 8454899572161776833
+    second: sun_disc_attack_40
+  - first:
+      213: -7352489608112954190
+    second: sun_disc_attack_41
+  - first:
+      213: -4462536155453750588
+    second: sun_disc_attack_42
+  - first:
+      213: 8070583794136901022
+    second: sun_disc_attack_43
+  - first:
+      213: -410180649222393133
+    second: sun_disc_attack_44
+  - first:
+      213: 3096150916012175858
+    second: sun_disc_attack_45
+  - first:
+      213: -6542741987824380744
+    second: sun_disc_attack_46
+  - first:
+      213: 5693303320570315025
+    second: sun_disc_attack_47
+  - first:
+      213: 8255552666823758541
+    second: sun_disc_attack_48
+  - first:
+      213: -7281357251940141641
+    second: sun_disc_attack_49
+  - first:
+      213: -8946128891708314077
+    second: sun_disc_attack_50
+  - first:
+      213: 1571722713989144392
+    second: sun_disc_attack_51
+  - first:
+      213: 7062305495149366484
+    second: sun_disc_attack_52
+  - first:
+      213: -5201220129894000532
+    second: sun_disc_attack_53
+  - first:
+      213: -4706197641509818373
+    second: sun_disc_attack_54
+  - first:
+      213: -4473817660835120838
+    second: sun_disc_attack_55
+  - first:
+      213: -2110627773823403164
+    second: sun_disc_attack_56
+  - first:
+      213: 5825466403765565713
+    second: sun_disc_attack_57
+  - first:
+      213: -840520303021653732
+    second: sun_disc_attack_58
+  - first:
+      213: -8796891041456066217
+    second: sun_disc_attack_59
+  - first:
+      213: 3122205372489780425
+    second: sun_disc_attack_60
+  - first:
+      213: 4164978724495273240
+    second: sun_disc_attack_61
+  - first:
+      213: -1779986798866153728
+    second: sun_disc_attack_62
+  - first:
+      213: 137967299637811826
+    second: sun_disc_attack_63
+  - first:
+      213: 1355282343042084785
+    second: sun_disc_attack_64
+  - first:
+      213: 3439100395288847853
+    second: sun_disc_attack_65
+  - first:
+      213: 5801339691126152948
+    second: sun_disc_attack_66
+  - first:
+      213: 8934236088344639761
+    second: sun_disc_attack_67
+  - first:
+      213: 2610658972401078298
+    second: sun_disc_attack_68
+  - first:
+      213: 398746160583411264
+    second: sun_disc_attack_69
+  - first:
+      213: -909977039084989930
+    second: sun_disc_attack_70
+  - first:
+      213: 6208600425609916808
+    second: sun_disc_attack_71
+  - first:
+      213: -3181822090211993898
+    second: sun_disc_attack_72
+  - first:
+      213: -9145578049716572502
+    second: sun_disc_attack_73
+  - first:
+      213: -4074709903530387535
+    second: sun_disc_attack_74
+  - first:
+      213: -7655925186295982262
+    second: sun_disc_attack_75
+  - first:
+      213: 9193597773149490954
+    second: sun_disc_attack_76
+  - first:
+      213: -7772362323624550725
+    second: sun_disc_attack_77
+  - first:
+      213: 1322397852304387352
+    second: sun_disc_attack_78
+  - first:
+      213: 5957370836034336769
+    second: sun_disc_attack_79
+  - first:
+      213: -6455522672881908725
+    second: sun_disc_attack_80
+  - first:
+      213: 8128671321315675151
+    second: sun_disc_attack_81
+  - first:
+      213: -1586090517494302279
+    second: sun_disc_attack_82
+  - first:
+      213: -7341194826932554944
+    second: sun_disc_attack_83
+  - first:
+      213: -6715059283187453787
+    second: sun_disc_attack_84
+  - first:
+      213: 8267597308291170200
+    second: sun_disc_attack_85
+  - first:
+      213: -5297193025272955329
+    second: sun_disc_attack_86
+  - first:
+      213: 4885596710646262508
+    second: sun_disc_attack_87
+  - first:
+      213: -3848273303778052793
+    second: sun_disc_attack_88
+  - first:
+      213: -5186185842869576923
+    second: sun_disc_attack_89
+  - first:
+      213: 8430878975060076567
+    second: sun_disc_attack_90
+  - first:
+      213: -3526803832322715792
+    second: sun_disc_attack_91
+  - first:
+      213: 356201717192098353
+    second: sun_disc_attack_92
+  - first:
+      213: 630022130292895940
+    second: sun_disc_attack_93
+  - first:
+      213: -6367928861015393015
+    second: sun_disc_attack_94
+  - first:
+      213: -7359641547792006101
+    second: sun_disc_attack_95
+  - first:
+      213: -2353475037657639975
+    second: sun_disc_attack_96
+  - first:
+      213: -3745729245412807210
+    second: sun_disc_attack_97
+  - first:
+      213: -2495593090722499321
+    second: sun_disc_attack_98
+  - first:
+      213: 6111506497642335218
+    second: sun_disc_attack_99
+  - first:
+      213: 7020079106979411520
+    second: sun_disc_attack_100
+  - first:
+      213: -1043537339327784044
+    second: sun_disc_attack_101
+  - first:
+      213: 2479091979947766471
+    second: sun_disc_attack_102
+  - first:
+      213: 7237733304364282958
+    second: sun_disc_attack_103
+  - first:
+      213: -7229952774879359934
+    second: sun_disc_attack_104
+  - first:
+      213: -2414857995298928475
+    second: sun_disc_attack_105
+  - first:
+      213: -5891071529663119622
+    second: sun_disc_attack_106
+  - first:
+      213: -688908496220152614
+    second: sun_disc_attack_107
+  - first:
+      213: 22508899804309564
+    second: sun_disc_attack_108
+  - first:
+      213: -5433704498114567549
+    second: sun_disc_attack_109
+  - first:
+      213: -7119171764201019147
+    second: sun_disc_attack_110
+  - first:
+      213: 8993571998983230878
+    second: sun_disc_attack_111
+  - first:
+      213: 4074010132956966508
+    second: sun_disc_attack_112
+  - first:
+      213: 4058470119269630677
+    second: sun_disc_attack_113
+  - first:
+      213: 6126974751283025679
+    second: sun_disc_attack_114
+  - first:
+      213: 690776705829107601
+    second: sun_disc_attack_115
+  - first:
+      213: -6263780521255171663
+    second: sun_disc_attack_116
+  - first:
+      213: -1573519083795295292
+    second: sun_disc_attack_117
+  - first:
+      213: 1796530130260847026
+    second: sun_disc_attack_118
+  - first:
+      213: 495715078066239292
+    second: sun_disc_attack_119
+  - first:
+      213: -3193232181703379920
+    second: sun_disc_attack_120
+  - first:
+      213: -2812701666003578192
+    second: sun_disc_attack_121
+  - first:
+      213: 1647248732821781482
+    second: sun_disc_attack_122
+  - first:
+      213: 3141259884616202632
+    second: sun_disc_attack_123
+  - first:
+      213: 5397438623583330503
+    second: sun_disc_attack_124
+  - first:
+      213: 1418453072166500677
+    second: sun_disc_attack_125
+  - first:
+      213: 8469404256670681864
+    second: sun_disc_attack_126
+  - first:
+      213: -8451386066781202435
+    second: sun_disc_attack_127
+  - first:
+      213: -7632344456861036807
+    second: sun_disc_attack_128
+  - first:
+      213: -1138943305117148296
+    second: sun_disc_attack_129
+  - first:
+      213: -5066094632010839221
+    second: sun_disc_attack_130
+  - first:
+      213: -3732178279131087503
+    second: sun_disc_attack_131
+  - first:
+      213: -4872614472788438358
+    second: sun_disc_attack_132
+  - first:
+      213: -6546774428284862266
+    second: sun_disc_attack_133
+  - first:
+      213: 6495482782326508537
+    second: sun_disc_attack_134
+  - first:
+      213: -1718882303332826807
+    second: sun_disc_attack_135
+  - first:
+      213: 8999791259721155963
+    second: sun_disc_attack_136
+  - first:
+      213: -2043243713681264995
+    second: sun_disc_attack_137
+  - first:
+      213: 4674357880890297440
+    second: sun_disc_attack_138
+  - first:
+      213: 275943715609014098
+    second: sun_disc_attack_139
+  - first:
+      213: -5339375158309372712
+    second: sun_disc_attack_140
+  - first:
+      213: 3991443289095729999
+    second: sun_disc_attack_141
+  - first:
+      213: -2509409440795587378
+    second: sun_disc_attack_142
+  - first:
+      213: 7852509747028875341
+    second: sun_disc_attack_143
+  - first:
+      213: -2621635768656222954
+    second: sun_disc_attack_144
+  - first:
+      213: 6885623226320274939
+    second: sun_disc_attack_145
+  - first:
+      213: -3656352178188348922
+    second: sun_disc_attack_146
+  - first:
+      213: -6447438620065698902
+    second: sun_disc_attack_147
+  - first:
+      213: -8917047049558294625
+    second: sun_disc_attack_148
+  - first:
+      213: 2991025695707249205
+    second: sun_disc_attack_149
+  - first:
+      213: 2756746552509485459
+    second: sun_disc_attack_150
+  - first:
+      213: 7766046315088675564
+    second: sun_disc_attack_151
+  - first:
+      213: 6419648606595101989
+    second: sun_disc_attack_152
+  - first:
+      213: 6870256740949295923
+    second: sun_disc_attack_153
+  - first:
+      213: 7106235824718182911
+    second: sun_disc_attack_154
+  - first:
+      213: 7924713636431513369
+    second: sun_disc_attack_155
+  - first:
+      213: -7279074872529588197
+    second: sun_disc_attack_156
+  - first:
+      213: 6845373937725792645
+    second: sun_disc_attack_157
+  - first:
+      213: 4710469095653317561
+    second: sun_disc_attack_158
+  - first:
+      213: 5698476579741084250
+    second: sun_disc_attack_159
+  - first:
+      213: 375466656277211932
+    second: sun_disc_attack_160
+  - first:
+      213: -2275329012694667814
+    second: sun_disc_attack_161
+  - first:
+      213: -4839794468634558631
+    second: sun_disc_attack_162
+  - first:
+      213: 3432803105504364021
+    second: sun_disc_attack_163
+  - first:
+      213: 7569853029035179930
+    second: sun_disc_attack_164
+  - first:
+      213: -7679651392341914290
+    second: sun_disc_attack_165
+  - first:
+      213: -5605222341323105022
+    second: sun_disc_attack_166
+  - first:
+      213: 8763750022698618603
+    second: sun_disc_attack_167
+  - first:
+      213: 1573207361842288448
+    second: sun_disc_attack_168
+  - first:
+      213: 9022735760324511665
+    second: sun_disc_attack_169
+  - first:
+      213: -5384934438706845323
+    second: sun_disc_attack_170
+  - first:
+      213: 2163939676233032555
+    second: sun_disc_attack_171
+  - first:
+      213: 2742473779547033870
+    second: sun_disc_attack_172
+  - first:
+      213: 4274367380599767213
+    second: sun_disc_attack_173
+  - first:
+      213: 3190736590449032556
+    second: sun_disc_attack_174
+  - first:
+      213: 7707616159483334290
+    second: sun_disc_attack_175
+  - first:
+      213: 8567603504228923870
+    second: sun_disc_attack_176
+  - first:
+      213: 7670972189281696969
+    second: sun_disc_attack_177
+  - first:
+      213: 2881655792065557522
+    second: sun_disc_attack_178
+  - first:
+      213: -7740420341272107904
+    second: sun_disc_attack_179
+  - first:
+      213: 1507095788961997583
+    second: sun_disc_attack_180
+  - first:
+      213: 4901124355047745203
+    second: sun_disc_attack_181
+  - first:
+      213: 8435750862855896997
+    second: sun_disc_attack_182
+  - first:
+      213: -6093545444690849802
+    second: sun_disc_attack_183
+  - first:
+      213: -7660962227690410079
+    second: sun_disc_attack_184
+  - first:
+      213: -311800971513610620
+    second: sun_disc_attack_185
+  - first:
+      213: -106743503535409564
+    second: sun_disc_attack_186
+  - first:
+      213: 8596307271465031002
+    second: sun_disc_attack_187
+  - first:
+      213: -8821427333652992115
+    second: sun_disc_attack_188
+  - first:
+      213: 3725004749073151853
+    second: sun_disc_attack_189
+  - first:
+      213: 7440491462187877348
+    second: sun_disc_attack_190
+  - first:
+      213: -7161671636240865440
+    second: sun_disc_attack_191
+  - first:
+      213: 8112017680812765000
+    second: sun_disc_attack_192
+  - first:
+      213: -2706646348538513292
+    second: sun_disc_attack_193
+  - first:
+      213: -2596164713307713631
+    second: sun_disc_attack_194
+  - first:
+      213: 2208226342541143432
+    second: sun_disc_attack_195
+  - first:
+      213: -3691077607465604105
+    second: sun_disc_attack_196
+  - first:
+      213: 4668094231359651317
+    second: sun_disc_attack_197
+  - first:
+      213: 146815384523296407
+    second: sun_disc_attack_198
+  - first:
+      213: -1218497524326432139
+    second: sun_disc_attack_199
+  - first:
+      213: -1068292537019709862
+    second: sun_disc_attack_200
+  - first:
+      213: -1414267348174860229
+    second: sun_disc_attack_201
+  - first:
+      213: -4565042522020116924
+    second: sun_disc_attack_202
+  - first:
+      213: 590679340458641481
+    second: sun_disc_attack_203
+  - first:
+      213: 7736770682602166066
+    second: sun_disc_attack_204
+  - first:
+      213: 8442740607207430473
+    second: sun_disc_attack_205
+  - first:
+      213: -4104440427588418015
+    second: sun_disc_attack_206
+  - first:
+      213: 6125003100494317063
+    second: sun_disc_attack_207
+  - first:
+      213: -3690861531137941297
+    second: sun_disc_attack_208
+  - first:
+      213: -2795897506801770845
+    second: sun_disc_attack_209
+  - first:
+      213: 3029506761833730645
+    second: sun_disc_attack_210
+  - first:
+      213: -6021807347478369360
+    second: sun_disc_attack_211
+  - first:
+      213: 821630417172661164
+    second: sun_disc_attack_212
+  - first:
+      213: -495822556078771086
+    second: sun_disc_attack_213
+  - first:
+      213: -2585783497316156101
+    second: sun_disc_attack_214
+  - first:
+      213: 7802656858616461893
+    second: sun_disc_attack_215
+  - first:
+      213: 5171138698509855747
+    second: sun_disc_attack_216
+  - first:
+      213: -7940549098952539077
+    second: sun_disc_attack_217
+  - first:
+      213: -335979442566953674
+    second: sun_disc_attack_218
+  - first:
+      213: -8857986225927076718
+    second: sun_disc_attack_219
+  - first:
+      213: 2408765625823490301
+    second: sun_disc_attack_220
+  - first:
+      213: 1555612837320878918
+    second: sun_disc_attack_221
+  - first:
+      213: -762325024906411967
+    second: sun_disc_attack_222
+  - first:
+      213: -5111144558757319686
+    second: sun_disc_attack_223
+  - first:
+      213: 928864288877428447
+    second: sun_disc_attack_224
+  - first:
+      213: 7569446109182603050
+    second: sun_disc_attack_225
+  - first:
+      213: 8197973247648045391
+    second: sun_disc_attack_226
+  - first:
+      213: -6825337705403034138
+    second: sun_disc_attack_227
+  - first:
+      213: 2494657354267972020
+    second: sun_disc_attack_228
+  - first:
+      213: 6696030779363895619
+    second: sun_disc_attack_229
+  - first:
+      213: 6147487834881438078
+    second: sun_disc_attack_230
+  - first:
+      213: -3501530249970148837
+    second: sun_disc_attack_231
+  - first:
+      213: -6607754506867880115
+    second: sun_disc_attack_232
+  - first:
+      213: -3692817830946273302
+    second: sun_disc_attack_233
+  - first:
+      213: -4296898565580436211
+    second: sun_disc_attack_234
+  - first:
+      213: -5403322101848263954
+    second: sun_disc_attack_235
+  - first:
+      213: 2502302724354268527
+    second: sun_disc_attack_236
+  - first:
+      213: 5044443516046521848
+    second: sun_disc_attack_237
+  - first:
+      213: -2194579785673207551
+    second: sun_disc_attack_238
+  - first:
+      213: 6432084692833581172
+    second: sun_disc_attack_239
+  - first:
+      213: -7045610809138993935
+    second: sun_disc_attack_000
+  - first:
+      213: -2100187564413244116
+    second: sun_disc_attack_001
+  - first:
+      213: 8690455373701115786
+    second: sun_disc_attack_002
+  - first:
+      213: -5933513600463166718
+    second: sun_disc_attack_003
+  - first:
+      213: -2125682365858948214
+    second: sun_disc_attack_004
+  - first:
+      213: 2962056623218447822
+    second: sun_disc_attack_005
+  - first:
+      213: 7528194222170149507
+    second: sun_disc_attack_006
+  - first:
+      213: 8460793693662532035
+    second: sun_disc_attack_007
+  - first:
+      213: 7180190853654345305
+    second: sun_disc_attack_008
+  - first:
+      213: 3738354431226329511
+    second: sun_disc_attack_009
+  - first:
+      213: -93241332459571401
+    second: sun_disc_attack_010
+  - first:
+      213: 6649705903162340642
+    second: sun_disc_attack_011
+  - first:
+      213: -7429011413216642268
+    second: sun_disc_attack_012
+  - first:
+      213: -7549463010405982921
+    second: sun_disc_attack_013
+  - first:
+      213: -3512759179011957645
+    second: sun_disc_attack_014
+  - first:
+      213: 838586293145914787
+    second: sun_disc_attack_015
+  - first:
+      213: 1994322897027509420
+    second: sun_disc_attack_016
+  - first:
+      213: -6728980423317152225
+    second: sun_disc_attack_017
+  - first:
+      213: -2200906401787974905
+    second: sun_disc_attack_018
+  - first:
+      213: -2457702156023841939
+    second: sun_disc_attack_019
+  - first:
+      213: 6457226566185934357
+    second: sun_disc_attack_020
+  - first:
+      213: -1046075187922788375
+    second: sun_disc_attack_021
+  - first:
+      213: 3768517431106310273
+    second: sun_disc_attack_022
+  - first:
+      213: -2004465361923495936
+    second: sun_disc_attack_023
+  - first:
+      213: -5980865367126857799
+    second: sun_disc_attack_024
+  - first:
+      213: -5505729932550564531
+    second: sun_disc_attack_025
+  - first:
+      213: -1865527857040478637
+    second: sun_disc_attack_026
+  - first:
+      213: 1554877476749863478
+    second: sun_disc_attack_027
+  - first:
+      213: 358812937283755628
+    second: sun_disc_attack_028
+  - first:
+      213: -970106100301640434
+    second: sun_disc_attack_029
+  - first:
+      213: 4773005116390872190
+    second: sun_disc_attack_030
+  - first:
+      213: -1694329141827643525
+    second: sun_disc_attack_031
+  - first:
+      213: 1733639805937893708
+    second: sun_disc_attack_032
+  - first:
+      213: 8345808814697400925
+    second: sun_disc_attack_033
+  - first:
+      213: 1494460912783459374
+    second: sun_disc_attack_034
+  - first:
+      213: -4795314071712106357
+    second: sun_disc_attack_035
+  - first:
+      213: 1870692286662978924
+    second: sun_disc_attack_036
+  - first:
+      213: -5304424092955069139
+    second: sun_disc_attack_037
+  - first:
+      213: -4268703749425588267
+    second: sun_disc_attack_038
+  - first:
+      213: -78265939680334317
+    second: sun_disc_attack_039
+  - first:
+      213: 514496311683536535
+    second: sun_disc_attack_040
+  - first:
+      213: 2933142515738109113
+    second: sun_disc_attack_041
+  - first:
+      213: 3384677645856365323
+    second: sun_disc_attack_042
+  - first:
+      213: 1619443406119358477
+    second: sun_disc_attack_043
+  - first:
+      213: 723946002335337851
+    second: sun_disc_attack_044
+  - first:
+      213: 7939126846874302852
+    second: sun_disc_attack_045
+  - first:
+      213: -3674794692041405030
+    second: sun_disc_attack_046
+  - first:
+      213: 4512316765429571943
+    second: sun_disc_attack_047
+  - first:
+      213: 3273025900870410671
+    second: sun_disc_attack_048
+  - first:
+      213: 5204910388080212348
+    second: sun_disc_attack_049
+  - first:
+      213: 5135329611692880526
+    second: sun_disc_attack_050
+  - first:
+      213: -3567528638928183090
+    second: sun_disc_attack_051
+  - first:
+      213: -413188327031884545
+    second: sun_disc_attack_052
+  - first:
+      213: 7117915109906110000
+    second: sun_disc_attack_053
+  - first:
+      213: 7064330376752432805
+    second: sun_disc_attack_054
+  - first:
+      213: 5101765835070452902
+    second: sun_disc_attack_055
+  - first:
+      213: -1651083765738542108
+    second: sun_disc_attack_056
+  - first:
+      213: 6757526770022173808
+    second: sun_disc_attack_057
+  - first:
+      213: -2811078441786069659
+    second: sun_disc_attack_058
+  - first:
+      213: -6592973756352593739
+    second: sun_disc_attack_059
+  - first:
+      213: 7727421375717161483
+    second: sun_disc_attack_060
+  - first:
+      213: 6495467137732328913
+    second: sun_disc_attack_061
+  - first:
+      213: 2797976125045878131
+    second: sun_disc_attack_062
+  - first:
+      213: 3911796885362920988
+    second: sun_disc_attack_063
+  - first:
+      213: 6787139272223543628
+    second: sun_disc_attack_064
+  - first:
+      213: -4801039988753782081
+    second: sun_disc_attack_065
+  - first:
+      213: -1619254782063229269
+    second: sun_disc_attack_066
+  - first:
+      213: -2070613217701802022
+    second: sun_disc_attack_067
+  - first:
+      213: -1840047428113381583
+    second: sun_disc_attack_068
+  - first:
+      213: -7742318901097374190
+    second: sun_disc_attack_069
+  - first:
+      213: 7285446085545813882
+    second: sun_disc_attack_070
+  - first:
+      213: -1807251076894248769
+    second: sun_disc_attack_071
+  - first:
+      213: -4456598829263497012
+    second: sun_disc_attack_072
+  - first:
+      213: 443829761790522309
+    second: sun_disc_attack_073
+  - first:
+      213: -3238265775617808382
+    second: sun_disc_attack_074
+  - first:
+      213: 3380664891243632928
+    second: sun_disc_attack_075
+  - first:
+      213: 8315815119502328862
+    second: sun_disc_attack_076
+  - first:
+      213: -3282748466341718301
+    second: sun_disc_attack_077
+  - first:
+      213: 9106602371585182510
+    second: sun_disc_attack_078
+  - first:
+      213: 4197201162126785469
+    second: sun_disc_attack_079
+  - first:
+      213: 52286265792354445
+    second: sun_disc_attack_080
+  - first:
+      213: -1320003287102419035
+    second: sun_disc_attack_081
+  - first:
+      213: -6658719570543631612
+    second: sun_disc_attack_082
+  - first:
+      213: -3778934596620405833
+    second: sun_disc_attack_083
+  - first:
+      213: -3891746670115090140
+    second: sun_disc_attack_084
+  - first:
+      213: -9130441282046629302
+    second: sun_disc_attack_085
+  - first:
+      213: -8585912653865480958
+    second: sun_disc_attack_086
+  - first:
+      213: -5702101342719863786
+    second: sun_disc_attack_087
+  - first:
+      213: -5848087189200682977
+    second: sun_disc_attack_088
+  - first:
+      213: 6776096171170550993
+    second: sun_disc_attack_089
+  - first:
+      213: 3485318695944745376
+    second: sun_disc_attack_090
+  - first:
+      213: 8268232469952692732
+    second: sun_disc_attack_091
+  - first:
+      213: -8976120603768420490
+    second: sun_disc_attack_092
+  - first:
+      213: 6740008273441576765
+    second: sun_disc_attack_093
+  - first:
+      213: -4174154676853162779
+    second: sun_disc_attack_094
+  - first:
+      213: 58681137589587010
+    second: sun_disc_attack_095
+  - first:
+      213: -7803308112785072943
+    second: sun_disc_attack_096
+  - first:
+      213: -6755023794235930325
+    second: sun_disc_attack_097
+  - first:
+      213: -5531834202285152868
+    second: sun_disc_attack_098
+  - first:
+      213: -3005185291301204773
+    second: sun_disc_attack_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sun_disc_attack_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f42e9f5c46f83e90800000000000000
+      internalID: -7045610809138993935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2da4759982aad2e0800000000000000
+      internalID: -2100187564413244116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8fe6dd4e13ba9870800000000000000
+      internalID: 8690455373701115786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203a17641dce7ada0800000000000000
+      internalID: -5933513600463166718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8b5aad862f0082e0800000000000000
+      internalID: -2125682365858948214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5578f1ec65b1920800000000000000
+      internalID: 2962056623218447822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382999c42c4897860800000000000000
+      internalID: 7528194222170149507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1de948907ca6570800000000000000
+      internalID: 8460793693662532035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95673930a8925a360800000000000000
+      internalID: 7180190853654345305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9b0cd6c8d41e330800000000000000
+      internalID: 3738354431226329511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737fc5c808db4bef0800000000000000
+      internalID: -93241332459571401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2253fca8940884c50800000000000000
+      internalID: 6649705903162340642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b36e2fa79d6e890800000000000000
+      internalID: -7429011413216642268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73ddccb046bea3790800000000000000
+      internalID: -7549463010405982921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37cdf79532c204fc0800000000000000
+      internalID: -3512759179011957645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad49746ac143ab00800000000000000
+      internalID: 838586293145914787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caca0c4cb124dab10800000000000000
+      internalID: 1994322897027509420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e9f97e4fbdd92a0800000000000000
+      internalID: -6728980423317152225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b6b89d94fc471e0800000000000000
+      internalID: -2200906401787974905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bbc7a19ec74edd0800000000000000
+      internalID: -2457702156023841939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e5abf995dac9950800000000000000
+      internalID: 6457226566185934357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef138fa8289b71f0800000000000000
+      internalID: -1046075187922788375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18095fa13a67c4430800000000000000
+      internalID: 3768517431106310273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 008a9f99f55be24e0800000000000000
+      internalID: -2004465361923495936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7a7f6f2a2bffca0800000000000000
+      internalID: -5980865367126857799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4596150cc7b793b0800000000000000
+      internalID: -5505729932550564531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ea18a4c405c16e0800000000000000
+      internalID: -1865527857040478637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a6ee6b3d8049510800000000000000
+      internalID: 1554877476749863478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6edc932772caf400800000000000000
+      internalID: 358812937283755628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0dc41144ad7982f0800000000000000
+      internalID: -970106100301640434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7499996dde1d3240800000000000000
+      internalID: 4773005116390872190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7755c85f988c78e0800000000000000
+      internalID: -1694329141827643525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41c761e7302f0810800000000000000
+      internalID: 1733639805937893708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5acc5326e442d370800000000000000
+      internalID: 8345808814697400925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e240a2d38446db410800000000000000
+      internalID: 1494460912783459374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88fa29224f937db0800000000000000
+      internalID: -4795314071712106357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d2c9e29b806f910800000000000000
+      internalID: 1870692286662978924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25b3693466e266b0800000000000000
+      internalID: -5304424092955069139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d71c147e8482c4c0800000000000000
+      internalID: -4268703749425588267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e6753ea81f9eef0800000000000000
+      internalID: -78265939680334317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79655286babd32700800000000000000
+      internalID: 514496311683536535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b46a2ed39d94b820800000000000000
+      internalID: 2933142515738109113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b5978d26ac8fe20800000000000000
+      internalID: 3384677645856365323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d00d79b923b697610800000000000000
+      internalID: 1619443406119358477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d03c1bd09fb0a00800000000000000
+      internalID: 723946002335337851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489b5becdc17d2e60800000000000000
+      internalID: 7939126846874302852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d816e82b1800dc0800000000000000
+      internalID: -3674794692041405030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761287dd038fe9e30800000000000000
+      internalID: 4512316765429571943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1a80237bf1c6d20800000000000000
+      internalID: 3273025900870410671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79f241db6e8b3840800000000000000
+      internalID: 5204910388080212348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82bf7dd21b544740800000000000000
+      internalID: 5135329611692880526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec027aeba979d7ec0800000000000000
+      internalID: -3567528638928183090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff43dedd76f044af0800000000000000
+      internalID: -413188327031884545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036d653841ae7c260800000000000000
+      internalID: 7117915109906110000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a6845a9c0b890260800000000000000
+      internalID: 7064330376752432805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a439962ffc1dc640800000000000000
+      internalID: 5101765835070452902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb6db8101c2619e0800000000000000
+      internalID: -1651083765738542108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c4d5f5bce87cd50800000000000000
+      internalID: 6757526770022173808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d25990d0b0df8d0800000000000000
+      internalID: -2811078441786069659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b08127bc4d0184a0800000000000000
+      internalID: -6592973756352593739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0ab161bcc05d3b60800000000000000
+      internalID: 7727421375717161483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd32c282f8842a50800000000000000
+      internalID: 6495467137732328913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d226f167864d620800000000000000
+      internalID: 2797976125045878131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e4989aa8e794630800000000000000
+      internalID: 3911796885362920988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41dcf15533c03e50800000000000000
+      internalID: 6787139272223543628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbaa2e531974f5db0800000000000000
+      internalID: -4801039988753782081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6c44ada504789e0800000000000000
+      internalID: -1619254782063229269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adfc7a3cf34b343e0800000000000000
+      internalID: -2070613217701802022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1374e65fc96d676e0800000000000000
+      internalID: -1840047428113381583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e5c42eaf1cd8490800000000000000
+      internalID: -7742318901097374190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77e7376d9a1b1560800000000000000
+      internalID: 7285446085545813882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0b6c588ba5be6e0800000000000000
+      internalID: -1807251076894248769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc8d3531afaf622c0800000000000000
+      internalID: -4456598829263497012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c3354c11dcc82600800000000000000
+      internalID: 443829761790522309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208eef32f6e5f03d0800000000000000
+      internalID: -3238265775617808382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029163b9ec88aee20800000000000000
+      internalID: 3380664891243632928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1442c7cac5b76370800000000000000
+      internalID: 8315815119502328862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e65eb0a9a55172d0800000000000000
+      internalID: -3282748466341718301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b801dab96216e70800000000000000
+      internalID: 9106602371585182510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb7c6f18347f3a30800000000000000
+      internalID: 4197201162126785469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d885f2be412c9b000800000000000000
+      internalID: 52286265792354445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5af89e901086eade0800000000000000
+      internalID: -1320003287102419035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4032eca74d97793a0800000000000000
+      internalID: -6658719570543631612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b3b10b81078e8bc0800000000000000
+      internalID: -3778934596620405833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4211bfbd50dbdf9c0800000000000000
+      internalID: -3891746670115090140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a6c0577082a4180800000000000000
+      internalID: -9130441282046629302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d01d17ee5b8d880800000000000000
+      internalID: -8585912653865480958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61497e13a011ed0b0800000000000000
+      internalID: -5702101342719863786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f104e289fab67dea0800000000000000
+      internalID: -5848087189200682977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4518ef097890e50800000000000000
+      internalID: 6776096171170550993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a170d053e65e5030800000000000000
+      internalID: 3485318695944745376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf181ebdf99aeb270800000000000000
+      internalID: 8268232469952692732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677815f4ed96e6380800000000000000
+      internalID: -8976120603768420490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d37dda980d1598d50800000000000000
+      internalID: 6740008273441576765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ecb1a0ef6c6216c0800000000000000
+      internalID: -4174154676853162779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c0b090f2a70d000800000000000000
+      internalID: 58681137589587010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc95887d9415b390800000000000000
+      internalID: -7803308112785072943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b29814716a55142a0800000000000000
+      internalID: -6755023794235930325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95ef681a1afa33b0800000000000000
+      internalID: -5531834202285152868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc43c356ef6b46d0800000000000000
+      internalID: -3005185291301204773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04636aaf0c45c6160800000000000000
+      internalID: 7020079106979411520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bd28b915c9481f0800000000000000
+      internalID: -1043537339327784044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c27e4e5501876220800000000000000
+      internalID: 2479091979947766471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44b5a9d718917460800000000000000
+      internalID: 7237733304364282958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c4776d14c0aab90800000000000000
+      internalID: -7229952774879359934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8023f9273bc7ed0800000000000000
+      internalID: -2414857995298928475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe3300f7a5be3ea0800000000000000
+      internalID: -5891071529663119622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc9c086f518076f0800000000000000
+      internalID: -688908496220152614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38ee11a9b7ff4000800000000000000
+      internalID: 22508899804309564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38260774c8a9794b0800000000000000
+      internalID: -5433704498114567549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8aecbdffe933d90800000000000000
+      internalID: -7119171764201019147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e959b4545169fcc70800000000000000
+      internalID: 8993571998983230878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6eed3281aac98830800000000000000
+      internalID: 4074010132956966508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d28a9e1215925830800000000000000
+      internalID: 4058470119269630677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07130ef213670550800000000000000
+      internalID: 6126974751283025679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197fe0a01c1269900800000000000000
+      internalID: 690776705829107601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b903978dc49219a0800000000000000
+      internalID: -6263780521255171663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c3551beabcb92ae0800000000000000
+      internalID: -1573519083795295292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b9eb7292ae8ee810800000000000000
+      internalID: 1796530130260847026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_attack_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3771f1bc3221e600800000000000000
+      internalID: 495715078066239292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sun_disc_attack_0: 8196780807052039170
+      sun_disc_attack_000: -7045610809138993935
+      sun_disc_attack_001: -2100187564413244116
+      sun_disc_attack_002: 8690455373701115786
+      sun_disc_attack_003: -5933513600463166718
+      sun_disc_attack_004: -2125682365858948214
+      sun_disc_attack_005: 2962056623218447822
+      sun_disc_attack_006: 7528194222170149507
+      sun_disc_attack_007: 8460793693662532035
+      sun_disc_attack_008: 7180190853654345305
+      sun_disc_attack_009: 3738354431226329511
+      sun_disc_attack_010: -93241332459571401
+      sun_disc_attack_011: 6649705903162340642
+      sun_disc_attack_012: -7429011413216642268
+      sun_disc_attack_013: -7549463010405982921
+      sun_disc_attack_014: -3512759179011957645
+      sun_disc_attack_015: 838586293145914787
+      sun_disc_attack_016: 1994322897027509420
+      sun_disc_attack_017: -6728980423317152225
+      sun_disc_attack_018: -2200906401787974905
+      sun_disc_attack_019: -2457702156023841939
+      sun_disc_attack_020: 6457226566185934357
+      sun_disc_attack_021: -1046075187922788375
+      sun_disc_attack_022: 3768517431106310273
+      sun_disc_attack_023: -2004465361923495936
+      sun_disc_attack_024: -5980865367126857799
+      sun_disc_attack_025: -5505729932550564531
+      sun_disc_attack_026: -1865527857040478637
+      sun_disc_attack_027: 1554877476749863478
+      sun_disc_attack_028: 358812937283755628
+      sun_disc_attack_029: -970106100301640434
+      sun_disc_attack_030: 4773005116390872190
+      sun_disc_attack_031: -1694329141827643525
+      sun_disc_attack_032: 1733639805937893708
+      sun_disc_attack_033: 8345808814697400925
+      sun_disc_attack_034: 1494460912783459374
+      sun_disc_attack_035: -4795314071712106357
+      sun_disc_attack_036: 1870692286662978924
+      sun_disc_attack_037: -5304424092955069139
+      sun_disc_attack_038: -4268703749425588267
+      sun_disc_attack_039: -78265939680334317
+      sun_disc_attack_040: 514496311683536535
+      sun_disc_attack_041: 2933142515738109113
+      sun_disc_attack_042: 3384677645856365323
+      sun_disc_attack_043: 1619443406119358477
+      sun_disc_attack_044: 723946002335337851
+      sun_disc_attack_045: 7939126846874302852
+      sun_disc_attack_046: -3674794692041405030
+      sun_disc_attack_047: 4512316765429571943
+      sun_disc_attack_048: 3273025900870410671
+      sun_disc_attack_049: 5204910388080212348
+      sun_disc_attack_050: 5135329611692880526
+      sun_disc_attack_051: -3567528638928183090
+      sun_disc_attack_052: -413188327031884545
+      sun_disc_attack_053: 7117915109906110000
+      sun_disc_attack_054: 7064330376752432805
+      sun_disc_attack_055: 5101765835070452902
+      sun_disc_attack_056: -1651083765738542108
+      sun_disc_attack_057: 6757526770022173808
+      sun_disc_attack_058: -2811078441786069659
+      sun_disc_attack_059: -6592973756352593739
+      sun_disc_attack_060: 7727421375717161483
+      sun_disc_attack_061: 6495467137732328913
+      sun_disc_attack_062: 2797976125045878131
+      sun_disc_attack_063: 3911796885362920988
+      sun_disc_attack_064: 6787139272223543628
+      sun_disc_attack_065: -4801039988753782081
+      sun_disc_attack_066: -1619254782063229269
+      sun_disc_attack_067: -2070613217701802022
+      sun_disc_attack_068: -1840047428113381583
+      sun_disc_attack_069: -7742318901097374190
+      sun_disc_attack_070: 7285446085545813882
+      sun_disc_attack_071: -1807251076894248769
+      sun_disc_attack_072: -4456598829263497012
+      sun_disc_attack_073: 443829761790522309
+      sun_disc_attack_074: -3238265775617808382
+      sun_disc_attack_075: 3380664891243632928
+      sun_disc_attack_076: 8315815119502328862
+      sun_disc_attack_077: -3282748466341718301
+      sun_disc_attack_078: 9106602371585182510
+      sun_disc_attack_079: 4197201162126785469
+      sun_disc_attack_080: 52286265792354445
+      sun_disc_attack_081: -1320003287102419035
+      sun_disc_attack_082: -6658719570543631612
+      sun_disc_attack_083: -3778934596620405833
+      sun_disc_attack_084: -3891746670115090140
+      sun_disc_attack_085: -9130441282046629302
+      sun_disc_attack_086: -8585912653865480958
+      sun_disc_attack_087: -5702101342719863786
+      sun_disc_attack_088: -5848087189200682977
+      sun_disc_attack_089: 6776096171170550993
+      sun_disc_attack_090: 3485318695944745376
+      sun_disc_attack_091: 8268232469952692732
+      sun_disc_attack_092: -8976120603768420490
+      sun_disc_attack_093: 6740008273441576765
+      sun_disc_attack_094: -4174154676853162779
+      sun_disc_attack_095: 58681137589587010
+      sun_disc_attack_096: -7803308112785072943
+      sun_disc_attack_097: -6755023794235930325
+      sun_disc_attack_098: -5531834202285152868
+      sun_disc_attack_099: -3005185291301204773
+      sun_disc_attack_1: -2163120720972645358
+      sun_disc_attack_10: -3056684792288187439
+      sun_disc_attack_100: 7020079106979411520
+      sun_disc_attack_101: -1043537339327784044
+      sun_disc_attack_102: 2479091979947766471
+      sun_disc_attack_103: 7237733304364282958
+      sun_disc_attack_104: -7229952774879359934
+      sun_disc_attack_105: -2414857995298928475
+      sun_disc_attack_106: -5891071529663119622
+      sun_disc_attack_107: -688908496220152614
+      sun_disc_attack_108: 22508899804309564
+      sun_disc_attack_109: -5433704498114567549
+      sun_disc_attack_11: 7032981291158830185
+      sun_disc_attack_110: -7119171764201019147
+      sun_disc_attack_111: 8993571998983230878
+      sun_disc_attack_112: 4074010132956966508
+      sun_disc_attack_113: 4058470119269630677
+      sun_disc_attack_114: 6126974751283025679
+      sun_disc_attack_115: 690776705829107601
+      sun_disc_attack_116: -6263780521255171663
+      sun_disc_attack_117: -1573519083795295292
+      sun_disc_attack_118: 1796530130260847026
+      sun_disc_attack_119: 495715078066239292
+      sun_disc_attack_12: -2810423195902345850
+      sun_disc_attack_120: -3193232181703379920
+      sun_disc_attack_121: -2812701666003578192
+      sun_disc_attack_122: 1647248732821781482
+      sun_disc_attack_123: 3141259884616202632
+      sun_disc_attack_124: 5397438623583330503
+      sun_disc_attack_125: 1418453072166500677
+      sun_disc_attack_126: 8469404256670681864
+      sun_disc_attack_127: -8451386066781202435
+      sun_disc_attack_128: -7632344456861036807
+      sun_disc_attack_129: -1138943305117148296
+      sun_disc_attack_13: 4887784930506450505
+      sun_disc_attack_130: -5066094632010839221
+      sun_disc_attack_131: -3732178279131087503
+      sun_disc_attack_132: -4872614472788438358
+      sun_disc_attack_133: -6546774428284862266
+      sun_disc_attack_134: 6495482782326508537
+      sun_disc_attack_135: -1718882303332826807
+      sun_disc_attack_136: 8999791259721155963
+      sun_disc_attack_137: -2043243713681264995
+      sun_disc_attack_138: 4674357880890297440
+      sun_disc_attack_139: 275943715609014098
+      sun_disc_attack_14: -2141028872100903714
+      sun_disc_attack_140: -5339375158309372712
+      sun_disc_attack_141: 3991443289095729999
+      sun_disc_attack_142: -2509409440795587378
+      sun_disc_attack_143: 7852509747028875341
+      sun_disc_attack_144: -2621635768656222954
+      sun_disc_attack_145: 6885623226320274939
+      sun_disc_attack_146: -3656352178188348922
+      sun_disc_attack_147: -6447438620065698902
+      sun_disc_attack_148: -8917047049558294625
+      sun_disc_attack_149: 2991025695707249205
+      sun_disc_attack_15: 8127845622586900569
+      sun_disc_attack_150: 2756746552509485459
+      sun_disc_attack_151: 7766046315088675564
+      sun_disc_attack_152: 6419648606595101989
+      sun_disc_attack_153: 6870256740949295923
+      sun_disc_attack_154: 7106235824718182911
+      sun_disc_attack_155: 7924713636431513369
+      sun_disc_attack_156: -7279074872529588197
+      sun_disc_attack_157: 6845373937725792645
+      sun_disc_attack_158: 4710469095653317561
+      sun_disc_attack_159: 5698476579741084250
+      sun_disc_attack_16: 7112379482659797503
+      sun_disc_attack_160: 375466656277211932
+      sun_disc_attack_161: -2275329012694667814
+      sun_disc_attack_162: -4839794468634558631
+      sun_disc_attack_163: 3432803105504364021
+      sun_disc_attack_164: 7569853029035179930
+      sun_disc_attack_165: -7679651392341914290
+      sun_disc_attack_166: -5605222341323105022
+      sun_disc_attack_167: 8763750022698618603
+      sun_disc_attack_168: 1573207361842288448
+      sun_disc_attack_169: 9022735760324511665
+      sun_disc_attack_17: 7320531484178980194
+      sun_disc_attack_170: -5384934438706845323
+      sun_disc_attack_171: 2163939676233032555
+      sun_disc_attack_172: 2742473779547033870
+      sun_disc_attack_173: 4274367380599767213
+      sun_disc_attack_174: 3190736590449032556
+      sun_disc_attack_175: 7707616159483334290
+      sun_disc_attack_176: 8567603504228923870
+      sun_disc_attack_177: 7670972189281696969
+      sun_disc_attack_178: 2881655792065557522
+      sun_disc_attack_179: -7740420341272107904
+      sun_disc_attack_18: -2127190042944586198
+      sun_disc_attack_180: 1507095788961997583
+      sun_disc_attack_181: 4901124355047745203
+      sun_disc_attack_182: 8435750862855896997
+      sun_disc_attack_183: -6093545444690849802
+      sun_disc_attack_184: -7660962227690410079
+      sun_disc_attack_185: -311800971513610620
+      sun_disc_attack_186: -106743503535409564
+      sun_disc_attack_187: 8596307271465031002
+      sun_disc_attack_188: -8821427333652992115
+      sun_disc_attack_189: 3725004749073151853
+      sun_disc_attack_19: 8272276208754342199
+      sun_disc_attack_190: 7440491462187877348
+      sun_disc_attack_191: -7161671636240865440
+      sun_disc_attack_192: 8112017680812765000
+      sun_disc_attack_193: -2706646348538513292
+      sun_disc_attack_194: -2596164713307713631
+      sun_disc_attack_195: 2208226342541143432
+      sun_disc_attack_196: -3691077607465604105
+      sun_disc_attack_197: 4668094231359651317
+      sun_disc_attack_198: 146815384523296407
+      sun_disc_attack_199: -1218497524326432139
+      sun_disc_attack_2: -627121649283128398
+      sun_disc_attack_20: -4387238472014868900
+      sun_disc_attack_200: -1068292537019709862
+      sun_disc_attack_201: -1414267348174860229
+      sun_disc_attack_202: -4565042522020116924
+      sun_disc_attack_203: 590679340458641481
+      sun_disc_attack_204: 7736770682602166066
+      sun_disc_attack_205: 8442740607207430473
+      sun_disc_attack_206: -4104440427588418015
+      sun_disc_attack_207: 6125003100494317063
+      sun_disc_attack_208: -3690861531137941297
+      sun_disc_attack_209: -2795897506801770845
+      sun_disc_attack_21: 5620963734356209842
+      sun_disc_attack_210: 3029506761833730645
+      sun_disc_attack_211: -6021807347478369360
+      sun_disc_attack_212: 821630417172661164
+      sun_disc_attack_213: -495822556078771086
+      sun_disc_attack_214: -2585783497316156101
+      sun_disc_attack_215: 7802656858616461893
+      sun_disc_attack_216: 5171138698509855747
+      sun_disc_attack_217: -7940549098952539077
+      sun_disc_attack_218: -335979442566953674
+      sun_disc_attack_219: -8857986225927076718
+      sun_disc_attack_22: -7853362826163496353
+      sun_disc_attack_220: 2408765625823490301
+      sun_disc_attack_221: 1555612837320878918
+      sun_disc_attack_222: -762325024906411967
+      sun_disc_attack_223: -5111144558757319686
+      sun_disc_attack_224: 928864288877428447
+      sun_disc_attack_225: 7569446109182603050
+      sun_disc_attack_226: 8197973247648045391
+      sun_disc_attack_227: -6825337705403034138
+      sun_disc_attack_228: 2494657354267972020
+      sun_disc_attack_229: 6696030779363895619
+      sun_disc_attack_23: -7922035419519645193
+      sun_disc_attack_230: 6147487834881438078
+      sun_disc_attack_231: -3501530249970148837
+      sun_disc_attack_232: -6607754506867880115
+      sun_disc_attack_233: -3692817830946273302
+      sun_disc_attack_234: -4296898565580436211
+      sun_disc_attack_235: -5403322101848263954
+      sun_disc_attack_236: 2502302724354268527
+      sun_disc_attack_237: 5044443516046521848
+      sun_disc_attack_238: -2194579785673207551
+      sun_disc_attack_239: 6432084692833581172
+      sun_disc_attack_24: -2638251584846918887
+      sun_disc_attack_25: -2463402841865508121
+      sun_disc_attack_26: -8075088748314521086
+      sun_disc_attack_27: 2741203938237235303
+      sun_disc_attack_28: -3677419762478313610
+      sun_disc_attack_29: 8350542415033157822
+      sun_disc_attack_3: 5446242528179483418
+      sun_disc_attack_30: -3678433931166657139
+      sun_disc_attack_31: -6858102947541859884
+      sun_disc_attack_32: -1192287706532020624
+      sun_disc_attack_33: -1197956875098332736
+      sun_disc_attack_34: 6464746495217825236
+      sun_disc_attack_35: 2980473131819215794
+      sun_disc_attack_36: 58298329255655611
+      sun_disc_attack_37: 3889564283991586063
+      sun_disc_attack_38: 522914787956531978
+      sun_disc_attack_39: -1105828217171416945
+      sun_disc_attack_4: 3152326489558064286
+      sun_disc_attack_40: 8454899572161776833
+      sun_disc_attack_41: -7352489608112954190
+      sun_disc_attack_42: -4462536155453750588
+      sun_disc_attack_43: 8070583794136901022
+      sun_disc_attack_44: -410180649222393133
+      sun_disc_attack_45: 3096150916012175858
+      sun_disc_attack_46: -6542741987824380744
+      sun_disc_attack_47: 5693303320570315025
+      sun_disc_attack_48: 8255552666823758541
+      sun_disc_attack_49: -7281357251940141641
+      sun_disc_attack_5: 7189125472720909682
+      sun_disc_attack_50: -8946128891708314077
+      sun_disc_attack_51: 1571722713989144392
+      sun_disc_attack_52: 7062305495149366484
+      sun_disc_attack_53: -5201220129894000532
+      sun_disc_attack_54: -4706197641509818373
+      sun_disc_attack_55: -4473817660835120838
+      sun_disc_attack_56: -2110627773823403164
+      sun_disc_attack_57: 5825466403765565713
+      sun_disc_attack_58: -840520303021653732
+      sun_disc_attack_59: -8796891041456066217
+      sun_disc_attack_6: 7272305733885736088
+      sun_disc_attack_60: 3122205372489780425
+      sun_disc_attack_61: 4164978724495273240
+      sun_disc_attack_62: -1779986798866153728
+      sun_disc_attack_63: 137967299637811826
+      sun_disc_attack_64: 1355282343042084785
+      sun_disc_attack_65: 3439100395288847853
+      sun_disc_attack_66: 5801339691126152948
+      sun_disc_attack_67: 8934236088344639761
+      sun_disc_attack_68: 2610658972401078298
+      sun_disc_attack_69: 398746160583411264
+      sun_disc_attack_7: -3797890279883502866
+      sun_disc_attack_70: -909977039084989930
+      sun_disc_attack_71: 6208600425609916808
+      sun_disc_attack_72: -3181822090211993898
+      sun_disc_attack_73: -9145578049716572502
+      sun_disc_attack_74: -4074709903530387535
+      sun_disc_attack_75: -7655925186295982262
+      sun_disc_attack_76: 9193597773149490954
+      sun_disc_attack_77: -7772362323624550725
+      sun_disc_attack_78: 1322397852304387352
+      sun_disc_attack_79: 5957370836034336769
+      sun_disc_attack_8: -1702756671342241260
+      sun_disc_attack_80: -6455522672881908725
+      sun_disc_attack_81: 8128671321315675151
+      sun_disc_attack_82: -1586090517494302279
+      sun_disc_attack_83: -7341194826932554944
+      sun_disc_attack_84: -6715059283187453787
+      sun_disc_attack_85: 8267597308291170200
+      sun_disc_attack_86: -5297193025272955329
+      sun_disc_attack_87: 4885596710646262508
+      sun_disc_attack_88: -3848273303778052793
+      sun_disc_attack_89: -5186185842869576923
+      sun_disc_attack_9: 1638283758735711287
+      sun_disc_attack_90: 8430878975060076567
+      sun_disc_attack_91: -3526803832322715792
+      sun_disc_attack_92: 356201717192098353
+      sun_disc_attack_93: 630022130292895940
+      sun_disc_attack_94: -6367928861015393015
+      sun_disc_attack_95: -7359641547792006101
+      sun_disc_attack_96: -2353475037657639975
+      sun_disc_attack_97: -3745729245412807210
+      sun_disc_attack_98: -2495593090722499321
+      sun_disc_attack_99: 6111506497642335218
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

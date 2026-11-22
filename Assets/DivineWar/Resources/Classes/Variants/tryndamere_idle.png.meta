@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 9079f596b135d7b4b8f1e44cba431e38
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8703182827313219642
+    second: tryndamere_idle_0
+  - first:
+      213: 6117157366533402072
+    second: tryndamere_idle_1
+  - first:
+      213: -6726916947794539841
+    second: tryndamere_idle_2
+  - first:
+      213: -7461015326578599378
+    second: tryndamere_idle_3
+  - first:
+      213: -7977727053619378716
+    second: tryndamere_idle_4
+  - first:
+      213: -6491006715296442873
+    second: tryndamere_idle_5
+  - first:
+      213: 2225009659236770140
+    second: tryndamere_idle_6
+  - first:
+      213: 8653028366558993031
+    second: tryndamere_idle_7
+  - first:
+      213: -8618505780664768393
+    second: tryndamere_idle_8
+  - first:
+      213: 3571218731070809012
+    second: tryndamere_idle_9
+  - first:
+      213: -6507725051626866328
+    second: tryndamere_idle_10
+  - first:
+      213: -7120246590591356710
+    second: tryndamere_idle_11
+  - first:
+      213: -7122249955210165806
+    second: tryndamere_idle_12
+  - first:
+      213: -6053004680404557272
+    second: tryndamere_idle_13
+  - first:
+      213: -5317958402424043117
+    second: tryndamere_idle_14
+  - first:
+      213: -1546303596437758883
+    second: tryndamere_idle_15
+  - first:
+      213: 6068444356998452928
+    second: tryndamere_idle_16
+  - first:
+      213: -4710890053261874448
+    second: tryndamere_idle_17
+  - first:
+      213: 8777120788547858212
+    second: tryndamere_idle_18
+  - first:
+      213: -6844807992774550202
+    second: tryndamere_idle_19
+  - first:
+      213: -1663051340839508203
+    second: tryndamere_idle_20
+  - first:
+      213: 7824401851831449111
+    second: tryndamere_idle_21
+  - first:
+      213: 8214798378622529010
+    second: tryndamere_idle_22
+  - first:
+      213: -5670310120693232347
+    second: tryndamere_idle_23
+  - first:
+      213: 2216996368713963699
+    second: tryndamere_idle_24
+  - first:
+      213: 8803921057497226203
+    second: tryndamere_idle_25
+  - first:
+      213: 5968711188022063198
+    second: tryndamere_idle_26
+  - first:
+      213: -8554257534631953945
+    second: tryndamere_idle_27
+  - first:
+      213: 2917565990260440370
+    second: tryndamere_idle_28
+  - first:
+      213: 7792888411156432240
+    second: tryndamere_idle_29
+  - first:
+      213: -3931055179645641436
+    second: tryndamere_idle_30
+  - first:
+      213: -2644275047916908214
+    second: tryndamere_idle_31
+  - first:
+      213: 4129434393993295219
+    second: tryndamere_idle_32
+  - first:
+      213: 6011436184123261120
+    second: tryndamere_idle_33
+  - first:
+      213: -5842408517346362675
+    second: tryndamere_idle_34
+  - first:
+      213: 6298194516227303435
+    second: tryndamere_idle_35
+  - first:
+      213: 4314143656578952097
+    second: tryndamere_idle_36
+  - first:
+      213: -5260650285916448094
+    second: tryndamere_idle_37
+  - first:
+      213: 7697494067720135659
+    second: tryndamere_idle_38
+  - first:
+      213: -5084715970038418659
+    second: tryndamere_idle_39
+  - first:
+      213: 743831305053490167
+    second: tryndamere_idle_40
+  - first:
+      213: -1704634471362111354
+    second: tryndamere_idle_41
+  - first:
+      213: -1519517263035469864
+    second: tryndamere_idle_42
+  - first:
+      213: -2725819022015640086
+    second: tryndamere_idle_43
+  - first:
+      213: 4475770477608411996
+    second: tryndamere_idle_44
+  - first:
+      213: -2168214482489588026
+    second: tryndamere_idle_45
+  - first:
+      213: 3691420096233505332
+    second: tryndamere_idle_46
+  - first:
+      213: -7281559912989903910
+    second: tryndamere_idle_47
+  - first:
+      213: 3249954409844415913
+    second: tryndamere_idle_48
+  - first:
+      213: -6655922897249147624
+    second: tryndamere_idle_49
+  - first:
+      213: 4466544786595102445
+    second: tryndamere_idle_50
+  - first:
+      213: 6608447562290908494
+    second: tryndamere_idle_51
+  - first:
+      213: -6735325439283718617
+    second: tryndamere_idle_52
+  - first:
+      213: 5301188834175326329
+    second: tryndamere_idle_53
+  - first:
+      213: 7714958461250252434
+    second: tryndamere_idle_54
+  - first:
+      213: -6476088991377110138
+    second: tryndamere_idle_55
+  - first:
+      213: 855941030991075369
+    second: tryndamere_idle_56
+  - first:
+      213: -6976855342557311441
+    second: tryndamere_idle_57
+  - first:
+      213: 1475433412953403778
+    second: tryndamere_idle_58
+  - first:
+      213: -7188082521959522420
+    second: tryndamere_idle_59
+  - first:
+      213: -5683867855365132599
+    second: tryndamere_idle_60
+  - first:
+      213: 6513846352097910356
+    second: tryndamere_idle_61
+  - first:
+      213: 8010782220295397855
+    second: tryndamere_idle_62
+  - first:
+      213: -1232187319778974367
+    second: tryndamere_idle_63
+  - first:
+      213: -1628802052246310315
+    second: tryndamere_idle_64
+  - first:
+      213: 6916296215697998813
+    second: tryndamere_idle_65
+  - first:
+      213: -613229684904814210
+    second: tryndamere_idle_66
+  - first:
+      213: -3934897903906167869
+    second: tryndamere_idle_67
+  - first:
+      213: 2811348623303043539
+    second: tryndamere_idle_68
+  - first:
+      213: 4007929108664594774
+    second: tryndamere_idle_69
+  - first:
+      213: -7938863242369603818
+    second: tryndamere_idle_70
+  - first:
+      213: 384341567316326679
+    second: tryndamere_idle_71
+  - first:
+      213: -3255670201176251254
+    second: tryndamere_idle_72
+  - first:
+      213: 2381704226904250071
+    second: tryndamere_idle_73
+  - first:
+      213: -3081153061005369395
+    second: tryndamere_idle_74
+  - first:
+      213: 4806915389536232202
+    second: tryndamere_idle_75
+  - first:
+      213: -6065032824070086154
+    second: tryndamere_idle_76
+  - first:
+      213: 8322308773642787695
+    second: tryndamere_idle_77
+  - first:
+      213: 2008246087910262816
+    second: tryndamere_idle_78
+  - first:
+      213: 7537600937059616911
+    second: tryndamere_idle_79
+  - first:
+      213: 6355101889734680973
+    second: tryndamere_idle_80
+  - first:
+      213: -5798218745453154467
+    second: tryndamere_idle_81
+  - first:
+      213: 4204512178210969732
+    second: tryndamere_idle_82
+  - first:
+      213: 7590509302944624557
+    second: tryndamere_idle_83
+  - first:
+      213: 4860093024957619610
+    second: tryndamere_idle_84
+  - first:
+      213: -3230380052261154248
+    second: tryndamere_idle_85
+  - first:
+      213: -3290713591525323622
+    second: tryndamere_idle_86
+  - first:
+      213: -6456815589798027070
+    second: tryndamere_idle_87
+  - first:
+      213: -8954483475035080212
+    second: tryndamere_idle_88
+  - first:
+      213: 5274850360105147626
+    second: tryndamere_idle_89
+  - first:
+      213: 1037421066702055379
+    second: tryndamere_idle_90
+  - first:
+      213: 8393384689811249763
+    second: tryndamere_idle_91
+  - first:
+      213: -1224744565317614592
+    second: tryndamere_idle_92
+  - first:
+      213: 6206939537284313112
+    second: tryndamere_idle_93
+  - first:
+      213: 3700633312136142533
+    second: tryndamere_idle_94
+  - first:
+      213: -1698002007335012423
+    second: tryndamere_idle_95
+  - first:
+      213: 8199799807075983894
+    second: tryndamere_idle_96
+  - first:
+      213: -2527502584406009351
+    second: tryndamere_idle_97
+  - first:
+      213: -7815547484114824785
+    second: tryndamere_idle_98
+  - first:
+      213: 7129433929877477011
+    second: tryndamere_idle_99
+  - first:
+      213: -4716108204170960999
+    second: tryndamere_idle_100
+  - first:
+      213: 260602327002554020
+    second: tryndamere_idle_101
+  - first:
+      213: -7715038825916388160
+    second: tryndamere_idle_102
+  - first:
+      213: 5260868991877303716
+    second: tryndamere_idle_103
+  - first:
+      213: -4035120654198267092
+    second: tryndamere_idle_104
+  - first:
+      213: -6436133884651237312
+    second: tryndamere_idle_105
+  - first:
+      213: -1979847717471677612
+    second: tryndamere_idle_106
+  - first:
+      213: -5596186410929032618
+    second: tryndamere_idle_107
+  - first:
+      213: -7626282995946221072
+    second: tryndamere_idle_108
+  - first:
+      213: -4529905557310241286
+    second: tryndamere_idle_109
+  - first:
+      213: -174999542566055052
+    second: tryndamere_idle_110
+  - first:
+      213: -637718746510283722
+    second: tryndamere_idle_111
+  - first:
+      213: -5590496822578755779
+    second: tryndamere_idle_112
+  - first:
+      213: -2185604804229825269
+    second: tryndamere_idle_113
+  - first:
+      213: 8819498080660351332
+    second: tryndamere_idle_114
+  - first:
+      213: 3715805441652273694
+    second: tryndamere_idle_115
+  - first:
+      213: 5651714546419822321
+    second: tryndamere_idle_116
+  - first:
+      213: -6133527853754417472
+    second: tryndamere_idle_117
+  - first:
+      213: 7605247473912151204
+    second: tryndamere_idle_118
+  - first:
+      213: -5155430126470390269
+    second: tryndamere_idle_119
+  - first:
+      213: -8215554486716041994
+    second: tryndamere_idle_000
+  - first:
+      213: -1979983689097927005
+    second: tryndamere_idle_001
+  - first:
+      213: -7932467910490575033
+    second: tryndamere_idle_002
+  - first:
+      213: -202149057629479613
+    second: tryndamere_idle_003
+  - first:
+      213: 3237170614782673514
+    second: tryndamere_idle_004
+  - first:
+      213: 9000241916719399207
+    second: tryndamere_idle_005
+  - first:
+      213: 1262802198964678168
+    second: tryndamere_idle_006
+  - first:
+      213: -3187187642605411602
+    second: tryndamere_idle_007
+  - first:
+      213: -7897643374310505813
+    second: tryndamere_idle_008
+  - first:
+      213: -5139880177833893541
+    second: tryndamere_idle_009
+  - first:
+      213: 2015512188908813448
+    second: tryndamere_idle_010
+  - first:
+      213: 240985669995703217
+    second: tryndamere_idle_011
+  - first:
+      213: -2723199335518568480
+    second: tryndamere_idle_012
+  - first:
+      213: 5352914779555771498
+    second: tryndamere_idle_013
+  - first:
+      213: 1147221691006926065
+    second: tryndamere_idle_014
+  - first:
+      213: 7572287354766341287
+    second: tryndamere_idle_015
+  - first:
+      213: 4500063959117259028
+    second: tryndamere_idle_016
+  - first:
+      213: 8220090055891435765
+    second: tryndamere_idle_017
+  - first:
+      213: -4226389473013436873
+    second: tryndamere_idle_018
+  - first:
+      213: -5980836514294487605
+    second: tryndamere_idle_019
+  - first:
+      213: -7099338191636377828
+    second: tryndamere_idle_020
+  - first:
+      213: 2644592870789224927
+    second: tryndamere_idle_021
+  - first:
+      213: 652100869940436987
+    second: tryndamere_idle_022
+  - first:
+      213: 5832419694971727866
+    second: tryndamere_idle_023
+  - first:
+      213: -4925700464005720240
+    second: tryndamere_idle_024
+  - first:
+      213: 3742288494503223535
+    second: tryndamere_idle_025
+  - first:
+      213: 5430749997689736758
+    second: tryndamere_idle_026
+  - first:
+      213: 63313224000058808
+    second: tryndamere_idle_027
+  - first:
+      213: -4260011423740511088
+    second: tryndamere_idle_028
+  - first:
+      213: -1892007355063623357
+    second: tryndamere_idle_029
+  - first:
+      213: 8487751677932809501
+    second: tryndamere_idle_030
+  - first:
+      213: 3960283588023636468
+    second: tryndamere_idle_031
+  - first:
+      213: 521511033894001609
+    second: tryndamere_idle_032
+  - first:
+      213: -969973215726689519
+    second: tryndamere_idle_033
+  - first:
+      213: -1308321973831099412
+    second: tryndamere_idle_034
+  - first:
+      213: 8654135522691859763
+    second: tryndamere_idle_035
+  - first:
+      213: -1825386352374762866
+    second: tryndamere_idle_036
+  - first:
+      213: -749682270561047397
+    second: tryndamere_idle_037
+  - first:
+      213: -8560417993336814775
+    second: tryndamere_idle_038
+  - first:
+      213: -4699918211077192082
+    second: tryndamere_idle_039
+  - first:
+      213: 748298399104180963
+    second: tryndamere_idle_040
+  - first:
+      213: -4653371502427160833
+    second: tryndamere_idle_041
+  - first:
+      213: -6471309804857766537
+    second: tryndamere_idle_042
+  - first:
+      213: -1293967414365480615
+    second: tryndamere_idle_043
+  - first:
+      213: 328826326742945594
+    second: tryndamere_idle_044
+  - first:
+      213: -6056068011879671868
+    second: tryndamere_idle_045
+  - first:
+      213: -7994819484269464075
+    second: tryndamere_idle_046
+  - first:
+      213: 5914242003844352498
+    second: tryndamere_idle_047
+  - first:
+      213: 6744549923808446564
+    second: tryndamere_idle_048
+  - first:
+      213: 7639782874698809086
+    second: tryndamere_idle_049
+  - first:
+      213: 1741783426966128016
+    second: tryndamere_idle_050
+  - first:
+      213: 3070476427435658524
+    second: tryndamere_idle_051
+  - first:
+      213: -4523417973235261325
+    second: tryndamere_idle_052
+  - first:
+      213: -7101658940307704797
+    second: tryndamere_idle_053
+  - first:
+      213: 7676811841576827538
+    second: tryndamere_idle_054
+  - first:
+      213: -3511636441158457421
+    second: tryndamere_idle_055
+  - first:
+      213: 2468558451855606307
+    second: tryndamere_idle_056
+  - first:
+      213: 2943242211584714725
+    second: tryndamere_idle_057
+  - first:
+      213: 4660496971875740505
+    second: tryndamere_idle_058
+  - first:
+      213: -6460741972969424867
+    second: tryndamere_idle_059
+  - first:
+      213: -389559828908846609
+    second: tryndamere_idle_060
+  - first:
+      213: -8045637975071862740
+    second: tryndamere_idle_061
+  - first:
+      213: -3320532151297082558
+    second: tryndamere_idle_062
+  - first:
+      213: 3653413648892608217
+    second: tryndamere_idle_063
+  - first:
+      213: -455795481259905490
+    second: tryndamere_idle_064
+  - first:
+      213: 6793633490330729282
+    second: tryndamere_idle_065
+  - first:
+      213: -8091519192470831491
+    second: tryndamere_idle_066
+  - first:
+      213: -3788356865806576341
+    second: tryndamere_idle_067
+  - first:
+      213: -3120281190216380112
+    second: tryndamere_idle_068
+  - first:
+      213: -6502371486124748087
+    second: tryndamere_idle_069
+  - first:
+      213: -5511678192250245822
+    second: tryndamere_idle_070
+  - first:
+      213: 208804656100069606
+    second: tryndamere_idle_071
+  - first:
+      213: 6536572158898552880
+    second: tryndamere_idle_072
+  - first:
+      213: -6652847169933767706
+    second: tryndamere_idle_073
+  - first:
+      213: -8583004551021020023
+    second: tryndamere_idle_074
+  - first:
+      213: -6693713623248733535
+    second: tryndamere_idle_075
+  - first:
+      213: -538839711646462798
+    second: tryndamere_idle_076
+  - first:
+      213: -7113404907825389143
+    second: tryndamere_idle_077
+  - first:
+      213: -6751965526251410874
+    second: tryndamere_idle_078
+  - first:
+      213: -8203744223265492195
+    second: tryndamere_idle_079
+  - first:
+      213: 5288987753089692746
+    second: tryndamere_idle_080
+  - first:
+      213: 3260134039294352093
+    second: tryndamere_idle_081
+  - first:
+      213: -126755042669966521
+    second: tryndamere_idle_082
+  - first:
+      213: -8661301141544810836
+    second: tryndamere_idle_083
+  - first:
+      213: 2189331069529624159
+    second: tryndamere_idle_084
+  - first:
+      213: 4470718093336270733
+    second: tryndamere_idle_085
+  - first:
+      213: -5574240583930360707
+    second: tryndamere_idle_086
+  - first:
+      213: 2395264885423682288
+    second: tryndamere_idle_087
+  - first:
+      213: -1510127264456700090
+    second: tryndamere_idle_088
+  - first:
+      213: 2664620665209141628
+    second: tryndamere_idle_089
+  - first:
+      213: 2658770912879399799
+    second: tryndamere_idle_090
+  - first:
+      213: -2491717471636116348
+    second: tryndamere_idle_091
+  - first:
+      213: -7319039844231154270
+    second: tryndamere_idle_092
+  - first:
+      213: 488728737954308999
+    second: tryndamere_idle_093
+  - first:
+      213: 910367285364902677
+    second: tryndamere_idle_094
+  - first:
+      213: -8777569412012270730
+    second: tryndamere_idle_095
+  - first:
+      213: -344444861731606455
+    second: tryndamere_idle_096
+  - first:
+      213: -2913737163244746124
+    second: tryndamere_idle_097
+  - first:
+      213: -451858580107381936
+    second: tryndamere_idle_098
+  - first:
+      213: -757218511573106430
+    second: tryndamere_idle_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tryndamere_idle_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f47c62e8bc7cfd80800000000000000
+      internalID: -8215554486716041994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a6204e335fa584e0800000000000000
+      internalID: -1979983689097927005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f2603a6763ae190800000000000000
+      internalID: -7932467910490575033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d905cc082d13df0800000000000000
+      internalID: -202149057629479613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62447bd58dbcec20800000000000000
+      internalID: 3237170614782673514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72104a2865847ec70800000000000000
+      internalID: 9000241916719399207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e2fdac8ef568110800000000000000
+      internalID: 1262802198964678168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee26df9b9b5d4c3d0800000000000000
+      internalID: -3187187642605411602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2418fc13fe56290800000000000000
+      internalID: -7897643374310505813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51a324e53a7ba8b0800000000000000
+      internalID: -5139880177833893541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c316c38a988fb10800000000000000
+      internalID: 2015512188908813448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbad08a037285300800000000000000
+      internalID: 240985669995703217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eff5d9e1a0453ad0800000000000000
+      internalID: -2723199335518568480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a643c5c81af594a40800000000000000
+      internalID: 5352914779555771498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc371bbc00cbef00800000000000000
+      internalID: 1147221691006926065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4b70eba3b261960800000000000000
+      internalID: 7572287354766341287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411e8b51450737e30800000000000000
+      internalID: 4500063959117259028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0412b9a50a31270800000000000000
+      internalID: 8220090055891435765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e659aaa29d855c0800000000000000
+      internalID: -4226389473013436873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5aac9c0eccffca0800000000000000
+      internalID: -5980836514294487605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f462357851a7d90800000000000000
+      internalID: -7099338191636377828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd91cee443b73b420800000000000000
+      internalID: 2644592870789224927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffd586494abc0900800000000000000
+      internalID: 652100869940436987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff28c3afcae0f050800000000000000
+      internalID: 5832419694971727866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05756f4868564abb0800000000000000
+      internalID: -4925700464005720240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe065e9ee874fe330800000000000000
+      internalID: 3742288494503223535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e004c7956ed5b40800000000000000
+      internalID: 5430749997689736758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5bb12ba0fe0e000800000000000000
+      internalID: 63313224000058808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c37dc3e2661e4c0800000000000000
+      internalID: -4260011423740511088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341a109b55d3eb5e0800000000000000
+      internalID: -1892007355063623357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d29e85e2d8ac570800000000000000
+      internalID: 8487751677932809501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f155f9d0f0c5f630800000000000000
+      internalID: 3960283588023636468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cbd2b1b587cc3700800000000000000
+      internalID: 521511033894001609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 113a7fadf76f982f0800000000000000
+      internalID: -969973215726689519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceb95f9b818e7dde0800000000000000
+      internalID: -1308321973831099412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3354324086aa91870800000000000000
+      internalID: 8654135522691859763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e823bd8a8cceaa6e0800000000000000
+      internalID: -1825386352374762866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9cecc862f79895f0800000000000000
+      internalID: -749682270561047397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9430c4aa039433980800000000000000
+      internalID: -8560417993336814775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66ca5bc94986ceb0800000000000000
+      internalID: -4699918211077192082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e22998ed6d726a00800000000000000
+      internalID: 748298399104180963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffe37ede547eb6fb0800000000000000
+      internalID: -4653371502427160833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d43f9d40a4136a0800000000000000
+      internalID: -6471309804857766537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95990db0e77ea0ee0800000000000000
+      internalID: -1293967414365480615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f4f4e4dc9309400800000000000000
+      internalID: 328826326742945594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c75e48ca3684fba0800000000000000
+      internalID: -6056068011879671868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f53fb49902bc0190800000000000000
+      internalID: -7994819484269464075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f946da74cb931250800000000000000
+      internalID: 5914242003844352498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4688d7aeb64799d50800000000000000
+      internalID: 6744549923808446564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efef8871c06f50a60800000000000000
+      internalID: 7639782874698809086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0958af76cce0c2810800000000000000
+      internalID: 1741783426966128016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d438cea068c9a20800000000000000
+      internalID: 3070476427435658524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370e1b6c1579931c0800000000000000
+      internalID: -4523417973235261325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3247bfae1d6d17d90800000000000000
+      internalID: -7101658940307704797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29af2b842b3898a60800000000000000
+      internalID: 7676811841576827538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7ee602349244fc0800000000000000
+      internalID: -3511636441158457421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322442e35d4124220800000000000000
+      internalID: 2468558451855606307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7217d823f78d820800000000000000
+      internalID: 2943242211584714725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bef65bd496da040800000000000000
+      internalID: 4660496971875740505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1873b3f765d656a0800000000000000
+      internalID: -6460741972969424867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1502b4661089af0800000000000000
+      internalID: -389559828908846609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20d278a3e6285090800000000000000
+      internalID: -8045637975071862740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b7ca0f9991be1d0800000000000000
+      internalID: -3320532151297082558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9debec76b5883b230800000000000000
+      internalID: 3653413648892608217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e6649bc60bca9f0800000000000000
+      internalID: -455795481259905490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b3c5d4aa5d74e50800000000000000
+      internalID: 6793633490330729282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e35874a2625bf80800000000000000
+      internalID: -8091519192470831491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25df2b808d0d6bc0800000000000000
+      internalID: -3788356865806576341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 031d1d91ac882b4d0800000000000000
+      internalID: -3120281190216380112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2d7eb959fe2c5a0800000000000000
+      internalID: -6502371486124748087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d28a2e2e59283b0800000000000000
+      internalID: -5511678192250245822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0da4a7ab2d5e200800000000000000
+      internalID: 208804656100069606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0304bdb0fb196ba50800000000000000
+      internalID: 6536572158898552880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb822b4fb65ca3a0800000000000000
+      internalID: -6652847169933767706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cb4d6e5da03e880800000000000000
+      internalID: -8583004551021020023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aaf01aace62b13a0800000000000000
+      internalID: -6693713623248733535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bc407c1328a588f0800000000000000
+      internalID: -538839711646462798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a12c8dbceb184d90800000000000000
+      internalID: -7113404907825389143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ae91890233c42a0800000000000000
+      internalID: -6751965526251410874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13f8102812762e80800000000000000
+      internalID: -8203744223265492195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a447d44d652466940800000000000000
+      internalID: 5288987753089692746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda9c44c2a25e3d20800000000000000
+      internalID: 3260134039294352093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74bca24d5fcad3ef0800000000000000
+      internalID: -126755042669966521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca649855080ecc780800000000000000
+      internalID: -8661301141544810836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e0a071201126e10800000000000000
+      internalID: 2189331069529624159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8758344b6e2b0e30800000000000000
+      internalID: 4470718093336270733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cc346f8b154a2b0800000000000000
+      internalID: -5574240583930360707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f235aef8b0bd3120800000000000000
+      internalID: 2395264885423682288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f0d640143fa0be0800000000000000
+      internalID: -1510127264456700090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79b4f29062aaf420800000000000000
+      internalID: 2664620665209141628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7735159fe0ad5e420800000000000000
+      internalID: 2658770912879399799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cae764924ab6dd0800000000000000
+      internalID: -2491717471636116348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5fba32a0c8d6a90800000000000000
+      internalID: -7319039844231154270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783aa41a23058c600800000000000000
+      internalID: 488728737954308999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51bcf43093642ac00800000000000000
+      internalID: 910367285364902677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b9ca5102fcf2680800000000000000
+      internalID: -8777569412012270730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94077c32939483bf0800000000000000
+      internalID: -344444861731606455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a41f7dc735097d0800000000000000
+      internalID: -2913737163244746124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053bcf3f30daab9f0800000000000000
+      internalID: -451858580107381936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201c55096c1dd75f0800000000000000
+      internalID: -757218511573106430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99f951843940d8eb0800000000000000
+      internalID: -4716108204170960999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae90a88f68dd9300800000000000000
+      internalID: 260602327002554020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cc28e8501daee490800000000000000
+      internalID: -7715038825916388160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adc6be897c520940800000000000000
+      internalID: 5260868991877303716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23abacd42f5008c0800000000000000
+      internalID: -4035120654198267092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 040128ef4524ea6a0800000000000000
+      internalID: -6436133884651237312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4539bba9dfa2684e0800000000000000
+      internalID: -1979847717471677612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652f4bfeb1a5652b0800000000000000
+      internalID: -5596186410929032618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1160e55000a2690800000000000000
+      internalID: -7626282995946221072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5847665ea8221c0800000000000000
+      internalID: -4529905557310241286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4739e7dd7d6429df0800000000000000
+      internalID: -174999542566055052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ca5a7cd2e5627f0800000000000000
+      internalID: -637718746510283722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d374e3472c09a62b0800000000000000
+      internalID: -5590496822578755779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d7e78a20c2ba1e0800000000000000
+      internalID: -2185604804229825269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469eff2d6c6256a70800000000000000
+      internalID: 8819498080660351332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e12b52cac51319330800000000000000
+      internalID: 3715805441652273694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fee2479f6cee6e40800000000000000
+      internalID: 5651714546419822321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cef001f9e451eaa0800000000000000
+      internalID: -6133527853754417472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac787f78444b8960800000000000000
+      internalID: 7605247473912151204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tryndamere_idle_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e92675d9b3478b0800000000000000
+      internalID: -5155430126470390269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tryndamere_idle_0: 8703182827313219642
+      tryndamere_idle_000: -8215554486716041994
+      tryndamere_idle_001: -1979983689097927005
+      tryndamere_idle_002: -7932467910490575033
+      tryndamere_idle_003: -202149057629479613
+      tryndamere_idle_004: 3237170614782673514
+      tryndamere_idle_005: 9000241916719399207
+      tryndamere_idle_006: 1262802198964678168
+      tryndamere_idle_007: -3187187642605411602
+      tryndamere_idle_008: -7897643374310505813
+      tryndamere_idle_009: -5139880177833893541
+      tryndamere_idle_010: 2015512188908813448
+      tryndamere_idle_011: 240985669995703217
+      tryndamere_idle_012: -2723199335518568480
+      tryndamere_idle_013: 5352914779555771498
+      tryndamere_idle_014: 1147221691006926065
+      tryndamere_idle_015: 7572287354766341287
+      tryndamere_idle_016: 4500063959117259028
+      tryndamere_idle_017: 8220090055891435765
+      tryndamere_idle_018: -4226389473013436873
+      tryndamere_idle_019: -5980836514294487605
+      tryndamere_idle_020: -7099338191636377828
+      tryndamere_idle_021: 2644592870789224927
+      tryndamere_idle_022: 652100869940436987
+      tryndamere_idle_023: 5832419694971727866
+      tryndamere_idle_024: -4925700464005720240
+      tryndamere_idle_025: 3742288494503223535
+      tryndamere_idle_026: 5430749997689736758
+      tryndamere_idle_027: 63313224000058808
+      tryndamere_idle_028: -4260011423740511088
+      tryndamere_idle_029: -1892007355063623357
+      tryndamere_idle_030: 8487751677932809501
+      tryndamere_idle_031: 3960283588023636468
+      tryndamere_idle_032: 521511033894001609
+      tryndamere_idle_033: -969973215726689519
+      tryndamere_idle_034: -1308321973831099412
+      tryndamere_idle_035: 8654135522691859763
+      tryndamere_idle_036: -1825386352374762866
+      tryndamere_idle_037: -749682270561047397
+      tryndamere_idle_038: -8560417993336814775
+      tryndamere_idle_039: -4699918211077192082
+      tryndamere_idle_040: 748298399104180963
+      tryndamere_idle_041: -4653371502427160833
+      tryndamere_idle_042: -6471309804857766537
+      tryndamere_idle_043: -1293967414365480615
+      tryndamere_idle_044: 328826326742945594
+      tryndamere_idle_045: -6056068011879671868
+      tryndamere_idle_046: -7994819484269464075
+      tryndamere_idle_047: 5914242003844352498
+      tryndamere_idle_048: 6744549923808446564
+      tryndamere_idle_049: 7639782874698809086
+      tryndamere_idle_050: 1741783426966128016
+      tryndamere_idle_051: 3070476427435658524
+      tryndamere_idle_052: -4523417973235261325
+      tryndamere_idle_053: -7101658940307704797
+      tryndamere_idle_054: 7676811841576827538
+      tryndamere_idle_055: -3511636441158457421
+      tryndamere_idle_056: 2468558451855606307
+      tryndamere_idle_057: 2943242211584714725
+      tryndamere_idle_058: 4660496971875740505
+      tryndamere_idle_059: -6460741972969424867
+      tryndamere_idle_060: -389559828908846609
+      tryndamere_idle_061: -8045637975071862740
+      tryndamere_idle_062: -3320532151297082558
+      tryndamere_idle_063: 3653413648892608217
+      tryndamere_idle_064: -455795481259905490
+      tryndamere_idle_065: 6793633490330729282
+      tryndamere_idle_066: -8091519192470831491
+      tryndamere_idle_067: -3788356865806576341
+      tryndamere_idle_068: -3120281190216380112
+      tryndamere_idle_069: -6502371486124748087
+      tryndamere_idle_070: -5511678192250245822
+      tryndamere_idle_071: 208804656100069606
+      tryndamere_idle_072: 6536572158898552880
+      tryndamere_idle_073: -6652847169933767706
+      tryndamere_idle_074: -8583004551021020023
+      tryndamere_idle_075: -6693713623248733535
+      tryndamere_idle_076: -538839711646462798
+      tryndamere_idle_077: -7113404907825389143
+      tryndamere_idle_078: -6751965526251410874
+      tryndamere_idle_079: -8203744223265492195
+      tryndamere_idle_080: 5288987753089692746
+      tryndamere_idle_081: 3260134039294352093
+      tryndamere_idle_082: -126755042669966521
+      tryndamere_idle_083: -8661301141544810836
+      tryndamere_idle_084: 2189331069529624159
+      tryndamere_idle_085: 4470718093336270733
+      tryndamere_idle_086: -5574240583930360707
+      tryndamere_idle_087: 2395264885423682288
+      tryndamere_idle_088: -1510127264456700090
+      tryndamere_idle_089: 2664620665209141628
+      tryndamere_idle_090: 2658770912879399799
+      tryndamere_idle_091: -2491717471636116348
+      tryndamere_idle_092: -7319039844231154270
+      tryndamere_idle_093: 488728737954308999
+      tryndamere_idle_094: 910367285364902677
+      tryndamere_idle_095: -8777569412012270730
+      tryndamere_idle_096: -344444861731606455
+      tryndamere_idle_097: -2913737163244746124
+      tryndamere_idle_098: -451858580107381936
+      tryndamere_idle_099: -757218511573106430
+      tryndamere_idle_1: 6117157366533402072
+      tryndamere_idle_10: -6507725051626866328
+      tryndamere_idle_100: -4716108204170960999
+      tryndamere_idle_101: 260602327002554020
+      tryndamere_idle_102: -7715038825916388160
+      tryndamere_idle_103: 5260868991877303716
+      tryndamere_idle_104: -4035120654198267092
+      tryndamere_idle_105: -6436133884651237312
+      tryndamere_idle_106: -1979847717471677612
+      tryndamere_idle_107: -5596186410929032618
+      tryndamere_idle_108: -7626282995946221072
+      tryndamere_idle_109: -4529905557310241286
+      tryndamere_idle_11: -7120246590591356710
+      tryndamere_idle_110: -174999542566055052
+      tryndamere_idle_111: -637718746510283722
+      tryndamere_idle_112: -5590496822578755779
+      tryndamere_idle_113: -2185604804229825269
+      tryndamere_idle_114: 8819498080660351332
+      tryndamere_idle_115: 3715805441652273694
+      tryndamere_idle_116: 5651714546419822321
+      tryndamere_idle_117: -6133527853754417472
+      tryndamere_idle_118: 7605247473912151204
+      tryndamere_idle_119: -5155430126470390269
+      tryndamere_idle_12: -7122249955210165806
+      tryndamere_idle_13: -6053004680404557272
+      tryndamere_idle_14: -5317958402424043117
+      tryndamere_idle_15: -1546303596437758883
+      tryndamere_idle_16: 6068444356998452928
+      tryndamere_idle_17: -4710890053261874448
+      tryndamere_idle_18: 8777120788547858212
+      tryndamere_idle_19: -6844807992774550202
+      tryndamere_idle_2: -6726916947794539841
+      tryndamere_idle_20: -1663051340839508203
+      tryndamere_idle_21: 7824401851831449111
+      tryndamere_idle_22: 8214798378622529010
+      tryndamere_idle_23: -5670310120693232347
+      tryndamere_idle_24: 2216996368713963699
+      tryndamere_idle_25: 8803921057497226203
+      tryndamere_idle_26: 5968711188022063198
+      tryndamere_idle_27: -8554257534631953945
+      tryndamere_idle_28: 2917565990260440370
+      tryndamere_idle_29: 7792888411156432240
+      tryndamere_idle_3: -7461015326578599378
+      tryndamere_idle_30: -3931055179645641436
+      tryndamere_idle_31: -2644275047916908214
+      tryndamere_idle_32: 4129434393993295219
+      tryndamere_idle_33: 6011436184123261120
+      tryndamere_idle_34: -5842408517346362675
+      tryndamere_idle_35: 6298194516227303435
+      tryndamere_idle_36: 4314143656578952097
+      tryndamere_idle_37: -5260650285916448094
+      tryndamere_idle_38: 7697494067720135659
+      tryndamere_idle_39: -5084715970038418659
+      tryndamere_idle_4: -7977727053619378716
+      tryndamere_idle_40: 743831305053490167
+      tryndamere_idle_41: -1704634471362111354
+      tryndamere_idle_42: -1519517263035469864
+      tryndamere_idle_43: -2725819022015640086
+      tryndamere_idle_44: 4475770477608411996
+      tryndamere_idle_45: -2168214482489588026
+      tryndamere_idle_46: 3691420096233505332
+      tryndamere_idle_47: -7281559912989903910
+      tryndamere_idle_48: 3249954409844415913
+      tryndamere_idle_49: -6655922897249147624
+      tryndamere_idle_5: -6491006715296442873
+      tryndamere_idle_50: 4466544786595102445
+      tryndamere_idle_51: 6608447562290908494
+      tryndamere_idle_52: -6735325439283718617
+      tryndamere_idle_53: 5301188834175326329
+      tryndamere_idle_54: 7714958461250252434
+      tryndamere_idle_55: -6476088991377110138
+      tryndamere_idle_56: 855941030991075369
+      tryndamere_idle_57: -6976855342557311441
+      tryndamere_idle_58: 1475433412953403778
+      tryndamere_idle_59: -7188082521959522420
+      tryndamere_idle_6: 2225009659236770140
+      tryndamere_idle_60: -5683867855365132599
+      tryndamere_idle_61: 6513846352097910356
+      tryndamere_idle_62: 8010782220295397855
+      tryndamere_idle_63: -1232187319778974367
+      tryndamere_idle_64: -1628802052246310315
+      tryndamere_idle_65: 6916296215697998813
+      tryndamere_idle_66: -613229684904814210
+      tryndamere_idle_67: -3934897903906167869
+      tryndamere_idle_68: 2811348623303043539
+      tryndamere_idle_69: 4007929108664594774
+      tryndamere_idle_7: 8653028366558993031
+      tryndamere_idle_70: -7938863242369603818
+      tryndamere_idle_71: 384341567316326679
+      tryndamere_idle_72: -3255670201176251254
+      tryndamere_idle_73: 2381704226904250071
+      tryndamere_idle_74: -3081153061005369395
+      tryndamere_idle_75: 4806915389536232202
+      tryndamere_idle_76: -6065032824070086154
+      tryndamere_idle_77: 8322308773642787695
+      tryndamere_idle_78: 2008246087910262816
+      tryndamere_idle_79: 7537600937059616911
+      tryndamere_idle_8: -8618505780664768393
+      tryndamere_idle_80: 6355101889734680973
+      tryndamere_idle_81: -5798218745453154467
+      tryndamere_idle_82: 4204512178210969732
+      tryndamere_idle_83: 7590509302944624557
+      tryndamere_idle_84: 4860093024957619610
+      tryndamere_idle_85: -3230380052261154248
+      tryndamere_idle_86: -3290713591525323622
+      tryndamere_idle_87: -6456815589798027070
+      tryndamere_idle_88: -8954483475035080212
+      tryndamere_idle_89: 5274850360105147626
+      tryndamere_idle_9: 3571218731070809012
+      tryndamere_idle_90: 1037421066702055379
+      tryndamere_idle_91: 8393384689811249763
+      tryndamere_idle_92: -1224744565317614592
+      tryndamere_idle_93: 6206939537284313112
+      tryndamere_idle_94: 3700633312136142533
+      tryndamere_idle_95: -1698002007335012423
+      tryndamere_idle_96: 8199799807075983894
+      tryndamere_idle_97: -2527502584406009351
+      tryndamere_idle_98: -7815547484114824785
+      tryndamere_idle_99: 7129433929877477011
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

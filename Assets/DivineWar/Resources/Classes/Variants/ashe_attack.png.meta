@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: fb952c76cce433c40b9380d14852ebbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 729206339796472277
+    second: ashe_attack_0
+  - first:
+      213: 5533716396490171128
+    second: ashe_attack_1
+  - first:
+      213: 5425204899789858393
+    second: ashe_attack_2
+  - first:
+      213: -4973291100558757402
+    second: ashe_attack_3
+  - first:
+      213: -8678815336888826016
+    second: ashe_attack_4
+  - first:
+      213: 6627224312412218994
+    second: ashe_attack_5
+  - first:
+      213: -4771258251760539741
+    second: ashe_attack_6
+  - first:
+      213: -5846273768535670133
+    second: ashe_attack_7
+  - first:
+      213: 7300120883904361925
+    second: ashe_attack_8
+  - first:
+      213: -7745045295147830323
+    second: ashe_attack_9
+  - first:
+      213: 9033614216950175776
+    second: ashe_attack_10
+  - first:
+      213: -388484699617909424
+    second: ashe_attack_11
+  - first:
+      213: -5805235521845516139
+    second: ashe_attack_12
+  - first:
+      213: 3681839820510400411
+    second: ashe_attack_13
+  - first:
+      213: 8298122844152633862
+    second: ashe_attack_14
+  - first:
+      213: 6830226810888124056
+    second: ashe_attack_15
+  - first:
+      213: 7434073456546256057
+    second: ashe_attack_16
+  - first:
+      213: -290788591604901954
+    second: ashe_attack_17
+  - first:
+      213: 2853760531320935675
+    second: ashe_attack_18
+  - first:
+      213: 3803193731759582691
+    second: ashe_attack_19
+  - first:
+      213: -3748151648190165068
+    second: ashe_attack_20
+  - first:
+      213: -1915548186762978451
+    second: ashe_attack_21
+  - first:
+      213: 3544262694596894049
+    second: ashe_attack_22
+  - first:
+      213: 2696637422788666313
+    second: ashe_attack_23
+  - first:
+      213: -1587774271385495963
+    second: ashe_attack_24
+  - first:
+      213: 2380756918602806804
+    second: ashe_attack_25
+  - first:
+      213: -3902294505540133833
+    second: ashe_attack_26
+  - first:
+      213: -5474660566459850414
+    second: ashe_attack_27
+  - first:
+      213: -5613048576479927865
+    second: ashe_attack_28
+  - first:
+      213: -2057649296547064778
+    second: ashe_attack_29
+  - first:
+      213: 3716899450127261655
+    second: ashe_attack_30
+  - first:
+      213: -866561925718211147
+    second: ashe_attack_31
+  - first:
+      213: 4814962791569499219
+    second: ashe_attack_32
+  - first:
+      213: -8231449644705350037
+    second: ashe_attack_33
+  - first:
+      213: 1533027791903977148
+    second: ashe_attack_34
+  - first:
+      213: -514571766257320064
+    second: ashe_attack_35
+  - first:
+      213: -3363071368803280900
+    second: ashe_attack_36
+  - first:
+      213: 8858100181734285040
+    second: ashe_attack_37
+  - first:
+      213: 3927086088907116342
+    second: ashe_attack_38
+  - first:
+      213: 5354191010877089721
+    second: ashe_attack_39
+  - first:
+      213: 1541794976067425178
+    second: ashe_attack_40
+  - first:
+      213: 3607151965645291943
+    second: ashe_attack_41
+  - first:
+      213: -8953167701037629883
+    second: ashe_attack_42
+  - first:
+      213: 1193740054191017752
+    second: ashe_attack_43
+  - first:
+      213: -60797090580294479
+    second: ashe_attack_44
+  - first:
+      213: -673849251493192102
+    second: ashe_attack_45
+  - first:
+      213: 5199117492016990977
+    second: ashe_attack_46
+  - first:
+      213: -3505618759049195395
+    second: ashe_attack_47
+  - first:
+      213: 5577434426784607271
+    second: ashe_attack_48
+  - first:
+      213: 5046485372490247850
+    second: ashe_attack_49
+  - first:
+      213: -8219263123864343116
+    second: ashe_attack_50
+  - first:
+      213: -2099277947778535532
+    second: ashe_attack_51
+  - first:
+      213: -7402405900579625568
+    second: ashe_attack_52
+  - first:
+      213: 4545036523803614428
+    second: ashe_attack_53
+  - first:
+      213: -5214205051373750672
+    second: ashe_attack_54
+  - first:
+      213: -3433412690193792619
+    second: ashe_attack_55
+  - first:
+      213: -2965054530340750424
+    second: ashe_attack_56
+  - first:
+      213: 5698012576460308459
+    second: ashe_attack_57
+  - first:
+      213: -2597721174029913411
+    second: ashe_attack_58
+  - first:
+      213: 6608031114744245334
+    second: ashe_attack_59
+  - first:
+      213: -2473580184116480212
+    second: ashe_attack_60
+  - first:
+      213: 7988599620799461246
+    second: ashe_attack_61
+  - first:
+      213: -1158511782321078931
+    second: ashe_attack_62
+  - first:
+      213: -5629887661151248006
+    second: ashe_attack_63
+  - first:
+      213: -6981395357976522073
+    second: ashe_attack_64
+  - first:
+      213: 3016235231568243164
+    second: ashe_attack_65
+  - first:
+      213: 9190144974829718546
+    second: ashe_attack_66
+  - first:
+      213: 2088982744049466983
+    second: ashe_attack_67
+  - first:
+      213: 7038261442527782945
+    second: ashe_attack_68
+  - first:
+      213: -4639616830793523582
+    second: ashe_attack_69
+  - first:
+      213: 1942195732166930585
+    second: ashe_attack_70
+  - first:
+      213: -4974552418465436305
+    second: ashe_attack_71
+  - first:
+      213: -1150219063921953529
+    second: ashe_attack_72
+  - first:
+      213: 8376880014356886720
+    second: ashe_attack_73
+  - first:
+      213: -5888155848133407146
+    second: ashe_attack_74
+  - first:
+      213: -1521715514286504114
+    second: ashe_attack_75
+  - first:
+      213: 7730933712460918782
+    second: ashe_attack_76
+  - first:
+      213: 819104692870369758
+    second: ashe_attack_77
+  - first:
+      213: -2693882317645213093
+    second: ashe_attack_78
+  - first:
+      213: -1415646068670618725
+    second: ashe_attack_79
+  - first:
+      213: 5302011417209692801
+    second: ashe_attack_80
+  - first:
+      213: 8549173517349629927
+    second: ashe_attack_81
+  - first:
+      213: -2857556993715054939
+    second: ashe_attack_82
+  - first:
+      213: -2249440829221488210
+    second: ashe_attack_83
+  - first:
+      213: 1488762939610144343
+    second: ashe_attack_84
+  - first:
+      213: 4246371532678542090
+    second: ashe_attack_85
+  - first:
+      213: -1672369974605690996
+    second: ashe_attack_86
+  - first:
+      213: 1995928220159426956
+    second: ashe_attack_87
+  - first:
+      213: -6687301463002639765
+    second: ashe_attack_88
+  - first:
+      213: 1572568386542723720
+    second: ashe_attack_89
+  - first:
+      213: 9161363356989619969
+    second: ashe_attack_90
+  - first:
+      213: -7221363978333967550
+    second: ashe_attack_91
+  - first:
+      213: 7365400707614723914
+    second: ashe_attack_92
+  - first:
+      213: 941594212244413435
+    second: ashe_attack_93
+  - first:
+      213: 6013110664205992743
+    second: ashe_attack_94
+  - first:
+      213: 6943277988460723177
+    second: ashe_attack_95
+  - first:
+      213: 8468898048660747665
+    second: ashe_attack_96
+  - first:
+      213: -4604553328416039411
+    second: ashe_attack_97
+  - first:
+      213: -4741586085148364215
+    second: ashe_attack_98
+  - first:
+      213: 8940899614562292567
+    second: ashe_attack_99
+  - first:
+      213: -8611962256624412188
+    second: ashe_attack_100
+  - first:
+      213: -2667039554583657489
+    second: ashe_attack_101
+  - first:
+      213: -5670116780627877012
+    second: ashe_attack_102
+  - first:
+      213: -3759201826255839197
+    second: ashe_attack_103
+  - first:
+      213: 3821170339997419006
+    second: ashe_attack_104
+  - first:
+      213: -5177967158519807223
+    second: ashe_attack_105
+  - first:
+      213: -8412737154777552492
+    second: ashe_attack_106
+  - first:
+      213: -5488689811144803617
+    second: ashe_attack_107
+  - first:
+      213: 1177567987162300731
+    second: ashe_attack_108
+  - first:
+      213: 6344975548891507806
+    second: ashe_attack_109
+  - first:
+      213: 8651627584855860334
+    second: ashe_attack_110
+  - first:
+      213: -8178982081080933418
+    second: ashe_attack_111
+  - first:
+      213: -6422735207841971038
+    second: ashe_attack_112
+  - first:
+      213: -301762164610036040
+    second: ashe_attack_113
+  - first:
+      213: 1361819329333920550
+    second: ashe_attack_114
+  - first:
+      213: -3141290267315592326
+    second: ashe_attack_115
+  - first:
+      213: 3725128274665395509
+    second: ashe_attack_116
+  - first:
+      213: -7214365551221609988
+    second: ashe_attack_117
+  - first:
+      213: -595699549624419568
+    second: ashe_attack_118
+  - first:
+      213: -8798072170944170075
+    second: ashe_attack_119
+  - first:
+      213: -4119450110728405030
+    second: ashe_attack_000
+  - first:
+      213: -4166702141814685063
+    second: ashe_attack_001
+  - first:
+      213: -4015950925941360574
+    second: ashe_attack_002
+  - first:
+      213: -8566182659603131764
+    second: ashe_attack_003
+  - first:
+      213: -1461326492106756779
+    second: ashe_attack_004
+  - first:
+      213: 5713000188368473559
+    second: ashe_attack_005
+  - first:
+      213: -5282197366434163732
+    second: ashe_attack_006
+  - first:
+      213: -8671002441814152403
+    second: ashe_attack_007
+  - first:
+      213: -4970369500743727379
+    second: ashe_attack_008
+  - first:
+      213: -736222481122353198
+    second: ashe_attack_009
+  - first:
+      213: -9215914693490522025
+    second: ashe_attack_010
+  - first:
+      213: -3327213491623913552
+    second: ashe_attack_011
+  - first:
+      213: 8656444847752865559
+    second: ashe_attack_012
+  - first:
+      213: 9033486393940719302
+    second: ashe_attack_013
+  - first:
+      213: -7786066762530634900
+    second: ashe_attack_014
+  - first:
+      213: -8967963114080253913
+    second: ashe_attack_015
+  - first:
+      213: -315971400175249733
+    second: ashe_attack_016
+  - first:
+      213: 8803349397601824381
+    second: ashe_attack_017
+  - first:
+      213: -8148917834033459814
+    second: ashe_attack_018
+  - first:
+      213: 789199929059982691
+    second: ashe_attack_019
+  - first:
+      213: 3290264109040358931
+    second: ashe_attack_020
+  - first:
+      213: 7447427782171238157
+    second: ashe_attack_021
+  - first:
+      213: 5158239564219608625
+    second: ashe_attack_022
+  - first:
+      213: 6741914250986628217
+    second: ashe_attack_023
+  - first:
+      213: 9086124115948983788
+    second: ashe_attack_024
+  - first:
+      213: 4129691063656003746
+    second: ashe_attack_025
+  - first:
+      213: -5360807756938173286
+    second: ashe_attack_026
+  - first:
+      213: 1135741325671625027
+    second: ashe_attack_027
+  - first:
+      213: -8537142583470015727
+    second: ashe_attack_028
+  - first:
+      213: -1081818687665098638
+    second: ashe_attack_029
+  - first:
+      213: -4445381586822290613
+    second: ashe_attack_030
+  - first:
+      213: -4127925574153453298
+    second: ashe_attack_031
+  - first:
+      213: -5564970959257412235
+    second: ashe_attack_032
+  - first:
+      213: -7521541625178526420
+    second: ashe_attack_033
+  - first:
+      213: -7725869529573136277
+    second: ashe_attack_034
+  - first:
+      213: -2106098982505609840
+    second: ashe_attack_035
+  - first:
+      213: -7429917095611870462
+    second: ashe_attack_036
+  - first:
+      213: -6006891717151400333
+    second: ashe_attack_037
+  - first:
+      213: 5933693132939476266
+    second: ashe_attack_038
+  - first:
+      213: -1087225527774356021
+    second: ashe_attack_039
+  - first:
+      213: -6578372294812766050
+    second: ashe_attack_040
+  - first:
+      213: 4027137568367185780
+    second: ashe_attack_041
+  - first:
+      213: -1456662885046880785
+    second: ashe_attack_042
+  - first:
+      213: -3128698114199636440
+    second: ashe_attack_043
+  - first:
+      213: 5512656980354108400
+    second: ashe_attack_044
+  - first:
+      213: -4886446533020160313
+    second: ashe_attack_045
+  - first:
+      213: -751904382151838372
+    second: ashe_attack_046
+  - first:
+      213: -5853998879469915658
+    second: ashe_attack_047
+  - first:
+      213: -5040290765201470675
+    second: ashe_attack_048
+  - first:
+      213: -3798759458898288319
+    second: ashe_attack_049
+  - first:
+      213: 661786376485910484
+    second: ashe_attack_050
+  - first:
+      213: -4559583153761966912
+    second: ashe_attack_051
+  - first:
+      213: 1213199307175037261
+    second: ashe_attack_052
+  - first:
+      213: -26743594453472278
+    second: ashe_attack_053
+  - first:
+      213: 7687264549858813437
+    second: ashe_attack_054
+  - first:
+      213: 6439719873341139977
+    second: ashe_attack_055
+  - first:
+      213: -186013852569358782
+    second: ashe_attack_056
+  - first:
+      213: -7916971527371008087
+    second: ashe_attack_057
+  - first:
+      213: -3818243076484077395
+    second: ashe_attack_058
+  - first:
+      213: 7353861563046529877
+    second: ashe_attack_059
+  - first:
+      213: 7187306869891749165
+    second: ashe_attack_060
+  - first:
+      213: -9099199170962779508
+    second: ashe_attack_061
+  - first:
+      213: 5396623866172703078
+    second: ashe_attack_062
+  - first:
+      213: 3020401867805366351
+    second: ashe_attack_063
+  - first:
+      213: 3949969287525669177
+    second: ashe_attack_064
+  - first:
+      213: -3653633337824479124
+    second: ashe_attack_065
+  - first:
+      213: 4699766391747985411
+    second: ashe_attack_066
+  - first:
+      213: -3823551837651070507
+    second: ashe_attack_067
+  - first:
+      213: 130675842080142353
+    second: ashe_attack_068
+  - first:
+      213: -5674723069982676786
+    second: ashe_attack_069
+  - first:
+      213: -6471657505932888132
+    second: ashe_attack_070
+  - first:
+      213: -8432609415543515333
+    second: ashe_attack_071
+  - first:
+      213: 8812328380207704914
+    second: ashe_attack_072
+  - first:
+      213: 7775124255754987071
+    second: ashe_attack_073
+  - first:
+      213: 3097808863590880037
+    second: ashe_attack_074
+  - first:
+      213: 5619817267499894464
+    second: ashe_attack_075
+  - first:
+      213: 3531486105223995706
+    second: ashe_attack_076
+  - first:
+      213: -1640424486433861203
+    second: ashe_attack_077
+  - first:
+      213: 4781292016424157669
+    second: ashe_attack_078
+  - first:
+      213: 6994200933120373347
+    second: ashe_attack_079
+  - first:
+      213: -2026871351979128963
+    second: ashe_attack_080
+  - first:
+      213: 2170434193636240801
+    second: ashe_attack_081
+  - first:
+      213: 2825826778040518121
+    second: ashe_attack_082
+  - first:
+      213: 1362532426268085931
+    second: ashe_attack_083
+  - first:
+      213: -1184362403461926729
+    second: ashe_attack_084
+  - first:
+      213: -5880458072033426037
+    second: ashe_attack_085
+  - first:
+      213: -7465832803514003047
+    second: ashe_attack_086
+  - first:
+      213: 9117787972928756229
+    second: ashe_attack_087
+  - first:
+      213: 7426471433094383860
+    second: ashe_attack_088
+  - first:
+      213: -4064971647896328627
+    second: ashe_attack_089
+  - first:
+      213: -4106157870033625483
+    second: ashe_attack_090
+  - first:
+      213: -7543971231347420810
+    second: ashe_attack_091
+  - first:
+      213: 5895433952263895779
+    second: ashe_attack_092
+  - first:
+      213: -9033871509914653101
+    second: ashe_attack_093
+  - first:
+      213: -7307700475832531844
+    second: ashe_attack_094
+  - first:
+      213: -1940203734482433707
+    second: ashe_attack_095
+  - first:
+      213: 3397720383007747193
+    second: ashe_attack_096
+  - first:
+      213: 7474563161363759585
+    second: ashe_attack_097
+  - first:
+      213: -7867365317827766056
+    second: ashe_attack_098
+  - first:
+      213: 2396566684245114550
+    second: ashe_attack_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ashe_attack_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adff61833f5c4d6c0800000000000000
+      internalID: -4119450110728405030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972c6486a76ec26c0800000000000000
+      internalID: -4166702141814685063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2483dd709e97448c0800000000000000
+      internalID: -4015950925941360574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c829e35b14ece1980800000000000000
+      internalID: -8566182659603131764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55deb114c4358bbe0800000000000000
+      internalID: -1461326492106756779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd417d0767a84f40800000000000000
+      internalID: 5713000188368473559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce310344b7dd1b6b0800000000000000
+      internalID: -5282197366434163732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b6f1958396aa780800000000000000
+      internalID: -8671002441814152403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de60cb1f543b50bb0800000000000000
+      internalID: -4970369500743727379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df9b09dd8968c5f0800000000000000
+      internalID: -736222481122353198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758c13e0a6e7a1080800000000000000
+      internalID: -9215914693490522025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b79edb25fc53d1d0800000000000000
+      internalID: -3327213491623913552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 717e118a9bed12870800000000000000
+      internalID: 8656444847752865559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6392a83046d5d70800000000000000
+      internalID: 9033486393940719302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63c2e5288552f390800000000000000
+      internalID: -7786066762530634900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728c072ef056b8380800000000000000
+      internalID: -8967963114080253913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb61f558fa17d9bf0800000000000000
+      internalID: -315971400175249733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ea4bd82a7cb2a70800000000000000
+      internalID: 8803349397601824381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9d079e976a39ee80800000000000000
+      internalID: -8148917834033459814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d3264772dc3fa00800000000000000
+      internalID: 789199929059982691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 316519c46cd59ad20800000000000000
+      internalID: 3290264109040358931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0f11b61c149a5760800000000000000
+      internalID: 7447427782171238157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13eecabdd8fb59740800000000000000
+      internalID: 5158239564219608625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974a3348a47109d50800000000000000
+      internalID: 6741914250986628217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5df3c3eb5681e70800000000000000
+      internalID: 9086124115948983788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a83251742c9f4930800000000000000
+      internalID: 4129691063656003746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94aa827fb59a95b0800000000000000
+      internalID: -5360807756938173286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3417361e7b6f2cf00800000000000000
+      internalID: 1135741325671625027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bb8635d0af58980800000000000000
+      internalID: -8537142583470015727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270b752a2ab9cf0f0800000000000000
+      internalID: -1081818687665098638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43256adff4de42c0800000000000000
+      internalID: -4445381586822290613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e01455d9f89a6b6c0800000000000000
+      internalID: -4127925574153453298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57dd814a56045c2b0800000000000000
+      internalID: -5564970959257412235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d6be32ebd1e9790800000000000000
+      internalID: -7521541625178526420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6867c4a89238c490800000000000000
+      internalID: -7725869529573136277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09501fd4222a5c2e0800000000000000
+      internalID: -2106098982505609840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203d37554c1a3e890800000000000000
+      internalID: -7429917095611870462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e54f22fcb33aca0800000000000000
+      internalID: -6006891717151400333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d38036776b85250800000000000000
+      internalID: 5933693132939476266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdd542942669e0f0800000000000000
+      internalID: -1087225527774356021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90f967604de4b4a0800000000000000
+      internalID: -6578372294812766050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f0820284443e730800000000000000
+      internalID: 4027137568367185780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5f843e2d4e8cbe0800000000000000
+      internalID: -1456662885046880785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82632b544a1a494d0800000000000000
+      internalID: -3128698114199636440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb859af054e08c40800000000000000
+      internalID: 5512656980354108400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cee46984cadf2cb0800000000000000
+      internalID: -4886446533020160313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55b7ccb2f2b095f0800000000000000
+      internalID: -751904382151838372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f139a1f80b62cea0800000000000000
+      internalID: -5853998879469915658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b0c7fe04a4d0ab0800000000000000
+      internalID: -5040290765201470675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14166391668184bc0800000000000000
+      internalID: -3798759458898288319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7b2aff3332f2900800000000000000
+      internalID: 661786376485910484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4a924874b19b0c0800000000000000
+      internalID: -4559583153761966912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d490be1975626d010800000000000000
+      internalID: 1213199307175037261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb6590b7dcf0aff0800000000000000
+      internalID: -26743594453472278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5a9c41166aeaa60800000000000000
+      internalID: 7687264549858813437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90ca58f0b1b7e5950800000000000000
+      internalID: 6439719873341139977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e2d4af2652b6df0800000000000000
+      internalID: -186013852569358782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a75b2e7754412290800000000000000
+      internalID: -7916971527371008087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da86210e620e20bc0800000000000000
+      internalID: -3818243076484077395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b89c0112a2e0660800000000000000
+      internalID: 7353861563046529877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d255f97a4817eb360800000000000000
+      internalID: 7187306869891749165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c821c3a409629b180800000000000000
+      internalID: -9099199170962779508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6618e9150d8a4ea40800000000000000
+      internalID: 5396623866172703078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f481779fe7f9ae920800000000000000
+      internalID: 3020401867805366351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9399ba0a32c11d630800000000000000
+      internalID: 3949969287525669177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68727746dfab4dc0800000000000000
+      internalID: -3653633337824479124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300457302ace83140800000000000000
+      internalID: 4699766391747985411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d114889cd300fac0800000000000000
+      internalID: -3823551837651070507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11479eb6cf040d100800000000000000
+      internalID: 130675842080142353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8e7fe0f655f31b0800000000000000
+      internalID: -5674723069982676786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb731e269cd0036a0800000000000000
+      internalID: -6471657505932888132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b371ae81a6a59fa80800000000000000
+      internalID: -8432609415543515333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25baf5ad8fdab4a70800000000000000
+      internalID: 8812328380207704914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36acc4f05ac6eb60800000000000000
+      internalID: 7775124255754987071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5231460afb0adfa20800000000000000
+      internalID: 3097808863590880037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c600fb970a9dfd40800000000000000
+      internalID: 5619817267499894464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a31aa1fe6eb520130800000000000000
+      internalID: 3531486105223995706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1d145fe9a0c39e0800000000000000
+      internalID: -1640424486433861203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e18f5ea1cf8a5240800000000000000
+      internalID: 4781292016424157669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 362785a11b4601160800000000000000
+      internalID: 6994200933120373347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d774ed38e3b1fd3e0800000000000000
+      internalID: -2026871351979128963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adac00566eee1e10800000000000000
+      internalID: 2170434193636240801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e544e59b7a573720800000000000000
+      internalID: 2825826778040518121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae09aec500b8e210800000000000000
+      internalID: 1362532426268085931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0f2584bac409fe0800000000000000
+      internalID: -1184362403461926729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b858edb1a8a646ea0800000000000000
+      internalID: -5880458072033426037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991d612fe98046890800000000000000
+      internalID: -7465832803514003047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a5fbf6ad3e88e70800000000000000
+      internalID: 9117787972928756229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f84d28db60201760800000000000000
+      internalID: 7426471433094383860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d46ea19c2d15697c0800000000000000
+      internalID: -4064971647896328627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57e98fc2c2ff307c0800000000000000
+      internalID: -4106157870033625483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67155cf722e6e4790800000000000000
+      internalID: -7543971231347420810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea7779b1f9c0d150800000000000000
+      internalID: 5895433952263895779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35ee309a9bd31a280800000000000000
+      internalID: -9033871509914653101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c748c059225d59a90800000000000000
+      internalID: -7307700475832531844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559c94eabf20315e0800000000000000
+      internalID: -1940203734482433707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ce74bbfa0272f20800000000000000
+      internalID: 3397720383007747193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1ce44e79bfab760800000000000000
+      internalID: 7474563161363759585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8d5a03de081d290800000000000000
+      internalID: -7867365317827766056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be37f6a3b0524120800000000000000
+      internalID: 2396566684245114550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e994daa4f92c7880800000000000000
+      internalID: -8611962256624412188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3002bd7a5ccfad0800000000000000
+      internalID: -2667039554583657489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63a1bf54d2bf41b0800000000000000
+      internalID: -5670116780627877012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320650b2bd1a4dbc0800000000000000
+      internalID: -3759201826255839197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef50ec5cd26870530800000000000000
+      internalID: 3821170339997419006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903c9c9ad4a2428b0800000000000000
+      internalID: -5177967158519807223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499e0cc5124ff3b80800000000000000
+      internalID: -8412737154777552492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda786472b144d3b0800000000000000
+      internalID: -5488689811144803617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b314ea568df875010800000000000000
+      internalID: 1177567987162300731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ca73405a1ed0850800000000000000
+      internalID: 6344975548891507806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64ed4c3371c01870800000000000000
+      internalID: 8651627584855860334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d3c2e0a12b6e7e80800000000000000
+      internalID: -8178982081080933418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a44f2a8b5cddd6a0800000000000000
+      internalID: -6422735207841971038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be04cbf8ecefcbf0800000000000000
+      internalID: -301762164610036040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623853df67726e210800000000000000
+      internalID: 1361819329333920550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7323482525e764d0800000000000000
+      internalID: -3141290267315592326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535d132ed6052b330800000000000000
+      internalID: 3725128274665395509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf9ee9721cc61eb90800000000000000
+      internalID: -7214365551221609988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bb6cf6a66abb7f0800000000000000
+      internalID: -595699549624419568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ashe_attack_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a77f9689f7f6e580800000000000000
+      internalID: -8798072170944170075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ashe_attack_0: 729206339796472277
+      ashe_attack_000: -4119450110728405030
+      ashe_attack_001: -4166702141814685063
+      ashe_attack_002: -4015950925941360574
+      ashe_attack_003: -8566182659603131764
+      ashe_attack_004: -1461326492106756779
+      ashe_attack_005: 5713000188368473559
+      ashe_attack_006: -5282197366434163732
+      ashe_attack_007: -8671002441814152403
+      ashe_attack_008: -4970369500743727379
+      ashe_attack_009: -736222481122353198
+      ashe_attack_010: -9215914693490522025
+      ashe_attack_011: -3327213491623913552
+      ashe_attack_012: 8656444847752865559
+      ashe_attack_013: 9033486393940719302
+      ashe_attack_014: -7786066762530634900
+      ashe_attack_015: -8967963114080253913
+      ashe_attack_016: -315971400175249733
+      ashe_attack_017: 8803349397601824381
+      ashe_attack_018: -8148917834033459814
+      ashe_attack_019: 789199929059982691
+      ashe_attack_020: 3290264109040358931
+      ashe_attack_021: 7447427782171238157
+      ashe_attack_022: 5158239564219608625
+      ashe_attack_023: 6741914250986628217
+      ashe_attack_024: 9086124115948983788
+      ashe_attack_025: 4129691063656003746
+      ashe_attack_026: -5360807756938173286
+      ashe_attack_027: 1135741325671625027
+      ashe_attack_028: -8537142583470015727
+      ashe_attack_029: -1081818687665098638
+      ashe_attack_030: -4445381586822290613
+      ashe_attack_031: -4127925574153453298
+      ashe_attack_032: -5564970959257412235
+      ashe_attack_033: -7521541625178526420
+      ashe_attack_034: -7725869529573136277
+      ashe_attack_035: -2106098982505609840
+      ashe_attack_036: -7429917095611870462
+      ashe_attack_037: -6006891717151400333
+      ashe_attack_038: 5933693132939476266
+      ashe_attack_039: -1087225527774356021
+      ashe_attack_040: -6578372294812766050
+      ashe_attack_041: 4027137568367185780
+      ashe_attack_042: -1456662885046880785
+      ashe_attack_043: -3128698114199636440
+      ashe_attack_044: 5512656980354108400
+      ashe_attack_045: -4886446533020160313
+      ashe_attack_046: -751904382151838372
+      ashe_attack_047: -5853998879469915658
+      ashe_attack_048: -5040290765201470675
+      ashe_attack_049: -3798759458898288319
+      ashe_attack_050: 661786376485910484
+      ashe_attack_051: -4559583153761966912
+      ashe_attack_052: 1213199307175037261
+      ashe_attack_053: -26743594453472278
+      ashe_attack_054: 7687264549858813437
+      ashe_attack_055: 6439719873341139977
+      ashe_attack_056: -186013852569358782
+      ashe_attack_057: -7916971527371008087
+      ashe_attack_058: -3818243076484077395
+      ashe_attack_059: 7353861563046529877
+      ashe_attack_060: 7187306869891749165
+      ashe_attack_061: -9099199170962779508
+      ashe_attack_062: 5396623866172703078
+      ashe_attack_063: 3020401867805366351
+      ashe_attack_064: 3949969287525669177
+      ashe_attack_065: -3653633337824479124
+      ashe_attack_066: 4699766391747985411
+      ashe_attack_067: -3823551837651070507
+      ashe_attack_068: 130675842080142353
+      ashe_attack_069: -5674723069982676786
+      ashe_attack_070: -6471657505932888132
+      ashe_attack_071: -8432609415543515333
+      ashe_attack_072: 8812328380207704914
+      ashe_attack_073: 7775124255754987071
+      ashe_attack_074: 3097808863590880037
+      ashe_attack_075: 5619817267499894464
+      ashe_attack_076: 3531486105223995706
+      ashe_attack_077: -1640424486433861203
+      ashe_attack_078: 4781292016424157669
+      ashe_attack_079: 6994200933120373347
+      ashe_attack_080: -2026871351979128963
+      ashe_attack_081: 2170434193636240801
+      ashe_attack_082: 2825826778040518121
+      ashe_attack_083: 1362532426268085931
+      ashe_attack_084: -1184362403461926729
+      ashe_attack_085: -5880458072033426037
+      ashe_attack_086: -7465832803514003047
+      ashe_attack_087: 9117787972928756229
+      ashe_attack_088: 7426471433094383860
+      ashe_attack_089: -4064971647896328627
+      ashe_attack_090: -4106157870033625483
+      ashe_attack_091: -7543971231347420810
+      ashe_attack_092: 5895433952263895779
+      ashe_attack_093: -9033871509914653101
+      ashe_attack_094: -7307700475832531844
+      ashe_attack_095: -1940203734482433707
+      ashe_attack_096: 3397720383007747193
+      ashe_attack_097: 7474563161363759585
+      ashe_attack_098: -7867365317827766056
+      ashe_attack_099: 2396566684245114550
+      ashe_attack_1: 5533716396490171128
+      ashe_attack_10: 9033614216950175776
+      ashe_attack_100: -8611962256624412188
+      ashe_attack_101: -2667039554583657489
+      ashe_attack_102: -5670116780627877012
+      ashe_attack_103: -3759201826255839197
+      ashe_attack_104: 3821170339997419006
+      ashe_attack_105: -5177967158519807223
+      ashe_attack_106: -8412737154777552492
+      ashe_attack_107: -5488689811144803617
+      ashe_attack_108: 1177567987162300731
+      ashe_attack_109: 6344975548891507806
+      ashe_attack_11: -388484699617909424
+      ashe_attack_110: 8651627584855860334
+      ashe_attack_111: -8178982081080933418
+      ashe_attack_112: -6422735207841971038
+      ashe_attack_113: -301762164610036040
+      ashe_attack_114: 1361819329333920550
+      ashe_attack_115: -3141290267315592326
+      ashe_attack_116: 3725128274665395509
+      ashe_attack_117: -7214365551221609988
+      ashe_attack_118: -595699549624419568
+      ashe_attack_119: -8798072170944170075
+      ashe_attack_12: -5805235521845516139
+      ashe_attack_13: 3681839820510400411
+      ashe_attack_14: 8298122844152633862
+      ashe_attack_15: 6830226810888124056
+      ashe_attack_16: 7434073456546256057
+      ashe_attack_17: -290788591604901954
+      ashe_attack_18: 2853760531320935675
+      ashe_attack_19: 3803193731759582691
+      ashe_attack_2: 5425204899789858393
+      ashe_attack_20: -3748151648190165068
+      ashe_attack_21: -1915548186762978451
+      ashe_attack_22: 3544262694596894049
+      ashe_attack_23: 2696637422788666313
+      ashe_attack_24: -1587774271385495963
+      ashe_attack_25: 2380756918602806804
+      ashe_attack_26: -3902294505540133833
+      ashe_attack_27: -5474660566459850414
+      ashe_attack_28: -5613048576479927865
+      ashe_attack_29: -2057649296547064778
+      ashe_attack_3: -4973291100558757402
+      ashe_attack_30: 3716899450127261655
+      ashe_attack_31: -866561925718211147
+      ashe_attack_32: 4814962791569499219
+      ashe_attack_33: -8231449644705350037
+      ashe_attack_34: 1533027791903977148
+      ashe_attack_35: -514571766257320064
+      ashe_attack_36: -3363071368803280900
+      ashe_attack_37: 8858100181734285040
+      ashe_attack_38: 3927086088907116342
+      ashe_attack_39: 5354191010877089721
+      ashe_attack_4: -8678815336888826016
+      ashe_attack_40: 1541794976067425178
+      ashe_attack_41: 3607151965645291943
+      ashe_attack_42: -8953167701037629883
+      ashe_attack_43: 1193740054191017752
+      ashe_attack_44: -60797090580294479
+      ashe_attack_45: -673849251493192102
+      ashe_attack_46: 5199117492016990977
+      ashe_attack_47: -3505618759049195395
+      ashe_attack_48: 5577434426784607271
+      ashe_attack_49: 5046485372490247850
+      ashe_attack_5: 6627224312412218994
+      ashe_attack_50: -8219263123864343116
+      ashe_attack_51: -2099277947778535532
+      ashe_attack_52: -7402405900579625568
+      ashe_attack_53: 4545036523803614428
+      ashe_attack_54: -5214205051373750672
+      ashe_attack_55: -3433412690193792619
+      ashe_attack_56: -2965054530340750424
+      ashe_attack_57: 5698012576460308459
+      ashe_attack_58: -2597721174029913411
+      ashe_attack_59: 6608031114744245334
+      ashe_attack_6: -4771258251760539741
+      ashe_attack_60: -2473580184116480212
+      ashe_attack_61: 7988599620799461246
+      ashe_attack_62: -1158511782321078931
+      ashe_attack_63: -5629887661151248006
+      ashe_attack_64: -6981395357976522073
+      ashe_attack_65: 3016235231568243164
+      ashe_attack_66: 9190144974829718546
+      ashe_attack_67: 2088982744049466983
+      ashe_attack_68: 7038261442527782945
+      ashe_attack_69: -4639616830793523582
+      ashe_attack_7: -5846273768535670133
+      ashe_attack_70: 1942195732166930585
+      ashe_attack_71: -4974552418465436305
+      ashe_attack_72: -1150219063921953529
+      ashe_attack_73: 8376880014356886720
+      ashe_attack_74: -5888155848133407146
+      ashe_attack_75: -1521715514286504114
+      ashe_attack_76: 7730933712460918782
+      ashe_attack_77: 819104692870369758
+      ashe_attack_78: -2693882317645213093
+      ashe_attack_79: -1415646068670618725
+      ashe_attack_8: 7300120883904361925
+      ashe_attack_80: 5302011417209692801
+      ashe_attack_81: 8549173517349629927
+      ashe_attack_82: -2857556993715054939
+      ashe_attack_83: -2249440829221488210
+      ashe_attack_84: 1488762939610144343
+      ashe_attack_85: 4246371532678542090
+      ashe_attack_86: -1672369974605690996
+      ashe_attack_87: 1995928220159426956
+      ashe_attack_88: -6687301463002639765
+      ashe_attack_89: 1572568386542723720
+      ashe_attack_9: -7745045295147830323
+      ashe_attack_90: 9161363356989619969
+      ashe_attack_91: -7221363978333967550
+      ashe_attack_92: 7365400707614723914
+      ashe_attack_93: 941594212244413435
+      ashe_attack_94: 6013110664205992743
+      ashe_attack_95: 6943277988460723177
+      ashe_attack_96: 8468898048660747665
+      ashe_attack_97: -4604553328416039411
+      ashe_attack_98: -4741586085148364215
+      ashe_attack_99: 8940899614562292567
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

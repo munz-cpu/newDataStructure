@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: eaffb33ef00193d47bac9ee270f6e2d6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8590818271072763259
+    second: daisy_walk_0
+  - first:
+      213: -8681861267331550384
+    second: daisy_walk_1
+  - first:
+      213: 3352574820469719718
+    second: daisy_walk_2
+  - first:
+      213: -556944739873045355
+    second: daisy_walk_3
+  - first:
+      213: 5963198253827250194
+    second: daisy_walk_4
+  - first:
+      213: 644303635186787716
+    second: daisy_walk_5
+  - first:
+      213: 7873744112034403680
+    second: daisy_walk_6
+  - first:
+      213: 4509471298132785281
+    second: daisy_walk_7
+  - first:
+      213: -4562886962524776064
+    second: daisy_walk_8
+  - first:
+      213: -1639198671898994341
+    second: daisy_walk_9
+  - first:
+      213: 8426672262239149865
+    second: daisy_walk_10
+  - first:
+      213: -2193522085565596084
+    second: daisy_walk_11
+  - first:
+      213: -253994671554634592
+    second: daisy_walk_12
+  - first:
+      213: -6727935515901694590
+    second: daisy_walk_13
+  - first:
+      213: -5759919397245193540
+    second: daisy_walk_14
+  - first:
+      213: 8107667460831698692
+    second: daisy_walk_15
+  - first:
+      213: -4459080970934438653
+    second: daisy_walk_16
+  - first:
+      213: 2440997166183104763
+    second: daisy_walk_17
+  - first:
+      213: 5168754238704885517
+    second: daisy_walk_18
+  - first:
+      213: 7802566618155400500
+    second: daisy_walk_19
+  - first:
+      213: 5613734798235346336
+    second: daisy_walk_20
+  - first:
+      213: 4832486634427032883
+    second: daisy_walk_21
+  - first:
+      213: -2157315623137560766
+    second: daisy_walk_22
+  - first:
+      213: 1259667713568320927
+    second: daisy_walk_23
+  - first:
+      213: -8068712514924235588
+    second: daisy_walk_24
+  - first:
+      213: -1356443366654215332
+    second: daisy_walk_25
+  - first:
+      213: -1511547176143707172
+    second: daisy_walk_26
+  - first:
+      213: 6552136084055500830
+    second: daisy_walk_27
+  - first:
+      213: 6442376853777210189
+    second: daisy_walk_28
+  - first:
+      213: -3383836297890948751
+    second: daisy_walk_29
+  - first:
+      213: -2166255624164629147
+    second: daisy_walk_30
+  - first:
+      213: -4451292738070008205
+    second: daisy_walk_31
+  - first:
+      213: -2965254998343106936
+    second: daisy_walk_32
+  - first:
+      213: -7771939163788624009
+    second: daisy_walk_33
+  - first:
+      213: -5198070842371115444
+    second: daisy_walk_34
+  - first:
+      213: 2748971687509900291
+    second: daisy_walk_35
+  - first:
+      213: -8835265386379901321
+    second: daisy_walk_36
+  - first:
+      213: 5561258274872769604
+    second: daisy_walk_37
+  - first:
+      213: -7532313097980855991
+    second: daisy_walk_38
+  - first:
+      213: 52761794639852767
+    second: daisy_walk_39
+  - first:
+      213: -153505194655275326
+    second: daisy_walk_40
+  - first:
+      213: 1006130739157036345
+    second: daisy_walk_41
+  - first:
+      213: 6948120912365010811
+    second: daisy_walk_42
+  - first:
+      213: -1815583156421989993
+    second: daisy_walk_43
+  - first:
+      213: -7062902335421563830
+    second: daisy_walk_44
+  - first:
+      213: -3701400172248417521
+    second: daisy_walk_45
+  - first:
+      213: 7365565238296826614
+    second: daisy_walk_46
+  - first:
+      213: -7866076205389388283
+    second: daisy_walk_47
+  - first:
+      213: -5794094740299509170
+    second: daisy_walk_48
+  - first:
+      213: 5723250801856279543
+    second: daisy_walk_49
+  - first:
+      213: -8400686549689139411
+    second: daisy_walk_50
+  - first:
+      213: 530281733325640690
+    second: daisy_walk_51
+  - first:
+      213: -1416016786291457786
+    second: daisy_walk_52
+  - first:
+      213: 4761629642696652823
+    second: daisy_walk_53
+  - first:
+      213: 3479890845706831410
+    second: daisy_walk_54
+  - first:
+      213: -8456719814672764470
+    second: daisy_walk_55
+  - first:
+      213: -7642612231392904331
+    second: daisy_walk_56
+  - first:
+      213: -3161812779839076434
+    second: daisy_walk_57
+  - first:
+      213: 390191915956312550
+    second: daisy_walk_58
+  - first:
+      213: -2608935872599746195
+    second: daisy_walk_59
+  - first:
+      213: -7004579498757791154
+    second: daisy_walk_60
+  - first:
+      213: 2327942653702077497
+    second: daisy_walk_61
+  - first:
+      213: -4255626170773835820
+    second: daisy_walk_62
+  - first:
+      213: 1384332016373354248
+    second: daisy_walk_63
+  - first:
+      213: 4238725862264485183
+    second: daisy_walk_64
+  - first:
+      213: 1732439849796345467
+    second: daisy_walk_65
+  - first:
+      213: 1621561847326086941
+    second: daisy_walk_66
+  - first:
+      213: -252145317981063113
+    second: daisy_walk_67
+  - first:
+      213: 1610832421199560929
+    second: daisy_walk_68
+  - first:
+      213: -6205019047078127937
+    second: daisy_walk_69
+  - first:
+      213: 2511569637097836068
+    second: daisy_walk_70
+  - first:
+      213: 8970808758672609289
+    second: daisy_walk_71
+  - first:
+      213: -1194963772409926019
+    second: daisy_walk_72
+  - first:
+      213: 5541200055907101802
+    second: daisy_walk_73
+  - first:
+      213: -7286241979788844456
+    second: daisy_walk_74
+  - first:
+      213: -8040509606494079338
+    second: daisy_walk_75
+  - first:
+      213: 3515144482653548047
+    second: daisy_walk_76
+  - first:
+      213: 4686330256368945997
+    second: daisy_walk_77
+  - first:
+      213: -5970678843797961742
+    second: daisy_walk_78
+  - first:
+      213: 6577231924499790684
+    second: daisy_walk_79
+  - first:
+      213: -2616106439294950675
+    second: daisy_walk_80
+  - first:
+      213: -4727064314451535132
+    second: daisy_walk_81
+  - first:
+      213: 1549653949934931872
+    second: daisy_walk_82
+  - first:
+      213: 889889104243450235
+    second: daisy_walk_83
+  - first:
+      213: 7947198749693795086
+    second: daisy_walk_84
+  - first:
+      213: -2604175100852778689
+    second: daisy_walk_85
+  - first:
+      213: -2769248924475339236
+    second: daisy_walk_86
+  - first:
+      213: -3744632602750923583
+    second: daisy_walk_87
+  - first:
+      213: -7695609036661700120
+    second: daisy_walk_88
+  - first:
+      213: -670901690499763957
+    second: daisy_walk_89
+  - first:
+      213: -7583512182544104776
+    second: daisy_walk_90
+  - first:
+      213: 7168509434781073616
+    second: daisy_walk_91
+  - first:
+      213: -6407331357567378203
+    second: daisy_walk_92
+  - first:
+      213: 1527995262180855231
+    second: daisy_walk_93
+  - first:
+      213: -3674280060554989968
+    second: daisy_walk_94
+  - first:
+      213: 83833661447373823
+    second: daisy_walk_95
+  - first:
+      213: -5149192783128779810
+    second: daisy_walk_96
+  - first:
+      213: 6109454284595085780
+    second: daisy_walk_97
+  - first:
+      213: 5017557794692856377
+    second: daisy_walk_98
+  - first:
+      213: -919020068899132261
+    second: daisy_walk_99
+  - first:
+      213: -2229161351079198881
+    second: daisy_walk_100
+  - first:
+      213: 5707492878295881002
+    second: daisy_walk_101
+  - first:
+      213: 3658087875470389646
+    second: daisy_walk_102
+  - first:
+      213: 3536472107978445690
+    second: daisy_walk_103
+  - first:
+      213: 9193115165767617052
+    second: daisy_walk_104
+  - first:
+      213: 5012364008321852725
+    second: daisy_walk_105
+  - first:
+      213: -477966348374251505
+    second: daisy_walk_106
+  - first:
+      213: -6099748842110978963
+    second: daisy_walk_107
+  - first:
+      213: 409811173609420495
+    second: daisy_walk_108
+  - first:
+      213: -5320834216500579421
+    second: daisy_walk_109
+  - first:
+      213: 2550522251342939630
+    second: daisy_walk_110
+  - first:
+      213: -478720219224284138
+    second: daisy_walk_111
+  - first:
+      213: -4767643837365430021
+    second: daisy_walk_112
+  - first:
+      213: -4283480646252991440
+    second: daisy_walk_113
+  - first:
+      213: 1947869293192471984
+    second: daisy_walk_114
+  - first:
+      213: 1305817109027173521
+    second: daisy_walk_115
+  - first:
+      213: -140850302656788520
+    second: daisy_walk_116
+  - first:
+      213: -8408727648820132040
+    second: daisy_walk_117
+  - first:
+      213: 4775452033257924919
+    second: daisy_walk_118
+  - first:
+      213: -1922882236445200267
+    second: daisy_walk_119
+  - first:
+      213: -7550002729138999368
+    second: daisy_walk_000
+  - first:
+      213: 3709997235843787986
+    second: daisy_walk_001
+  - first:
+      213: -1644580711889527851
+    second: daisy_walk_002
+  - first:
+      213: 9184676110854592107
+    second: daisy_walk_003
+  - first:
+      213: 9147767514271644122
+    second: daisy_walk_004
+  - first:
+      213: 5986108890284893995
+    second: daisy_walk_005
+  - first:
+      213: 8248249815277433878
+    second: daisy_walk_006
+  - first:
+      213: 5496133452421329657
+    second: daisy_walk_007
+  - first:
+      213: 3181471428297080548
+    second: daisy_walk_008
+  - first:
+      213: -5577008322898264045
+    second: daisy_walk_009
+  - first:
+      213: 7118639450995673510
+    second: daisy_walk_010
+  - first:
+      213: 2452301924382281154
+    second: daisy_walk_011
+  - first:
+      213: -8052750958005116510
+    second: daisy_walk_012
+  - first:
+      213: 7817652637616182702
+    second: daisy_walk_013
+  - first:
+      213: 7737349396251550581
+    second: daisy_walk_014
+  - first:
+      213: -3202220115478602792
+    second: daisy_walk_015
+  - first:
+      213: 8564517676206385542
+    second: daisy_walk_016
+  - first:
+      213: -6925917563127567448
+    second: daisy_walk_017
+  - first:
+      213: -4489405646708664834
+    second: daisy_walk_018
+  - first:
+      213: -8769282754901766253
+    second: daisy_walk_019
+  - first:
+      213: 587748772846567546
+    second: daisy_walk_020
+  - first:
+      213: -8080457485819022102
+    second: daisy_walk_021
+  - first:
+      213: 740262500222036251
+    second: daisy_walk_022
+  - first:
+      213: 7531420453651829163
+    second: daisy_walk_023
+  - first:
+      213: -2074443830247657348
+    second: daisy_walk_024
+  - first:
+      213: -5511464624740208184
+    second: daisy_walk_025
+  - first:
+      213: 4264852912007220788
+    second: daisy_walk_026
+  - first:
+      213: 6785607651473355931
+    second: daisy_walk_027
+  - first:
+      213: 4206637601769568503
+    second: daisy_walk_028
+  - first:
+      213: -164247606421045955
+    second: daisy_walk_029
+  - first:
+      213: -2760732571074168881
+    second: daisy_walk_030
+  - first:
+      213: -7807831813064007177
+    second: daisy_walk_031
+  - first:
+      213: -4782680853410416852
+    second: daisy_walk_032
+  - first:
+      213: 2678612837073202958
+    second: daisy_walk_033
+  - first:
+      213: 4160295916080818599
+    second: daisy_walk_034
+  - first:
+      213: 2801492029783773384
+    second: daisy_walk_035
+  - first:
+      213: 1308715788263047111
+    second: daisy_walk_036
+  - first:
+      213: -2278241392215236541
+    second: daisy_walk_037
+  - first:
+      213: -1279969877083679895
+    second: daisy_walk_038
+  - first:
+      213: -4562226350759065340
+    second: daisy_walk_039
+  - first:
+      213: -5618482985677694150
+    second: daisy_walk_040
+  - first:
+      213: -5973848704549824201
+    second: daisy_walk_041
+  - first:
+      213: -8525154086943675074
+    second: daisy_walk_042
+  - first:
+      213: 3664493480796919775
+    second: daisy_walk_043
+  - first:
+      213: -268888877772219768
+    second: daisy_walk_044
+  - first:
+      213: -6900902967847812756
+    second: daisy_walk_045
+  - first:
+      213: 551682690975476955
+    second: daisy_walk_046
+  - first:
+      213: 1155609458792310478
+    second: daisy_walk_047
+  - first:
+      213: -478929411339208622
+    second: daisy_walk_048
+  - first:
+      213: -3216306515938269130
+    second: daisy_walk_049
+  - first:
+      213: 4972035039982644095
+    second: daisy_walk_050
+  - first:
+      213: 3506859104410823160
+    second: daisy_walk_051
+  - first:
+      213: 669098193983161940
+    second: daisy_walk_052
+  - first:
+      213: 8764252793392237389
+    second: daisy_walk_053
+  - first:
+      213: -1938194570070808184
+    second: daisy_walk_054
+  - first:
+      213: 5270278726913341286
+    second: daisy_walk_055
+  - first:
+      213: -4772181183211426970
+    second: daisy_walk_056
+  - first:
+      213: -5676445393823995545
+    second: daisy_walk_057
+  - first:
+      213: -5953365236334434687
+    second: daisy_walk_058
+  - first:
+      213: -7634683378626026494
+    second: daisy_walk_059
+  - first:
+      213: 7495112479154670860
+    second: daisy_walk_060
+  - first:
+      213: -2814126280315011799
+    second: daisy_walk_061
+  - first:
+      213: 2778727844882151925
+    second: daisy_walk_062
+  - first:
+      213: 4938572051332721612
+    second: daisy_walk_063
+  - first:
+      213: 1744456408762661367
+    second: daisy_walk_064
+  - first:
+      213: -525517761750871976
+    second: daisy_walk_065
+  - first:
+      213: 8605927224910532529
+    second: daisy_walk_066
+  - first:
+      213: 1435303439077806598
+    second: daisy_walk_067
+  - first:
+      213: -7157442359436163971
+    second: daisy_walk_068
+  - first:
+      213: -8299630595717573965
+    second: daisy_walk_069
+  - first:
+      213: 6965603667062966774
+    second: daisy_walk_070
+  - first:
+      213: 1270805032480618001
+    second: daisy_walk_071
+  - first:
+      213: 3637898416666851656
+    second: daisy_walk_072
+  - first:
+      213: -1616029122489876626
+    second: daisy_walk_073
+  - first:
+      213: 2898027508242750577
+    second: daisy_walk_074
+  - first:
+      213: -3601873939149769560
+    second: daisy_walk_075
+  - first:
+      213: 320583174511588472
+    second: daisy_walk_076
+  - first:
+      213: -2804657903573365918
+    second: daisy_walk_077
+  - first:
+      213: 6642883784713344449
+    second: daisy_walk_078
+  - first:
+      213: -3757320667875967145
+    second: daisy_walk_079
+  - first:
+      213: 730725975075216662
+    second: daisy_walk_080
+  - first:
+      213: 6749901381638557986
+    second: daisy_walk_081
+  - first:
+      213: 1147501220871650536
+    second: daisy_walk_082
+  - first:
+      213: -2585722216786825492
+    second: daisy_walk_083
+  - first:
+      213: -8528058231565290910
+    second: daisy_walk_084
+  - first:
+      213: -108664504853426781
+    second: daisy_walk_085
+  - first:
+      213: -7358824987728455392
+    second: daisy_walk_086
+  - first:
+      213: -6016171839629643674
+    second: daisy_walk_087
+  - first:
+      213: -6016589621864201172
+    second: daisy_walk_088
+  - first:
+      213: 6906579386352212194
+    second: daisy_walk_089
+  - first:
+      213: 1105339604805610016
+    second: daisy_walk_090
+  - first:
+      213: 4947217442915728152
+    second: daisy_walk_091
+  - first:
+      213: 6197047099520522919
+    second: daisy_walk_092
+  - first:
+      213: -4516201543392632583
+    second: daisy_walk_093
+  - first:
+      213: -2579651590310982349
+    second: daisy_walk_094
+  - first:
+      213: -6087677140308087078
+    second: daisy_walk_095
+  - first:
+      213: -976637414852586446
+    second: daisy_walk_096
+  - first:
+      213: 7110101502926754571
+    second: daisy_walk_097
+  - first:
+      213: -416947277660494334
+    second: daisy_walk_098
+  - first:
+      213: -7182612220042565946
+    second: daisy_walk_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: daisy_walk_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bfa07cf480093790800000000000000
+      internalID: -7550002729138999368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc662064de8c7330800000000000000
+      internalID: 3709997235843787986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db9d5f4e864d29e0800000000000000
+      internalID: -1644580711889527851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b661184a246867f70800000000000000
+      internalID: 9184676110854592107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9f408561663fe70800000000000000
+      internalID: 9147767514271644122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b272d38e15ee21350800000000000000
+      internalID: 5986108890284893995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614fa42818ba77270800000000000000
+      internalID: 8248249815277433878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2f6b55140364c40800000000000000
+      internalID: 5496133452421329657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eeb3ba686bd62c20800000000000000
+      internalID: 3181471428297080548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31080448a7c7a92b0800000000000000
+      internalID: -5577008322898264045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9cda05ddc7ac260800000000000000
+      internalID: 7118639450995673510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd00dc7b93580220800000000000000
+      internalID: 2452301924382281154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a12b634ba1ee3090800000000000000
+      internalID: -8052750958005116510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5128a77a1ed7c60800000000000000
+      internalID: 7817652637616182702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57328aa1846906b60800000000000000
+      internalID: 7737349396251550581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db994465cd6f83d0800000000000000
+      internalID: -3202220115478602792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689e5d223774bd670800000000000000
+      internalID: 8564517676206385542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab6422eba232ef90800000000000000
+      internalID: -6925917563127567448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef51c47a95d62b1c0800000000000000
+      internalID: -4489405646708664834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f0f1bcbcf3d4680800000000000000
+      internalID: -8769282754901766253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7001b6156a182800800000000000000
+      internalID: 587748772846567546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae47c1f8ab27cdf80800000000000000
+      internalID: -8080457485819022102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b19e64662d0f54a00800000000000000
+      internalID: 740262500222036251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1570adffaf48860800000000000000
+      internalID: 7531420453651829163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c707697c3581633e0800000000000000
+      internalID: -2074443830247657348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c17a32ff185383b0800000000000000
+      internalID: -5511464624740208184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e0b77902dcf2b30800000000000000
+      internalID: 4264852912007220788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94fd3315325b2e50800000000000000
+      internalID: 6785607651473355931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8b6407c9af06a30800000000000000
+      internalID: 4206637601769568503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3db0141ca978bdf0800000000000000
+      internalID: -164247606421045955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7f5458a58efa9d0800000000000000
+      internalID: -2760732571074168881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f1635c655205a390800000000000000
+      internalID: -7807831813064007177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c27f8628a1180adb0800000000000000
+      internalID: -4782680853410416852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0fac84fe285c2520800000000000000
+      internalID: 2678612837073202958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9618ee7175cb930800000000000000
+      internalID: 4160295916080818599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0995c7826e0e620800000000000000
+      internalID: 2801492029783773384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf3d57531e792210800000000000000
+      internalID: 1308715788263047111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3406b60468f0260e0800000000000000
+      internalID: -2278241392215236541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9631a39ad22ac3ee0800000000000000
+      internalID: -1279969877083679895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40944124e47bfa0c0800000000000000
+      internalID: -4562226350759065340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3bda161e732702b0800000000000000
+      internalID: -5618482985677694150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73951670140a81da0800000000000000
+      internalID: -5973848704549824201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3da040b68190b980800000000000000
+      internalID: -8525154086943675074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd792acc765ead230800000000000000
+      internalID: 3664493480796919775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88a55548df6b44cf0800000000000000
+      internalID: -268888877772219768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c610ef330511b30a0800000000000000
+      internalID: -6900902967847812756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdc23580c78f7a700800000000000000
+      internalID: 551682690975476955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6a56a1eac890010800000000000000
+      internalID: 1155609458792310478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258b3a4ec308a59f0800000000000000
+      internalID: -478929411339208622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638a9b4b3426d53d0800000000000000
+      internalID: -3216306515938269130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7be5f0a687300540800000000000000
+      internalID: 4972035039982644095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f960cb76cddaa030800000000000000
+      internalID: 3506859104410823160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456c83c234d194900800000000000000
+      internalID: 669098193983161940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b8ed70b71e0a970800000000000000
+      internalID: 8764252793392237389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889a659be462a15e0800000000000000
+      internalID: -1938194570070808184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667b7f8349ac32940800000000000000
+      internalID: 5270278726913341286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b21ea7f7ec5cdb0800000000000000
+      internalID: -4772181183211426970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769e73a4df63931b0800000000000000
+      internalID: -5676445393823995545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186602e1cd5616da0800000000000000
+      internalID: -5953365236334434687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204aa6cdae72c0690800000000000000
+      internalID: -7634683378626026494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d8c97c61df30860800000000000000
+      internalID: 7495112479154670860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d7bb4de0732f8d0800000000000000
+      internalID: -2814126280315011799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9ffa9a046009620800000000000000
+      internalID: 2778727844882151925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccbeb517d15598440800000000000000
+      internalID: 4938572051332721612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9b37a7cdd853810800000000000000
+      internalID: 1744456408762661367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8505ea7416cf4b8f0800000000000000
+      internalID: -525517761750871976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bfc7a307356e6770800000000000000
+      internalID: 8605927224910532529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602112f8fd83be310800000000000000
+      internalID: 1435303439077806598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7449798818abac90800000000000000
+      internalID: -7157442359436163971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b25a4f42f9c1dc80800000000000000
+      internalID: -8299630595717573965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9427d31abcaa060800000000000000
+      internalID: 6965603667062966774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11639cba17ec2a110800000000000000
+      internalID: 1270805032480618001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8493266e5596c7230800000000000000
+      internalID: 3637898416666851656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ffd4f3316b299e0800000000000000
+      internalID: -1616029122489876626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c9e121aacd73820800000000000000
+      internalID: 2898027508242750577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4bd336cb2930ec0800000000000000
+      internalID: -3601873939149769560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874fabdd2b0f27400800000000000000
+      internalID: 320583174511588472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b84051f7ad319d0800000000000000
+      internalID: -2804657903573365918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c59a005b93403c50800000000000000
+      internalID: 6642883784713344449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ff40c72c05bdbc0800000000000000
+      internalID: -3757320667875967145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d528c176f042a00800000000000000
+      internalID: 730725975075216662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2211c794b877cad50800000000000000
+      internalID: 6749901381638557986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ecb169d74ebcef00800000000000000
+      internalID: 1147501220871650536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceee594f75bad1cd0800000000000000
+      internalID: -2585722216786825492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26274b3d83046a980800000000000000
+      internalID: -8528058231565290910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad84846532fd7ef0800000000000000
+      internalID: -108664504853426781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0295d2299a330e990800000000000000
+      internalID: -7358824987728455392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660ba2f3693428ca0800000000000000
+      internalID: -6016171839629643674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c248b7dbd97c08ca0800000000000000
+      internalID: -6016589621864201172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e81f88fb5919df50800000000000000
+      internalID: 6906579386352212194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02aeb94a384f65f00800000000000000
+      internalID: 1105339604805610016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81bbb978d0c08a440800000000000000
+      internalID: 4947217442915728152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa194fe085500650800000000000000
+      internalID: 6197047099520522919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0e208cf9a3351c0800000000000000
+      internalID: -4516201543392632583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d0e33db8c333cd0800000000000000
+      internalID: -2579651590310982349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adeaba015e9348ba0800000000000000
+      internalID: -6087677140308087078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2341b5512794272f0800000000000000
+      internalID: -976637414852586446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b039bee55a72ca260800000000000000
+      internalID: 7110101502926754571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206eaf8f8a4b63af0800000000000000
+      internalID: -416947277660494334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6abf0bd3c325c90800000000000000
+      internalID: -7182612220042565946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ff4e1df8d6011e0800000000000000
+      internalID: -2229161351079198881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25d5e08886153f40800000000000000
+      internalID: 5707492878295881002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8173969a8324c230800000000000000
+      internalID: 3658087875470389646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73d12a25a2141130800000000000000
+      internalID: 3536472107978445690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ac5da3981849f70800000000000000
+      internalID: 9193115165767617052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5352af8428e7f8540800000000000000
+      internalID: 5012364008321852725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08ef86732ced59f0800000000000000
+      internalID: -477966348374251505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64ffd6feb6595ba0800000000000000
+      internalID: -6099748842110978963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6b9f35711ffa500800000000000000
+      internalID: 409811173609420495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a33db898799826b0800000000000000
+      internalID: -5320834216500579421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5860f6976456320800000000000000
+      internalID: 2550522251342939630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614e65a3f7e3b59f0800000000000000
+      internalID: -478720219224284138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8d042a03de5ddb0800000000000000
+      internalID: -4767643837365430021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c64dd0c050e84c0800000000000000
+      internalID: -4283480646252991440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5e0a94dc8380b10800000000000000
+      internalID: 1947869293192471984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194313dfdb13f1210800000000000000
+      internalID: 1305817109027173521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7c2af55699b0ef0800000000000000
+      internalID: -140850302656788520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837021731c23e4b80800000000000000
+      internalID: -8408727648820132040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7396144a250d54240800000000000000
+      internalID: 4775452033257924919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: daisy_walk_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57076c73bcc8055e0800000000000000
+      internalID: -1922882236445200267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      daisy_walk_0: 8590818271072763259
+      daisy_walk_000: -7550002729138999368
+      daisy_walk_001: 3709997235843787986
+      daisy_walk_002: -1644580711889527851
+      daisy_walk_003: 9184676110854592107
+      daisy_walk_004: 9147767514271644122
+      daisy_walk_005: 5986108890284893995
+      daisy_walk_006: 8248249815277433878
+      daisy_walk_007: 5496133452421329657
+      daisy_walk_008: 3181471428297080548
+      daisy_walk_009: -5577008322898264045
+      daisy_walk_010: 7118639450995673510
+      daisy_walk_011: 2452301924382281154
+      daisy_walk_012: -8052750958005116510
+      daisy_walk_013: 7817652637616182702
+      daisy_walk_014: 7737349396251550581
+      daisy_walk_015: -3202220115478602792
+      daisy_walk_016: 8564517676206385542
+      daisy_walk_017: -6925917563127567448
+      daisy_walk_018: -4489405646708664834
+      daisy_walk_019: -8769282754901766253
+      daisy_walk_020: 587748772846567546
+      daisy_walk_021: -8080457485819022102
+      daisy_walk_022: 740262500222036251
+      daisy_walk_023: 7531420453651829163
+      daisy_walk_024: -2074443830247657348
+      daisy_walk_025: -5511464624740208184
+      daisy_walk_026: 4264852912007220788
+      daisy_walk_027: 6785607651473355931
+      daisy_walk_028: 4206637601769568503
+      daisy_walk_029: -164247606421045955
+      daisy_walk_030: -2760732571074168881
+      daisy_walk_031: -7807831813064007177
+      daisy_walk_032: -4782680853410416852
+      daisy_walk_033: 2678612837073202958
+      daisy_walk_034: 4160295916080818599
+      daisy_walk_035: 2801492029783773384
+      daisy_walk_036: 1308715788263047111
+      daisy_walk_037: -2278241392215236541
+      daisy_walk_038: -1279969877083679895
+      daisy_walk_039: -4562226350759065340
+      daisy_walk_040: -5618482985677694150
+      daisy_walk_041: -5973848704549824201
+      daisy_walk_042: -8525154086943675074
+      daisy_walk_043: 3664493480796919775
+      daisy_walk_044: -268888877772219768
+      daisy_walk_045: -6900902967847812756
+      daisy_walk_046: 551682690975476955
+      daisy_walk_047: 1155609458792310478
+      daisy_walk_048: -478929411339208622
+      daisy_walk_049: -3216306515938269130
+      daisy_walk_050: 4972035039982644095
+      daisy_walk_051: 3506859104410823160
+      daisy_walk_052: 669098193983161940
+      daisy_walk_053: 8764252793392237389
+      daisy_walk_054: -1938194570070808184
+      daisy_walk_055: 5270278726913341286
+      daisy_walk_056: -4772181183211426970
+      daisy_walk_057: -5676445393823995545
+      daisy_walk_058: -5953365236334434687
+      daisy_walk_059: -7634683378626026494
+      daisy_walk_060: 7495112479154670860
+      daisy_walk_061: -2814126280315011799
+      daisy_walk_062: 2778727844882151925
+      daisy_walk_063: 4938572051332721612
+      daisy_walk_064: 1744456408762661367
+      daisy_walk_065: -525517761750871976
+      daisy_walk_066: 8605927224910532529
+      daisy_walk_067: 1435303439077806598
+      daisy_walk_068: -7157442359436163971
+      daisy_walk_069: -8299630595717573965
+      daisy_walk_070: 6965603667062966774
+      daisy_walk_071: 1270805032480618001
+      daisy_walk_072: 3637898416666851656
+      daisy_walk_073: -1616029122489876626
+      daisy_walk_074: 2898027508242750577
+      daisy_walk_075: -3601873939149769560
+      daisy_walk_076: 320583174511588472
+      daisy_walk_077: -2804657903573365918
+      daisy_walk_078: 6642883784713344449
+      daisy_walk_079: -3757320667875967145
+      daisy_walk_080: 730725975075216662
+      daisy_walk_081: 6749901381638557986
+      daisy_walk_082: 1147501220871650536
+      daisy_walk_083: -2585722216786825492
+      daisy_walk_084: -8528058231565290910
+      daisy_walk_085: -108664504853426781
+      daisy_walk_086: -7358824987728455392
+      daisy_walk_087: -6016171839629643674
+      daisy_walk_088: -6016589621864201172
+      daisy_walk_089: 6906579386352212194
+      daisy_walk_090: 1105339604805610016
+      daisy_walk_091: 4947217442915728152
+      daisy_walk_092: 6197047099520522919
+      daisy_walk_093: -4516201543392632583
+      daisy_walk_094: -2579651590310982349
+      daisy_walk_095: -6087677140308087078
+      daisy_walk_096: -976637414852586446
+      daisy_walk_097: 7110101502926754571
+      daisy_walk_098: -416947277660494334
+      daisy_walk_099: -7182612220042565946
+      daisy_walk_1: -8681861267331550384
+      daisy_walk_10: 8426672262239149865
+      daisy_walk_100: -2229161351079198881
+      daisy_walk_101: 5707492878295881002
+      daisy_walk_102: 3658087875470389646
+      daisy_walk_103: 3536472107978445690
+      daisy_walk_104: 9193115165767617052
+      daisy_walk_105: 5012364008321852725
+      daisy_walk_106: -477966348374251505
+      daisy_walk_107: -6099748842110978963
+      daisy_walk_108: 409811173609420495
+      daisy_walk_109: -5320834216500579421
+      daisy_walk_11: -2193522085565596084
+      daisy_walk_110: 2550522251342939630
+      daisy_walk_111: -478720219224284138
+      daisy_walk_112: -4767643837365430021
+      daisy_walk_113: -4283480646252991440
+      daisy_walk_114: 1947869293192471984
+      daisy_walk_115: 1305817109027173521
+      daisy_walk_116: -140850302656788520
+      daisy_walk_117: -8408727648820132040
+      daisy_walk_118: 4775452033257924919
+      daisy_walk_119: -1922882236445200267
+      daisy_walk_12: -253994671554634592
+      daisy_walk_13: -6727935515901694590
+      daisy_walk_14: -5759919397245193540
+      daisy_walk_15: 8107667460831698692
+      daisy_walk_16: -4459080970934438653
+      daisy_walk_17: 2440997166183104763
+      daisy_walk_18: 5168754238704885517
+      daisy_walk_19: 7802566618155400500
+      daisy_walk_2: 3352574820469719718
+      daisy_walk_20: 5613734798235346336
+      daisy_walk_21: 4832486634427032883
+      daisy_walk_22: -2157315623137560766
+      daisy_walk_23: 1259667713568320927
+      daisy_walk_24: -8068712514924235588
+      daisy_walk_25: -1356443366654215332
+      daisy_walk_26: -1511547176143707172
+      daisy_walk_27: 6552136084055500830
+      daisy_walk_28: 6442376853777210189
+      daisy_walk_29: -3383836297890948751
+      daisy_walk_3: -556944739873045355
+      daisy_walk_30: -2166255624164629147
+      daisy_walk_31: -4451292738070008205
+      daisy_walk_32: -2965254998343106936
+      daisy_walk_33: -7771939163788624009
+      daisy_walk_34: -5198070842371115444
+      daisy_walk_35: 2748971687509900291
+      daisy_walk_36: -8835265386379901321
+      daisy_walk_37: 5561258274872769604
+      daisy_walk_38: -7532313097980855991
+      daisy_walk_39: 52761794639852767
+      daisy_walk_4: 5963198253827250194
+      daisy_walk_40: -153505194655275326
+      daisy_walk_41: 1006130739157036345
+      daisy_walk_42: 6948120912365010811
+      daisy_walk_43: -1815583156421989993
+      daisy_walk_44: -7062902335421563830
+      daisy_walk_45: -3701400172248417521
+      daisy_walk_46: 7365565238296826614
+      daisy_walk_47: -7866076205389388283
+      daisy_walk_48: -5794094740299509170
+      daisy_walk_49: 5723250801856279543
+      daisy_walk_5: 644303635186787716
+      daisy_walk_50: -8400686549689139411
+      daisy_walk_51: 530281733325640690
+      daisy_walk_52: -1416016786291457786
+      daisy_walk_53: 4761629642696652823
+      daisy_walk_54: 3479890845706831410
+      daisy_walk_55: -8456719814672764470
+      daisy_walk_56: -7642612231392904331
+      daisy_walk_57: -3161812779839076434
+      daisy_walk_58: 390191915956312550
+      daisy_walk_59: -2608935872599746195
+      daisy_walk_6: 7873744112034403680
+      daisy_walk_60: -7004579498757791154
+      daisy_walk_61: 2327942653702077497
+      daisy_walk_62: -4255626170773835820
+      daisy_walk_63: 1384332016373354248
+      daisy_walk_64: 4238725862264485183
+      daisy_walk_65: 1732439849796345467
+      daisy_walk_66: 1621561847326086941
+      daisy_walk_67: -252145317981063113
+      daisy_walk_68: 1610832421199560929
+      daisy_walk_69: -6205019047078127937
+      daisy_walk_7: 4509471298132785281
+      daisy_walk_70: 2511569637097836068
+      daisy_walk_71: 8970808758672609289
+      daisy_walk_72: -1194963772409926019
+      daisy_walk_73: 5541200055907101802
+      daisy_walk_74: -7286241979788844456
+      daisy_walk_75: -8040509606494079338
+      daisy_walk_76: 3515144482653548047
+      daisy_walk_77: 4686330256368945997
+      daisy_walk_78: -5970678843797961742
+      daisy_walk_79: 6577231924499790684
+      daisy_walk_8: -4562886962524776064
+      daisy_walk_80: -2616106439294950675
+      daisy_walk_81: -4727064314451535132
+      daisy_walk_82: 1549653949934931872
+      daisy_walk_83: 889889104243450235
+      daisy_walk_84: 7947198749693795086
+      daisy_walk_85: -2604175100852778689
+      daisy_walk_86: -2769248924475339236
+      daisy_walk_87: -3744632602750923583
+      daisy_walk_88: -7695609036661700120
+      daisy_walk_89: -670901690499763957
+      daisy_walk_9: -1639198671898994341
+      daisy_walk_90: -7583512182544104776
+      daisy_walk_91: 7168509434781073616
+      daisy_walk_92: -6407331357567378203
+      daisy_walk_93: 1527995262180855231
+      daisy_walk_94: -3674280060554989968
+      daisy_walk_95: 83833661447373823
+      daisy_walk_96: -5149192783128779810
+      daisy_walk_97: 6109454284595085780
+      daisy_walk_98: 5017557794692856377
+      daisy_walk_99: -919020068899132261
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 internal sealed class 유닛상태창
 {
-    const float 너비 = 202, 높이 = 132, 여백 = 8, 등장거리 = 13;
+    const float 너비 = 202, 높이 = 158, 여백 = 8, 등장거리 = 13;
     const float 등장시간 = .24f, 채움시간 = .38f, 채움간격 = .045f;
     static readonly Color32 제목색 = new(246, 210, 145, 255);
     static readonly Color32 글자색 = new(246, 236, 217, 255);
@@ -13,6 +13,7 @@ internal sealed class 유닛상태창
     readonly RectTransform 부모, 상자;
     readonly CanvasGroup 투명도;
     readonly TMP_Text 제목;
+    readonly Button 추적버튼;
     readonly RectTransform[] 채움들 = new RectTransform[4];
     readonly float[] 비율들 = new float[4];
     readonly float 능력치눈금;
@@ -21,7 +22,7 @@ internal sealed class 유닛상태창
 
     public GameObject 오브젝트 => 상자.gameObject;
 
-    public 유닛상태창(RectTransform 부모, TMP_FontAsset 글꼴, Sprite 테두리)
+    public 유닛상태창(RectTransform 부모, TMP_FontAsset 글꼴, Sprite 테두리, System.Action<int> 추적요청)
     {
         this.부모 = 부모;
         var 배경 = 이미지(부모, "유닛 상태창", 테두리 != null ? Color.white : new Color32(48, 35, 27, 248));
@@ -36,8 +37,8 @@ internal sealed class 유닛상태창
         상자.pivot = new Vector2(.5f, .5f);
         상자.sizeDelta = new Vector2(너비, 높이);
         투명도 = 오브젝트.AddComponent<CanvasGroup>();
-        투명도.interactable = false;
-        투명도.blocksRaycasts = false;
+        투명도.interactable = true;
+        투명도.blocksRaycasts = true;
         제목 = 글(글꼴, "주민", 17, 10, 168, 23, 19, 제목색);
         var 구분선 = 이미지(상자, "구분선", new Color32(136, 107, 71, 210));
         배치(구분선.rectTransform, 17, 36, 168, 1);
@@ -46,6 +47,8 @@ internal sealed class 유닛상태창
         막대(1, 글꼴, "힘", new Color32(229, 165, 90, 255));
         막대(2, 글꼴, "민첩", new Color32(132, 185, 125, 255));
         막대(3, 글꼴, "지능", new Color32(119, 180, 206, 255));
+        추적버튼 = Object.Instantiate(Resources.Load<GameObject>("UnitFollowButton"), 상자, false).GetComponent<Button>();
+        추적버튼.onClick.AddListener(() => 추적요청(표시번호));
 
         int 최대보정 = 0;
         foreach (var 단계 in 전장규칙.주민투자목록)
@@ -58,8 +61,20 @@ internal sealed class 유닛상태창
         숨기기();
     }
 
-    public void 갱신(int 번호, 전장대상 대상, Bounds 유닛범위, Camera 카메라)
+    public bool 버튼가리킴(Vector2 화면) => 오브젝트.activeSelf
+        && RectTransformUtility.RectangleContainsScreenPoint((RectTransform)추적버튼.transform, 화면, null);
+
+    public void 갱신(int 번호, 전장대상 대상, Bounds 유닛범위, Camera 카메라, bool 추적중)
     {
+        var 색들 = 추적버튼.colors;
+        Color 기본색 = 추적중 ? (Color)new Color32(142, 218, 186, 255) : Color.white;
+        if (색들.normalColor != 기본색)
+        {
+            색들.normalColor = 기본색;
+            색들.highlightedColor = 추적중 ? 기본색 : Color.white * 1.12f;
+            색들.selectedColor = 기본색;
+            추적버튼.colors = 색들;
+        }
         var 중심 = 카메라.WorldToScreenPoint(유닛범위.center);
         var 위 = 카메라.WorldToScreenPoint(new Vector3(유닛범위.center.x, 유닛범위.max.y, 유닛범위.center.z));
         var 아래 = 카메라.WorldToScreenPoint(new Vector3(유닛범위.center.x, 유닛범위.min.y, 유닛범위.center.z));
@@ -78,7 +93,7 @@ internal sealed class 유닛상태창
             표시번호 = 번호;
             등장시각 = 지금;
             표시체력 = 체력비율;
-            제목.text = 대상.종류 == 대상종류.병사 ? "병사" : "주민";
+            제목.text = 대상.병과 != 병과.일반 ? 대상.병과.ToString() : 대상.해골병사 ? "정예 해골 병사" : 대상.종류 == 대상종류.병사 ? "병사" : "주민";
             상자.SetAsLastSibling();
             오브젝트.SetActive(true);
         }

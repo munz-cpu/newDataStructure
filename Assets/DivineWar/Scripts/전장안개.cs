@@ -5,7 +5,7 @@ using UnityEngine;
 sealed class 전장안개 : IDisposable
 {
     const int 칸밀도 = 2;
-    const float 시야반경 = 6;
+    public const float 시야반경 = 6;
     const float 갱신간격 = .1f;
     const float 안개걷힘시간 = .55f;
     static readonly Color32 미탐사 = new(15, 20, 30, 255);
@@ -87,17 +87,20 @@ sealed class 전장안개 : IDisposable
         return x >= 0 && x < 너비 && y >= 0 && y < 높이 && 탐사한칸[y * 너비 + x];
     }
 
-    public bool 갱신(전장대상[] 대상들, int 내팀, float 현재시간)
+    public bool 갱신(전장대상[] 대상들, int 내팀, float 현재시간, IReadOnlyList<스킬지대> 지대들 = null)
     {
         if (현재시간 < 다음갱신) return false;
         다음갱신 = 현재시간 + 갱신간격;
 
         bool 변경 = false;
         foreach (var 대상 in 대상들)
+            if (대상 != null && 대상.팀 == 내팀 && 대상.생존 && !대상.울타리) 탐사(대상.위치, 시야반경);
+        if (지대들 != null) foreach (var 지대 in 지대들)
+            if (지대.팀 == 내팀 && 지대.종류 == 지대종류.시야) 탐사(지대.위치, 지대.반경);
+        void 탐사(Vector2 위치, float 거리)
         {
-            if (대상 == null || 대상.팀 != 내팀 || !대상.생존 || 대상.울타리) continue;
-            var 중심 = (대상.위치 - 전장범위.min) * 칸밀도;
-            const float 반경 = 시야반경 * 칸밀도;
+            var 중심 = (위치 - 전장범위.min) * 칸밀도;
+            float 반경 = 거리 * 칸밀도;
             int 왼쪽 = Mathf.Max(0, Mathf.FloorToInt(중심.x - 반경));
             int 오른쪽 = Mathf.Min(너비 - 1, Mathf.FloorToInt(중심.x + 반경));
             int 아래 = Mathf.Max(0, Mathf.FloorToInt(중심.y - 반경));

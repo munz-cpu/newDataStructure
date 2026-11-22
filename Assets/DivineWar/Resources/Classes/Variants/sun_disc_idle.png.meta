@@ -1,0 +1,4145 @@
+fileFormatVersion: 2
+guid: 5b9aec8667b5d0a48ba4f7dbd4bd88a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6207990533530843937
+    second: sun_disc_idle_0
+  - first:
+      213: -8245634116545610019
+    second: sun_disc_idle_1
+  - first:
+      213: -1982107594541766219
+    second: sun_disc_idle_2
+  - first:
+      213: 3555802667101082757
+    second: sun_disc_idle_3
+  - first:
+      213: 4986074322613796677
+    second: sun_disc_idle_4
+  - first:
+      213: 8961728183729026290
+    second: sun_disc_idle_5
+  - first:
+      213: 2129372695780530564
+    second: sun_disc_idle_6
+  - first:
+      213: 446957486004111122
+    second: sun_disc_idle_7
+  - first:
+      213: 8580726977368641846
+    second: sun_disc_idle_8
+  - first:
+      213: 8633993388260076549
+    second: sun_disc_idle_9
+  - first:
+      213: -1363289811342865136
+    second: sun_disc_idle_10
+  - first:
+      213: 8367022603568526619
+    second: sun_disc_idle_11
+  - first:
+      213: 4930038765226289517
+    second: sun_disc_idle_12
+  - first:
+      213: 2943812795726638743
+    second: sun_disc_idle_13
+  - first:
+      213: -7420340822898808611
+    second: sun_disc_idle_14
+  - first:
+      213: 5106135079164236693
+    second: sun_disc_idle_15
+  - first:
+      213: -6680111350273599926
+    second: sun_disc_idle_16
+  - first:
+      213: 3364697851844442154
+    second: sun_disc_idle_17
+  - first:
+      213: -3480515174241011436
+    second: sun_disc_idle_18
+  - first:
+      213: -7027061978248848112
+    second: sun_disc_idle_19
+  - first:
+      213: -3028506660823214692
+    second: sun_disc_idle_20
+  - first:
+      213: -7920989809524401870
+    second: sun_disc_idle_21
+  - first:
+      213: 4320741952110223189
+    second: sun_disc_idle_22
+  - first:
+      213: -2405009170459064941
+    second: sun_disc_idle_23
+  - first:
+      213: -5240048590811235858
+    second: sun_disc_idle_24
+  - first:
+      213: -8135926279134411763
+    second: sun_disc_idle_25
+  - first:
+      213: -4669863418479518042
+    second: sun_disc_idle_26
+  - first:
+      213: 4701723958761496162
+    second: sun_disc_idle_27
+  - first:
+      213: -2855866606121987583
+    second: sun_disc_idle_28
+  - first:
+      213: 8471756932315964964
+    second: sun_disc_idle_29
+  - first:
+      213: 4476206346822692051
+    second: sun_disc_idle_30
+  - first:
+      213: -6975857326965778621
+    second: sun_disc_idle_31
+  - first:
+      213: 5450170324018545126
+    second: sun_disc_idle_32
+  - first:
+      213: -6034212360416939019
+    second: sun_disc_idle_33
+  - first:
+      213: -5769275766403422591
+    second: sun_disc_idle_34
+  - first:
+      213: 3386778324686641434
+    second: sun_disc_idle_35
+  - first:
+      213: -5079371920181867635
+    second: sun_disc_idle_36
+  - first:
+      213: 5198381387750551627
+    second: sun_disc_idle_37
+  - first:
+      213: 2890163623473854077
+    second: sun_disc_idle_38
+  - first:
+      213: 3855742525995383179
+    second: sun_disc_idle_39
+  - first:
+      213: 2489791378922917479
+    second: sun_disc_idle_40
+  - first:
+      213: 4231942788688503380
+    second: sun_disc_idle_41
+  - first:
+      213: 1047586121687702585
+    second: sun_disc_idle_42
+  - first:
+      213: -6225173164200148184
+    second: sun_disc_idle_43
+  - first:
+      213: -5575683322264909784
+    second: sun_disc_idle_44
+  - first:
+      213: -7304559308675439640
+    second: sun_disc_idle_45
+  - first:
+      213: -2405691350183046483
+    second: sun_disc_idle_46
+  - first:
+      213: -2383135470792248032
+    second: sun_disc_idle_47
+  - first:
+      213: -640721259942702650
+    second: sun_disc_idle_48
+  - first:
+      213: -2271056780915223910
+    second: sun_disc_idle_49
+  - first:
+      213: 5827513005661255284
+    second: sun_disc_idle_50
+  - first:
+      213: 1070081683782940343
+    second: sun_disc_idle_51
+  - first:
+      213: -3226625495794236097
+    second: sun_disc_idle_52
+  - first:
+      213: -783153440885221201
+    second: sun_disc_idle_53
+  - first:
+      213: -3599656895269170162
+    second: sun_disc_idle_54
+  - first:
+      213: -6812850310675487148
+    second: sun_disc_idle_55
+  - first:
+      213: -3960418927063866890
+    second: sun_disc_idle_56
+  - first:
+      213: 9072379678822017410
+    second: sun_disc_idle_57
+  - first:
+      213: -3874719997386097193
+    second: sun_disc_idle_58
+  - first:
+      213: 3010846188043667447
+    second: sun_disc_idle_59
+  - first:
+      213: 3291281039016909010
+    second: sun_disc_idle_60
+  - first:
+      213: 3349675585728157585
+    second: sun_disc_idle_61
+  - first:
+      213: 3059383664717886163
+    second: sun_disc_idle_62
+  - first:
+      213: 8316730620220503191
+    second: sun_disc_idle_63
+  - first:
+      213: 6606023043263054779
+    second: sun_disc_idle_64
+  - first:
+      213: 1291887670069527665
+    second: sun_disc_idle_65
+  - first:
+      213: -6365410928888204705
+    second: sun_disc_idle_66
+  - first:
+      213: -2433459023737634800
+    second: sun_disc_idle_67
+  - first:
+      213: 6359051712112122846
+    second: sun_disc_idle_68
+  - first:
+      213: -6126077300559442274
+    second: sun_disc_idle_69
+  - first:
+      213: 7175883188432830097
+    second: sun_disc_idle_70
+  - first:
+      213: 6915468433058976985
+    second: sun_disc_idle_71
+  - first:
+      213: 7392718376577259247
+    second: sun_disc_idle_72
+  - first:
+      213: 472915739218732171
+    second: sun_disc_idle_73
+  - first:
+      213: -5985499410379584024
+    second: sun_disc_idle_74
+  - first:
+      213: 1613637549533980891
+    second: sun_disc_idle_75
+  - first:
+      213: 36894061816975091
+    second: sun_disc_idle_76
+  - first:
+      213: -2812306405840557308
+    second: sun_disc_idle_77
+  - first:
+      213: -4482854309267782903
+    second: sun_disc_idle_78
+  - first:
+      213: -4854396545511044032
+    second: sun_disc_idle_79
+  - first:
+      213: 2481349065458075262
+    second: sun_disc_idle_80
+  - first:
+      213: -2243523919009217953
+    second: sun_disc_idle_81
+  - first:
+      213: 354320642528650366
+    second: sun_disc_idle_82
+  - first:
+      213: 2738229819503941741
+    second: sun_disc_idle_83
+  - first:
+      213: 759596807811217698
+    second: sun_disc_idle_84
+  - first:
+      213: 283756720326678397
+    second: sun_disc_idle_85
+  - first:
+      213: 5029350704681736115
+    second: sun_disc_idle_86
+  - first:
+      213: -8015345807108540820
+    second: sun_disc_idle_87
+  - first:
+      213: 5696055109044960126
+    second: sun_disc_idle_88
+  - first:
+      213: 2474857672881742020
+    second: sun_disc_idle_89
+  - first:
+      213: 1522530407270630400
+    second: sun_disc_idle_90
+  - first:
+      213: 1971814759972915717
+    second: sun_disc_idle_91
+  - first:
+      213: 4980996468757869878
+    second: sun_disc_idle_92
+  - first:
+      213: 2368958228144160426
+    second: sun_disc_idle_93
+  - first:
+      213: 2876193868563118110
+    second: sun_disc_idle_94
+  - first:
+      213: -5792465360726004257
+    second: sun_disc_idle_95
+  - first:
+      213: -3055675604396291572
+    second: sun_disc_idle_96
+  - first:
+      213: -9137177205186038386
+    second: sun_disc_idle_97
+  - first:
+      213: 6485646022107754137
+    second: sun_disc_idle_98
+  - first:
+      213: -3963523786741858937
+    second: sun_disc_idle_99
+  - first:
+      213: 8281934467870464313
+    second: sun_disc_idle_100
+  - first:
+      213: 4253218407111502043
+    second: sun_disc_idle_101
+  - first:
+      213: -1589630376274479767
+    second: sun_disc_idle_102
+  - first:
+      213: 4644201278551972501
+    second: sun_disc_idle_103
+  - first:
+      213: -1309865562866007008
+    second: sun_disc_idle_104
+  - first:
+      213: -3391250186323911097
+    second: sun_disc_idle_105
+  - first:
+      213: 3198936829138988266
+    second: sun_disc_idle_106
+  - first:
+      213: -2588353696942384404
+    second: sun_disc_idle_107
+  - first:
+      213: -2946471889509731023
+    second: sun_disc_idle_108
+  - first:
+      213: 5517161204272038761
+    second: sun_disc_idle_109
+  - first:
+      213: -6643688518454012475
+    second: sun_disc_idle_110
+  - first:
+      213: 9177705656677747837
+    second: sun_disc_idle_111
+  - first:
+      213: -8273862068305281759
+    second: sun_disc_idle_112
+  - first:
+      213: -8501916390041226795
+    second: sun_disc_idle_113
+  - first:
+      213: -6526435870219868995
+    second: sun_disc_idle_114
+  - first:
+      213: -1767967077143643545
+    second: sun_disc_idle_115
+  - first:
+      213: -1910643657374640678
+    second: sun_disc_idle_116
+  - first:
+      213: 8548573464577967643
+    second: sun_disc_idle_117
+  - first:
+      213: 2360246480320196872
+    second: sun_disc_idle_118
+  - first:
+      213: -2372772446114721984
+    second: sun_disc_idle_119
+  - first:
+      213: 7241813308190288536
+    second: sun_disc_idle_120
+  - first:
+      213: -3468736714217555917
+    second: sun_disc_idle_121
+  - first:
+      213: -8008730926783500838
+    second: sun_disc_idle_122
+  - first:
+      213: -8068737235011036521
+    second: sun_disc_idle_123
+  - first:
+      213: -3378087450361231648
+    second: sun_disc_idle_124
+  - first:
+      213: 2740681482000562901
+    second: sun_disc_idle_125
+  - first:
+      213: -8294420342763295100
+    second: sun_disc_idle_126
+  - first:
+      213: 8494435079643699191
+    second: sun_disc_idle_127
+  - first:
+      213: 3267008027898114050
+    second: sun_disc_idle_128
+  - first:
+      213: -4695167834770396375
+    second: sun_disc_idle_129
+  - first:
+      213: 7699659110261461068
+    second: sun_disc_idle_130
+  - first:
+      213: -8240127276442293318
+    second: sun_disc_idle_131
+  - first:
+      213: -4674132911480829896
+    second: sun_disc_idle_132
+  - first:
+      213: 9065994457835670260
+    second: sun_disc_idle_133
+  - first:
+      213: -6788896510157875488
+    second: sun_disc_idle_134
+  - first:
+      213: 5348382006430505674
+    second: sun_disc_idle_135
+  - first:
+      213: 2359150593992906675
+    second: sun_disc_idle_136
+  - first:
+      213: -3969795295168810870
+    second: sun_disc_idle_137
+  - first:
+      213: 4120779201875941500
+    second: sun_disc_idle_138
+  - first:
+      213: 4841780622182043889
+    second: sun_disc_idle_139
+  - first:
+      213: 1833499416582091782
+    second: sun_disc_idle_140
+  - first:
+      213: 7858219838155595713
+    second: sun_disc_idle_141
+  - first:
+      213: 305137631278822757
+    second: sun_disc_idle_142
+  - first:
+      213: 3765559768309447532
+    second: sun_disc_idle_143
+  - first:
+      213: 5581108395495835127
+    second: sun_disc_idle_144
+  - first:
+      213: 8270777694287368381
+    second: sun_disc_idle_145
+  - first:
+      213: 7669299694137499717
+    second: sun_disc_idle_146
+  - first:
+      213: 4023835252619446157
+    second: sun_disc_idle_147
+  - first:
+      213: -8943261389542854710
+    second: sun_disc_idle_148
+  - first:
+      213: 6516915933197512520
+    second: sun_disc_idle_149
+  - first:
+      213: -2354152653841846471
+    second: sun_disc_idle_150
+  - first:
+      213: 639180944498300395
+    second: sun_disc_idle_151
+  - first:
+      213: -5704035520750128925
+    second: sun_disc_idle_152
+  - first:
+      213: -1444758793008029645
+    second: sun_disc_idle_153
+  - first:
+      213: 4201646354507020624
+    second: sun_disc_idle_154
+  - first:
+      213: 7420969197503891416
+    second: sun_disc_idle_155
+  - first:
+      213: -1496917111263180550
+    second: sun_disc_idle_156
+  - first:
+      213: -5301326920074733264
+    second: sun_disc_idle_157
+  - first:
+      213: -6455640788939639916
+    second: sun_disc_idle_158
+  - first:
+      213: -219033711759698505
+    second: sun_disc_idle_159
+  - first:
+      213: 3034153267957265291
+    second: sun_disc_idle_160
+  - first:
+      213: -6842476298649398759
+    second: sun_disc_idle_161
+  - first:
+      213: 6964336358718761544
+    second: sun_disc_idle_162
+  - first:
+      213: 965066023075129338
+    second: sun_disc_idle_163
+  - first:
+      213: -496951243176499939
+    second: sun_disc_idle_164
+  - first:
+      213: 5141369165675949969
+    second: sun_disc_idle_165
+  - first:
+      213: -5272875772543232593
+    second: sun_disc_idle_166
+  - first:
+      213: -4832593264814669107
+    second: sun_disc_idle_167
+  - first:
+      213: 9165282482365123405
+    second: sun_disc_idle_168
+  - first:
+      213: -3624204467235069228
+    second: sun_disc_idle_169
+  - first:
+      213: 3269323216154637879
+    second: sun_disc_idle_170
+  - first:
+      213: -8373143110055741190
+    second: sun_disc_idle_171
+  - first:
+      213: -3743926087513869416
+    second: sun_disc_idle_172
+  - first:
+      213: -1361811504598660446
+    second: sun_disc_idle_173
+  - first:
+      213: -4144784395470816521
+    second: sun_disc_idle_174
+  - first:
+      213: -5665009522510643991
+    second: sun_disc_idle_175
+  - first:
+      213: 563833910803580489
+    second: sun_disc_idle_176
+  - first:
+      213: 770326613256586428
+    second: sun_disc_idle_177
+  - first:
+      213: -3258768956441199472
+    second: sun_disc_idle_178
+  - first:
+      213: 4211007640994011894
+    second: sun_disc_idle_179
+  - first:
+      213: -5991577016745824734
+    second: sun_disc_idle_180
+  - first:
+      213: -6148142288318327891
+    second: sun_disc_idle_181
+  - first:
+      213: -1250671243135731957
+    second: sun_disc_idle_182
+  - first:
+      213: 1604281579177757223
+    second: sun_disc_idle_183
+  - first:
+      213: 2964780292304226465
+    second: sun_disc_idle_184
+  - first:
+      213: -4896280726850689539
+    second: sun_disc_idle_185
+  - first:
+      213: 4757364938700052639
+    second: sun_disc_idle_186
+  - first:
+      213: -7406260208153374542
+    second: sun_disc_idle_187
+  - first:
+      213: 3651896117253340795
+    second: sun_disc_idle_188
+  - first:
+      213: -6976559108329190778
+    second: sun_disc_idle_189
+  - first:
+      213: -2460721083474801276
+    second: sun_disc_idle_190
+  - first:
+      213: 3046165792202460927
+    second: sun_disc_idle_191
+  - first:
+      213: 738827622973158401
+    second: sun_disc_idle_192
+  - first:
+      213: 2501882815934767195
+    second: sun_disc_idle_193
+  - first:
+      213: -287624766889101995
+    second: sun_disc_idle_194
+  - first:
+      213: -347131644539842415
+    second: sun_disc_idle_195
+  - first:
+      213: 5602125977855671662
+    second: sun_disc_idle_196
+  - first:
+      213: 6507538921070405980
+    second: sun_disc_idle_197
+  - first:
+      213: 4248359996004364805
+    second: sun_disc_idle_198
+  - first:
+      213: 8564974741354073064
+    second: sun_disc_idle_199
+  - first:
+      213: 2355906742059923487
+    second: sun_disc_idle_200
+  - first:
+      213: -879844567181196900
+    second: sun_disc_idle_201
+  - first:
+      213: -1767181466078099037
+    second: sun_disc_idle_202
+  - first:
+      213: -2013508036199289339
+    second: sun_disc_idle_203
+  - first:
+      213: -3462371260586395484
+    second: sun_disc_idle_204
+  - first:
+      213: 4912805829916807605
+    second: sun_disc_idle_205
+  - first:
+      213: -2889641049689798335
+    second: sun_disc_idle_206
+  - first:
+      213: 7150087780036131528
+    second: sun_disc_idle_207
+  - first:
+      213: 8195864536206690147
+    second: sun_disc_idle_208
+  - first:
+      213: -4455786025145488033
+    second: sun_disc_idle_209
+  - first:
+      213: 3070610408629368067
+    second: sun_disc_idle_210
+  - first:
+      213: -8659452969913462987
+    second: sun_disc_idle_211
+  - first:
+      213: -5921717138994864663
+    second: sun_disc_idle_212
+  - first:
+      213: 8312326929974110746
+    second: sun_disc_idle_213
+  - first:
+      213: -8072071488193574616
+    second: sun_disc_idle_214
+  - first:
+      213: -4228693067456200532
+    second: sun_disc_idle_215
+  - first:
+      213: -3030831036205361923
+    second: sun_disc_idle_216
+  - first:
+      213: 2411451260496688259
+    second: sun_disc_idle_217
+  - first:
+      213: -8164966205234555901
+    second: sun_disc_idle_218
+  - first:
+      213: -1451153150580011052
+    second: sun_disc_idle_219
+  - first:
+      213: 1530960434804340070
+    second: sun_disc_idle_220
+  - first:
+      213: -4633300939042944438
+    second: sun_disc_idle_221
+  - first:
+      213: 6215908643912619382
+    second: sun_disc_idle_222
+  - first:
+      213: 5482305025059628765
+    second: sun_disc_idle_223
+  - first:
+      213: 711283050331077206
+    second: sun_disc_idle_224
+  - first:
+      213: 2377456444460049604
+    second: sun_disc_idle_225
+  - first:
+      213: 6775254497574406611
+    second: sun_disc_idle_226
+  - first:
+      213: 7277821287080458526
+    second: sun_disc_idle_227
+  - first:
+      213: 7341126909704933514
+    second: sun_disc_idle_228
+  - first:
+      213: 1720474418214307496
+    second: sun_disc_idle_229
+  - first:
+      213: 5850951820041473726
+    second: sun_disc_idle_230
+  - first:
+      213: -2172028318301819247
+    second: sun_disc_idle_231
+  - first:
+      213: 1326185873335664567
+    second: sun_disc_idle_232
+  - first:
+      213: 7593036306946148657
+    second: sun_disc_idle_233
+  - first:
+      213: 3975167182078308376
+    second: sun_disc_idle_234
+  - first:
+      213: 8837529754413885186
+    second: sun_disc_idle_235
+  - first:
+      213: -4697031159918302722
+    second: sun_disc_idle_236
+  - first:
+      213: -5833710957792665001
+    second: sun_disc_idle_237
+  - first:
+      213: -368468864042663132
+    second: sun_disc_idle_238
+  - first:
+      213: 5936370456034973338
+    second: sun_disc_idle_239
+  - first:
+      213: -5173120709029958949
+    second: sun_disc_idle_000
+  - first:
+      213: 7455102071732102045
+    second: sun_disc_idle_001
+  - first:
+      213: -1244436241031184481
+    second: sun_disc_idle_002
+  - first:
+      213: -3568057773421078515
+    second: sun_disc_idle_003
+  - first:
+      213: -384212394413156795
+    second: sun_disc_idle_004
+  - first:
+      213: -3541566499754114142
+    second: sun_disc_idle_005
+  - first:
+      213: -7492792275340922170
+    second: sun_disc_idle_006
+  - first:
+      213: 1522225592008280953
+    second: sun_disc_idle_007
+  - first:
+      213: -7246005777593143451
+    second: sun_disc_idle_008
+  - first:
+      213: 7881807553695851302
+    second: sun_disc_idle_009
+  - first:
+      213: 2546892529534224477
+    second: sun_disc_idle_010
+  - first:
+      213: 7782074213482058404
+    second: sun_disc_idle_011
+  - first:
+      213: -382190912985700051
+    second: sun_disc_idle_012
+  - first:
+      213: -6673808828343606567
+    second: sun_disc_idle_013
+  - first:
+      213: -1202827994155373004
+    second: sun_disc_idle_014
+  - first:
+      213: 4968847996774153544
+    second: sun_disc_idle_015
+  - first:
+      213: 8037252355584539809
+    second: sun_disc_idle_016
+  - first:
+      213: -7538135074339316315
+    second: sun_disc_idle_017
+  - first:
+      213: 6648974537842731245
+    second: sun_disc_idle_018
+  - first:
+      213: -6323221440984258317
+    second: sun_disc_idle_019
+  - first:
+      213: 1126741964411409796
+    second: sun_disc_idle_020
+  - first:
+      213: 6534131787685332271
+    second: sun_disc_idle_021
+  - first:
+      213: -121518023800741591
+    second: sun_disc_idle_022
+  - first:
+      213: 4926363224533751620
+    second: sun_disc_idle_023
+  - first:
+      213: -5660968184117246670
+    second: sun_disc_idle_024
+  - first:
+      213: 6406655142300462979
+    second: sun_disc_idle_025
+  - first:
+      213: 1464242905958954634
+    second: sun_disc_idle_026
+  - first:
+      213: -3230587381908850742
+    second: sun_disc_idle_027
+  - first:
+      213: 6343611298847325331
+    second: sun_disc_idle_028
+  - first:
+      213: -862839476789604135
+    second: sun_disc_idle_029
+  - first:
+      213: 4694432627242932955
+    second: sun_disc_idle_030
+  - first:
+      213: -7680739326002489076
+    second: sun_disc_idle_031
+  - first:
+      213: -5837727278575570034
+    second: sun_disc_idle_032
+  - first:
+      213: -826918925443259455
+    second: sun_disc_idle_033
+  - first:
+      213: 2595404138552507537
+    second: sun_disc_idle_034
+  - first:
+      213: -9013543973238090487
+    second: sun_disc_idle_035
+  - first:
+      213: 8757655580310059831
+    second: sun_disc_idle_036
+  - first:
+      213: 9011165824883768747
+    second: sun_disc_idle_037
+  - first:
+      213: -6562433952544638013
+    second: sun_disc_idle_038
+  - first:
+      213: -4209766549272731495
+    second: sun_disc_idle_039
+  - first:
+      213: 8839550991376921186
+    second: sun_disc_idle_040
+  - first:
+      213: 2837749623576194778
+    second: sun_disc_idle_041
+  - first:
+      213: -3127752576774656658
+    second: sun_disc_idle_042
+  - first:
+      213: 5757521692005981099
+    second: sun_disc_idle_043
+  - first:
+      213: -1024974784396004208
+    second: sun_disc_idle_044
+  - first:
+      213: -2657304827328245323
+    second: sun_disc_idle_045
+  - first:
+      213: -125560090391989832
+    second: sun_disc_idle_046
+  - first:
+      213: -6952291478482956645
+    second: sun_disc_idle_047
+  - first:
+      213: -1904508389171395333
+    second: sun_disc_idle_048
+  - first:
+      213: -8022263842364885353
+    second: sun_disc_idle_049
+  - first:
+      213: 95705746587438271
+    second: sun_disc_idle_050
+  - first:
+      213: 8078295956746578026
+    second: sun_disc_idle_051
+  - first:
+      213: 5238353208728406549
+    second: sun_disc_idle_052
+  - first:
+      213: -7627398540283770175
+    second: sun_disc_idle_053
+  - first:
+      213: 3520128499091089510
+    second: sun_disc_idle_054
+  - first:
+      213: 1915917383897973514
+    second: sun_disc_idle_055
+  - first:
+      213: 1520375205829384053
+    second: sun_disc_idle_056
+  - first:
+      213: 8134944203967930199
+    second: sun_disc_idle_057
+  - first:
+      213: -8464729224057645276
+    second: sun_disc_idle_058
+  - first:
+      213: 846198563144504986
+    second: sun_disc_idle_059
+  - first:
+      213: 6652458650005403734
+    second: sun_disc_idle_060
+  - first:
+      213: -3652093759491415731
+    second: sun_disc_idle_061
+  - first:
+      213: -1567557393990634584
+    second: sun_disc_idle_062
+  - first:
+      213: -3994577739437163318
+    second: sun_disc_idle_063
+  - first:
+      213: 1157279552624255933
+    second: sun_disc_idle_064
+  - first:
+      213: -3260798246972552072
+    second: sun_disc_idle_065
+  - first:
+      213: 3516621316419501629
+    second: sun_disc_idle_066
+  - first:
+      213: 8262824494204083019
+    second: sun_disc_idle_067
+  - first:
+      213: 6457950436682080699
+    second: sun_disc_idle_068
+  - first:
+      213: 8524050481055626839
+    second: sun_disc_idle_069
+  - first:
+      213: 8653979545088482156
+    second: sun_disc_idle_070
+  - first:
+      213: -7542643693511543270
+    second: sun_disc_idle_071
+  - first:
+      213: 3568339822076269464
+    second: sun_disc_idle_072
+  - first:
+      213: 2395635657556495521
+    second: sun_disc_idle_073
+  - first:
+      213: -8468022407938937803
+    second: sun_disc_idle_074
+  - first:
+      213: 2180942300187550834
+    second: sun_disc_idle_075
+  - first:
+      213: -3179949731782028354
+    second: sun_disc_idle_076
+  - first:
+      213: 4607096468332172897
+    second: sun_disc_idle_077
+  - first:
+      213: 4788574493318215920
+    second: sun_disc_idle_078
+  - first:
+      213: -2084919227064602763
+    second: sun_disc_idle_079
+  - first:
+      213: 4434897941863450975
+    second: sun_disc_idle_080
+  - first:
+      213: -1408489433339466700
+    second: sun_disc_idle_081
+  - first:
+      213: -6283674576438892458
+    second: sun_disc_idle_082
+  - first:
+      213: 6092837197297637484
+    second: sun_disc_idle_083
+  - first:
+      213: 3494444797431400365
+    second: sun_disc_idle_084
+  - first:
+      213: -4594636542924465607
+    second: sun_disc_idle_085
+  - first:
+      213: 8722859029484061764
+    second: sun_disc_idle_086
+  - first:
+      213: -4471096386312696690
+    second: sun_disc_idle_087
+  - first:
+      213: -1884066223615065731
+    second: sun_disc_idle_088
+  - first:
+      213: 730739241653037621
+    second: sun_disc_idle_089
+  - first:
+      213: 1575175709097392830
+    second: sun_disc_idle_090
+  - first:
+      213: 7012901232114833054
+    second: sun_disc_idle_091
+  - first:
+      213: 5688530285126900109
+    second: sun_disc_idle_092
+  - first:
+      213: 4226346915291238912
+    second: sun_disc_idle_093
+  - first:
+      213: 6107298171920746340
+    second: sun_disc_idle_094
+  - first:
+      213: -5265666027018073895
+    second: sun_disc_idle_095
+  - first:
+      213: -5099282842321270763
+    second: sun_disc_idle_096
+  - first:
+      213: -9086245405135566975
+    second: sun_disc_idle_097
+  - first:
+      213: -8206540047318879934
+    second: sun_disc_idle_098
+  - first:
+      213: -7548282436889468282
+    second: sun_disc_idle_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sun_disc_idle_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda6d0e9f126538b0800000000000000
+      internalID: -5173120709029958949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93eeddd5d7d57760800000000000000
+      internalID: 7455102071732102045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fb6b305dfdabee0800000000000000
+      internalID: -1244436241031184481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d085a250c56bb7ec0800000000000000
+      internalID: -3568057773421078515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54693b8ecd00baaf0800000000000000
+      internalID: -384212394413156795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a38bb15804d9dec0800000000000000
+      internalID: -3541566499754114142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c27384cf11440890800000000000000
+      internalID: -7492792275340922170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b89af5c18002510800000000000000
+      internalID: 1522225592008280953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fe122e224017b90800000000000000
+      internalID: -7246005777593143451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6232802e53ec16d60800000000000000
+      internalID: 7881807553695851302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58cbf7f241685320800000000000000
+      internalID: 2546892529534224477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a25356144b7ffb60800000000000000
+      internalID: 7782074213482058404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29ea1bb36f22baf0800000000000000
+      internalID: -382190912985700051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d2a6bfda3ed163a0800000000000000
+      internalID: -6673808828343606567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e297aef42be4fe0800000000000000
+      internalID: -1202827994155373004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84d72ae4de4e4f440800000000000000
+      internalID: 4968847996774153544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acb9c82f6e0a8f60800000000000000
+      internalID: 8037252355584539809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad9711b61a236790800000000000000
+      internalID: -7538135074339316315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de8abb84d17e54c50800000000000000
+      internalID: 6648974537842731245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8effde9976f38a0800000000000000
+      internalID: -6323221440984258317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 485944ec8ddf2af00800000000000000
+      internalID: 1126741964411409796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f258298dd36edaa50800000000000000
+      internalID: 6534131787685332271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921ac8d4008405ef0800000000000000
+      internalID: -121518023800741591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447d1e07045fd5440800000000000000
+      internalID: 4926363224533751620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23547ecfd633071b0800000000000000
+      internalID: -5660968184117246670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38faf3378e209e850800000000000000
+      internalID: 6406655142300462979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86b1924a29025410800000000000000
+      internalID: 1464242905958954634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7b67d74e5aa23d0800000000000000
+      internalID: -3230587381908850742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39cf2fccdd8090850800000000000000
+      internalID: 6343611298847325331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d095cf31149604f0800000000000000
+      internalID: -862839476789604135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda91d03a99f52140800000000000000
+      internalID: 4694432627242932955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c099f3df648886590800000000000000
+      internalID: -7680739326002489076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8335e048f93cfea0800000000000000
+      internalID: -5837727278575570034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c328e65e913684f0800000000000000
+      internalID: -826918925443259455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c300f105ab40420800000000000000
+      internalID: 2595404138552507537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905d7cb138579e280800000000000000
+      internalID: -9013543973238090487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b3999a951798970800000000000000
+      internalID: 8757655580310059831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad365413971e0d70800000000000000
+      internalID: 9011165824883768747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb3d94e61d8de4a0800000000000000
+      internalID: -6562433952544638013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990e643b0a7e395c0800000000000000
+      internalID: -4209766549272731495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26239feeac46caa70800000000000000
+      internalID: 8839550991376921186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adee1c26f36b16720800000000000000
+      internalID: 2837749623576194778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6da80c5a9df794d0800000000000000
+      internalID: -3127752576774656658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab5f966973d6ef40800000000000000
+      internalID: 5757521692005981099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094f7583dde86c1f0800000000000000
+      internalID: -1024974784396004208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b15b2ba65b5f1bd0800000000000000
+      internalID: -2657304827328245323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1383653cbe14ef0800000000000000
+      internalID: -125560090391989832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e4c023cbf748f90800000000000000
+      internalID: -6952291478482956645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf400b7e5b3d195e0800000000000000
+      internalID: -1904508389171395333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79671650a813ba090800000000000000
+      internalID: -8022263842364885353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcce449ed3045100800000000000000
+      internalID: 95705746587438271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68aa5c3f5fdb1070800000000000000
+      internalID: 8078295956746578026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ac8464d7e52b840800000000000000
+      internalID: 5238353208728406549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca8d067079062690800000000000000
+      internalID: -7627398540283770175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668ad0038320ad030800000000000000
+      internalID: 3520128499091089510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a030c3ea5b4b69a10800000000000000
+      internalID: 1915917383897973514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57795c4c135791510800000000000000
+      internalID: 1520375205829384053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f912917a025e070800000000000000
+      internalID: 8134944203967930199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4271d286e9d378a80800000000000000
+      internalID: -8464729224057645276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a969cad1c1d4ebb00800000000000000
+      internalID: 846198563144504986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658fb8c55e7425c50800000000000000
+      internalID: 6652458650005403734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41e71b4318215dc0800000000000000
+      internalID: -3652093759491415731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3b62efadaee3ae0800000000000000
+      internalID: -1567557393990634584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc3a2dc5b86098c0800000000000000
+      internalID: -3994577739437163318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3edff1f9b7f0010800000000000000
+      internalID: 1157279552624255933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c0cf455415fb2d0800000000000000
+      internalID: -3260798246972552072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e30c6947c8dc030800000000000000
+      internalID: 3516621316419501629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b5e6269137ba270800000000000000
+      internalID: 8262824494204083019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1a38bd4bf3f9950800000000000000
+      internalID: 6457950436682080699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75671da00c28b4670800000000000000
+      internalID: 8524050481055626839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6bde76ab8c191870800000000000000
+      internalID: 8653979545088482156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1677ecf585235790800000000000000
+      internalID: -7542643693511543270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8939cbc892a458130800000000000000
+      internalID: 3568339822076269464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac0aeb10f10f3120800000000000000
+      internalID: 2395635657556495521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c60c84c7a8b7a80800000000000000
+      internalID: -8468022407938937803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2746d468773444e10800000000000000
+      internalID: 2180942300187550834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb39889219c8ed3d0800000000000000
+      internalID: -3179949731782028354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16655e814d1bfef30800000000000000
+      internalID: 4607096468332172897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f87ab6712f647240800000000000000
+      internalID: 4788574493318215920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fae656201e013e0800000000000000
+      internalID: -2084919227064602763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59c1e75e2ceb8d30800000000000000
+      internalID: 4434897941863450975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ce8e7a25a047ce0800000000000000
+      internalID: -1408489433339466700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658e43bd347ebc8a0800000000000000
+      internalID: -6283674576438892458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c685633562b1e8450800000000000000
+      internalID: 6092837197297637484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da74c166703ce7030800000000000000
+      internalID: 3494444797431400365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a55fa58629c30c0800000000000000
+      internalID: -4594636542924465607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 444c4365212dd0970800000000000000
+      internalID: 8722859029484061764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c8c49868973f1c0800000000000000
+      internalID: -4471096386312696690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71cc1870c37ad5e0800000000000000
+      internalID: -1884066223615065731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53aea2af77b142a00800000000000000
+      internalID: 730739241653037621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebaf29736f52cd510800000000000000
+      internalID: 1575175709097392830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e969a11c384d25160800000000000000
+      internalID: 7012901232114833054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d895a0bb728b1fe40800000000000000
+      internalID: 5688530285126900109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0029087902007aa30800000000000000
+      internalID: 4226346915291238912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4678aba545b71c450800000000000000
+      internalID: 6107298171920746340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d8ceb9a5a89ce6b0800000000000000
+      internalID: -5265666027018073895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5184236a545bb39b0800000000000000
+      internalID: -5099282842321270763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1878edce1fb27e180800000000000000
+      internalID: -9086245405135566975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2417a8c9e438c1e80800000000000000
+      internalID: -8206540047318879934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68222ecbd1d1f3790800000000000000
+      internalID: -7548282436889468282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9399b7ad4875fe270800000000000000
+      internalID: 8281934467870464313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8a8045b97760b30800000000000000
+      internalID: 4253218407111502043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9653df1589f70f9e0800000000000000
+      internalID: -1589630376274479767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a5181f474837040800000000000000
+      internalID: 4644201278551972501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024cad5e53c62dde0800000000000000
+      internalID: -1309865562866007008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e9fa35cebdfe0d0800000000000000
+      internalID: -3391250186323911097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec6ebfe818e46c20800000000000000
+      internalID: 3198936829138988266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea1eacb602541cd0800000000000000
+      internalID: -2588353696942384404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13539157d670c17d0800000000000000
+      internalID: -2946471889509731023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963833552e4e09c40800000000000000
+      internalID: 5517161204272038761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c515330e70ecc3a0800000000000000
+      internalID: -6643688518454012475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cce5f4ba2cd5f70800000000000000
+      internalID: 9177705656677747837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12db51229465d2d80800000000000000
+      internalID: -8273862068305281759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1758d9610230a80800000000000000
+      internalID: -8501916390041226795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db46d2297217d65a0800000000000000
+      internalID: -6526435870219868995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a74487f4be677e0800000000000000
+      internalID: -1767967077143643545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5d4d577b70c75e0800000000000000
+      internalID: -1910643657374640678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1600841642a2a670800000000000000
+      internalID: 8548573464577967643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801f9d13ba741c020800000000000000
+      internalID: 2360246480320196872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sun_disc_idle_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f4f702808321fd0800000000000000
+      internalID: -2372772446114721984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sun_disc_idle_0: -6207990533530843937
+      sun_disc_idle_000: -5173120709029958949
+      sun_disc_idle_001: 7455102071732102045
+      sun_disc_idle_002: -1244436241031184481
+      sun_disc_idle_003: -3568057773421078515
+      sun_disc_idle_004: -384212394413156795
+      sun_disc_idle_005: -3541566499754114142
+      sun_disc_idle_006: -7492792275340922170
+      sun_disc_idle_007: 1522225592008280953
+      sun_disc_idle_008: -7246005777593143451
+      sun_disc_idle_009: 7881807553695851302
+      sun_disc_idle_010: 2546892529534224477
+      sun_disc_idle_011: 7782074213482058404
+      sun_disc_idle_012: -382190912985700051
+      sun_disc_idle_013: -6673808828343606567
+      sun_disc_idle_014: -1202827994155373004
+      sun_disc_idle_015: 4968847996774153544
+      sun_disc_idle_016: 8037252355584539809
+      sun_disc_idle_017: -7538135074339316315
+      sun_disc_idle_018: 6648974537842731245
+      sun_disc_idle_019: -6323221440984258317
+      sun_disc_idle_020: 1126741964411409796
+      sun_disc_idle_021: 6534131787685332271
+      sun_disc_idle_022: -121518023800741591
+      sun_disc_idle_023: 4926363224533751620
+      sun_disc_idle_024: -5660968184117246670
+      sun_disc_idle_025: 6406655142300462979
+      sun_disc_idle_026: 1464242905958954634
+      sun_disc_idle_027: -3230587381908850742
+      sun_disc_idle_028: 6343611298847325331
+      sun_disc_idle_029: -862839476789604135
+      sun_disc_idle_030: 4694432627242932955
+      sun_disc_idle_031: -7680739326002489076
+      sun_disc_idle_032: -5837727278575570034
+      sun_disc_idle_033: -826918925443259455
+      sun_disc_idle_034: 2595404138552507537
+      sun_disc_idle_035: -9013543973238090487
+      sun_disc_idle_036: 8757655580310059831
+      sun_disc_idle_037: 9011165824883768747
+      sun_disc_idle_038: -6562433952544638013
+      sun_disc_idle_039: -4209766549272731495
+      sun_disc_idle_040: 8839550991376921186
+      sun_disc_idle_041: 2837749623576194778
+      sun_disc_idle_042: -3127752576774656658
+      sun_disc_idle_043: 5757521692005981099
+      sun_disc_idle_044: -1024974784396004208
+      sun_disc_idle_045: -2657304827328245323
+      sun_disc_idle_046: -125560090391989832
+      sun_disc_idle_047: -6952291478482956645
+      sun_disc_idle_048: -1904508389171395333
+      sun_disc_idle_049: -8022263842364885353
+      sun_disc_idle_050: 95705746587438271
+      sun_disc_idle_051: 8078295956746578026
+      sun_disc_idle_052: 5238353208728406549
+      sun_disc_idle_053: -7627398540283770175
+      sun_disc_idle_054: 3520128499091089510
+      sun_disc_idle_055: 1915917383897973514
+      sun_disc_idle_056: 1520375205829384053
+      sun_disc_idle_057: 8134944203967930199
+      sun_disc_idle_058: -8464729224057645276
+      sun_disc_idle_059: 846198563144504986
+      sun_disc_idle_060: 6652458650005403734
+      sun_disc_idle_061: -3652093759491415731
+      sun_disc_idle_062: -1567557393990634584
+      sun_disc_idle_063: -3994577739437163318
+      sun_disc_idle_064: 1157279552624255933
+      sun_disc_idle_065: -3260798246972552072
+      sun_disc_idle_066: 3516621316419501629
+      sun_disc_idle_067: 8262824494204083019
+      sun_disc_idle_068: 6457950436682080699
+      sun_disc_idle_069: 8524050481055626839
+      sun_disc_idle_070: 8653979545088482156
+      sun_disc_idle_071: -7542643693511543270
+      sun_disc_idle_072: 3568339822076269464
+      sun_disc_idle_073: 2395635657556495521
+      sun_disc_idle_074: -8468022407938937803
+      sun_disc_idle_075: 2180942300187550834
+      sun_disc_idle_076: -3179949731782028354
+      sun_disc_idle_077: 4607096468332172897
+      sun_disc_idle_078: 4788574493318215920
+      sun_disc_idle_079: -2084919227064602763
+      sun_disc_idle_080: 4434897941863450975
+      sun_disc_idle_081: -1408489433339466700
+      sun_disc_idle_082: -6283674576438892458
+      sun_disc_idle_083: 6092837197297637484
+      sun_disc_idle_084: 3494444797431400365
+      sun_disc_idle_085: -4594636542924465607
+      sun_disc_idle_086: 8722859029484061764
+      sun_disc_idle_087: -4471096386312696690
+      sun_disc_idle_088: -1884066223615065731
+      sun_disc_idle_089: 730739241653037621
+      sun_disc_idle_090: 1575175709097392830
+      sun_disc_idle_091: 7012901232114833054
+      sun_disc_idle_092: 5688530285126900109
+      sun_disc_idle_093: 4226346915291238912
+      sun_disc_idle_094: 6107298171920746340
+      sun_disc_idle_095: -5265666027018073895
+      sun_disc_idle_096: -5099282842321270763
+      sun_disc_idle_097: -9086245405135566975
+      sun_disc_idle_098: -8206540047318879934
+      sun_disc_idle_099: -7548282436889468282
+      sun_disc_idle_1: -8245634116545610019
+      sun_disc_idle_10: -1363289811342865136
+      sun_disc_idle_100: 8281934467870464313
+      sun_disc_idle_101: 4253218407111502043
+      sun_disc_idle_102: -1589630376274479767
+      sun_disc_idle_103: 4644201278551972501
+      sun_disc_idle_104: -1309865562866007008
+      sun_disc_idle_105: -3391250186323911097
+      sun_disc_idle_106: 3198936829138988266
+      sun_disc_idle_107: -2588353696942384404
+      sun_disc_idle_108: -2946471889509731023
+      sun_disc_idle_109: 5517161204272038761
+      sun_disc_idle_11: 8367022603568526619
+      sun_disc_idle_110: -6643688518454012475
+      sun_disc_idle_111: 9177705656677747837
+      sun_disc_idle_112: -8273862068305281759
+      sun_disc_idle_113: -8501916390041226795
+      sun_disc_idle_114: -6526435870219868995
+      sun_disc_idle_115: -1767967077143643545
+      sun_disc_idle_116: -1910643657374640678
+      sun_disc_idle_117: 8548573464577967643
+      sun_disc_idle_118: 2360246480320196872
+      sun_disc_idle_119: -2372772446114721984
+      sun_disc_idle_12: 4930038765226289517
+      sun_disc_idle_120: 7241813308190288536
+      sun_disc_idle_121: -3468736714217555917
+      sun_disc_idle_122: -8008730926783500838
+      sun_disc_idle_123: -8068737235011036521
+      sun_disc_idle_124: -3378087450361231648
+      sun_disc_idle_125: 2740681482000562901
+      sun_disc_idle_126: -8294420342763295100
+      sun_disc_idle_127: 8494435079643699191
+      sun_disc_idle_128: 3267008027898114050
+      sun_disc_idle_129: -4695167834770396375
+      sun_disc_idle_13: 2943812795726638743
+      sun_disc_idle_130: 7699659110261461068
+      sun_disc_idle_131: -8240127276442293318
+      sun_disc_idle_132: -4674132911480829896
+      sun_disc_idle_133: 9065994457835670260
+      sun_disc_idle_134: -6788896510157875488
+      sun_disc_idle_135: 5348382006430505674
+      sun_disc_idle_136: 2359150593992906675
+      sun_disc_idle_137: -3969795295168810870
+      sun_disc_idle_138: 4120779201875941500
+      sun_disc_idle_139: 4841780622182043889
+      sun_disc_idle_14: -7420340822898808611
+      sun_disc_idle_140: 1833499416582091782
+      sun_disc_idle_141: 7858219838155595713
+      sun_disc_idle_142: 305137631278822757
+      sun_disc_idle_143: 3765559768309447532
+      sun_disc_idle_144: 5581108395495835127
+      sun_disc_idle_145: 8270777694287368381
+      sun_disc_idle_146: 7669299694137499717
+      sun_disc_idle_147: 4023835252619446157
+      sun_disc_idle_148: -8943261389542854710
+      sun_disc_idle_149: 6516915933197512520
+      sun_disc_idle_15: 5106135079164236693
+      sun_disc_idle_150: -2354152653841846471
+      sun_disc_idle_151: 639180944498300395
+      sun_disc_idle_152: -5704035520750128925
+      sun_disc_idle_153: -1444758793008029645
+      sun_disc_idle_154: 4201646354507020624
+      sun_disc_idle_155: 7420969197503891416
+      sun_disc_idle_156: -1496917111263180550
+      sun_disc_idle_157: -5301326920074733264
+      sun_disc_idle_158: -6455640788939639916
+      sun_disc_idle_159: -219033711759698505
+      sun_disc_idle_16: -6680111350273599926
+      sun_disc_idle_160: 3034153267957265291
+      sun_disc_idle_161: -6842476298649398759
+      sun_disc_idle_162: 6964336358718761544
+      sun_disc_idle_163: 965066023075129338
+      sun_disc_idle_164: -496951243176499939
+      sun_disc_idle_165: 5141369165675949969
+      sun_disc_idle_166: -5272875772543232593
+      sun_disc_idle_167: -4832593264814669107
+      sun_disc_idle_168: 9165282482365123405
+      sun_disc_idle_169: -3624204467235069228
+      sun_disc_idle_17: 3364697851844442154
+      sun_disc_idle_170: 3269323216154637879
+      sun_disc_idle_171: -8373143110055741190
+      sun_disc_idle_172: -3743926087513869416
+      sun_disc_idle_173: -1361811504598660446
+      sun_disc_idle_174: -4144784395470816521
+      sun_disc_idle_175: -5665009522510643991
+      sun_disc_idle_176: 563833910803580489
+      sun_disc_idle_177: 770326613256586428
+      sun_disc_idle_178: -3258768956441199472
+      sun_disc_idle_179: 4211007640994011894
+      sun_disc_idle_18: -3480515174241011436
+      sun_disc_idle_180: -5991577016745824734
+      sun_disc_idle_181: -6148142288318327891
+      sun_disc_idle_182: -1250671243135731957
+      sun_disc_idle_183: 1604281579177757223
+      sun_disc_idle_184: 2964780292304226465
+      sun_disc_idle_185: -4896280726850689539
+      sun_disc_idle_186: 4757364938700052639
+      sun_disc_idle_187: -7406260208153374542
+      sun_disc_idle_188: 3651896117253340795
+      sun_disc_idle_189: -6976559108329190778
+      sun_disc_idle_19: -7027061978248848112
+      sun_disc_idle_190: -2460721083474801276
+      sun_disc_idle_191: 3046165792202460927
+      sun_disc_idle_192: 738827622973158401
+      sun_disc_idle_193: 2501882815934767195
+      sun_disc_idle_194: -287624766889101995
+      sun_disc_idle_195: -347131644539842415
+      sun_disc_idle_196: 5602125977855671662
+      sun_disc_idle_197: 6507538921070405980
+      sun_disc_idle_198: 4248359996004364805
+      sun_disc_idle_199: 8564974741354073064
+      sun_disc_idle_2: -1982107594541766219
+      sun_disc_idle_20: -3028506660823214692
+      sun_disc_idle_200: 2355906742059923487
+      sun_disc_idle_201: -879844567181196900
+      sun_disc_idle_202: -1767181466078099037
+      sun_disc_idle_203: -2013508036199289339
+      sun_disc_idle_204: -3462371260586395484
+      sun_disc_idle_205: 4912805829916807605
+      sun_disc_idle_206: -2889641049689798335
+      sun_disc_idle_207: 7150087780036131528
+      sun_disc_idle_208: 8195864536206690147
+      sun_disc_idle_209: -4455786025145488033
+      sun_disc_idle_21: -7920989809524401870
+      sun_disc_idle_210: 3070610408629368067
+      sun_disc_idle_211: -8659452969913462987
+      sun_disc_idle_212: -5921717138994864663
+      sun_disc_idle_213: 8312326929974110746
+      sun_disc_idle_214: -8072071488193574616
+      sun_disc_idle_215: -4228693067456200532
+      sun_disc_idle_216: -3030831036205361923
+      sun_disc_idle_217: 2411451260496688259
+      sun_disc_idle_218: -8164966205234555901
+      sun_disc_idle_219: -1451153150580011052
+      sun_disc_idle_22: 4320741952110223189
+      sun_disc_idle_220: 1530960434804340070
+      sun_disc_idle_221: -4633300939042944438
+      sun_disc_idle_222: 6215908643912619382
+      sun_disc_idle_223: 5482305025059628765
+      sun_disc_idle_224: 711283050331077206
+      sun_disc_idle_225: 2377456444460049604
+      sun_disc_idle_226: 6775254497574406611
+      sun_disc_idle_227: 7277821287080458526
+      sun_disc_idle_228: 7341126909704933514
+      sun_disc_idle_229: 1720474418214307496
+      sun_disc_idle_23: -2405009170459064941
+      sun_disc_idle_230: 5850951820041473726
+      sun_disc_idle_231: -2172028318301819247
+      sun_disc_idle_232: 1326185873335664567
+      sun_disc_idle_233: 7593036306946148657
+      sun_disc_idle_234: 3975167182078308376
+      sun_disc_idle_235: 8837529754413885186
+      sun_disc_idle_236: -4697031159918302722
+      sun_disc_idle_237: -5833710957792665001
+      sun_disc_idle_238: -368468864042663132
+      sun_disc_idle_239: 5936370456034973338
+      sun_disc_idle_24: -5240048590811235858
+      sun_disc_idle_25: -8135926279134411763
+      sun_disc_idle_26: -4669863418479518042
+      sun_disc_idle_27: 4701723958761496162
+      sun_disc_idle_28: -2855866606121987583
+      sun_disc_idle_29: 8471756932315964964
+      sun_disc_idle_3: 3555802667101082757
+      sun_disc_idle_30: 4476206346822692051
+      sun_disc_idle_31: -6975857326965778621
+      sun_disc_idle_32: 5450170324018545126
+      sun_disc_idle_33: -6034212360416939019
+      sun_disc_idle_34: -5769275766403422591
+      sun_disc_idle_35: 3386778324686641434
+      sun_disc_idle_36: -5079371920181867635
+      sun_disc_idle_37: 5198381387750551627
+      sun_disc_idle_38: 2890163623473854077
+      sun_disc_idle_39: 3855742525995383179
+      sun_disc_idle_4: 4986074322613796677
+      sun_disc_idle_40: 2489791378922917479
+      sun_disc_idle_41: 4231942788688503380
+      sun_disc_idle_42: 1047586121687702585
+      sun_disc_idle_43: -6225173164200148184
+      sun_disc_idle_44: -5575683322264909784
+      sun_disc_idle_45: -7304559308675439640
+      sun_disc_idle_46: -2405691350183046483
+      sun_disc_idle_47: -2383135470792248032
+      sun_disc_idle_48: -640721259942702650
+      sun_disc_idle_49: -2271056780915223910
+      sun_disc_idle_5: 8961728183729026290
+      sun_disc_idle_50: 5827513005661255284
+      sun_disc_idle_51: 1070081683782940343
+      sun_disc_idle_52: -3226625495794236097
+      sun_disc_idle_53: -783153440885221201
+      sun_disc_idle_54: -3599656895269170162
+      sun_disc_idle_55: -6812850310675487148
+      sun_disc_idle_56: -3960418927063866890
+      sun_disc_idle_57: 9072379678822017410
+      sun_disc_idle_58: -3874719997386097193
+      sun_disc_idle_59: 3010846188043667447
+      sun_disc_idle_6: 2129372695780530564
+      sun_disc_idle_60: 3291281039016909010
+      sun_disc_idle_61: 3349675585728157585
+      sun_disc_idle_62: 3059383664717886163
+      sun_disc_idle_63: 8316730620220503191
+      sun_disc_idle_64: 6606023043263054779
+      sun_disc_idle_65: 1291887670069527665
+      sun_disc_idle_66: -6365410928888204705
+      sun_disc_idle_67: -2433459023737634800
+      sun_disc_idle_68: 6359051712112122846
+      sun_disc_idle_69: -6126077300559442274
+      sun_disc_idle_7: 446957486004111122
+      sun_disc_idle_70: 7175883188432830097
+      sun_disc_idle_71: 6915468433058976985
+      sun_disc_idle_72: 7392718376577259247
+      sun_disc_idle_73: 472915739218732171
+      sun_disc_idle_74: -5985499410379584024
+      sun_disc_idle_75: 1613637549533980891
+      sun_disc_idle_76: 36894061816975091
+      sun_disc_idle_77: -2812306405840557308
+      sun_disc_idle_78: -4482854309267782903
+      sun_disc_idle_79: -4854396545511044032
+      sun_disc_idle_8: 8580726977368641846
+      sun_disc_idle_80: 2481349065458075262
+      sun_disc_idle_81: -2243523919009217953
+      sun_disc_idle_82: 354320642528650366
+      sun_disc_idle_83: 2738229819503941741
+      sun_disc_idle_84: 759596807811217698
+      sun_disc_idle_85: 283756720326678397
+      sun_disc_idle_86: 5029350704681736115
+      sun_disc_idle_87: -8015345807108540820
+      sun_disc_idle_88: 5696055109044960126
+      sun_disc_idle_89: 2474857672881742020
+      sun_disc_idle_9: 8633993388260076549
+      sun_disc_idle_90: 1522530407270630400
+      sun_disc_idle_91: 1971814759972915717
+      sun_disc_idle_92: 4980996468757869878
+      sun_disc_idle_93: 2368958228144160426
+      sun_disc_idle_94: 2876193868563118110
+      sun_disc_idle_95: -5792465360726004257
+      sun_disc_idle_96: -3055675604396291572
+      sun_disc_idle_97: -9137177205186038386
+      sun_disc_idle_98: 6485646022107754137
+      sun_disc_idle_99: -3963523786741858937
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3665 @@
+fileFormatVersion: 2
+guid: 03d5ed8a8d2c89a45aef3259abfd810e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4014980402415889548
+    second: soraka_idle_0
+  - first:
+      213: 9212385845599328018
+    second: soraka_idle_1
+  - first:
+      213: 1559931735226473937
+    second: soraka_idle_2
+  - first:
+      213: 1443722917970978335
+    second: soraka_idle_3
+  - first:
+      213: 2736065557080578324
+    second: soraka_idle_4
+  - first:
+      213: 6417321065641418834
+    second: soraka_idle_5
+  - first:
+      213: -2028441837932693568
+    second: soraka_idle_6
+  - first:
+      213: -3329517415014997566
+    second: soraka_idle_7
+  - first:
+      213: 8970891681216498795
+    second: soraka_idle_8
+  - first:
+      213: -2121053590488420746
+    second: soraka_idle_9
+  - first:
+      213: 4185490594027996277
+    second: soraka_idle_10
+  - first:
+      213: 3789783570192252513
+    second: soraka_idle_11
+  - first:
+      213: 4328221848335421402
+    second: soraka_idle_12
+  - first:
+      213: -3124935589301584874
+    second: soraka_idle_13
+  - first:
+      213: 1762979928230468151
+    second: soraka_idle_14
+  - first:
+      213: -5572793516960784975
+    second: soraka_idle_15
+  - first:
+      213: 4854027048818750206
+    second: soraka_idle_16
+  - first:
+      213: -2160043767481571308
+    second: soraka_idle_17
+  - first:
+      213: -1821480332121757590
+    second: soraka_idle_18
+  - first:
+      213: -4137050262138100838
+    second: soraka_idle_19
+  - first:
+      213: 4767206262687020478
+    second: soraka_idle_20
+  - first:
+      213: 2175381409722807676
+    second: soraka_idle_21
+  - first:
+      213: 4526819590085920387
+    second: soraka_idle_22
+  - first:
+      213: 2444562301404105865
+    second: soraka_idle_23
+  - first:
+      213: -5332316668842842009
+    second: soraka_idle_24
+  - first:
+      213: 2347684176038902067
+    second: soraka_idle_25
+  - first:
+      213: -7854878378641255495
+    second: soraka_idle_26
+  - first:
+      213: 7219750692098249742
+    second: soraka_idle_27
+  - first:
+      213: -8011562400345339074
+    second: soraka_idle_28
+  - first:
+      213: -9078556610404119509
+    second: soraka_idle_29
+  - first:
+      213: 5944996547449845808
+    second: soraka_idle_30
+  - first:
+      213: 8247024218828426678
+    second: soraka_idle_31
+  - first:
+      213: -1819494988847070458
+    second: soraka_idle_32
+  - first:
+      213: 6587026229246846114
+    second: soraka_idle_33
+  - first:
+      213: 5294940178965830234
+    second: soraka_idle_34
+  - first:
+      213: -262183506059186257
+    second: soraka_idle_35
+  - first:
+      213: -1529808188577452409
+    second: soraka_idle_36
+  - first:
+      213: -1443661429958845286
+    second: soraka_idle_37
+  - first:
+      213: -3337768184853205241
+    second: soraka_idle_38
+  - first:
+      213: -7948476367699869414
+    second: soraka_idle_39
+  - first:
+      213: -6821459606609392407
+    second: soraka_idle_40
+  - first:
+      213: 7292971768287672017
+    second: soraka_idle_41
+  - first:
+      213: 3835883120332594801
+    second: soraka_idle_42
+  - first:
+      213: -4869408527006211995
+    second: soraka_idle_43
+  - first:
+      213: 5650688539105236824
+    second: soraka_idle_44
+  - first:
+      213: -6093098510592639475
+    second: soraka_idle_45
+  - first:
+      213: -5374923030530215414
+    second: soraka_idle_46
+  - first:
+      213: -5081846282010947215
+    second: soraka_idle_47
+  - first:
+      213: 1254304468745784406
+    second: soraka_idle_48
+  - first:
+      213: 3734624997571953805
+    second: soraka_idle_49
+  - first:
+      213: 1952826025771936713
+    second: soraka_idle_50
+  - first:
+      213: -2264873411770094870
+    second: soraka_idle_51
+  - first:
+      213: 7531426246030010090
+    second: soraka_idle_52
+  - first:
+      213: 6459483387788882279
+    second: soraka_idle_53
+  - first:
+      213: 6774594785331309418
+    second: soraka_idle_54
+  - first:
+      213: -8619314189922230203
+    second: soraka_idle_55
+  - first:
+      213: -8428011398436009132
+    second: soraka_idle_56
+  - first:
+      213: 9169544118690487448
+    second: soraka_idle_57
+  - first:
+      213: 649615235301186640
+    second: soraka_idle_58
+  - first:
+      213: 1722086754107472235
+    second: soraka_idle_59
+  - first:
+      213: 7460659448415921839
+    second: soraka_idle_60
+  - first:
+      213: 7358699336360536243
+    second: soraka_idle_61
+  - first:
+      213: -2776152347795198785
+    second: soraka_idle_62
+  - first:
+      213: -2240944340991386351
+    second: soraka_idle_63
+  - first:
+      213: -2566765321508951668
+    second: soraka_idle_64
+  - first:
+      213: -708287237841085027
+    second: soraka_idle_65
+  - first:
+      213: 628062891302804477
+    second: soraka_idle_66
+  - first:
+      213: -4826341056060241568
+    second: soraka_idle_67
+  - first:
+      213: 6901125853621434502
+    second: soraka_idle_68
+  - first:
+      213: 2011183234364939214
+    second: soraka_idle_69
+  - first:
+      213: 305491574803199247
+    second: soraka_idle_70
+  - first:
+      213: 4283069578622685560
+    second: soraka_idle_71
+  - first:
+      213: 7257638742954204520
+    second: soraka_idle_72
+  - first:
+      213: 6456668697376396836
+    second: soraka_idle_73
+  - first:
+      213: -3583113551023671317
+    second: soraka_idle_74
+  - first:
+      213: 4633726110956661563
+    second: soraka_idle_75
+  - first:
+      213: 3609656695324966753
+    second: soraka_idle_76
+  - first:
+      213: 412309888680246966
+    second: soraka_idle_77
+  - first:
+      213: 5078232827605492881
+    second: soraka_idle_78
+  - first:
+      213: 1594231206339564340
+    second: soraka_idle_79
+  - first:
+      213: -6618414761548729338
+    second: soraka_idle_80
+  - first:
+      213: -7520431884724607516
+    second: soraka_idle_81
+  - first:
+      213: -5289938023509787250
+    second: soraka_idle_82
+  - first:
+      213: 7893389987422747756
+    second: soraka_idle_83
+  - first:
+      213: -2606051503692164316
+    second: soraka_idle_84
+  - first:
+      213: 8257553659764211933
+    second: soraka_idle_85
+  - first:
+      213: 355999697205887008
+    second: soraka_idle_86
+  - first:
+      213: 6803868991038733085
+    second: soraka_idle_87
+  - first:
+      213: -723715812913721472
+    second: soraka_idle_88
+  - first:
+      213: 7230415094400509066
+    second: soraka_idle_89
+  - first:
+      213: 9124136237109894907
+    second: soraka_idle_90
+  - first:
+      213: -8551662033819198264
+    second: soraka_idle_91
+  - first:
+      213: 7137328270799183634
+    second: soraka_idle_92
+  - first:
+      213: 3015218660115613135
+    second: soraka_idle_93
+  - first:
+      213: 637252600371409334
+    second: soraka_idle_94
+  - first:
+      213: 7129938896628926074
+    second: soraka_idle_95
+  - first:
+      213: 3323738000412764746
+    second: soraka_idle_96
+  - first:
+      213: -7749474695650591322
+    second: soraka_idle_97
+  - first:
+      213: 6150143614871867650
+    second: soraka_idle_98
+  - first:
+      213: 1268001242885038532
+    second: soraka_idle_99
+  - first:
+      213: -8276863814353782595
+    second: soraka_idle_100
+  - first:
+      213: -88422406694043016
+    second: soraka_idle_101
+  - first:
+      213: -5572504222625653352
+    second: soraka_idle_102
+  - first:
+      213: -1030540920488615625
+    second: soraka_idle_103
+  - first:
+      213: -2557839000929509461
+    second: soraka_idle_104
+  - first:
+      213: -6761904404240497410
+    second: soraka_idle_105
+  - first:
+      213: -7957111575566970021
+    second: soraka_idle_106
+  - first:
+      213: 6809059161998944496
+    second: soraka_idle_107
+  - first:
+      213: -9153833144806726820
+    second: soraka_idle_108
+  - first:
+      213: 2121431744405558823
+    second: soraka_idle_109
+  - first:
+      213: -2989495334050866676
+    second: soraka_idle_110
+  - first:
+      213: -5544741488789836206
+    second: soraka_idle_111
+  - first:
+      213: -82930058555828378
+    second: soraka_idle_112
+  - first:
+      213: -7136855802881938465
+    second: soraka_idle_113
+  - first:
+      213: 719101362309268773
+    second: soraka_idle_114
+  - first:
+      213: -1941451133921493895
+    second: soraka_idle_115
+  - first:
+      213: -8345606808771260590
+    second: soraka_idle_116
+  - first:
+      213: 5734045386847073073
+    second: soraka_idle_117
+  - first:
+      213: 8418856452788569480
+    second: soraka_idle_118
+  - first:
+      213: 116366211198097207
+    second: soraka_idle_119
+  - first:
+      213: -4695337812464971107
+    second: soraka_idle_000
+  - first:
+      213: 9127285632502654880
+    second: soraka_idle_001
+  - first:
+      213: 5761261697812840441
+    second: soraka_idle_002
+  - first:
+      213: -8883658256550882662
+    second: soraka_idle_003
+  - first:
+      213: -4997020750749299934
+    second: soraka_idle_004
+  - first:
+      213: 5872240235505481708
+    second: soraka_idle_005
+  - first:
+      213: 5454910219914630797
+    second: soraka_idle_006
+  - first:
+      213: -7494700888437014618
+    second: soraka_idle_007
+  - first:
+      213: -2149642682955324595
+    second: soraka_idle_008
+  - first:
+      213: -8199439588463383796
+    second: soraka_idle_009
+  - first:
+      213: -5204164645324367584
+    second: soraka_idle_010
+  - first:
+      213: 4523451104205432082
+    second: soraka_idle_011
+  - first:
+      213: -1970087466626475466
+    second: soraka_idle_012
+  - first:
+      213: 8895690895742400618
+    second: soraka_idle_013
+  - first:
+      213: 565742820048374680
+    second: soraka_idle_014
+  - first:
+      213: -4834698849164768291
+    second: soraka_idle_015
+  - first:
+      213: -5753736403783659279
+    second: soraka_idle_016
+  - first:
+      213: 6361154016750104064
+    second: soraka_idle_017
+  - first:
+      213: -8736368779518046568
+    second: soraka_idle_018
+  - first:
+      213: -7324622905098660762
+    second: soraka_idle_019
+  - first:
+      213: -4373636278022391621
+    second: soraka_idle_020
+  - first:
+      213: 6124151886124244258
+    second: soraka_idle_021
+  - first:
+      213: -7284408661280618145
+    second: soraka_idle_022
+  - first:
+      213: -6463299809829051453
+    second: soraka_idle_023
+  - first:
+      213: -7784498428579052500
+    second: soraka_idle_024
+  - first:
+      213: -7598985805918298362
+    second: soraka_idle_025
+  - first:
+      213: -2871467310930362269
+    second: soraka_idle_026
+  - first:
+      213: -4621994623937186008
+    second: soraka_idle_027
+  - first:
+      213: -637164007876924177
+    second: soraka_idle_028
+  - first:
+      213: 6007522839750828839
+    second: soraka_idle_029
+  - first:
+      213: -4720581451100864602
+    second: soraka_idle_030
+  - first:
+      213: -2925550667995061872
+    second: soraka_idle_031
+  - first:
+      213: -6889615912986371637
+    second: soraka_idle_032
+  - first:
+      213: -6548477392778700135
+    second: soraka_idle_033
+  - first:
+      213: 4647734018148507851
+    second: soraka_idle_034
+  - first:
+      213: 2983821563467912450
+    second: soraka_idle_035
+  - first:
+      213: 7532274229800045492
+    second: soraka_idle_036
+  - first:
+      213: 7324225561998091941
+    second: soraka_idle_037
+  - first:
+      213: 6952275607441171194
+    second: soraka_idle_038
+  - first:
+      213: 6827974757243343800
+    second: soraka_idle_039
+  - first:
+      213: -1289311916676402018
+    second: soraka_idle_040
+  - first:
+      213: -4108715175463967661
+    second: soraka_idle_041
+  - first:
+      213: -4550647537482930786
+    second: soraka_idle_042
+  - first:
+      213: -7047075790822943272
+    second: soraka_idle_043
+  - first:
+      213: 5331977435923803533
+    second: soraka_idle_044
+  - first:
+      213: 1509134961153773460
+    second: soraka_idle_045
+  - first:
+      213: -4636457532284201904
+    second: soraka_idle_046
+  - first:
+      213: 399486546430760608
+    second: soraka_idle_047
+  - first:
+      213: 4545342557481845048
+    second: soraka_idle_048
+  - first:
+      213: -6351700786860315540
+    second: soraka_idle_049
+  - first:
+      213: 1514591815206381879
+    second: soraka_idle_050
+  - first:
+      213: -8484928631633734578
+    second: soraka_idle_051
+  - first:
+      213: 5711293261014220338
+    second: soraka_idle_052
+  - first:
+      213: 4259983694815888751
+    second: soraka_idle_053
+  - first:
+      213: -5081797267998617979
+    second: soraka_idle_054
+  - first:
+      213: -2580326443214217653
+    second: soraka_idle_055
+  - first:
+      213: -1651185282421577997
+    second: soraka_idle_056
+  - first:
+      213: -8825601723278325802
+    second: soraka_idle_057
+  - first:
+      213: 706284157097007178
+    second: soraka_idle_058
+  - first:
+      213: -860408071061670085
+    second: soraka_idle_059
+  - first:
+      213: -7240731952148304608
+    second: soraka_idle_060
+  - first:
+      213: -5878677754076938371
+    second: soraka_idle_061
+  - first:
+      213: -5955595985981576988
+    second: soraka_idle_062
+  - first:
+      213: 1997507168243079235
+    second: soraka_idle_063
+  - first:
+      213: 1282006327051335476
+    second: soraka_idle_064
+  - first:
+      213: 4281664779485899734
+    second: soraka_idle_065
+  - first:
+      213: -6727064206618097649
+    second: soraka_idle_066
+  - first:
+      213: 928470300975331320
+    second: soraka_idle_067
+  - first:
+      213: -5264617506239364916
+    second: soraka_idle_068
+  - first:
+      213: -1373145057291570316
+    second: soraka_idle_069
+  - first:
+      213: -130342908297747338
+    second: soraka_idle_070
+  - first:
+      213: -6329783279797281664
+    second: soraka_idle_071
+  - first:
+      213: -303170710033099252
+    second: soraka_idle_072
+  - first:
+      213: 7863656528774363303
+    second: soraka_idle_073
+  - first:
+      213: 1350008811605528810
+    second: soraka_idle_074
+  - first:
+      213: 3270266023655732226
+    second: soraka_idle_075
+  - first:
+      213: -8373317904846159154
+    second: soraka_idle_076
+  - first:
+      213: 8911920027542505507
+    second: soraka_idle_077
+  - first:
+      213: 304093083841670179
+    second: soraka_idle_078
+  - first:
+      213: -3138550544418798991
+    second: soraka_idle_079
+  - first:
+      213: 8782903899053647722
+    second: soraka_idle_080
+  - first:
+      213: 3866946338755567229
+    second: soraka_idle_081
+  - first:
+      213: -4725719441389780744
+    second: soraka_idle_082
+  - first:
+      213: 8328939363654509107
+    second: soraka_idle_083
+  - first:
+      213: -6300343374091372416
+    second: soraka_idle_084
+  - first:
+      213: -976673811537358035
+    second: soraka_idle_085
+  - first:
+      213: 7848761315106652724
+    second: soraka_idle_086
+  - first:
+      213: 7734697759252349966
+    second: soraka_idle_087
+  - first:
+      213: 4342157838583120568
+    second: soraka_idle_088
+  - first:
+      213: -5878452052861706156
+    second: soraka_idle_089
+  - first:
+      213: 174179920519021592
+    second: soraka_idle_090
+  - first:
+      213: 1607920360143359147
+    second: soraka_idle_091
+  - first:
+      213: 377901854892311448
+    second: soraka_idle_092
+  - first:
+      213: 5394359423224187483
+    second: soraka_idle_093
+  - first:
+      213: -5022157624086796002
+    second: soraka_idle_094
+  - first:
+      213: 7927583689792444015
+    second: soraka_idle_095
+  - first:
+      213: 1940108365598906345
+    second: soraka_idle_096
+  - first:
+      213: -8167938032279958389
+    second: soraka_idle_097
+  - first:
+      213: -1086739534549288024
+    second: soraka_idle_098
+  - first:
+      213: 1359538774577375499
+    second: soraka_idle_099
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: soraka_idle_000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d92d093f22fc6deb0800000000000000
+      internalID: -4695337812464971107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_001
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7e8d0ace1aaae70800000000000000
+      internalID: 9127285632502654880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_002
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffb23c5dfc14ff40800000000000000
+      internalID: 5761261697812840441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_003
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92915022e7e6b480800000000000000
+      internalID: -8883658256550882662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_004
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b05504a1407aab0800000000000000
+      internalID: -4997020750749299934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_005
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce77f09b1636e7150800000000000000
+      internalID: 5872240235505481708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_006
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d86d8a391fbb3bb40800000000000000
+      internalID: 5454910219914630797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_007
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af38e620497df790800000000000000
+      internalID: -7494700888437014618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_008
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d432e608e5fea22e0800000000000000
+      internalID: -2149642682955324595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_009
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b6d54032db53e80800000000000000
+      internalID: -8199439588463383796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_010
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0295bc2f3d717c7b0800000000000000
+      internalID: -5204164645324367584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_011
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215630120d686ce30800000000000000
+      internalID: 4523451104205432082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_012
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a974713e7d8a4e0800000000000000
+      internalID: -1970087466626475466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_013
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68f6600db7d37b70800000000000000
+      internalID: 8895690895742400618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_014
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b063fe81ce9d700800000000000000
+      internalID: 565742820048374680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_015
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb4b831303b7ecb0800000000000000
+      internalID: -4834698849164768291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_016
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0dd31b93f9620b0800000000000000
+      internalID: -5753736403783659279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_017
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e60f910eb574850800000000000000
+      internalID: 6361154016750104064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_018
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e830ed1ee22c680800000000000000
+      internalID: -8736368779518046568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_019
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66497eb7646b95a90800000000000000
+      internalID: -7324622905098660762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_020
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8b6b74af8bd43c0800000000000000
+      internalID: -4373636278022391621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_021
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d59fa71bb5df450800000000000000
+      internalID: 6124151886124244258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_022
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f590791cae498ea90800000000000000
+      internalID: -7284408661280618145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_023
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c32a46211fbd46a0800000000000000
+      internalID: -6463299809829051453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_024
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2485f95ce7e7f390800000000000000
+      internalID: -7784498428579052500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_025
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f1101bbaafa8690800000000000000
+      internalID: -7598985805918298362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_026
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36089d3c1bf7628d0800000000000000
+      internalID: -2871467310930362269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_027
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827757eb0606bdfb0800000000000000
+      internalID: -4621994623937186008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_028
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fece4dee5b65827f0800000000000000
+      internalID: -637164007876924177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_029
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723e46b81320f5350800000000000000
+      internalID: 6007522839750828839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_030
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6afb5d15e202d7eb0800000000000000
+      internalID: -4720581451100864602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_031
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0916fbdea2b5667d0800000000000000
+      internalID: -2925550667995061872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_032
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9919374da2360a0800000000000000
+      internalID: -6889615912986371637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_033
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99adfbfa1822f15a0800000000000000
+      internalID: -6548477392778700135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_034
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc0ad3af671108040800000000000000
+      internalID: 4647734018148507851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_035
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205d7ab27e9a86920800000000000000
+      internalID: 2983821563467912450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_036
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb8f0a1183088860800000000000000
+      internalID: 7532274229800045492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_037
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a66bbdd750e4a560800000000000000
+      internalID: 7324225561998091941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_038
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2e42a84d17b7060800000000000000
+      internalID: 6952275607441171194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_039
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3d2d49dd6d1ce50800000000000000
+      internalID: 6827974757243343800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_040
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9433d194a17b1ee0800000000000000
+      internalID: -1289311916676402018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_041
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354a63b1159eaf6c0800000000000000
+      internalID: -4108715175463967661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_042
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95e25ecc2ad8d0c0800000000000000
+      internalID: -4550647537482930786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_043
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d55ebeb7e1c33e90800000000000000
+      internalID: -7047075790822943272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_044
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8de2aa5a3dfef940800000000000000
+      internalID: 5331977435923803533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_045
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f81bd504681f410800000000000000
+      internalID: 1509134961153773460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_046
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054140c707ef7afb0800000000000000
+      internalID: -4636457532284201904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_047
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a69d8cb5e24b8500800000000000000
+      internalID: 399486546430760608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_048
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831cb2949fc441f30800000000000000
+      internalID: 4545342557481845048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_049
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6c2f9f79c93ad7a0800000000000000
+      internalID: -6351700786860315540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_050
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73927153b39e40510800000000000000
+      internalID: 1514591815206381879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_051
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e441ee65d5a7f3a80800000000000000
+      internalID: -8484928631633734578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_052
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23eb5de06f6924f40800000000000000
+      internalID: 5711293261014220338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_053
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f65057e99908e1b30800000000000000
+      internalID: 4259983694815888751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_054
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e446c2f44d979b0800000000000000
+      internalID: -5081797267998617979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_055
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e5ba365c6d03cd0800000000000000
+      internalID: -2580326443214217653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_056
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f6a8e6ebbfc519e0800000000000000
+      internalID: -1651185282421577997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_057
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d78be22ef9258580800000000000000
+      internalID: -8825601723278325802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_058
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48d046e2b93dc900800000000000000
+      internalID: 706284157097007178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_059
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b377d720b673f04f0800000000000000
+      internalID: -860408071061670085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_060
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02d216e07a0c38b90800000000000000
+      internalID: -7240731952148304608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_061
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7fb04faabdba6ea0800000000000000
+      internalID: -5878677754076938371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_062
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e863dd3109795da0800000000000000
+      internalID: -5955595985981576988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_063
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348dc6faf2298bb10800000000000000
+      internalID: 1997507168243079235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_064
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437b2bb46f99ac110800000000000000
+      internalID: 1282006327051335476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_065
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dbee848e678b6b30800000000000000
+      internalID: 4281664779485899734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_066
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08884fdebaa4a2a0800000000000000
+      internalID: -6727064206618097649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_067
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7722ac1d692ec00800000000000000
+      internalID: 928470300975331320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_068
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0cc4e654250f6b0800000000000000
+      internalID: -5264617506239364916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_069
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4737d0b78db91fce0800000000000000
+      internalID: -1373145057291570316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_070
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674ebe3c0dde03ef0800000000000000
+      internalID: -130342908297747338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_071
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cd976c4a71828a0800000000000000
+      internalID: -6329783279797281664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_072
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c069c2278dbeacbf0800000000000000
+      internalID: -303170710033099252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_073
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a8f64113f1512d60800000000000000
+      internalID: 7863656528774363303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_074
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0156b8cd13cb210800000000000000
+      internalID: 1350008811605528810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_075
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20477053f91526d20800000000000000
+      internalID: 3270266023655732226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_076
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec20a32babffbcb80800000000000000
+      internalID: -8373317904846159154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_077
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3284c543c008dab70800000000000000
+      internalID: 8911920027542505507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_078
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c29017c0b583400800000000000000
+      internalID: 304093083841670179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_079
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1720f4a98e0a174d0800000000000000
+      internalID: -3138550544418798991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_080
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a676c77ff8423e970800000000000000
+      internalID: 8782903899053647722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_081
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ed50705372aa530800000000000000
+      internalID: 3866946338755567229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_082
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f00ecbb43fda6eb0800000000000000
+      internalID: -4725719441389780744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_083
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332256ef836569370800000000000000
+      internalID: 8328939363654509107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_084
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0883c48f41fa098a0800000000000000
+      internalID: -6300343374091372416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_085
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2393e1d7582272f0800000000000000
+      internalID: -976673811537358035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_086
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43282c1e4d66cec60800000000000000
+      internalID: 7848761315106652724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_087
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e040f31c1aa275b60800000000000000
+      internalID: 7734697759252349966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_088
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2cc676c81724c30800000000000000
+      internalID: 4342157838583120568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_089
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4502308d00b8b6ea0800000000000000
+      internalID: -5878452052861706156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_090
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814ca8107bfca6200800000000000000
+      internalID: 174179920519021592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_091
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac86756c0b705610800000000000000
+      internalID: 1607920360143359147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_092
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89341dc1cb39e3500800000000000000
+      internalID: 377901854892311448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_093
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a0f0c905d9cda40800000000000000
+      internalID: 5394359423224187483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_094
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19694adf36bd4ab0800000000000000
+      internalID: -5022157624086796002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_095
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66524d1d5f640e60800000000000000
+      internalID: 7927583689792444015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_096
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e759458746acea10800000000000000
+      internalID: 1940108365598906345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_097
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ccc8e92a7a5ae80800000000000000
+      internalID: -8167938032279958389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_098
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abf0dfa6202be0f0800000000000000
+      internalID: -1086739534549288024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_099
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09ed05ff4d0ed210800000000000000
+      internalID: 1359538774577375499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_100
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8782ba63ca22d80800000000000000
+      internalID: -8276863814353782595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_101
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87201d22a4cd5cef0800000000000000
+      internalID: -88422406694043016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_102
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d98051fec7aa2b0800000000000000
+      internalID: -5572504222625653352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_103
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 731a5cb2e78c2b1f0800000000000000
+      internalID: -1030540920488615625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_104
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafd4fc0bfab08cd0800000000000000
+      internalID: -2557839000929509461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4881c35c3e822a0800000000000000
+      internalID: -6761904404240497410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_106
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b539e2c3e29a29190800000000000000
+      internalID: -7957111575566970021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_107
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8e09d5b33ae7e50800000000000000
+      internalID: 6809059161998944496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_108
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53299ef04d07f080800000000000000
+      internalID: -9153833144806726820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_109
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726d7848ee6d07d10800000000000000
+      internalID: 2121431744405558823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_110
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ad53c25dd2386d0800000000000000
+      internalID: -2989495334050866676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_111
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25eaf454efe1d03b0800000000000000
+      internalID: -5544741488789836206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_112
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667d3961d8f59def0800000000000000
+      internalID: -82930058555828378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_113
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb6900c57bc4fc90800000000000000
+      internalID: -7136855802881938465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_114
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52581f901e2caf900800000000000000
+      internalID: 719101362309268773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_115
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c74ddda749e05e0800000000000000
+      internalID: -1941451133921493895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_116
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f8b1803d27e2c80800000000000000
+      internalID: -8345606808771260590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_117
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133bcf826eb639f40800000000000000
+      internalID: 5734045386847073073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_118
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885c77bb659c5d470800000000000000
+      internalID: 8418856452788569480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soraka_idle_119
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737125ad37a6d9100800000000000000
+      internalID: 116366211198097207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      soraka_idle_0: 4014980402415889548
+      soraka_idle_000: -4695337812464971107
+      soraka_idle_001: 9127285632502654880
+      soraka_idle_002: 5761261697812840441
+      soraka_idle_003: -8883658256550882662
+      soraka_idle_004: -4997020750749299934
+      soraka_idle_005: 5872240235505481708
+      soraka_idle_006: 5454910219914630797
+      soraka_idle_007: -7494700888437014618
+      soraka_idle_008: -2149642682955324595
+      soraka_idle_009: -8199439588463383796
+      soraka_idle_010: -5204164645324367584
+      soraka_idle_011: 4523451104205432082
+      soraka_idle_012: -1970087466626475466
+      soraka_idle_013: 8895690895742400618
+      soraka_idle_014: 565742820048374680
+      soraka_idle_015: -4834698849164768291
+      soraka_idle_016: -5753736403783659279
+      soraka_idle_017: 6361154016750104064
+      soraka_idle_018: -8736368779518046568
+      soraka_idle_019: -7324622905098660762
+      soraka_idle_020: -4373636278022391621
+      soraka_idle_021: 6124151886124244258
+      soraka_idle_022: -7284408661280618145
+      soraka_idle_023: -6463299809829051453
+      soraka_idle_024: -7784498428579052500
+      soraka_idle_025: -7598985805918298362
+      soraka_idle_026: -2871467310930362269
+      soraka_idle_027: -4621994623937186008
+      soraka_idle_028: -637164007876924177
+      soraka_idle_029: 6007522839750828839
+      soraka_idle_030: -4720581451100864602
+      soraka_idle_031: -2925550667995061872
+      soraka_idle_032: -6889615912986371637
+      soraka_idle_033: -6548477392778700135
+      soraka_idle_034: 4647734018148507851
+      soraka_idle_035: 2983821563467912450
+      soraka_idle_036: 7532274229800045492
+      soraka_idle_037: 7324225561998091941
+      soraka_idle_038: 6952275607441171194
+      soraka_idle_039: 6827974757243343800
+      soraka_idle_040: -1289311916676402018
+      soraka_idle_041: -4108715175463967661
+      soraka_idle_042: -4550647537482930786
+      soraka_idle_043: -7047075790822943272
+      soraka_idle_044: 5331977435923803533
+      soraka_idle_045: 1509134961153773460
+      soraka_idle_046: -4636457532284201904
+      soraka_idle_047: 399486546430760608
+      soraka_idle_048: 4545342557481845048
+      soraka_idle_049: -6351700786860315540
+      soraka_idle_050: 1514591815206381879
+      soraka_idle_051: -8484928631633734578
+      soraka_idle_052: 5711293261014220338
+      soraka_idle_053: 4259983694815888751
+      soraka_idle_054: -5081797267998617979
+      soraka_idle_055: -2580326443214217653
+      soraka_idle_056: -1651185282421577997
+      soraka_idle_057: -8825601723278325802
+      soraka_idle_058: 706284157097007178
+      soraka_idle_059: -860408071061670085
+      soraka_idle_060: -7240731952148304608
+      soraka_idle_061: -5878677754076938371
+      soraka_idle_062: -5955595985981576988
+      soraka_idle_063: 1997507168243079235
+      soraka_idle_064: 1282006327051335476
+      soraka_idle_065: 4281664779485899734
+      soraka_idle_066: -6727064206618097649
+      soraka_idle_067: 928470300975331320
+      soraka_idle_068: -5264617506239364916
+      soraka_idle_069: -1373145057291570316
+      soraka_idle_070: -130342908297747338
+      soraka_idle_071: -6329783279797281664
+      soraka_idle_072: -303170710033099252
+      soraka_idle_073: 7863656528774363303
+      soraka_idle_074: 1350008811605528810
+      soraka_idle_075: 3270266023655732226
+      soraka_idle_076: -8373317904846159154
+      soraka_idle_077: 8911920027542505507
+      soraka_idle_078: 304093083841670179
+      soraka_idle_079: -3138550544418798991
+      soraka_idle_080: 8782903899053647722
+      soraka_idle_081: 3866946338755567229
+      soraka_idle_082: -4725719441389780744
+      soraka_idle_083: 8328939363654509107
+      soraka_idle_084: -6300343374091372416
+      soraka_idle_085: -976673811537358035
+      soraka_idle_086: 7848761315106652724
+      soraka_idle_087: 7734697759252349966
+      soraka_idle_088: 4342157838583120568
+      soraka_idle_089: -5878452052861706156
+      soraka_idle_090: 174179920519021592
+      soraka_idle_091: 1607920360143359147
+      soraka_idle_092: 377901854892311448
+      soraka_idle_093: 5394359423224187483
+      soraka_idle_094: -5022157624086796002
+      soraka_idle_095: 7927583689792444015
+      soraka_idle_096: 1940108365598906345
+      soraka_idle_097: -8167938032279958389
+      soraka_idle_098: -1086739534549288024
+      soraka_idle_099: 1359538774577375499
+      soraka_idle_1: 9212385845599328018
+      soraka_idle_10: 4185490594027996277
+      soraka_idle_100: -8276863814353782595
+      soraka_idle_101: -88422406694043016
+      soraka_idle_102: -5572504222625653352
+      soraka_idle_103: -1030540920488615625
+      soraka_idle_104: -2557839000929509461
+      soraka_idle_105: -6761904404240497410
+      soraka_idle_106: -7957111575566970021
+      soraka_idle_107: 6809059161998944496
+      soraka_idle_108: -9153833144806726820
+      soraka_idle_109: 2121431744405558823
+      soraka_idle_11: 3789783570192252513
+      soraka_idle_110: -2989495334050866676
+      soraka_idle_111: -5544741488789836206
+      soraka_idle_112: -82930058555828378
+      soraka_idle_113: -7136855802881938465
+      soraka_idle_114: 719101362309268773
+      soraka_idle_115: -1941451133921493895
+      soraka_idle_116: -8345606808771260590
+      soraka_idle_117: 5734045386847073073
+      soraka_idle_118: 8418856452788569480
+      soraka_idle_119: 116366211198097207
+      soraka_idle_12: 4328221848335421402
+      soraka_idle_13: -3124935589301584874
+      soraka_idle_14: 1762979928230468151
+      soraka_idle_15: -5572793516960784975
+      soraka_idle_16: 4854027048818750206
+      soraka_idle_17: -2160043767481571308
+      soraka_idle_18: -1821480332121757590
+      soraka_idle_19: -4137050262138100838
+      soraka_idle_2: 1559931735226473937
+      soraka_idle_20: 4767206262687020478
+      soraka_idle_21: 2175381409722807676
+      soraka_idle_22: 4526819590085920387
+      soraka_idle_23: 2444562301404105865
+      soraka_idle_24: -5332316668842842009
+      soraka_idle_25: 2347684176038902067
+      soraka_idle_26: -7854878378641255495
+      soraka_idle_27: 7219750692098249742
+      soraka_idle_28: -8011562400345339074
+      soraka_idle_29: -9078556610404119509
+      soraka_idle_3: 1443722917970978335
+      soraka_idle_30: 5944996547449845808
+      soraka_idle_31: 8247024218828426678
+      soraka_idle_32: -1819494988847070458
+      soraka_idle_33: 6587026229246846114
+      soraka_idle_34: 5294940178965830234
+      soraka_idle_35: -262183506059186257
+      soraka_idle_36: -1529808188577452409
+      soraka_idle_37: -1443661429958845286
+      soraka_idle_38: -3337768184853205241
+      soraka_idle_39: -7948476367699869414
+      soraka_idle_4: 2736065557080578324
+      soraka_idle_40: -6821459606609392407
+      soraka_idle_41: 7292971768287672017
+      soraka_idle_42: 3835883120332594801
+      soraka_idle_43: -4869408527006211995
+      soraka_idle_44: 5650688539105236824
+      soraka_idle_45: -6093098510592639475
+      soraka_idle_46: -5374923030530215414
+      soraka_idle_47: -5081846282010947215
+      soraka_idle_48: 1254304468745784406
+      soraka_idle_49: 3734624997571953805
+      soraka_idle_5: 6417321065641418834
+      soraka_idle_50: 1952826025771936713
+      soraka_idle_51: -2264873411770094870
+      soraka_idle_52: 7531426246030010090
+      soraka_idle_53: 6459483387788882279
+      soraka_idle_54: 6774594785331309418
+      soraka_idle_55: -8619314189922230203
+      soraka_idle_56: -8428011398436009132
+      soraka_idle_57: 9169544118690487448
+      soraka_idle_58: 649615235301186640
+      soraka_idle_59: 1722086754107472235
+      soraka_idle_6: -2028441837932693568
+      soraka_idle_60: 7460659448415921839
+      soraka_idle_61: 7358699336360536243
+      soraka_idle_62: -2776152347795198785
+      soraka_idle_63: -2240944340991386351
+      soraka_idle_64: -2566765321508951668
+      soraka_idle_65: -708287237841085027
+      soraka_idle_66: 628062891302804477
+      soraka_idle_67: -4826341056060241568
+      soraka_idle_68: 6901125853621434502
+      soraka_idle_69: 2011183234364939214
+      soraka_idle_7: -3329517415014997566
+      soraka_idle_70: 305491574803199247
+      soraka_idle_71: 4283069578622685560
+      soraka_idle_72: 7257638742954204520
+      soraka_idle_73: 6456668697376396836
+      soraka_idle_74: -3583113551023671317
+      soraka_idle_75: 4633726110956661563
+      soraka_idle_76: 3609656695324966753
+      soraka_idle_77: 412309888680246966
+      soraka_idle_78: 5078232827605492881
+      soraka_idle_79: 1594231206339564340
+      soraka_idle_8: 8970891681216498795
+      soraka_idle_80: -6618414761548729338
+      soraka_idle_81: -7520431884724607516
+      soraka_idle_82: -5289938023509787250
+      soraka_idle_83: 7893389987422747756
+      soraka_idle_84: -2606051503692164316
+      soraka_idle_85: 8257553659764211933
+      soraka_idle_86: 355999697205887008
+      soraka_idle_87: 6803868991038733085
+      soraka_idle_88: -723715812913721472
+      soraka_idle_89: 7230415094400509066
+      soraka_idle_9: -2121053590488420746
+      soraka_idle_90: 9124136237109894907
+      soraka_idle_91: -8551662033819198264
+      soraka_idle_92: 7137328270799183634
+      soraka_idle_93: 3015218660115613135
+      soraka_idle_94: 637252600371409334
+      soraka_idle_95: 7129938896628926074
+      soraka_idle_96: 3323738000412764746
+      soraka_idle_97: -7749474695650591322
+      soraka_idle_98: 6150143614871867650
+      soraka_idle_99: 1268001242885038532
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
