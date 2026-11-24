@@ -7,7 +7,7 @@ internal sealed class 주민추첨패널
 {
     static readonly Color32 금색 = new(240, 199, 119, 255);
     static readonly Color32 밝은색 = new(244, 235, 216, 255);
-    static readonly Color32 흐린색 = new(177, 184, 169, 255);
+    static readonly Color32 흐린색 = new(201, 181, 150, 255);
     static readonly Color32 실패색 = new(248, 143, 126, 255);
     static readonly int[] 투자순서 = { 3, 0, 4, 1, 5, 2, 6 };
 
@@ -34,7 +34,7 @@ internal sealed class 주민추첨패널
     {
         this.글꼴 = 글꼴;
         this.요청 = 요청;
-        가림막 = 배경(부모, "주민 뽑기 가림막", new Color32(6, 10, 9, 188), true).rectTransform;
+        가림막 = 배경(부모, "주민 뽑기 가림막", new Color32(18, 12, 8, 188), true).rectTransform;
         가림막.anchorMin = Vector2.zero;
         가림막.anchorMax = Vector2.one;
         가림막.offsetMin = 가림막.offsetMax = Vector2.zero;
@@ -75,7 +75,7 @@ internal sealed class 주민추첨패널
 
         결과표시 = 글(상자, "", 26, 357, 532, 45, 20, 밝은색);
         결과표시.alignment = TextAlignmentOptions.Center;
-        진행선바탕 = 배경(상자, "추첨 진행", new Color32(16, 26, 31, 255)).rectTransform;
+        진행선바탕 = 배경(상자, "추첨 진행", new Color32(39, 27, 20, 255)).rectTransform;
         배치(진행선바탕, 26, 404, 532, 4);
         진행선 = 배경(진행선바탕, "남은 진행", 금색).rectTransform;
         배치(진행선, 0, 0, 0, 4);

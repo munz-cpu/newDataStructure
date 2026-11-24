@@ -106,7 +106,7 @@ public static class BuildingInteractionPreview
         if(EditorApplication.timeSinceStartup<hoverUntil)return;
         EditorApplication.isPaused=true;EditorApplication.update-=HoverTick;hoverSchedule?.Pause();
         var root=hoverGame.GetComponent<UIDocument>().rootVisualElement;
-        Write(File.ReadAllText("Temp/BuildingInteraction/live.txt")+"\nHover display="+root.Q("training-cost").resolvedStyle.display+" bounds="+root.Q("training-cost").worldBound+" title="+root.Q<Label>("training-cost-title").text+" total="+root.Q<Label>("training-cost-total").text+" focused="+Application.isFocused);
+        Write(File.ReadAllText("Temp/BuildingInteraction/live.txt")+"\nHover display="+root.Q("training-cost").resolvedStyle.display+" bounds="+root.Q("training-cost").worldBound+" title="+root.Q<Label>("training-cost-title").text+" queue="+root.Q<Label>("training-queue").text+" wood="+root.Q<Label>("training-amount-0").text+" focused="+Application.isFocused);
     }
 
     static void UpdateHover()
@@ -131,20 +131,28 @@ public static class BuildingInteractionPreview
         foreach(int slot in new[]{전장규칙.시설시작칸,전장규칙.시설시작칸+2})
         {
             Call(hoverGame,"훈련비용안내표시",slot);
-            Require(root.Q<Label>("training-cost-total").text.Contains("일반 병사")
-                && root.Q<Label>("training-cost-detail").text.Contains("먼저"),"Resident-only quote did not explain soldier prerequisite");
+            Require(root.Q("training-cost-total").style.display.value==DisplayStyle.None
+                && root.Q<Label>("training-queue").text=="대기 0명","Resident-only selection showed a specialized cost or hid queue status");
         }
         selected.Clear();selected.UnionWith(new[]{6,7,30,31,32});
         foreach(int slot in new[]{4,전장규칙.시설시작칸,전장규칙.시설시작칸+2})
         {
             Call(hoverGame,"훈련비용안내표시",slot);
-            string total=root.Q<Label>("training-cost-total").text;
-            Require(total.Contains(slot==4?"나무 30":"나무 15"),"Wrong total quote for school "+slot+": "+total);
+            string total=root.Q<Label>("training-amount-0").text;
+            Require(total==(slot==4?"35":"15"),"Wrong wood quote for school "+slot+": "+total);
+            Require(root.Q("training-icon-0").style.backgroundImage.value.sprite!=null,"Missing wood icon");
         }
-        int iron=state.진영들[0].재화[3];state.진영들[0].재화[3]=0;Call(hoverGame,"훈련비용안내표시",전장규칙.시설시작칸);
-        Require(root.Q<Label>("training-cost-detail").text.Contains("부족"),"Shortage not explained");
-        state.진영들[0].재화[3]=iron;hoverSlot=전장규칙.시설시작칸;Call(hoverGame,"훈련비용안내표시",hoverSlot);
-        Write(File.ReadAllText("Temp/BuildingInteraction/live.txt")+"\nPASS: Normal school quotes two residents; both specialized schools quote only one normal soldier and exclude residents; shortage state is explained.");
+        int iron=state.진영들[0].재화[3];
+        try
+        {
+            state.진영들[0].재화[3]=0;Call(hoverGame,"훈련비용안내표시",전장규칙.시설시작칸);
+            var shortage=root.Q<Label>("training-amount-3").style.color.value;
+            var affordable=root.Q<Label>("training-amount-0").style.color.value;
+            Require(shortage.r>shortage.g && shortage.g<affordable.g,"Short resource was not highlighted");
+        }
+        finally { state.진영들[0].재화[3]=iron; }
+        hoverSlot=전장규칙.시설시작칸;Call(hoverGame,"훈련비용안내표시",hoverSlot);
+        Write(File.ReadAllText("Temp/BuildingInteraction/live.txt")+"\nPASS: Normal and specialized quotes show eligible costs with icons, and insufficient iron is red.");
     }
 
     [MenuItem("DivineWar/Building Interaction/Restore Preview Layout")]

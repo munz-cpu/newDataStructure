@@ -24,8 +24,6 @@ public sealed class 왕외형목록 : ScriptableObject
     static 왕외형목록 읽은목록;
     public static 왕외형목록 가져오기() => 읽은목록 != null ? 읽은목록 : 읽은목록 = Resources.Load<왕외형목록>("Classes/PlayerAppearances");
 
-    public const float 검사기술동작길이 = .34f;
-
     public static Sprite[] 검사기술외형(장착기술 기술) => 기술 switch
     {
         장착기술.회전베기 => 가져오기()?.검사회전,

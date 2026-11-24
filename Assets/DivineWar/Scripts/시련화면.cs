@@ -29,6 +29,23 @@ public sealed partial class 신들의전쟁
         return false;
     }
 
+    int 가까운봉인시련()
+    {
+        if (시련들 == null || 내왕() is not { 생존: true, 속박중: false } 왕) return -1;
+        int 번호 = -1;
+        float 최단거리 = 전장규칙.시련사용거리;
+        for (int i = 0; i < 상태.시련들.Length && i < 시련들.Length; i++)
+        {
+            var 시련 = 상태.시련들[i];
+            if (시련.단계 != 시련단계.봉인) continue;
+            float 거리 = Vector2.Distance(왕.위치, 시련.위치);
+            if (거리 > 최단거리 || !안개.탐사됨(시련.위치)) continue;
+            번호 = i;
+            최단거리 = 거리;
+        }
+        return 번호;
+    }
+
     void 시련그림갱신()
     {
         if (시련들 == null) return;
@@ -42,16 +59,30 @@ public sealed partial class 신들의전쟁
             표식.봉인그림.enabled = 보임;
             if (보임)
             {
+                var 돌 = 표식.봉인그림.transform;
+                if ((Vector2)돌.position != 시련.위치)
+                    돌.position = new Vector3(시련.위치.x, 시련.위치.y, 돌.position.z);
                 if (시련석프레임.Length >= 4) 표식.봉인그림.sprite = 시련석프레임[(int)시련.단계];
                 표식.봉인그림.color = 시련.단계 == 시련단계.완료 ? new Color(.6f, .6f, .6f) : Color.white;
                 표식.봉인그림.sortingOrder = (int)(-시련.위치.y * 80) + 1599;
             }
-            표식.강타그림.enabled = 보임 && 시련.강타예고 > 0 && 시련.단계 == 시련단계.전투;
-            if (표식.강타그림.enabled && 상태.대상들[전장규칙.시련보스번호(i)] is { 생존: true } 보스)
+            var 예고 = 표식.강타그림;
+            예고.enabled = 보임 && 시련.패턴예고 > 0 && 시련.단계 == 시련단계.전투;
+            if (예고.enabled)
             {
-                표식.강타그림.transform.position = 보스.위치;
-                표식.강타그림.color = new Color(1, .28f, .16f, .45f + .35f * (1 - 시련.강타예고 / 1.2f));
-                표식.강타그림.sortingOrder = (int)(-보스.위치.y * 80) + 1598;
+                var 반경 = 시련.예고반경;
+                var 그림크기 = 예고.sprite.bounds.size;
+                예고.transform.SetPositionAndRotation(시련.예고중심, Quaternion.Euler(0, 0, 시련.예고각도));
+                예고.transform.localScale = new Vector3(2 * 반경.x / 그림크기.x, 2 * 반경.y / 그림크기.y, 1);
+                Color 색 = 시련.패턴 switch
+                {
+                    골렘패턴.낙석 => new Color(1, .73f, .25f),
+                    골렘패턴.지면균열 => new Color(1, .38f, .74f),
+                    _ => new Color(1, .28f, .16f)
+                };
+                색.a = Mathf.Lerp(.45f, .85f, 1 - 시련.패턴예고 / 시련.예고길이);
+                예고.color = 색;
+                예고.sortingOrder = (int)(-시련.예고중심.y * 80) + 1598;
             }
         }
     }
@@ -83,8 +114,8 @@ public sealed partial class 신들의전쟁
             var p = 전장카메라.WorldToScreenPoint((전투 ? 보스.위치 : 시련.위치) + Vector2.up * (전투 ? 2.6f : 1.5f));
             if (p.z <= 0 || p.x < 0 || p.x > Screen.width || p.y < 100 || p.y > Screen.height) continue;
             string 문구 = 시련.단계 switch {
-                시련단계.봉인 => "골렘 시련 · 무작위 보상 · 클릭",
-                시련단계.전투 => 전투 ? $"망각의 파수꾼  {Mathf.CeilToInt(보스.체력)} / {보스.최대체력}" : "파수꾼 소환 중…",
+                시련단계.봉인 => "골렘 시련 · 무작위 보상 · G / 클릭",
+                시련단계.전투 => 전투 ? $"망각의 파수꾼{(전장규칙.골렘격노(보스) ? " [격노]" : "")}  {Mathf.CeilToInt(보스.체력)} / {보스.최대체력}" : "파수꾼 소환 중…",
                 시련단계.보상 => 시련.팀 == 내팀 ? 전장규칙.시련보상제목(시련.보상) + " · 클릭하여 받기" : "상대 진영의 시련 보상",
                 _ => "완료한 시련"
             };
@@ -95,6 +126,8 @@ public sealed partial class 신들의전쟁
                 GUI.color = new Color(.16f, .07f, .05f); GUI.DrawTexture(new Rect(p.x - 125, Screen.height - p.y + 27, 250, 5), Texture2D.whiteTexture);
                 GUI.color = new Color(.85f, .3f, .17f); GUI.DrawTexture(new Rect(p.x - 125, Screen.height - p.y + 27, 250 * Mathf.Clamp01(보스.체력 / 보스.최대체력), 5), Texture2D.whiteTexture);
                 GUI.color = old;
+                if (시련.패턴예고 > 0)
+                    GUI.Box(new Rect(p.x - 65, Screen.height - p.y + 34, 130, 24), 시련.패턴이름, 시련글꼴);
             }
         }
     }

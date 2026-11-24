@@ -26,13 +26,15 @@ public static class TrainingQueueChecks
                 first.체력 = first.최대체력 / 2;
                 f.Train(6, 7, 6);
                 Require(f.Team.훈련대기인원 == 2, "Duplicate selection queued twice");
-                Require(f.Team.재화[0] == 100000 - 30, "Training cost not reserved once per resident");
+                Require(f.Team.재화[0] == 100000 - 15 - 16, "Second reservation did not increase the training cost");
                 f.Step(5.8f);
                 Require(f.Soldiers == 0 && first.생존 && second.생존, "Training completed early");
                 f.Step(.3f);
                 Require(f.Soldiers == 1 && !first.생존 && second.생존, "FIFO order violated");
                 Require(Mathf.Abs(f.State.대상들[전장규칙.병사시작칸].체력 - 52.5f) < .01f, "Conversion healed damage");
                 f.Step(6.1f);
+                Require(f.Soldiers == 1 && second.생존, "Second resident trained at the first resident's speed");
+                f.Step(.3f);
                 Require(f.Soldiers == 2 && !second.생존 && f.Team.훈련대기인원 == 0, "Second conversion failed");
             });
             Check("Travel before training", () =>
@@ -43,6 +45,30 @@ public static class TrainingQueueChecks
                 Require(f.Team.훈련남은시간 == 전장규칙.주민훈련시간, "Timer ran before arrival");
                 f.Step(20);
                 Require(f.Soldiers == 1 && !worker.생존, "Resident failed to walk to training school");
+            });
+            Check("Per-school queue count and completion time follow shared FIFO", () =>
+            {
+                var f = new Fixture();
+                var school = f.State.대상들[4];
+                var otherSchool = f.Place(5, 0, 대상종류.훈련소, school.위치 + Vector2.right * 2, 320);
+                f.Worker(6);
+                var second = f.Worker(7);
+                second.위치 = otherSchool.위치 + Vector2.down;
+                f.Train(6);
+                f.Rules.명령(0, new 전장명령 { 종류 = 명령종류.주민훈련, 값 = 5, 부대 = new[] { 7 } });
+                Require(school.훈련대기수 == 1 && otherSchool.훈련대기수 == 1, "School counts include the other school's residents");
+                Require(Mathf.Abs(school.훈련잔여합계 - 6f) < .01f
+                    && Mathf.Abs(otherSchool.훈련잔여합계 - 12.3f) < .01f, "Second school ETA ignored the earlier order");
+                f.Step(1);
+                var copy = JsonUtility.FromJson<전장상태>(JsonUtility.ToJson(f.State));
+                Require(copy.대상들[5].훈련대기수 == 1 && Mathf.Abs(copy.대상들[5].훈련잔여합계 - 11.3f) < .01f,
+                    "Replicated school did not retain the updated countdown");
+                school.체력 = 0;
+                f.Rules.진행(0, false);
+                Require(school.훈련대기수 == 0 && school.훈련잔여합계 == 0
+                    && Mathf.Abs(otherSchool.훈련잔여합계 - 6.3f) < .01f, "Cancellation did not refresh both schools");
+                f.Step(6.4f);
+                Require(otherSchool.훈련대기수 == 0 && otherSchool.훈련잔여합계 == 0, "Completion left stale school state");
             });
             Check("New command cancels and refunds", () =>
             {
@@ -55,15 +81,17 @@ public static class TrainingQueueChecks
             Check("Destroyed school releases all residents", () =>
             {
                 var f = new Fixture(); f.Worker(6); f.Worker(7); f.Train(6, 7);
+                f.Step(6.1f);
+                f.State.대상들[전장규칙.병사시작칸].체력 = 0;
                 f.State.대상들[4].체력 = 0; f.Rules.진행(0, false);
-                Require(f.Team.훈련대기인원 == 0 && f.Team.재화[0] == 100000 && f.Soldiers == 0, "Destroyed school retained orders");
-                Require(f.State.대상들[6].훈련소 < 0 && f.State.대상들[7].훈련소 < 0, "Residents were not released");
+                Require(f.Team.훈련대기인원 == 0 && f.Team.재화[0] == 99985 && f.Soldiers == 0, "Destroyed school did not refund the second resident's original cost");
+                Require(f.State.대상들[7].훈련소 < 0, "Waiting resident was not released");
             });
             Check("Dead resident and reused slot", () =>
             {
                 var f = new Fixture(); var first = f.Worker(6); f.Worker(7); f.Train(6, 7);
                 first.체력 = 0; var replacement = f.Worker(6);
-                f.Step(6.1f);
+                f.Step(6.4f);
                 Require(replacement.생존 && f.Soldiers == 1 && !f.State.대상들[7].생존, "Reused resident slot consumed old order");
             });
             Check("Rejected orders preserve residents and money", () =>
@@ -84,9 +112,11 @@ public static class TrainingQueueChecks
                 for (int i = 0; i < 전장규칙.주민제한; i++) f.Worker(6 + i);
                 for (int i = 0; i < 전장규칙.병력제한 - 1; i++) f.Place(전장규칙.병사시작칸 + i, 0, 대상종류.병사, f.Entry + Vector2.right * 4, 105);
                 f.Train(6, 7);
-                Require(f.Team.훈련대기인원 == 1 && f.Team.재화[0] == 99985, "Queue exceeded army cap");
+                Require(f.Team.훈련대기인원 == 1 && f.Team.재화[0] == 99950, "Queue exceeded army cap or did not price the last slot correctly");
                 Require(전장규칙.수량(f.State, 0, 대상종류.주민) == 24 && f.Soldiers == 47, "Resident and soldier slots overlap");
                 f.Step(6.1f);
+                Require(f.Soldiers == 47, "Training time did not scale with existing soldiers");
+                f.Step(14.1f);
                 Require(f.Soldiers == 48 && 전장규칙.수량(f.State, 0, 대상종류.주민) == 23, "Capacity conversion failed");
             });
             Check("Snapshot size and training replication", () =>

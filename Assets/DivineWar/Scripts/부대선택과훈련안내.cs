@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
-using System.Text;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UIElements;
 
 public sealed partial class 신들의전쟁
 {
-    VisualElement 병과선택막대, 훈련비용상자;
-    Label 병과선택제목, 훈련비용제목, 훈련비용합계, 훈련비용설명;
+    VisualElement 병과선택막대, 훈련비용상자, 훈련비용합계;
+    Label 병과선택제목, 훈련비용제목, 훈련대기표시, 훈련비용설명;
+    readonly Label[] 훈련재화수량 = new Label[채집아이콘이름.Length];
     Button 주민선택버튼, 일반선택버튼, 브루저선택버튼, 아처선택버튼, 선택복원버튼;
     readonly HashSet<int> 필터원본 = new(), 필터결과 = new();
 
@@ -23,8 +23,14 @@ public sealed partial class 신들의전쟁
         선택복원버튼 = 뿌리.Q<Button>("restore-selection");
         훈련비용상자 = 뿌리.Q("training-cost");
         훈련비용제목 = 뿌리.Q<Label>("training-cost-title");
-        훈련비용합계 = 뿌리.Q<Label>("training-cost-total");
+        훈련대기표시 = 뿌리.Q<Label>("training-queue");
+        훈련비용합계 = 뿌리.Q("training-cost-total");
         훈련비용설명 = 뿌리.Q<Label>("training-cost-detail");
+        for (int i = 0; i < 훈련재화수량.Length; i++)
+        {
+            뿌리.Q($"training-icon-{i}").style.backgroundImage = new StyleBackground(채집아이콘들[i]);
+            훈련재화수량[i] = 뿌리.Q<Label>($"training-amount-{i}");
+        }
         병과선택막대.style.unityFont = 도움.font.sourceFontFile;
         훈련비용상자.style.unityFont = 도움.font.sourceFontFile;
         주민선택버튼.clicked += 주민만선택;
@@ -113,40 +119,50 @@ public sealed partial class 신들의전쟁
 
     void 훈련비용안내갱신()
     {
-        표시(훈련비용상자, false);
-        if (!선택필터사용가능 || 배치 >= 0 || 선택부대.Count == 0 || Mouse.current == null || !Application.isFocused || !전장가리킴(현재마우스)) return;
-        int 번호 = 클릭대상(전장좌표(현재마우스), 클릭여유);
-        if (번호 < 0) return;
-        훈련비용안내표시(번호);
+        int 번호 = 선택필터사용가능 && 배치 < 0 && Mouse.current != null && Application.isFocused && 전장가리킴(현재마우스)
+            ? 클릭대상(전장좌표(현재마우스), 클릭여유, 아군훈련소만: true) : -1;
+        if (번호 >= 0 && 상태.대상들[번호].완공대기 <= 0) 훈련비용안내표시(번호);
+        else 표시(훈련비용상자, false);
     }
 
     void 훈련비용안내표시(int 번호)
     {
         var 건물 = 상태.대상들[번호];
         if (건물.팀 != 내팀 || (건물.종류 != 대상종류.훈련소 && !전장규칙.전문훈련소(건물))) return;
+        bool 전문 = 전장규칙.전문훈련소(건물);
         int 인원 = 0;
         foreach (int i in 선택부대)
             if ((uint)i < (uint)상태.대상들.Length && 전장규칙.훈련가능유닛(내팀, 건물, 상태.대상들[i])) 인원++;
+        int 병력 = 전문 ? 0 : 전장규칙.양성예정병력(상태, 내팀);
+        int 선택인원 = 인원;
+        if (!전문) 인원 = Mathf.Min(인원, Mathf.Max(0, 전장규칙.병력제한 - 병력));
         string 이름 = 건물.종류 == 대상종류.훈련소 ? "병사 훈련소" : 건물.종류 == 대상종류.브루저훈련소 ? "브루저 훈련소" : "아처 훈련소";
-        훈련비용제목.text = 이름 + (인원 > 0 ? $" · {인원}명 훈련 비용" : " · 훈련 안내");
-        var 비용 = 전장규칙.비용[3]; var 재화 = 상태.진영들[내팀].재화;
-        bool 충분 = true; var 합계 = new StringBuilder();
-        for (int i = 0; i < 비용.Length; i++)
+        bool 비용표시 = 인원 > 0;
+        훈련비용제목.text = 비용표시 ? $"{이름} · {인원}명 비용" : 이름;
+        훈련대기표시.text = 건물.훈련대기수 == 0 ? "대기 0명"
+            : $"대기열 {건물.훈련대기수}명 · {Mathf.CeilToInt(건물.훈련잔여합계)}초 (이동 제외)";
+        표시(훈련비용합계, 비용표시);
+        if (비용표시)
         {
-            if (비용[i] <= 0) continue;
-            int 필요 = 비용[i] * 인원; bool 가능 = 재화[i] >= 필요; 충분 &= 가능;
-            if (합계.Length > 0) 합계.Append("  ·  ");
-            합계.Append(전장규칙.재화이름[i]).Append(' ').Append(필요);
+            var 재화 = 상태.진영들[내팀].재화;
+            for (int i = 0; i < 훈련재화수량.Length; i++)
+            {
+                int 필요 = 0;
+                for (int j = 0; j < 인원; j++)
+                    필요 += 전장규칙.병사훈련비용(i, 전문 ? 0 : 병력 + j);
+                var 수량 = 훈련재화수량[i];
+                수량.text = 필요.ToString();
+                수량.style.color = 재화[i] >= 필요 ? new Color(.94f, .84f, .63f) : new Color(1, .48f, .42f);
+                표시(수량.parent, 필요 > 0);
+            }
         }
-        훈련비용합계.text = 인원 > 0 ? 합계.ToString() : 전장규칙.전문훈련소(건물) ? "훈련 가능한 일반 병사를 선택하세요." : "훈련 가능한 주민을 선택하세요.";
-        훈련비용합계.style.color = 충분 ? new Color(.94f, .84f, .63f) : new Color(1, .48f, .38f);
-        훈련비용설명.text = 건물.완공대기 > 0 ? "건설 중 · 완공 후 훈련할 수 있습니다."
-            : 인원 == 0 ? 전장규칙.전문훈련소(건물) ? "주민은 먼저 일반 훈련소에서 병사로 양성해야 합니다." : "병사는 전문 훈련소에서 강화하세요. 훈련 대기 중인 주민은 제외됩니다."
-            : (충분 ? "클릭하여 훈련" : "전체 인원 훈련에 필요한 재화가 부족합니다.") + (전장규칙.전문훈련소(건물) ? " · 도착 후 2초/명" : " · 도착 후 6초/명");
+        훈련비용설명.text = 선택인원 > 0 && 인원 == 0 ? "병력 정원 가득 참" : "";
+        표시(훈련비용설명, 훈련비용설명.text.Length > 0);
         Vector2 점 = 위치변환(건물.위치 + Vector2.up * 2.1f);
         var 영역 = 뿌리.contentRect;
-        훈련비용상자.style.left = Mathf.Clamp(점.x - 175, 8, Mathf.Max(8, 영역.width - 358));
-        훈련비용상자.style.top = Mathf.Clamp(점.y - 105, 8, Mathf.Max(8, 영역.height - 118));
+        float 너비 = Mathf.Min(300, 영역.width * .96f);
+        훈련비용상자.style.left = Mathf.Clamp(점.x - 너비 / 2, 8, Mathf.Max(8, 영역.width - 너비 - 8));
+        훈련비용상자.style.bottom = Mathf.Max(8, 영역.height - Mathf.Max(76, 점.y - 12));
         표시(훈련비용상자, true);
     }
 }

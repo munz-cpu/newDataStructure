@@ -34,7 +34,16 @@ public static class ClassCombatChecks
                 select.Invoke(title, new object[] { job });
                 info.ForceMeshUpdate();
                 Require(info.text.Contains(job.ToString()) && !info.isTextOverflowing, $"Title description overflow: {job}");
-                Require(preview.sprite == 왕외형목록.가져오기().전용외형(job).대기[30], $"Title preview mismatch: {job}");
+                Require(preview != null && preview.sprite == 왕외형목록.가져오기().전용외형(job).대기[30], $"Title preview mismatch: {job}");
+                var buttons = (스킬선택버튼[])typeof(타이틀화면).GetField("스킬후보버튼", Private).GetValue(title);
+                for (int i = 0; i < buttons.Length; i++)
+                {
+                    int number = job == 왕직업.지휘관
+                        ? new[] { 1, 2, 3, 4, 6, 7, 5, 8 }[i]
+                        : Array.IndexOf(왕직업목록.선택, job) * 8 + i + 1;
+                    var icon = buttons[i].image.sprite;
+                    Require(icon != null && icon.name.StartsWith($"{number:00}_"), $"Skill icon mismatch: {job} {i}");
+                }
             }
         }
         finally
@@ -42,7 +51,7 @@ public static class ClassCombatChecks
             if (savedJob) PlayerPrefs.SetInt(selectedJob, previousJob);
             else PlayerPrefs.DeleteKey(selectedJob);
         }
-        Debug.Log("[ClassCombatChecks] Title: all selections, original avatar previews and text bounds passed.");
+        Debug.Log("[ClassCombatChecks] Title: job selections, skill icons, text bounds and avatar previews passed.");
     }
 
     [MenuItem("DivineWar/Validation/Class Combat")]
@@ -298,9 +307,22 @@ public static class ClassCombatChecks
                 new UnityEngine.InputSystem.LowLevel.KeyboardState(UnityEngine.InputSystem.Key.Q));
             UnityEngine.InputSystem.InputSystem.Update();
             Require(keyboard.qKey.wasPressedThisFrame && Application.isFocused, "Q was not received on the focused Game view");
-            typeof(신들의전쟁).GetMethod("키입력읽기", Private).Invoke(game, null);
-            Require(king.폭탄화살준비 && team.쿨다운[0] == 40, "Q must activate the equipped Bomb Arrow");
-            Debug.Log("[EquippedSkillShortcut] PASS: Q activated the non-default equipped Bomb Arrow in Play Mode.");
+            var input = typeof(신들의전쟁).GetMethod("스킬키입력", Private);
+            var aimingSlot = typeof(신들의전쟁).GetField("조준스킬칸", Private);
+            input.Invoke(game, new object[] { keyboard });
+            Require((int)aimingSlot.GetValue(game) == 0, "Q down must begin aiming");
+            Require(!king.폭탄화살준비 && team.쿨다운[0] == 0, "Q down must not activate Bomb Arrow");
+
+            UnityEngine.InputSystem.InputSystem.Update();
+            input.Invoke(game, new object[] { keyboard });
+            Require((int)aimingSlot.GetValue(game) == 0 && !king.폭탄화살준비, "Holding Q must keep aiming without casting");
+
+            UnityEngine.InputSystem.InputSystem.QueueStateEvent(keyboard, new UnityEngine.InputSystem.LowLevel.KeyboardState());
+            UnityEngine.InputSystem.InputSystem.Update();
+            input.Invoke(game, new object[] { keyboard });
+            Require((int)aimingSlot.GetValue(game) == -1, "Q release must clear aiming");
+            Require(king.폭탄화살준비 && team.쿨다운[0] == 40, "Q release must activate the equipped Bomb Arrow");
+            Debug.Log("[EquippedSkillShortcut] PASS: Q aimed while held and activated Bomb Arrow on release.");
         }
         finally
         {
@@ -327,6 +349,8 @@ public static class ClassCombatChecks
         commander.Enemy.위치 += Vector2.right * 18;
         commander.Cast(2, soldier.위치);
         commander.Step(.25f);
+        Require(king.위치 != soldier.위치 && commander.Effect(king, "호위회복남음") <= 0, "Protect dash moves visibly before healing");
+        commander.Step(.4f);
         Require(Vector2.Distance(king.위치, soldier.위치) <= 1.25f, "Protect dash destination");
         commander.Step(3.05f);
         Require(Mathf.Abs(king.체력 - 390) < .05f && Mathf.Abs(soldier.체력 - 68) < .05f, "Protect total healing");
@@ -389,10 +413,13 @@ public static class ClassCombatChecks
         sword.Cast(0, sword.Enemy.위치);
         sword.Step(.25f);
         Require(king.위치.x > start.x + 1 && Mathf.Abs(sword.Enemy.체력 - 460) < .05f, "Spin dash strikes an enemy exactly once");
+        Require(sword.State.지대들.Any(z => z.종류 == 지대종류.돌진궤적 && z.위치 == king.위치), "Spin trail follows the dash");
+        sword.Step(.35f);
         king.위치 = king.목적지 = start;
         sword.Cast(3, start + Vector2.right);
         sword.Step(.2f);
         Require(king.위치.x > start.x + 1 && Mathf.Abs(sword.Enemy.체력 - 460) < .05f, "Roll moves without damage");
+        sword.Step(.25f);
         king.위치 = king.목적지 = start;
         king.체력 = 250;
         sword.Enemy.위치 = sword.Enemy.목적지 = start + Vector2.right * 1.2f;
@@ -426,7 +453,7 @@ public static class ClassCombatChecks
         blade.Equip(0, 5);
         var behind = blade.Soldier(전장규칙.왕번호(1) + 35, 1, blade.Enemy.위치 + Vector2.right);
         blade.Cast(0, behind.위치);
-        blade.Step(.25f);
+        blade.Step(.35f);
         Require(blade.Enemy.둔화량 == .2f && behind.둔화량 == .2f, "Thrown blade pierces both targets");
 
         var assassin = new Fixture(왕직업.암살자);
@@ -437,6 +464,7 @@ public static class ClassCombatChecks
         assassin.Step(.3f);
         Require(!assassin.King.은신 && assassin.Enemy.체력 < 500 && assassin.State.진영들[0].쿨다운[1] < 19,
             "Piercing dash reveals caster and refunds cooldown once per target");
+        assassin.Step(.3f);
         assassin.Enemy.위치 = assassin.Enemy.목적지 = assassin.King.위치 + Vector2.right * .5f;
         assassin.Enemy.체력 = 12;
         assassin.King.체력 = 200;
@@ -446,6 +474,22 @@ public static class ClassCombatChecks
         Require(!assassin.Enemy.생존 && assassin.State.진영들[0].쿨다운[3] <= 0 && assassin.King.체력 > 207,
             "Empowered kill heals and resets its slot");
         Require(assassin.Effect(assassin.King, "수혈남음") > 0, "Transfusion starts on kill");
+
+        var hook = new Fixture(왕직업.암살자);
+        hook.Equip(0, 5);
+        var hookStart = hook.Enemy.위치;
+        hook.Cast(0, hookStart);
+        hook.Step(.1f);
+        Require(hook.Enemy.위치 == hookStart && hook.State.지대들.Any(z => z.종류 == 지대종류.투사체
+            && z.연출기술 == 장착기술.납치), "Hook has visible travel before impact");
+        hook.Step(.15f);
+        float firstPull = hook.Enemy.위치.x;
+        Require(firstPull < hookStart.x && hook.State.지대들.Any(z => z.종류 == 지대종류.납치당김), "Hook pulls gradually after impact");
+        hook.Step(.3f);
+        Require(hook.Enemy.위치.x < firstPull && hook.State.지대들.Any(z => z.종류 == 지대종류.납치당김), "Hook pull spans several simulation ticks");
+        hook.Step(.4f);
+        Require(hook.State.지대들.Any(z => z.종류 == 지대종류.스킬충격 && z.연출기술 == 장착기술.납치)
+            && hook.State.지대들.All(z => z.종류 != 지대종류.납치당김), "Pull ends with a visible impact");
 
         var bleed = new Fixture(왕직업.암살자);
         bleed.Equip(0, 6);

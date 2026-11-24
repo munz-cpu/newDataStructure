@@ -86,6 +86,34 @@ public sealed class 격자길찾기
 
     internal bool 건설지형가능(Vector2 위치) => 정적통행가능(위치) && 지형?.건설가능(위치) != false;
 
+    internal List<Vector2> 연결된칸중심들(Vector2 시작위치)
+    {
+        var 위치들 = new List<Vector2>();
+        var 시작 = 위치칸(시작위치);
+        if (!통행가능(시작)) return 위치들;
+
+        var 방문 = new bool[통행.Length];
+        var 대기 = new Queue<int>();
+        방문[시작] = true;
+        대기.Enqueue(시작);
+        while (대기.Count > 0)
+        {
+            int 번호 = 대기.Dequeue();
+            위치들.Add(중심[번호]);
+            var 칸 = 칸좌표(번호);
+            // 대각선 이동도 두 인접 직선 칸이 모두 통해야 한다.
+            for (int i = 0; i < 4; i++)
+            {
+                var 방향 = 방향들[i];
+                int 다음 = 칸번호(칸 + new Vector3Int(방향.x, 방향.y, 0));
+                if (!통행가능(다음) || 방문[다음]) continue;
+                방문[다음] = true;
+                대기.Enqueue(다음);
+            }
+        }
+        return 위치들;
+    }
+
     internal float 이동속도배율(Vector2 위치)
     {
         int 칸 = 위치칸(위치);
@@ -100,6 +128,26 @@ public sealed class 격자길찾기
         if (후 >= 0) 건물차단[후] = true;
         건물칸[번호] = 후;
         지도버전++;
+    }
+
+    internal void 숲나무반영(Vector2 위치, bool 있음)
+    {
+        int 칸 = 위치칸(위치);
+        if (칸 < 0 || 통행[칸] == !있음) return;
+        통행[칸] = !있음;
+        지도버전++;
+    }
+
+    internal bool 채집인접칸있음(Vector2 위치)
+    {
+        var 칸 = 바닥.WorldToCell(위치);
+        foreach (var 방향 in 방향들)
+        {
+            int 이웃 = 칸번호(칸 + new Vector3Int(방향.x, 방향.y, 0));
+            if (통행가능(이웃) && (중심[이웃] - 위치).sqrMagnitude <= 전장규칙.채집거리 * 전장규칙.채집거리)
+                return true;
+        }
+        return false;
     }
 
     public bool 이동(이동경로 경로, Vector2 지금, Vector2 목적, float 길이, out Vector2 다음)

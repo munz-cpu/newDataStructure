@@ -3,13 +3,14 @@ using UnityEditor;
 using UnityEditor.AssetImporters;
 using UnityEngine;
 
-[ScriptedImporter(2, "hdavatars")]
+[ScriptedImporter(4, "hdavatars")]
 public sealed class PlayerAvatarImporter : ScriptedImporter
 {
     public const string CataloguePath = "Assets/DivineWar/Resources/Classes/PlayerAppearances.hdavatars";
     const string SummonPath = "Assets/DivineWar/Resources/Classes/AssignedAppearances.asset";
     const string Pack = "Assets/Images/2D HD Character pack 1 V1.2 (1)/";
     const string Unarmed = "Assets/Images/HiRezBlueKnightUnarmed/";
+    const string Greatsword = "Assets/Images/8 Directional Greatsword Knight Character/";
     const int DirectionCount = 8;
     const int FramesPerDirection = 15;
     static readonly string[] Directions = { "E", "SE", "S", "SW", "W", "NW", "N", "NE" };
@@ -32,8 +33,10 @@ public sealed class PlayerAvatarImporter : ScriptedImporter
 
         var catalogue = ScriptableObject.CreateInstance<왕외형목록>();
         catalogue.name = "PlayerAppearances";
-        var assassin = Appearance(왕직업.암살자, "Shadow Knight",
-            KnightFrames(context, "Idle", true), KnightFrames(context, "Run", true), KnightFrames(context, "Melee", true));
+        var assassin = Appearance(왕직업.암살자, "Greatsword Knight",
+            GreatswordFrames(context, "2hIdle5", 6, 26),
+            GreatswordFrames(context, "2hWalk", 3, 9),
+            GreatswordFrames(context, "Slash", 4, 12));
         catalogue.직업들 = new[] { commander, archer, swordsman, assassin };
         catalogue.소환물들 = summons.소환물들;
         catalogue.검사회전 = KnightFrames(context, "MeleeSpin");
@@ -45,9 +48,9 @@ public sealed class PlayerAvatarImporter : ScriptedImporter
     static 왕외형목록.배정 Appearance(왕직업 job, string label, Sprite[] idle, Sprite[] walk, Sprite[] attack) =>
         new 왕외형목록.배정 { 직업 = job, 에셋이름 = label, 대기 = idle, 이동 = walk, 공격 = attack };
 
-    static Sprite[] KnightFrames(AssetImportContext context, string action, bool shadow = false)
+    static Sprite[] KnightFrames(AssetImportContext context, string action)
     {
-        var texture = SourceTexture(context, shadow ? $"Assets/Images/2D HD Character Knight/Spritesheets/With shadows/{action}.png" : $"{Pack}Spritesheets/Shadowless/1Knight/{action}_Shadowless.png");
+        var texture = SourceTexture(context, $"{Pack}Spritesheets/Shadowless/1Knight/{action}_Shadowless.png");
         const int cell = 128;
         var sprites = new Sprite[DirectionCount * FramesPerDirection];
         for (int direction = 0; direction < DirectionCount; direction++)
@@ -55,7 +58,34 @@ public sealed class PlayerAvatarImporter : ScriptedImporter
         {
             var rect = new Rect(frame * cell, (DirectionCount - 1 - direction) * cell, cell, cell);
             int index = direction * FramesPerDirection + frame;
-            sprites[index] = AddFrame(context, $"{(shadow ? "shadow" : "knight")}_{action}_{index:D3}", texture, rect, 28f / cell, 120);
+            sprites[index] = AddFrame(context, $"knight_{action}_{index:D3}", texture, rect, 28f / cell, 120);
+        }
+        return sprites;
+    }
+
+    static Sprite[] GreatswordFrames(AssetImportContext context, string action, int columns, int sourceFrameCount)
+    {
+        const int sourceCell = 512;
+        int rows = (sourceFrameCount + columns - 1) / columns;
+        var sprites = new Sprite[DirectionCount * FramesPerDirection];
+        for (int direction = 0; direction < DirectionCount; direction++)
+        {
+            // The supplied sheets start at southwest and progress clockwise through west.
+            int sourceDirection = (direction + 5) % DirectionCount + 1;
+            string path = $"{Greatsword}{action}/{action}/GreatSwordKnight_{action}_dir{sourceDirection}.png";
+            var texture = SourceTexture(context, path);
+            float cellWidth = (float)texture.width / columns;
+            float cellHeight = (float)texture.height / rows;
+            var sourceFrames = new Sprite[sourceFrameCount];
+            for (int frame = 0; frame < sourceFrameCount; frame++)
+            {
+                var rect = new Rect(frame % columns * cellWidth, texture.height - (frame / columns + 1) * cellHeight,
+                    cellWidth, cellHeight);
+                sourceFrames[frame] = AddFrame(context, $"greatsword_{action}_{direction}_{frame:D2}",
+                    texture, rect, 241f / sourceCell, 210f * cellHeight / sourceCell);
+            }
+            for (int frame = 0; frame < FramesPerDirection; frame++)
+                sprites[direction * FramesPerDirection + frame] = sourceFrames[frame * sourceFrameCount / FramesPerDirection];
         }
         return sprites;
     }

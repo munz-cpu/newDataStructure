@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.Threading;
 using Unity.Netcode;
 using Unity.Services.Lobbies;
@@ -38,14 +39,21 @@ public sealed class 타이틀화면 : MonoBehaviour
     [SerializeField] Camera 타이틀카메라;
     [SerializeField] SpriteRenderer 타이틀문장;
     [SerializeField] CanvasGroup 메뉴카드;
-    [SerializeField] 메뉴버튼[] 직업버튼, 스킬칸버튼, 스킬후보버튼;
+    [SerializeField] Button 이전직업, 다음직업;
+    [SerializeField] 스킬선택버튼[] 스킬칸버튼, 스킬후보버튼;
     [SerializeField] TMP_Text 장착설명;
     [SerializeField] Button 시작버튼, 참가버튼, 취소버튼;
     [SerializeField] TMP_Text 직업정보, 방상태;
+    [SerializeField] 타이틀능력치 직업능력치;
     [SerializeField] TMP_InputField 참가코드;
     [SerializeField] NetworkManager 통신관리자;
+    [SerializeField] AudioSource 배경음악재생기, 효과음재생기;
+    [SerializeField] AudioClip 클릭효과음, 직업교체효과음, 스킬장착효과음;
 
-    Coroutine 등장;
+    Coroutine 등장, 아바타전환;
+    Sprite[] 아바타대기;
+    float 아바타대기시작, 아바타옆이동;
+    장착기술? 마지막호버기술;
     Vector2 카드위치;
     참가연결 연결;
     const string 직업저장키 = "DivineWar.SelectedJob.V1";
@@ -64,36 +72,51 @@ public sealed class 타이틀화면 : MonoBehaviour
         {
             QualitySettings.vSyncCount = 0;
             Application.targetFrameRate = 50;
-            메뉴카드.gameObject.SetActive(false);
-            장착설명.transform.parent.gameObject.SetActive(false);
+            메뉴카드.transform.parent.gameObject.SetActive(false);
             return;
         }
         카드위치 = ((RectTransform)메뉴카드.transform).anchoredPosition;
-        for (int i = 0; i < 직업버튼.Length; i++)
-        {
-            int 번호 = i;
-            직업버튼[i].onClick.AddListener(() => 직업고르기(왕직업목록.선택[번호]));
-        }
+        if (클릭효과음 != null) 클릭효과음.LoadAudioData();
+        if (직업교체효과음 != null) 직업교체효과음.LoadAudioData();
+        if (스킬장착효과음 != null) 스킬장착효과음.LoadAudioData();
+        이전직업.onClick.AddListener(() => 직업넘기기(-1));
+        다음직업.onClick.AddListener(() => 직업넘기기(1));
         for (int i = 0; i < 스킬칸버튼.Length; i++)
         {
             int 칸 = i;
-            스킬칸버튼[i].onClick.AddListener(() => { 고른칸 = 칸; 장착갱신(); });
+            스킬칸버튼[i].onClick.AddListener(() =>
+            {
+                효과음재생(클릭효과음);
+                고른칸 = 칸;
+                장착갱신();
+            });
+            스킬칸버튼[i].호버시작 += () => 스킬호버(왕직업목록.후보번호(장착구성, 칸));
         }
         for (int i = 0; i < 스킬후보버튼.Length; i++)
         {
             int 후보 = i;
             스킬후보버튼[i].onClick.AddListener(() => 스킬장착(후보));
+            스킬후보버튼[i].호버시작 += () => 스킬호버(후보);
         }
         시작버튼.onClick.AddListener(() => 전장이동(0, (고른직업, 장착구성),
             (왕직업목록.선택[UnityEngine.Random.Range(0, 왕직업목록.선택.Length)], 왕직업목록.기본장착)));
-        참가버튼.onClick.AddListener(연결시작);
-        취소버튼.onClick.AddListener(() => 방취소(""));
+        참가버튼.onClick.AddListener(() =>
+        {
+            효과음재생(클릭효과음);
+            연결시작();
+        });
+        취소버튼.onClick.AddListener(() =>
+        {
+            효과음재생(클릭효과음);
+            방취소("");
+        });
     }
 
     void OnEnable()
     {
         if (!Application.isEditor) Application.runInBackground = true;
         if (전장입장.서버빌드) return;
+        if (배경음악재생기 != null && 배경음악재생기.clip != null) 배경음악재생기.Play();
         등장 = StartCoroutine(메뉴등장.재생((RectTransform)메뉴카드.transform, 메뉴카드, 카드위치));
         var 저장직업 = (왕직업)PlayerPrefs.GetInt(직업저장키, (int)왕직업.지휘관);
         직업고르기(왕직업목록.장착가능(저장직업) ? 저장직업 : 왕직업.지휘관);
@@ -102,7 +125,10 @@ public sealed class 타이틀화면 : MonoBehaviour
 
     void OnDisable()
     {
+        if (배경음악재생기 != null) 배경음악재생기.Stop();
+        if (효과음재생기 != null) 효과음재생기.Stop();
         if (등장 != null) StopCoroutine(등장);
+        아바타전환정리();
         연결정리();
     }
 
@@ -113,7 +139,7 @@ public sealed class 타이틀화면 : MonoBehaviour
         {
             if (연결 == null && 연결시도 == null && Time.realtimeSinceStartup >= 재시도시각) 연결시작();
         }
-        else 타이틀문장.transform.position = 타이틀카메라.ViewportToWorldPoint(new Vector3(.75f, .51f, 10));
+        else 아바타갱신();
         if (연결 == null) return;
         if (연결.오류 != null) { 방취소(연결.오류); return; }
         if (연결.전용서버)
@@ -184,59 +210,127 @@ public sealed class 타이틀화면 : MonoBehaviour
         SceneManager.LoadScene("Main");
     }
 
+    void 직업넘기기(int 방향)
+    {
+        var 선택 = 왕직업목록.선택;
+        int 번호 = Array.IndexOf(선택, 고른직업);
+        var 직업 = 선택[(번호 + 방향 + 선택.Length) % 선택.Length];
+        효과음재생(직업교체효과음);
+        직업화면갱신(직업, 차오르기: true);
+        if (타이틀문장 == null) return;
+        if (아바타전환 != null) StopCoroutine(아바타전환);
+        아바타전환 = StartCoroutine(아바타넘기기(직업, 방향));
+    }
+
     void 직업고르기(왕직업 직업)
+    {
+        직업화면갱신(직업);
+        아바타전환정리();
+        아바타외형갱신(직업);
+    }
+
+    void 직업화면갱신(왕직업 직업, bool 차오르기 = false)
     {
         고른직업 = 직업;
         고른칸 = 0;
+        마지막호버기술 = null;
         PlayerPrefs.SetInt(직업저장키, (int)직업);
         장착구성 = 왕직업목록.장착정리(직업, PlayerPrefs.GetInt(장착저장키(직업), 왕직업목록.기본장착));
-        직업정보.text = $"{직업}  ·  {전장규칙.직업설명(직업)}";
-        var 목록 = 왕외형목록.가져오기();
-        var 외형 = 목록?.표시외형(직업);
-        if (외형?.대기?.Length == 120)
-        {
-            타이틀문장.sprite = 외형.대기[30];
-            타이틀문장.transform.localScale = Vector3.one * 7f;
-        }
-        for (int i = 0; i < 직업버튼.Length; i++)
-        {
-            직업버튼[i].선택표시(왕직업목록.선택[i] == 직업);
-            var 글 = 직업버튼[i].GetComponentInChildren<TMP_Text>();
-            var 초상 = 목록?.표시외형(왕직업목록.선택[i])?.대기;
-            bool 그림있음 = 초상 is { Length: > 30 };
-            글.enabled = !그림있음;
-            글.text = 왕직업목록.선택[i].ToString();
-            foreach (var 그림 in 직업버튼[i].GetComponentsInChildren<Image>())
-                if (그림.name.EndsWith("-emblem"))
-                {
-                    그림.enabled = 그림있음;
-                    if (그림있음) 그림.sprite = 초상[30];
-                    그림.preserveAspect = true;
-                }
-        }
-        직업정보.enableAutoSizing = true; 직업정보.fontSizeMin = 12; 직업정보.fontSizeMax = 19;
+        직업정보.text = 직업.ToString();
+        var 능력치 = 전장규칙.능력치(대상종류.왕, 직업);
+        직업능력치.표시(능력치.체력, 능력치.힘, 능력치.민첩, 차오르기);
         장착갱신();
+    }
+
+    void 아바타외형갱신(왕직업 직업)
+    {
+        if (타이틀문장 == null) return;
+        아바타대기 = 왕외형목록.가져오기()?.표시외형(직업)?.대기;
+        아바타대기시작 = Time.unscaledTime;
+        타이틀문장.sprite = 아바타대기?.Length == 120 ? 아바타대기[30] : null;
+    }
+
+    void 아바타갱신()
+    {
+        if (타이틀문장 == null) return;
+        if (타이틀카메라 != null)
+            타이틀문장.transform.position = 타이틀카메라.ViewportToWorldPoint(new Vector3(.75f + 아바타옆이동, .47f, 10));
+        if (아바타대기?.Length == 120)
+        {
+            int 프레임 = (int)((Time.unscaledTime - 아바타대기시작) * 12.5f) % 15;
+            타이틀문장.sprite = 아바타대기[30 + 프레임];
+        }
+    }
+
+    IEnumerator 아바타넘기기(왕직업 직업, int 방향)
+    {
+        const float 간격 = .045f;
+        yield return 아바타전환구간(.13f, 0, -방향 * 간격);
+        아바타외형갱신(직업);
+        아바타옆이동 = 방향 * 간격;
+        yield return 아바타전환구간(.23f, 1, 0);
+        아바타전환 = null;
+    }
+
+    IEnumerator 아바타전환구간(float 길이, float 목표알파, float 목표이동)
+    {
+        if (타이틀문장 == null) yield break;
+        float 시작알파 = 타이틀문장.color.a;
+        float 시작이동 = 아바타옆이동;
+        float 시작시각 = Time.unscaledTime;
+        for (float 경과 = 0; 경과 < 길이; 경과 = Time.unscaledTime - 시작시각)
+        {
+            if (타이틀문장 == null) yield break;
+            아바타알파(Mathf.SmoothStep(시작알파, 목표알파, 경과 / 길이));
+            아바타옆이동 = Mathf.SmoothStep(시작이동, 목표이동, 경과 / 길이);
+            yield return null;
+        }
+        아바타알파(목표알파);
+        아바타옆이동 = 목표이동;
+    }
+
+    void 아바타알파(float 알파)
+    {
+        if (타이틀문장 == null) return;
+        var 색 = 타이틀문장.color;
+        색.a = 알파;
+        타이틀문장.color = 색;
+    }
+
+    void 아바타전환정리()
+    {
+        if (아바타전환 != null) StopCoroutine(아바타전환);
+        아바타전환 = null;
+        아바타옆이동 = 0;
+        아바타알파(1);
     }
 
     void 스킬장착(int 후보)
     {
         if ((uint)후보 >= 왕직업목록.장착후보수(고른직업)) return;
-        장착구성 = 왕직업목록.장착변경(장착구성, 고른칸, 후보);
+        int 변경구성 = 왕직업목록.장착변경(장착구성, 고른칸, 후보);
+        효과음재생(변경구성 == 장착구성 ? 클릭효과음 : 스킬장착효과음);
+        장착구성 = 변경구성;
         PlayerPrefs.SetInt(장착저장키(고른직업), 장착구성);
         PlayerPrefs.Save();
         장착갱신();
     }
 
+    void 효과음재생(AudioClip 소리)
+    {
+        if (효과음재생기 != null && 소리 != null) 효과음재생기.PlayOneShot(소리);
+    }
+
     void 장착갱신()
     {
         int 고른후보 = 왕직업목록.후보번호(장착구성, 고른칸);
+        int 장착번호들 = 0;
         for (int i = 0; i < 스킬칸버튼.Length; i++)
         {
             int 후보 = 왕직업목록.후보번호(장착구성, i);
-            var 기술 = 왕직업목록.정보(왕직업목록.후보(고른직업, 후보));
-            string 키 = i == 1 ? "W / F" : 왕직업목록.입력표시(i, false);
-            스킬칸버튼[i].GetComponentInChildren<TMP_Text>().text = $"<color=#FFD99B>{키}</color>\n{기술.이름}";
-            스킬칸버튼[i].선택표시(i == 고른칸);
+            var 기술 = 왕직업목록.후보(고른직업, 후보);
+            장착번호들 |= 1 << 후보;
+            스킬칸버튼[i].표시(왕스킬아이콘목록.가져오기(기술), true, i == 고른칸);
         }
         for (int i = 0; i < 스킬후보버튼.Length; i++)
         {
@@ -244,11 +338,23 @@ public sealed class 타이틀화면 : MonoBehaviour
             bool 표시 = i < 왕직업목록.장착후보수(고른직업);
             버튼.gameObject.SetActive(표시);
             if (!표시) continue;
-            버튼.GetComponentInChildren<TMP_Text>().text = 왕직업목록.정보(왕직업목록.후보(고른직업, i)).이름;
-            버튼.선택표시(i == 고른후보);
+            var 기술 = 왕직업목록.후보(고른직업, i);
+            버튼.표시(왕스킬아이콘목록.가져오기(기술), (장착번호들 & (1 << i)) != 0, i == 고른후보);
         }
-        var 설명 = 왕직업목록.정보(왕직업목록.후보(고른직업, 고른후보));
-        var 대기 = 설명.쿨다운 > 0 ? $"  ·  쿨다운 {설명.쿨다운}초" : "";
+        스킬설명표시(마지막호버기술 ?? 왕직업목록.후보(고른직업, 고른후보));
+    }
+
+    void 스킬호버(int 후보)
+    {
+        var 기술 = 왕직업목록.후보(고른직업, 후보);
+        마지막호버기술 = 기술;
+        스킬설명표시(기술);
+    }
+
+    void 스킬설명표시(장착기술 기술)
+    {
+        var 설명 = 왕직업목록.정보(기술);
+        var 대기 = 설명.쿨다운 > 0 ? $"  ·  재사용 대기 시간 {설명.쿨다운}초" : "";
         장착설명.text = $"<color=#FFD99B>{설명.이름}{대기}</color>\n{설명.설명}";
     }
 
@@ -337,7 +443,7 @@ public sealed class 타이틀화면 : MonoBehaviour
         시작버튼.interactable = 켜짐;
         참가버튼.interactable = 켜짐;
         참가코드.readOnly = !켜짐;
-        foreach (var 버튼 in 직업버튼) 버튼.interactable = 켜짐;
+        이전직업.interactable = 다음직업.interactable = 켜짐;
         foreach (var 버튼 in 스킬칸버튼) 버튼.interactable = 켜짐;
         foreach (var 버튼 in 스킬후보버튼) 버튼.interactable = 켜짐;
     }

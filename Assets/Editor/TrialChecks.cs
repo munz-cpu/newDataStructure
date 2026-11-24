@@ -40,7 +40,8 @@ public static class TrialChecks
         for(int i=0;i<33;i++)rules.진행(.05f,false);
         var boss=rules.상태.대상들[전장규칙.시련보스번호(0)];
         Require(boss is {생존:true},"Trial did not activate");
-        rules.상태.시련들[0].강타예고=1.1f;
+        rules.상태.시련들[0].패턴대기=0;
+        for(int i=0;i<6 && rules.상태.시련들[0].패턴예고<=0;i++) rules.진행(.05f,false);
         typeof(신들의전쟁).GetMethod("장면반영",Private).Invoke(game,new object[]{.05f});
         EditorApplication.isPaused=true;
     }
@@ -178,15 +179,69 @@ public static class TrialChecks
                 f.Use(-1);f.Use(999);f.King.위치=f.Point;f.Use();f.Use();
                 f.Step(1);Require(f.Boss()==null,"Boss spawned without warning");f.Step(.6f);
                 Require(f.Boss() is {생존:true} && f.State.시련들[0].팀==0,"Spawn failed");
-                Require(!f.Boss().건물,"Boss classified as facility");
+                Require(!f.Boss().건물 && f.Boss().최대체력==950,"Incorrect boss type or health");
             });
             Check("Boss melee, telegraphed slam, evasion and retreat reset",()=> {
                 var f=new Fixture();f.Use();f.Step(1.6f);f.King.체력=10000;f.King.최대체력=10000;
                 f.King.위치=f.Boss().위치+Vector2.down*.7f;float hp=f.King.체력;f.Step(1.5f);
                 Require(f.King.체력<hp,"Boss melee dealt no damage");
-                f.State.시련들[0].강타대기=0;f.Step(.05f);Require(f.State.시련들[0].강타예고>1,"No slam warning");
+                var trial=f.State.시련들[0];trial.패턴대기=0;f.Step(.05f);
+                Require(trial.패턴==골렘패턴.지진강타 && trial.패턴예고>1,"No slam warning");
                 f.King.위치=f.Boss().위치+Vector2.down*4;hp=f.King.체력;f.Step(1.3f);Require(f.King.체력==hp,"Slam ignored evasion");
                 f.King.위치=f.Point+Vector2.down*15;f.Step(8.5f);Require(f.State.시련들[0].단계==시련단계.봉인 && !f.Boss().생존,"Retreat failed reset");
+                f.King.위치=f.Point;f.Use();f.Step(1.6f);
+                Require(f.Boss().체력==950 && trial.패턴==골렘패턴.없음 && trial.패턴예고==0,"Retry retained the last fight's state");
+            });
+            Check("Boss cycles slam, targeted rockfall and directional fissure",()=> {
+                var f=new Fixture();f.Use();f.Step(1.6f);
+                f.King.체력=f.King.최대체력=10000;
+                var boss=f.Boss();var trial=f.State.시련들[0];
+                void Warn(골렘패턴 expected)
+                {
+                    boss.공격대기=10;
+                    trial.패턴대기=0;
+                    f.Step(.3f);
+                    Require(trial.패턴==expected && trial.패턴예고>0,"Missing warning for "+expected);
+                }
+                f.King.위치=boss.위치+Vector2.right;
+                Warn(골렘패턴.지진강타);
+                float hp=f.King.체력;f.Step(1.3f);
+                Require(f.King.체력==hp-72,"Slam did not hit in its radius");
+
+                f.King.위치=boss.위치+Vector2.right*4;
+                Warn(골렘패턴.낙석);
+                var center=trial.예고중심;
+                Require(center==f.King.위치,"Rockfall was not aimed at the target");
+                f.King.위치+=Vector2.up*2;hp=f.King.체력;f.Step(.4f);
+                Require(trial.예고중심==center,"Rockfall tracked a moving target");
+                f.Step(.9f);Require(f.King.체력==hp,"Rockfall hit outside the warning");
+
+                f.King.위치=boss.위치+new Vector2(3,3);
+                Warn(골렘패턴.지면균열);
+                var copy=JsonUtility.FromJson<전장상태>(JsonUtility.ToJson(f.State)).시련들[0];
+                Require(Mathf.Abs(trial.예고각도-45)<.01f,"Fissure was aimed at the wrong angle: "+trial.예고각도);
+                Require(copy.패턴==trial.패턴 && (copy.예고중심-trial.예고중심).sqrMagnitude<.0001f
+                    && Mathf.Abs(copy.예고각도-trial.예고각도)<.01f && copy.패턴예고>0,"Snapshot lost the directional warning");
+                hp=f.King.체력;f.Step(1.15f);
+                Require(f.King.체력==hp-82,"Fissure missed inside the rotated warning");
+                Warn(골렘패턴.지진강타);
+                f.Step(1.3f);
+                Warn(골렘패턴.낙석);
+                hp=f.King.체력;f.Step(1.3f);
+                Require(f.King.체력==hp-62,"Rockfall missed a stationary target");
+                f.King.위치=boss.위치+Vector2.up*4;
+                Warn(골렘패턴.지면균열);
+                f.King.위치+=Vector2.right*1.5f;hp=f.King.체력;f.Step(1.15f);
+                Require(f.King.체력==hp,"Fissure hit a target that sidestepped the warning");
+            });
+            Check("Boss enrage accelerates the pattern timer without shortening the warning",()=> {
+                var f=new Fixture();f.Use();f.Step(1.6f);
+                var boss=f.Boss();var trial=f.State.시련들[0];
+                boss.공격대기=10;trial.패턴대기=.6f;
+                f.Step(.45f);Require(trial.패턴예고==0,"Normal phase cast too soon");
+                boss.체력=boss.최대체력*.4f;trial.패턴대기=.6f;
+                f.Step(.45f);
+                Require(trial.패턴예고>1.1f,"Enraged phase did not cast sooner with a full warning");
             });
             Check("Combat victory, relic reward, duplicate reward rejection and respawn",()=> {
                 var f=new Fixture();f.Win();f.State.시련들[0].보상=0;f.King.위치=f.Point;float max=f.King.최대체력;f.Use();f.Use();

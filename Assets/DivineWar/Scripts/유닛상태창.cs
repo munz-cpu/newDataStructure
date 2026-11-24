@@ -46,7 +46,7 @@ internal sealed class 유닛상태창
         막대(0, 글꼴, "체력", new Color32(224, 119, 98, 255));
         막대(1, 글꼴, "힘", new Color32(229, 165, 90, 255));
         막대(2, 글꼴, "민첩", new Color32(132, 185, 125, 255));
-        막대(3, 글꼴, "지능", new Color32(119, 180, 206, 255));
+        막대(3, 글꼴, "지능", new Color32(212, 184, 143, 255));
         추적버튼 = Object.Instantiate(Resources.Load<GameObject>("UnitFollowButton"), 상자, false).GetComponent<Button>();
         추적버튼.onClick.AddListener(() => 추적요청(표시번호));
 
@@ -67,7 +67,7 @@ internal sealed class 유닛상태창
     public void 갱신(int 번호, 전장대상 대상, Bounds 유닛범위, Camera 카메라, bool 추적중)
     {
         var 색들 = 추적버튼.colors;
-        Color 기본색 = 추적중 ? (Color)new Color32(142, 218, 186, 255) : Color.white;
+        Color 기본색 = 추적중 ? (Color)new Color32(255, 207, 133, 255) : Color.white;
         if (색들.normalColor != 기본색)
         {
             색들.normalColor = 기본색;

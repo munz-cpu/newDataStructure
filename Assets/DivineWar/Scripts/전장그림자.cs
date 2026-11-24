@@ -17,7 +17,7 @@ sealed class 전장그림자 : IDisposable
     readonly (SpriteRenderer 원본, SpriteRenderer 그림자)[] 유닛;
     readonly List<(SpriteRenderer 원본, SpriteRenderer 그림자, Vector2 크기)> 지형 = new();
 
-    public 전장그림자(Transform 부모, SpriteRenderer[] 슬롯, SpriteRenderer[] 자원, Transform 장식지형)
+    public 전장그림자(Transform 부모, SpriteRenderer[] 슬롯, IEnumerable<SpriteRenderer> 자원, Transform 장식지형)
     {
         뿌리 = new GameObject("전장 그림자");
         뿌리.transform.SetParent(부모, false);
@@ -94,7 +94,11 @@ sealed class 전장그림자 : IDisposable
         foreach (var (원본, 그림자, 크기) in 지형)
         {
             그림자.enabled = 본체표시됨(원본) && 안개.탐사됨(원본.transform.position);
-            if (그림자.enabled) 위치반영(그림자, 원본.transform.position, 크기);
+            if (!그림자.enabled) continue;
+            Color 색 = 그림자색;
+            색.a *= 원본.color.a;
+            if (그림자.color != 색) 그림자.color = 색;
+            위치반영(그림자, 원본.transform.position, 크기);
         }
     }
 

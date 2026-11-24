@@ -23,17 +23,17 @@ sealed class 전장지형 : IDisposable
     // 곶은 해변을 좁게 두고, 만 안쪽에서는 흙이 육지 쪽으로 넓어진다.
     static readonly (Vector2Int 점, float 해변폭)[] 해안선 =
     {
-        (new(-38, -18), 2), (new(-42, -15), 1), (new(-40, -9), 1),
-        (new(-33, -2), 4), (new(-40, 7), 3), (new(-42, 14), 1),
-        (new(-37, 19), 2), (new(-27, 21), 2), (new(-20, 18), 1),
-        (new(-4, 19), 1), (new(2, 12), 4), (new(9, 13), 4),
-        (new(16, 20), 2), (new(22, 22), 1), (new(29, 18), 1),
-        (new(37, 19), 2), (new(42, 13), 1), (new(37, 8), 3),
-        (new(39, 2), 1), (new(34, -2), 4), (new(36, -7), 3),
-        (new(43, -11), 1), (new(41, -16), 1), (new(32, -21), 2),
-        (new(25, -19), 1), (new(16, -22), 2), (new(8, -19), 2),
-        (new(1, -17), 1), (new(-7, -20), 1), (new(-17, -21), 1),
-        (new(-22, -15), 3), (new(-29, -18), 2)
+        (new(-59, -33), 2), (new(-65, -27), 1), (new(-61, -16), 1),
+        (new(-51, -4), 4), (new(-61, 12), 3), (new(-65, 26), 1),
+        (new(-57, 35), 2), (new(-42, 39), 2), (new(-31, 33), 1),
+        (new(-6, 35), 1), (new(4, 22), 4), (new(14, 24), 4),
+        (new(25, 37), 2), (new(34, 41), 1), (new(44, 33), 1),
+        (new(57, 36), 2), (new(65, 25), 1), (new(57, 15), 3),
+        (new(60, 4), 1), (new(53, -4), 4), (new(55, -12), 3),
+        (new(66, -21), 1), (new(63, -30), 1), (new(49, -38), 2),
+        (new(38, -35), 1), (new(25, -41), 2), (new(12, -35), 2),
+        (new(1, -31), 1), (new(-11, -37), 1), (new(-26, -38), 1),
+        (new(-34, -27), 3), (new(-44, -33), 2)
     };
 
     // 양 진영에서 같은 전장을 사용하도록 배치와 변형을 칸 좌표로 결정한다.
@@ -67,14 +67,16 @@ sealed class 전장지형 : IDisposable
     readonly List<UnityEngine.Object> 그래픽 = new();
     readonly Dictionary<Vector3Int, 종류> 지형칸 = new();
     readonly HashSet<Vector3Int> 해변칸 = new();
+    internal 자원지점[] 자원들 { get; }
 
     public 전장지형(Tilemap 바닥, Tilemap 장애물, Tilemap 지형맵, TileBase[] 해변타일, TileBase[] 흙타일,
-        자원지점[] 자원들, 구역[] 전술구역, bool 그래픽표시 = true)
+        자원지점[] 자원들, 구역[] 전술구역, bool 그래픽표시 = true, SpriteRenderer 숲나무프리팹 = null)
     {
         this.바닥 = 바닥;
         this.지형맵 = 지형맵;
         var 원래구역 = 바닥.cellBounds;
-        var 넓힌구역 = new BoundsInt(원래구역.min - new Vector3Int(12, 7, 0), 원래구역.size + new Vector3Int(24, 14, 0));
+        var 여백 = new Vector3Int(36, 26, 0);
+        var 넓힌구역 = new BoundsInt(원래구역.min - 여백, 원래구역.size + 여백 * 2);
         var 기본바닥 = Array.Find(바닥.GetTilesBlock(원래구역), 타일 => 타일 != null);
         var 바닥좌표 = new List<Vector3Int>();
         var 바닥타일 = new List<TileBase>();
@@ -140,6 +142,7 @@ sealed class 전장지형 : IDisposable
             }
         }
 
+        var 숲칸들 = new List<(Vector3Int 칸, float 앞정도)>();
         if (전술구역 != null)
         {
             foreach (var 구역 in 전술구역)
@@ -148,8 +151,9 @@ sealed class 전장지형 : IDisposable
             {
                 if (구역.모양[y][x] != '#') continue;
                 var 칸 = new Vector3Int(구역.왼쪽위.x + x, 구역.왼쪽위.y - y, 원래구역.zMin);
-                if (!바닥.HasTile(칸) || 장애물.HasTile(칸) || 자원칸.Contains(칸)) continue;
-                지형칸.TryAdd(칸, 구역.지형);
+                if (!바닥.HasTile(칸) || 장애물.HasTile(칸) || 자원칸.Contains(칸) || 해변칸.Contains(칸)) continue;
+                if (지형칸.TryAdd(칸, 구역.지형) && 구역.지형 == 종류.숲)
+                    숲칸들.Add((칸, y / (float)Mathf.Max(1, 구역.모양.Length - 1)));
             }
         }
 
@@ -161,6 +165,23 @@ sealed class 전장지형 : IDisposable
                     지형칸.TryAdd(칸, 종류.흙길);
         }
 
+        // 씬에 배치된 자원 번호를 유지하고, 숲 나무는 구역의 칸 순서대로 이어 붙인다.
+        this.자원들 = new 자원지점[자원들.Length + 숲칸들.Count];
+        Array.Copy(자원들, this.자원들, 자원들.Length);
+        for (int i = 0; i < 숲칸들.Count; i++)
+        {
+            var (칸, 앞정도) = 숲칸들[i];
+            int 무늬 = 무늬번호(칸);
+            var 위치 = 지형맵.GetCellCenterWorld(칸)
+                + new Vector3((무늬 & 1) == 0 ? -.12f : .12f, (무늬 & 2) == 0 ? -.28f : -.16f, 0);
+            this.자원들[자원들.Length + i] = new 자원지점
+            {
+                재화번호 = 0,
+                숲나무 = true,
+                숲위치 = 위치,
+                오브젝트 = 그래픽표시 && 숲나무프리팹 != null ? 숲나무배치(숲나무프리팹, 위치, 앞정도) : null
+            };
+        }
         if (!그래픽표시) return;
         var 그림판 = Resources.Load<Texture2D>("battle-terrain");
         var 수풀 = new Tile[4];
@@ -192,6 +213,8 @@ sealed class 전장지형 : IDisposable
 
         var 지형좌표 = new List<Vector3Int>(지형칸.Count);
         var 지형타일 = new List<TileBase>(지형칸.Count);
+        바닥좌표.Clear();
+        바닥타일.Clear();
         foreach (var (칸, 지형) in 지형칸)
         {
             if (지형 == 종류.흙길) continue;
@@ -200,7 +223,15 @@ sealed class 전장지형 : IDisposable
             switch (지형)
             {
                 case 종류.수풀: 타일 = 수풀[무늬]; break;
-                case 종류.숲: 타일 = 숲바닥[무늬]; break;
+                case 종류.숲:
+                    타일 = 숲바닥[무늬];
+                    if (숲나무프리팹 != null)
+                    {
+                        바닥좌표.Add(칸);
+                        바닥타일.Add(타일);
+                        continue;
+                    }
+                    break;
                 case 종류.바위: 타일 = 바위[무늬 & 1]; break;
                 default:
                     int 가장자리 = 0;
@@ -220,7 +251,19 @@ sealed class 전장지형 : IDisposable
             지형좌표.Add(칸);
             지형타일.Add(타일);
         }
+        바닥.SetTiles(바닥좌표.ToArray(), 바닥타일.ToArray());
         지형맵.SetTiles(지형좌표.ToArray(), 지형타일.ToArray());
+    }
+
+    internal static int 깊이순서(float y) => (int)(-y * 80) + 1600;
+
+    Transform 숲나무배치(SpriteRenderer 프리팹, Vector3 위치, float 앞정도)
+    {
+        var 나무 = UnityEngine.Object.Instantiate(프리팹, 위치, Quaternion.identity, 지형맵.transform);
+        나무.transform.localScale *= Mathf.Lerp(.78f, 1.04f, 앞정도);
+        나무.sortingOrder = 깊이순서(위치.y) - 2;
+        그래픽.Add(나무.gameObject);
+        return 나무.transform;
     }
 
     static bool 육지인가(Vector3Int 칸)
@@ -270,14 +313,48 @@ sealed class 전장지형 : IDisposable
 
     static Vector3Int 반대칸(Vector3Int 칸) => new(-칸.x - 1, -칸.y - 1, 칸.z);
 
-    static int 무늬번호(Vector3Int 칸)
+    static int 무늬번호(Vector3Int 칸) => (int)(칸해시(칸) & 3);
+
+    static uint 칸해시(Vector3Int 칸)
     {
         int 해시 = unchecked(칸.x * 73856093 ^ 칸.y * 19349663);
-        return (해시 ^ (해시 >> 13)) & 3;
+        return unchecked((uint)(해시 ^ (해시 >> 13)));
+    }
+
+    bool 숲인가(Vector3Int 칸) => 지형칸.TryGetValue(칸, out var 지형) && 지형 == 종류.숲;
+
+    public bool 도약이숲을가로지름(Vector2 출발, Vector2 착지)
+    {
+        var 시작 = 바닥.LocalToCellInterpolated(바닥.WorldToLocal(출발));
+        var 끝 = 바닥.LocalToCellInterpolated(바닥.WorldToLocal(착지));
+        var 이동 = 끝 - 시작;
+        var 현재칸 = 바닥.WorldToCell(출발);
+        var 끝칸 = 바닥.WorldToCell(착지);
+        int 가로방향 = 이동.x < 0 ? -1 : 1;
+        int 세로방향 = 이동.y < 0 ? -1 : 1;
+
+        // 도약 선분이 지나는 칸을 경계에 닿는 순서대로 검사한다.
+        while (현재칸 != 끝칸)
+        {
+            if (숲인가(현재칸)) return true;
+            float 가로경계 = 현재칸.x == 끝칸.x ? float.PositiveInfinity
+                : (현재칸.x + (가로방향 > 0 ? 1 : 0) - 시작.x) / 이동.x;
+            float 세로경계 = 현재칸.y == 끝칸.y ? float.PositiveInfinity
+                : (현재칸.y + (세로방향 > 0 ? 1 : 0) - 시작.y) / 이동.y;
+            if (가로경계 < 세로경계) 현재칸.x += 가로방향;
+            else if (세로경계 < 가로경계) 현재칸.y += 세로방향;
+            else
+            {
+                if (숲인가(현재칸 + new Vector3Int(가로방향, 0, 0)) ||
+                    숲인가(현재칸 + new Vector3Int(0, 세로방향, 0))) return true;
+                현재칸 += new Vector3Int(가로방향, 세로방향, 0);
+            }
+        }
+        return 숲인가(끝칸);
     }
 
     public bool 차단됨(Vector3Int 칸) =>
-        지형칸.TryGetValue(칸, out var 지형) && 지형 is 종류.연못 or 종류.바다 or 종류.바위;
+        지형칸.TryGetValue(칸, out var 지형) && 지형 is 종류.연못 or 종류.바다 or 종류.숲 or 종류.바위;
 
     public bool 은신지형인가(Vector2 위치) =>
         지형칸.TryGetValue(바닥.WorldToCell(위치), out var 지형) && 지형 is 종류.수풀 or 종류.숲;
@@ -292,6 +369,9 @@ sealed class 전장지형 : IDisposable
             종류.습지 => 습지비용,
             _ => 평지비용
         } : 평지비용;
+    public bool 습지인가(Vector2 위치) =>
+        지형칸.TryGetValue(바닥.WorldToCell(위치), out var 지형) && 지형 == 종류.습지;
+
     public bool 바다인가(Vector2 위치) =>
         지형칸.TryGetValue(바닥.WorldToCell(위치), out var 지형) && 지형 == 종류.바다;
 
@@ -335,6 +415,10 @@ sealed class 전장지형 : IDisposable
     public void Dispose()
     {
         if (지형맵 != null) 지형맵.ClearAllTiles();
-        foreach (var 오브젝트 in 그래픽) UnityEngine.Object.Destroy(오브젝트);
+        foreach (var 오브젝트 in 그래픽)
+        {
+            if (Application.isPlaying) UnityEngine.Object.Destroy(오브젝트);
+            else UnityEngine.Object.DestroyImmediate(오브젝트);
+        }
     }
 }

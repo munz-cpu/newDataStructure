@@ -8,7 +8,77 @@
             <ui:Label name="respawn-countdown" picking-mode="Ignore" style="font-size: 24px; color: rgb(255, 240, 213); background-color: rgba(32, 22, 22, 0.91); padding-left: 18px; padding-right: 18px; padding-top: 3px; padding-bottom: 3px;" />
         </ui:VisualElement>
     </ui:VisualElement>
-    <ui:VisualElement name="minimap" style="position: absolute; overflow: hidden; display: none; background-color: #344e44; background-size: 100% 100%;" />
+    <ui:VisualElement name="minimap" style="position: absolute; overflow: hidden; display: none; background-color: #271b14; background-size: 100% 100%;" />
+    <ui:VisualElement name="battle-status-strip" class="battle-status-strip" picking-mode="Ignore" style="display: none;">
+        <ui:VisualElement name="status-skill-1" class="battle-status-slot" style="display: none;">
+            <ui:VisualElement class="battle-status-icon" picking-mode="Ignore" />
+            <ui:Label class="battle-status-value" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status-skill-2" class="battle-status-slot" style="display: none;">
+            <ui:VisualElement class="battle-status-icon" picking-mode="Ignore" />
+            <ui:Label class="battle-status-value" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status-skill-3" class="battle-status-slot" style="display: none;">
+            <ui:VisualElement class="battle-status-icon" picking-mode="Ignore" />
+            <ui:Label class="battle-status-value" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status-skill-4" class="battle-status-slot" style="display: none;">
+            <ui:VisualElement class="battle-status-icon" picking-mode="Ignore" />
+            <ui:Label class="battle-status-value" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status-veil" class="battle-status-slot" style="display: none;">
+            <ui:VisualElement class="battle-status-icon" picking-mode="Ignore" />
+            <ui:Label class="battle-status-value" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status-guard" class="battle-status-slot battle-status-defense" style="display: none;">
+            <ui:VisualElement class="battle-status-icon" picking-mode="Ignore" />
+            <ui:Label class="battle-status-value" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status-barrier" class="battle-status-slot battle-status-defense" style="display: none;">
+            <ui:VisualElement class="battle-status-icon" picking-mode="Ignore" />
+            <ui:Label class="battle-status-value" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status-shield" class="battle-status-slot battle-status-defense" style="display: none;">
+            <ui:VisualElement class="battle-status-icon" picking-mode="Ignore" />
+            <ui:Label class="battle-status-value" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status-invulnerability" class="battle-status-slot battle-status-defense" style="display: none;">
+            <ui:VisualElement class="battle-status-icon" picking-mode="Ignore" />
+            <ui:Label class="battle-status-value" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status-undying" class="battle-status-slot battle-status-defense" style="display: none;">
+            <ui:VisualElement class="battle-status-icon" picking-mode="Ignore" />
+            <ui:Label class="battle-status-value" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status-haste" class="battle-status-slot battle-status-speed" style="display: none;">
+            <ui:VisualElement class="battle-status-icon" picking-mode="Ignore" />
+            <ui:Label class="battle-status-value" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status-empowerment" class="battle-status-slot" style="display: none;">
+            <ui:VisualElement class="battle-status-icon" picking-mode="Ignore" />
+            <ui:Label class="battle-status-value" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status-relic" class="battle-status-slot battle-status-relic" style="display: none;">
+            <ui:VisualElement class="battle-status-icon" picking-mode="Ignore" />
+            <ui:Label class="battle-status-value" picking-mode="Ignore" />
+        </ui:VisualElement>
+        <ui:VisualElement name="status-recast" class="battle-status-slot" style="display: none;">
+            <ui:VisualElement class="battle-status-icon" picking-mode="Ignore" />
+            <ui:Label class="battle-status-value" picking-mode="Ignore" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="battle-skill-tooltip" class="battle-skill-tooltip" picking-mode="Ignore" style="display: none;">
+        <ui:Label name="battle-skill-title" class="battle-skill-title" picking-mode="Ignore" />
+        <ui:Label name="battle-skill-detail" class="battle-skill-detail" picking-mode="Ignore" />
+    </ui:VisualElement>
+    <ui:VisualElement name="tutorial-mission" class="tutorial-mission" picking-mode="Ignore" style="display: none;">
+        <ui:VisualElement name="tutorial-mission-icon" class="tutorial-mission-icon" picking-mode="Ignore" />
+        <ui:VisualElement class="tutorial-mission-copy" picking-mode="Ignore">
+            <ui:Label name="tutorial-mission-step" class="tutorial-mission-step" picking-mode="Ignore" />
+            <ui:Label name="tutorial-mission-title" class="tutorial-mission-title" picking-mode="Ignore" />
+            <ui:Label name="tutorial-mission-hint" class="tutorial-mission-hint" picking-mode="Ignore" />
+        </ui:VisualElement>
+    </ui:VisualElement>
     <ui:VisualElement picking-mode="Ignore" style="position: absolute; left: 4%; right: 4%; top: 62%; align-items: center;">
         <ui:Label name="army-selection-hint" text="[Z] 주민 · [X] 병사 · [C] 브루저 · [V] 아처" picking-mode="Ignore" style="display: none; font-size: 20px; color: rgb(255, 235, 187); -unity-text-align: middle-center; white-space: normal; background-color: rgba(39, 29, 20, 0.92); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(126, 91, 53); border-right-color: rgb(126, 91, 53); border-top-color: rgb(159, 119, 74); border-bottom-color: rgb(81, 57, 34); padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px;" />
     </ui:VisualElement>
@@ -24,7 +94,29 @@
     </ui:VisualElement>
     <ui:VisualElement name="training-cost" class="training-cost" picking-mode="Ignore" style="display: none;">
         <ui:Label name="training-cost-title" class="training-cost-title" picking-mode="Ignore" />
-        <ui:Label name="training-cost-total" class="training-cost-total" picking-mode="Ignore" />
+        <ui:Label name="training-queue" class="training-queue" picking-mode="Ignore" />
+        <ui:VisualElement name="training-cost-total" class="training-cost-total" picking-mode="Ignore">
+            <ui:VisualElement class="training-cost-item" picking-mode="Ignore">
+                <ui:VisualElement name="training-icon-0" class="training-cost-icon" picking-mode="Ignore" />
+                <ui:Label name="training-amount-0" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:VisualElement class="training-cost-item" picking-mode="Ignore">
+                <ui:VisualElement name="training-icon-1" class="training-cost-icon" picking-mode="Ignore" />
+                <ui:Label name="training-amount-1" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:VisualElement class="training-cost-item" picking-mode="Ignore">
+                <ui:VisualElement name="training-icon-2" class="training-cost-icon" picking-mode="Ignore" />
+                <ui:Label name="training-amount-2" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:VisualElement class="training-cost-item" picking-mode="Ignore">
+                <ui:VisualElement name="training-icon-3" class="training-cost-icon" picking-mode="Ignore" />
+                <ui:Label name="training-amount-3" picking-mode="Ignore" />
+            </ui:VisualElement>
+            <ui:VisualElement class="training-cost-item" picking-mode="Ignore">
+                <ui:VisualElement name="training-icon-4" class="training-cost-icon" picking-mode="Ignore" />
+                <ui:Label name="training-amount-4" picking-mode="Ignore" />
+            </ui:VisualElement>
+        </ui:VisualElement>
         <ui:Label name="training-cost-detail" class="training-cost-detail" picking-mode="Ignore" />
     </ui:VisualElement>
     <ui:Button name="food-toggle" text="인벤토리 [I]" class="food-toggle" style="display: none;" />

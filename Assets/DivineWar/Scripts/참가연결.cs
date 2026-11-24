@@ -19,7 +19,7 @@ public sealed class 참가연결 : IDisposable
 #else
     public const string 환경 = "development";
 #endif
-    const ushort 프로토콜 = 9;
+    const ushort 프로토콜 = 19;
     const string 버전키 = "divinewarProtocol";
     const string 명령채널 = "dw.command";
     const string 상태채널 = "dw.state";

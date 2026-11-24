@@ -7,6 +7,7 @@ public sealed partial class 전장규칙
     sealed class 스킬돌진
     {
         public 전장대상 왕, 호위대상;
+        public 스킬지대 궤적;
         public Vector2 끝;
         public float 남은시간;
         public int 꿰뚫기칸 = -1;
@@ -15,8 +16,14 @@ public sealed partial class 전장규칙
 
     readonly 스킬돌진[] 돌진들 = new 스킬돌진[2];
     readonly 전장대상[] 복수표식 = new 전장대상[2];
-    const float 장막반경 = 3;
+    internal const float 장막반경 = 3;
+    internal const float 돌진타격반경 = 1.25f;
+    internal const float 장착투사체반경 = .55f;
+    internal const float 납치후퇴거리 = 3;
+    internal const float 복수조준반경 = 1.5f;
     const float 화살연쇄반경 = 4;
+    internal const float 돌진잔상시간 = .28f;
+    const float 납치당김시간 = .65f;
 
     void 장착스킬시전(int 팀, 전장대상 왕, int 칸, Vector2 목표, int[] 부대)
     {
@@ -39,7 +46,7 @@ public sealed partial class 전장규칙
             case 장착기술.집합:
                 if (!사거리안(왕.위치, 목표, 범위) || !길찾기.통행가능(목표))
                 {
-                    메시지(팀, "범위 안의 이동 가능한 집합 위치를 지정하세요.");
+                    메시지(팀, "범위 안의 이동 가능한 집합 위치를 지정하세요.", 경고: true);
                     return;
                 }
                 var 병사들 = new List<전장대상>();
@@ -48,7 +55,7 @@ public sealed partial class 전장규칙
                         && !병사들.Contains(병사)) 병사들.Add(병사);
                 if (병사들.Count == 0)
                 {
-                    메시지(팀, "범위 안의 병사를 선택하세요.");
+                    메시지(팀, "범위 안의 병사를 선택하세요.", 경고: true);
                     return;
                 }
                 for (int i = 0; i < 병사들.Count; i++)
@@ -70,10 +77,11 @@ public sealed partial class 전장규칙
                 break;
             case 장착기술.내가지킨다:
             case 장착기술.동료의복수:
-                var 대상 = 가까운아군병사(왕, 목표, 범위, 기술 == 장착기술.동료의복수 ? 1.5f : float.PositiveInfinity);
+                var 대상 = 가까운아군병사(상태.대상들, 왕, 목표, 범위,
+                    기술 == 장착기술.동료의복수 ? 복수조준반경 : float.PositiveInfinity);
                 if (대상 == null)
                 {
-                    메시지(팀, "범위 안의 아군 병사를 지정하세요.");
+                    메시지(팀, "범위 안의 아군 병사를 지정하세요.", 경고: true);
                     return;
                 }
                 if (기술 == 장착기술.동료의복수)
@@ -81,7 +89,7 @@ public sealed partial class 전장규칙
                     복수표식[팀] = 대상;
                     표시위치 = 대상.위치;
                 }
-                else if (!돌진시작(왕, 대상.위치, .24f, 대상)) return;
+                else if (!돌진시작(왕, 대상.위치, .62f, 기술, 대상)) return;
                 break;
             case 장착기술.의무병:
                 foreach (var 아군 in 주변아군(팀, 왕.위치, 범위))
@@ -94,7 +102,7 @@ public sealed partial class 전장규칙
             case 장착기술.잠복:
                 if (!사거리안(왕.위치, 목표, 범위))
                 {
-                    메시지(팀, "장막 사거리 밖입니다.");
+                    메시지(팀, "장막 사거리 밖입니다.", 경고: true);
                     return;
                 }
                 지대추가(팀, 지대종류.장막, 목표, 장막반경, 10);
@@ -121,7 +129,7 @@ public sealed partial class 전장규칙
                 var 방향 = (목표 - 왕.위치).normalized;
                 if (방향 == Vector2.zero) 방향 = 왕.시선;
                 bool 베기 = 기술 == 장착기술.회전베기;
-                if (!돌진시작(왕, 왕.위치 + 방향 * 범위, 베기 ? .23f : .16f, 베기: 베기)) return;
+                if (!돌진시작(왕, 왕.위치 + 방향 * 범위, 왕직업목록.기술동작길이(기술), 기술, 베기: 베기)) return;
                 왕.왕기술동작 = 기술;
                 왕.왕기술시각 = 상태.시간;
                 왕.시선 = 방향;
@@ -140,14 +148,16 @@ public sealed partial class 전장규칙
                 if (조준 == Vector2.zero) 조준 = 왕.시선;
                 if (기술 == 장착기술.꿰뚫기)
                 {
-                    if (!돌진시작(왕, 왕.위치 + 조준 * 범위, .22f, 베기: true)) return;
+                    if (!돌진시작(왕, 왕.위치 + 조준 * 범위, .58f, 기술, 베기: true)) return;
                     돌진들[팀].꿰뚫기칸 = 칸;
                 }
                 else
                 {
-                    if (기술 == 장착기술.납치 && !돌진시작(왕, 왕.위치 - 조준 * 3, .18f)) return;
-                    var 투사체 = 발사(왕, 조준, 범위, 16, 35, .55f);
+                    if (기술 == 장착기술.납치 && !돌진시작(왕, 왕.위치 - 조준 * 납치후퇴거리, .46f, 기술)) return;
+                    float 속도 = 기술 == 장착기술.납치 ? 8 : 기술 == 장착기술.급발진 ? 11 : 16;
+                    var 투사체 = 발사(왕, 조준, 범위, 속도, 35, 장착투사체반경);
                     투사체.장착기술 = 기술;
+                    투사체.연출기술 = 기술;
                     투사체.발사자참조 = 왕;
                 }
                 왕.은신 = false;
@@ -172,13 +182,14 @@ public sealed partial class 전장규칙
                 yield return 대상;
     }
 
-    전장대상 가까운아군병사(전장대상 왕, Vector2 목표, float 범위, float 거리)
+    internal static 전장대상 가까운아군병사(전장대상[] 대상들, 전장대상 왕, Vector2 목표, float 범위, float 거리)
     {
         전장대상 찾음 = null;
         float 최단 = 거리 * 거리;
-        foreach (var 대상 in 주변아군(왕.팀, 왕.위치, 범위))
+        foreach (var 대상 in 대상들)
         {
-            if (대상.종류 != 대상종류.병사) continue;
+            if (대상 is not { 생존: true, 건물: false, 종류: 대상종류.병사, 훈련남음: <= 0 } || 대상.팀 != 왕.팀
+                || !사거리안(왕.위치, 대상.위치, 범위)) continue;
             float 간격 = (목표 - 대상.위치).sqrMagnitude;
             if (간격 > 최단) continue;
             최단 = 간격;
@@ -196,13 +207,13 @@ public sealed partial class 전장규칙
         진영.스킬표시시간 = .48f;
     }
 
-    bool 돌진시작(전장대상 왕, Vector2 목표, float 시간, 전장대상 호위 = null, bool 베기 = false)
+    bool 돌진시작(전장대상 왕, Vector2 목표, float 시간, 장착기술 기술, 전장대상 호위 = null, bool 베기 = false)
     {
         if (왕.속박 > 0) return false;
         var 끝 = 기술이동(왕.위치, 목표);
         if (호위 != null && !사거리안(끝, 목표, .65f))
         {
-            메시지(왕.팀, "병사에게 돌진할 수 없습니다.");
+            메시지(왕.팀, "병사에게 돌진할 수 없습니다.", 경고: true);
             return false;
         }
         이동지정(왕, 끝);
@@ -211,9 +222,12 @@ public sealed partial class 전장규칙
         왕.왕공격동작길이 = 0;
         왕.왕공격반경 = 0;
         길찾기.초기화(경로들[왕번호(왕.팀)]);
+        var 궤적 = 지대추가(왕.팀, 지대종류.돌진궤적, 왕.위치, 0, 시간 + 돌진잔상시간);
+        궤적.연출기술 = 기술;
+        궤적.방향 = (끝 - 왕.위치).normalized;
         돌진들[왕.팀] = new 스킬돌진
         {
-            왕 = 왕, 끝 = 끝, 남은시간 = 시간, 호위대상 = 호위,
+            왕 = 왕, 끝 = 끝, 남은시간 = 시간, 호위대상 = 호위, 궤적 = 궤적,
             베인적 = 베기 ? new HashSet<전장대상>() : null
         };
         return true;
@@ -226,6 +240,7 @@ public sealed partial class 전장규칙
         if (왕.속박중)
         {
             돌진들[왕.팀] = null;
+            돌진.궤적.남은시간 = Mathf.Min(돌진.궤적.남은시간, 돌진잔상시간);
             왕.왕기술동작 = default;
             이동지정(왕, 왕.위치);
             왕.이동중 = false;
@@ -234,15 +249,17 @@ public sealed partial class 전장규칙
         var 시작 = 왕.위치;
         var 끝 = 기술이동(시작, Vector2.Lerp(시작, 돌진.끝, 초 / 돌진.남은시간));
         유닛위치갱신(왕, 끝);
+        돌진.궤적.위치 = 끝;
         if (돌진.베인적 != null)
         {
             for (int i = 0; i < 전체칸; i++)
             {
                 if (!적인가(왕.팀, i)) continue;
                 var 적 = 상태.대상들[i];
-                if (!적.건물 && 선거리(적.위치, 시작, 끝) <= 1.25f && 돌진.베인적.Add(적))
+                if (!적.건물 && 선거리(적.위치, 시작, 끝) <= 돌진타격반경 && 돌진.베인적.Add(적))
                 {
                     장착공격피해(왕, i, 40);
+                    기술충격(왕.팀, 적.위치, 돌진.궤적.연출기술, .58f);
                     if (돌진.꿰뚫기칸 >= 0)
                     {
                         var 대기 = 상태.진영들[왕.팀].쿨다운;
@@ -256,9 +273,16 @@ public sealed partial class 전장규칙
         돌진들[왕.팀] = null;
         이동지정(왕, 끝);
         왕.이동중 = false;
+        기술충격(왕.팀, 끝, 돌진.궤적.연출기술, .8f);
         if (돌진.호위대상 is { 생존: true } 병사 && 병사.팀 == 왕.팀 && 사거리안(끝, 병사.위치, 1.25f))
             왕.호위회복남음 = 병사.호위회복남음 = 3;
         return true;
+    }
+
+    void 기술충격(int 팀, Vector2 위치, 장착기술 기술, float 반경)
+    {
+        var 효과 = 지대추가(팀, 지대종류.스킬충격, 위치, 반경, .42f);
+        효과.연출기술 = 기술;
     }
 
     void 장착상태진행(전장대상 대상, float 초)
@@ -468,7 +492,7 @@ public sealed partial class 전장규칙
                 case 장착기술.동료의복수:
                 case 장착기술.내가지킨다:
                     if (기술 == 장착기술.내가지킨다 && 왕.체력 >= 왕.최대체력 * .8f) continue;
-                    var 병사 = 가까운아군병사(왕, 목표, 정보.사거리, float.PositiveInfinity);
+                    var 병사 = 가까운아군병사(상태.대상들, 왕, 목표, 정보.사거리, float.PositiveInfinity);
                     if (병사 == null || 복수표식[팀] == 병사 && 기술 == 장착기술.동료의복수) continue;
                     목표 = 병사.위치;
                     break;
@@ -476,7 +500,7 @@ public sealed partial class 전장규칙
                     if (왕.체력 >= 왕.최대체력 * .85f) continue;
                     break;
                 case 장착기술.치유의화살:
-                    var 아군 = 가까운아군병사(왕, 왕.위치, 6, 6);
+                    var 아군 = 가까운아군병사(상태.대상들, 왕, 왕.위치, 6, 6);
                     if (아군 == null || 아군.체력 >= 아군.최대체력 * .85f) continue;
                     장착스킬시전(팀, 왕, 칸, 아군.위치, null);
                     if (왕.치유화살남음 > 0) 왕.표적 = Array.IndexOf(상태.대상들, 아군);
@@ -520,8 +544,30 @@ public sealed partial class 전장규칙
         }
         if (첫적 < 0) return;
         var 피해자 = 상태.대상들[첫적];
-        밀기(피해자, 탄.발사자참조.위치 - 피해자.위치);
-        탄.남은시간 = 0;
+        탄.종류 = 지대종류.납치당김;
+        탄.대상 = 첫적;
+        탄.부착대상 = 피해자;
+        탄.위치 = 탄.시작 = 피해자.위치;
+        탄.당김목표 = 기술이동(피해자.위치, 탄.발사자참조.위치);
+        탄.남은시간 = 탄.지속시간 = 납치당김시간;
+        피해자.기절 = Mathf.Max(피해자.기절, .35f);
+    }
+
+    bool 납치당김진행(스킬지대 줄, float 초)
+    {
+        var 대상 = 줄.부착대상;
+        if (!줄.발사자참조.생존 || !대상.생존 || 상태.대상들[줄.대상] != 대상) return true;
+        대상.기절 = Mathf.Max(대상.기절, 초 * 2);
+        float 진행률 = Mathf.Clamp01(1 - 줄.남은시간 / 줄.지속시간);
+        var 다음 = 기술이동(대상.위치, Vector2.Lerp(줄.시작, 줄.당김목표, 진행률));
+        유닛위치갱신(대상, 다음);
+        줄.위치 = 다음;
+        if (줄.남은시간 > 0) return false;
+
+        줄.종류 = 지대종류.스킬충격;
+        줄.반경 = .72f;
+        줄.남은시간 = 줄.지속시간 = .42f;
+        return false;
     }
 
     void 짐승공격피해(전장대상 공격자, int 칸, float 양)

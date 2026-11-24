@@ -41,6 +41,7 @@ public sealed class 전장대상
     [NonSerialized] public 전장대상 저주참조, 뿌리참조;
     public bool 속박중 => 기절 > 0 || 속박 > 0 || 공포 > 0 || 매혹 > 0;
     public int 표적 = -1, 채집터 = -1;
+    internal int 재생대기채집터 = -1;
     public int 공격순번;
     public float 공격시각, 왕공격동작길이, 왕공격반경;
     public Vector2 공격방향;
@@ -48,6 +49,8 @@ public sealed class 전장대상
     public float 왕기술시각;
     public int 사냥표적;
     public int 훈련소 = -1;
+    public int 훈련대기수;
+    public float 훈련잔여합계;
     public 병과 병과;
     public float 훈련남음, 도약시간, 도약대기;
     public Vector2 도약출발;
@@ -63,6 +66,7 @@ public sealed class 전장대상
 [Serializable]
 public sealed class 진영상태
 {
+    const float 알림표시시간 = 3.5f;
     public int[] 재화 = new int[5];
     public int[] 고기 = new int[전장식량.종류수];
     public int 조리중인고기 = -1;
@@ -70,10 +74,13 @@ public sealed class 진영상태
     public Vector2 음식회복위치;
     public int[] 자원별채집횟수;
     public float[] 쿨다운 = new float[4];
+    public 왕기술효과[] 기술효과;
     public 왕직업 직업;
     public int 장착구성 = 왕직업목록.기본장착;
     public int 심부름;
     public string 알림;
+    public int 알림번호;
+    public bool 경고알림;
     public float 알림시간, 제재시간, 모집대기, 스킬표시시간, 스킬반경;
     public Vector2 스킬위치;
     public bool 채집완료, 제재완료, 모집완료, 진격완료, 스킬왕위치표시;
@@ -84,6 +91,18 @@ public sealed class 진영상태
     public int 시련유물;
     public int 깃발한도증가, 울타리한도증가;
     public float 훈련남은시간;
+    public float 스태미나 = 전장규칙.최대스태미나;
+    internal float 스태미나회복대기;
+    internal bool 스태미나고갈;
+
+    internal void 알림보내기(string 문장, bool 경고 = false)
+    {
+        if (문장 == null) return;
+        알림 = 문장;
+        알림번호++;
+        경고알림 = 경고;
+        알림시간 = 알림표시시간;
+    }
 }
 
 [Serializable]
@@ -93,6 +112,8 @@ public sealed class 전장상태
     public 짐승상태[] 짐승들;
     public 시련상태[] 시련들 = Array.Empty<시련상태>();
     public 진영상태[] 진영들;
+    public int[] 자원잔량;
+    public float[] 자원재생완료시각;
     public List<Vector2> 청록왕경로, 적색왕경로;
     public List<스킬지대> 지대들 = new();
     public float 시간;
@@ -104,10 +125,26 @@ public struct 자원지점
 {
     public Transform 오브젝트;
     public int 재화번호;
+    [Min(0)] public int 최대수량;
+    [NonSerialized] public bool 숲나무;
+    [NonSerialized] public Vector3 숲위치;
+
+    public Vector3 위치 => 숲나무 ? 숲위치 : 오브젝트.position;
+    public int 채집한도
+    {
+        get
+        {
+            int 기본한도 = 최대수량 > 0 ? 최대수량 : 숲나무 ? 24 : 재화번호 < 2 ? 60 : 36;
+            return (int)Math.Min(기본한도 * 3L, int.MaxValue);
+        }
+    }
 }
 
 public sealed partial class 전장규칙
 {
+    public const float 최대스태미나 = 100f;
+    const float 달리기배율 = 1.45f, 초당스태미나소모 = 22f, 초당스태미나회복 = 26f;
+    const float 스태미나회복지연 = .75f, 달리기재개스태미나 = 20f;
     public const int 병력제한 = 48;
     public const int 주민제한 = 24;
     public const int 병사시작칸 = 6 + 주민제한;
@@ -120,6 +157,8 @@ public sealed partial class 전장규칙
     internal const int 나무울타리건설 = 4, 돌울타리건설 = 5, 모닥불건설 = 6;
     internal const float 울타리건설시간 = 3f, 모닥불건설시간 = 3f;
     public const float 채집거리 = 1.38f;
+    const float 연속채집반경 = 6f;
+    public const float 자원고갈시간 = 12f, 자원재생시간 = 4f;
     internal const float 주민추첨시간 = 1.4f;
     const float 대형간격 = 1f;
     const float 병사간격 = .8f;
@@ -167,9 +206,11 @@ public sealed partial class 전장규칙
     public static float 스킬쿨다운길이(왕직업 직업, int 번호) => 왕직업목록.신규(직업) ? 왕직업목록.스킬(직업, 번호).쿨다운 : 스킬시간[번호];
 
     readonly 자원지점[] 자원들;
+    readonly List<int> 고갈자원들 = new();
+    readonly List<Vector2> 도달확인경로 = new();
     readonly 격자길찾기 길찾기;
     readonly 격자길찾기.이동경로[] 경로들 = new 격자길찾기.이동경로[전체칸];
-    readonly (Vector2 방향, float 만료)[] 왕방향입력 = new (Vector2, float)[2];
+    readonly (Vector2 방향, float 만료, bool 달리기)[] 왕방향입력 = new (Vector2, float, bool)[2];
     readonly System.Random 난수;
     readonly 전장짐승 짐승들;
     // 실제 주민/건물 참조를 보관해 사망 후 같은 슬롯에 생긴 새 대상을 훈련하지 않는다.
@@ -177,7 +218,8 @@ public sealed partial class 전장규칙
     {
         public int 주민번호, 훈련소번호;
         public 전장대상 주민, 건물;
-        public float 남은시간 = 주민훈련시간;
+        public int 비용산정병력;
+        public float 남은시간;
     }
     readonly Queue<훈련신청>[] 훈련대기열 = { new(), new() };
     public 전장상태 상태 { get; }
@@ -204,14 +246,15 @@ public sealed partial class 전장규칙
         if (종류 == 대상종류.병사) return (5, 5, 2, 105);
         return 직업 switch
         {
-            왕직업.지휘관 => (8, 4, 4, 240),
-            왕직업.아처 => (7, 6, 4, 180),
-            왕직업.검사 => (9, 5, 2, 250),
+            왕직업.지휘관 => (8, 4, 0, 240),
+            왕직업.아처 => (7, 6, 0, 180),
+            왕직업.검사 => (9, 5, 0, 250),
             왕직업.트린다미어 => (9, 5, 2, 250),
             왕직업.소라카 => (3, 5, 10, 180),
             왕직업.애쉬 => (7, 6, 4, 180),
             왕직업.아지르 => (4, 5, 9, 190),
-            왕직업.암살자 or 왕직업.이블린 => (8, 8, 6, 175),
+            왕직업.암살자 => (8, 8, 0, 175),
+            왕직업.이블린 => (8, 8, 6, 175),
             왕직업.그라가스 => (8, 3, 6, 285),
             왕직업.하이머딩거 => (3, 5, 10, 175),
             왕직업.헤카림 => (8, 8, 4, 245),
@@ -238,7 +281,7 @@ public sealed partial class 전장규칙
     public static string 직업설명(왕직업 직업)
     {
         var (힘, 민첩, 지능, 체력) = 능력치(대상종류.왕, 직업);
-        if (왕직업목록.장착가능(직업)) return $"체력 {체력}   힘 {힘}   민첩 {민첩}   지능 {지능}";
+        if (왕직업목록.장착가능(직업)) return $"체력 {체력}   힘 {힘}   민첩 {민첩}";
         if (왕직업목록.신규(직업))
         {
             string 설명 = $"{직업}  |  체력 {체력}  힘 {힘}  민첩 {민첩}  지능 {지능}\n{왕직업목록.패시브(직업)}";
@@ -264,45 +307,105 @@ public sealed partial class 전장규칙
         상태 = new 전장상태
         {
             대상들 = new 전장대상[전체칸],
-            진영들 = new[] { 새진영(청, 청장착), 새진영(적, 적장착) }
+            진영들 = new[] { 새진영(청, 청장착), 새진영(적, 적장착) },
+            자원잔량 = Array.ConvertAll(자원들, 지점 => 지점.채집한도),
+            자원재생완료시각 = new float[자원들.Length]
         };
-        bool 북서쪽 = 난수.Next(2) == 0;
-        int 첫번째 = 난수.Next(2);
-        var (왼쪽, 오른쪽) = 시작거점선택(거점들[북서쪽 ? 0 : 1], 거점들[북서쪽 ? 3 : 2]);
+        var (청록거점, 적색거점) = 시작거점쌍선택(거점들);
         for (int 팀 = 0; 팀 < 2; 팀++)
         {
-            Vector2 거점 = 팀 == 첫번째 ? 왼쪽 : 오른쪽;
+            Vector2 거점 = 팀 == 0 ? 청록거점 : 적색거점;
             float 안쪽 = -Mathf.Sign(거점.x);
             배치(회관번호(팀), 팀, 대상종류.회관, 거점, 1350);
             배치(왕번호(팀), 팀, 대상종류.왕, 거점 + new Vector2(안쪽 * 2, 0), 능력치(대상종류.왕, 상태.진영들[팀].직업).체력);
             배치(빈칸(상태, 팀, 대상종류.주민), 팀, 대상종류.주민, 거점 + new Vector2(안쪽, -1.8f), 능력치(대상종류.주민).체력);
         }
         짐승들 = new 전장짐승(상태, 길찾기, 시드);
+        왕기술효과갱신();
     }
 
-    (Vector2 왼쪽, Vector2 오른쪽) 시작거점선택(Vector2 왼쪽기준, Vector2 오른쪽기준)
+    (Vector2, Vector2) 시작거점쌍선택(Vector2[] 거점들)
     {
-        const int 탐색반경 = 6;
-        왼쪽기준 = 길찾기.중심정렬(왼쪽기준);
-        오른쪽기준 = 길찾기.중심정렬(오른쪽기준);
-        var 후보들 = new List<(Vector2 왼쪽, Vector2 오른쪽)>();
-        for (int y = -탐색반경; y <= 탐색반경; y++)
-        for (int x = -탐색반경; x <= 탐색반경; x++)
+        if (길찾기.지형 != null)
         {
-            if (x * x + y * y > 탐색반경 * 탐색반경) continue;
-            var 이동 = new Vector2(x, y);
-            var 왼쪽 = 길찾기.중심정렬(왼쪽기준 + 이동);
-            var 오른쪽 = 길찾기.중심정렬(오른쪽기준 - 이동);
-            if (시작거점가능(왼쪽) && 시작거점가능(오른쪽))
-                후보들.Add((왼쪽, 오른쪽));
+            const float 최소간격 = 38f;
+            var 후보들 = new List<Vector2>();
+            foreach (var 후보 in 길찾기.연결된칸중심들(거점들[0]))
+            {
+                if (!시작거점가능(후보) || !시작자원가까움(후보)) continue;
+                float 안쪽 = -Mathf.Sign(후보.x);
+                if (!길찾기.정적통행가능(후보 + new Vector2(안쪽, 0))
+                    || !길찾기.정적통행가능(후보 + new Vector2(안쪽, -1))
+                    || !길찾기.정적통행가능(후보 + new Vector2(안쪽 * 5, 0))
+                    || !길찾기.정적통행가능(후보 - new Vector2(안쪽 * 3, 0))) continue;
+                후보들.Add(후보);
+            }
+
+            while (후보들.Count > 1)
+            {
+                int 번호 = 난수.Next(후보들.Count);
+                var 첫거점 = 후보들[번호];
+                var 상대후보들 = 후보들.FindAll(후보 => (후보 - 첫거점).sqrMagnitude >= 최소간격 * 최소간격);
+                if (상대후보들.Count > 0)
+                {
+                    var 상대거점 = 상대후보들[난수.Next(상대후보들.Count)];
+                    return 난수.Next(2) == 0 ? (첫거점, 상대거점) : (상대거점, 첫거점);
+                }
+
+                후보들[번호] = 후보들[^1];
+                후보들.RemoveAt(후보들.Count - 1);
+            }
         }
-        return 후보들.Count > 0 ? 후보들[난수.Next(후보들.Count)] : (왼쪽기준, 오른쪽기준);
+
+        int 왼쪽팀 = 난수.Next(2);
+        var 왼쪽 = 시작거점선택(거점들[0], 거점들[1], -1);
+        var 오른쪽 = 시작거점선택(거점들[2], 거점들[3], 1);
+        return 왼쪽팀 == 0 ? (왼쪽, 오른쪽) : (오른쪽, 왼쪽);
+    }
+
+    bool 시작자원가까움(Vector2 거점)
+    {
+        const float 채집터최대거리 = 34f;
+        bool 나무 = false, 돌 = false;
+        foreach (var 지점 in 자원들)
+        {
+            if (지점.숲나무 || (지점.위치 - (Vector3)거점).sqrMagnitude > 채집터최대거리 * 채집터최대거리) continue;
+            나무 |= 지점.재화번호 == 0;
+            돌 |= 지점.재화번호 == 1;
+            if (나무 && 돌) return true;
+        }
+        return false;
+    }
+
+    Vector2 시작거점선택(Vector2 기준1, Vector2 기준2, int 방향)
+    {
+        const int 가로반경 = 20, 세로반경 = 14;
+        const float 중앙여유 = 14;
+        var 후보들 = new List<Vector2>();
+        var 확인한칸 = new HashSet<Vector2>();
+        후보추가(길찾기.중심정렬(기준1));
+        후보추가(길찾기.중심정렬(기준2));
+        return 후보들.Count > 0 ? 후보들[난수.Next(후보들.Count)] : 길찾기.중심정렬(기준1);
+
+        void 후보추가(Vector2 기준)
+        {
+            for (int y = -세로반경; y <= 세로반경; y++)
+            for (int x = -가로반경; x <= 가로반경; x++)
+            {
+                if (x * x * 세로반경 * 세로반경 + y * y * 가로반경 * 가로반경 >
+                    가로반경 * 가로반경 * 세로반경 * 세로반경) continue;
+                var 후보 = 길찾기.중심정렬(기준 + new Vector2(x, y));
+                if (후보.x * 방향 < 중앙여유 || !확인한칸.Add(후보)) continue;
+                if (시작거점가능(후보)) 후보들.Add(후보);
+            }
+        }
     }
 
     bool 시작거점가능(Vector2 거점)
     {
         float 안쪽 = -Mathf.Sign(거점.x);
         return 시작건물자리가능(거점)
+            && 길찾기.정적통행가능(거점 + Vector2.down * 1.1f)
             && 길찾기.정적통행가능(거점 + new Vector2(안쪽 * 2, 0))
             && 길찾기.정적통행가능(거점 + new Vector2(안쪽, -1.8f))
             && 시작건물자리가능(길찾기.중심정렬(거점 + new Vector2(안쪽 * 2.9f, 1.8f)))
@@ -315,7 +418,7 @@ public sealed partial class 전장규칙
     static bool 자원지점과간격(자원지점[] 자원들, Vector2 위치)
     {
         foreach (var 지점 in 자원들)
-            if (Vector2.Distance(지점.오브젝트.position, 위치) < 1.55f)
+            if (!지점.숲나무 && Vector2.Distance(지점.위치, 위치) < 1.55f)
                 return false;
         return true;
     }
@@ -364,12 +467,7 @@ public sealed partial class 전장규칙
 
     Vector2 제한(Vector2 위치) => 길찾기.전장안쪽(위치);
 
-    void 메시지(int 팀, string 문장)
-    {
-        if (문장 == null) return;
-        상태.진영들[팀].알림 = 문장;
-        상태.진영들[팀].알림시간 = 3.5f;
-    }
+    void 메시지(int 팀, string 문장, bool 경고 = false) => 상태.진영들[팀].알림보내기(문장, 경고);
 
     void 심부름진행(int 팀)
     {
@@ -402,7 +500,7 @@ public sealed partial class 전장규칙
 
     bool 지불(int 팀, int 항목)
     {
-        if (!지불가능(상태.진영들[팀].재화, 항목)) { 메시지(팀, "재화가 부족합니다."); return false; }
+        if (!지불가능(상태.진영들[팀].재화, 항목)) { 메시지(팀, "재화가 부족합니다.", 경고: true); return false; }
         비용차감(팀, 항목);
         return true;
     }
@@ -421,12 +519,12 @@ public sealed partial class 전장규칙
             case 명령종류.이동:
                 if (왕.생존)
                 {
-                    왕방향입력[팀] = default;
+                    왕방향입력[팀].방향 = Vector2.zero;
                     이동지정(왕, 위치);
                 }
                 break;
             case 명령종류.방향이동:
-                방향이동지정(팀, 왕, 내용.위치);
+                방향이동지정(팀, 왕, 내용.위치, 내용.값 == 1);
                 break;
             case 명령종류.공격:
                 bool 부대공격 = 내용.부대 is { Length: > 0 };
@@ -449,14 +547,14 @@ public sealed partial class 전장규칙
                 }
                 break;
             case 명령종류.왕채집:
-                if (왕.생존 && 내용.값 >= 0 && 내용.값 < 자원들.Length)
+                if (왕.생존 && 채집가능(내용.값))
                 {
                     왕방향입력[팀] = default;
                     채집지정(왕, 내용.값);
                 }
                 break;
             case 명령종류.채집:
-                if (내용.값 < 0 || 내용.값 >= 자원들.Length) return;
+                if (!채집가능(내용.값)) return;
                 foreach (var 주민 in 내부대(팀, 내용.부대))
                 {
                     if (주민.종류 != 대상종류.주민) continue;
@@ -491,10 +589,11 @@ public sealed partial class 전장규칙
                 }
                 break;
             case 명령종류.고기굽기:
-                메시지(팀, 전장식량.조리시작(상태, 팀, 내용.값));
+                메시지(팀, 전장식량.조리시작(상태, 팀, 내용.값), 경고: true);
                 break;
             case 명령종류.고기사용:
-                메시지(팀, 전장식량.사용(상태, 팀, 내용.값));
+                var 음식결과 = 전장식량.사용(상태, 팀, 내용.값);
+                메시지(팀, 음식결과.문장, 음식결과.경고);
                 break;
             case 명령종류.스킬:
                 if (왕.생존) 시전(팀, 왕, 내용.값, 위치, 내용.부대);
@@ -526,6 +625,7 @@ public sealed partial class 전장규칙
         유닛.목적지 = 위치;
         유닛.표적 = -1;
         유닛.채집터 = -1;
+        유닛.재생대기채집터 = -1;
         유닛.사냥표적 = 0;
         유닛.훈련소 = -1;
         유닛.이동중 = true;
@@ -611,19 +711,101 @@ public sealed partial class 전장규칙
 
     void 채집지정(전장대상 유닛, int 번호)
     {
-        이동지정(유닛, 자원들[번호].오브젝트.position);
+        이동지정(유닛, 자원들[번호].위치);
         유닛.채집터 = 번호;
     }
 
-    void 방향이동지정(int 팀, 전장대상 왕, Vector2 방향)
+    bool 채집가능(int 번호) => 번호 >= 0 && 번호 < 자원들.Length && 상태.자원잔량[번호] > 0;
+
+    bool 도달가능(Vector2 시작, Vector2 목표, float 거리)
+    {
+        if ((시작 - 목표).sqrMagnitude <= 거리 * 거리) return true;
+        bool 목표통행가능 = 길찾기.통행가능(목표);
+        var 목표칸중심 = 길찾기.중심정렬(목표);
+        if (목표통행가능 && 길찾기.중심정렬(시작) == 목표칸중심) return true;
+        길찾기.구하기(시작, 목표, 도달확인경로);
+        if (도달확인경로.Count == 0) return false;
+        var 끝 = 도달확인경로[^1];
+        return (끝 - 목표).sqrMagnitude <= 거리 * 거리 || 목표통행가능 && 끝 == 목표칸중심;
+    }
+
+    int 다음채집터(Vector2 주민위치, 자원지점 고갈지점)
+    {
+        int 결과 = -1;
+        float 최단거리 = float.PositiveInfinity;
+        Vector2 고갈위치 = 고갈지점.위치;
+        for (int i = 0; i < 자원들.Length; i++)
+        {
+            var 지점 = 자원들[i];
+            if (지점.재화번호 != 고갈지점.재화번호 || !채집가능(i)) continue;
+            Vector2 위치 = 지점.위치;
+            if ((위치 - 고갈위치).sqrMagnitude > 연속채집반경 * 연속채집반경) continue;
+            float 거리 = (위치 - 주민위치).sqrMagnitude;
+            if (거리 >= 최단거리) continue;
+            if (지점.숲나무 && 거리 > 채집거리 * 채집거리 && !길찾기.채집인접칸있음(위치)) continue;
+            if (!도달가능(주민위치, 위치, 채집거리)) continue;
+            결과 = i;
+            최단거리 = 거리;
+        }
+        return 결과;
+    }
+
+    void 자원채집(전장대상 유닛, int 요청량)
+    {
+        int 번호 = 유닛.채집터;
+        var 지점 = 자원들[번호];
+        int 수량 = Mathf.Min(상태.자원잔량[번호], 요청량);
+        상태.자원잔량[번호] -= 수량;
+        var 진영 = 상태.진영들[유닛.팀];
+        진영.재화[지점.재화번호] += 수량;
+        진영.자원별채집횟수[번호]++;
+        진영.채집완료 = true;
+        if (상태.자원잔량[번호] > 0) return;
+
+        상태.자원재생완료시각[번호] = 상태.시간 + 자원고갈시간 + 자원재생시간;
+        고갈자원들.Add(번호);
+        if (지점.숲나무) 길찾기.숲나무반영(지점.위치, false);
+        foreach (var 대상 in 상태.대상들)
+        {
+            if (대상 == null || 대상.채집터 != 번호) continue;
+            if (대상 is { 생존: true, 종류: 대상종류.주민, 훈련소: < 0 })
+            {
+                int 다음 = 다음채집터(대상.위치, 지점);
+                if (다음 >= 0)
+                {
+                    채집지정(대상, 다음);
+                    continue;
+                }
+                대상.재생대기채집터 = 번호;
+            }
+            대상.채집터 = -1;
+            대상.이동중 = false;
+        }
+    }
+
+    void 자원재생()
+    {
+        for (int i = 고갈자원들.Count - 1; i >= 0; i--)
+        {
+            int 번호 = 고갈자원들[i];
+            if (상태.시간 < 상태.자원재생완료시각[번호]) continue;
+            var 지점 = 자원들[번호];
+            상태.자원잔량[번호] = 지점.채집한도;
+            상태.자원재생완료시각[번호] = 0;
+            if (지점.숲나무) 길찾기.숲나무반영(지점.위치, true);
+            고갈자원들.RemoveAt(i);
+        }
+    }
+
+    void 방향이동지정(int 팀, 전장대상 왕, Vector2 방향, bool 달리기)
     {
         if (!왕.생존 || Mathf.Abs(방향.x) > 1 || Mathf.Abs(방향.y) > 1) return;
-        if (방향 == Vector2.zero)
+        if (방향 == Vector2.zero && !달리기)
         {
             왕방향입력[팀] = default;
             return;
         }
-        if (왕방향입력[팀].만료 <= 상태.시간)
+        if (방향 != Vector2.zero && (왕방향입력[팀].만료 <= 상태.시간 || 왕방향입력[팀].방향 == Vector2.zero))
         {
             왕.이동중 = false;
             왕.표적 = -1;
@@ -632,14 +814,14 @@ public sealed partial class 전장규칙
             길찾기.초기화(경로들[왕번호(팀)]);
         }
         // 입력 갱신이 끊겨도 왕이 계속 움직이지 않게 한다.
-        왕방향입력[팀] = (방향.normalized, 상태.시간 + .36f);
+        왕방향입력[팀] = (방향.normalized, 상태.시간 + .36f, 달리기);
     }
 
     void 건설(int 팀, int 종류, Vector2 위치, bool 세로 = false)
     {
         위치 = 길찾기.중심정렬(위치);
         string 오류 = 건설오류(상태, 길찾기, 자원들, 팀, 종류, 위치, out int 칸);
-        if (오류 != null) { 메시지(팀, 오류); return; }
+        if (오류 != null) { 메시지(팀, 오류, 경고: true); return; }
         var (건물, 체력) = 종류 switch
         {
             0 => (대상종류.제재소, 210),
@@ -722,38 +904,66 @@ public sealed partial class 전장규칙
         return 지불가능(상태.진영들[팀].재화, 종류) ? null : "재화가 부족합니다.";
     }
 
+    internal static int 양성예정병력(전장상태 상태, int 팀)
+    {
+        int 수 = 수량(상태, 팀, 대상종류.병사);
+        int 시작 = 왕번호(팀) + 6, 끝 = 왕번호(팀) + 병사시작칸;
+        for (int i = 시작; i < 끝; i++)
+            if (상태.대상들[i] is { 생존: true, 종류: 대상종류.주민, 훈련소: >= 0 }) 수++;
+        return 수;
+    }
+
+    // 기존 병력과 앞선 양성 예약 한 명당 기본 비용과 시간에 5%를 더한다.
+    internal static int 병사훈련비용(int 재화번호, int 병력)
+        => (비용[3][재화번호] * (20 + 병력) + 10) / 20;
+
+    internal static float 병사훈련시간(int 병력) => 주민훈련시간 * (20 + 병력) / 20;
+
     void 주민훈련접수(int 팀, int 훈련소번호, int[] 번호들)
     {
         훈련대기정리(팀);
+        훈련상태갱신(팀);
         if (훈련소번호 < 0 || 훈련소번호 >= 전체칸) return;
         var 건물 = 상태.대상들[훈련소번호];
         bool 전문 = 전문훈련소(건물);
         if (건물 is not { 생존: true, 완공대기: <= 0 } || 건물.팀 != 팀 || (!전문 && 건물.종류 != 대상종류.훈련소))
-        { 메시지(팀, "완성된 아군 훈련소가 필요합니다."); return; }
+        { 메시지(팀, "완성된 아군 훈련소가 필요합니다.", 경고: true); return; }
         if (!훈련자리(건물, out var 자리))
-        { 메시지(팀, "훈련소 입구에 통행 가능한 자리가 없습니다."); return; }
+        { 메시지(팀, "훈련소 입구에 통행 가능한 자리가 없습니다.", 경고: true); return; }
         int 접수 = 0;
         bool 후보있음 = false;
+        string 거절사유 = null;
+        int 병력 = 전문 ? 0 : 양성예정병력(상태, 팀);
+        var 진영 = 상태.진영들[팀];
         foreach (var 주민 in 내부대(팀, 번호들))
         {
             if (!훈련가능유닛(팀, 건물, 주민)) continue;
             후보있음 = true;
-            if (주민.종류 == 대상종류.주민 && 수량(상태, 팀, 대상종류.병사) + 훈련예약인원(팀) >= 병력제한)
-            { 메시지(팀, "훈련 대기 인원을 포함해 병력 정원에 도달했습니다."); break; }
-            if (!지불(팀, 3)) break;
+            if (!전문 && 병력 >= 병력제한)
+            { 거절사유 = "병력 정원이 가득 찼습니다."; break; }
+            int 비용산정병력 = 전문 ? 0 : 병력;
+            bool 지불가능 = true;
+            for (int i = 0; i < 진영.재화.Length; i++)
+                if (진영.재화[i] < 병사훈련비용(i, 비용산정병력)) { 지불가능 = false; break; }
+            if (!지불가능) { 거절사유 = "재화가 부족합니다."; break; }
+            for (int i = 0; i < 진영.재화.Length; i++)
+                진영.재화[i] -= 병사훈련비용(i, 비용산정병력);
             이동지정(주민, 자리);
             주민.훈련소 = 훈련소번호;
-            훈련대기열[팀].Enqueue(new 훈련신청
+            var 신청 = new 훈련신청
             {
                 주민번호 = Array.IndexOf(상태.대상들, 주민), 훈련소번호 = 훈련소번호,
-                주민 = 주민, 건물 = 건물, 남은시간 = 전문 ? 2f : 주민훈련시간
-            });
+                주민 = 주민, 건물 = 건물, 비용산정병력 = 비용산정병력,
+                남은시간 = 전문 ? 2f : 병사훈련시간(비용산정병력)
+            };
+            훈련대기열[팀].Enqueue(신청);
+            병력++;
             접수++;
         }
-        상태.진영들[팀].훈련대기인원 = 훈련대기열[팀].Count;
-        상태.진영들[팀].훈련남은시간 = 훈련대기열[팀].Count > 0 ? 훈련대기열[팀].Peek().남은시간 : 0;
-        if (접수 > 0) 메시지(팀, $"유닛 {접수}명이 훈련소로 이동합니다. 도착 후 순서대로 훈련합니다.");
-        else if (!후보있음) 메시지(팀, 전문 ? "일반 훈련소에서 먼저 병사를 양성한 뒤 선택하세요." : "아직 훈련 대기 중이 아닌 주민을 선택하세요.");
+        훈련상태갱신(팀);
+        if (접수 > 0) 메시지(팀, 거절사유 == null ? $"유닛 {접수}명이 훈련소로 이동합니다." : $"{접수}명 훈련 접수 · {거절사유}", 경고: 거절사유 != null);
+        else if (거절사유 != null) 메시지(팀, 거절사유, 경고: true);
+        else if (!후보있음) 메시지(팀, 전문 ? "일반 훈련소에서 먼저 병사를 양성한 뒤 선택하세요." : "아직 훈련 대기 중이 아닌 주민을 선택하세요.", 경고: true);
     }
 
     bool 훈련자리(전장대상 건물, out Vector2 자리)
@@ -779,19 +989,39 @@ public sealed partial class 전장규칙
             if (신청.주민.생존 && 신청.주민.훈련소 == 신청.훈련소번호
                 && ReferenceEquals(상태.대상들[신청.주민번호], 신청.주민)
                 && 신청.건물.생존 && ReferenceEquals(상태.대상들[신청.훈련소번호], 신청.건물))
-            { 큐.Enqueue(신청); continue; }
-            for (int j = 0; j < 비용[3].Length; j++) 상태.진영들[팀].재화[j] += 비용[3][j];
+            {
+                큐.Enqueue(신청);
+                continue;
+            }
+            신청.건물.훈련대기수 = 0;
+            신청.건물.훈련잔여합계 = 0;
+            for (int j = 0; j < 비용[3].Length; j++)
+                상태.진영들[팀].재화[j] += 병사훈련비용(j, 신청.비용산정병력);
             if (신청.주민.훈련소 == 신청.훈련소번호)
             {
                 신청.주민.훈련소 = -1;
                 신청.주민.훈련남음 = 0;
                 신청.주민.이동중 = false;
             }
-            메시지(팀, "주민 훈련이 취소되어 비용을 반환했습니다.");
+            메시지(팀, "주민 훈련이 취소되어 비용을 반환했습니다.", 경고: true);
         }
+    }
+
+    void 훈련상태갱신(int 팀)
+    {
+        var 큐 = 훈련대기열[팀];
         var 진영 = 상태.진영들[팀];
         진영.훈련대기인원 = 큐.Count;
         진영.훈련남은시간 = 큐.Count > 0 ? 큐.Peek().남은시간 : 0;
+        foreach (var 신청 in 큐) 신청.건물.훈련대기수 = 0;
+        // 같은 팀의 훈련 접수는 학교가 달라도 순서대로 처리한다.
+        float 누적시간 = 0;
+        foreach (var 신청 in 큐)
+        {
+            누적시간 += 신청.남은시간;
+            신청.건물.훈련대기수++;
+            신청.건물.훈련잔여합계 = 누적시간;
+        }
     }
 
     void 주민훈련진행(int 팀, float 초)
@@ -805,7 +1035,6 @@ public sealed partial class 전장규칙
         신청.주민.이동중 = false;
         if (전문훈련소(신청.건물)) 신청.주민.훈련남음 = 신청.남은시간;
         신청.남은시간 = Mathf.Max(0, 신청.남은시간 - 초);
-        상태.진영들[팀].훈련남은시간 = 신청.남은시간;
         if (신청.남은시간 > 0) return;
         bool 기존병사 = 신청.주민.종류 == 대상종류.병사;
         int 칸 = 기존병사 ? 신청.주민번호 : 빈칸(상태, 팀, 대상종류.병사);
@@ -829,10 +1058,10 @@ public sealed partial class 전장규칙
         신청.주민.체력 = 0;
         신청.주민.이동중 = false;
         큐.Dequeue();
+        신청.건물.훈련대기수 = 0;
+        신청.건물.훈련잔여합계 = 0;
         var 진영 = 상태.진영들[팀];
         진영.모집완료 = true;
-        진영.훈련대기인원 = 큐.Count;
-        진영.훈련남은시간 = 큐.Count > 0 ? 큐.Peek().남은시간 : 0;
         메시지(팀, 전문 ? $"{병사.병과} 훈련 완료! 능력치가 강화됐습니다." : "훈련 완료! 주민이 병사로 전환됐습니다.");
     }
 
@@ -890,7 +1119,7 @@ public sealed partial class 전장규칙
         진영.주민추첨인원 = 인원;
         진영.주민추첨결과 = 결과;
         진영.주민추첨결과번호++;
-        메시지(팀, 결과);
+        메시지(팀, 결과, 경고: 인원 < 0);
     }
 
     void 주민추첨완료(int 팀)
@@ -995,7 +1224,7 @@ public sealed partial class 전장규칙
         else
         {
             if (Vector2.Distance(위치, 왕.위치) > (번호 == 0 ? 5 : 7))
-            { 메시지(팀, "스킬 사거리 밖입니다."); return; }
+            { 메시지(팀, "스킬 사거리 밖입니다.", 경고: true); return; }
             float 반경 = 번호 == 0 ? 1.7f : 2.58f + 능력.지능 * .18f;
             진영.스킬위치 = 위치;
             진영.스킬반경 = 반경;
@@ -1066,9 +1295,11 @@ public sealed partial class 전장규칙
         if (상태.승자 >= 0) return;
         if (!float.IsFinite(초) || 초 < 0) return;
         상태.시간 += 초;
+        자원재생();
         기본공격진행(초);
         직업지대진행(초);
         for (int 팀 = 0; 팀 < 2; 팀++) 경제(팀, 초);
+        Span<bool> 달린팀 = stackalloc bool[2] { false, false };
         for (int i = 0; i < 전체칸 && 상태.승자 < 0; i++)
         {
             var 대상 = 상태.대상들[i];
@@ -1078,6 +1309,10 @@ public sealed partial class 전장규칙
                 if (대상.종류 == 대상종류.왕 && (대상.재등장 -= 초) <= 0)
                 {
                     var 회관 = 상태.대상들[회관번호(대상.팀)];
+                    var 왕진영 = 상태.진영들[대상.팀];
+                    왕진영.스태미나 = 최대스태미나;
+                    왕진영.스태미나회복대기 = 0;
+                    왕진영.스태미나고갈 = false;
                     배치(i, 대상.팀, 대상종류.왕, 회관.위치 + Vector2.down * 1.1f, 대상.최대체력);
                 }
                 continue;
@@ -1111,16 +1346,34 @@ public sealed partial class 전장규칙
             if (제어진행(대상, 초)) continue;
             if (소환진행(대상, 초)) continue;
             var 이전위치 = 대상.위치;
-            유닛진행(i, 대상, 초);
+            float 달리기시간 = 0;
+            if (대상.종류 == 대상종류.왕 && !진영.스태미나고갈
+                && 왕방향입력[대상.팀] is { 달리기: true } 입력 && 입력.만료 > 상태.시간)
+                달리기시간 = Mathf.Min(초, 진영.스태미나 / 초당스태미나소모);
+            유닛진행(i, 대상, 초, 달리기시간);
             벽차단(대상, 이전위치);
+            if (달리기시간 > 0 && 대상.위치 != 이전위치)
+            {
+                달린팀[대상.팀] = true;
+                진영.스태미나 = Mathf.Max(0, 진영.스태미나 - 달리기시간 * 초당스태미나소모);
+                if (진영.스태미나 < .001f)
+                {
+                    진영.스태미나 = 0;
+                    진영.스태미나고갈 = true;
+                }
+                진영.스태미나회복대기 = 스태미나회복지연;
+            }
         }
         if (상태.승자 < 0)
         {
+            for (int 팀 = 0; 팀 < 2; 팀++)
+                if (!달린팀[팀]) 스태미나회복(팀, 초);
             시련진행(초);
             병사간격유지(초);
             짐승들.진행(초);
             if (혼자) 적진행(초);
         }
+        왕기술효과갱신();
     }
 
     void 병사간격유지(float 초)
@@ -1184,10 +1437,12 @@ public sealed partial class 전장규칙
     void 경제(int 팀, float 초)
     {
         주민훈련진행(팀, 초);
+        훈련상태갱신(팀);
         var 진영 = 상태.진영들[팀];
         진영.스킬표시시간 -= 초;
         진영.음식회복시간 = Mathf.Max(0, 진영.음식회복시간 - 초);
-        메시지(팀, 전장식량.조리진행(상태, 팀, 초));
+        var 조리결과 = 전장식량.조리진행(상태, 팀, 초);
+        메시지(팀, 조리결과.문장, 조리결과.경고);
         진영.알림시간 -= 초;
         for (int i = 0; i < 4; i++) 진영.쿨다운[i] = Mathf.Max(0, 진영.쿨다운[i] - 초);
         for (int i = 왕번호(팀) + 2; i < 왕번호(팀) + 6; i++)
@@ -1226,6 +1481,16 @@ public sealed partial class 전장규칙
         배치(칸, 팀, 유닛, 제한(위치), 능력치(유닛).체력);
     }
 
+    void 스태미나회복(int 팀, float 초)
+    {
+        var 진영 = 상태.진영들[팀];
+        if (진영.스태미나 >= 최대스태미나 || !상태.대상들[왕번호(팀)].생존) return;
+        float 회복시간 = Mathf.Max(0, 초 - 진영.스태미나회복대기);
+        진영.스태미나회복대기 = Mathf.Max(0, 진영.스태미나회복대기 - 초);
+        진영.스태미나 = Mathf.Min(최대스태미나, 진영.스태미나 + 회복시간 * 초당스태미나회복);
+        if (진영.스태미나 >= 달리기재개스태미나) 진영.스태미나고갈 = false;
+    }
+
     Vector2 왕방향이동(Vector2 지금, Vector2 방향, float 거리)
     {
         var 다음 = 길찾기.방향이동(지금, 제한(지금 + 방향 * 거리));
@@ -1239,7 +1504,7 @@ public sealed partial class 전장규칙
         return 다음;
     }
 
-    void 유닛진행(int 번호, 전장대상 유닛, float 초)
+    void 유닛진행(int 번호, 전장대상 유닛, float 초, float 달리기시간)
     {
         bool 왕 = 유닛.종류 == 대상종류.왕;
         if (왕 && 왕공격동작중(유닛)) return;
@@ -1250,7 +1515,7 @@ public sealed partial class 전장규칙
             대상종류.왕 => 3.18f,
             대상종류.주민 => 1.98f,
             _ => 2.35f
-        } + 능력.민첩 * .18f) * 초 * 길찾기.이동속도배율(유닛.위치) * 직업이속(유닛);
+        } + 능력.민첩 * .18f) * (초 + 달리기시간 * (달리기배율 - 1)) * 길찾기.이동속도배율(유닛.위치) * 직업이속(유닛);
         if (유닛.속박 > 0) 이동거리 = 0;
         if (유닛.훈련소 >= 0)
         {
@@ -1263,7 +1528,7 @@ public sealed partial class 전장규칙
             else 유닛.이동중 = false;
             return;
         }
-        if (왕 && 왕방향입력[유닛.팀].만료 > 상태.시간)
+        if (왕 && 왕방향입력[유닛.팀].만료 > 상태.시간 && 왕방향입력[유닛.팀].방향 != Vector2.zero)
         {
             유닛위치갱신(유닛, 왕방향이동(유닛.위치, 왕방향입력[유닛.팀].방향, 이동거리));
             return;
@@ -1324,22 +1589,25 @@ public sealed partial class 전장규칙
         else
         {
             유닛.표적 = -1;
+            if (유닛.채집터 >= 0 && !채집가능(유닛.채집터))
+            {
+                유닛.채집터 = -1;
+                유닛.이동중 = false;
+            }
+            if (채집가능(유닛.재생대기채집터))
+                채집지정(유닛, 유닛.재생대기채집터);
             if (유닛.채집터 >= 0)
             {
                 var 지점 = 자원들[유닛.채집터];
-                목적 = 지점.오브젝트.position;
+                목적 = 지점.위치;
                 if ((유닛.위치 - 목적).sqrMagnitude <= 채집거리 * 채집거리)
                 {
-                    if (왕) 유닛.이동중 = false;
+                    유닛.이동중 = false;
                     if (유닛.공격대기 <= 0)
                     {
-                        int 재화 = 지점.재화번호;
                         int 채집량 = 왕 ? 1 : 3;
-                        var 채집진영 = 상태.진영들[유닛.팀];
-                        채집진영.재화[재화] += 재화 < 2 ? 채집량 * 2 : 채집량;
-                        채집진영.자원별채집횟수[유닛.채집터]++;
+                        자원채집(유닛, 지점.재화번호 < 2 ? 채집량 * 2 : 채집량);
                         유닛.공격대기 = 왕 ? 2.2f : 3.6f - 능력.지능 * .1f;
-                        채집진영.채집완료 = true;
                     }
                     return;
                 }
@@ -1349,7 +1617,7 @@ public sealed partial class 전장규칙
         if (길찾기.이동(경로들[번호], 유닛.위치, 목적, 이동거리, out Vector2 다음))
         {
             유닛.이동중 = false;
-            if (왕 && 유닛.채집터 >= 0 && (다음 - 목적).sqrMagnitude > 채집거리 * 채집거리)
+            if (유닛.채집터 >= 0 && (다음 - 목적).sqrMagnitude > 채집거리 * 채집거리)
                 유닛.채집터 = -1;
         }
         유닛위치갱신(유닛, 다음);

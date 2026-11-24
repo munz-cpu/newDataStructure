@@ -9,6 +9,7 @@ sealed class 전장안개 : IDisposable
     const float 갱신간격 = .1f;
     const float 안개걷힘시간 = .55f;
     static readonly Color32 미탐사 = new(15, 20, 30, 255);
+    static readonly Color32 지도미탐사 = new(39, 27, 20, 255);
 
     readonly Rect 전장범위;
     readonly int 너비, 높이;
@@ -50,7 +51,7 @@ sealed class 전장안개 : IDisposable
             var 위치 = 전장범위.min + new Vector2(x + .5f, y + .5f) / 칸밀도;
             지형색[번호] = 지형.지도색(위치);
             바다칸[번호] = 지형.바다인가(위치);
-            지도픽셀[번호] = 바다칸[번호] ? 지형색[번호] : 미탐사;
+            지도픽셀[번호] = 바다칸[번호] ? 지형색[번호] : 지도미탐사;
         }
         전장지도 = new Texture2D(너비, 높이, TextureFormat.RGBA32, false)
         {
@@ -132,7 +133,7 @@ sealed class 전장안개 : IDisposable
             if (픽셀[번호].a == 불투명도) continue;
             픽셀[번호].a = 불투명도;
             if (!바다칸[번호])
-                지도픽셀[번호] = Color32.Lerp(지형색[번호], 미탐사, 불투명도 / 255f);
+                지도픽셀[번호] = Color32.Lerp(지형색[번호], 지도미탐사, 불투명도 / 255f);
             변경 = true;
         }
 

@@ -14,10 +14,18 @@
     height: 32px;
     padding: 0 13px;
     background-color: #493426;
+    background-image: url("Art/Interface/hewn-wood-button.png");
+    background-size: 100% 100%;
     font-size: 16px;
 }
 .food-toggle:hover, .food-small-button:hover {
-    background-color: #6e5137;
+    -unity-background-image-tint-color: white;
+}
+.food-toggle:active, .food-small-button:active {
+    -unity-background-image-tint-color: #d5b291;
+}
+.food-toggle, .food-small-button {
+    -unity-background-image-tint-color: #eee1cc;
 }
 .food-panel {
     top: 99px;
@@ -25,6 +33,8 @@
     max-width: 90%;
     padding: 9px;
     background-color: #2b211a;
+    background-image: url("Art/Interface/hewn-wood-hud.png");
+    background-size: 100% 100%;
 }
 .food-title {
     color: #f3ddab;
@@ -39,7 +49,7 @@
     align-items: center;
     border-bottom-width: 1px;
     border-bottom-color: #614933;
-    background-color: #362a20;
+    background-color: rgba(42, 29, 20, 0.83);
 }
 .food-icon {
     width: 37px;
@@ -69,6 +79,8 @@
     color: #f0dab1;
     border-color: #785d3f;
     background-color: #4c3929;
+    background-image: url("Art/Interface/hewn-wood-button.png");
+    background-size: 100% 100%;
     font-size: 12px;
 }
 .food-small-button:disabled { opacity: 0.42; }

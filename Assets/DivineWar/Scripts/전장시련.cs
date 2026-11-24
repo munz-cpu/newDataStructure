@@ -1,7 +1,9 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public enum 시련단계 { 봉인, 전투, 보상, 완료 }
+public enum 골렘패턴 { 없음, 지진강타, 낙석, 지면균열 }
 
 [Serializable]
 public sealed class 시련상태
@@ -9,14 +11,40 @@ public sealed class 시련상태
     public Vector2 위치;
     public 시련단계 단계;
     public int 팀 = -1, 보상 = -1;
-    public float 소환남음, 이탈시간, 강타대기 = 5, 강타예고;
+    public float 소환남음, 이탈시간, 패턴대기, 패턴예고;
+    public 골렘패턴 패턴;
+    public Vector2 예고중심;
+    public float 예고각도;
+
+    public Vector2 예고반경 => 패턴 switch
+    {
+        골렘패턴.지진강타 => Vector2.one * 3,
+        골렘패턴.낙석 => Vector2.one * 1.8f,
+        골렘패턴.지면균열 => new Vector2(4, 1.2f),
+        _ => Vector2.zero
+    };
+
+    public float 예고길이 => 패턴 == 골렘패턴.지면균열 ? 1.1f : 1.25f;
+
+    public string 패턴이름 => 패턴 switch
+    {
+        골렘패턴.지진강타 => "지진 강타",
+        골렘패턴.낙석 => "낙석",
+        골렘패턴.지면균열 => "지면 균열",
+        _ => ""
+    };
 }
 
 public sealed partial class 전장규칙
 {
     public const int 시련제한 = 6;
     public const float 시련사용거리 = 2.6f;
+    public const float 회관과시련간격 = 16f;
     public const int 시련시작칸 = 시설시작칸 + 시설진영칸 * 2;
+    const float 골렘근접거리 = 1.4f;
+    const float 시련유지거리 = 9;
+
+    public static bool 골렘격노(전장대상 보스) => 보스.체력 <= 보스.최대체력 * .4f;
     public static int 시련보스번호(int 번호) => 시련시작칸 + 번호;
     public static string 시련보상제목(int 보상) => 보상 switch
     {
@@ -48,11 +76,39 @@ public sealed partial class 전장규칙
 
     public void 시련배치(Vector2[] 위치들)
     {
-        if (상태.시련들.Length != 0 || 위치들 == null) return;
-        int 수 = Mathf.Min(시련제한, 위치들.Length);
-        상태.시련들 = new 시련상태[수];
-        for (int i = 0; i < 수; i++)
-            상태.시련들[i] = new 시련상태 { 위치 = 위치들[i] };
+        if (상태.시련들.Length != 0 || 위치들 is not { Length: > 0 }) return;
+        const float 시련간격 = 8;
+        var 시련들 = new List<시련상태>(시련제한);
+        var 청록회관 = 상태.대상들[회관번호(0)].위치;
+        var 적색회관 = 상태.대상들[회관번호(1)].위치;
+        var 후보들 = 길찾기.연결된칸중심들(상태.대상들[왕번호(0)].위치);
+        후보들.RemoveAll(위치 => (위치 - 청록회관).sqrMagnitude < 회관과시련간격 * 회관과시련간격
+            || (위치 - 적색회관).sqrMagnitude < 회관과시련간격 * 회관과시련간격
+            || !시련공터인가(위치));
+        for (int i = 0; i < 위치들.Length && 시련들.Count < 시련제한 && 후보들.Count > 0; i++)
+        {
+            var 기준 = 위치들[i];
+            float 최단 = float.PositiveInfinity;
+            Vector2 최적 = 후보들[0];
+            foreach (var 후보 in 후보들)
+            {
+                float 거리 = (후보 - 기준).sqrMagnitude;
+                if (거리 >= 최단) continue;
+                최단 = 거리;
+                최적 = 후보;
+            }
+            시련들.Add(new 시련상태 { 위치 = 최적 });
+            후보들.RemoveAll(위치 => (위치 - 최적).sqrMagnitude < 시련간격 * 시련간격);
+        }
+        상태.시련들 = 시련들.ToArray();
+    }
+
+    bool 시련공터인가(Vector2 위치)
+    {
+        for (int y = -1; y <= 1; y++)
+        for (int x = -1; x <= 1; x++)
+            if (!길찾기.건설지형가능(위치 + new Vector2(x, y))) return false;
+        return 자원지점과간격(자원들, 위치);
     }
 
     void 시련사용(int 팀, int 번호)
@@ -61,15 +117,16 @@ public sealed partial class 전장규칙
         var 시련 = 상태.시련들[번호];
         var 왕 = 상태.대상들[왕번호(팀)];
         if (!왕.생존 || 왕.속박중 || Vector2.Distance(왕.위치, 시련.위치) > 시련사용거리)
-        { 메시지(팀, "왕이 시련석 가까이(2.6칸) 가서 클릭하세요."); return; }
+        { 메시지(팀, "왕이 시련석 가까이(2.6칸) 가서 클릭하세요.", 경고: true); return; }
         if (시련.단계 == 시련단계.보상 && 시련.팀 == 팀)
         { 시련보상수령(번호); return; }
         if (시련.단계 != 시련단계.봉인) return;
         시련.팀 = 팀; 시련.단계 = 시련단계.전투; 시련.소환남음 = 1.5f;
-        시련.이탈시간 = 0; 시련.강타대기 = 5; 시련.강타예고 = 0;
+        시련.이탈시간 = 0; 시련.패턴대기 = 3.5f;
+        시련.패턴 = 골렘패턴.없음; 시련.패턴예고 = 0;
         왕방향입력[팀] = default;
         이동지정(왕, 왕.위치); 왕.이동중 = false;
-        메시지(팀, "시련 활성화! 망각의 파수꾼이 깨어납니다. 붉은 강타 범위를 피하세요.");
+        메시지(팀, "시련 활성화! 망각의 파수꾼이 깨어납니다. 바닥에 표시되는 공격 범위를 피하세요.");
     }
 
     void 시련진행(float 초)
@@ -84,7 +141,7 @@ public sealed partial class 전장규칙
                 시련.소환남음 = Mathf.Max(0, 시련.소환남음 - 초);
                 if (시련.소환남음 > 0) continue;
                 var 위치 = 길찾기.중심정렬(시련.위치);
-                var 보스 = 배치(칸, 1 - 시련.팀, 대상종류.시련보스, 위치, 650);
+                var 보스 = 배치(칸, 1 - 시련.팀, 대상종류.시련보스, 위치, 950);
                 보스.목적지 = 위치;
                 continue;
             }
@@ -92,15 +149,17 @@ public sealed partial class 전장규칙
             if (적 == null || !적.생존)
             {
                 시련.단계 = 시련단계.보상;
+                시련.패턴예고 = 0;
                 시련.보상 = 시련보상추첨(시련.팀);
                 메시지(시련.팀, "시련 돌파! 시련석을 클릭해 " + 시련보상이름(시련.보상) + " 보상을 받으세요.");
                 continue;
             }
-            전장대상 표적 = null; int 표적번호 = -1; float 최단 = 81;
+            전장대상 표적 = null; int 표적번호 = -1; float 최단 = float.PositiveInfinity;
             for (int j = 왕번호(시련.팀); j < 왕번호(시련.팀) + 진영칸; j++)
             {
                 var 유닛 = 상태.대상들[j];
-                if (유닛 is not { 생존: true } || 유닛.건물 || Vector2.Distance(유닛.위치, 시련.위치) > 9) continue;
+                if (유닛 is not { 생존: true, 건물: false, 훈련남음: <= 0 }
+                    || (유닛.위치 - 시련.위치).sqrMagnitude > 시련유지거리 * 시련유지거리) continue;
                 float 거리 = (유닛.위치 - 적.위치).sqrMagnitude;
                 if (거리 >= 최단) continue;
                 최단 = 거리; 표적 = 유닛; 표적번호 = j;
@@ -109,38 +168,86 @@ public sealed partial class 전장규칙
             if (시련.이탈시간 >= 8)
             {
                 적.체력 = 0; 시련.단계 = 시련단계.봉인; 시련.팀 = -1;
+                시련.패턴예고 = 0;
                 continue;
             }
             적.공격대기 -= 초; 적.효과시간 = Mathf.Max(0, 적.효과시간 - 초);
             if (적.속박중) continue;
-            if (시련.강타예고 > 0)
+            bool 격노 = 골렘격노(적);
+            if (시련.패턴예고 > 0)
             {
-                시련.강타예고 = Mathf.Max(0, 시련.강타예고 - 초);
-                if (시련.강타예고 <= 0)
-                {
-                    for (int j = 왕번호(시련.팀); j < 왕번호(시련.팀) + 진영칸; j++)
-                        if (상태.대상들[j] is { 생존: true, 건물: false } 유닛 && Vector2.Distance(유닛.위치, 적.위치) <= 2.5f)
-                            피해(j, 55, 적.팀);
-                    시련.강타대기 = 5;
-                }
+                시련.패턴예고 = Mathf.Max(0, 시련.패턴예고 - 초);
+                if (시련.패턴예고 <= 0) 골렘패턴타격(시련, 적);
                 continue;
             }
             if (표적 == null) { 적.이동중 = false; continue; }
             적.표적 = 표적번호; 적.시선 = (표적.위치 - 적.위치).normalized;
-            시련.강타대기 -= 초;
-            if (시련.강타대기 <= 0) { 시련.강타예고 = 1.2f; 적.이동중 = false; continue; }
-            if (최단 <= 1.4f * 1.4f)
+            시련.패턴대기 -= 초 * (격노 ? 1.6f : 1);
+            if (시련.패턴대기 <= 0)
             {
                 적.이동중 = false;
-                if (적.공격대기 <= 0) { 기본공격시작(적, 표적번호, 24); 적.공격대기 = 1.1f; }
+                if (적.공격순번 == 0 || 상태.시간 - 적.공격시각 >= .25f)
+                    골렘패턴예고(시련, 적, 표적.위치);
+                continue;
+            }
+            if (최단 <= 골렘근접거리 * 골렘근접거리)
+            {
+                적.이동중 = false;
+                if (적.공격대기 <= 0)
+                {
+                    기본공격시작(적, 표적번호, 격노 ? 40 : 34);
+                    적.공격대기 = 격노 ? .8f : 1;
+                }
             }
             else
             {
                 적.이동중 = true; 적.목적지 = 표적.위치;
-                길찾기.이동(경로들[칸], 적.위치, 표적.위치, 1.8f * 직업이속(적) * 초, out var 다음);
+                길찾기.이동(경로들[칸], 적.위치, 표적.위치, (격노 ? 2.65f : 2.2f) * 직업이속(적) * 초, out var 다음);
                 유닛위치갱신(적, 다음);
             }
         }
+    }
+
+    void 골렘패턴예고(시련상태 시련, 전장대상 보스, Vector2 표적위치)
+    {
+        시련.패턴 = 시련.패턴 switch
+        {
+            골렘패턴.지진강타 => 골렘패턴.낙석,
+            골렘패턴.낙석 => 골렘패턴.지면균열,
+            _ => 골렘패턴.지진강타
+        };
+        var 방향 = 보스.시선 == Vector2.zero ? Vector2.down : 보스.시선;
+        시련.예고각도 = 시련.패턴 == 골렘패턴.지면균열 ? Mathf.Atan2(방향.y, 방향.x) * Mathf.Rad2Deg : 0;
+        시련.예고중심 = 시련.패턴 switch
+        {
+            골렘패턴.낙석 => 표적위치,
+            골렘패턴.지면균열 => 보스.위치 + 방향 * 시련.예고반경.x,
+            _ => 보스.위치
+        };
+        시련.패턴예고 = 시련.예고길이;
+    }
+
+    void 골렘패턴타격(시련상태 시련, 전장대상 보스)
+    {
+        float 피해량 = 시련.패턴 switch
+        {
+            골렘패턴.지진강타 => 72,
+            골렘패턴.낙석 => 62,
+            골렘패턴.지면균열 => 82,
+            _ => 0
+        };
+        var 반경 = 시련.예고반경;
+        var 역회전 = Quaternion.Euler(0, 0, -시련.예고각도);
+        for (int j = 왕번호(시련.팀); j < 왕번호(시련.팀) + 진영칸; j++)
+        {
+            if (상태.대상들[j] is not { 생존: true, 건물: false } 유닛) continue;
+            var 변위 = 역회전 * (유닛.위치 - 시련.예고중심);
+            var 범위비율 = new Vector2(변위.x / 반경.x, 변위.y / 반경.y);
+            if (범위비율.sqrMagnitude <= 1) 피해(j, 피해량, 보스.팀);
+        }
+        공격시각기록(보스, 골렘근접거리);
+        보스.공격대기 = .45f;
+        시련.패턴대기 = 4;
     }
 
     void 시련보상수령(int 번호)
@@ -159,7 +266,7 @@ public sealed partial class 전장규칙
         {
             // Reserve capacity exactly as training does; a full army never consumes the reward.
             if (수량(상태, 팀, 대상종류.병사) + 진영.훈련대기인원 + 3 > 병력제한)
-            { 메시지(팀, "해골 병사 3명을 위한 병력 공간이 필요합니다. 보상은 시련석에 보관됩니다."); return; }
+            { 메시지(팀, "해골 병사 3명을 위한 병력 공간이 필요합니다. 보상은 시련석에 보관됩니다.", 경고: true); return; }
             for (int i = 0; i < 3; i++)
             {
                 int 칸 = 빈칸(상태, 팀, 대상종류.병사);

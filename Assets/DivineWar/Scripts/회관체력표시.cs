@@ -5,6 +5,8 @@ using UnityEngine.UI;
 internal sealed class 회관체력표시
 {
     static readonly Color32 트랙색 = new(29, 22, 19, 255);
+    static readonly Color32 아군색 = new(207, 159, 90, 255);
+    static readonly Color32 적군색 = new(204, 104, 86, 255);
     static readonly Color32 글자색 = new(250, 239, 217, 255);
     static readonly Color32 미탐사색 = new(191, 178, 158, 255);
 
@@ -12,7 +14,7 @@ internal sealed class 회관체력표시
     readonly TMP_Text 아군글, 적군글;
 
     public 회관체력표시(RectTransform 부모, Sprite 테두리, TMP_Text 아군글,
-        TMP_Text 적군글, TMP_Text 시계, Color 아군색, Color 적군색)
+        TMP_Text 적군글, TMP_Text 시계)
     {
         this.아군글 = 아군글;
         this.적군글 = 적군글;

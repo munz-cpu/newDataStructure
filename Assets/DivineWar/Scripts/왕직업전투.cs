@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum 소환종류 { 없음, 모래병사, 포탑, 강화포탑, 태양포탑, 데이지 }
-public enum 지대종류 { 침묵, 술통, 화염, 불길, 망령, 수풀, 시야, 씨앗, 벽, 투사체, 기본투사체, 근접타격, 장막, 폭탄화살 }
+public enum 지대종류 { 침묵, 술통, 화염, 불길, 망령, 수풀, 시야, 씨앗, 벽, 투사체, 기본투사체, 근접타격, 장막, 폭탄화살, 돌진궤적, 스킬충격, 납치당김 }
 
 [Serializable]
 public sealed class 스킬지대
@@ -13,6 +13,7 @@ public sealed class 스킬지대
     public Vector2 위치, 시작, 방향;
     public float 반경, 남은시간, 지속시간, 다음틱, 피해량, 속도, 이동거리, 최대거리;
     internal 장착기술? 장착기술;
+    public 장착기술 연출기술;
     public bool 강화;
     public 왕직업 직업;
     public 기본공격종류 공격종류;
@@ -20,6 +21,7 @@ public sealed class 스킬지대
     // Slot identity guards are host-only; clients only render these zones.
     [NonSerialized] public 전장대상 부착대상;
     [NonSerialized] public 전장대상 발사자참조;
+    [NonSerialized] public Vector2 당김목표;
     [NonSerialized] public bool 독화살, 치유화살, 폭탄화살;
     [NonSerialized] public int 남은튕김;
     [NonSerialized] public HashSet<전장대상> 맞은대상 = new();
@@ -40,7 +42,7 @@ public sealed partial class 전장규칙
         if (재시전) return true;
         if (진영.쿨다운[번호] > 0) return true;
         if (기술.사거리 > 0 && Vector2.Distance(왕.위치, 위치) > 기술.사거리)
-        { 메시지(팀, "스킬 사거리 밖입니다."); return true; }
+        { 메시지(팀, "스킬 사거리 밖입니다.", 경고: true); return true; }
         if ((왕.속박 > 0 || 왕공격동작중(왕)) && ((직업 == 왕직업.트린다미어 && 번호 == 2)
             || (직업 == 왕직업.아지르 && 번호 == 2) || (직업 == 왕직업.이블린 && 번호 is 2 or 3)
             || (직업 == 왕직업.그라가스 && 번호 == 2) || (직업 == 왕직업.헤카림 && 번호 == 3))) return true;
@@ -155,7 +157,7 @@ public sealed partial class 전장규칙
                 if (번호 == 3) 성공 = 소환(팀, 소환종류.데이지, 위치, 30, 1, 왕) != null;
                 break;
         }
-        if (!성공) { 메시지(팀, "유효한 대상 또는 소환 공간이 필요합니다."); return true; }
+        if (!성공) { 메시지(팀, "유효한 대상 또는 소환 공간이 필요합니다.", 경고: true); return true; }
         왕.효과시간 = .45f; 왕.비전투 = 0; 왕.은신 = false; 왕.채집터 = -1;
         진영.스킬위치 = 기술.사거리 == 0 ? 왕.위치 : 위치;
         진영.스킬반경 = 1.6f; 진영.스킬표시시간 = .48f; 진영.스킬왕위치표시 = 기술.사거리 == 0;
@@ -268,15 +270,17 @@ public sealed partial class 전장규칙
         var 지대 = new 스킬지대 { 팀 = 팀, 종류 = 종류, 위치 = 위치, 시작 = 위치, 반경 = 반경, 남은시간 = 시간, 지속시간 = 시간, 직업 = 상태.진영들[팀].직업 };
         if (상태.지대들.Count >= 64)
         {
-            int 장식 = 상태.지대들.FindIndex(x => x.종류 == 지대종류.근접타격);
-            if (장식 < 0 && 종류 == 지대종류.근접타격) return 지대;
+            int 장식 = 상태.지대들.FindIndex(x => 시각지대(x.종류));
+            if (장식 < 0 && 시각지대(종류)) return 지대;
             if (장식 < 0)
-                장식 = 상태.지대들.FindIndex(x => x.종류 is not (지대종류.장막 or 지대종류.폭탄화살) && !x.폭탄화살);
+                장식 = 상태.지대들.FindIndex(x => x.종류 is not (지대종류.장막 or 지대종류.폭탄화살 or 지대종류.납치당김) && !x.폭탄화살);
             if (장식 < 0) return 지대;
             상태.지대들.RemoveAt(장식);
         }
         상태.지대들.Add(지대); return 지대;
     }
+    static bool 시각지대(지대종류 종류) => 종류 is 지대종류.근접타격 or 지대종류.돌진궤적 or 지대종류.스킬충격;
+
     스킬지대 발사(전장대상 왕, Vector2 방향, float 거리, float 속도, float 양, float 폭)
     {
         var 탄 = 지대추가(왕.팀, 지대종류.투사체, 왕.위치, 폭, 거리 / 속도 + .1f);
@@ -321,6 +325,11 @@ public sealed partial class 전장규칙
         for (int z = 상태.지대들.Count - 1; z >= 0; z--) {
             var 지대 = 상태.지대들[z]; var 왕 = 상태.대상들[왕번호(지대.팀)];
             지대.남은시간 -= 초; 지대.다음틱 -= 초;
+            if (지대.종류 == 지대종류.납치당김)
+            {
+                if (납치당김진행(지대, 초)) 상태.지대들.RemoveAt(z);
+                continue;
+            }
             if (지대.종류 == 지대종류.기본투사체) {
                 if (기본탄진행(지대, 초)) 상태.지대들.RemoveAt(z);
                 continue;
@@ -333,11 +342,20 @@ public sealed partial class 전장규칙
                 지대.위치 = 지대.부착대상.위치;
             }
             if (지대.종류 == 지대종류.투사체) {
-                var 이전 = 지대.위치; 지대.위치 += 지대.방향 * 지대.속도 * 초; 지대.이동거리 += 지대.속도 * 초;
+                if (지대.연출기술 == 장착기술.납치 && !지대.발사자참조.생존)
+                {
+                    상태.지대들.RemoveAt(z);
+                    continue;
+                }
+                var 이전 = 지대.위치;
+                float 이동 = Mathf.Min(지대.속도 * 초, 지대.최대거리 - 지대.이동거리);
+                지대.위치 += 지대.방향 * 이동;
+                지대.이동거리 += 이동;
                 if (지대.장착기술 is 장착기술 기술)
                 {
                     장착투사체적중(지대, 기술, 이전);
-                    if (지대.이동거리 >= 지대.최대거리 || 지대.남은시간 <= 0) 상태.지대들.RemoveAt(z);
+                    if (지대.종류 == 지대종류.투사체 && (지대.이동거리 >= 지대.최대거리 || 지대.남은시간 <= 0))
+                        상태.지대들.RemoveAt(z);
                     continue;
                 }
                 int 첫적 = -1; float 최단 = float.MaxValue;
