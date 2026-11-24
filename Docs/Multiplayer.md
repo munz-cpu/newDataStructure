@@ -5,8 +5,8 @@
 ## Unity Cloud 설정
 
 1. 저장소의 `ProjectSettings/ProjectSettings.asset`에 기록된 Cloud Project ID와 같은 프로젝트를 Unity Dashboard에서 선택한다.
-2. `development`와 `production` 환경을 만들고 Authentication 익명 로그인 및 Multiplayer의 Lobby·Relay 사용 상태를 확인한다.
-3. 같은 환경과 프로토콜 버전의 서버와 플레이어를 사용한다. 개발 빌드와 Editor는 `development`, 운영 빌드는 `production`에 연결한다. 서버는 컴파일 시 `DIVINEWAR_DEDICATED`로 구분한다. 각 서버 인스턴스에 별도의 인증 프로필 또는 서비스 계정을 위한 OS 사용자 디렉터리를 사용한다.
+2. UGS 기본 환경인 `production`에서 Authentication 익명 로그인 및 Multiplayer의 Lobby·Relay 사용 상태를 확인한다.
+3. 서버와 플레이어는 같은 환경과 프로토콜 버전을 사용해야 한다. 개발 빌드와 Editor에서 별도 환경을 사용하려면 Dashboard에 환경을 생성한 뒤 서버와 두 플레이어를 모두 같은 `DIVINEWAR_UGS_ENVIRONMENT` 값으로 실행한다. 운영 빌드는 기본 환경을 사용한다. 서버는 컴파일 시 `DIVINEWAR_DEDICATED`로 구분한다. 각 서버 인스턴스에 별도의 인증 프로필 또는 서비스 계정을 위한 OS 사용자 디렉터리를 사용한다.
 
 ## 빌드 및 배포
 
