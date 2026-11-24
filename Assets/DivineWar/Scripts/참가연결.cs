@@ -14,11 +14,6 @@ using UnityEngine;
 
 public sealed class 참가연결 : IDisposable
 {
-#if DIVINEWAR_PRODUCTION
-    public const string 환경 = "production";
-#else
-    public const string 환경 = "development";
-#endif
     const ushort 프로토콜 = 9;
     const string 버전키 = "divinewarProtocol";
     const string 명령채널 = "dw.command";
@@ -109,7 +104,11 @@ public sealed class 참가연결 : IDisposable
 #else
             if (UnityServices.State != ServicesInitializationState.Initialized)
             {
-                var 옵션 = new InitializationOptions().SetEnvironmentName(환경);
+                var 옵션 = new InitializationOptions();
+#if !DIVINEWAR_PRODUCTION
+                string 환경 = Environment.GetEnvironmentVariable("DIVINEWAR_UGS_ENVIRONMENT");
+                if (!string.IsNullOrWhiteSpace(환경)) 옵션.SetEnvironmentName(환경.Trim());
+#endif
                 string 프로필 = Environment.GetEnvironmentVariable("DIVINEWAR_UGS_PROFILE");
                 if (!string.IsNullOrEmpty(프로필)) 옵션.SetProfile(프로필);
                 await UnityServices.InitializeAsync(옵션);
@@ -119,6 +118,10 @@ public sealed class 참가연결 : IDisposable
                 await AuthenticationService.Instance.SignInAnonymouslyAsync();
             토큰.ThrowIfCancellationRequested();
 
+            var 전송 = 관리자.NetworkConfig.NetworkTransport as Unity.Netcode.Transports.UTP.UnityTransport;
+            if (!전송) throw new InvalidOperationException("Unity Transport가 필요합니다.");
+            전송.UseWebSockets = true;
+            var 네트워크 = new NetworkOptions { RelayProtocol = RelayProtocol.WSS };
 #if DIVINEWAR_DEDICATED
             if (연결.전용서버)
             {
@@ -130,13 +133,14 @@ public sealed class 참가연결 : IDisposable
                     {
                         [버전키] = new SessionProperty(프로토콜.ToString(), VisibilityPropertyOptions.Member)
                     }
-                }.WithRelayNetwork();
+                }.WithRelayNetwork().WithNetworkOptions(네트워크);
                 연결.세션 = await MultiplayerService.Instance.CreateSessionAsync(옵션);
             }
             else
 #endif
             {
-                연결.세션 = await MultiplayerService.Instance.JoinSessionByCodeAsync(코드);
+                연결.세션 = await MultiplayerService.Instance.JoinSessionByCodeAsync(코드,
+                    new JoinSessionOptions().WithNetworkOptions(네트워크));
                 if (연결.세션.MaxPlayers != 3 || !연결.세션.IsPrivate ||
                     !연결.세션.Properties.TryGetValue(버전키, out var 버전) || 버전.Value != 프로토콜.ToString())
                     throw new InvalidOperationException("상대와 게임 버전이 다릅니다.");
