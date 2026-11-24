@@ -57,6 +57,23 @@ public static class BuildingInteractionChecks
         try
         {
             void Check(string name,Action test) {test();results.AppendLine("PASS "+name);}
+            Check("Ground orders move selected allies past nearby enemies and reject foreign units",()=> {
+                var f=new Fixture();
+                var p=f.Point(0,f.Hall,3,6);
+                var soldier=f.Place(6,0,대상종류.병사,p);
+                var enemy=f.Place(전장규칙.왕번호(1)+6,1,대상종류.병사,p+Vector2.right*2);
+                var originalEnemyOrder=(enemy.목적지,enemy.이동중);
+                var destination=p+Vector2.down*2;
+                f.Rules.명령(0,new 전장명령 {
+                    종류=명령종류.부대이동,위치=destination,
+                    부대=new[]{6,전장규칙.왕번호(1)+6,-1}
+                });
+                Require(soldier.이동중 && soldier.목적지==destination,
+                    "Selected allied soldier did not accept ground destination");
+                Require((enemy.목적지,enemy.이동중)==originalEnemyOrder,"Foreign soldier accepted another team's command");
+                f.Rules.진행(.05f,false);
+                Require(soldier.표적<0,"Nearby enemy interrupted the explicit ground order");
+            });
             Check("Authored flag slots, sprite import, menu and UI controls",()=> {
                 var source=UnityEngine.Object.FindFirstObjectByType<신들의전쟁>();
                 var slots=(SpriteRenderer[])Field(source,"깃발슬롯");
@@ -66,16 +83,21 @@ public static class BuildingInteractionChecks
                 string uxml=File.ReadAllText("Assets/DivineWar/전장.uxml");
                 foreach(var name in new[]{"training-cost","select-regular","select-bruiser","select-archer","restore-selection"})Require(uxml.Contains(name),"Missing UI "+name);
             });
-            Check("Fences fit one cell from a building, reject same cell and preserve ordinary spacing",()=> {
-                var f=new Fixture();var p=f.Point(0,f.Hall,3,6);f.Place(2,0,대상종류.제재소,p,210);
-                bool found=false;
-                foreach(var d in new[]{Vector2.left,Vector2.right,Vector2.up,Vector2.down})
+            Check("Small facilities fit adjacent cells, reject overlap and preserve ordinary spacing",()=> {
+                foreach(int kind in new[]{4,5,6,10,11,12})
                 {
-                    var next=p+d;if(!f.Can(4,next))continue;
-                    Require(!f.Can(1,next),"Ordinary building spacing changed");f.Build(4,next);
-                    Require(f.State.대상들[전장규칙.울타리시작칸] is {생존:true},"Adjacent fence rejected");found=true;break;
+                    var f=new Fixture();var p=f.Point(0,f.Hall,3,6);f.Place(2,0,대상종류.제재소,p,210);
+                    Require(!f.Can(kind,p),"Small facility overlaps building: "+kind);
+                    bool found=false;
+                    foreach(var d in new[]{Vector2.left,Vector2.right,Vector2.up,Vector2.down})
+                    {
+                        var next=p+d;if(!f.Can(kind,next))continue;
+                        Require(!f.Can(1,next),"Ordinary building spacing changed");f.Build(kind,next);
+                        Require(f.State.대상들.Any(u=>u is {생존:true,건물:true} && u.위치==next),"Adjacent facility rejected: "+kind);
+                        found=true;break;
+                    }
+                    Require(found,"No adjacent facility fixture: "+kind);
                 }
-                Require(found,"No adjacent fence fixture");Require(!f.Can(4,p),"Fence overlaps building");
             });
             Check("Flag requires existing territory, expands only after completion and enables remote building",()=> {
                 var f=new Fixture();var p=f.Point(12,f.Hall,6,7.9f);

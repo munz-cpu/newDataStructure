@@ -185,7 +185,7 @@ public static class ClassCombatChecks
                 f.Step(.5f); Require(f.Enemy.체력 < 500, $"{job}: ranged projectile failed to hit");
                 if (job == 왕직업.애쉬) Require(f.Enemy.둔화량 > 0 && f.Enemy.기절 == 0, "Ashe basic arrow must slow without ultimate stun");
             }
-            else Require(f.Enemy.체력 < 500 && !f.State.지대들.Any(z => z.종류 == 지대종류.기본투사체), $"{job}: melee attack must strike without a ranged projectile");
+            else Require(f.Enemy.체력 < 500 && f.State.지대들.Any(z => z.종류 == 지대종류.근접타격) && !f.State.지대들.Any(z => z.종류 == 지대종류.기본투사체), $"{job}: melee attack must show its swing and strike without a ranged projectile");
         }
         {
             var f = new Fixture(왕직업.트린다미어); f.Enemy.위치 = f.King.위치 + Vector2.right * .75f;
@@ -214,6 +214,9 @@ public static class ClassCombatChecks
             f.Rules.명령(0, new 전장명령 { 종류 = 명령종류.공격, 값 = 전장규칙.왕번호(1) }); f.Step(.05f);
             f.Enemy.위치 += Vector2.right * 4; f.Step(.2f);
             Require(f.Enemy.체력 == 500, "Melee hit a target that left striking range");
+            Require(!f.State.지대들.Any(z => z.종류 == 지대종류.근접타격), "Missed swing appeared before windup");
+            f.Step(.15f);
+            Require(f.Enemy.체력 == 500 && f.State.지대들.Any(z => z.종류 == 지대종류.근접타격), "Missed swing must be visible without out-of-range damage");
         }
         {
             var f = new Fixture(왕직업.트린다미어); f.Enemy.위치 = f.King.위치 + Vector2.right * .75f;
@@ -505,6 +508,84 @@ public static class ClassCombatChecks
         var roundtrip = JsonUtility.FromJson<전장상태>(JsonUtility.ToJson(commander.State));
         Require(roundtrip.진영들[0].장착구성 == commander.State.진영들[0].장착구성, "Snapshot contains equipped slots");
         Debug.Log($"[EquippedSkills] ALL PASSED: {passed} assertions.");
+    }
+
+    public static void GameplayRules()
+    {
+        var results = new StringBuilder();
+        void Check(string name, Action run) { run(); results.AppendLine("PASS " + name); }
+        try
+        {
+            Check("Bomb arrow adds 40 damage to units", () => {
+                var ordinary = new Fixture(왕직업.아처);
+                ordinary.Attack(전장규칙.왕번호(1)); ordinary.Step(.5f);
+                float ordinaryDamage = 500 - ordinary.Enemy.체력;
+                var bomb = new Fixture(왕직업.아처);
+                bomb.Equip(0, 4); bomb.Cast(0, bomb.King.위치);
+                bomb.Attack(전장규칙.왕번호(1)); bomb.Step(.5f);
+                Require(Mathf.Abs(500 - bomb.Enemy.체력 - ordinaryDamage - 40) < .05f, "Bomb unit bonus missing");
+            });
+            Check("Bomb waits three seconds and deals triple structure splash", () => {
+                var f = new Fixture(왕직업.아처);
+                int slot = 전장규칙.왕번호(1) + 4;
+                var building = f.Soldier(slot, 1, f.King.위치 + Vector2.right * 2.5f);
+                building.종류 = 대상종류.훈련소; building.체력 = building.최대체력 = 1000;
+                f.Equip(0, 4); f.Cast(0, f.King.위치); f.Attack(slot); f.Step(.5f);
+                Require(building.체력 == 1000, "Bomb exploded before fuse");
+                f.Rules.명령(0, new 전장명령 { 종류 = 명령종류.이동, 위치 = f.King.위치 });
+                f.Step(3.05f);
+                float unitDamage = 500 - f.Enemy.체력;
+                Require(unitDamage > 40 && Mathf.Abs(1000 - building.체력 - unitDamage * 3) < .1f, "Bomb building multiplier failed");
+            });
+            Check("Peaceful king regenerates after five seconds; combat resets delay", () => {
+                var f = new Fixture(왕직업.아처); f.Enemy.체력 = 0;
+                f.Damage(0, 100); f.Step(4.9f);
+                Require(Mathf.Abs(f.King.체력 - 400) < .01f, "Early regeneration");
+                f.Step(1.1f);
+                Require(Mathf.Abs(f.King.체력 - 410) < .1f, "Wrong regeneration rate");
+                var target = f.Soldier(전장규칙.왕번호(1) + 34, 1, f.King.위치 + Vector2.right * 2);
+                target.공격대기 = 999; target.체력 = target.최대체력 = 10000;
+                float before = f.King.체력; f.Attack(전장규칙.왕번호(1) + 34); f.Step(1);
+                Require(Mathf.Abs(f.King.체력 - before) < .01f, "Attacking king regenerated");
+                f.Damage(0, 10); before = f.King.체력; f.Step(1);
+                Require(Mathf.Abs(f.King.체력 - before) < .01f, "Incoming damage failed to reset delay");
+            });
+            Check("AI keeps three defenders, respects preparation and raid interval", () => {
+                var f = new Fixture(왕직업.아처);
+                Vector2 home = f.State.대상들[전장규칙.회관번호(1)].위치;
+                Vector2 rally = home + Vector2.right * -Mathf.Sign(home.x) * 5;
+                Vector2 hall = f.State.대상들[전장규칙.회관번호(0)].위치;
+                int start = 전장규칙.왕번호(1) + 전장규칙.병사시작칸 + 2;
+                var soldiers = Enumerable.Range(start, 8).Select(i => f.Soldier(i, 1, rally)).ToArray();
+                void Command(bool ready = true) => typeof(전장규칙).GetMethod("적부대지휘", Private).Invoke(f.Rules, new object[] { f.Enemy, hall, rally, rally, -1, ready });
+                f.State.시간 = 149; Command(); Require(soldiers.All(u => !u.이동중), "Early AI raid");
+                f.State.시간 = 150; Command(false); Require(soldiers.All(u => !u.이동중), "Unprepared AI raid");
+                Command(); Require(soldiers.Take(3).All(u => !u.이동중) && soldiers.Skip(3).All(u => u.이동중), "Missing AI defenders");
+                foreach (var u in soldiers.Skip(3)) { u.체력 = 0; u.이동중 = false; }
+                Command();
+                foreach (var u in soldiers) { u.체력 = 100; u.위치 = u.목적지 = rally; u.이동중 = false; }
+                f.State.시간 = 269; Command(); Require(soldiers.All(u => !u.이동중), "AI ignored raid interval");
+                f.State.시간 = 270; Command(); Require(soldiers.Skip(3).All(u => u.이동중), "AI failed to resume raid");
+            });
+            Check("Manual ground order ignores nearby enemies while AI movement still attacks", () => {
+                var f = new Fixture(왕직업.아처);
+                var soldier = f.Soldier(30, 0, f.King.위치);
+                f.Rules.명령(0, new 전장명령 { 종류 = 명령종류.부대이동, 위치 = soldier.위치 + Vector2.right * 4, 부대 = new[] { 30 } });
+                f.Step(.1f);
+                Require(soldier.표적 < 0 && soldier.이동중, "Manual march was overridden by enemy acquisition");
+                typeof(전장규칙).GetMethod("부대이동지정", Private).Invoke(f.Rules, new object[] { new[] { soldier }, soldier.목적지, false });
+                f.Step(.1f);
+                Require(soldier.표적 >= 0, "AI march suppressed nearby combat");
+            });
+            results.AppendLine("ALL PASSED");
+        }
+        catch (Exception e) { results.AppendLine("FAILED " + e); throw; }
+        finally
+        {
+            Directory.CreateDirectory("Temp/GameplayRules");
+            File.WriteAllText("Temp/GameplayRules/results.txt", results.ToString());
+            Debug.Log(results.ToString());
+        }
     }
 
     static void Require(bool condition, string message) { if (!condition) throw new InvalidOperationException(message); passed++; }

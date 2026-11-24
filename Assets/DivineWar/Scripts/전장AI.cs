@@ -6,12 +6,13 @@ public sealed partial class 전장규칙
 {
     const int 적팀 = 1;
     const int 적채집인원 = 8, 적주민목표 = 12, 적모집단계 = 3;
-    const int 적수비병력 = 2;
+    const int 적수비병력 = 3;
     const float 첫진격준비시간 = 150f, 첫소규모진격준비시간 = 220f;
     static readonly float[] 적채집비중 = { 3f, 2f, 1f, 1f, 1f };
     readonly int[] 적채집배정수 = new int[적채집비중.Length];
     readonly List<전장대상> 적부대 = new(), 적수비대 = new();
     float 적명령시간;
+    float 다음출격;
     bool 적진격, 적첫진격완료, 적왕후퇴;
     Vector2 적부대목표;
 
@@ -205,7 +206,8 @@ public sealed partial class 전장규칙
         float 소규모진격시각 = 적첫진격완료 ? 180f : 첫소규모진격준비시간;
         int 원정병력 = Mathf.Max(0, 병력 - 적수비병력);
         bool 진격 = 침입자 < 0 && 본진준비 && (적진격 ? 원정병력 >= 3
-            : 왕.생존 && (상태.시간 >= 진격시각 && 원정병력 >= 5 || 상태.시간 >= 소규모진격시각 && 원정병력 >= 3));
+            : 왕.생존 && 상태.시간 >= 다음출격 && (상태.시간 >= 진격시각 && 원정병력 >= 5 || 상태.시간 >= 소규모진격시각 && 원정병력 >= 3));
+        if (진격 && !적진격) 다음출격 = 상태.시간 + 120;
         Vector2 목표 = 침입자 >= 0 ? 상태.대상들[침입자].위치 : 진격 ? 상대회관 : 집결지;
         bool 목표갱신 = 적진격 != 진격 || (적부대목표 - 목표).sqrMagnitude > 9;
         적진격 = 진격;

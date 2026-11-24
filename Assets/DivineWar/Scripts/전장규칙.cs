@@ -56,7 +56,7 @@ public sealed class 전장대상
     public Vector2 도약출발;
     public int 힘, 민첩, 지능;
     public bool 이동중, 왼쪽, 세로, 해골병사;
-    internal bool 대형복귀, 지정공격;
+    internal bool 대형복귀, 지정공격, 지면이동명령;
     public bool 생존 => 체력 > 0;
     public bool 울타리 => 종류 is 대상종류.나무울타리 or 대상종류.돌울타리;
     public bool 함정 => 종류 is 대상종류.지뢰 or 대상종류.점프패드;
@@ -74,6 +74,7 @@ public sealed class 진영상태
     public Vector2 음식회복위치;
     public int[] 자원별채집횟수;
     public float[] 쿨다운 = new float[4];
+    public float 표시공격력, 표시공격속도, 표시이동속도;
     public 왕기술효과[] 기술효과;
     public 왕직업 직업;
     public int 장착구성 = 왕직업목록.기본장착;
@@ -322,6 +323,7 @@ public sealed partial class 전장규칙
         }
         짐승들 = new 전장짐승(상태, 길찾기, 시드);
         왕기술효과갱신();
+        왕능력치갱신();
     }
 
     (Vector2, Vector2) 시작거점쌍선택(Vector2[] 거점들)
@@ -562,7 +564,7 @@ public sealed partial class 전장규칙
                 }
                 break;
             case 명령종류.부대이동:
-                부대이동지정(내부대(팀, 내용.부대), 위치);
+                부대이동지정(내부대(팀, 내용.부대), 위치, true);
                 break;
             case 명령종류.건설:
                 건설(팀, 내용.값, 위치, 내용.세로);
@@ -631,9 +633,10 @@ public sealed partial class 전장규칙
         유닛.이동중 = true;
         유닛.대형복귀 = false;
         유닛.지정공격 = false;
+        유닛.지면이동명령 = false;
     }
 
-    void 부대이동지정(IEnumerable<전장대상> 대상들, Vector2 위치)
+    void 부대이동지정(IEnumerable<전장대상> 대상들, Vector2 위치, bool 지면명령 = false)
     {
         var 부대 = new List<전장대상>();
         foreach (var 대상 in 대상들)
@@ -642,6 +645,7 @@ public sealed partial class 전장규칙
         if (부대.Count == 1)
         {
             이동지정(부대[0], 위치);
+            부대[0].지면이동명령 = 지면명령;
             return;
         }
 
@@ -674,6 +678,7 @@ public sealed partial class 전장규칙
             var 유닛 = 부대[가까운번호];
             부대.RemoveAt(가까운번호);
             이동지정(유닛, 자리);
+            유닛.지면이동명령 = 지면명령;
             유닛.대형복귀 = 유닛.종류 == 대상종류.병사 && 길찾기.통행가능(자리);
         }
     }
@@ -888,13 +893,14 @@ public sealed partial class 전장규칙
         if (종류 == 타워건설 && 타워재료(상태, 팀) == null) return "훈련을 마친 아처 병사 1명이 필요합니다. (건설 시 소비)";
         if (!건설영역안(상태, 팀, 위치) || !길찾기.건설지형가능(위치))
             return "회관 또는 완공된 아군 깃발 반경 8 안의 빈 땅에 배치하세요.";
+        bool 소형 = 울타리 || 모닥불 || 종류 == 깃발건설 || 종류 == 지뢰건설 || 종류 == 점프건설;
         foreach (var 대상 in 상태.대상들)
         {
             if (대상 is not { 생존: true }) continue;
             if ((울타리 || 모닥불) && 길찾기.중심정렬(대상.위치) == 위치)
                 return 울타리 ? "비어 있는 칸에 울타리를 배치하세요." : "비어 있는 칸에 모닥불을 배치하세요.";
-            if (대상.건물 && !(울타리 && 대상.울타리)
-                && Vector2.Distance(대상.위치, 위치) < (울타리 || 대상.울타리 ? 1f : 2.15f))
+            bool 상대소형 = 대상.울타리 || 대상.종류 is 대상종류.모닥불 or 대상종류.깃발 or 대상종류.지뢰 or 대상종류.점프패드;
+            if (대상.건물 && Vector2.Distance(대상.위치, 위치) < (소형 || 상대소형 ? 1f : 2.15f))
                 return "다른 건물과 간격이 필요합니다.";
         }
         foreach (var 시련 in 상태.시련들)
@@ -1374,6 +1380,7 @@ public sealed partial class 전장규칙
             if (혼자) 적진행(초);
         }
         왕기술효과갱신();
+        왕능력치갱신();
     }
 
     void 병사간격유지(float 초)
@@ -1569,7 +1576,8 @@ public sealed partial class 전장규칙
             유닛.표적 = -1;
             유닛.이동중 = false;
         }
-        if (유닛.종류 == 대상종류.병사 && !유닛.지정공격) 유닛.표적 = 가까운적(유닛, 유닛.병과 == 병과.아처 ? 5.5f : 4.1f);
+        if (유닛.종류 == 대상종류.병사 && !유닛.지정공격 && !(유닛.지면이동명령 && 유닛.이동중))
+            유닛.표적 = 가까운적(유닛, 유닛.병과 == 병과.아처 ? 5.5f : 4.1f);
         if (공격가능(유닛, 유닛.표적) && 표적보임(유닛.팀, 상태.대상들[유닛.표적]))
         {
             var 적 = 상태.대상들[유닛.표적];

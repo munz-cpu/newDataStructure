@@ -32,16 +32,20 @@ public sealed class 전투메뉴 : MonoBehaviour
     [SerializeField] Button 재개버튼, 나가기버튼;
     [SerializeField] 메뉴버튼 클릭이동버튼, 키보드이동버튼, 주민자동해제버튼;
     [SerializeField] TMP_Text 제목표시, 본문표시, 주민자동해제문구;
+    [SerializeField] 메뉴버튼 피해표시버튼;
+    [SerializeField] TMP_Text 피해표시문구;
 
     Coroutine 등장;
     Vector2 카드위치;
     public event Action 재개, 나가기, 주민자동해제전환;
+    public event Action 피해표시전환;
     public event Action<bool> 이동방식선택;
 
     void Awake()
     {
         카드위치 = 메뉴카드.anchoredPosition;
         주민자동해제버튼.onClick.AddListener(주민자동해제선택);
+        피해표시버튼.onClick.AddListener(() => 피해표시전환?.Invoke());
         클릭이동버튼.onClick.AddListener(클릭이동선택);
         키보드이동버튼.onClick.AddListener(키보드이동선택);
         재개버튼.onClick.AddListener(재개선택);
@@ -69,6 +73,12 @@ public sealed class 전투메뉴 : MonoBehaviour
         주민자동해제문구.text = 켜짐 ? "주민 명령 후 자동 해제  ·  켜짐" : "주민 명령 후 자동 해제  ·  꺼짐";
     }
 
+    public void 피해표시갱신(bool 켜짐)
+    {
+        피해표시버튼.선택표시(켜짐);
+        피해표시문구.text = 켜짐 ? "피해 숫자  ·  켜짐" : "피해 숫자  ·  꺼짐";
+    }
+
     public void 보이기(string 제목, string 본문, bool 재개가능)
     {
         제목표시.text = 제목;
@@ -76,6 +86,7 @@ public sealed class 전투메뉴 : MonoBehaviour
         재개버튼.gameObject.SetActive(재개가능);
         이동설정.SetActive(재개가능);
         주민자동해제버튼.gameObject.SetActive(재개가능);
+        피해표시버튼.gameObject.SetActive(재개가능);
         모달.gameObject.SetActive(true);
         if (등장 != null) StopCoroutine(등장);
         등장 = StartCoroutine(메뉴등장.재생(메뉴카드, 모달, 카드위치));

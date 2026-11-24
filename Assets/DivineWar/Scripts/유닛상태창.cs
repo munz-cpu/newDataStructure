@@ -20,7 +20,7 @@ internal sealed class 유닛상태창
     int 표시번호 = -1;
     float 등장시각, 표시체력;
 
-    public GameObject 오브젝트 => 상자.gameObject;
+    public GameObject 오브젝트 => 상자 ? 상자.gameObject : null;
 
     public 유닛상태창(RectTransform 부모, TMP_FontAsset 글꼴, Sprite 테두리, System.Action<int> 추적요청)
     {
@@ -61,7 +61,7 @@ internal sealed class 유닛상태창
         숨기기();
     }
 
-    public bool 버튼가리킴(Vector2 화면) => 오브젝트.activeSelf
+    public bool 버튼가리킴(Vector2 화면) => 상자 && 오브젝트.activeSelf
         && RectTransformUtility.RectangleContainsScreenPoint((RectTransform)추적버튼.transform, 화면, null);
 
     public void 갱신(int 번호, 전장대상 대상, Bounds 유닛범위, Camera 카메라, bool 추적중)
@@ -121,7 +121,7 @@ internal sealed class 유닛상태창
     public void 숨기기()
     {
         표시번호 = -1;
-        if (오브젝트.activeSelf) 오브젝트.SetActive(false);
+        if (상자 && 오브젝트.activeSelf) 오브젝트.SetActive(false);
     }
 
     void 위치갱신(Vector2 위, Vector2 아래, float 등장)

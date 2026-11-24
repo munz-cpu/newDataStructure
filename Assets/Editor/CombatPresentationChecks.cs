@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Reflection;
 using UnityEditor;
 using UnityEditor.SceneManagement;
@@ -12,6 +14,145 @@ public static class CombatPresentationChecks
     const BindingFlags Private = BindingFlags.Instance | BindingFlags.NonPublic;
     static bool placed;
     static 전장규칙 configured;
+
+    [MenuItem("DivineWar/Validation/Pointer Orders")]
+    public static void PointerOrders()
+    {
+        if (EditorApplication.isPlayingOrWillChangePlaymode)
+            throw new InvalidOperationException("Run pointer target validation in Edit Mode.");
+        const string receipt = "Temp/CombatPresentation/pointer-orders.txt";
+        Directory.CreateDirectory("Temp/CombatPresentation");
+        File.Delete(receipt);
+        var scene = EditorSceneManager.OpenPreviewScene("Assets/Scenes/Main.unity");
+        신들의전쟁 game = null;
+        FieldInfo fog = typeof(신들의전쟁).GetField("안개", Private);
+        try
+        {
+            foreach (var root in scene.GetRootGameObjects()) game ??= root.GetComponentInChildren<신들의전쟁>(true);
+            if (game == null) throw new Exception("Main scene has no game controller.");
+            void Set(string name, object value) => typeof(신들의전쟁).GetField(name, Private).SetValue(game, value);
+            var authored = (SpriteRenderer[])typeof(신들의전쟁).GetField("슬롯", Private).GetValue(game);
+            var renderers = new List<SpriteRenderer>();
+            foreach (var renderer in authored)
+                if (renderer != null && !renderers.Contains(renderer)) renderers.Add(renderer);
+            if (renderers.Count < 3) throw new Exception("Main scene needs three authored unit renderers.");
+            var state = new 전장상태
+            {
+                대상들 = new 전장대상[3],
+                짐승들 = Array.Empty<짐승상태>(),
+                자원잔량 = Array.Empty<int>()
+            };
+            // An inert fog plus a scouting zone supplies deterministic visibility without
+            // allocating graphics resources or starting any simulation lifecycle methods.
+            fog.SetValue(game, System.Runtime.Serialization.FormatterServices.GetUninitializedObject(fog.FieldType));
+            state.지대들.Add(new 스킬지대 { 팀 = 0, 종류 = 지대종류.시야, 위치 = Vector2.zero, 반경 = 100 });
+            Set("상태", state);
+            Set("내팀", 0);
+            var terrainField = typeof(신들의전쟁).GetField("지형", Private);
+            var terrain = System.Runtime.Serialization.FormatterServices.GetUninitializedObject(terrainField.FieldType);
+            terrainField.FieldType.GetField("<자원들>k__BackingField", Private).SetValue(terrain, Array.Empty<자원지점>());
+            terrainField.SetValue(game, terrain);
+            Set("짐승슬롯", Array.Empty<SpriteRenderer>());
+            Set("슬롯", new[] { renderers[0], renderers[1], renderers[2] });
+            void Place(int slot, int team, 대상종류 kind, Vector2 position, int order)
+            {
+                state.대상들[slot] = new 전장대상 { 팀 = team, 종류 = kind, 위치 = position, 체력 = 100 };
+                renderers[slot].transform.position = position;
+                renderers[slot].enabled = true;
+                renderers[slot].sortingOrder = order;
+            }
+            Place(0, 0, 대상종류.제재소, Vector2.zero, 100);
+            Place(1, 1, 대상종류.병사, Vector2.zero, 10);
+            Place(2, 0, 대상종류.병사, Vector2.left * 3, 5);
+            var target = typeof(신들의전쟁).GetMethod("전장클릭대상", Private);
+            int checks = 0;
+            void Expect(Vector2 point, int expected, string scenario)
+            {
+                var actual = ((int, int, int))target.Invoke(game, new object[] { point, false });
+                if (actual.Item2 != expected)
+                    throw new Exception($"{scenario}: expected target {expected}, got {actual.Item2}.");
+                checks++;
+            }
+            Expect(new Vector2(0, .5f), 1, "Exact enemy wins over a visually foregrounded building");
+            Expect(new Vector2(.719f, .5f), 1, "Enemy assistance accepts a miss just inside 0.3 units");
+            Expect(new Vector2(.721f, .5f), 0, "Enemy assistance rejects a miss just outside 0.3 units");
+            renderers[1].enabled = false;
+            Expect(new Vector2(.65f, .5f), 0, "Disabled enemy leaves building selectable");
+            renderers[1].enabled = true;
+            state.대상들[1].위치 = state.대상들[2].위치 + Vector2.right * .7f;
+            renderers[1].transform.position = state.대상들[1].위치;
+            Expect(state.대상들[2].위치 + Vector2.up * .5f, 2, "Exact allied unit wins over assisted enemy");
+            Expect(new Vector2(4, 4), -1, "Empty ground has no target");
+            string result = $"PASS: {checks} deterministic preview-scene target checks (enemy/building overlap, assistance boundary, disabled enemy, exact ally, empty ground).";
+            File.WriteAllText(receipt, result);
+            Debug.Log("[CombatPresentationChecks.PointerOrders] " + result);
+        }
+        catch (Exception exception)
+        {
+            File.WriteAllText(receipt, "FAIL: " + exception);
+            throw;
+        }
+        finally
+        {
+            if (game != null)
+            {
+                fog.SetValue(game, null);
+                typeof(신들의전쟁).GetField("지형", Private).SetValue(game, null);
+            }
+            EditorSceneManager.ClosePreviewScene(scene);
+        }
+    }
+
+    [MenuItem("DivineWar/Validation/Damage Options")]
+    public static void DamageOptions()
+    {
+        if (EditorApplication.isPlaying) throw new InvalidOperationException("Run damage options validation in Edit Mode.");
+        const string preference = "DivineWar.ShowDamageNumbers";
+        bool hadPreference = PlayerPrefs.HasKey(preference);
+        int previousPreference = PlayerPrefs.GetInt(preference);
+        var menuScene = EditorSceneManager.OpenPreviewScene("Assets/Scenes/BattleMenu.unity");
+        var gameScene = default(UnityEngine.SceneManagement.Scene);
+        try
+        {
+            전투메뉴 menu = null;
+            foreach (var root in menuScene.GetRootGameObjects()) menu ??= root.GetComponentInChildren<전투메뉴>(true);
+            if (menu == null) throw new Exception("BattleMenu scene has no combat menu.");
+            var button = (메뉴버튼)typeof(전투메뉴).GetField("피해표시버튼", Private).GetValue(menu);
+            var label = (TMPro.TMP_Text)typeof(전투메뉴).GetField("피해표시문구", Private).GetValue(menu);
+            if (button == null || label == null || !label.transform.IsChildOf(button.transform))
+                throw new Exception("Damage option must reference its scene button and child label.");
+            gameScene = EditorSceneManager.OpenPreviewScene("Assets/Scenes/Main.unity");
+            신들의전쟁 game = null;
+            foreach (var root in gameScene.GetRootGameObjects()) game ??= root.GetComponentInChildren<신들의전쟁>(true);
+            if (game == null) throw new Exception("Main scene has no game controller.");
+            typeof(전투메뉴).GetMethod("Awake", Private).Invoke(menu, null);
+            typeof(신들의전쟁).GetField("메뉴", Private).SetValue(game, menu);
+            var enabled = typeof(신들의전쟁).GetField("피해표시", Private);
+            enabled.SetValue(game, true);
+            menu.피해표시갱신(true);
+            var toggle = (Action)Delegate.CreateDelegate(typeof(Action), game, "피해표시변경");
+            menu.피해표시전환 += toggle;
+            Color selected = button.colors.normalColor;
+            if (label.text != "피해 숫자  ·  켜짐") throw new Exception("Enabled damage option label is incorrect.");
+            button.onClick.Invoke();
+            if ((bool)enabled.GetValue(game) || PlayerPrefs.GetInt(preference, -1) != 0
+                || label.text != "피해 숫자  ·  꺼짐" || button.colors.normalColor == selected)
+                throw new Exception("Scene damage button did not disable numbers, persist the option, and update its label/selection.");
+            button.onClick.Invoke();
+            if (!(bool)enabled.GetValue(game) || PlayerPrefs.GetInt(preference, -1) != 1
+                || label.text != "피해 숫자  ·  켜짐" || button.colors.normalColor != selected)
+                throw new Exception("Scene damage button did not re-enable numbers and restore its label/selection.");
+            Debug.Log("[CombatPresentationChecks.DamageOptions] PASS: scene references, button events, damage toggle, labels, selection, and persistence.");
+        }
+        finally
+        {
+            if (hadPreference) PlayerPrefs.SetInt(preference, previousPreference);
+            else PlayerPrefs.DeleteKey(preference);
+            PlayerPrefs.Save();
+            if (gameScene.IsValid()) EditorSceneManager.ClosePreviewScene(gameScene);
+            EditorSceneManager.ClosePreviewScene(menuScene);
+        }
+    }
 
     [MenuItem("DivineWar/Validation/Preview Ranged Combat")]
     public static void Ranged() => Start(왕직업.애쉬);
