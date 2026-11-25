@@ -46,16 +46,17 @@ public static class FacilityChecks
                     f.Train(school, 전장규칙.병사시작칸); f.Step(2.1f);
                     Require(f.State.대상들[전장규칙.병사시작칸].병과 == (archer ? 병과.아처 : 병과.브루저), "Soldier did not specialize");
                 });
-                Check((archer ? "Archer" : "Bruiser") + " exactly two seconds, stat gain, health ratio, duplicate prevention", () => {
+                Check((archer ? "Archer" : "Bruiser") + " intelligence-adjusted duration, new health, duplicate prevention", () => {
                     var f = new Fixture(); var school = f.School(archer); var worker = f.Unit(전장규칙.병사시작칸, 0, f.Entry, true);
                     worker.체력 = 52.5f;
-                    f.Train(school, 전장규칙.병사시작칸, 전장규칙.병사시작칸); f.Step(1.9f);
+                    f.Train(school, 전장규칙.병사시작칸, 전장규칙.병사시작칸); f.Step(1.75f);
                     Require(worker.생존 && worker.훈련남음 > 0 && f.State.진영들[0].훈련대기인원 == 1, "Early conversion or duplicate queue");
-                    f.Step(.15f);
+                    f.Step(.2f);
                     var soldier = f.State.대상들[전장규칙.병사시작칸];
                     Require(!worker.생존 && soldier != null && soldier.병과 == (archer ? 병과.아처 : 병과.브루저), "Wrong trained class");
                     var stats = 전장규칙.능력치(soldier);
-                    Require(stats.힘 >= 7 && stats.민첩 >= 6 && soldier.최대체력 > 105 && Mathf.Abs(soldier.체력 / soldier.최대체력 - .5f) < .001f, "Missing stats or damage ratio changed");
+                    Require(stats.힘 >= 7 && stats.민첩 >= 6 && soldier.최대체력 == (archer ? 160 : 300)
+                        && Mathf.Abs(soldier.체력 / soldier.최대체력 - .5f) < .001f, "Missing stats or damage ratio changed");
                     f.Train(school, 전장규칙.병사시작칸); Require(soldier.훈련소 < 0, "Repeated upgrade allowed");
                 });
             }
@@ -100,7 +101,7 @@ public static class FacilityChecks
                 var f = new Fixture(); var mine = f.Place(전장규칙.시설시작(0) + 8, 0, 대상종류.지뢰, f.Entry, 90);
                 var ally = f.Unit(6, 0, f.Entry); f.Step(.05f); Require(mine.생존 && f.CanWalk(f.Entry), "Mine blocked ground or triggered on ally");
                 var enemy = f.Unit(전장규칙.왕번호(1) + 6, 1, f.Entry + Vector2.right * .4f); enemy.속박 = 99;
-                f.Step(.05f); Require(!mine.생존 && !enemy.생존 && ally.체력 == 65, "Mine damage/ownership failed");
+                f.Step(.05f); Require(!mine.생존 && Mathf.Approximately(enemy.체력, 8.75f) && ally.체력 == 65, "Mine damage/ownership failed");
             });
             Check("Pad launches allies to traversable ground with cooldown and replicated arc", () => {
                 var f = new Fixture(); var p = f.Entry;

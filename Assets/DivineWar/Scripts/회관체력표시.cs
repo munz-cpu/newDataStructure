@@ -36,10 +36,12 @@ internal sealed class 회관체력표시
         문구배치(시계, 시간틀.rectTransform, 24);
     }
 
-    public void 갱신(전장대상 아군회관, 전장대상 적회관, bool 적발견)
+    public void 갱신(전장대상 아군회관, 전장대상 적회관, bool 적발견, int 아군피해감소율)
     {
         아군.SetValueWithoutNotify(비율(아군회관));
-        아군글.SetText("아군 회관   {0:0} / {1:0}", Mathf.Ceil(아군회관.체력), Mathf.Ceil(아군회관.최대체력));
+        아군글.color = 아군피해감소율 > 0 ? new Color(.66f, .93f, 1f) : 글자색;
+        아군글.SetText(아군피해감소율 > 0 ? "아군 회관   {0:0} / {1:0}  ·  피해 감소 {2:0}%" : "아군 회관   {0:0} / {1:0}",
+            Mathf.Ceil(아군회관.체력), Mathf.Ceil(아군회관.최대체력), 아군피해감소율);
 
         적군.SetValueWithoutNotify(적발견 ? 비율(적회관) : 0);
         적군글.color = 적발견 ? 글자색 : 미탐사색;

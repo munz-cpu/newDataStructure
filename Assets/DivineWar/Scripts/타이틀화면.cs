@@ -24,6 +24,7 @@ public sealed class 전장입장
     public 왕직업 청록직업, 적색직업;
     public int 청록장착 = 왕직업목록.기본장착, 적색장착 = 왕직업목록.기본장착;
     public int 내팀;
+    public bool 디버그연습전;
     public static 전장입장 대기;
 
     public static 전장입장 가져오기()
@@ -42,12 +43,15 @@ public sealed class 타이틀화면 : MonoBehaviour
     [SerializeField] Button 이전직업, 다음직업;
     [SerializeField] 스킬선택버튼[] 스킬칸버튼, 스킬후보버튼;
     [SerializeField] TMP_Text 장착설명;
-    [SerializeField] Button 시작버튼, 참가버튼, 취소버튼;
+    [SerializeField] Button 시작버튼, 디버그시작버튼, 방생성버튼, 참가버튼, 취소버튼;
     [SerializeField] TMP_Text 직업정보, 방상태;
     [SerializeField] 타이틀능력치 직업능력치;
     [SerializeField] TMP_InputField 참가코드;
     [SerializeField] NetworkManager 통신관리자;
     [SerializeField] AudioSource 배경음악재생기, 효과음재생기;
+    [SerializeField] AudioSource 배경음악보조재생기;
+    [SerializeField] AudioClip[] 타이틀음악;
+    배경음악재생 음악;
     [SerializeField] AudioClip 클릭효과음, 직업교체효과음, 스킬장착효과음;
 
     Coroutine 등장, 아바타전환;
@@ -98,8 +102,16 @@ public sealed class 타이틀화면 : MonoBehaviour
             스킬후보버튼[i].onClick.AddListener(() => 스킬장착(후보));
             스킬후보버튼[i].호버시작 += () => 스킬호버(후보);
         }
-        시작버튼.onClick.AddListener(() => 전장이동(0, (고른직업, 장착구성),
-            (왕직업목록.선택[UnityEngine.Random.Range(0, 왕직업목록.선택.Length)], 왕직업목록.기본장착)));
+        시작버튼.onClick.AddListener(() => 연습전시작(디버그: false));
+        if (디버그시작버튼 == null)
+            디버그시작버튼 = 메뉴카드.transform.Find("디버그 플레이")?.GetComponent<Button>();
+        if (디버그시작버튼 != null)
+            디버그시작버튼.onClick.AddListener(() => 연습전시작(디버그: true));
+        방생성버튼.onClick.AddListener(() =>
+        {
+            효과음재생(클릭효과음);
+            연결시작(방생성: true);
+        });
         참가버튼.onClick.AddListener(() =>
         {
             효과음재생(클릭효과음);
@@ -116,7 +128,9 @@ public sealed class 타이틀화면 : MonoBehaviour
     {
         if (!Application.isEditor) Application.runInBackground = true;
         if (전장입장.서버빌드) return;
-        if (배경음악재생기 != null && 배경음악재생기.clip != null) 배경음악재생기.Play();
+        if (효과음재생기 != null) 효과음재생기.volume = 전투음량설정.효과음;
+        if (배경음악재생기 != null && 배경음악보조재생기 != null)
+            음악 = new 배경음악재생(배경음악재생기, 배경음악보조재생기);
         등장 = StartCoroutine(메뉴등장.재생((RectTransform)메뉴카드.transform, 메뉴카드, 카드위치));
         var 저장직업 = (왕직업)PlayerPrefs.GetInt(직업저장키, (int)왕직업.지휘관);
         직업고르기(왕직업목록.장착가능(저장직업) ? 저장직업 : 왕직업.지휘관);
@@ -125,7 +139,8 @@ public sealed class 타이틀화면 : MonoBehaviour
 
     void OnDisable()
     {
-        if (배경음악재생기 != null) 배경음악재생기.Stop();
+        음악?.정지();
+        음악 = null;
         if (효과음재생기 != null) 효과음재생기.Stop();
         if (등장 != null) StopCoroutine(등장);
         아바타전환정리();
@@ -135,6 +150,7 @@ public sealed class 타이틀화면 : MonoBehaviour
     void Update()
     {
         if (이동중) return;
+        음악?.갱신(타이틀음악, Time.unscaledDeltaTime);
         if (전장입장.서버빌드)
         {
             if (연결 == null && 연결시도 == null && Time.realtimeSinceStartup >= 재시도시각) 연결시작();
@@ -142,7 +158,7 @@ public sealed class 타이틀화면 : MonoBehaviour
         else 아바타갱신();
         if (연결 == null) return;
         if (연결.오류 != null) { 방취소(연결.오류); return; }
-        if (연결.전용서버)
+        if (연결.서버권한)
         {
             서버준비갱신();
             return;
@@ -188,23 +204,32 @@ public sealed class 타이틀화면 : MonoBehaviour
         }
         var 청록 = 참가준비[0].Value;
         var 적색 = 참가준비[1].Value;
-        for (int 팀 = 0; 팀 < 2; 팀++)
+        for (int 팀 = 연결.원격팀시작; 팀 < 참가준비.Length; 팀++)
         {
             if (연결.팀에보내기(팀, $"R,{팀},{준비부호(청록)},{준비부호(적색)}")) continue;
             방취소("전장 시작 정보를 전달하지 못했습니다.");
             return;
         }
-        전장이동(-1, 청록, 적색);
+        전장이동(연결.방주인 ? 0 : -1, 청록, 적색);
     }
 
-    void 전장이동(int 팀, (왕직업 직업, int 장착) 청록, (왕직업 직업, int 장착) 적색)
+    void 연습전시작(bool 디버그)
+    {
+        if (연결 != null || 연결시도 != null) return;
+        var 직업들 = 왕직업목록.선택;
+        var 상대 = 직업들[UnityEngine.Random.Range(0, 직업들.Length)];
+        전장이동(0, (고른직업, 장착구성), (상대, 왕직업목록.기본장착), 디버그연습전: 디버그);
+    }
+
+    void 전장이동(int 팀, (왕직업 직업, int 장착) 청록, (왕직업 직업, int 장착) 적색, bool 디버그연습전 = false)
     {
         if (이동중) return;
         이동중 = true;
         전장입장.대기 = new 전장입장
         {
             연결 = 연결, 청록직업 = 청록.직업, 적색직업 = 적색.직업,
-            청록장착 = 청록.장착, 적색장착 = 적색.장착, 내팀 = 팀
+            청록장착 = 청록.장착, 적색장착 = 적색.장착, 내팀 = 팀,
+            디버그연습전 = 디버그연습전 && 연결 == null
         };
         연결 = null;
         SceneManager.LoadScene("Main");
@@ -358,7 +383,7 @@ public sealed class 타이틀화면 : MonoBehaviour
         장착설명.text = $"<color=#FFD99B>{설명.이름}{대기}</color>\n{설명.설명}";
     }
 
-    async void 연결시작()
+    async void 연결시작(bool 방생성 = false)
     {
         if (연결시도 != null || 연결 != null || 이동중) return;
         using var 시도 = new CancellationTokenSource();
@@ -367,14 +392,16 @@ public sealed class 타이틀화면 : MonoBehaviour
         {
             버튼활성(false);
             취소버튼.gameObject.SetActive(true);
-            방상태.text = "전용 서버에 연결하는 중…";
+            방상태.text = 방생성 ? "방을 생성하는 중…" : "방에 연결하는 중…";
         }
         try
         {
 #if DIVINEWAR_DEDICATED
             var 새연결 = await 참가연결.서버열기Async(시도.Token);
 #else
-            var 새연결 = await 참가연결.참가Async(참가코드.text.Trim(), 시도.Token);
+            var 새연결 = 방생성
+                ? await 참가연결.방열기Async(시도.Token)
+                : await 참가연결.참가Async(참가코드.text, 시도.Token);
 #endif
             if (시도.IsCancellationRequested)
             {
@@ -383,13 +410,19 @@ public sealed class 타이틀화면 : MonoBehaviour
             }
             연결 = 새연결;
             if (연결.전용서버) Debug.Log($"[DivineWar] JOIN_CODE={연결.코드}");
+            else if (연결.방주인)
+            {
+                참가준비[0] = (고른직업, 장착구성);
+                참가코드.text = 연결.코드;
+                방상태.text = $"참가 코드 {연결.코드} · 상대를 기다리는 중…";
+            }
             else 방상태.text = "두 플레이어가 모이면 전투가 시작됩니다.";
         }
         catch (Exception 오류)
         {
             if (시도.IsCancellationRequested) return;
             Debug.LogWarning($"방 연결 실패 ({오류.GetType().Name})");
-            방취소(오류안내(오류));
+            방취소(방생성 ? "방을 생성할 수 없습니다. 연결을 확인하고 다시 시도해 주세요." : 오류안내(오류));
         }
         finally
         {
@@ -415,13 +448,14 @@ public sealed class 타이틀화면 : MonoBehaviour
 
     void 방취소(string 문장)
     {
+        if (연결?.방주인 == true) 참가코드.text = "";
         연결정리();
         시작대기 = 0;
         직업보냄 = false;
+        Array.Clear(참가준비, 0, 참가준비.Length);
         if (전장입장.서버빌드)
         {
             Debug.LogWarning($"[DivineWar] {문장}");
-            Array.Clear(참가준비, 0, 참가준비.Length);
             재시도시각 = Time.realtimeSinceStartup + 5f;
             return;
         }
@@ -441,6 +475,8 @@ public sealed class 타이틀화면 : MonoBehaviour
     void 버튼활성(bool 켜짐)
     {
         시작버튼.interactable = 켜짐;
+        if (디버그시작버튼 != null) 디버그시작버튼.interactable = 켜짐;
+        방생성버튼.interactable = 켜짐;
         참가버튼.interactable = 켜짐;
         참가코드.readOnly = !켜짐;
         이전직업.interactable = 다음직업.interactable = 켜짐;

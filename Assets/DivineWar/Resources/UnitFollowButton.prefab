@@ -33,9 +33,9 @@ RectTransform:
   - {fileID: 1000000000402}
   - {fileID: 1000000000502}
   m_Father: {fileID: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 154, y: -119}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -48, y: -119}
   m_SizeDelta: {x: 32, y: 28}
   m_Pivot: {x: 0, y: 1}
 --- !u!222 &1000000000003

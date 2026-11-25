@@ -24,7 +24,7 @@
 
 ## 원본과 Unity 연결
 
-- 타이틀과 전장의 플레이어 외형은 `Assets/Images/`의 원본 PNG를 직접 참조한다. `PlayerAvatarImporter`가 원본 텍스처에서 스프라이트 영역, 발 위치 피벗, 표시 배율을 지정한다. 외형 목록은 `PlayerAppearances.hdavatars`에서 가져온다.
+- 타이틀과 전장의 플레이어 외형은 `Assets/Images/`의 원본 PNG와 기마 기사 스프라이트를 직접 참조한다. `PlayerAvatarImporter`가 원본 텍스처에서 스프라이트 영역, 발 위치 피벗, 표시 배율을 지정한다. 외형 목록은 `PlayerAppearances.hdavatars`에서 가져온다.
 - 직업마다 대기·이동·공격을 E/SE/S/SW/W/NW/N/NE 순서로 연결한다. 각 방향은 기존 재생 방식에 맞춰 15프레임으로 배정한다. Unity 메뉴 `DivineWar/Art/Assign Supplied Characters`에서 목록을 다시 가져올 수 있다.
 - `AssignedAppearances.asset`은 소환물 외형을 연결한다. 포탑과 강화 포탑은 같은 외형을 사용한다.
 - `왕직업목록.cs`: 패시브 설명과 QWER 이름·설명·쿨다운·사거리.
@@ -42,11 +42,11 @@ Unity 메뉴 `DivineWar/Validation/Class Combat`은 Main 씬에서 직업 전투
 
 | 직업 | 원본 외형과 동작 |
 | --- | --- |
-| 지휘관 | `HiRezBlueKnightUnarmed`의 Idle·WalkFoward·Slash |
+| 지휘관 | `Resources/Classes/Variants/hecarim_*.png`의 대기·이동·공격 |
 | 아처 | `9Longbow`의 Idle·Walk·QuickShot |
 | 검사 | `1Knight`의 Idle·Walk·Melee·MeleeSpin·Rolling |
 
-이전 직업은 지휘관, 아처, 검사 중 하나의 원본 외형을 공유한다.
+이전 직업은 `HiRezBlueKnightUnarmed`, 아처, 검사 중 하나의 외형을 공유한다.
 
 ## 참고
 

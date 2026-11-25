@@ -23,6 +23,7 @@ public sealed class 스킬지대
     [NonSerialized] public 전장대상 발사자참조;
     [NonSerialized] public Vector2 당김목표;
     [NonSerialized] public bool 독화살, 치유화살, 폭탄화살;
+    internal bool 반사됨;
     [NonSerialized] public int 남은튕김;
     [NonSerialized] public HashSet<전장대상> 맞은대상 = new();
 }
@@ -114,7 +115,7 @@ public sealed partial class 전장규칙
                         왕피해(왕, 적번호, 32 + 적.최대체력 * .08f); 왕.가속 = 2; }
                 }
                 if (번호 == 3) {
-                    부채(왕, 방향, 5, .1f, 0, 적 => { int i = Array.IndexOf(상태.대상들, 적); 왕피해(왕, i, 적.체력 < 적.최대체력 * .3f ? 150 : 60); });
+                    부채(왕, 방향, 5, .1f, 0, 적 => { int i = Array.IndexOf(상태.대상들, 적); 왕피해(왕, i, (적.체력 < 적.최대체력 * .3f ? 150 : 60) * 범위피해배율); });
                     왕.무적 = .5f; 왕.위치 = 기술이동(왕.위치, 제한(왕.위치 - 방향 * 4));
                 }
                 break;
@@ -199,13 +200,13 @@ public sealed partial class 전장규칙
     int 광역(int 팀, Vector2 중심, float 반경, float 양, Action<전장대상> 효과 = null)
     {
         int 수 = 0;
-        주변적(팀, 중심, 반경, (i, 적) => { 왕피해(상태.대상들[왕번호(팀)], i, 양); if (적.생존) 효과?.Invoke(적); 수++; });
+        주변적(팀, 중심, 반경, (i, 적) => { 왕피해(상태.대상들[왕번호(팀)], i, 양 * 범위피해배율); if (적.생존) 효과?.Invoke(적); 수++; });
         return 수;
     }
     void 부채(전장대상 왕, Vector2 방향, float 거리, float 각, float 양, Action<전장대상> 효과 = null)
     {
         주변적(왕.팀, 왕.위치, 거리, (i, 적) => { if (Vector2.Dot((적.위치 - 왕.위치).normalized, 방향) < 각) return;
-            if (양 > 0) 왕피해(왕, i, 양); if (적.생존) 효과?.Invoke(적); });
+            if (양 > 0) 왕피해(왕, i, 양 * 범위피해배율); if (적.생존) 효과?.Invoke(적); });
     }
     static float 선거리(Vector2 점, Vector2 시작, Vector2 끝)
     {
@@ -214,7 +215,7 @@ public sealed partial class 전장규칙
     void 선공격(int 팀, Vector2 시작, Vector2 끝, float 폭, float 양, Action<전장대상> 효과 = null)
     {
         for (int i = 0; i < 전체칸; i++) if (적인가(팀, i) && !상태.대상들[i].건물 && 선거리(상태.대상들[i].위치, 시작, 끝) <= 폭) {
-            왕피해(상태.대상들[왕번호(팀)], i, 양); if (상태.대상들[i].생존) 효과?.Invoke(상태.대상들[i]); }
+            왕피해(상태.대상들[왕번호(팀)], i, 양 * 범위피해배율); if (상태.대상들[i].생존) 효과?.Invoke(상태.대상들[i]); }
     }
     Vector2 기술이동(Vector2 시작, Vector2 목표)
     {
@@ -453,9 +454,19 @@ public sealed partial class 전장규칙
         return 고정;
     }
 
-    float 왕사거리(전장대상 왕, float 최소거리) => 상태.진영들[왕.팀].직업 switch {
-        왕직업.애쉬 or 왕직업.아처 => 6,
-        왕직업.검사 when 왕.사거리남음 > 0 => 최소거리 * 1.4f, 왕직업.소라카 or 왕직업.아지르 or 왕직업.하이머딩거 or 왕직업.아이번 => 4.8f, _ => 최소거리 };
+    internal static float 왕공격최소거리(전장대상 표적) => 표적 == null ? 1.15f : 표적.건물 ? 1.45f : .95f;
+
+    float 왕사거리(전장대상 왕, float 최소거리) =>
+        왕사거리(상태.진영들[왕.팀].직업, 최소거리, 왕.사거리남음 > 0);
+
+    internal static float 왕사거리(왕직업 직업, float 최소거리, bool 사거리강화)
+    {
+        if (직업 is 왕직업.애쉬 or 왕직업.아처) return 7.5f;
+        if (직업 is 왕직업.소라카 or 왕직업.아지르 or 왕직업.하이머딩거 or 왕직업.아이번) return 4.8f;
+
+        float 근접거리 = 최소거리 + 1.25f;
+        return 직업 == 왕직업.검사 && 사거리강화 ? 근접거리 * 1.4f : 근접거리;
+    }
 
     void 왕기본공격(전장대상 왕, int 번호, float 양)
     {
@@ -468,25 +479,52 @@ public sealed partial class 전장규칙
         if (직업 == 왕직업.헤카림 && 왕.돌격 > 0) { if (!적.건물) 밀기(적, (적.위치 - 왕.위치).normalized * 2); 피해(번호, 25, 왕.팀); 왕.돌격 = 0; 왕.가속 = 0; }
     }
 
-    bool 수풀안(Vector2 위치) {
-        if (길찾기.지형?.은신지형인가(위치) == true) return true;
-        foreach (var 지대 in 상태.지대들) if (지대.종류 == 지대종류.수풀 && Vector2.Distance(위치, 지대.위치) < 지대.반경) return true;
+    internal const float 수풀시야반경 = 2.5f;
+
+    bool 수풀안(Vector2 위치) => 길찾기.지형?.은신지형인가(위치) == true || 기술수풀안(상태, 위치);
+
+    static bool 기술수풀안(전장상태 상태, Vector2 위치)
+    {
+        foreach (var 지대 in 상태.지대들)
+            if (지대.종류 == 지대종류.수풀 && (위치 - 지대.위치).sqrMagnitude < 지대.반경 * 지대.반경) return true;
         return false;
     }
+
+    internal static Vector2? 수풀시야중심(전장상태 상태, 전장지형 지형, int 팀)
+    {
+        var 왕 = 상태.대상들[왕번호(팀)];
+        return 왕 is { 생존: true } && (지형?.수풀인가(왕.위치) == true || 기술수풀안(상태, 왕.위치))
+            ? 왕.위치 : null;
+    }
+
+    internal static bool 수풀시야안(Vector2 중심, Vector2 위치) =>
+        (중심 - 위치).sqrMagnitude <= 수풀시야반경 * 수풀시야반경;
+
     void 벽차단(전장대상 대상, Vector2 이전)
     {
         foreach (var 지대 in 상태.지대들) if (지대.종류 == 지대종류.벽 && 지대.팀 != 대상.팀
             && 선거리(대상.위치, 지대.위치 - 지대.방향 * 지대.반경, 지대.위치 + 지대.방향 * 지대.반경) < .6f)
             대상.위치 = 이전;
     }
-    bool 직업표적보임(int 팀, 전장대상 대상)
+    bool 직업표적보임(int 팀, 전장대상 대상) => 전투대상보임(상태, 길찾기.지형, 팀, 대상);
+
+    internal static bool 정찰범위(전장상태 상태, int 팀, Vector2 위치)
     {
-        if (팀 == 대상.팀 || 대상.건물) return true;
-        foreach (var 지대 in 상태.지대들) if (지대.팀 == 팀 && 지대.종류 == 지대종류.시야 && Vector2.Distance(지대.위치, 대상.위치) < 지대.반경) return true;
-        bool 근접 = false;
-        foreach (var 아군 in 상태.대상들) if (아군 is { 생존: true } && 아군.팀 == 팀 && Vector2.Distance(아군.위치, 대상.위치) < 2.5f) { 근접 = true; break; }
-        if (대상.장막안 || 대상.은신 && !근접) return false;
-        foreach (var 지대 in 상태.지대들) if (지대.종류 == 지대종류.수풀 && Vector2.Distance(지대.위치, 대상.위치) < 지대.반경 && !근접) return false;
-        return 길찾기.지형?.대상보임(대상, 팀) != false;
+        foreach (var 지대 in 상태.지대들)
+            if (지대.팀 == 팀 && 지대.종류 == 지대종류.시야 && (지대.위치 - 위치).sqrMagnitude <= 지대.반경 * 지대.반경)
+                return true;
+        return false;
+    }
+
+    internal static bool 전투대상보임(전장상태 상태, 전장지형 지형, int 팀, 전장대상 대상)
+    {
+        if (팀 == 대상.팀 || 대상.건물 || 대상.연습허수아비 || 정찰범위(상태, 팀, 대상.위치)) return true;
+        if (대상.장막안 || 지형?.숲인가(대상.위치) == true) return false;
+        if (지형?.수풀인가(대상.위치) == true || 기술수풀안(상태, 대상.위치))
+            return 수풀시야중심(상태, 지형, 팀) is Vector2 중심 && 수풀시야안(중심, 대상.위치);
+        if (!대상.은신) return true;
+        foreach (var 아군 in 상태.대상들)
+            if (아군 is { 생존: true } && 아군.팀 == 팀 && Vector2.Distance(아군.위치, 대상.위치) < 2.5f) return true;
+        return false;
     }
 }

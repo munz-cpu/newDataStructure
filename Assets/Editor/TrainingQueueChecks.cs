@@ -27,14 +27,14 @@ public static class TrainingQueueChecks
                 f.Train(6, 7, 6);
                 Require(f.Team.훈련대기인원 == 2, "Duplicate selection queued twice");
                 Require(f.Team.재화[0] == 100000 - 15 - 16, "Second reservation did not increase the training cost");
-                f.Step(5.8f);
+                f.Step(4.5f);
                 Require(f.Soldiers == 0 && first.생존 && second.생존, "Training completed early");
-                f.Step(.3f);
+                f.Step(.2f);
                 Require(f.Soldiers == 1 && !first.생존 && second.생존, "FIFO order violated");
-                Require(Mathf.Abs(f.State.대상들[전장규칙.병사시작칸].체력 - 52.5f) < .01f, "Conversion healed damage");
-                f.Step(6.1f);
+                Require(Mathf.Abs(f.State.대상들[전장규칙.병사시작칸].체력 - 70f) < .01f, "Conversion healed damage");
+                f.Step(4.7f);
                 Require(f.Soldiers == 1 && second.생존, "Second resident trained at the first resident's speed");
-                f.Step(.3f);
+                f.Step(.25f);
                 Require(f.Soldiers == 2 && !second.생존 && f.Team.훈련대기인원 == 0, "Second conversion failed");
             });
             Check("Travel before training", () =>
@@ -42,7 +42,7 @@ public static class TrainingQueueChecks
                 var f = new Fixture(); var worker = f.Worker(6);
                 worker.위치 += Vector2.right * 5;
                 f.Train(6); f.Rules.진행(.05f, false);
-                Require(f.Team.훈련남은시간 == 전장규칙.주민훈련시간, "Timer ran before arrival");
+                Require(Mathf.Abs(f.Team.훈련남은시간 - 6f / 1.3f) < .01f, "Timer ran before arrival");
                 f.Step(20);
                 Require(f.Soldiers == 1 && !worker.생존, "Resident failed to walk to training school");
             });
@@ -57,18 +57,43 @@ public static class TrainingQueueChecks
                 f.Train(6);
                 f.Rules.명령(0, new 전장명령 { 종류 = 명령종류.주민훈련, 값 = 5, 부대 = new[] { 7 } });
                 Require(school.훈련대기수 == 1 && otherSchool.훈련대기수 == 1, "School counts include the other school's residents");
-                Require(Mathf.Abs(school.훈련잔여합계 - 6f) < .01f
-                    && Mathf.Abs(otherSchool.훈련잔여합계 - 12.3f) < .01f, "Second school ETA ignored the earlier order");
+                Require(Mathf.Abs(school.훈련잔여합계 - 6f / 1.3f) < .01f
+                    && Mathf.Abs(otherSchool.훈련잔여합계 - 12.3f / 1.3f) < .01f, "Second school ETA ignored the earlier order");
                 f.Step(1);
                 var copy = JsonUtility.FromJson<전장상태>(JsonUtility.ToJson(f.State));
-                Require(copy.대상들[5].훈련대기수 == 1 && Mathf.Abs(copy.대상들[5].훈련잔여합계 - 11.3f) < .01f,
+                Require(copy.대상들[5].훈련대기수 == 1 && Mathf.Abs(copy.대상들[5].훈련잔여합계 - (12.3f / 1.3f - 1)) < .01f,
                     "Replicated school did not retain the updated countdown");
                 school.체력 = 0;
                 f.Rules.진행(0, false);
                 Require(school.훈련대기수 == 0 && school.훈련잔여합계 == 0
-                    && Mathf.Abs(otherSchool.훈련잔여합계 - 6.3f) < .01f, "Cancellation did not refresh both schools");
+                    && Mathf.Abs(otherSchool.훈련잔여합계 - 6.3f / 1.3f) < .01f, "Cancellation did not refresh both schools");
                 f.Step(6.4f);
                 Require(otherSchool.훈련대기수 == 0 && otherSchool.훈련잔여합계 == 0, "Completion left stale school state");
+            });
+            Check("Higher intelligence trains faster and carries into the soldier", () =>
+            {
+                var low = new Fixture(); var skilled = new Fixture();
+                var worker = skilled.Worker(6);
+                worker.힘 = 2; worker.민첩 = 4; worker.지능 = 16;
+                low.Worker(6); low.Train(6); skilled.Train(6);
+                Require(skilled.Team.훈련남은시간 < low.Team.훈련남은시간, "Intelligence did not shorten the reservation");
+                low.Step(3.6f); skilled.Step(3.6f);
+                Require(low.Soldiers == 0 && skilled.Soldiers == 1
+                    && skilled.State.대상들[전장규칙.병사시작칸].지능 == 16, "Higher intelligence did not finish earlier or carry over");
+            });
+            Check("Late training acceleration ramps up but caps at 25 percent", () =>
+            {
+                var early = new Fixture(); var mid = new Fixture(); var late = new Fixture(); var extended = new Fixture();
+                early.State.시간 = 360; mid.State.시간 = 660; late.State.시간 = 960; extended.State.시간 = 2400;
+                foreach (var fixture in new[] { early, mid, late, extended }) { fixture.Worker(6); fixture.Train(6); }
+                Require(early.Team.훈련남은시간 > mid.Team.훈련남은시간
+                    && mid.Team.훈련남은시간 > late.Team.훈련남은시간, "Later match time did not shorten the countdown");
+                Require(Mathf.Approximately(late.Team.훈련남은시간, early.Team.훈련남은시간 / 1.25f)
+                    && Mathf.Approximately(extended.Team.훈련남은시간, late.Team.훈련남은시간), "Late training cap was not applied");
+                late.Step(3.6f); extended.Step(3.6f);
+                Require(late.Soldiers == 0 && extended.Soldiers == 0, "Late trainees became soldiers too early");
+                late.Step(.2f); extended.Step(.2f); early.Step(3.8f);
+                Require(early.Soldiers == 0 && late.Soldiers == 1 && extended.Soldiers == 1, "Capped training did not complete on schedule");
             });
             Check("New command cancels and refunds", () =>
             {
@@ -157,10 +182,11 @@ public static class TrainingQueueChecks
             {
                 var source = UnityEngine.Object.FindFirstObjectByType<신들의전쟁>();
                 var renderers = (SpriteRenderer[])typeof(신들의전쟁).GetField("슬롯", Private).GetValue(source);
-                Require(renderers.Length == 전장규칙.울타리시작칸, "Authored unit slot count incorrect");
+                Require(renderers.Length == 전장규칙.울타리시작칸
+                    || Application.isPlaying && renderers.Length == 전장규칙.전체칸, "Authored unit slot count incorrect");
                 var unique = new HashSet<SpriteRenderer>();
-                foreach (var renderer in renderers)
-                    Require(renderer != null && renderer.sprite != null && unique.Add(renderer), "Missing or duplicate renderer");
+                for (int i = 0; i < 전장규칙.울타리시작칸; i++)
+                    Require(renderers[i] != null && renderers[i].sprite != null && unique.Add(renderers[i]), "Missing or duplicate renderer");
             });
             Results.Add("ALL PASSED");
         }

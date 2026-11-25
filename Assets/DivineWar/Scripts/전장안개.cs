@@ -95,7 +95,7 @@ sealed class 전장안개 : IDisposable
 
         bool 변경 = false;
         foreach (var 대상 in 대상들)
-            if (대상 != null && 대상.팀 == 내팀 && 대상.생존 && !대상.울타리) 탐사(대상.위치, 시야반경);
+            if (대상 != null && 대상.팀 == 내팀 && 대상.생존 && !대상.울타리 && !대상.연습허수아비) 탐사(대상.위치, 시야반경);
         if (지대들 != null) foreach (var 지대 in 지대들)
             if (지대.팀 == 내팀 && 지대.종류 == 지대종류.시야) 탐사(지대.위치, 지대.반경);
         void 탐사(Vector2 위치, float 거리)

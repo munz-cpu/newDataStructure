@@ -4,7 +4,8 @@ using UnityEngine.UI;
 
 internal sealed class 유닛상태창
 {
-    const float 너비 = 202, 높이 = 158, 여백 = 8, 등장거리 = 13;
+    const float 너비 = 248, 높이 = 158, 여백 = 8, 등장거리 = 13;
+    const string 수치위치 = "<pos=159><size=12>";
     const float 등장시간 = .24f, 채움시간 = .38f, 채움간격 = .045f;
     static readonly Color32 제목색 = new(246, 210, 145, 255);
     static readonly Color32 글자색 = new(246, 236, 217, 255);
@@ -13,6 +14,7 @@ internal sealed class 유닛상태창
     readonly RectTransform 부모, 상자;
     readonly CanvasGroup 투명도;
     readonly TMP_Text 제목;
+    readonly TMP_Text[] 능력치글들 = new TMP_Text[4];
     readonly Button 추적버튼;
     readonly RectTransform[] 채움들 = new RectTransform[4];
     readonly float[] 비율들 = new float[4];
@@ -39,9 +41,9 @@ internal sealed class 유닛상태창
         투명도 = 오브젝트.AddComponent<CanvasGroup>();
         투명도.interactable = true;
         투명도.blocksRaycasts = true;
-        제목 = 글(글꼴, "주민", 17, 10, 168, 23, 19, 제목색);
+        제목 = 글(글꼴, "주민", 17, 10, 너비 - 34, 23, 19, 제목색);
         var 구분선 = 이미지(상자, "구분선", new Color32(136, 107, 71, 210));
-        배치(구분선.rectTransform, 17, 36, 168, 1);
+        배치(구분선.rectTransform, 17, 36, 너비 - 34, 1);
 
         막대(0, 글꼴, "체력", new Color32(224, 119, 98, 255));
         막대(1, 글꼴, "힘", new Color32(229, 165, 90, 255));
@@ -50,14 +52,9 @@ internal sealed class 유닛상태창
         추적버튼 = Object.Instantiate(Resources.Load<GameObject>("UnitFollowButton"), 상자, false).GetComponent<Button>();
         추적버튼.onClick.AddListener(() => 추적요청(표시번호));
 
-        int 최대보정 = 0;
-        foreach (var 단계 in 전장규칙.주민투자목록)
-            최대보정 = Mathf.Max(최대보정, 단계.최대보정);
         var 주민 = 전장규칙.능력치(대상종류.주민);
-        var 병사 = 전장규칙.능력치(대상종류.병사);
-        능력치눈금 = Mathf.Max(
-            전장규칙.주민능력치보정(Mathf.Max(주민.힘, 주민.민첩, 주민.지능), 최대보정),
-            Mathf.Max(병사.힘, 병사.민첩, 병사.지능));
+        능력치눈금 = Mathf.Max(전장규칙.해골병사힘,
+            전장규칙.주민능력치보정(Mathf.Max(주민.힘, 주민.민첩), 전장규칙.주민최대보정));
         숨기기();
     }
 
@@ -109,7 +106,12 @@ internal sealed class 유닛상태창
         비율들[0] = 표시체력;
         비율들[1] = 힘 / 능력치눈금;
         비율들[2] = 민첩 / 능력치눈금;
-        비율들[3] = 지능 / 능력치눈금;
+        비율들[3] = 지능 / (float)(대상.종류 == 대상종류.병사 ? 전장규칙.병사지능한도 : 전장규칙.주민추첨지능(전장규칙.주민최대보정));
+        능력치글들[0].SetText("체력" + 수치위치 + "{0:0} / {1:0}</size>",
+            Mathf.Ceil(대상.체력), Mathf.Ceil(대상.최대체력));
+        능력치글들[1].SetText("힘" + 수치위치 + "{0:0}</size>", 힘);
+        능력치글들[2].SetText("민첩" + 수치위치 + "{0:0}</size>", 민첩);
+        능력치글들[3].SetText("지능" + 수치위치 + "{0:0}</size>", 지능);
         for (int i = 0; i < 채움들.Length; i++)
         {
             float 차오름 = 감속((경과 - .09f - i * 채움간격) / 채움시간);
@@ -142,9 +144,9 @@ internal sealed class 유닛상태창
     void 막대(int 번호, TMP_FontAsset 글꼴, string 항목, Color 색)
     {
         float 위 = 42 + 번호 * 19;
-        글(글꼴, 항목, 17, 위, 43, 19, 14, 글자색);
+        능력치글들[번호] = 글(글꼴, 항목, 17, 위, 너비 - 34, 19, 14, 글자색);
         var 트랙 = 이미지(상자, 항목 + " 트랙", 트랙색);
-        배치(트랙.rectTransform, 65, 위 + 5, 120, 10);
+        배치(트랙.rectTransform, 65, 위 + 5, 105, 10);
         var 안쪽 = 이미지(트랙.rectTransform, "홈", new Color32(56, 49, 43, 255)).rectTransform;
         안쪽.anchorMin = Vector2.zero;
         안쪽.anchorMax = Vector2.one;

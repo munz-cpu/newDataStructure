@@ -71,6 +71,10 @@
         <ui:Label name="battle-skill-title" class="battle-skill-title" picking-mode="Ignore" />
         <ui:Label name="battle-skill-detail" class="battle-skill-detail" picking-mode="Ignore" />
     </ui:VisualElement>
+    <ui:VisualElement name="building-tooltip" class="battle-skill-tooltip" picking-mode="Ignore" style="display: none;">
+        <ui:Label name="building-tooltip-title" class="battle-skill-title" picking-mode="Ignore" />
+        <ui:Label name="building-tooltip-detail" class="battle-skill-detail" picking-mode="Ignore" />
+    </ui:VisualElement>
     <ui:VisualElement name="tutorial-mission" class="tutorial-mission" picking-mode="Ignore" style="display: none;">
         <ui:VisualElement name="tutorial-mission-icon" class="tutorial-mission-icon" picking-mode="Ignore" />
         <ui:VisualElement class="tutorial-mission-copy" picking-mode="Ignore">
@@ -78,6 +82,43 @@
             <ui:Label name="tutorial-mission-title" class="tutorial-mission-title" picking-mode="Ignore" />
             <ui:Label name="tutorial-mission-hint" class="tutorial-mission-hint" picking-mode="Ignore" />
         </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Button name="debug-show-panel" text="디버그 메뉴 열기" class="practice-debug-button practice-debug-open" style="display: none;" />
+    <ui:VisualElement name="practice-debug" class="practice-debug" style="display: none;">
+        <ui:VisualElement class="practice-debug-header">
+            <ui:Label text="AI 연습전 디버그" class="practice-debug-title" />
+            <ui:Button name="debug-hide-panel" text="숨기기" class="practice-debug-button practice-debug-hide" />
+        </ui:VisualElement>
+        <ui:Label name="debug-status" text="디버그 모드 켜짐" class="practice-debug-status" />
+        <ui:ScrollView name="debug-scroll" mode="Vertical" vertical-scroller-visibility="Auto" horizontal-scroller-visibility="Hidden" class="practice-debug-scroll">
+            <ui:Button name="debug-autoplay" text="자동 플레이 켜기" class="practice-debug-button" />
+            <ui:Button name="debug-teleport" text="미니맵 순간이동" class="practice-debug-button" />
+            <ui:Button name="debug-heal" text="왕 체력 완전히 회복" class="practice-debug-button" />
+            <ui:Button name="debug-invulnerability" text="무적 · 꺼짐" class="practice-debug-button" />
+            <ui:Button name="debug-ai-pause" text="적색 AI · 작동" class="practice-debug-button" />
+            <ui:VisualElement class="practice-debug-row">
+                <ui:DropdownField name="debug-resource" class="practice-debug-field" />
+                <ui:Button name="debug-grant" text="+1,000" class="practice-debug-button" />
+            </ui:VisualElement>
+            <ui:Button name="debug-training" text="훈련 0초 · 꺼짐" class="practice-debug-button" />
+            <ui:Button name="debug-cooldowns" text="모든 스킬 쿨타임 초기화" class="practice-debug-button" />
+            <ui:VisualElement class="practice-debug-row practice-debug-pair">
+                <ui:Button name="debug-place-dummy" text="허수아비 소환" class="practice-debug-button" />
+                <ui:Button name="debug-remove-dummy" text="허수아비 제거" class="practice-debug-button" />
+            </ui:VisualElement>
+            <ui:Button name="debug-takeover" text="적색 AI 기지 조종" class="practice-debug-button" />
+            <ui:Label text="직업" class="practice-debug-label" />
+            <ui:VisualElement class="practice-debug-row">
+                <ui:DropdownField name="debug-class" class="practice-debug-field" />
+                <ui:Button name="debug-change-class" text="변경" class="practice-debug-button" />
+            </ui:VisualElement>
+            <ui:Label text="장착 스킬" class="practice-debug-label" />
+            <ui:VisualElement class="practice-debug-row">
+                <ui:DropdownField name="debug-skill-slot" class="practice-debug-slot" />
+                <ui:DropdownField name="debug-skill" class="practice-debug-field" />
+            </ui:VisualElement>
+            <ui:Button name="debug-change-skill" text="선택한 스킬 장착" class="practice-debug-button" />
+        </ui:ScrollView>
     </ui:VisualElement>
     <ui:VisualElement picking-mode="Ignore" style="position: absolute; left: 4%; right: 4%; top: 62%; align-items: center;">
         <ui:Label name="army-selection-hint" text="[Z] 주민 · [X] 병사 · [C] 브루저 · [V] 아처" picking-mode="Ignore" style="display: none; font-size: 20px; color: rgb(255, 235, 187); -unity-text-align: middle-center; white-space: normal; background-color: rgba(39, 29, 20, 0.92); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(126, 91, 53); border-right-color: rgb(126, 91, 53); border-top-color: rgb(159, 119, 74); border-bottom-color: rgb(81, 57, 34); padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px;" />

@@ -12,7 +12,7 @@ public static class ConstructionHudChecks
         int checks = 0;
         void Require(bool ok, string message) { if (!ok) throw new Exception(message); checks++; }
         int[] kinds = { 0, 1, 4, 5, 6, 7, 8, 9, 10, 11, 12 };
-        int[] limits = { 2, 2, 12, 12, 1, 2, 2, 4, 8, 8, 2 };
+        int[] limits = { 2, 2, 12, 12, 2, 2, 2, 4, 8, 8, 2 };
         대상종류[] types = { 대상종류.제재소, 대상종류.훈련소, 대상종류.나무울타리, 대상종류.돌울타리,
             대상종류.모닥불, 대상종류.브루저훈련소, 대상종류.아처훈련소, 대상종류.아처타워,
             대상종류.지뢰, 대상종류.점프패드, 대상종류.깃발 };

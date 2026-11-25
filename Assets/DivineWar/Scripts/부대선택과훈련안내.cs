@@ -71,6 +71,7 @@ public sealed partial class 신들의전쟁
         foreach (int 번호 in 필터원본)
             if ((uint)번호 < (uint)상태.대상들.Length && 부류선택가능(상태.대상들[번호], 종류)) 선택부대.Add(번호);
         필터결과.Clear(); 필터결과.UnionWith(선택부대);
+        선택효과음재생();
         드래그선택안내 = false; 드래그중 = false; 배치 = -1;
         건축목록표시(false);
     }
@@ -82,6 +83,7 @@ public sealed partial class 신들의전쟁
         foreach (int 번호 in 필터원본)
             if ((uint)번호 < (uint)상태.대상들.Length && 상태.대상들[번호] is { 생존: true } 대상
                 && 대상.팀 == 내팀 && 대상.종류 is 대상종류.주민 or 대상종류.병사) 선택부대.Add(번호);
+        선택효과음재생();
         필터원본.Clear(); 필터결과.Clear();
     }
 

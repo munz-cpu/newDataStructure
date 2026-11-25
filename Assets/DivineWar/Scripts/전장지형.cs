@@ -66,7 +66,10 @@ sealed class 전장지형 : IDisposable
     readonly Tilemap 지형맵;
     readonly List<UnityEngine.Object> 그래픽 = new();
     readonly Dictionary<Vector3Int, 종류> 지형칸 = new();
+    readonly List<(Vector3Int 칸, Rect 범위, float 알파)> 수풀그림들 = new();
+    bool 수풀페이드중;
     readonly HashSet<Vector3Int> 해변칸 = new();
+    readonly HashSet<Vector3Int> 광맥칸 = new();
     internal 자원지점[] 자원들 { get; }
 
     public 전장지형(Tilemap 바닥, Tilemap 장애물, Tilemap 지형맵, TileBase[] 해변타일, TileBase[] 흙타일,
@@ -112,7 +115,11 @@ sealed class 전장지형 : IDisposable
 
         var 자원칸 = new HashSet<Vector3Int>();
         foreach (var 지점 in 자원들)
-            자원칸.Add(바닥.WorldToCell(지점.오브젝트.position));
+        {
+            var 칸 = 바닥.WorldToCell(지점.위치);
+            자원칸.Add(칸);
+            if (지점.재화번호 is 2 or 3) 광맥칸.Add(칸);
+        }
 
         foreach (var (중심, 지형, 변형) in 배치)
         {
@@ -188,6 +195,7 @@ sealed class 전장지형 : IDisposable
         for (int i = 0; i < 수풀.Length; i++)
         {
             수풀[i] = 타일(그림(그림판, i * 32, 0, 32, 24, new(.5f, .45f), 22));
+            수풀[i].flags &= ~TileFlags.LockColor;
             float 옆 = (i & 1) == 0 ? -.09f : .09f;
             float 위 = (i & 2) == 0 ? -.07f : .07f;
             수풀[i].transform = Matrix4x4.Translate(new Vector3(옆, 위, 0));
@@ -222,7 +230,12 @@ sealed class 전장지형 : IDisposable
             Tile 타일;
             switch (지형)
             {
-                case 종류.수풀: 타일 = 수풀[무늬]; break;
+                case 종류.수풀:
+                    타일 = 수풀[무늬];
+                    Vector2 시작 = 지형맵.CellToWorld(칸);
+                    Vector2 끝 = 지형맵.CellToWorld(칸 + new Vector3Int(1, 1, 0));
+                    수풀그림들.Add((칸, new Rect(시작, 끝 - 시작), 1));
+                    break;
                 case 종류.숲:
                     타일 = 숲바닥[무늬];
                     if (숲나무프리팹 != null)
@@ -353,11 +366,35 @@ sealed class 전장지형 : IDisposable
         return 숲인가(끝칸);
     }
 
-    public bool 차단됨(Vector3Int 칸) =>
+    public bool 차단됨(Vector3Int 칸) => 광맥칸.Contains(칸) ||
         지형칸.TryGetValue(칸, out var 지형) && 지형 is 종류.연못 or 종류.바다 or 종류.숲 or 종류.바위;
 
     public bool 은신지형인가(Vector2 위치) =>
         지형칸.TryGetValue(바닥.WorldToCell(위치), out var 지형) && 지형 is 종류.수풀 or 종류.숲;
+
+    internal bool 수풀인가(Vector2 위치) =>
+        지형칸.TryGetValue(바닥.WorldToCell(위치), out var 지형) && 지형 == 종류.수풀;
+
+    internal const float 열린수풀알파 = .42f;
+
+    internal void 수풀투명도갱신(Vector2? 중심, float 초)
+    {
+        if (!중심.HasValue && !수풀페이드중) return;
+        수풀페이드중 = false;
+        for (int i = 0; i < 수풀그림들.Count; i++)
+        {
+            var (칸, 범위, 알파) = 수풀그림들[i];
+            var 위치 = 중심.GetValueOrDefault();
+            var 가까운점 = new Vector2(Mathf.Clamp(위치.x, 범위.xMin, 범위.xMax),
+                Mathf.Clamp(위치.y, 범위.yMin, 범위.yMax));
+            bool 열림 = 중심.HasValue && 전장규칙.수풀시야안(위치, 가까운점);
+            float 다음알파 = Mathf.MoveTowards(알파, 열림 ? 열린수풀알파 : 1, 초 * 5);
+            수풀페이드중 |= 다음알파 < 1;
+            if (다음알파 == 알파) continue;
+            지형맵.SetColor(칸, new Color(1, 1, 1, 다음알파));
+            수풀그림들[i] = (칸, 범위, 다음알파);
+        }
+    }
 
     public bool 건설가능(Vector2 위치) =>
         !지형칸.TryGetValue(바닥.WorldToCell(위치), out var 지형) || 지형 == 종류.흙길;
@@ -375,8 +412,7 @@ sealed class 전장지형 : IDisposable
     public bool 바다인가(Vector2 위치) =>
         지형칸.TryGetValue(바닥.WorldToCell(위치), out var 지형) && 지형 == 종류.바다;
 
-    public bool 대상보임(전장대상 대상, int 관측팀) =>
-        대상.팀 == 관측팀 || 대상.건물 || !은신지형인가(대상.위치);
+    internal bool 숲인가(Vector2 위치) => 숲인가(바닥.WorldToCell(위치));
 
     public Color32 지도색(Vector2 위치)
     {

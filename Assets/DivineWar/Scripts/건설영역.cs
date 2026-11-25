@@ -26,17 +26,27 @@ public sealed partial class 전장규칙
         return false;
     }
 
+    internal static int 회관피해감소율(전장상태 상태, int 팀)
+    {
+        if (상태.대상들[회관번호(팀)] is not { 생존: true }) return 0;
+        int 완공건물 = 0;
+        foreach (var 대상 in 상태.대상들)
+            if (대상 is { 생존: true, 건물: true, 완공대기: <= 0 }
+                && 대상.팀 == 팀 && 대상.종류 != 대상종류.회관 && ++완공건물 == 9) return 70;
+        return 완공건물 >= 6 ? 50 : 완공건물 >= 3 ? 30 : 0;
+    }
+
     // Shared by authoritative orders and the hover quote so the quoted head count matches eligibility.
     public static bool 훈련가능유닛(int 팀, 전장대상 학교, 전장대상 유닛)
     {
         if (학교 is not { 생존: true, 완공대기: <= 0 } || 학교.팀 != 팀
             || 학교.종류 != 대상종류.훈련소 && !전문훈련소(학교)) return false;
-        return 유닛 is { 생존: true, 훈련소: < 0, 소환: 소환종류.없음, 병과: 병과.일반 }
+        return 유닛 is { 생존: true, 훈련소: < 0, 소환: 소환종류.없음, 병과: 병과.일반, 연습허수아비: false, 해골병사: false }
             && 유닛.팀 == 팀 && (전문훈련소(학교) ? 유닛.종류 == 대상종류.병사 : 유닛.종류 == 대상종류.주민);
     }
 
     public static bool 병과선택가능(전장대상 유닛, int 팀, 병과 종류)
-        => 유닛 is { 생존: true, 종류: 대상종류.병사, 소환: 소환종류.없음 } && 유닛.팀 == 팀 && 유닛.병과 == 종류;
+        => 유닛 is { 생존: true, 종류: 대상종류.병사, 소환: 소환종류.없음, 연습허수아비: false } && 유닛.팀 == 팀 && 유닛.병과 == 종류;
 
     public static bool 주민선택가능(전장대상 유닛, int 팀)
         => 유닛 is { 생존: true, 종류: 대상종류.주민 } && 유닛.팀 == 팀;

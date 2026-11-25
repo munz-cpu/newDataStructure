@@ -10,7 +10,36 @@ using UnityEngine.Tilemaps;
 public static class BattlefieldLayoutChecks
 {
     [MenuItem("DivineWar/Validation/Battlefield Layout")]
-    public static void Run()
+    public static void Run() => Run(false);
+
+    [MenuItem("DivineWar/Validation/Brush Visibility")]
+    public static void RunBrushVisibility() => Run(true);
+
+    static void CheckOreCollision(격자길찾기 map, Tilemap ground, 자원지점[] resources)
+    {
+        var path = new List<Vector2>();
+        Vector2 Center(Vector3Int cell) => ground.GetCellCenterWorld(cell);
+        foreach (var ore in resources.Where(ore => ore.재화번호 is 2 or 3))
+        {
+            var cell = ground.WorldToCell(ore.위치);
+            var center = Center(cell);
+            Require(!map.정적통행가능(center), $"Ore blocks travel: {ore.오브젝트.name}");
+            bool gatherable = false;
+            foreach (var offset in new[] { Vector3Int.right, Vector3Int.up, Vector3Int.left, Vector3Int.down })
+            {
+                var start = Center(cell - offset);
+                if (!map.정적통행가능(start)) continue;
+                Require(map.방향이동(start, center) == start, $"Direct movement stops at {ore.오브젝트.name}");
+                map.구하기(start, ore.위치, path);
+                var approach = path.Count > 0 ? path[^1] : start;
+                gatherable |= Vector2.Distance(approach, ore.위치) <= 전장규칙.채집거리;
+                Require(path.All(map.정적통행가능), $"Path stays outside {ore.오브젝트.name}");
+            }
+            Require(gatherable, $"Ore remains in gathering range: {ore.오브젝트.name}");
+        }
+    }
+
+    static void Run(bool brushOnly)
     {
         var scene = EditorSceneManager.OpenPreviewScene("Assets/Scenes/Main.unity");
         try
@@ -44,15 +73,19 @@ public static class BattlefieldLayoutChecks
             Require(tree != null && !map.정적통행가능(forestPosition)
                 && !(bool)canBuild.Invoke(map, new object[] { forestPosition }), "Outer forest blocks travel and construction");
             var forest = new HashSet<Vector3Int>();
-            bool walkableBrush = false;
+            var brush = new List<Vector3Int>();
             foreach (var cell in overlay.cellBounds.allPositionsWithin)
             {
                 var position = Center(cell);
                 if (!(bool)concealed.Invoke(terrain, new object[] { position })) continue;
-                if (map.정적통행가능(position)) walkableBrush = true;
+                if (map.정적통행가능(position)) brush.Add(cell);
                 else forest.Add(cell);
             }
-            Require(walkableBrush, "Brush remains walkable and conceals units");
+            Require(brush.Count > 0, "Brush remains walkable and conceals units");
+            CheckBrushVisibility(terrain, terrainType, ground, overlay, brush, forestPosition);
+            Debug.Log("Brush visibility and tile opacity checks passed.");
+            if (brushOnly) return;
+            CheckOreCollision(map, ground, resources);
             var forestTrees = overlay.GetComponentsInChildren<SpriteRenderer>()
                 .ToDictionary(renderer => ground.WorldToCell(renderer.transform.position));
             Require(forest.Contains(outerForest) && forest.Count >= 40 && forest.SetEquals(forestTrees.Keys)
@@ -158,6 +191,57 @@ public static class BattlefieldLayoutChecks
         {
             EditorSceneManager.ClosePreviewScene(scene);
         }
+    }
+
+    static void CheckBrushVisibility(IDisposable terrain, Type terrainType, Tilemap ground, Tilemap overlay,
+        List<Vector3Int> brush, Vector2 forestPosition)
+    {
+        Vector2 Center(Vector3Int cell) => ground.GetCellCenterWorld(cell);
+        var nearby = brush.SelectMany(cell => new[] { Vector3Int.left, Vector3Int.right, Vector3Int.up, Vector3Int.down }
+                .Select(direction => (King: cell, Enemy: cell + direction, Outside: cell - direction)))
+            .First(cells => brush.Contains(cells.Enemy) && !brush.Contains(cells.Outside));
+        var distant = brush.First(cell => Vector2.Distance(Center(cell), Center(nearby.King)) > 5);
+        var king = new 전장대상 { 팀 = 0, 위치 = Center(nearby.Outside), 체력 = 100 };
+        var enemy = new 전장대상 { 팀 = 1, 위치 = Center(nearby.Enemy), 체력 = 100 };
+        var state = new 전장상태 { 대상들 = new 전장대상[전장규칙.왕번호(1) + 1] };
+        state.대상들[전장규칙.왕번호(0)] = king;
+        state.대상들[전장규칙.왕번호(1)] = enemy;
+        const BindingFlags staticMethods = BindingFlags.Static | BindingFlags.NonPublic;
+        var visible = typeof(전장규칙).GetMethod("전투대상보임", staticMethods);
+        var revealCenter = typeof(전장규칙).GetMethod("수풀시야중심", staticMethods);
+        var fade = terrainType.GetMethod("수풀투명도갱신", BindingFlags.Instance | BindingFlags.NonPublic);
+        bool EnemyVisible() => (bool)visible.Invoke(null, new object[] { state, terrain, 0, enemy });
+        void UpdateOpacity(float dt) => fade.Invoke(terrain, new[] { revealCenter.Invoke(null, new object[] { state, terrain, 0 }), dt });
+
+        Require(!EnemyVisible(), "An observer outside brush cannot reveal nearby brush");
+        king.위치 = Center(nearby.King);
+        Require(EnemyVisible(), "A living king in brush reveals the nearby enemy");
+        UpdateOpacity(.05f);
+        float fadingAlpha = overlay.GetColor(nearby.Enemy).a;
+        UpdateOpacity(.2f);
+        float revealedAlpha = overlay.GetColor(nearby.Enemy).a;
+        Require(revealedAlpha > 0 && revealedAlpha < fadingAlpha && fadingAlpha < 1 && overlay.GetColor(distant).a == 1,
+            "Nearby brush fades to partial opacity while distant brush stays opaque");
+
+        enemy.위치 = Center(distant);
+        Require(!EnemyVisible(), "Distant brush conceals its enemy");
+        enemy.위치 = forestPosition;
+        Require(!EnemyVisible(), "Forest keeps its existing concealment");
+        enemy.위치 = Center(nearby.Enemy);
+        king.체력 = 0;
+        UpdateOpacity(.2f);
+        Require(!EnemyVisible() && overlay.GetColor(nearby.Enemy).a == 1, "Death restores brush concealment and opacity");
+
+        king.체력 = 100;
+        king.위치 = new Vector2(100, 100);
+        enemy.위치 = king.위치 + Vector2.right * 2.5f;
+        state.지대들.Add(new 스킬지대 { 종류 = 지대종류.수풀, 위치 = king.위치, 반경 = 1 });
+        state.지대들.Add(new 스킬지대 { 종류 = 지대종류.수풀, 위치 = enemy.위치, 반경 = 1 });
+        Require(EnemyVisible(), "Separate skill bushes reveal at the inclusive radius");
+        enemy.위치 += Vector2.right * .05f;
+        Require(!EnemyVisible(), "Skill bush beyond the reveal radius stays concealed");
+        state.지대들.Add(new 스킬지대 { 종류 = 지대종류.시야, 위치 = enemy.위치, 반경 = 1 });
+        Require(EnemyVisible(), "Scouting still reveals an enemy in distant brush");
     }
 
     static void Require(bool condition, string message)

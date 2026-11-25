@@ -83,16 +83,21 @@ public static class BuildingInteractionChecks
                 string uxml=File.ReadAllText("Assets/DivineWar/전장.uxml");
                 foreach(var name in new[]{"training-cost","select-regular","select-bruiser","select-archer","restore-selection"})Require(uxml.Contains(name),"Missing UI "+name);
             });
-            Check("Small facilities fit adjacent cells, reject overlap and preserve ordinary spacing",()=> {
-                foreach(int kind in new[]{4,5,6,10,11,12})
+            Check("Every building fits one cell away and rejects overlap",()=> {
+                foreach(int kind in new[]{0,1,4,5,6,7,8,9,10,11,12})
                 {
                     var f=new Fixture();var p=f.Point(0,f.Hall,3,6);f.Place(2,0,대상종류.제재소,p,210);
-                    Require(!f.Can(kind,p),"Small facility overlaps building: "+kind);
+                    if(kind==전장규칙.타워건설)
+                        f.Place(전장규칙.병사시작칸,0,대상종류.병사,f.Hall+Vector2.down).병과=병과.아처;
+                    Require(!f.Can(kind,p),"Building preview accepts an occupied cell: "+kind);
+                    var before=f.State.진영들[0].재화.ToArray();
+                    f.Build(kind,p);
+                    Require(before.SequenceEqual(f.State.진영들[0].재화),"Overlapping order spent resources: "+kind);
                     bool found=false;
                     foreach(var d in new[]{Vector2.left,Vector2.right,Vector2.up,Vector2.down})
                     {
                         var next=p+d;if(!f.Can(kind,next))continue;
-                        Require(!f.Can(1,next),"Ordinary building spacing changed");f.Build(kind,next);
+                        f.Build(kind,next);
                         Require(f.State.대상들.Any(u=>u is {생존:true,건물:true} && u.위치==next),"Adjacent facility rejected: "+kind);
                         found=true;break;
                     }

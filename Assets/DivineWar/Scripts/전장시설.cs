@@ -53,7 +53,7 @@ public sealed partial class 전장규칙
             if (적 < 0) return;
             for (int i = 0; i < 전체칸; i++)
                 if (상태.대상들[i] is { 생존: true, 건물: false } 유닛 && 유닛.팀 != 시설.팀
-                    && Vector2.Distance(유닛.위치, 시설.위치) <= 2f) 피해(i, 75, 시설.팀);
+                    && Vector2.Distance(유닛.위치, 시설.위치) <= 2f) 피해(i, 75 * 범위피해배율, 시설.팀);
             지대추가(시설.팀, 지대종류.근접타격, 시설.위치, 2f, .35f);
             시설.체력 = 0;
         }

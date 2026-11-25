@@ -1,11 +1,17 @@
 using System.Collections.Generic;
+using System.Text;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public sealed partial class 신들의전쟁
 {
-    readonly List<(TMP_Text 글, int 종류, string 이름)> 건설수량표시 = new();
+    [SerializeField] TMP_SpriteAsset 건축재료아이콘;
+    readonly List<(메뉴버튼 버튼, TMP_Text 글, int 종류, string 이름)> 건설수량표시 = new();
+    VisualElement 건설설명상자;
+    Label 건설설명제목, 건설설명본문;
+    int 설명중인건물 = -1;
     bool 망치커서중;
     const float 망치타격길이 = .43f;
     float 망치타격시작 = float.NegativeInfinity;
@@ -13,6 +19,22 @@ public sealed partial class 신들의전쟁
     bool 망치타격중 => Time.unscaledTime - 망치타격시작 < 망치타격길이;
     AudioSource 건설효과음재생기;
     readonly List<float> 건설타격예정 = new();
+    readonly bool[] 이전에건설중 = new bool[전장규칙.전체칸];
+    float 다음선택음시각, 다음이동명령음시각;
+
+    void 선택효과음재생()
+    {
+        if (전투중 && !일시정지 && 선택부대.Count > 0)
+            전장확인음재생(유닛선택효과음, .48f, ref 다음선택음시각);
+    }
+
+    void 전장확인음재생(AudioClip 소리, float 음량, ref float 다음재생시각)
+    {
+        float 현재시각 = Time.unscaledTime;
+        if (소리 == null || 효과음재생기 == null || 현재시각 < 다음재생시각) return;
+        효과음재생기.PlayOneShot(소리, 음량);
+        다음재생시각 = 현재시각 + Mathf.Max(.1f, 소리.length);
+    }
 
     void 건설소리준비()
     {
@@ -21,7 +43,13 @@ public sealed partial class 신들의전쟁
         건설효과음재생기 = gameObject.AddComponent<AudioSource>();
         건설효과음재생기.playOnAwake = false;
         건설효과음재생기.spatialBlend = 0;
-        건설효과음재생기.outputAudioMixerGroup = 효과음재생기.outputAudioMixerGroup;
+        if (효과음재생기 != null) 건설효과음재생기.outputAudioMixerGroup = 효과음재생기.outputAudioMixerGroup;
+    }
+
+    void 효과음음량갱신(float 음량)
+    {
+        if (효과음재생기 != null) 효과음재생기.volume = 음량;
+        if (건설효과음재생기 != null) 건설효과음재생기.volume = 음량;
     }
 
     void 건설소리시작()
@@ -32,7 +60,9 @@ public sealed partial class 신들의전쟁
 
     void 건설소리갱신()
     {
-        if (일시정지 || 상태.승자 >= 0 || 건설효과음재생기 == null) return;
+        if (일시정지 || 상태.승자 >= 0) return;
+        건설완료음갱신();
+        if (건설효과음재생기 == null) return;
         for (int i = 0; i < 건설타격예정.Count;)
         {
             if (상태.시간 < 건설타격예정[i]) { i++; continue; }
@@ -42,14 +72,36 @@ public sealed partial class 신들의전쟁
         }
     }
 
+    void 건설완료음갱신()
+    {
+        if (효과음재생기 == null || 건설완료효과음 == null) return;
+        bool 완공됨 = false;
+        for (int i = 0; i < 상태.대상들.Length; i++)
+        {
+            var 대상 = 상태.대상들[i];
+            bool 아군건물 = 대상 != null && 대상.팀 == 내팀 && 대상.생존 && 대상.건물;
+            bool 건설중 = 아군건물 && 대상.완공대기 > 0;
+            완공됨 |= 이전에건설중[i] && 아군건물 && !건설중;
+            이전에건설중[i] = 건설중;
+        }
+        if (완공됨) 효과음재생기.PlayOneShot(건설완료효과음, .68f);
+    }
+
     void 건설소리해제()
     {
         건설타격예정.Clear();
+        System.Array.Clear(이전에건설중, 0, 이전에건설중.Length);
+        다음선택음시각 = 다음이동명령음시각 = 0;
         if (건설효과음재생기 != null) 건설효과음재생기.Stop();
     }
 
     void 건설표시준비()
     {
+        건설설명상자 = 뿌리.Q("building-tooltip");
+        건설설명상자.style.unityFont = 도움.font.sourceFontFile;
+        건설설명제목 = 건설설명상자.Q<Label>("building-tooltip-title");
+        건설설명본문 = 건설설명상자.Q<Label>("building-tooltip-detail");
+        건설설명숨기기();
         건설수량표시.Clear();
         void 추가(메뉴버튼 버튼, int 종류, string 이름)
         {
@@ -58,7 +110,12 @@ public sealed partial class 신들의전쟁
             if (글 == null) return;
             글.enableAutoSizing = true;
             글.fontSizeMin = 11;
-            건설수량표시.Add((글, 종류, 이름));
+            건설수량표시.Add((버튼, 글, 종류, 이름));
+
+            var 비용글 = 버튼.transform.Find("건축 비용")?.GetComponent<TMP_Text>();
+            if (비용글 == null || 건축재료아이콘 == null) return;
+            비용글.spriteAsset = 건축재료아이콘;
+            비용글.text = 건설비용문구(종류);
         }
         추가(행동버튼[0], 0, "제재소");
         추가(행동버튼[1], 1, "훈련소");
@@ -73,13 +130,94 @@ public sealed partial class 신들의전쟁
         망치타격시작 = float.NegativeInfinity;
     }
 
+    static string 건설비용문구(int 종류)
+    {
+        var 문구 = new StringBuilder();
+        if (종류 == 전장규칙.타워건설) 문구.Append("아처 1명 + ");
+        var 수량들 = 전장규칙.비용[종류];
+        bool 재료표시됨 = false;
+        for (int i = 0; i < 수량들.Length; i++)
+        {
+            if (수량들[i] == 0) continue;
+            if (재료표시됨) 문구.Append("   ");
+            문구.Append("<sprite name=\"").Append(채집아이콘이름[i]).Append("\"> ").Append(수량들[i]);
+            재료표시됨 = true;
+        }
+        if (종류 is 전장규칙.브루저건설 or 전장규칙.아처건설) 문구.Append("  /  기본 훈련 2초");
+        if (종류 == 전장규칙.깃발건설) 문구.Append($"  /  건설 영역 +{전장규칙.건설반경}칸");
+        return 문구.ToString();
+    }
+
     void 건설수량갱신()
     {
-        foreach (var (글, 종류, 이름) in 건설수량표시)
+        foreach (var (_, 글, 종류, 이름) in 건설수량표시)
         {
             string 표시 = $"{이름}  {전장규칙.건설수량(상태, 내팀, 종류)} / {전장규칙.건설정원(상태, 내팀, 종류)}";
             if (글.text != 표시) 글.text = 표시;
         }
+    }
+
+    static string 건물설명(int 종류) => 종류 switch
+    {
+        0 => "완공되면 5초마다 나무 7개를 자동으로 생산합니다.",
+        1 => "아군 주민을 일반 병사로 훈련합니다.",
+        전장규칙.나무울타리건설 => "유닛의 이동을 막는 저렴한 방어벽입니다. 배치 중 V로 방향을 돌릴 수 있습니다.",
+        전장규칙.돌울타리건설 => "나무 울타리보다 체력이 높은 방어벽입니다. 배치 중 V로 방향을 돌릴 수 있습니다.",
+        전장규칙.모닥불건설 => "날고기를 구울 수 있습니다. 반경 3칸 안의 아군 병사는 초당 체력 2를 회복합니다.",
+        전장규칙.브루저건설 => "일반 병사를 체력이 높은 근접 병과인 브루저로 훈련합니다.",
+        전장규칙.아처건설 => "일반 병사를 멀리서 화살을 쏘는 아처로 훈련합니다.",
+        전장규칙.타워건설 => "주변 적 유닛에게 자동으로 화살을 쏩니다. 건설할 때 아처 1명을 소모합니다.",
+        전장규칙.지뢰건설 => "적이 가까이 오면 한 번 폭발해 주변 적 유닛에게 피해를 줍니다.",
+        전장규칙.점프건설 => "밟은 아군을 이동하거나 바라보는 방향으로 최대 4칸 도약시킵니다.",
+        전장규칙.깃발건설 => $"완공되면 깃발 반경 {전장규칙.건설반경}칸 안에도 건물을 지을 수 있습니다.",
+        _ => ""
+    };
+
+    void 건설설명갱신()
+    {
+        if (건축목록열림 && Application.isFocused && 뿌리.panel != null)
+        {
+            foreach (var (버튼, _, 종류, 이름) in 건설수량표시)
+            {
+                if (!버튼.isActiveAndEnabled || !버튼.포인터안) continue;
+                건설설명표시((RectTransform)버튼.transform, 종류, 이름);
+                return;
+            }
+        }
+        건설설명숨기기();
+    }
+
+    void 건설설명표시(RectTransform 버튼, int 종류, string 이름)
+    {
+        if (설명중인건물 != 종류)
+        {
+            설명중인건물 = 종류;
+            건설설명제목.text = 이름;
+            건설설명본문.text = 건물설명(종류);
+        }
+
+        Vector2 왼쪽위(RectTransform 영역) => 화면변환(RectTransformUtility.WorldToScreenPoint(
+            null, 영역.TransformPoint(new Vector2(영역.rect.xMin, 영역.rect.yMax))));
+        var 화면 = 뿌리.contentRect;
+        var 목록위치 = 왼쪽위((RectTransform)건축목록.transform);
+        float 너비 = Mathf.Min(276, 화면.width * .86f);
+        float 높이 = 건설설명상자.resolvedStyle.height;
+        if (!float.IsFinite(높이) || 높이 <= 0) 높이 = 92;
+        const float 여백 = 8;
+        bool 왼쪽배치 = 목록위치.x >= 너비 + 여백 * 2;
+        건설설명상자.style.width = 너비;
+        건설설명상자.style.left = 왼쪽배치 ? 목록위치.x - 너비 - 여백
+            : Mathf.Clamp(목록위치.x, 여백, Mathf.Max(여백, 화면.width - 너비 - 여백));
+        float 위 = 왼쪽배치 ? 왼쪽위(버튼).y : 목록위치.y - 높이 - 여백;
+        건설설명상자.style.top = Mathf.Clamp(위, 여백, Mathf.Max(여백, 화면.height - 높이 - 여백));
+        표시(건설설명상자, true);
+    }
+
+    void 건설설명숨기기()
+    {
+        if (설명중인건물 < 0) return;
+        설명중인건물 = -1;
+        표시(건설설명상자, false);
     }
 
     void 망치커서표시(bool 표시)
@@ -93,7 +231,7 @@ public sealed partial class 신들의전쟁
         }
         if (망치커서중 == 표시) return;
         망치커서중 = 표시;
-        Cursor.visible = !표시;
+        UnityEngine.Cursor.visible = !표시;
     }
 
     void 망치내려찍기()
@@ -155,7 +293,7 @@ public sealed partial class 전장규칙
     {
         0 or 1 or 브루저건설 or 아처건설 => 2,
         나무울타리건설 or 돌울타리건설 => 기본울타리한도,
-        모닥불건설 => 1,
+        모닥불건설 => 모닥불한도,
         타워건설 => 4,
         지뢰건설 or 점프건설 => 8,
         깃발건설 => 기본깃발한도,

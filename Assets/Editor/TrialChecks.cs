@@ -206,7 +206,7 @@ public static class TrialChecks
                 f.King.위치=boss.위치+Vector2.right;
                 Warn(골렘패턴.지진강타);
                 float hp=f.King.체력;f.Step(1.3f);
-                Require(f.King.체력==hp-72,"Slam did not hit in its radius");
+                Require(f.King.체력==hp-54,"Slam did not hit in its radius");
 
                 f.King.위치=boss.위치+Vector2.right*4;
                 Warn(골렘패턴.낙석);
@@ -223,12 +223,12 @@ public static class TrialChecks
                 Require(copy.패턴==trial.패턴 && (copy.예고중심-trial.예고중심).sqrMagnitude<.0001f
                     && Mathf.Abs(copy.예고각도-trial.예고각도)<.01f && copy.패턴예고>0,"Snapshot lost the directional warning");
                 hp=f.King.체력;f.Step(1.15f);
-                Require(f.King.체력==hp-82,"Fissure missed inside the rotated warning");
+                Require(f.King.체력==hp-61.5f,"Fissure missed inside the rotated warning");
                 Warn(골렘패턴.지진강타);
                 f.Step(1.3f);
                 Warn(골렘패턴.낙석);
                 hp=f.King.체력;f.Step(1.3f);
-                Require(f.King.체력==hp-62,"Rockfall missed a stationary target");
+                Require(f.King.체력==hp-46.5f,"Rockfall missed a stationary target");
                 f.King.위치=boss.위치+Vector2.up*4;
                 Warn(골렘패턴.지면균열);
                 f.King.위치+=Vector2.right*1.5f;hp=f.King.체력;f.Step(1.15f);
@@ -255,7 +255,7 @@ public static class TrialChecks
                 Require(f.State.시련들[1].단계==시련단계.보상,"Enemy stole reward");
                 f.State.진영들[0].훈련대기인원=0;f.Use(1);f.Use(1);
                 var skeletons=f.State.대상들.Where(u=>u is {생존:true,해골병사:true}).ToArray();
-                Require(skeletons.Length==3 && skeletons.All(u=>u.팀==0 && u.최대체력==180 && 전장규칙.능력치(u).힘==11),"Wrong skeleton reward");
+                Require(skeletons.Length==3 && skeletons.All(u=>u.팀==0 && u.최대체력==640 && 전장규칙.능력치(u).힘==36 && 전장규칙.능력치(u).지능==0),"Wrong skeleton reward");
             });
             Check("Snapshot compression roundtrip",()=> {
                 var f=new Fixture();f.Win(1);f.State.시련들[1].보상=1;f.Use(1);
@@ -270,7 +270,7 @@ public static class TrialChecks
                 var outcomes=new System.Collections.Generic.HashSet<int>();
                 for(int i=0;i<200;i++)outcomes.Add(Draw());
                 Require(outcomes.SetEquals(new[]{0,1,2,3}),"Random reward pool missing outcomes");
-                f.State.진영들[0].깃발한도증가=2;f.State.진영들[0].울타리한도증가=4;
+                f.State.진영들[0].깃발한도증가=2;f.State.진영들[0].울타리한도증가=12;
                 for(int i=0;i<100;i++)Require(Draw()<2,"Capped capacity upgrade rolled");
                 f.State.진영들[0].깃발한도증가=1;f.State.진영들[0].울타리한도증가=0;
                 f.State.시련들[0].팀=0;f.State.시련들[0].단계=시련단계.보상;f.State.시련들[0].보상=2;
@@ -291,7 +291,7 @@ public static class TrialChecks
                     Require(f.State.진영들[0].재화[0]==wood,"Rejected capacity order spent resources");
                     var trial=f.State.시련들[0];trial.단계=시련단계.보상;trial.보상=reward;trial.팀=0;
                     f.Use(0,1);Require(trial.단계==시련단계.보상,"Opponent stole upgrade");
-                    f.Use();f.Use();int expected=reward==2?3:16;
+                    f.Use();f.Use();int expected=reward==2?3:24;
                     Require(전장규칙.건설정원(f.State,0,kind)==expected,"Upgrade missing or duplicated");
                     Require(전장규칙.건설정원(f.State,1,kind)==initial,"Upgrade affected opponent");
                     Require(f.Can(kind,point),"Reward did not unlock construction");

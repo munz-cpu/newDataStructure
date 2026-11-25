@@ -77,6 +77,54 @@
 .tutorial-mission-title { margin: 2px 0; padding: 0; font-size: 18px; color: #fff4dc; white-space: normal; }
 .tutorial-mission-hint { margin: 0; padding: 0; font-size: 13px; color: #f0e2cc; white-space: normal; }
 
+.practice-debug {
+    position: absolute;
+    left: 18px;
+    top: 91px;
+    bottom: 34%;
+    width: 294px;
+    max-width: 36%;
+    max-height: 490px;
+    padding: 10px 12px;
+    background-color: #38281e;
+    background-image: url("Art/Interface/hewn-wood-hud.png");
+    background-size: 100% 100%;
+    border-left-width: 3px;
+    border-left-color: #c6a272;
+}
+.practice-debug-title { margin: 0; color: #ffebc2; font-size: 17px; -unity-font-style: bold; }
+.practice-debug-header { flex-direction: row; align-items: center; justify-content: space-between; }
+.practice-debug-status { margin: 3px 0 6px; min-height: 28px; color: #eccb97; font-size: 12px; white-space: normal; }
+.practice-debug-scroll { flex-grow: 1; min-height: 0; }
+.practice-debug-row { flex-direction: row; align-items: stretch; }
+.practice-debug-label { margin: 5px 2px 1px; color: #edcca0; font-size: 12px; }
+.practice-debug-field { flex-grow: 1; flex-shrink: 1; flex-basis: 0; min-width: 0; }
+.practice-debug-slot { width: 68px; flex-shrink: 0; }
+.practice-debug-button {
+    min-height: 25px;
+    margin: 2px;
+    padding: 2px 5px;
+    color: #fff1d7;
+    font-size: 13px;
+    background-color: #513b2a;
+    background-image: url("Art/Interface/hewn-wood-button.png");
+    background-size: 100% 100%;
+    border-width: 0;
+    white-space: normal;
+}
+.practice-debug-button:hover { -unity-background-image-tint-color: #eed6a8; color: white; }
+.practice-debug-button.practice-debug-hide { margin: 0 0 0 4px; padding: 2px 9px; flex-shrink: 0; }
+.practice-debug-button.practice-debug-open { position: absolute; left: 18px; top: 91px; margin: 0; padding: 4px 10px; }
+.practice-debug-pair > .practice-debug-button { flex-grow: 1; flex-basis: 0; }
+.practice-debug .unity-popup-field__input {
+    min-height: 25px;
+    padding: 1px 4px;
+    background-color: #302019;
+    color: #fff1d7;
+    border-color: #8a6547;
+}
+.practice-debug .unity-popup-field__text { overflow: hidden; text-overflow: ellipsis; }
+
 .battle-skill-tooltip {
     position: absolute;
     width: 326px;

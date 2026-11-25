@@ -3,13 +3,14 @@ using UnityEditor;
 using UnityEditor.AssetImporters;
 using UnityEngine;
 
-[ScriptedImporter(4, "hdavatars")]
+[ScriptedImporter(5, "hdavatars")]
 public sealed class PlayerAvatarImporter : ScriptedImporter
 {
     public const string CataloguePath = "Assets/DivineWar/Resources/Classes/PlayerAppearances.hdavatars";
     const string SummonPath = "Assets/DivineWar/Resources/Classes/AssignedAppearances.asset";
     const string Pack = "Assets/Images/2D HD Character pack 1 V1.2 (1)/";
     const string Unarmed = "Assets/Images/HiRezBlueKnightUnarmed/";
+    const string Mounted = "Assets/DivineWar/Resources/Classes/Variants/";
     const string Greatsword = "Assets/Images/8 Directional Greatsword Knight Character/";
     const int DirectionCount = 8;
     const int FramesPerDirection = 15;
@@ -18,7 +19,9 @@ public sealed class PlayerAvatarImporter : ScriptedImporter
 
     public override void OnImportAsset(AssetImportContext context)
     {
-        var commander = Appearance(왕직업.지휘관, "HiRezBlueKnightUnarmed",
+        var commander = Appearance(왕직업.지휘관, "기마 기사",
+            MountedFrames(context, "idle"), MountedFrames(context, "walk"), MountedFrames(context, "attack"));
+        var guardian = Appearance(왕직업.수호자, "HiRezBlueKnightUnarmed",
             UnarmedFrames(context, "Idle", 25), UnarmedFrames(context, "WalkFoward", 11),
             UnarmedFrames(context, "Slash", 15));
         var archer = Appearance(왕직업.아처, "9Longbow",
@@ -37,7 +40,7 @@ public sealed class PlayerAvatarImporter : ScriptedImporter
             GreatswordFrames(context, "2hIdle5", 6, 26),
             GreatswordFrames(context, "2hWalk", 3, 9),
             GreatswordFrames(context, "Slash", 4, 12));
-        catalogue.직업들 = new[] { commander, archer, swordsman, assassin };
+        catalogue.직업들 = new[] { guardian, commander, archer, swordsman, assassin };
         catalogue.소환물들 = summons.소환물들;
         catalogue.검사회전 = KnightFrames(context, "MeleeSpin");
         catalogue.검사구르기 = KnightFrames(context, "Rolling");
@@ -48,9 +51,21 @@ public sealed class PlayerAvatarImporter : ScriptedImporter
     static 왕외형목록.배정 Appearance(왕직업 job, string label, Sprite[] idle, Sprite[] walk, Sprite[] attack) =>
         new 왕외형목록.배정 { 직업 = job, 에셋이름 = label, 대기 = idle, 이동 = walk, 공격 = attack };
 
+    static Sprite[] MountedFrames(AssetImportContext context, string action)
+    {
+        var prefix = $"hecarim_{action}";
+        var texture = SourceTexture(context, $"{Mounted}{prefix}.png");
+        return GridFrames(context, texture, prefix, .125f);
+    }
+
     static Sprite[] KnightFrames(AssetImportContext context, string action)
     {
         var texture = SourceTexture(context, $"{Pack}Spritesheets/Shadowless/1Knight/{action}_Shadowless.png");
+        return GridFrames(context, texture, $"knight_{action}", 28f / 128);
+    }
+
+    static Sprite[] GridFrames(AssetImportContext context, Texture2D texture, string prefix, float pivotY)
+    {
         const int cell = 128;
         var sprites = new Sprite[DirectionCount * FramesPerDirection];
         for (int direction = 0; direction < DirectionCount; direction++)
@@ -58,7 +73,7 @@ public sealed class PlayerAvatarImporter : ScriptedImporter
         {
             var rect = new Rect(frame * cell, (DirectionCount - 1 - direction) * cell, cell, cell);
             int index = direction * FramesPerDirection + frame;
-            sprites[index] = AddFrame(context, $"knight_{action}_{index:D3}", texture, rect, 28f / cell, 120);
+            sprites[index] = AddFrame(context, $"{prefix}_{index:D3}", texture, rect, pivotY, 120);
         }
         return sprites;
     }

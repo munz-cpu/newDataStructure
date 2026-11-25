@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public sealed class 메뉴버튼 : Button
 {
     [SerializeField] Color 선택색 = new(1f, .81f, .52f);
-    bool 포인터안;
+    internal bool 포인터안 { get; private set; }
     Color? 기본색;
 
     public void 선택표시(bool 선택)

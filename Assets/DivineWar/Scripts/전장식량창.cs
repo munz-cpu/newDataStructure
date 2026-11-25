@@ -29,7 +29,7 @@ sealed class 전장식량창 : IDisposable
         {
             int 종류 = i;
             패널.Q($"food-icon-{i}").style.backgroundImage = new StyleBackground(아이콘들[i]);
-            패널.Q<Label>($"food-recovery-{i}").text = $"회복 +{전장식량.회복량[i]}";
+            패널.Q<Label>($"food-recovery-{i}").text = $"왕·아군 회복 +{전장식량.회복량[i]}";
             수량들[i] = 패널.Q<Label>($"food-count-{i}");
             사용버튼들[i] = 패널.Q<Button>($"food-use-{i}");
             사용콜백들[i] = () => 사용(종류);
