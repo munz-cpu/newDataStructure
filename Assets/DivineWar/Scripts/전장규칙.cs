@@ -24,6 +24,7 @@ public sealed class 전장대상
     public int 팀;
     public 대상종류 종류;
     public int 건물번호;
+    public int 병사번호;
     public Vector2 위치, 목적지;
     public float 체력, 최대체력, 공격대기, 효과시간, 방패시간, 재등장, 완공대기;
     public float 기절, 속박, 침묵, 공포, 매혹, 둔화시간, 둔화량, 약화;
@@ -125,6 +126,7 @@ public sealed class 진영상태
 [Serializable]
 public sealed class 전장상태
 {
+    public int 지도시드;
     public 전장대상[] 대상들;
     public 짐승상태[] 짐승들;
     public 시련상태[] 시련들 = Array.Empty<시련상태>();
@@ -179,7 +181,7 @@ public sealed partial class 전장규칙
     internal const float 모닥불회복반경 = 3f;
     const float 모닥불초당회복 = 2f;
     internal const float 우수주민등장시간 = 2.2f;
-    int 마지막건물번호;
+    int 마지막건물번호, 마지막병사번호;
     public const float 채집거리 = 1.38f;
     const float 연속채집반경 = 6f;
     public const float 자원고갈시간 = 12f, 자원재생시간 = 4f;
@@ -358,6 +360,7 @@ public sealed partial class 전장규칙
         난수 = new System.Random(시드);
         상태 = new 전장상태
         {
+            지도시드 = 시드,
             대상들 = new 전장대상[전체칸],
             진영들 = new[] { 새진영(청, 청장착), 새진영(적, 적장착) },
             자원잔량 = Array.ConvertAll(자원들, 지점 => 지점.채집한도),
@@ -487,6 +490,7 @@ public sealed partial class 전장규칙
         {
             팀 = 팀, 종류 = 종류, 위치 = 위치, 목적지 = 위치, 체력 = 체력, 최대체력 = 체력
         };
+        if (종류 == 대상종류.병사) 대상.병사번호 = ++마지막병사번호;
         if (종류 == 대상종류.왕 && 상태.진영들[팀].시련유물 > 0)
         {
             var 능력 = 능력치(종류, 상태.진영들[팀].직업);
@@ -960,13 +964,27 @@ public sealed partial class 전장규칙
         if (종류 == 타워건설 && 타워재료(상태, 팀) == null) return "훈련을 마친 아처 병사 1명이 필요합니다. (건설 시 소비)";
         if (!건설영역안(상태, 팀, 위치) || !길찾기.건설지형가능(위치))
             return "회관 또는 완공된 아군 깃발 반경 8 안의 빈 땅에 배치하세요.";
+        bool 대형 = 종류 is 0 or 1 or 브루저건설 or 아처건설 or 타워건설;
+        if (대형)
+            for (int y = -1; y <= 1; y++)
+            for (int x = -1; x <= 1; x++)
+            {
+                Vector2 여유칸 = 위치 + new Vector2(x, y);
+                if (!길찾기.건설지형가능(여유칸) || !자원지점과간격(자원들, 여유칸))
+                    return "대형 건물 둘레에는 최소 1칸의 빈 땅이 필요합니다.";
+            }
         foreach (var 대상 in 상태.대상들)
         {
             if (대상 is not { 생존: true }) continue;
             if ((울타리 || 모닥불) && 길찾기.중심정렬(대상.위치) == 위치)
                 return 울타리 ? "비어 있는 칸에 울타리를 배치하세요." : "비어 있는 칸에 모닥불을 배치하세요.";
-            if (대상.건물 && (대상.위치 - 위치).sqrMagnitude < 1f)
-                return "다른 건물과 중심 간격이 최소 1칸 필요합니다.";
+            if (!대상.건물) continue;
+            Vector2 차이 = 길찾기.중심정렬(대상.위치) - 위치;
+            bool 기존대형 = 대상.종류 is 대상종류.회관 or 대상종류.제재소 or 대상종류.훈련소
+                or 대상종류.브루저훈련소 or 대상종류.아처훈련소 or 대상종류.아처타워;
+            if ((대형 || 기존대형) && Mathf.Abs(차이.x) <= 1f && Mathf.Abs(차이.y) <= 1f)
+                return "대형 건물 둘레에는 최소 1칸의 빈 땅이 필요합니다.";
+            if (차이 == Vector2.zero) return "비어 있는 칸에 건물을 배치하세요.";
         }
         foreach (var 시련 in 상태.시련들)
             if (Vector2.Distance(위치, 시련.위치) < 2.4f) return "시련석 주변은 비워 두세요.";
@@ -1134,6 +1152,7 @@ public sealed partial class 전장규칙
         var 기본병사 = 능력치(대상종류.병사);
         float 최대 = 전문 ? Mathf.Max(기본병사.체력, 신청.주민.최대체력) + (궁수 ? 20 : 160) : 기본병사.체력;
         var 병사 = 배치(칸, 팀, 대상종류.병사, 신청.주민.위치, 최대);
+        if (기존병사) 병사.병사번호 = 신청.주민.병사번호;
         병사.힘 = 기본병사.힘;
         병사.민첩 = 기본병사.민첩;
         병사.지능 = 이전능력.지능;

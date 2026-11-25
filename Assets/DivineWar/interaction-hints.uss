@@ -1,3 +1,15 @@
+.army-corps {
+    position: absolute;
+    flex-direction: row;
+    padding: 3px;
+    background-color: #38281e;
+    background-image: url("Art/Interface/hewn-wood-hud.png");
+    background-size: 100% 100%;
+}
+.army-corps .filter-button {
+    min-width: 78px;
+    font-size: 14px;
+}
 .army-class-filter {
     position: absolute;
     bottom: 48px;

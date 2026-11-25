@@ -5,7 +5,7 @@ using UnityEngine.Tilemaps;
 
 sealed class 전장지형 : IDisposable
 {
-    public enum 종류 { 수풀, 연못, 바다, 숲, 습지, 바위, 흙길 }
+    public enum 종류 { 수풀, 연못, 바다, 숲, 습지, 바위, 흙길, 강, 여울 }
 
     [Serializable]
     public struct 구역
@@ -74,9 +74,16 @@ sealed class 전장지형 : IDisposable
 
     public 전장지형(Tilemap 바닥, Tilemap 장애물, Tilemap 지형맵, TileBase[] 해변타일, TileBase[] 흙타일,
         자원지점[] 자원들, 구역[] 전술구역, bool 그래픽표시 = true, SpriteRenderer 숲나무프리팹 = null)
+        : this(바닥, 장애물, 지형맵, 해변타일, 흙타일, 자원들, 전술구역, 그래픽표시, 숲나무프리팹, 0) { }
+
+    public 전장지형(Tilemap 바닥, Tilemap 장애물, Tilemap 지형맵, TileBase[] 해변타일, TileBase[] 흙타일,
+        자원지점[] 자원들, 구역[] 전술구역, bool 그래픽표시, SpriteRenderer 숲나무프리팹, int 시드)
     {
         this.바닥 = 바닥;
         this.지형맵 = 지형맵;
+        var 난수 = 시드 == 0 ? null : new System.Random(시드);
+        var 해안 = 난수 == null ? 해안선 : Array.ConvertAll(해안선, 꼭짓점 =>
+            (꼭짓점.점 + new Vector2Int(난수.Next(-2, 3), 난수.Next(-2, 3)), 꼭짓점.해변폭));
         var 원래구역 = 바닥.cellBounds;
         var 여백 = new Vector3Int(36, 26, 0);
         var 넓힌구역 = new BoundsInt(원래구역.min - 여백, 원래구역.size + 여백 * 2);
@@ -86,8 +93,8 @@ sealed class 전장지형 : IDisposable
         var 얕은바다 = new HashSet<Vector3Int>();
         foreach (var 칸 in 넓힌구역.allPositionsWithin)
         {
-            bool 육지 = 육지인가(칸);
-            float 거리제곱 = 해안거리제곱(칸, out float 해변폭);
+            bool 육지 = 육지인가(칸, 해안);
+            float 거리제곱 = 해안거리제곱(칸, 해안, out float 해변폭);
             if (!육지)
             {
                 지형칸.Add(칸, 종류.바다);
@@ -121,11 +128,14 @@ sealed class 전장지형 : IDisposable
             if (지점.재화번호 is 2 or 3) 광맥칸.Add(칸);
         }
 
-        foreach (var (중심, 지형, 변형) in 배치)
+        if (난수 != null) 강배치(넓힌구역, 장애물, 자원칸, 난수);
+        foreach (var (기준위치, 지형, 기본변형) in 배치)
         {
+            var 중심 = 난수 == null ? 기준위치 : 기준위치 + new Vector3Int(난수.Next(-4, 5), 난수.Next(-4, 5), 0);
+            var 모양들 = 지형 == 종류.연못 ? 연못모양 : 수풀모양;
+            var 모양 = 모양들[난수?.Next(모양들.Length) ?? 기본변형];
             for (int 회전 = 0; 회전 < 2; 회전++)
             {
-                var 모양 = 지형 == 종류.연못 ? 연못모양[변형] : 수풀모양[변형];
                 var 후보 = new HashSet<Vector3Int>();
                 for (int y = 0; y < 모양.Length; y++)
                 for (int x = 0; x < 모양[y].Length; x++)
@@ -210,11 +220,14 @@ sealed class 전장지형 : IDisposable
         };
         var 물가 = new Tile[16];
         var 습지 = new Tile[16];
+        var 여울 = new Tile[16];
         for (int i = 0; i < 물가.Length; i++)
         {
             물가[i] = 타일(그림(그림판, i % 8 * 24, 120 + i / 8 * 24, 24, 24, new(.5f, .5f)));
             습지[i] = 타일(물가[i].sprite);
             습지[i].color = new Color(.91f, .98f, .62f);
+            여울[i] = 타일(물가[i].sprite);
+            여울[i].color = new Color(.78f, .98f, .87f);
         }
         var 깊은물 = 타일(물가[0].sprite);
         깊은물.color = new Color(.78f, .86f, .91f);
@@ -253,11 +266,12 @@ sealed class 전장지형 : IDisposable
                         var 이웃 = 칸 + 방향[i];
                         if (!넓힌구역.Contains(이웃)) continue;
                         bool 이어짐 = 지형칸.TryGetValue(이웃, out var 다음지형) &&
-                            (지형 == 종류.습지 ? 다음지형 == 종류.습지 : 다음지형 is 종류.연못 or 종류.바다);
+                            (지형 == 종류.습지 ? 다음지형 == 종류.습지 : 다음지형 is 종류.연못 or 종류.바다 or 종류.강 or 종류.여울);
                         if (!이어짐) 가장자리 |= 1 << i;
                     }
                     타일 = 지형 == 종류.습지 ? 습지[가장자리]
-                        : 지형 == 종류.바다 && 가장자리 == 0 && !얕은바다.Contains(칸)
+                        : 지형 == 종류.여울 ? 여울[가장자리]
+                        : 가장자리 == 0 && (지형 == 종류.강 || 지형 == 종류.바다 && !얕은바다.Contains(칸))
                             ? 깊은물 : 물가[가장자리];
                     break;
             }
@@ -266,6 +280,54 @@ sealed class 전장지형 : IDisposable
         }
         바닥.SetTiles(바닥좌표.ToArray(), 바닥타일.ToArray());
         지형맵.SetTiles(지형좌표.ToArray(), 지형타일.ToArray());
+    }
+
+    void 강배치(BoundsInt 범위, Tilemap 장애물, HashSet<Vector3Int> 자원칸, System.Random 난수)
+    {
+        const int 굽이간격 = 18;
+        int 위치 = 난수.Next(-7, 8);
+        var 굽이들 = new int[범위.size.y / 굽이간격 + 2];
+        for (int i = 0; i < 굽이들.Length; i++) 굽이들[i] = 난수.Next(-7, 8);
+        int 중심(int y)
+        {
+            int 줄 = y - 범위.yMin;
+            int 구간 = 줄 / 굽이간격, 나머지 = 줄 % 굽이간격;
+            return 위치 + (굽이들[구간] * (굽이간격 - 나머지) + 굽이들[구간 + 1] * 나머지) / 굽이간격;
+        }
+
+        // 여울은 양쪽 둑까지 막힘 없는 띠를 골라 둔다.
+        var 여울들 = new List<int>(3);
+        foreach (int 기준 in new[] { -17, 0, 17 })
+        {
+            var 후보들 = new List<int>();
+            for (int y = Mathf.Max(범위.yMin + 1, 기준 - 6); y <= Mathf.Min(범위.yMax - 2, 기준 + 6); y++)
+            {
+                bool 통행가능 = true;
+                for (int 줄 = y - 1; 줄 <= y + 1 && 통행가능; 줄++)
+                for (int x = 중심(줄) - 4; x <= 중심(줄) + 4; x++)
+                {
+                    var 칸 = new Vector3Int(x, 줄, 범위.zMin);
+                    if (!지형칸.ContainsKey(칸) && !장애물.HasTile(칸) && !자원칸.Contains(칸)) continue;
+                    통행가능 = false;
+                    break;
+                }
+                if (통행가능) 후보들.Add(y);
+            }
+            if (후보들.Count > 0) 여울들.Add(후보들[난수.Next(후보들.Count)]);
+        }
+
+        for (int y = 범위.yMin; y < 범위.yMax; y++)
+        {
+            int x중심 = 중심(y);
+            bool 여울 = 여울들.Exists(줄 => Mathf.Abs(줄 - y) <= 1);
+            int 폭 = 여울 ? 1 : 2;
+            for (int x = x중심 - 폭; x <= x중심 + 폭; x++)
+            {
+                var 칸 = new Vector3Int(x, y, 범위.zMin);
+                if (!장애물.HasTile(칸) && !자원칸.Contains(칸))
+                    지형칸.TryAdd(칸, 여울 ? 종류.여울 : 종류.강);
+            }
+        }
     }
 
     internal static int 깊이순서(float y) => (int)(-y * 80) + 1600;
@@ -279,7 +341,7 @@ sealed class 전장지형 : IDisposable
         return 나무.transform;
     }
 
-    static bool 육지인가(Vector3Int 칸)
+    static bool 육지인가(Vector3Int 칸, (Vector2Int 점, float 해변폭)[] 해안선)
     {
         // 칸 중심과 꼭짓점을 정수 단위로 비교해 경계 위의 칸을 물로 분류한다.
         int x = 칸.x * 2 + 1, y = 칸.y * 2 + 1;
@@ -297,7 +359,7 @@ sealed class 전장지형 : IDisposable
         return 안쪽;
     }
 
-    static float 해안거리제곱(Vector3Int 칸, out float 해변폭)
+    static float 해안거리제곱(Vector3Int 칸, (Vector2Int 점, float 해변폭)[] 해안선, out float 해변폭)
     {
         var 중심 = new Vector2(칸.x + .5f, 칸.y + .5f);
         float 최소거리 = float.PositiveInfinity;
@@ -367,7 +429,7 @@ sealed class 전장지형 : IDisposable
     }
 
     public bool 차단됨(Vector3Int 칸) => 광맥칸.Contains(칸) ||
-        지형칸.TryGetValue(칸, out var 지형) && 지형 is 종류.연못 or 종류.바다 or 종류.숲 or 종류.바위;
+        지형칸.TryGetValue(칸, out var 지형) && 지형 is 종류.연못 or 종류.바다 or 종류.숲 or 종류.바위 or 종류.강;
 
     public bool 은신지형인가(Vector2 위치) =>
         지형칸.TryGetValue(바닥.WorldToCell(위치), out var 지형) && 지형 is 종류.수풀 or 종류.숲;
@@ -403,11 +465,11 @@ sealed class 전장지형 : IDisposable
         지형칸.TryGetValue(칸, out var 지형) ? 지형 switch
         {
             종류.흙길 => 흙길비용,
-            종류.습지 => 습지비용,
+            종류.습지 or 종류.여울 => 습지비용,
             _ => 평지비용
         } : 평지비용;
     public bool 습지인가(Vector2 위치) =>
-        지형칸.TryGetValue(바닥.WorldToCell(위치), out var 지형) && 지형 == 종류.습지;
+        지형칸.TryGetValue(바닥.WorldToCell(위치), out var 지형) && 지형 is 종류.습지 or 종류.여울;
 
     public bool 바다인가(Vector2 위치) =>
         지형칸.TryGetValue(바닥.WorldToCell(위치), out var 지형) && 지형 == 종류.바다;
@@ -426,6 +488,8 @@ sealed class 전장지형 : IDisposable
                 종류.바위 => new Color32(126, 130, 111, 255),
                 종류.흙길 => new Color32(130, 108, 77, 255),
                 종류.바다 => new Color32(41, 79, 101, 255),
+                종류.강 => new Color32(52, 100, 125, 255),
+                종류.여울 => new Color32(91, 132, 137, 255),
                 _ => new Color32(58, 108, 133, 255)
             };
         return 해변칸.Contains(칸) ? new Color32(111, 99, 76, 255) : new Color32(52, 78, 68, 255);

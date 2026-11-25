@@ -839,7 +839,35 @@ public static class ClassCombatChecks
         Require(Advance(StartMusic()) == "행군", "Stationary army outside the enemy hall did not trigger march music");
         slots[army[0]].체력 = 0;
         Require(Advance(StartMusic(), explored: true) == "일반", "Seven soldiers triggered large-army music");
-        Debug.Log("[BattleAI] march music passed long move orders, enemy base presence, and fog/size guards");
+
+        slots[전장규칙.회관번호(0)] = new 전장대상 { 종류 = 대상종류.회관, 체력 = 500 };
+        void MoveArmy(Vector2 start, Vector2 destination)
+        {
+            foreach (int slot in army)
+            {
+                slots[slot].체력 = 100;
+                slots[slot].위치 = start;
+                slots[slot].목적지 = destination;
+                slots[slot].이동중 = true;
+            }
+        }
+        void StepArmy() { foreach (int slot in army) slots[slot].위치.x += .5f; }
+        var acrossBase = new Vector2(11, 0);
+        MoveArmy(-acrossBase, acrossBase);
+        player = StartMusic();
+        order.Invoke(player, new object[] { state, army, acrossBase });
+        for (int i = 0; i < 10; i++)
+            Require(Advance(player, StepArmy) == "일반", "Movement within and near the allied base triggered march music");
+
+        MoveArmy(Vector2.zero, distant);
+        player = StartMusic();
+        order.Invoke(player, new object[] { state, army, distant });
+        for (int i = 0; i < 6; i++)
+            Require(Advance(player, StepArmy) == "일반", "Long order triggered music before the army left its base");
+        Require(Advance(player, StepArmy) == "행군", "A long order expired before the army moved beyond its base");
+        MoveArmy(new Vector2(11, 0), Vector2.zero);
+        Require(Advance(player) == "일반", "March music lingered after the army returned to the base");
+        Debug.Log("[BattleAI] march music passed home-base suppression, departure, return, enemy base presence, and fog/size guards");
     }
 
     static void ResourceExplorationChecks(Tilemap floor, Tilemap obstacles, Vector2[] starts)

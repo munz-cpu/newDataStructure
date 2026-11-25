@@ -5,7 +5,7 @@ public sealed partial class 전장규칙
 {
     public const int 병사지능한도 = 100;
     const int 아처브루저전술지능 = 15, 중급병사전술지능 = 35, 고급병사전술지능 = 65;
-    const float 병사생존성장간격 = 10f, 교전종료대기 = 8f;
+    const float 병사생존성장간격 = 30f, 교전종료대기 = 8f;
     const int 생존경험기본지능 = 12, 생존경험최대추가지능 = 12;
     const float 추가지능간격 = 5f;
     const int 대규모교전병력 = 28, 진영별최소교전병력 = 8;

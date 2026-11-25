@@ -1,5 +1,7 @@
 # DivineWar Unity project context
 
+Battlefield generation (2026-11-25): solo games and servers generate the coast, ponds, brush, river and fords from a match seed. Clients generate terrain from the seed in the first authoritative snapshot, before initializing navigation or the minimap. The scene supplies terrain tiles, tactical zones, resource nodes, trial markers and HUD elements. Protocol 23 carries the seed and stable soldier IDs. Corps membership is local and uses those IDs to distinguish soldiers when slots are reused.
+
 Construction capacity rewards (2026-11-22): flags now start at 2 per team and shared wood/stone fences at 12. Golem defeat rolls one host-owned reward from relic, skeletons, +1 flag capacity or +4 fence capacity. Team bonuses replicate in `진영상태`; effective caps clamp to the existing authored pools of 4 flags/16 fences, preserving all slot offsets and scene objects. Pending unclaimed upgrades reserve capacity in subsequent draws. Rewards remain on the stone until collected once; king respawn preserves bonuses. Authoritative construction and the menu use the same effective caps. Protocol is now 8; rebuild peers together. Nine trial scenarios, 45 construction HUD checks, seven building-interaction scenarios and thirteen facility scenarios passed. Two-peer and Player build validation remain unperformed.
 
 Last inspected: 2026-11-21, commit `465d698` with existing local changes.

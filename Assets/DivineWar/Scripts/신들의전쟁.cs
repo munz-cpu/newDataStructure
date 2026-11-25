@@ -219,9 +219,6 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
     void OnEnable()
     {
         if (!Application.isEditor) Application.runInBackground = true;
-        지형 ??= new 전장지형(바닥타일맵, 장애물타일맵, 지형타일맵, 해변타일, 흙타일, 자원들, 전술지형,
-            !전장입장.서버빌드, 숲나무프리팹);
-        길찾기 ??= new 격자길찾기(바닥타일맵, 장애물타일맵, 지형);
         if (전장입장.서버빌드)
         {
             GetComponent<UIDocument>().enabled = false;
@@ -234,6 +231,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         전장표시 = 뿌리.Q("draw");
         전장표시.style.unityFont = 도움.font.sourceFontFile;
         지도 = 뿌리.Q("minimap");
+        if (안개 != null) 지도표시준비();
         범위룬 ??= Resources.Load<Texture2D>("range-rune");
         아군본진휘장 ??= Resources.Load<Texture2D>("Minimap/allied-stronghold");
         적본진휘장 ??= Resources.Load<Texture2D>("Minimap/enemy-stronghold");
@@ -258,17 +256,13 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         표시한임무 = -1;
         채집아이콘들 ??= Array.ConvertAll(채집아이콘이름, 이름 => Resources.Load<Sprite>("HarvestIcons/" + 이름));
         선택훈련안내준비();
+        군단버튼준비();
         건설표시준비();
         마지막왕능력 = null;
         고기그림들 ??= Array.ConvertAll(전장식량.아이콘이름, 이름 => Resources.Load<Sprite>("Food/" + 이름));
         식량창 = new 전장식량창(뿌리, 도움.font.sourceFontFile, 고기그림들,
             종류 => 명령전달(명령종류.고기굽기, 값: 종류),
             종류 => 명령전달(명령종류.고기사용, 값: 종류));
-        미니맵범위 = default;
-        안개 ??= new 전장안개(transform, 길찾기.전장범위, 지형);
-        안개.보이기 = true;
-        if (그림자들 != null) 그림자들.보이기 = true;
-        지도.style.backgroundImage = new StyleBackground(안개.전장지도);
         건축목록표시(false);
         if (주민패널?.유효 != true)
             주민패널 = new 주민추첨패널((RectTransform)전투.transform, 도움.font, 주민추첨요청,
@@ -328,11 +322,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         if (짐승슬롯 != null)
             foreach (var 그림 in 짐승슬롯)
                 if (그림 != null) 그림.enabled = false;
-        자원그림 = Array.ConvertAll(전장자원들, 지점 =>
-            지점.오브젝트 != null ? 지점.오브젝트.GetComponent<SpriteRenderer>() : null);
-        자원원래색 = Array.ConvertAll(자원그림, 그림 => 그림 != null ? 그림.color : Color.white);
         재료표시준비();
-        그림자들 = new 전장그림자(transform, 슬롯, new ArraySegment<SpriteRenderer>(자원그림, 0, 자원들.Length), 장식지형);
         var 셰이더 = Resources.Load<Shader>("전장 호버 윤곽");
         if (셰이더 != null)
         {
@@ -360,13 +350,38 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
 
     void 규칙준비()
     {
+        int 시드 = UnityEngine.Random.Range(1, int.MaxValue);
+        지도준비(시드);
         var 위치들 = Array.ConvertAll(시작지점들, 지점 => (Vector2)지점.position);
         규칙 = new 전장규칙(전장자원들, 길찾기, 위치들, 입장?.청록직업 ?? 왕직업.지휘관,
-            입장?.적색직업 ?? 왕직업.아처, UnityEngine.Random.Range(0, int.MaxValue),
+            입장?.적색직업 ?? 왕직업.아처, 시드,
             입장?.청록장착 ?? 왕직업목록.기본장착, 입장?.적색장착 ?? 왕직업목록.기본장착,
             디버그연습전: !멀티 && !전장입장.서버빌드 && 입장?.디버그연습전 == true);
         규칙.시련배치(Array.ConvertAll(시련들 ?? Array.Empty<시련표식>(), 표식 => (Vector2)표식.transform.position));
         상태 = 규칙.상태;
+    }
+
+    void 지도준비(int 시드)
+    {
+        if (지형 != null) return;
+        지형 = new 전장지형(바닥타일맵, 장애물타일맵, 지형타일맵, 해변타일, 흙타일, 자원들, 전술지형,
+            !전장입장.서버빌드, 숲나무프리팹, 시드);
+        길찾기 = new 격자길찾기(바닥타일맵, 장애물타일맵, 지형);
+        if (전장입장.서버빌드) return;
+        자원그림 = Array.ConvertAll(전장자원들, 지점 =>
+            지점.오브젝트 != null ? 지점.오브젝트.GetComponent<SpriteRenderer>() : null);
+        자원원래색 = Array.ConvertAll(자원그림, 그림 => 그림 != null ? 그림.color : Color.white);
+        그림자들 = new 전장그림자(transform, 슬롯, new ArraySegment<SpriteRenderer>(자원그림, 0, 자원들.Length), 장식지형);
+        안개 = new 전장안개(transform, 길찾기.전장범위, 지형);
+        지도표시준비();
+    }
+
+    void 지도표시준비()
+    {
+        안개.보이기 = true;
+        if (그림자들 != null) 그림자들.보이기 = true;
+        미니맵범위 = default;
+        지도.style.backgroundImage = new StyleBackground(안개.전장지도);
     }
 
     void 울타리슬롯준비()
@@ -443,6 +458,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         디버그해제();
         건설소리해제();
         선택훈련안내해제();
+        군단버튼해제();
         식량창?.Dispose();
         식량창 = null;
         주민패널?.닫기();
@@ -647,10 +663,17 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             try
             {
                 var 받은상태 = JsonUtility.FromJson<전장상태>(마지막상태.Substring(1));
-                if (받은상태?.대상들?.Length == 전장규칙.전체칸 && 받은상태.진영들?.Length == 2
-                    && 받은상태.자원잔량?.Length == 전장자원들.Length
-                    && 받은상태.자원재생완료시각?.Length == 전장자원들.Length)
+                if (받은상태?.대상들?.Length == 전장규칙.전체칸 && 받은상태.진영들?.Length == 2 && 받은상태.지도시드 > 0
+                    && (상태 == null || 받은상태.지도시드 == 상태.지도시드))
                 {
+                    지도준비(받은상태.지도시드);
+                    if (받은상태.자원잔량?.Length != 전장자원들.Length
+                        || 받은상태.자원재생완료시각?.Length != 전장자원들.Length)
+                    {
+                        연결끊김표시("서버와 전장 지형이 일치하지 않습니다.");
+                        return;
+                    }
+                    군단구성정리(받은상태);
                     상태 = 받은상태;
                     for (int i = 자원들.Length; i < 전장자원들.Length; i++)
                         길찾기.숲나무반영(전장자원들[i].위치, 상태.자원잔량[i] > 0);
@@ -996,16 +1019,10 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             if (키.bKey.wasPressedThisFrame) 행동고르기(전장규칙.깃발건설);
             if (키.tabKey.wasPressedThisFrame) 병력선택(true);
             if (키.spaceKey.wasPressedThisFrame) 시점복귀();
-            if (키.digit1Key.wasPressedThisFrame) 행동고르기(0);
-            if (키.digit2Key.wasPressedThisFrame) 행동고르기(1);
-            if (키.digit3Key.wasPressedThisFrame) 행동고르기(2);
-            if (키.digit4Key.wasPressedThisFrame) 행동고르기(3);
-            if (키.digit5Key.wasPressedThisFrame) 행동고르기(전장규칙.나무울타리건설);
-            if (키.digit6Key.wasPressedThisFrame) 행동고르기(전장규칙.돌울타리건설);
-            if (키.digit7Key.wasPressedThisFrame) 행동고르기(전장규칙.모닥불건설);
-            if (키.digit8Key.wasPressedThisFrame) 행동고르기(전장규칙.브루저건설);
-            if (키.digit9Key.wasPressedThisFrame) 행동고르기(전장규칙.아처건설);
-            if (키.digit0Key.wasPressedThisFrame) 행동고르기(전장규칙.타워건설);
+            if (키.digit1Key.wasPressedThisFrame || 키.numpad1Key.wasPressedThisFrame) 군단선택(1);
+            if (키.digit2Key.wasPressedThisFrame || 키.numpad2Key.wasPressedThisFrame) 군단선택(2);
+            if (키.digit3Key.wasPressedThisFrame || 키.numpad3Key.wasPressedThisFrame) 군단선택(3);
+            if (키.digit4Key.wasPressedThisFrame || 키.numpad4Key.wasPressedThisFrame) 군단선택(4);
             if (키.minusKey.wasPressedThisFrame) 행동고르기(전장규칙.지뢰건설);
             if (키.equalsKey.wasPressedThisFrame) 행동고르기(전장규칙.점프건설);
             if (키.iKey.wasPressedThisFrame) 식량창.전환();
@@ -2173,6 +2190,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         채집그림갱신();
         유닛상태창갱신();
         if (뿌리.panel == null) return;
+        군단막대갱신();
         디버그재료위치갱신();
 
         // 미니맵의 픽셀 영역을 씬에 배치한 RectTransform에 맞춘다.
@@ -2343,7 +2361,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             var (제목, 설명, 그림) = 단계 switch
             {
                 0 => ("자원 채집", "자원 우클릭 또는 가까이서 [G]", 채집아이콘들[0]),
-                1 => ("제재소 건설", "[1] · 회관 주변에 제재소 배치", 건물그림(0)),
+                1 => ("제재소 건설", "건축 메뉴에서 제재소를 골라 회관 주변에 배치", 건물그림(0)),
                 2 => ("병사 훈련", "주민을 선택하고 완공된 훈련소 클릭", 건물그림(1)),
                 3 => ("병력 진격", "병사를 적 회관 근처로 이동", 슬롯[전장규칙.왕번호(내팀) + 전장규칙.병사시작칸].sprite),
                 _ => ("적 회관 파괴", "병사를 선택하고 적 회관 클릭", 슬롯[전장규칙.회관번호(1 - 내팀)].sprite)
@@ -2416,19 +2434,20 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         스킬설명갱신();
         건설설명갱신();
 
-        도움.text = 전장규칙.울타리건설인가(배치)
+        string 하단안내 = 전장규칙.울타리건설인가(배치)
             ? "좌클릭 연속 설치  ·  V 방향 전환  ·  우클릭 / Esc 취소  ·  회관 반경 8" :
             배치 >= 0 ? "좌클릭 설치  ·  우클릭 / Esc 취소  ·  회관 반경 8" :
             $"{(키보드이동 ? "WASD" : "우클릭")} 왕 이동  ·  G {(가까운봉인시련() >= 0 ? "시련 시작" : 주민호버번호 >= 0 ? "스탯 보기" : "왕 채집")}  ·  Tab 전체 병력";
-        if (배치 < 0 && 선택부대.Count > 1) 도움.text = $"{선택부대.Count}명 선택  ·  Z 주민  X 병사  C 브루저  V 아처  ·  Tab 전체 병력";
+        if (배치 < 0 && 선택부대.Count > 1) 하단안내 = $"{선택부대.Count}명 선택  ·  Z 주민  X 병사  C 브루저  V 아처  ·  Tab 전체 병력";
         if (배치 < 0 && 선택부대.Count == 1)
-            도움.text = "좌클릭 명령  ·  미니맵 클릭 이동  ·  Esc 선택 해제";
+            하단안내 = "좌클릭 명령  ·  미니맵 클릭 이동  ·  Esc 선택 해제";
         if (호버번호 == 전장규칙.회관번호(내팀))
-            도움.text = $"회관 피해 감소 {전장규칙.회관피해감소율(상태, 내팀)}%  ·  완공 건물 3/6/9개에서 30/50/70%";
+            하단안내 = $"회관 피해 감소 {전장규칙.회관피해감소율(상태, 내팀)}%  ·  완공 건물 3/6/9개에서 30/50/70%";
         else if (호버번호 >= 0 && 전장규칙.철거가능(상태.대상들[호버번호], 내팀))
-            도움.text = 상태.대상들[호버번호].종류 == 대상종류.모닥불
+            하단안내 = 상태.대상들[호버번호].종류 == 대상종류.모닥불
                 ? "클릭하면 아군 병사 회복 범위 표시  ·  Ctrl + 우클릭 철거"
                 : "Ctrl + 우클릭 건물 철거";
+        도움.text = 배치 < 0 ? 하단안내 + "  ·  1~4 군단 선택" : 하단안내;
     }
 
     float 자원표시비율(int 번호)

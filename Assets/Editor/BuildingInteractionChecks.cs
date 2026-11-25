@@ -83,7 +83,7 @@ public static class BuildingInteractionChecks
                 string uxml=File.ReadAllText("Assets/DivineWar/전장.uxml");
                 foreach(var name in new[]{"training-cost","select-regular","select-bruiser","select-archer","restore-selection"})Require(uxml.Contains(name),"Missing UI "+name);
             });
-            Check("Every building fits one cell away and rejects overlap",()=> {
+            Check("Large buildings reserve one empty cell and all buildings reject overlap",()=> {
                 foreach(int kind in new[]{0,1,4,5,6,7,8,9,10,11,12})
                 {
                     var f=new Fixture();var p=f.Point(0,f.Hall,3,6);f.Place(2,0,대상종류.제재소,p,210);
@@ -93,16 +93,25 @@ public static class BuildingInteractionChecks
                     var before=f.State.진영들[0].재화.ToArray();
                     f.Build(kind,p);
                     Require(before.SequenceEqual(f.State.진영들[0].재화),"Overlapping order spent resources: "+kind);
+                    foreach(var d in new[]{Vector2.left,Vector2.right,Vector2.up,Vector2.down,Vector2.one})
+                        Require(!f.Can(kind,p+d),"Building preview allows placement in large building clearance: "+kind);
+                    f.Build(kind,p+Vector2.right);
+                    Require(before.SequenceEqual(f.State.진영들[0].재화),"Large building clearance order spent resources: "+kind);
                     bool found=false;
                     foreach(var d in new[]{Vector2.left,Vector2.right,Vector2.up,Vector2.down})
                     {
-                        var next=p+d;if(!f.Can(kind,next))continue;
+                        var next=p+d*2;if(!f.Can(kind,next))continue;
                         f.Build(kind,next);
-                        Require(f.State.대상들.Any(u=>u is {생존:true,건물:true} && u.위치==next),"Adjacent facility rejected: "+kind);
+                        Require(f.State.대상들.Any(u=>u is {생존:true,건물:true} && u.위치==next),"Building with clearance rejected: "+kind);
                         found=true;break;
                     }
-                    Require(found,"No adjacent facility fixture: "+kind);
+                    Require(found,"No building fixture with clearance: "+kind);
                 }
+                var small = new Fixture();
+                var fence = small.Point(4,small.Hall,3,6);
+                small.Place(전장규칙.울타리시작칸,0,대상종류.나무울타리,fence);
+                Require(new[]{Vector2.left,Vector2.right,Vector2.up,Vector2.down}.Any(d=>small.Can(5,fence+d)),
+                    "Small fence sections can still be placed side by side");
             });
             Check("Flag requires existing territory, expands only after completion and enables remote building",()=> {
                 var f=new Fixture();var p=f.Point(12,f.Hall,6,7.9f);

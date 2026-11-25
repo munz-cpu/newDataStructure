@@ -40,6 +40,7 @@ public sealed partial class 전장규칙
     public const int 시련제한 = 6;
     public const float 시련사용거리 = 2.6f;
     public const float 회관과시련간격 = 16f;
+    public const float 시련간격 = 24f;
     internal const int 해골병사힘 = 36, 해골병사체력 = 640;
     public const int 시련시작칸 = 시설시작칸 + 시설진영칸 * 2;
     const float 골렘근접거리 = 1.4f;
@@ -78,7 +79,6 @@ public sealed partial class 전장규칙
     public void 시련배치(Vector2[] 위치들)
     {
         if (상태.시련들.Length != 0 || 위치들 is not { Length: > 0 }) return;
-        const float 시련간격 = 8;
         var 시련들 = new List<시련상태>(시련제한);
         var 청록회관 = 상태.대상들[회관번호(0)].위치;
         var 적색회관 = 상태.대상들[회관번호(1)].위치;

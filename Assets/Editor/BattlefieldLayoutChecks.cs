@@ -175,7 +175,7 @@ public static class BattlefieldLayoutChecks
                 }
                 for (int a = 0; a < state.시련들.Length; a++)
                 for (int b = 0; b < a; b++)
-                    Require(Vector2.Distance(state.시련들[a].위치, state.시련들[b].위치) >= 8, $"Trial separation in layout {i}");
+                    Require(Vector2.Distance(state.시련들[a].위치, state.시련들[b].위치) >= 전장규칙.시련간격, $"Trial separation in layout {i}");
             }
             Require(halls.Count >= 150, "Hall placements vary over the expanded search area");
             Require(sameQuadrant >= samples / 32, "Halls can share a quadrant when far enough apart");

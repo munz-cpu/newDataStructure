@@ -52,7 +52,8 @@ public static class BuildingInteractionPreview
         Place(30,대상종류.병사,p+new Vector2(0,-3),105);
         Place(31,대상종류.병사,p+new Vector2(1,-2),165).병과=병과.브루저;
         Place(32,대상종류.병사,p+new Vector2(2,-2),125).병과=병과.아처;
-        Set(rules,"적명령시간",99999f);Set(game,"자동추적",false);Set(game,"배치",-1);
+        typeof(전장규칙).GetProperty("디버그AI정지",Private).SetValue(rules,true);
+        Set(game,"자동추적",false);Set(game,"배치",-1);
         Set(game,"일시정지",true);
         Call(game,"건축목록표시",false);
         var selected=(HashSet<int>)Field(game,"선택부대");selected.Clear();selected.UnionWith(new[]{6,7,30,31,32});
@@ -183,11 +184,30 @@ public static class BuildingInteractionPreview
             }
             const int woodenFenceBuildId=4;
             Set(game,"배치",woodenFenceBuildId);
+            InputSystem.QueueStateEvent(keyboard,new KeyboardState());InputSystem.Update();
+            InputSystem.QueueStateEvent(keyboard,new KeyboardState(Key.LeftShift,Key.V));InputSystem.Update();
             bool ignored=(bool)game.GetType().GetMethod("병과선택단축키",Private).Invoke(game,new object[]{keyboard});
             Require(!ignored && (int)Field(game,"배치")==woodenFenceBuildId,"Filter stole the fence rotation key");
             Set(game,"배치",-1);Call(game,"선택복원");
-            Require(selected.SetEquals(new[]{6,7,30,31,32}),"Key filters lost the original selection");
-            Write(File.ReadAllText("Temp/BuildingInteraction/live.txt")+"\nPASS: Z residents, X regular soldiers, C bruisers, V archers; original selection restores; building placement keeps V for rotation.");
+            int[] original={6,7,30,31,32};
+            Require(selected.SetEquals(original),"Key filters lost the original selection");
+            for(int i=0;i<keys.Length;i++)
+            {
+                InputSystem.QueueStateEvent(keyboard,new KeyboardState());InputSystem.Update();
+                Key shift=i%2==0?Key.LeftShift:Key.RightShift;
+                InputSystem.QueueStateEvent(keyboard,new KeyboardState(shift,keys[i]));InputSystem.Update();
+                bool handled=(bool)game.GetType().GetMethod("병과선택단축키",Private).Invoke(game,new object[]{keyboard});
+                Require(handled && selected.SetEquals(original.Except(expected[i])),"Wrong exclusion key "+keys[i]);
+                Call(game,"선택복원");
+            }
+            InputSystem.QueueStateEvent(keyboard,new KeyboardState(Key.LeftShift,Key.X));InputSystem.Update();
+            Call(game,"병과선택단축키",keyboard);
+            InputSystem.QueueStateEvent(keyboard,new KeyboardState(Key.LeftShift,Key.C));InputSystem.Update();
+            Call(game,"병과선택단축키",keyboard);
+            Require(selected.SetEquals(new[]{6,7,32}),"Successive exclusions reintroduced removed soldiers");
+            Call(game,"선택복원");
+            Require(selected.SetEquals(original),"Exclusions lost the original selection");
+            Write(File.ReadAllText("Temp/BuildingInteraction/live.txt")+"\nPASS: Z, X, C, V select their groups. Both Shift keys exclude cumulatively. Restore recovers the original selection. Fence placement keeps V.");
         }
         finally {InputSystem.RemoveDevice(keyboard);previous?.MakeCurrent();}
     }

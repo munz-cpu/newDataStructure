@@ -14,7 +14,7 @@ using UnityEngine;
 
 public sealed class 참가연결 : IDisposable
 {
-    const ushort 프로토콜 = 22;
+    const ushort 프로토콜 = 23;
     const string 버전키 = "divinewarProtocol";
     const string 명령채널 = "dw.command";
     const string 상태채널 = "dw.state";

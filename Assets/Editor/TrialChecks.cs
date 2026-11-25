@@ -261,7 +261,7 @@ public static class TrialChecks
                 var f=new Fixture();f.Win(1);f.State.시련들[1].보상=1;f.Use(1);
                 string json=JsonUtility.ToJson(f.State);var bytes=전장상태압축.포장(json);
                 var copy=JsonUtility.FromJson<전장상태>(전장상태압축.풀기(bytes,System.Text.Encoding.UTF8.GetByteCount(json)));
-                Require(copy.시련들.Length==6 && copy.시련들[1].단계==시련단계.완료,"Trial snapshot lost");
+                Require(copy.시련들.Length==f.State.시련들.Length && copy.시련들[1].단계==시련단계.완료,"Trial snapshot lost");
                 Require(copy.대상들.Count(u=>u is {해골병사:true})==3,"Skeleton snapshot lost");
             });
             Check("Random rewards cover all four outcomes and exclude capped or reserved upgrades",()=> {
@@ -281,7 +281,7 @@ public static class TrialChecks
                 foreach(int reward in new[]{2,3})
                 {
                     var f=new Fixture();int kind=reward==2?12:4;
-                    var point=f.BuildPoint(kind);int initial=reward==2?2:12;
+                    var point=f.BuildPoint(kind);int initial=reward==2?전장규칙.기본깃발한도:전장규칙.기본울타리한도;
                     int start=reward==2?전장규칙.깃발시작칸:전장규칙.울타리시작칸;
                     var type=reward==2?대상종류.깃발:대상종류.나무울타리;
                     for(int i=0;i<initial;i++)f.State.대상들[start+i]=new 전장대상{팀=0,종류=type,체력=100,위치=new Vector2(9999+i,9999)};
@@ -291,7 +291,7 @@ public static class TrialChecks
                     Require(f.State.진영들[0].재화[0]==wood,"Rejected capacity order spent resources");
                     var trial=f.State.시련들[0];trial.단계=시련단계.보상;trial.보상=reward;trial.팀=0;
                     f.Use(0,1);Require(trial.단계==시련단계.보상,"Opponent stole upgrade");
-                    f.Use();f.Use();int expected=reward==2?3:24;
+                    f.Use();f.Use();int expected=initial+(reward==2?1:전장규칙.울타리보상증가);
                     Require(전장규칙.건설정원(f.State,0,kind)==expected,"Upgrade missing or duplicated");
                     Require(전장규칙.건설정원(f.State,1,kind)==initial,"Upgrade affected opponent");
                     Require(f.Can(kind,point),"Reward did not unlock construction");

@@ -11,6 +11,107 @@ public sealed partial class 신들의전쟁
     readonly Label[] 훈련재화수량 = new Label[채집아이콘이름.Length];
     Button 주민선택버튼, 일반선택버튼, 브루저선택버튼, 아처선택버튼, 선택복원버튼;
     readonly HashSet<int> 필터원본 = new(), 필터결과 = new();
+    readonly (int 병사, int 군단)[] 군단구성 = new (int, int)[전장규칙.전체칸];
+    readonly Button[] 군단버튼들 = new Button[4];
+    readonly Action[] 군단편입동작 = new Action[4];
+    VisualElement 군단막대;
+
+    void 군단버튼준비()
+    {
+        군단막대 = 뿌리.Q("army-corps");
+        군단막대.style.unityFont = 도움.font.sourceFontFile;
+        for (int i = 0; i < 군단버튼들.Length; i++)
+        {
+            int 군단 = i + 1;
+            var 버튼 = 군단버튼들[i] = 군단막대.Q<Button>($"corps-{군단}");
+            군단편입동작[i] = () =>
+            {
+                군단편입(군단);
+                버튼.Blur();
+            };
+            버튼.clicked += 군단편입동작[i];
+        }
+    }
+
+    void 군단버튼해제()
+    {
+        if (군단막대 == null) return;
+        for (int i = 0; i < 군단버튼들.Length; i++)
+            군단버튼들[i].clicked -= 군단편입동작[i];
+        표시(군단막대, false);
+    }
+
+    void 군단편입(int 군단)
+    {
+        if (!선택필터사용가능 || 배치 >= 0) return;
+        bool 편입함 = false;
+        foreach (int 번호 in 선택부대)
+        {
+            if (!내병력인가(번호) || 상태.대상들[번호].병사번호 <= 0) continue;
+            군단구성[번호] = (상태.대상들[번호].병사번호, 군단);
+            편입함 = true;
+        }
+        if (편입함) 선택효과음재생();
+    }
+
+    void 군단구성정리(전장상태 현재)
+    {
+        for (int i = 0; i < 군단구성.Length; i++)
+        {
+            var 소속 = 군단구성[i];
+            if (소속.군단 == 0) continue;
+            var 대상 = 현재.대상들[i];
+            if (대상 is { 생존: true, 종류: 대상종류.병사 } && 대상.병사번호 == 소속.병사) continue;
+            군단구성[i] = default;
+            선택부대.Remove(i);
+        }
+    }
+
+    void 군단선택(int 군단)
+    {
+        if (!선택필터사용가능) return;
+        군단구성정리(상태);
+        선택부대.Clear();
+        for (int i = 0; i < 군단구성.Length; i++)
+            if (군단구성[i].군단 == 군단 && 내병력인가(i)) 선택부대.Add(i);
+        필터원본.Clear();
+        필터결과.Clear();
+        드래그선택안내 = false;
+        드래그중 = false;
+        배치 = -1;
+        건축목록표시(false);
+        if (선택부대.Count > 0) 선택효과음재생();
+    }
+
+    void 군단막대갱신()
+    {
+        군단구성정리(상태);
+        bool 보임 = 선택필터사용가능 && 배치 < 0 && !드래그중;
+        if (보임)
+        {
+            보임 = false;
+            foreach (int 번호 in 선택부대)
+                if (내병력인가(번호)) { 보임 = true; break; }
+        }
+        표시(군단막대, 보임);
+        if (!보임) return;
+
+        var 왕패널 = (RectTransform)왕상태.rectTransform.parent.parent;
+        var 왼쪽위 = 왕패널.TransformPoint(new Vector3(왕패널.rect.xMin, 왕패널.rect.yMax));
+        var 기준 = 화면변환(RectTransformUtility.WorldToScreenPoint(null, 왼쪽위));
+        군단막대.style.left = 기준.x;
+        군단막대.style.bottom = 뿌리.contentRect.height - 기준.y + 6f;
+
+        Span<int> 인원 = stackalloc int[4];
+        인원.Clear();
+        for (int i = 0; i < 군단구성.Length; i++)
+        {
+            int 군단 = 군단구성[i].군단;
+            if (군단 > 0 && 상태.대상들[i].팀 == 내팀) 인원[군단 - 1]++;
+        }
+        for (int i = 0; i < 군단버튼들.Length; i++)
+            군단버튼들[i].text = $"제 {i + 1}군단 · {인원[i]}";
+    }
 
     void 선택훈련안내준비()
     {
@@ -54,22 +155,27 @@ public sealed partial class 신들의전쟁
     }
 
     bool 선택필터사용가능 => 전투중 && 상태 != null && 상태.승자 < 0 && !패널열림 && !일시정지 && 주민패널?.열림 != true;
-    void 주민만선택() => 병과만선택(null);
-    void 일반만선택() => 병과만선택(병과.일반);
-    void 브루저만선택() => 병과만선택(병과.브루저);
-    void 아처만선택() => 병과만선택(병과.아처);
+    void 주민만선택() => 병과필터(null);
+    void 일반만선택() => 병과필터(병과.일반);
+    void 브루저만선택() => 병과필터(병과.브루저);
+    void 아처만선택() => 병과필터(병과.아처);
 
     bool 부류선택가능(전장대상 대상, 병과? 종류) => 종류.HasValue
         ? 전장규칙.병과선택가능(대상, 내팀, 종류.Value) : 전장규칙.주민선택가능(대상, 내팀);
 
-    void 병과만선택(병과? 종류)
+    void 병과필터(병과? 종류, bool 제외 = false)
     {
         if (!선택필터사용가능) return;
         if (필터원본.Count == 0 || !선택부대.SetEquals(필터결과))
         { 필터원본.Clear(); 필터원본.UnionWith(선택부대); }
-        선택부대.Clear();
-        foreach (int 번호 in 필터원본)
-            if ((uint)번호 < (uint)상태.대상들.Length && 부류선택가능(상태.대상들[번호], 종류)) 선택부대.Add(번호);
+        bool 일치(int 번호) => (uint)번호 < (uint)상태.대상들.Length && 부류선택가능(상태.대상들[번호], 종류);
+        if (제외) 선택부대.RemoveWhere(일치);
+        else
+        {
+            선택부대.Clear();
+            foreach (int 번호 in 필터원본)
+                if (일치(번호)) 선택부대.Add(번호);
+        }
         필터결과.Clear(); 필터결과.UnionWith(선택부대);
         선택효과음재생();
         드래그선택안내 = false; 드래그중 = false; 배치 = -1;
@@ -90,11 +196,14 @@ public sealed partial class 신들의전쟁
     bool 병과선택단축키(Keyboard 키)
     {
         if (배치 >= 0) return false;
-        if (키.zKey.wasPressedThisFrame) { 주민만선택(); return true; }
-        if (키.xKey.wasPressedThisFrame) { 일반만선택(); return true; }
-        if (키.cKey.wasPressedThisFrame) { 브루저만선택(); return true; }
-        if (키.vKey.wasPressedThisFrame) { 아처만선택(); return true; }
-        return false;
+        병과? 종류;
+        if (키.zKey.wasPressedThisFrame) 종류 = null;
+        else if (키.xKey.wasPressedThisFrame) 종류 = 병과.일반;
+        else if (키.cKey.wasPressedThisFrame) 종류 = 병과.브루저;
+        else if (키.vKey.wasPressedThisFrame) 종류 = 병과.아처;
+        else return false;
+        병과필터(종류, 키.shiftKey.isPressed);
+        return true;
     }
 
     void 선택훈련안내갱신()

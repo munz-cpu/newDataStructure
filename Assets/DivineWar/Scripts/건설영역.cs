@@ -3,7 +3,7 @@ using UnityEngine;
 public sealed partial class 전장규칙
 {
     public const int 깃발건설 = 12, 깃발제한 = 4;
-    public const int 기본깃발한도 = 2, 기본울타리한도 = 12;
+    public const int 기본깃발한도 = 2, 기본울타리한도 = 20;
     public const int 깃발시작칸 = 시련시작칸 + 시련제한;
     public const float 건설반경 = 8;
 
