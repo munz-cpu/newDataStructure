@@ -33,13 +33,12 @@ public sealed class 전장대상
     public int 저주대상 = -1, 연속횟수, 소환공격수;
     public Vector2 시선 = Vector2.right, 제어원점;
     public bool 은신, 장막안, 폭탄화살준비;
-    public float 가드, 치유화살남음;
-    internal float 사기남음, 복수남음, 복수오라남음, 호위회복남음, 분노남음, 발악남음, 사거리남음;
-    internal float 멀티샷남음, 정지시간, 수혈남음, 위장남음, 다음출혈;
+    public float 가드, 치유화살남음, 갈고리포획종료;
+    internal float 사기남음, 복수남음, 복수오라남음, 호위회복남음, 분노남음, 발악남음;
+    internal float 멀티샷남음, 수혈남음, 위장남음, 다음출혈;
     internal int 출혈횟수, 연속타수, 강타칸 = -1;
     internal float 연속공격만료;
     internal 전장대상 출혈시전자;
-    internal Vector2 이전집중위치;
     internal float 여왕남음, 여왕공속, 독화살남음, 트릭샷남음;
     public 소환종류 소환;
     [NonSerialized] public 전장대상 저주참조, 뿌리참조;
@@ -66,12 +65,13 @@ public sealed class 전장대상
     internal int 지정표적번호 = -1;
     internal 전장대상 지정표적;
     internal Vector2 지정표적위치;
-    public bool 이동중, 왼쪽, 세로, 해골병사;
+    public bool 이동중, 왼쪽, 세로, 해골병사, 타워주둔;
+    internal 전장대상 주둔아처;
     internal bool 대형복귀, 지정공격, 지면이동명령;
     internal bool 연습허수아비;
     internal Vector2 허수아비위치;
     internal float 허수아비회복시각;
-    public bool 생존 => 체력 > 0;
+    public bool 생존 => 체력 > 0 && !타워주둔;
     public bool 울타리 => 종류 is 대상종류.나무울타리 or 대상종류.돌울타리;
     public bool 함정 => 종류 is 대상종류.지뢰 or 대상종류.점프패드;
     public bool 건물 => 울타리 || 종류 is 대상종류.회관 or 대상종류.제재소 or 대상종류.훈련소 or 대상종류.모닥불 or 대상종류.깃발 || 전장규칙.시설인가(this);
@@ -305,7 +305,7 @@ public sealed partial class 전장규칙
             왕직업.추적자 => (6, 9, 4, 175),
             _ => (4, 5, 9, 195)
         };
-        return (힘, 민첩, 지능, Mathf.RoundToInt(체력 * 2f));
+        return (힘 + (종류 == 대상종류.왕 ? 3 : 0), 민첩, 지능, Mathf.RoundToInt(체력 * 2f));
     }
 
     public static (int 힘, int 민첩, int 지능, int 체력) 능력치(전장대상 유닛, 왕직업 직업 = 왕직업.수호자)
@@ -515,7 +515,7 @@ public sealed partial class 전장규칙
         });
         int 끝 = 시작 + (종류 == 대상종류.병사 ? 병력제한 : 종류 == 대상종류.주민 ? 주민제한 : 2);
         for (int i = 시작; i < 끝; i++)
-            if (상태.대상들[i] == null || !상태.대상들[i].생존) return i;
+            if (상태.대상들[i] is not { 생존: true } and not { 타워주둔: true }) return i;
         return -1;
     }
 
@@ -907,14 +907,8 @@ public sealed partial class 전장규칙
             _ => (대상종류.돌울타리, 240)
         };
         비용차감(팀, 종류);
-        if (종류 == 타워건설)
-        {
-            var 아처 = 타워재료(상태, 팀);
-            아처.체력 = 0;
-            아처.이동중 = false;
-            아처.공격순번++;
-        }
         var 새건물 = 배치(칸, 팀, 건물, 위치, 체력);
+        if (종류 == 타워건설) 타워주둔시작(새건물, 타워재료(상태, 팀));
         새건물.세로 = 새건물.울타리 && 세로;
         새건물.완공대기 = 건설시간(새건물);
     }
@@ -961,7 +955,7 @@ public sealed partial class 전장규칙
         else 칸 = 빈칸(상태, 팀, 종류 == 0 ? 대상종류.제재소 : 대상종류.훈련소);
         if (칸 < 0) return 모닥불 ? $"모닥불은 진영당 최대 {모닥불한도}개입니다."
             : 울타리 ? $"울타리는 두 종류를 합쳐 최대 {울타리제한}칸입니다." : "이 종류의 건설 정원에 도달했습니다.";
-        if (종류 == 타워건설 && 타워재료(상태, 팀) == null) return "훈련을 마친 아처 병사 1명이 필요합니다. (건설 시 소비)";
+        if (종류 == 타워건설 && 타워재료(상태, 팀) == null) return "주둔할 아처 병사 1명이 필요합니다.";
         if (!건설영역안(상태, 팀, 위치) || !길찾기.건설지형가능(위치))
             return "회관 또는 완공된 아군 깃발 반경 8 안의 빈 땅에 배치하세요.";
         bool 대형 = 종류 is 0 or 1 or 브루저건설 or 아처건설 or 타워건설;
@@ -982,9 +976,9 @@ public sealed partial class 전장규칙
             Vector2 차이 = 길찾기.중심정렬(대상.위치) - 위치;
             bool 기존대형 = 대상.종류 is 대상종류.회관 or 대상종류.제재소 or 대상종류.훈련소
                 or 대상종류.브루저훈련소 or 대상종류.아처훈련소 or 대상종류.아처타워;
-            if ((대형 || 기존대형) && Mathf.Abs(차이.x) <= 1f && Mathf.Abs(차이.y) <= 1f)
-                return "대형 건물 둘레에는 최소 1칸의 빈 땅이 필요합니다.";
             if (차이 == Vector2.zero) return "비어 있는 칸에 건물을 배치하세요.";
+            if (대형 && 기존대형 && Mathf.Abs(차이.x) <= 1f && Mathf.Abs(차이.y) <= 1f)
+                return "대형 건물끼리는 둘레에 최소 1칸의 간격이 필요합니다.";
         }
         foreach (var 시련 in 상태.시련들)
             if (Vector2.Distance(위치, 시련.위치) < 2.4f) return "시련석 주변은 비워 두세요.";
@@ -995,7 +989,7 @@ public sealed partial class 전장규칙
 
     internal static int 양성예정병력(전장상태 상태, int 팀)
     {
-        int 수 = 수량(상태, 팀, 대상종류.병사);
+        int 수 = 수량(상태, 팀, 대상종류.병사) + 주둔아처수(상태, 팀);
         int 시작 = 왕번호(팀) + 6, 끝 = 왕번호(팀) + 병사시작칸;
         for (int i = 시작; i < 끝; i++)
             if (상태.대상들[i] is { 생존: true, 종류: 대상종류.주민, 훈련소: >= 0 }) 수++;
@@ -1372,7 +1366,7 @@ public sealed partial class 전장규칙
 
     void 피해(int 번호, float 피해량, int 공격팀) => 피해적용(번호, 피해량, 공격팀, 진영공격: true);
 
-    void 피해적용(int 번호, float 피해량, int 공격팀, bool 진영공격)
+    void 피해적용(int 번호, float 피해량, int 공격팀, bool 진영공격, bool 병사처형 = false)
     {
         var 대상 = 상태.대상들[번호];
         if (!대상.생존 || 대상.훈련남음 > 0 || 상태.승자 >= 0) return;
@@ -1399,6 +1393,9 @@ public sealed partial class 전장규칙
         }
         float 이전체력 = 대상.체력;
         대상.체력 = Mathf.Max(대상.불사 > 0 || 대상.연습허수아비 ? 1 : 0, 대상.체력 - 실제);
+        if (병사처형 && 실제 > 0 && 대상.종류 == 대상종류.병사 && 대상.불사 <= 0
+            && !대상.연습허수아비 && 대상.체력 * 10f < 대상.최대체력)
+            대상.체력 = 0;
         if (대상.연습허수아비 && 실제 > 0) 대상.허수아비회복시각 = 상태.시간 + 3;
         bool 적진영공격 = 진영공격 && 공격팀 != 대상.팀 && (uint)공격팀 < (uint)상태.진영들.Length;
         if (적진영공격
@@ -1434,8 +1431,9 @@ public sealed partial class 전장규칙
         if (!철거가능(대상, 팀) || 대상.건물번호 != 건물번호) return;
 
         대상.체력 = 0;
-        건물자리해제(슬롯번호, 대상);
-        메시지(팀, "건물을 철거했습니다.");
+        bool 아처반환 = 대상.주둔아처 != null;
+        건물자리해제(슬롯번호, 대상, 아처반환: true);
+        메시지(팀, 아처반환 ? "아처타워를 철거해 주둔 아처가 돌아왔습니다." : "건물을 철거했습니다.");
         if (대상.종류 == 대상종류.훈련소 || 전문훈련소(대상))
         {
             훈련대기정리(팀);
@@ -1443,9 +1441,10 @@ public sealed partial class 전장규칙
         }
     }
 
-    void 건물자리해제(int 슬롯번호, 전장대상 대상)
+    void 건물자리해제(int 슬롯번호, 전장대상 대상, bool 아처반환 = false)
     {
         if (!대상.함정) 길찾기.건물반영(슬롯번호, 대상.위치, false);
+        if (대상.주둔아처 != null) 타워주둔종료(대상, 아처반환);
     }
 
     void 적재화약탈(int 공격팀, int 방어팀)
@@ -1744,7 +1743,7 @@ public sealed partial class 전장규칙
                 {
                     if (왕 && 상태.진영들[유닛.팀].직업 == 왕직업.아이번) { 유닛.사냥표적 = 0; 유닛.이동중 = false; return; }
                     유닛.왼쪽 = 방향.x < 0;
-                    유닛.공격대기 = 왕 ? .65f : .93f;
+                    유닛.공격대기 = 왕 ? 왕기본공격주기(유닛, 사냥중: true) : .93f;
                     짐승기본공격시작(유닛, 짐승칸, 기본공격피해량(유닛, 능력.힘));
                 }
             }
@@ -1787,7 +1786,7 @@ public sealed partial class 전장규칙
                 {
                     float 힘 = 기본공격피해량(유닛, 능력.힘);
                     기본공격시작(유닛, 유닛.표적, 힘);
-                    유닛.공격대기 = 왕 ? (상태.진영들[유닛.팀].직업 == 왕직업.애쉬 && 유닛.강화시간 > 0 ? .32f : .65f) : .93f;
+                    유닛.공격대기 = 왕 ? 왕기본공격주기(유닛) : .93f;
                 }
                 return;
             }

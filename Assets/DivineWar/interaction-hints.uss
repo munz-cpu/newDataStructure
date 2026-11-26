@@ -7,8 +7,20 @@
     background-size: 100% 100%;
 }
 .army-corps .filter-button {
-    min-width: 78px;
+    min-width: 89px;
+    min-height: 28px;
+    padding-left: 27px;
     font-size: 14px;
+}
+.army-corps .corps-emblem {
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    bottom: 2px;
+    width: 20px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .army-class-filter {
     position: absolute;
@@ -63,7 +75,7 @@
     position: absolute;
     left: 18px;
     top: 16px;
-    width: 294px;
+    width: 314px;
     max-width: 36%;
     flex-direction: row;
     align-items: center;
@@ -93,10 +105,10 @@
     position: absolute;
     left: 18px;
     top: 91px;
-    bottom: 34%;
+    bottom: 22%;
     width: 294px;
     max-width: 36%;
-    max-height: 490px;
+    max-height: 530px;
     padding: 10px 12px;
     background-color: #38281e;
     background-image: url("Art/Interface/hewn-wood-hud.png");
@@ -128,6 +140,13 @@
 .practice-debug-button.practice-debug-hide { margin: 0 0 0 4px; padding: 2px 9px; flex-shrink: 0; }
 .practice-debug-button.practice-debug-open { position: absolute; left: 18px; top: 91px; margin: 0; padding: 4px 10px; }
 .practice-debug-pair > .practice-debug-button { flex-grow: 1; flex-basis: 0; }
+.practice-debug-skill-label { flex-grow: 1; }
+.practice-debug .practice-debug-skill { min-width: 0; font-size: 12px; }
+.practice-debug .practice-debug-skill-selected {
+    -unity-background-image-tint-color: #d9a96a;
+    border-width: 1px;
+    border-color: #eac082;
+}
 .practice-debug .unity-popup-field__input {
     min-height: 25px;
     padding: 1px 4px;

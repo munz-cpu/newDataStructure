@@ -38,6 +38,38 @@ public sealed partial class 전장규칙
         return null;
     }
 
+    internal static int 주둔아처수(전장상태 상태, int 팀)
+    {
+        int 수 = 0;
+        for (int i = 왕번호(팀) + 병사시작칸; i < 왕번호(팀) + 진영칸; i++)
+            if (상태.대상들[i] is { 타워주둔: true }) 수++;
+        return 수;
+    }
+
+    void 타워주둔시작(전장대상 타워, 전장대상 아처)
+    {
+        타워.주둔아처 = 아처;
+        아처.타워주둔 = true;
+        아처.위치 = 타워.위치;
+        이동지정(아처, 타워.위치);
+        아처.이동중 = false;
+        아처.공격순번++;
+        기본공격대기들.RemoveAll(예약 => 예약.공격자 == 아처);
+    }
+
+    void 타워주둔종료(전장대상 타워, bool 반환)
+    {
+        var 아처 = 타워.주둔아처;
+        타워.주둔아처 = null;
+        아처.타워주둔 = false;
+        if (반환)
+        {
+            int 번호 = System.Array.IndexOf(상태.대상들, 아처);
+            길찾기.초기화(경로들[번호]);
+        }
+        else 아처.체력 = 0;
+    }
+
     void 시설진행(int 번호, 전장대상 시설, float 초)
     {
         시설.완공대기 = Mathf.Max(0, 시설.완공대기 - 초);

@@ -13,7 +13,10 @@ public sealed partial class 신들의전쟁
     bool 디버그패널접힘;
     Label 디버그안내;
     Button 디버그무적버튼, 디버그AI버튼, 디버그훈련버튼, 디버그조종버튼, 디버그자동플레이버튼;
-    DropdownField 디버그직업, 디버그스킬칸, 디버그스킬;
+    DropdownField 디버그직업, 디버그스킬칸;
+    readonly Button[] 디버그스킬들 = new Button[8];
+    Button 디버그스킬장착버튼;
+    int 디버그스킬후보 = -1;
     Sprite 허수아비그림;
     디버그위치도구 디버그도구;
     int 원래팀;
@@ -82,13 +85,18 @@ public sealed partial class 신들의전쟁
         });
         디버그스킬칸 = 디버그패널.Q<DropdownField>("debug-skill-slot");
         디버그스킬키갱신();
-        디버그스킬 = 디버그패널.Q<DropdownField>("debug-skill");
-        디버그스킬칸.RegisterValueChangedCallback(디버그스킬칸변경);
-        디버그버튼("debug-change-skill", () =>
+        for (int i = 0; i < 디버그스킬들.Length; i++)
         {
-            if (!규칙.디버그스킬변경(내팀, 디버그스킬칸.index, 디버그스킬.index)) return;
+            int 후보 = i;
+            디버그스킬들[i] = 디버그버튼($"debug-skill-{후보}", () => 디버그스킬후보선택(후보));
+        }
+        디버그스킬칸.RegisterValueChangedCallback(디버그스킬칸변경);
+        디버그스킬장착버튼 = 디버그버튼("debug-change-skill", () =>
+        {
+            if (!규칙.디버그스킬변경(내팀, 디버그스킬칸.index, 디버그스킬후보)) return;
             스킬조준취소();
-            디버그안내.text = $"{디버그스킬칸.value} 슬롯에 {디버그스킬.value} 장착";
+            디버그안내.text = $"{디버그스킬칸.value} 슬롯에 {디버그스킬들[디버그스킬후보].text} 장착";
+            디버그장착선택갱신();
         });
 
         디버그직업선택갱신();
@@ -195,10 +203,13 @@ public sealed partial class 신들의전쟁
     {
         var 진영 = 상태.진영들[내팀];
         디버그직업.SetValueWithoutNotify(진영.직업.ToString());
-        var 후보이름 = new List<string>(왕직업목록.장착후보수(진영.직업));
-        for (int i = 0; i < 왕직업목록.장착후보수(진영.직업); i++)
-            후보이름.Add(왕직업목록.정보(왕직업목록.후보(진영.직업, i)).이름);
-        디버그스킬.choices = 후보이름;
+        int 후보수 = 왕직업목록.장착후보수(진영.직업);
+        for (int i = 0; i < 디버그스킬들.Length; i++)
+        {
+            var 버튼 = 디버그스킬들[i];
+            표시(버튼, i < 후보수);
+            버튼.text = i < 후보수 ? 왕직업목록.정보(왕직업목록.후보(진영.직업, i)).이름 : "";
+        }
         디버그장착선택갱신();
     }
 
@@ -207,9 +218,20 @@ public sealed partial class 신들의전쟁
     void 디버그장착선택갱신()
     {
         int 칸 = 디버그스킬칸.index;
-        if (칸 < 0 || 디버그스킬.choices.Count == 0) return;
-        int 장착 = 왕직업목록.후보번호(상태.진영들[내팀].장착구성, 칸);
-        디버그스킬.SetValueWithoutNotify(디버그스킬.choices[장착]);
+        var 진영 = 상태.진영들[내팀];
+        int 장착 = 칸 >= 0 && 왕직업목록.장착가능(진영.직업)
+            ? 왕직업목록.후보번호(진영.장착구성, 칸) : -1;
+        디버그스킬후보선택(장착);
+    }
+
+    void 디버그스킬후보선택(int 후보)
+    {
+        디버그스킬후보 = 후보;
+        for (int i = 0; i < 디버그스킬들.Length; i++)
+            디버그스킬들[i].EnableInClassList("practice-debug-skill-selected", i == 후보);
+        var 진영 = 상태.진영들[내팀];
+        int 칸 = 디버그스킬칸.index;
+        디버그스킬장착버튼.SetEnabled(칸 >= 0 && 후보 >= 0 && 후보 != 왕직업목록.후보번호(진영.장착구성, 칸));
     }
 
     void 디버그입력초기화()

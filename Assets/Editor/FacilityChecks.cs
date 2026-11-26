@@ -83,7 +83,7 @@ public static class FacilityChecks
                 f.State.대상들[school].팀 = 0; f.State.대상들[school].완공대기 = 1; f.Train(school, 전장규칙.병사시작칸);
                 Require(f.State.진영들[0].훈련대기인원 == 0 && f.State.진영들[0].재화[0] == 100000, "Invalid school took payment");
             });
-            Check("Tower requires archer, consumes exactly one plus 80 wood, finishes and fires delayed arrows", () => {
+            Check("Tower stations exactly one archer, costs 80 wood, finishes and fires delayed arrows", () => {
                 var f = new Fixture(); var p = f.BuildPoint(전장규칙.브루저건설);
                 f.Rules.명령(0, new 전장명령 { 종류 = 명령종류.건설, 값 = 전장규칙.타워건설, 위치 = p });
                 Require(전장규칙.수량(f.State, 0, 대상종류.아처타워) == 0, "Tower without archer");
@@ -96,6 +96,54 @@ public static class FacilityChecks
                 var enemy = f.Unit(전장규칙.왕번호(1) + 6, 1, p + Vector2.right * 3); enemy.속박 = 99;
                 f.Step(.05f); Require(tower.공격순번 > 0 && enemy.체력 == 65, "No windup or instant damage");
                 f.Step(.7f); Require(enemy.체력 < 65, "Tower arrow never hit");
+            });
+            Check("Demolishing a tower returns its original archer once, including during construction", () => {
+                var f = new Fixture();
+                int archerSlot = 전장규칙.병사시작칸;
+                var archer = f.Unit(archerSlot, 0, f.Entry, true);
+                archer.병과 = 병과.아처; archer.체력 = 73; archer.힘 = 19;
+                int soldierId = archer.병사번호;
+                var p = f.BuildPoint(전장규칙.타워건설);
+                int towerSlot = 전장규칙.시설시작(0) + 4;
+                f.Rules.명령(0, new 전장명령 { 종류 = 명령종류.건설, 값 = 전장규칙.타워건설, 위치 = p });
+                var tower = f.State.대상들[towerSlot];
+                Require(tower.완공대기 > 0 && archer.타워주둔 && !archer.생존 && archer.체력 == 73, "Archer was not stationed");
+                var clientArcher = JsonUtility.FromJson<전장대상>(JsonUtility.ToJson(archer));
+                Require(clientArcher.타워주둔 && !clientArcher.생존, "Stationed archer was visible in the client snapshot");
+
+                var demolish = new 전장명령 { 종류 = 명령종류.건물철거, 값 = towerSlot, 위치 = p, 건물번호 = tower.건물번호 };
+                f.Rules.명령(1, demolish);
+                Require(tower.생존 && archer.타워주둔, "Enemy demolished the tower");
+                f.Rules.명령(0, demolish);
+                f.Rules.명령(0, demolish);
+                Require(!tower.생존 && archer.생존 && f.State.대상들[archerSlot] == archer
+                        && archer.병사번호 == soldierId && archer.병과 == 병과.아처
+                        && archer.체력 == 73 && archer.힘 == 19 && archer.위치 == p && f.CanWalk(p)
+                        && f.State.진영들[0].재화[0] == 99920
+                        && 전장규칙.수량(f.State, 0, 대상종류.병사) == 1,
+                    "Demolition failed to return the original archer exactly once");
+            });
+            Check("Tower reserves the archer slot at army cap until demolition or enemy destruction", () => {
+                var f = new Fixture();
+                const int first = 전장규칙.병사시작칸;
+                for (int i = 0; i < 전장규칙.병력제한; i++) f.Unit(first + i, 0, f.Entry, true);
+                var archer = f.State.대상들[first];
+                archer.병과 = 병과.아처;
+                var p = f.BuildPoint(전장규칙.타워건설);
+                int towerSlot = 전장규칙.시설시작(0) + 4;
+                var build = new 전장명령 { 종류 = 명령종류.건설, 값 = 전장규칙.타워건설, 위치 = p };
+                f.Rules.명령(0, build);
+                var tower = f.State.대상들[towerSlot];
+                var empty = typeof(전장규칙).GetMethod("빈칸", BindingFlags.Static | BindingFlags.NonPublic);
+                int EmptySlot() => (int)empty.Invoke(null, new object[] { f.State, 0, 대상종류.병사 });
+                Require(EmptySlot() < 0 && 전장규칙.수량(f.State, 0, 대상종류.병사) == 47,
+                    "Garrison slot was available to another recruit");
+                f.Rules.명령(0, new 전장명령 { 종류 = 명령종류.건물철거, 값 = towerSlot, 위치 = p, 건물번호 = tower.건물번호 });
+                Require(archer.생존 && 전장규칙.수량(f.State, 0, 대상종류.병사) == 48, "Full army could not recover its garrison");
+                f.Rules.명령(0, build);
+                typeof(전장규칙).GetMethod("피해", Private).Invoke(f.Rules, new object[] { towerSlot, 1000f, 1 });
+                Require(!archer.생존 && !archer.타워주둔 && EmptySlot() == first,
+                    "Enemy destruction returned the archer or left a blocked soldier slot");
             });
             Check("Mine is walkable, ignores allies, triggers once and damages enemies in radius", () => {
                 var f = new Fixture(); var mine = f.Place(전장규칙.시설시작(0) + 8, 0, 대상종류.지뢰, f.Entry, 90);

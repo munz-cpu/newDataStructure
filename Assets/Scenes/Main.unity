@@ -52968,6 +52968,29 @@ MonoBehaviour:
   "\uC720\uB2DB\uC120\uD0DD\uD6A8\uACFC\uC74C": {fileID: 8300000, guid: 96c13123b77b44d0a6c23681b41e5c52, type: 3}
   "\uC774\uB3D9\uBA85\uB839\uD6A8\uACFC\uC74C": {fileID: 8300000, guid: cd8f9072b44e42739b2d6eb2de8f8789, type: 3}
   "\uAC74\uC124\uC644\uB8CC\uD6A8\uACFC\uC74C": {fileID: 8300000, guid: ea8dba942ccd4dafb28a1339cf2fa8c8, type: 3}
+  combatClips:
+  - {fileID: 0}
+  - {fileID: 8300000, guid: a211c0836d446464bafadfa98bb533dc, type: 3}
+  - {fileID: 8300000, guid: 6b5d14a33c91b5247a49d1ef7a780b15, type: 3}
+  - {fileID: 8300000, guid: a2e931e9e65e5d94a91988e0e6f29d62, type: 3}
+  - {fileID: 8300000, guid: d41478af4c8413b4e830e5b9cda50a52, type: 3}
+  - {fileID: 8300000, guid: f17bc46da243b624688eed146413b9cd, type: 3}
+  - {fileID: 8300000, guid: 255ab6b57696fb946b14b0ba61087102, type: 3}
+  - {fileID: 8300000, guid: 65fab5ca74fe6bb4aa6858223302b320, type: 3}
+  - {fileID: 8300000, guid: e4f836832a4b57b42ad774bbe25074e0, type: 3}
+  - {fileID: 8300000, guid: 03f15edc7a053514580ee1efae8d87cd, type: 3}
+  - {fileID: 8300000, guid: 417c0589cec8a054d8887556a5f65dd0, type: 3}
+  - {fileID: 8300000, guid: ccc6f0dd5d6864a4d8d5dd402a6c5016, type: 3}
+  - {fileID: 8300000, guid: 2d024639d85de184a92f251114a28d82, type: 3}
+  - {fileID: 8300000, guid: 6644bbd799105804aa9c236b740afcff, type: 3}
+  - {fileID: 8300000, guid: 75dd9b39df20da749ada86c2f59e21ef, type: 3}
+  - {fileID: 8300000, guid: faaea74a666eb094ebf8e8a6af8fce51, type: 3}
+  - {fileID: 8300000, guid: 70157bf9d396c9d4797e633e5fa83f56, type: 3}
+  - {fileID: 8300000, guid: 0ae21f286bd936a41b187a54e6413612, type: 3}
+  - {fileID: 8300000, guid: ef52c4ccab5a97d4ba6ab091d59cd1d5, type: 3}
+  - {fileID: 8300000, guid: 4df78ba323224b94689f7b6946505e35, type: 3}
+  - {fileID: 8300000, guid: 80f9b86cdf38b23449dadace45b586d0, type: 3}
+  - {fileID: 8300000, guid: 80f9b86cdf38b23449dadace45b586d0, type: 3}
   "\uC655\uACF5\uACA9\uD6A8\uACFC\uC74C": {fileID: 8300000, guid: c17c3eef61216f146aa65f7ec8492bbc, type: 3}
   "\uD53C\uACA9\uD6A8\uACFC\uC74C": {fileID: 8300000, guid: 80f9b86cdf38b23449dadace45b586d0, type: 3}
   "\uB098\uBB34\uCC44\uC9D1\uD6A8\uACFC\uC74C": {fileID: 8300000, guid: 1f23271bb9501444fa6bbde23307d0d4, type: 3}

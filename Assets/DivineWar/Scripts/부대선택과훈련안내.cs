@@ -12,8 +12,12 @@ public sealed partial class 신들의전쟁
     Button 주민선택버튼, 일반선택버튼, 브루저선택버튼, 아처선택버튼, 선택복원버튼;
     readonly HashSet<int> 필터원본 = new(), 필터결과 = new();
     readonly (int 병사, int 군단)[] 군단구성 = new (int, int)[전장규칙.전체칸];
-    readonly Button[] 군단버튼들 = new Button[4];
-    readonly Action[] 군단편입동작 = new Action[4];
+    const int 군단수 = 4;
+    readonly Button[] 군단버튼들 = new Button[군단수];
+    readonly Action[] 군단편입동작 = new Action[군단수];
+    readonly Texture2D[] 군단휘장들 = new Texture2D[군단수];
+    readonly int[] 군단인원 = new int[군단수];
+    readonly Vector2[] 군단중심 = new Vector2[군단수];
     VisualElement 군단막대;
 
     void 군단버튼준비()
@@ -24,6 +28,8 @@ public sealed partial class 신들의전쟁
         {
             int 군단 = i + 1;
             var 버튼 = 군단버튼들[i] = 군단막대.Q<Button>($"corps-{군단}");
+            군단휘장들[i] = Resources.Load<Texture2D>($"Minimap/corps-{군단}");
+            버튼.Q(className: "corps-emblem").style.backgroundImage = new StyleBackground(군단휘장들[i]);
             군단편입동작[i] = () =>
             {
                 군단편입(군단);
@@ -86,6 +92,7 @@ public sealed partial class 신들의전쟁
     void 군단막대갱신()
     {
         군단구성정리(상태);
+        군단통계갱신();
         bool 보임 = 선택필터사용가능 && 배치 < 0 && !드래그중;
         if (보임)
         {
@@ -102,15 +109,24 @@ public sealed partial class 신들의전쟁
         군단막대.style.left = 기준.x;
         군단막대.style.bottom = 뿌리.contentRect.height - 기준.y + 6f;
 
-        Span<int> 인원 = stackalloc int[4];
-        인원.Clear();
-        for (int i = 0; i < 군단구성.Length; i++)
-        {
-            int 군단 = 군단구성[i].군단;
-            if (군단 > 0 && 상태.대상들[i].팀 == 내팀) 인원[군단 - 1]++;
-        }
         for (int i = 0; i < 군단버튼들.Length; i++)
-            군단버튼들[i].text = $"제 {i + 1}군단 · {인원[i]}";
+            군단버튼들[i].text = 군단휘장들[i] != null ? $"군단 · {군단인원[i]}" : $"제 {i + 1}군단 · {군단인원[i]}";
+    }
+
+    void 군단통계갱신()
+    {
+        Array.Clear(군단인원, 0, 군단수);
+        Array.Clear(군단중심, 0, 군단수);
+        for (int i = 0; i < 상태.대상들.Length; i++)
+        {
+            var 소속 = 군단구성[i];
+            int 번호 = 소속.군단 - 1;
+            if ((uint)번호 >= 군단수 || !내병력인가(i) || 상태.대상들[i].병사번호 != 소속.병사) continue;
+            군단인원[번호]++;
+            군단중심[번호] += 상태.대상들[i].위치;
+        }
+        for (int i = 0; i < 군단수; i++)
+            if (군단인원[i] > 0) 군단중심[i] /= 군단인원[i];
     }
 
     void 선택훈련안내준비()

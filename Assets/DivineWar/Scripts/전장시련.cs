@@ -266,7 +266,7 @@ public sealed partial class 전장규칙
         else if (시련.보상 == 1)
         {
             // Reserve capacity exactly as training does; a full army never consumes the reward.
-            if (수량(상태, 팀, 대상종류.병사) + 진영.훈련대기인원 + 3 > 병력제한)
+            if (수량(상태, 팀, 대상종류.병사) + 주둔아처수(상태, 팀) + 진영.훈련대기인원 + 3 > 병력제한)
             { 메시지(팀, "해골 병사 3명을 위한 병력 공간이 필요합니다. 보상은 시련석에 보관됩니다.", 경고: true); return; }
             for (int i = 0; i < 3; i++)
             {

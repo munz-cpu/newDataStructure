@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum 소환종류 { 없음, 모래병사, 포탑, 강화포탑, 태양포탑, 데이지 }
-public enum 지대종류 { 침묵, 술통, 화염, 불길, 망령, 수풀, 시야, 씨앗, 벽, 투사체, 기본투사체, 근접타격, 장막, 폭탄화살, 돌진궤적, 스킬충격, 납치당김 }
+public enum 지대종류 { 침묵, 술통, 화염, 불길, 망령, 수풀, 시야, 씨앗, 벽, 투사체, 기본투사체, 근접타격, 장막, 폭탄화살, 돌진궤적, 스킬충격, 납치당김, 전투소리, 수혈, 납치날림, 납치연장 }
+
+public enum 전투소리 { 없음, 회전시전, 회전적중, 포효, 포효2, 관절, 구르기, 분노, 급발진, 꿰뚫기시전, 꿰뚫기적중, 수혈, 강타, 은신, 후퇴, 갈고리, 후퇴베기, 화살시전, 화살적중, 출혈, 암살자평타, 연속공격, 멀티샷발사 }
 
 [Serializable]
 public sealed class 스킬지대
@@ -15,13 +17,17 @@ public sealed class 스킬지대
     internal 장착기술? 장착기술;
     public 장착기술 연출기술;
     public bool 강화;
+    public 전투소리 소리;
+    public int 소리순번;
+    internal List<후퇴갈고리표적> 갈고리표적;
+    internal float 갈고리당김시간;
+    internal int 후퇴시전칸 = -1;
     public 왕직업 직업;
     public 기본공격종류 공격종류;
     public int 짐승칸 = -1, 짐승등장번호;
     // Slot identity guards are host-only; clients only render these zones.
     [NonSerialized] public 전장대상 부착대상;
     [NonSerialized] public 전장대상 발사자참조;
-    [NonSerialized] public Vector2 당김목표;
     [NonSerialized] public bool 독화살, 치유화살, 폭탄화살;
     internal bool 반사됨;
     [NonSerialized] public int 남은튕김;
@@ -266,21 +272,41 @@ public sealed partial class 전장규칙
         }
         return 찾음;
     }
+    readonly List<스킬지대> 대기지대들 = new();
+    bool 지대진행중;
+    int 전투소리순번;
+
+    void 전투소리지정(스킬지대 지대, 전투소리 소리)
+    {
+        지대.소리 = 소리;
+        지대.소리순번 = ++전투소리순번;
+    }
+
+    void 전투소리추가(int 팀, Vector2 위치, 전투소리 소리) =>
+        전투소리지정(지대추가(팀, 지대종류.전투소리, 위치, 0, .65f), 소리);
+
     스킬지대 지대추가(int 팀, 지대종류 종류, Vector2 위치, float 반경, float 시간)
     {
         var 지대 = new 스킬지대 { 팀 = 팀, 종류 = 종류, 위치 = 위치, 시작 = 위치, 반경 = 반경, 남은시간 = 시간, 지속시간 = 시간, 직업 = 상태.진영들[팀].직업 };
+        if (지대진행중) 대기지대들.Add(지대);
+        else 지대등록(지대);
+        return 지대;
+    }
+
+    void 지대등록(스킬지대 지대)
+    {
         if (상태.지대들.Count >= 64)
         {
             int 장식 = 상태.지대들.FindIndex(x => 시각지대(x.종류));
-            if (장식 < 0 && 시각지대(종류)) return 지대;
+            if (장식 < 0 && 시각지대(지대.종류)) return;
             if (장식 < 0)
-                장식 = 상태.지대들.FindIndex(x => x.종류 is not (지대종류.장막 or 지대종류.폭탄화살 or 지대종류.납치당김) && !x.폭탄화살);
-            if (장식 < 0) return 지대;
+                장식 = 상태.지대들.FindIndex(x => x.종류 is not (지대종류.장막 or 지대종류.폭탄화살 or 지대종류.납치당김 or 지대종류.납치날림) && !x.폭탄화살 && x.갈고리표적 == null);
+            if (장식 < 0) return;
             상태.지대들.RemoveAt(장식);
         }
-        상태.지대들.Add(지대); return 지대;
+        상태.지대들.Add(지대);
     }
-    static bool 시각지대(지대종류 종류) => 종류 is 지대종류.근접타격 or 지대종류.돌진궤적 or 지대종류.스킬충격;
+    static bool 시각지대(지대종류 종류) => 종류 is 지대종류.근접타격 or 지대종류.돌진궤적 or 지대종류.스킬충격 or 지대종류.전투소리 or 지대종류.수혈 or 지대종류.납치연장;
 
     스킬지대 발사(전장대상 왕, Vector2 방향, float 거리, float 속도, float 양, float 폭)
     {
@@ -303,7 +329,7 @@ public sealed partial class 전장규칙
             수++; if (오래된 == null || 대상.소환남음 < 오래된.소환남음) 오래된 = 대상;
         }
         int 칸 = 수 >= 제한수 ? Array.IndexOf(상태.대상들, 오래된) : 빈칸(상태, 팀, 대상종류.병사);
-        if (수 < 제한수 && 수량(상태, 팀, 대상종류.병사) + 훈련대기열[팀].Count >= 병력제한) return null;
+        if (수 < 제한수 && 수량(상태, 팀, 대상종류.병사) + 주둔아처수(상태, 팀) + 훈련대기열[팀].Count >= 병력제한) return null;
         if (칸 < 0) return null;
         배치(칸, 팀, 대상종류.병사, 위치, 종류 == 소환종류.데이지 ? 300 : 종류 == 소환종류.모래병사 ? 90 : 140);
         var 소환물 = 상태.대상들[칸]; 소환물.소환 = 종류; 소환물.소환남음 = 수명;
@@ -323,12 +349,13 @@ public sealed partial class 전장규칙
 
     void 직업지대진행(float 초)
     {
+        지대진행중 = true;
         for (int z = 상태.지대들.Count - 1; z >= 0; z--) {
             var 지대 = 상태.지대들[z]; var 왕 = 상태.대상들[왕번호(지대.팀)];
             지대.남은시간 -= 초; 지대.다음틱 -= 초;
-            if (지대.종류 == 지대종류.납치당김)
+            if (지대.갈고리표적 != null && 지대.종류 != 지대종류.투사체)
             {
-                if (납치당김진행(지대, 초)) 상태.지대들.RemoveAt(z);
+                if (후퇴연속베기진행(지대, 초)) 상태.지대들.RemoveAt(z);
                 continue;
             }
             if (지대.종류 == 지대종류.기본투사체) {
@@ -343,9 +370,9 @@ public sealed partial class 전장규칙
                 지대.위치 = 지대.부착대상.위치;
             }
             if (지대.종류 == 지대종류.투사체) {
-                if (지대.연출기술 == 장착기술.납치 && !지대.발사자참조.생존)
+                if (지대.갈고리표적 != null)
                 {
-                    상태.지대들.RemoveAt(z);
+                    if (후퇴갈고리진행(지대, 초)) 상태.지대들.RemoveAt(z);
                     continue;
                 }
                 var 이전 = 지대.위치;
@@ -387,6 +414,9 @@ public sealed partial class 전장규칙
             if (지대.종류 == 지대종류.씨앗) 광역(지대.팀, 지대.위치, 지대.반경, 35, 적 => 둔화(적, .5f, 2));
             상태.지대들.RemoveAt(z);
         }
+        지대진행중 = false;
+        foreach (var 지대 in 대기지대들) 지대등록(지대);
+        대기지대들.Clear();
     }
 
     void 직업상태진행(전장대상 대상, float 초)
@@ -457,15 +487,14 @@ public sealed partial class 전장규칙
     internal static float 왕공격최소거리(전장대상 표적) => 표적 == null ? 1.15f : 표적.건물 ? 1.45f : .95f;
 
     float 왕사거리(전장대상 왕, float 최소거리) =>
-        왕사거리(상태.진영들[왕.팀].직업, 최소거리, 왕.사거리남음 > 0);
+        왕사거리(상태.진영들[왕.팀].직업, 최소거리);
 
-    internal static float 왕사거리(왕직업 직업, float 최소거리, bool 사거리강화)
+    internal static float 왕사거리(왕직업 직업, float 최소거리)
     {
         if (직업 is 왕직업.애쉬 or 왕직업.아처) return 7.5f;
         if (직업 is 왕직업.소라카 or 왕직업.아지르 or 왕직업.하이머딩거 or 왕직업.아이번) return 4.8f;
 
-        float 근접거리 = 최소거리 + 1.25f;
-        return 직업 == 왕직업.검사 && 사거리강화 ? 근접거리 * 1.4f : 근접거리;
+        return 최소거리 + (직업 == 왕직업.암살자 ? 1.55f : 1.25f);
     }
 
     void 왕기본공격(전장대상 왕, int 번호, float 양)

@@ -10,6 +10,8 @@ using UnityEngine.Tilemaps;
 public static class BuildingInteractionChecks
 {
     const BindingFlags Private = BindingFlags.Instance | BindingFlags.NonPublic;
+    static 신들의전쟁 previewGame;
+    static 신들의전쟁 SceneSource() => previewGame != null ? previewGame : UnityEngine.Object.FindAnyObjectByType<신들의전쟁>();
     static object Field(object source, string name) => source.GetType().GetField(name, Private).GetValue(source);
     static void Require(bool ok, string message) { if (!ok) throw new Exception(message); }
     static void Write(string name, string text) { Directory.CreateDirectory("Temp/BuildingInteraction"); File.WriteAllText("Temp/BuildingInteraction/"+name,text); }
@@ -23,7 +25,7 @@ public static class BuildingInteractionChecks
         public Vector2 Hall => State.대상들[1].위치;
         public Fixture()
         {
-            var source=UnityEngine.Object.FindFirstObjectByType<신들의전쟁>();
+            var source=SceneSource();
             Nav=new 격자길찾기((Tilemap)Field(source,"바닥타일맵"),(Tilemap)Field(source,"장애물타일맵"));
             Resources=(자원지점[])Field(source,"자원들");
             Rules=new 전장규칙(Resources,Nav,Array.ConvertAll((Transform[])Field(source,"시작지점들"),t=>(Vector2)t.position),왕직업.수호자,왕직업.수호자,831);
@@ -53,6 +55,28 @@ public static class BuildingInteractionChecks
     [MenuItem("DivineWar/Validation/Building Interaction")]
     public static void Run()
     {
+        if (SceneSource() != null)
+        {
+            RunChecks();
+            return;
+        }
+
+        var scene = UnityEditor.SceneManagement.EditorSceneManager.OpenPreviewScene("Assets/Scenes/Main.unity");
+        try
+        {
+            previewGame = scene.GetRootGameObjects().Select(root => root.GetComponentInChildren<신들의전쟁>(true))
+                .First(game => game != null);
+            RunChecks();
+        }
+        finally
+        {
+            previewGame = null;
+            UnityEditor.SceneManagement.EditorSceneManager.ClosePreviewScene(scene);
+        }
+    }
+
+    static void RunChecks()
+    {
         var results=new StringBuilder();
         try
         {
@@ -75,7 +99,7 @@ public static class BuildingInteractionChecks
                 Require(soldier.표적<0,"Nearby enemy interrupted the explicit ground order");
             });
             Check("Authored flag slots, sprite import, menu and UI controls",()=> {
-                var source=UnityEngine.Object.FindFirstObjectByType<신들의전쟁>();
+                var source=SceneSource();
                 var slots=(SpriteRenderer[])Field(source,"깃발슬롯");
                 Require(slots?.Length==8 && slots.All(r=>r!=null),"Flag slots not authored/wired");
                 Require(Field(source,"깃발버튼")!=null,"Flag menu missing");
@@ -83,7 +107,7 @@ public static class BuildingInteractionChecks
                 string uxml=File.ReadAllText("Assets/DivineWar/전장.uxml");
                 foreach(var name in new[]{"training-cost","select-regular","select-bruiser","select-archer","restore-selection"})Require(uxml.Contains(name),"Missing UI "+name);
             });
-            Check("Large buildings reserve one empty cell and all buildings reject overlap",()=> {
+            Check("Large buildings keep mutual clearance, mixed sizes allow neighbors, and overlap is rejected",()=> {
                 foreach(int kind in new[]{0,1,4,5,6,7,8,9,10,11,12})
                 {
                     var f=new Fixture();var p=f.Point(0,f.Hall,3,6);f.Place(2,0,대상종류.제재소,p,210);
@@ -93,19 +117,36 @@ public static class BuildingInteractionChecks
                     var before=f.State.진영들[0].재화.ToArray();
                     f.Build(kind,p);
                     Require(before.SequenceEqual(f.State.진영들[0].재화),"Overlapping order spent resources: "+kind);
-                    foreach(var d in new[]{Vector2.left,Vector2.right,Vector2.up,Vector2.down,Vector2.one})
-                        Require(!f.Can(kind,p+d),"Building preview allows placement in large building clearance: "+kind);
-                    f.Build(kind,p+Vector2.right);
-                    Require(before.SequenceEqual(f.State.진영들[0].재화),"Large building clearance order spent resources: "+kind);
-                    bool found=false;
-                    foreach(var d in new[]{Vector2.left,Vector2.right,Vector2.up,Vector2.down})
+                    var directions = new[] { Vector2.left, Vector2.right, Vector2.up, Vector2.down, Vector2.one };
+                    bool large = kind is 0 or 1 or 7 or 8 or 9;
+                    if (large)
                     {
-                        var next=p+d*2;if(!f.Can(kind,next))continue;
+                        foreach (var d in directions)
+                            Require(!f.Can(kind,p+d),"Two large buildings share their clearance: "+kind);
+                        f.Build(kind,p+Vector2.right);
+                        Require(before.SequenceEqual(f.State.진영들[0].재화),"Large building clearance order spent resources: "+kind);
+                    }
+                    bool found=false;
+                    foreach(var d in directions)
+                    {
+                        var next=p+d*(large ? 2 : 1);if(!f.Can(kind,next))continue;
                         f.Build(kind,next);
                         Require(f.State.대상들.Any(u=>u is {생존:true,건물:true} && u.위치==next),"Building with clearance rejected: "+kind);
                         found=true;break;
                     }
-                    Require(found,"No building fixture with clearance: "+kind);
+                    Require(found,"No permissible adjacent placement: "+kind);
+                    if (large) continue;
+
+                    var reverse = new Fixture();
+                    var center = reverse.Point(0, reverse.Hall, 3, 6);
+                    var neighbor = directions.Select(d => center + d).First(pos => reverse.Can(kind,pos));
+                    reverse.Build(kind, neighbor);
+                    Require(reverse.State.대상들.Any(u => u is { 생존:true, 건물:true } && u.위치 == neighbor),
+                        "Could not place the existing small building: "+kind);
+                    Require(reverse.Can(0,center), "Large placement blocked by adjacent small building: "+kind);
+                    reverse.Build(0,center);
+                    Require(reverse.State.대상들.Any(u => u is { 생존:true, 종류:대상종류.제재소 } && u.위치 == center),
+                        "Large command blocked by adjacent small building: "+kind);
                 }
                 var small = new Fixture();
                 var fence = small.Point(4,small.Hall,3,6);
