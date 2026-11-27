@@ -319,6 +319,25 @@ public sealed partial class 신들의전쟁
         return true;
     }
 
+    void 허수아비배치가이드그리기(MeshGenerationContext 그림)
+    {
+        if (디버그도구 != 디버그위치도구.허수아비배치 || !디버그사용가능 || !전장가리킴(현재마우스)) return;
+
+        var 위치 = 전장좌표(현재마우스);
+        bool 가능 = 규칙.디버그허수아비배치칸(내팀, 위치) >= 0;
+        var 색 = 가능 ? 청록 : 적색;
+        범위룬그리기(그림, 위치, .4f, 색, .18f);
+        if (허수아비그림 == null) return;
+
+        var 경계 = 허수아비그림.bounds;
+        var 좌하단 = 위치변환(위치 + (Vector2)경계.min);
+        var 우상단 = 위치변환(위치 + (Vector2)경계.max);
+        var 반폭 = new Vector2(Mathf.Abs(우상단.x - 좌하단.x), Mathf.Abs(우상단.y - 좌하단.y)) * .5f;
+        var 미리보기색 = Color.Lerp(Color.white, 색, 가능 ? .2f : .65f);
+        미리보기색.a = .55f;
+        표식그리기(그림, (좌하단 + 우상단) * .5f, 반폭, 허수아비그림.texture, 미리보기색);
+    }
+
     bool 디버그전장클릭(Vector2 위치)
     {
         if (!디버그사용가능) return false;
@@ -329,6 +348,8 @@ public sealed partial class 신들의전쟁
                 {
                     디버그도구 = 디버그위치도구.없음;
                     디버그안내.text = "허수아비를 소환했습니다.";
+                    if (효과음재생기 != null && 나무채집효과음 != null)
+                        효과음재생기.PlayOneShot(나무채집효과음, .85f);
                 }
                 else 디버그안내.text = $"다른 빈 땅을 클릭하세요. 최대 {전장규칙.디버그허수아비한도}개까지 소환할 수 있습니다.";
                 return true;

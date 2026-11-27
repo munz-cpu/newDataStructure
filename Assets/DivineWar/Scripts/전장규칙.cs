@@ -32,14 +32,16 @@ public sealed class 전장대상
     public float 패시브대기, 비전투, 저주남음, 저주성숙, 연속시간, 뿌리대기, 소환남음;
     public int 저주대상 = -1, 연속횟수, 소환공격수;
     public Vector2 시선 = Vector2.right, 제어원점;
-    public bool 은신, 장막안, 폭탄화살준비;
-    public float 가드, 치유화살남음, 갈고리포획종료;
-    internal float 사기남음, 복수남음, 복수오라남음, 호위회복남음, 분노남음, 발악남음;
+    public bool 은신, 장막안;
+    public float 가드, 갈고리포획종료;
+    internal float 사기남음, 집합남음, 분노남음, 발악남음, 출혈비율, 다음관절베기;
+    internal List<(float 종료, float 증가)> 복수효과들;
+    public bool 특진검사;
     internal float 멀티샷남음, 수혈남음, 위장남음, 다음출혈;
     internal int 출혈횟수, 연속타수, 강타칸 = -1;
     internal float 연속공격만료;
     internal 전장대상 출혈시전자;
-    internal float 여왕남음, 여왕공속, 독화살남음, 트릭샷남음;
+    internal float 트릭샷남음;
     public 소환종류 소환;
     [NonSerialized] public 전장대상 저주참조, 뿌리참조;
     public bool 속박중 => 기절 > 0 || 속박 > 0 || 공포 > 0 || 매혹 > 0;
@@ -290,7 +292,7 @@ public sealed partial class 전장규칙
         {
             왕직업.지휘관 => (8, 4, 0, 240),
             왕직업.아처 => (7, 6, 0, 180),
-            왕직업.검사 => (9, 5, 0, 250),
+            왕직업.검사 => (12, 5, 0, 250),
             왕직업.트린다미어 => (9, 5, 2, 250),
             왕직업.소라카 => (3, 5, 10, 180),
             왕직업.애쉬 => (7, 6, 4, 180),
@@ -1171,6 +1173,8 @@ public sealed partial class 전장규칙
         신청.건물.훈련잔여합계 = 0;
         var 진영 = 상태.진영들[팀];
         진영.모집완료 = true;
+        if (전문)
+            전투소리추가(팀, 병사.위치, 궁수 ? 전투소리.아처전직 : 전투소리.브루저전직);
         메시지(팀, 전문 ? $"{병사.병과} 훈련 완료! 능력치가 강화됐습니다." : "훈련 완료! 주민이 병사로 전환됐습니다.");
     }
 
@@ -1406,7 +1410,7 @@ public sealed partial class 전장규칙
         }
         대상.효과시간 = .16f;
         if (대상.생존) return;
-        if (대상.종류 == 대상종류.병사) 병사사망(대상);
+        아군사망효과(대상);
         if (대상.건물)
         {
             건물자리해제(번호, 대상);

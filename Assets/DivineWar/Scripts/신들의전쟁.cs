@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -21,11 +22,13 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
     const float 전투음악전환전최소행군음악시간 = 8f;
     배경음악재생 음악;
     전장음악상황 음악상황;
+    AudioClip[] 행군재생목록, 전투재생목록;
     [SerializeField] AudioClip 방생성효과음, 전장입장효과음, 닫기효과음;
     [SerializeField] AudioClip 이동클릭효과음, 유닛선택효과음, 이동명령효과음, 건설완료효과음;
     [SerializeField] AudioClip 왕공격효과음;
     [SerializeField] AudioClip[] combatClips;
     int 마지막전투소리순번;
+    readonly bool[] 아처화살피격 = new bool[전장규칙.전체칸];
     float 타격흔들림세기 = .13f;
     [SerializeField] AudioClip 피격효과음;
     [SerializeField] AudioClip 나무채집효과음, 돌채집효과음;
@@ -118,7 +121,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
     readonly float[] 짐승이전체력 = new float[전장짐승.전체칸];
     PointerEventData HUD포인터;
     Rect 미니맵범위;
-    Texture2D 아군본진휘장, 적본진휘장, 범위룬, 급발진검그림, 작전상후퇴갈고리그림;
+    Texture2D 아군본진휘장, 적본진휘장, 범위룬, 급발진검그림, 작전상후퇴갈고리그림, 화살그림;
     int 표시모닥불칸 = -1, 표시모닥불번호;
     float 모닥불범위종료;
     VisualElement 뿌리, 전장표시, 지도;
@@ -201,7 +204,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
     {
         public bool 표시중;
         public int 방향;
-        public float 이동여운, 걷기거리, 튀는시간, 이전공격대기, 이전체력;
+        public float 이동여운, 걷기거리, 튀는시간, 이전공격대기, 이전체력, 벌목타격대기;
     }
 
     struct 병사그림상태
@@ -247,6 +250,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         if (안개 != null) 지도표시준비();
         범위룬 ??= Resources.Load<Texture2D>("range-rune");
         급발진검그림 ??= Resources.Load<Texture2D>("rapid-sword");
+        화살그림 ??= Resources.Load<Texture2D>("divinewar-arrow");
         작전상후퇴갈고리그림 ??= Resources.Load<Texture2D>("tactical-hook");
         아군본진휘장 ??= Resources.Load<Texture2D>("Minimap/allied-stronghold");
         적본진휘장 ??= Resources.Load<Texture2D>("Minimap/enemy-stronghold");
@@ -580,6 +584,10 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         SceneManager.LoadScene("Title");
     }
 
+    static AudioClip[] 재생목록합치기(AudioClip[] 기본곡, AudioClip[] 추가곡) =>
+        (기본곡 ?? Array.Empty<AudioClip>()).Concat(추가곡 ?? Array.Empty<AudioClip>())
+        .Where(곡 => 곡 != null).Distinct().ToArray();
+
     void 화면전환()
     {
         var 시작효과음 = 멀티 ? 전장입장효과음 : 방생성효과음;
@@ -591,6 +599,8 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         {
             음악 = new 배경음악재생(배경음악재생기, 배경음악보조재생기);
             음악상황 = new 전장음악상황(상태, 내팀, 음악시야안);
+            행군재생목록 = 재생목록합치기(행군음악, 추격음악);
+            전투재생목록 = 재생목록합치기(전투음악, 추격음악);
         }
         디버그준비();
         마지막적중순번 = 상태.진영들[내팀].적중순번;
@@ -874,11 +884,10 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
                 ? 음악상황.갱신(상태, 안개.탐사됨(적회관위치)) : 전장음악.일반;
             음악.갱신(상황 switch
             {
-                전장음악.전투 => 전투음악,
-                전장음악.추격 => 추격음악,
-                전장음악.행군 => 행군음악,
+                전장음악.전투 => 전투재생목록,
+                전장음악.행군 => 행군재생목록,
                 _ => 일반음악
-            }, Time.unscaledDeltaTime, 상황 == 전장음악.전투 ? 행군음악 : null, 전투음악전환전최소행군음악시간);
+            }, Time.unscaledDeltaTime, 상황 == 전장음악.전투 ? 행군재생목록 : null, 전투음악전환전최소행군음악시간);
         }
         카메라흔들림제거();
         if (!패널열림 && !주민패널.열림)
@@ -1142,7 +1151,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
     {
         var 진영 = 상태.진영들[내팀];
         int[] 부대 = null;
-        if (왕직업목록.장착가능(진영.직업) && 왕직업목록.장착스킬(진영, 칸) == 장착기술.집합)
+        if (왕직업목록.장착가능(진영.직업) && 왕직업목록.장착스킬(진영, 칸) is (장착기술.집합 or 장착기술.특진))
         {
             부대 = new int[선택부대.Count];
             선택부대.CopyTo(부대);
@@ -1150,9 +1159,9 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         명령전달(명령종류.스킬, 위치, 칸, 부대);
     }
 
-    enum 조준방식 { 자신, 위치, 방향, 병사 }
+    enum 조준방식 { 자신, 위치, 방향 }
 
-    static bool 직접시전기술(장착기술 기술) => 왕직업목록.정보(기술).쿨다운 > 0 && 기술 != 장착기술.복수오라;
+    static bool 직접시전기술(장착기술 기술) => 왕직업목록.정보(기술).쿨다운 > 0;
 
     static 조준방식 스킬조준방식(진영상태 진영, int 칸)
     {
@@ -1164,10 +1173,10 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
 
         return 왕직업목록.장착스킬(진영, 칸) switch
         {
-            장착기술.집합 or 장착기술.잠복 => 조준방식.위치,
-            장착기술.내가지킨다 or 장착기술.동료의복수 => 조준방식.병사,
+            장착기술.집합 or 장착기술.잠복 or 장착기술.화살비 => 조준방식.위치,
             장착기술.회전베기 or 장착기술.앞구르기 or 장착기술.급발진 or 장착기술.꿰뚫기
-                or 장착기술.납치 or 장착기술.출혈화살 or 장착기술.관절빼서공격하기 => 조준방식.방향,
+                or 장착기술.납치 or 장착기술.출혈화살 or 장착기술.관절빼서공격하기
+                or 장착기술.독화살 or 장착기술.치유의화살 => 조준방식.방향,
             _ => 조준방식.자신
         };
     }
@@ -1361,11 +1370,6 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
                     선택부대.CopyTo(부대);
                 }
                 명령전달(명령종류.공격, 위치, 대상번호, 부대);
-                return;
-            }
-            if (내왕().치유화살남음 > 0 && 대상 != 내왕() && !대상.건물 && 대상.훈련남음 <= 0)
-            {
-                명령전달(명령종류.공격, 위치, 대상번호);
                 return;
             }
             if (훈련소사용(대상번호)) return;
@@ -1804,6 +1808,8 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             if (효과.소리순번 <= 마지막전투소리순번) continue;
             최신순번 = Mathf.Max(최신순번, 효과.소리순번);
             if (일시정지) continue;
+            bool 전직 = 효과.소리 is 전투소리.브루저전직 or 전투소리.아처전직;
+            if (전직 && 효과.팀 != 내팀) continue;
             if (효과.팀 == 내팀)
                 타격세기 = Mathf.Max(타격세기, 효과.소리 switch
                 {
@@ -1813,8 +1819,14 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
                     전투소리.암살자평타 => .19f,
                     _ => 0
                 });
-            else if (!안개.탐사됨(효과.위치) || !슬롯[전장규칙.왕번호(효과.팀)].enabled) continue;
-            int 번호 = (int)효과.소리;
+            else if (!안개.탐사됨(효과.위치)
+                || !아처화살적중음(효과) && !슬롯[전장규칙.왕번호(효과.팀)].enabled) continue;
+            int 번호 = (int)(효과.소리 switch
+            {
+                전투소리.브루저전직 => 전투소리.강타,
+                전투소리.아처전직 => 전투소리.화살시전,
+                _ => 효과.소리
+            });
             var 소리 = 효과.소리 == 전투소리.멀티샷발사 ? 왕공격효과음
                 : combatClips != null && (uint)번호 < combatClips.Length ? combatClips[번호] : null;
             if (효과음재생기 == null || 소리 == null) continue;
@@ -1823,6 +1835,8 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
                 전투소리.회전적중 => .62f,
                 전투소리.연속공격 => .55f,
                 전투소리.멀티샷발사 => .62f,
+                전투소리.아처화살적중 => .55f,
+                전투소리.브루저전직 or 전투소리.아처전직 => .60f,
                 전투소리.암살자평타 => .92f,
                 _ => .85f
             };
@@ -1832,12 +1846,20 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         return 타격세기;
     }
 
+    static bool 아처화살적중음(스킬지대 효과) => 효과.소리 == 전투소리.아처화살적중
+        || 효과.소리 == 전투소리.화살적중 && 효과.직업 == 왕직업.아처;
+
     void 장면반영(float 초)
     {
         지형.수풀투명도갱신(전장규칙.수풀시야중심(상태, 지형, 내팀), 초);
         자원그림반영();
         짐승그림갱신(초);
         시련그림갱신();
+        Array.Clear(아처화살피격, 0, 아처화살피격.Length);
+        foreach (var 효과 in 상태.지대들)
+            if (아처화살적중음(효과) && 효과.소리순번 > 마지막전투소리순번
+                && (uint)효과.대상 < 아처화살피격.Length && (효과.팀 == 내팀 || 안개.탐사됨(효과.위치)))
+                아처화살피격[효과.대상] = true;
         bool 피격음재생 = false;
         for (int i = 0; i < 슬롯.Length; i++)
         {
@@ -1856,7 +1878,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
                 var 화면위치 = 전장카메라.WorldToViewportPoint(대상.위치);
                 if (화면위치.z > 0 && 화면위치.x >= 0 && 화면위치.x <= 1 && 화면위치.y >= 0 && 화면위치.y <= 1)
                 {
-                    피격음재생 = true;
+                    피격음재생 |= !아처화살피격[i];
                     if (피해표시) 피해숫자추가(대상.위치 + Vector2.up * (대상.건물 ? 2.2f : 1.45f), 감소);
                 }
             }
@@ -1913,6 +1935,11 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             그림.enabled = true;
             그림.sortingOrder = 전장지형.깊이순서(그림.transform.position.y);
             if (대상.종류 == 대상종류.왕) 왕그림갱신(대상, 그림, 화면이동, 일시정지 ? 0 : 초);
+            if (대상.종류 == 대상종류.병사)
+            {
+                그림.transform.localScale = 대상.특진검사 ? new Vector3(1.6f, 1.6f, 1f) : Vector3.one;
+                if (대상.특진검사) 특진검사그림(대상, 그림, 표시시각);
+            }
             그림.color = 대상.효과시간 > 0 ? new Color(1, .8f, .67f)
                 : 대상.완공대기 > 0 ? new Color(1, 1, 1, .57f)
                 : 대상.종류 == 대상종류.왕 ? Color.Lerp(Color.white, 대상.팀 == 0 ? 청록 : 적색, .18f) : Color.white;
@@ -2013,6 +2040,12 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             else 동작.이동여운 = Mathf.Max(0, 동작.이동여운 - 초);
 
             int 채집터 = 주민.채집터;
+            if (동작.벌목타격대기 > 0)
+            {
+                동작.벌목타격대기 -= 초;
+                if (동작.벌목타격대기 <= 0 && 주민.팀 == 내팀 && 나무채집터인가(채집터))
+                    채집효과음재생(채집터);
+            }
             if (채집터 >= 0 && 채집터 < 전장자원들.Length && 주민.공격대기 > 동작.이전공격대기 + .12f)
             {
                 var 채집방향 = (Vector2)전장자원들[채집터].위치 - 주민.위치;
@@ -2020,7 +2053,15 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
                 {
                     if (채집방향.sqrMagnitude > .000001f) 동작.방향 = 스프라이트방향(채집방향);
                     동작.튀는시간 = 튀는길이;
-                    if (주민.팀 == 내팀) 채집효과음재생(채집터);
+                    if (주민.팀 == 내팀 && !일시정지)
+                    {
+                        if (나무채집터인가(채집터))
+                        {
+                            휘두름효과음재생(.55f);
+                            동작.벌목타격대기 = .10f;
+                        }
+                        else 채집효과음재생(채집터);
+                    }
                 }
             }
             if (주민.체력 < 동작.이전체력) 동작.튀는시간 = 튀는길이;
@@ -2116,6 +2157,19 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         그림.flipX = false;
     }
 
+    void 특진검사그림(전장대상 검사, SpriteRenderer 그림, float 표시시각)
+    {
+        var 외형 = 왕외형목록.가져오기()?.표시외형(왕직업.검사);
+        if (외형 == null) return;
+        float 공격경과 = Mathf.Max(0, 상태.시간 - 검사.공격시각);
+        bool 공격중 = 공격경과 < 검사.왕공격동작길이;
+        var 프레임 = 공격중 ? 외형.공격 : 검사.이동중 ? 외형.이동 : 외형.대기;
+        if (프레임?.Length != 120) return;
+        float 진행 = 공격중 ? 공격경과 / 검사.왕공격동작길이 : Mathf.Repeat(표시시각 / .9f, 1);
+        그림.sprite = 프레임[스프라이트방향(공격중 ? 검사.공격방향 : 검사.시선) * 15 + Mathf.Min(14, (int)(진행 * 15))];
+        그림.flipX = false;
+    }
+
     void 왕그림갱신(전장대상 왕, SpriteRenderer 그림, Vector2 화면이동, float 초)
     {
         var 외형 = 왕외형목록.가져오기()?.표시외형(상태.진영들[왕.팀].직업);
@@ -2191,9 +2245,14 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         bool 채집휘두르기시작 = 채집중 && (!동작.채집중 || 다음시간 >= 반복길이);
         if (왕.팀 == 내팀 && !일시정지)
         {
-            if ((공격시작 || 채집휘두르기시작) && 왕공격효과음 != null && 효과음재생기 != null)
-                효과음재생기.PlayOneShot(왕공격효과음);
-            if (채집휘두르기시작) 채집효과음재생(왕.채집터);
+            if (공격시작 || 채집휘두르기시작) 휘두름효과음재생(1);
+            if (채집중 && 나무채집터인가(왕.채집터))
+            {
+                float 타격시간 = 반복길이 * (4f / 방향당프레임);
+                if (동작.채집중 && 타격시간 <= 이전시간) 타격시간 += 반복길이;
+                if (타격시간 <= 다음시간) 채집효과음재생(왕.채집터);
+            }
+            else if (채집휘두르기시작) 채집효과음재생(왕.채집터);
         }
 
         if (왕.팀 == 내팀 && 프레임 == 이동프레임 && 다음시간 > 이전시간)
@@ -2211,6 +2270,14 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         int 번호 = Mathf.Min((int)(진행률 * 방향당프레임), 방향당프레임 - 1);
         그림.sprite = 프레임[동작.방향 * 방향당프레임 + 번호];
         그림.flipX = false;
+    }
+
+    bool 나무채집터인가(int 채집터) => (uint)채집터 < (uint)전장자원들.Length && 전장자원들[채집터].재화번호 == 0;
+
+    void 휘두름효과음재생(float 음량)
+    {
+        if (왕공격효과음 != null && 효과음재생기 != null)
+            효과음재생기.PlayOneShot(왕공격효과음, 음량);
     }
 
     void 채집효과음재생(int 채집터)
@@ -2771,7 +2838,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
 
     void 장막그리기(Painter2D 펜, 스킬지대 장막)
     {
-        var 색 = 장막.팀 == 내팀 ? new Color(.36f, .55f, .56f) : new Color(.49f, .36f, .45f);
+        var 색 = 장막.팀 == 내팀 ? new Color(.56f, .44f, .85f) : new Color(.68f, .34f, .63f);
         펜.BeginPath();
         for (int i = 0; i < 16; i++)
         {
@@ -2785,12 +2852,77 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         펜.strokeColor = 색;
         펜.lineWidth = 2;
         펜.Stroke();
+        float 시간 = 10 - 장막.남은시간;
+        for (int i = 0; i < 16; i++)
+        {
+            float 각 = i * (Mathf.PI / 8) + 시간 * .12f;
+            var 방향 = new Vector2(Mathf.Cos(각), Mathf.Sin(각));
+            float 흐름 = Mathf.Repeat(시간 * .55f + i * .37f, 1);
+            var 바닥 = 장막.위치 + 방향 * 장막.반경 * (.77f + 흐름 * .2f);
+            var 시작 = 위치변환(바닥);
+            var 끝 = 위치변환(바닥 + Vector2.up * (.22f + 흐름 * .6f));
+            var 안개색 = Color.Lerp(색, Color.white, .35f);
+            안개색.a = Mathf.Sin(흐름 * Mathf.PI) * .58f;
+            효과쐐기(펜, 끝, 시작, Vector2.right * 5, 안개색);
+        }
+    }
+
+    void 화살비그리기(MeshGenerationContext 그림, 스킬지대 지대)
+    {
+        var 펜 = 그림.painter2D;
+        float 경과 = 지대.지속시간 - 지대.남은시간;
+        float 페이드 = Mathf.Clamp01(지대.남은시간 * 4);
+        var 색 = 지대.팀 == 내팀 ? new Color(.99f, .77f, .38f) : new Color(1, .34f, .27f);
+        색.a = .9f * 페이드;
+        범위룬그리기(그림, 지대.위치, 지대.반경, 색, .10f * 페이드);
+        float 파동 = Mathf.Repeat(경과 * 2, 1);
+        var 파동색 = Color.Lerp(색, Color.white, .45f);
+        파동색.a = (1 - 파동) * 페이드 * .5f;
+        범위룬그리기(그림, 지대.위치, 지대.반경 * Mathf.Lerp(.63f, .97f, 파동), 파동색, 0);
+
+        const int 화살수 = 24;
+        for (int i = 0; i < 화살수; i++)
+        {
+            float 주기 = 경과 * (1.45f + i % 3 * .21f) + i * .618f;
+            float 낙하 = Mathf.Repeat(주기, 1);
+            float 고리 = Mathf.Floor(주기);
+            float 각 = i * 2.39996f + 고리 * 1.73f;
+            float 거리 = Mathf.Sqrt(Mathf.Repeat(i * .38197f + 고리 * .27f, 1)) * 지대.반경 * .97f;
+            var 착지 = 지대.위치 + new Vector2(Mathf.Cos(각), Mathf.Sin(각)) * 거리;
+            if (낙하 >= .81f)
+            {
+                float 충격 = (낙하 - .81f) / .19f;
+                var 점 = 위치변환(착지);
+                var 불꽃 = Color.Lerp(색, Color.white, .5f);
+                불꽃.a = (1 - 충격) * 페이드;
+                for (int j = -1; j <= 1; j++)
+                    효과쐐기(펜, 점 + new Vector2(j * 10, -13) * 충격, 점, Vector2.right * 2, 불꽃);
+                continue;
+            }
+
+            float 높이 = 1 - 낙하 / .81f;
+            var 앞 = 위치변환(착지 + new Vector2(-.72f, 2.7f) * 높이);
+            var 뒤 = 위치변환(착지 + new Vector2(-.72f, 2.7f) * (높이 + .26f));
+            var 방향 = (앞 - 뒤).normalized;
+            if (화살그림 != null)
+            {
+                화살스프라이트그리기(그림, 앞, 방향, Vector2.Distance(앞, 뒤), Color.Lerp(색, Color.white, .25f));
+                continue;
+            }
+            var 옆 = Vector2.Perpendicular(방향);
+            효과선(펜, 뒤, 앞, 3, new Color(.17f, .09f, .15f, .72f * 페이드));
+            효과선(펜, 뒤, 앞, 1.4f, 색);
+            var 화살촉 = Color.Lerp(색, Color.white, .57f);
+            화살촉.a = 페이드;
+            효과쐐기(펜, 앞 + 방향 * 4, 앞 - 방향 * 3, 옆 * 3, 화살촉);
+        }
     }
 
     Color 공격효과색(int 팀) => 팀 == 내팀 ? new Color(.22f, .91f, .88f) : new Color(1f, .31f, .30f);
 
-    void 공격효과그리기(Painter2D 펜, 스킬지대 탄)
+    void 공격효과그리기(MeshGenerationContext 그림, 스킬지대 탄)
     {
+        var 펜 = 그림.painter2D;
         var 방향 = 탄.방향 == Vector2.zero ? Vector2.right : 탄.방향;
         var 높이 = Vector2.up * .62f;
         var 색 = 공격효과색(탄.팀);
@@ -2838,6 +2970,25 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         var 옆 = new Vector2(-화면방향.y, 화면방향.x);
         if (탄.공격종류 is 기본공격종류.화살 or 기본공격종류.모래)
         {
+            if (탄.연출기술 is 장착기술.트릭샷 or 장착기술.멀티샷)
+            {
+                색 = 리워크기술색(탄.연출기술).Value;
+            }
+            if (탄.공격종류 == 기본공격종류.화살 && 탄.강화)
+            {
+                float 집중도 = 전장규칙.집중사격거리비율(탄.시작, 탄.위치);
+                색 = Color.Lerp(색, new Color(1f, .76f, .22f), 집중도);
+            }
+            if (탄.연출기술 is 장착기술.트릭샷 or 장착기술.멀티샷)
+            {
+                var 잔상 = 위치변환(탄.위치 + 높이 - 방향 * .88f);
+                효과쐐기(펜, 잔상, 앞, 옆 * 4, new Color(색.r, 색.g, 색.b, .52f));
+            }
+            if (탄.공격종류 == 기본공격종류.화살 && 화살그림 != null)
+            {
+                화살스프라이트그리기(그림, 앞, 화면방향, Vector2.Distance(앞, 뒤) * 1.6f, 색);
+                return;
+            }
             펜.BeginPath(); 펜.MoveTo(뒤); 펜.LineTo(앞);
             펜.strokeColor = new Color(.08f, .13f, .16f, .9f); 펜.lineWidth = 4; 펜.Stroke();
             펜.BeginPath(); 펜.MoveTo(앞 + 화면방향 * 4); 펜.LineTo(앞 - 화면방향 * 5 + 옆 * 4);
@@ -3000,6 +3151,43 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         }
     }
 
+    static Color? 리워크기술색(장착기술 기술) => 기술 switch
+    {
+        장착기술.사기증진 or 장착기술.특진 => new Color(1, .72f, .24f),
+        장착기술.집합 => new Color(.33f, .94f, .84f),
+        장착기술.치유의화살 => new Color(.20f, 1f, .38f),
+        장착기술.의무병 => new Color(.35f, 1, .62f),
+        장착기술.동료의복수 => new Color(1, .27f, .3f),
+        장착기술.예토전생 or 장착기술.잠복 => new Color(.65f, .47f, .98f),
+        장착기술.독화살 => new Color(.63f, .93f, .28f),
+        장착기술.트릭샷 => new Color(.45f, .71f, 1),
+        장착기술.멀티샷 => new Color(1, .57f, .31f),
+        _ => null
+    };
+
+    void 지휘관아처충격그리기(Painter2D 펜, 스킬지대 지대, Color 색)
+    {
+        float 진행 = Mathf.Clamp01(1 - 지대.남은시간 / 지대.지속시간);
+        float 반경 = 지대.반경 * Mathf.Lerp(.25f, 1, 1 - (1 - 진행) * (1 - 진행));
+        색.a = (1 - 진행) * .94f;
+        파동그리기(펜, 지대.위치, 반경, 지대.남은시간, 색);
+        var 밝은색 = Color.Lerp(색, Color.white, .46f);
+        밝은색.a = 색.a * .76f;
+        파동그리기(펜, 지대.위치, 반경 * .73f, 지대.남은시간, 밝은색);
+        bool 상승 = 지대.연출기술 is 장착기술.특진 or 장착기술.예토전생 or 장착기술.동료의복수;
+        for (int i = 0; i < 12; i++)
+        {
+            float 각 = i * (Mathf.PI / 6) + 진행 * .55f;
+            var 방향 = new Vector2(Mathf.Cos(각), Mathf.Sin(각));
+            var 밑 = 지대.위치 + 방향 * 반경 * (상승 ? .72f : .79f);
+            var 끝 = 상승 ? 밑 + Vector2.up * (반경 * .7f + .15f) : 지대.위치 + 방향 * 반경;
+            var 끝화면 = 위치변환(끝);
+            var 밑화면 = 위치변환(밑);
+            var 옆 = Vector2.Perpendicular(끝화면 - 밑화면).normalized * (i % 2 == 0 ? 4 : 2);
+            효과쐐기(펜, 끝화면, 밑화면, 옆, i % 2 == 0 ? 색 : 밝은색);
+        }
+    }
+
     bool 기술효과그리기(MeshGenerationContext 그림, 스킬지대 지대)
     {
         var 펜 = 그림.painter2D;
@@ -3028,7 +3216,8 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             return true;
         }
         if (지대.종류 is not (지대종류.돌진궤적 or 지대종류.스킬충격 or 지대종류.납치당김)
-            && (지대.종류 != 지대종류.투사체 || 기술 is not (장착기술.납치 or 장착기술.급발진 or 장착기술.출혈화살)))
+            && (지대.종류 != 지대종류.투사체 || 기술 is not (장착기술.납치 or 장착기술.급발진 or 장착기술.출혈화살
+                or 장착기술.독화살 or 장착기술.치유의화살)))
             return false;
 
         var 색 = 공격효과색(지대.팀);
@@ -3045,6 +3234,11 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             if (기술 == 장착기술.납치)
             {
                 if (시전자보임) 특수검격그리기(펜, 지대);
+                return true;
+            }
+            if (리워크기술색(기술) is Color 기술색)
+            {
+                지휘관아처충격그리기(펜, 지대, 기술색);
                 return true;
             }
             float 진행 = Mathf.Clamp01(1 - 지대.남은시간 / 지대.지속시간);
@@ -3117,6 +3311,31 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
                 측면 * (.13f * 배율), new Color(.99f, .59f, .24f, .62f));
             표식그리기(그림, 머리 - 진행방향 * (.48f * 배율), new Vector2(32, 12) * (배율 / 48f),
                 급발진검그림, Color.white, 진행방향);
+            return true;
+        }
+
+        if (기술 is 장착기술.독화살 or 장착기술.치유의화살)
+        {
+            bool 치유 = 기술 == 장착기술.치유의화살;
+            var 빛 = 리워크기술색(기술).Value;
+            float 폭 = 배율 * (치유 ? .37f : .14f);
+            var 잔상끝 = 머리 - 진행방향 * 배율 * (치유 ? 2.3f : 1.15f);
+            if (치유)
+                효과쐐기(펜, 머리 + 진행방향 * (폭 * .65f), 잔상끝, 측면 * (폭 * 1.65f),
+                    new Color(빛.r, 빛.g, 빛.b, .20f));
+            효과쐐기(펜, 잔상끝, 머리, 측면 * 폭, new Color(빛.r, 빛.g, 빛.b, .46f));
+            if (화살그림 == null)
+            {
+                효과쐐기(펜, 머리 + 진행방향 * 폭, 머리 - 진행방향 * 폭 * 2.2f, 측면 * 폭, 빛);
+                효과선(펜, 꼬리, 머리, 치유 ? 4 : 2, Color.Lerp(빛, Color.white, .72f));
+            }
+            else 화살스프라이트그리기(그림, 머리, 진행방향, 배율 * (치유 ? .88f : .60f), Color.Lerp(빛, Color.white, .3f));
+            for (int i = 1; i <= 3; i++)
+            {
+                var 점 = Vector2.Lerp(머리, 잔상끝, i * .24f);
+                var 옆 = 측면 * (i % 2 == 0 ? -1 : 1);
+                효과쐐기(펜, 점 + 옆 * 폭 + 진행방향 * 폭, 점 + 옆 * 폭, 옆 * 폭 * .18f, 빛);
+            }
             return true;
         }
 
@@ -3195,6 +3414,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         왕지속효과그리기(펜);
         var 왕 = 내왕();
         if (조준스킬칸 >= 0 && 왕 is { 생존: true }) 스킬조준그리기(그림, 왕);
+        허수아비배치가이드그리기(그림);
         if (!패널열림 && Time.unscaledTime < 모닥불범위종료 && 표시모닥불칸 >= 0
             && 상태.대상들[표시모닥불칸] is { 생존: true, 완공대기: <= 0 } 표시모닥불
             && 표시모닥불.건물번호 == 표시모닥불번호)
@@ -3212,15 +3432,15 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             if (!안개.탐사됨(지대.위치) && !정찰범위(지대.위치)) continue;
             if (기술효과그리기(그림, 지대)) continue;
             if (지대.종류 is 지대종류.기본투사체 or 지대종류.근접타격)
-            { 공격효과그리기(펜, 지대); continue; }
+            { 공격효과그리기(그림, 지대); continue; }
             if (지대.종류 == 지대종류.장막)
             {
                 장막그리기(펜, 지대);
                 continue;
             }
-            if (지대.종류 == 지대종류.폭탄화살)
+            if (지대.종류 == 지대종류.화살비)
             {
-                파동그리기(펜, 지대.위치, .45f, .35f, 공격효과색(지대.팀));
+                화살비그리기(그림, 지대);
                 continue;
             }
             if (지대.종류 == 지대종류.수풀)
@@ -3420,9 +3640,10 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         {
             var 방향 = (목표 - 왕.위치).normalized;
             if (방향 == Vector2.zero) 방향 = 왕.시선;
-            if (기술 == 장착기술.관절빼서공격하기)
+            if (기술 is 장착기술.관절빼서공격하기 or 장착기술.독화살)
             {
-                부채그리기(펜, 왕.위치, 방향, 전장규칙.관절베기반각, 0, 사거리,
+                부채그리기(펜, 왕.위치, 방향,
+                    기술 == 장착기술.독화살 ? 전장규칙.독화살반각 : 전장규칙.관절베기반각, 0, 사거리,
                     new Color(청록.r, 청록.g, 청록.b, .18f), 청록, 1.5f);
                 return;
             }
@@ -3430,6 +3651,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             {
                 장착기술.회전베기 or 장착기술.꿰뚫기 => 전장규칙.돌진타격반경,
                 장착기술.앞구르기 => 0,
+                장착기술.치유의화살 => 전장규칙.치유화살반경,
                 _ => 전장규칙.장착투사체반경
             };
             조준방향그리기(펜, 왕.위치, 방향, 사거리, 반폭);
@@ -3438,16 +3660,14 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         }
 
         bool 유효 = (목표 - 왕.위치).sqrMagnitude <= 사거리 * 사거리;
-        if (방식 == 조준방식.병사)
-        {
-            var 병사 = 전장규칙.가까운아군병사(상태.대상들, 왕, 목표, 사거리,
-                기술 == 장착기술.동료의복수 ? 전장규칙.복수조준반경 : float.PositiveInfinity);
-            if (병사 != null) 목표 = 병사.위치;
-            유효 = 병사 != null;
-        }
-        else if (장착식 && 기술 == 장착기술.집합) 유효 &= 길찾기.통행가능(목표);
-
+        if (장착식 && 기술 == 장착기술.집합) 유효 &= 길찾기.통행가능(목표);
         float 반경 = 장착식 && 기술 == 장착기술.잠복 ? 전장규칙.장막반경 : .38f;
+        if (장착식 && 기술 == 장착기술.화살비)
+        {
+            var 색 = 유효 ? new Color(.99f, .77f, .38f) : 적색;
+            범위룬그리기(그림, 목표, 전장규칙.화살비최대반경, Color.Lerp(색, Color.clear, .4f), .03f);
+            반경 = 전장규칙.화살비시작반경;
+        }
         범위룬그리기(그림, 목표, 반경, 유효 ? 청록 : 적색, .18f);
     }
 
@@ -3634,6 +3854,14 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         for (int i = 0; i < 군단수; i++)
             if (군단인원[i] > 0 && 군단휘장들[i] != null)
                 표식그리기(그림, 지도위치(범위, 군단중심[i]), new Vector2(8.5f, 10), 군단휘장들[i], Color.white);
+    }
+
+    void 화살스프라이트그리기(MeshGenerationContext 그림, Vector2 화살촉, Vector2 방향, float 길이, Color 색)
+    {
+        if (방향 == Vector2.zero) 방향 = Vector2.right;
+        float 반길이 = Mathf.Max(7f, 길이 * .5f);
+        float 반폭 = 반길이 * 화살그림.height / 화살그림.width;
+        표식그리기(그림, 화살촉 - 방향 * (반길이 * .92f), new Vector2(반길이, 반폭), 화살그림, 색, 방향);
     }
 
     static void 본진휘장그리기(MeshGenerationContext 그림, Vector2 중심, Texture2D 휘장)

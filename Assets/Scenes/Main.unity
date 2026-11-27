@@ -52991,6 +52991,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 4df78ba323224b94689f7b6946505e35, type: 3}
   - {fileID: 8300000, guid: 80f9b86cdf38b23449dadace45b586d0, type: 3}
   - {fileID: 8300000, guid: 80f9b86cdf38b23449dadace45b586d0, type: 3}
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 8efb5f4f9d13c8d4fa08b6655f350264, type: 3}
   "\uC655\uACF5\uACA9\uD6A8\uACFC\uC74C": {fileID: 8300000, guid: c17c3eef61216f146aa65f7ec8492bbc, type: 3}
   "\uD53C\uACA9\uD6A8\uACFC\uC74C": {fileID: 8300000, guid: 80f9b86cdf38b23449dadace45b586d0, type: 3}
   "\uB098\uBB34\uCC44\uC9D1\uD6A8\uACFC\uC74C": {fileID: 8300000, guid: 1f23271bb9501444fa6bbde23307d0d4, type: 3}

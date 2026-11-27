@@ -541,7 +541,7 @@ public sealed partial class 전장규칙
         return 표적;
     }
 
-    int 전술공격표적(전장대상 유닛, float 탐지거리, bool 폭탄사용가능 = false, bool 아처전술 = false, bool 가까운순 = false)
+    int 전술공격표적(전장대상 유닛, float 탐지거리, bool 아처전술 = false, bool 가까운순 = false)
     {
         int 표적 = -1;
         int 우선순위 = int.MaxValue;
@@ -562,20 +562,12 @@ public sealed partial class 전장규칙
                 _ => 적.건물 ? 4 : int.MaxValue
             };
             if (순위 == int.MaxValue || 순위 > 우선순위 || 순위 == 우선순위 && 거리 >= 최단거리
-                || !표적보임(유닛.팀, 적) || !공격가능(유닛, i) && !(폭탄사용가능 && 적.건물)) continue;
+                || !표적보임(유닛.팀, 적) || !공격가능(유닛, i)) continue;
             우선순위 = 순위;
             최단거리 = 거리;
             표적 = i;
         }
         return 표적;
-    }
-
-    static bool AI폭탄사용가능(진영상태 진영)
-    {
-        if (진영.직업 != 왕직업.아처) return false;
-        for (int 칸 = 0; 칸 < 왕직업목록.장착칸수; 칸++)
-            if (진영.쿨다운[칸] <= 0 && 왕직업목록.장착스킬(진영, 칸) == 장착기술.폭탄화살) return true;
-        return false;
     }
 
     void AI부대지휘(int 팀, 진영AI상태 판단, 전장대상 왕, Vector2 집결지, Vector2 수비지, int 침입자, bool 본진준비)
@@ -722,7 +714,7 @@ public sealed partial class 전장규칙
         }
 
         bool 원정중 = 판단.진격 && 침입자 < 0;
-        int 표적 = 원정중 ? 전술공격표적(왕, 전장안개.시야반경, AI폭탄사용가능(진영)) : 적군탐색(팀, 왕.위치, 6);
+        int 표적 = 원정중 ? 전술공격표적(왕, 전장안개.시야반경) : 적군탐색(팀, 왕.위치, 6);
         if (원정중 && 적인가(팀, 왕.표적)) 왕.표적 = -1;
         if (장착) 장착스킬AI(팀, 왕, 표적);
         else if (표적 >= 0)

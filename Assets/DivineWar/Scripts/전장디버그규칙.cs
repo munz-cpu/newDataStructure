@@ -124,22 +124,27 @@ public sealed partial class 전장규칙
     bool 디버그배치가능(Vector2 위치) =>
         float.IsFinite(위치.x) && float.IsFinite(위치.y) && 길찾기.통행가능(위치);
 
-    internal bool 디버그허수아비배치(int 팀, Vector2 위치)
+    internal int 디버그허수아비배치칸(int 팀, Vector2 위치)
     {
-        if (!디버그조작가능(팀) || !디버그배치가능(위치)) return false;
+        if (!디버그조작가능(팀) || !디버그배치가능(위치)) return -1;
         int 수량 = 0;
         foreach (var 대상 in 상태.대상들)
         {
             if (대상 is not { 연습허수아비: true }) continue;
-            if ((대상.위치 - 위치).sqrMagnitude < .64f) return false;
+            if ((대상.위치 - 위치).sqrMagnitude < .64f) return -1;
             수량++;
         }
-        if (수량 >= 디버그허수아비한도) return false;
+        if (수량 >= 디버그허수아비한도) return -1;
         int 상대팀 = 1 - 팀;
         int 칸 = 빈칸(상태, 상대팀, 대상종류.병사);
-        if (칸 < 0 || 양성예정병력(상태, 상대팀) >= 병력제한) return false;
+        return 양성예정병력(상태, 상대팀) < 병력제한 ? 칸 : -1;
+    }
 
-        var 허수아비 = 배치(칸, 상대팀, 대상종류.병사, 위치, 1000);
+    internal bool 디버그허수아비배치(int 팀, Vector2 위치)
+    {
+        int 칸 = 디버그허수아비배치칸(팀, 위치);
+        if (칸 < 0) return false;
+        var 허수아비 = 배치(칸, 1 - 팀, 대상종류.병사, 위치, 1000);
         허수아비.연습허수아비 = true;
         허수아비.허수아비위치 = 위치;
         return true;

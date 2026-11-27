@@ -330,14 +330,14 @@ public static class ClassCombatChecks
         Require(EditorApplication.isPlaying && game != null, "Start an AI practice battle first");
         var state = (전장상태)typeof(신들의전쟁).GetField("상태", Private).GetValue(game);
         var team = state.진영들[0];
-        Require(team.직업 == 왕직업.아처 && 왕직업목록.장착스킬(team, 0) == 장착기술.폭탄화살, "Equip Bomb Arrow on Q before starting");
-        var king = state.대상들[전장규칙.왕번호(0)];
+        Require(team.직업 == 왕직업.아처 && 왕직업목록.장착스킬(team, 0) == 장착기술.화살비, "Equip Arrow Rain on Q before starting");
+        int RainZones() => state.지대들.Count(z => z.팀 == 0 && z.종류 == 지대종류.화살비);
+        int before = RainZones();
         var previous = UnityEngine.InputSystem.Keyboard.current;
         var keyboard = UnityEngine.InputSystem.InputSystem.AddDevice<UnityEngine.InputSystem.Keyboard>();
         try
         {
             team.쿨다운[0] = 0;
-            king.폭탄화살준비 = false;
             UnityEngine.InputSystem.InputSystem.QueueStateEvent(keyboard,
                 new UnityEngine.InputSystem.LowLevel.KeyboardState(UnityEngine.InputSystem.Key.Q));
             UnityEngine.InputSystem.InputSystem.Update();
@@ -346,18 +346,18 @@ public static class ClassCombatChecks
             var aimingSlot = typeof(신들의전쟁).GetField("조준스킬칸", Private);
             input.Invoke(game, new object[] { keyboard });
             Require((int)aimingSlot.GetValue(game) == 0, "Q down must begin aiming");
-            Require(!king.폭탄화살준비 && team.쿨다운[0] == 0, "Q down must not activate Bomb Arrow");
+            Require(RainZones() == before && team.쿨다운[0] == 0, "Q down must not activate Arrow Rain");
 
             UnityEngine.InputSystem.InputSystem.Update();
             input.Invoke(game, new object[] { keyboard });
-            Require((int)aimingSlot.GetValue(game) == 0 && !king.폭탄화살준비, "Holding Q must keep aiming without casting");
+            Require((int)aimingSlot.GetValue(game) == 0 && RainZones() == before, "Holding Q must keep aiming without casting");
 
             UnityEngine.InputSystem.InputSystem.QueueStateEvent(keyboard, new UnityEngine.InputSystem.LowLevel.KeyboardState());
             UnityEngine.InputSystem.InputSystem.Update();
             input.Invoke(game, new object[] { keyboard });
             Require((int)aimingSlot.GetValue(game) == -1, "Q release must clear aiming");
-            Require(king.폭탄화살준비 && team.쿨다운[0] == 40, "Q release must activate the equipped Bomb Arrow");
-            Debug.Log("[EquippedSkillShortcut] PASS: Q aimed while held and activated Bomb Arrow on release.");
+            Require(RainZones() == before + 1 && team.쿨다운[0] == 18, "Q release must activate the equipped Arrow Rain");
+            Debug.Log("[EquippedSkillShortcut] PASS: Q aimed while held and activated Arrow Rain on release.");
         }
         finally
         {
@@ -370,7 +370,7 @@ public static class ClassCombatChecks
     {
         passed = 0;
         DoubleStrike();
-        foreach (var (job, strength) in new[] { (왕직업.지휘관, 11), (왕직업.아처, 10), (왕직업.검사, 12), (왕직업.암살자, 11) })
+        foreach (var (job, strength) in new[] { (왕직업.지휘관, 11), (왕직업.아처, 10), (왕직업.검사, 15), (왕직업.암살자, 11) })
         {
             var fighter = new Fixture(job);
             Require(전장규칙.능력치(fighter.King, job).힘 == strength, $"{job} gets the higher king strength");
@@ -381,90 +381,174 @@ public static class ClassCombatChecks
         var king = commander.King;
         var soldier = commander.Soldier(30, 0, king.위치 + Vector2.up);
         var second = commander.Soldier(31, 0, king.위치 + Vector2.up * 2);
+        soldier.체력 = second.체력 = 50;
+        soldier.병과 = second.병과 = 병과.브루저;
+        soldier.힘 = second.힘 = 9;
+        var third = commander.Soldier(32, 0, king.위치 + Vector2.up * 3);
+        third.병과 = 병과.브루저;
         commander.Cast(0, king.위치);
         Require(commander.Effect(soldier, "사기남음") == 5 && commander.Effect(commander.Ally, "사기남음") == 0, "Morale unit filter");
         commander.Cast(1, king.위치 + Vector2.right, new[] { 30, 전장규칙.왕번호(1), 6, 30 });
         Require(soldier.위치 == king.위치 + Vector2.right && second.위치 == king.위치 + Vector2.up * 2, "Rally selection");
         Require(commander.State.진영들[0].쿨다운[1] == 18, "Rally cooldown");
-        king.체력 = 300;
-        soldier.체력 = 50;
-        commander.Enemy.위치 += Vector2.right * 18;
-        commander.Cast(2, soldier.위치);
-        commander.Step(.25f);
-        Require(king.위치 != soldier.위치 && commander.Effect(king, "호위회복남음") <= 0, "Protect dash moves visibly before healing");
-        commander.Step(.4f);
-        Require(Vector2.Distance(king.위치, soldier.위치) <= 1.25f, "Protect dash destination");
-        commander.Step(3.05f);
-        Require(Mathf.Abs(king.체력 - 390) < .05f && Mathf.Abs(soldier.체력 - 68) < .05f, "Protect total healing");
-        commander.Equip(1, 6);
-        commander.Cast(3, soldier.위치);
+        Require(soldier.체력 == 80 && second.체력 == 80 && commander.Effect(second, "집합남음") == 4,
+            "Rally heals and hastens selected and unselected soldiers");
+        commander.Cast(2, king.위치, new[] { 30, 30, 31, 32 });
+        Require(soldier.특진검사 && second.특진검사 && !third.특진검사 && soldier.최대체력 == 280
+            && soldier.힘 == 13 && commander.State.진영들[0].쿨다운[2] == 40, "Promotion caps at two distinct bruisers");
+        var snapshot = JsonUtility.FromJson<전장상태>(JsonUtility.ToJson(commander.State));
+        Require(snapshot.대상들[30].특진검사 && snapshot.대상들[31].특진검사 && !snapshot.대상들[32].특진검사,
+            "Promotion appearance survives network snapshots");
+        var promotionCombat = new Fixture(왕직업.지휘관);
+        var promoted = promotionCombat.Soldier(30, 0, promotionCombat.King.위치 + Vector2.right);
+        promoted.병과 = 병과.브루저;
+        promotionCombat.Cast(2, promoted.위치, new[] { 30 });
+        promotionCombat.State.시간 = 4;
+        typeof(전장규칙).GetMethod("기본공격시작", Private).Invoke(promotionCombat.Rules,
+            new object[] { promoted, 전장규칙.왕번호(1), 20f });
+        Require(promotionCombat.Enemy.체력 == 460 && promoted.왕공격동작길이 > 0
+            && promotionCombat.State.지대들.Any(z => z.연출기술 == 장착기술.관절빼서공격하기),
+            "Promoted soldier casts the sword skill in combat");
+        var attackPower = typeof(전장규칙).GetMethod("장착공격력", Private);
+        float Power(전장대상 unit) => (float)attackPower.Invoke(commander.Rules, new object[] { unit });
         commander.Damage(30, 999);
-        Require(commander.Effect(king, "복수남음") == 2 && commander.Effect(second, "복수오라남음") == 3, "Marked death and passive revenge");
+        Require(Mathf.Approximately(Power(king), 1.15f) && Mathf.Approximately(Power(second), 1.15f), "First revenge stack");
+        commander.Damage(32, 999);
+        Require(Mathf.Approximately(Power(second), 1.30f), "Second revenge stack");
+
+        king.체력 = 300;
         commander.Equip(0, 4);
         commander.Cast(0, king.위치);
-        Require(Mathf.Abs(king.체력 - 440) < .05f && king.가드 == 50, "Medic heal and guard");
-        commander.Damage(0, 20);
-        Require(king.가드 == 30 && Mathf.Abs(king.체력 - 440) < .05f, "Guard absorbs damage");
+        Require(king.체력 == 500 && commander.Enemy.체력 == 450 && commander.Enemy.위치.x > king.위치.x + 2,
+            "Medic heals, damages and knocks back");
         commander.Equip(0, 5);
         commander.Cast(0, king.위치);
         commander.Step(.05f);
-        Require(king.장막안 && !commander.Enemy.장막안 && commander.State.지대들.Any(z => z.종류 == 지대종류.장막), "Shroud allies and zone");
+        Require(king.장막안 && !commander.Enemy.장막안
+            && commander.State.지대들.Any(z => z.종류 == 지대종류.장막 && z.반경 == 7), "Larger shroud affects allies");
+        commander.Equip(0, 6);
+        commander.Cast(0, king.위치);
+        int Skeletons() => commander.State.대상들.Count(u => u is { 생존: true, 해골병사: true, 팀: 0 });
+        Require(Skeletons() == 7 && commander.State.진영들[0].쿨다운[0] == 20, "Seven skeletons and cooldown");
+        commander.Damage(0, 999);
+        Require(Mathf.Approximately(Power(second), 1.80f), "Commander death adds a 50 percent revenge stack");
+        commander.Step(5.1f);
+        Require(Mathf.Approximately(Power(second), 1f), "Revenge stacks expire");
         commander.Step(10f);
-        Require(!king.장막안 && king.가드 == 0, "Shroud expiry and guard decay");
+        Require(Skeletons() == 0 && !commander.King.장막안, "Skeletons and shroud expire");
 
         var archer = new Fixture(왕직업.아처);
         king = archer.King;
         archer.Soldier(30, 0, king.위치 + Vector2.up).병과 = 병과.아처;
-        archer.Soldier(31, 0, king.위치 + Vector2.up * 2).병과 = 병과.아처;
+        var secondArcher = archer.Soldier(31, 0, king.위치 + Vector2.up * 2);
+        secondArcher.병과 = 병과.아처;
+        var queenSpeed = typeof(전장규칙).GetMethod("장착공속", Private);
+        float QueenSpeed() => (float)queenSpeed.Invoke(archer.Rules, new object[] { king });
+        Require(Mathf.Approximately(QueenSpeed(), 1.08f), "Queen passively adds four percent per nearby allied archer");
+        secondArcher.위치 = king.위치 + Vector2.up * 7;
         archer.Cast(0, king.위치);
-        Require(Mathf.Abs(archer.Effect(king, "여왕공속") - .1f) < .001f && archer.Effect(king, "여왕남음") == 7, "Queen counts nearby allied archers");
+        Require(Mathf.Approximately(QueenSpeed(), 1.04f) && archer.State.진영들[0].쿨다운[0] == 0,
+            "Queen updates as allies leave range and consumes no cooldown");
+        secondArcher.위치 = secondArcher.목적지;
         var enemy2 = archer.Soldier(전장규칙.왕번호(1) + 34, 1, king.위치 + Vector2.right * 3.4f);
         var enemy3 = archer.Soldier(전장규칙.왕번호(1) + 35, 1, king.위치 + Vector2.right * 4.6f);
         enemy2.종류 = enemy3.종류 = 대상종류.주민;
-        archer.Cast(1, king.위치);
         archer.Cast(2, king.위치);
         archer.Attack(전장규칙.왕번호(1));
         archer.Step(.4f);
         archer.Rules.명령(0, new 전장명령 { 종류 = 명령종류.이동, 위치 = king.위치 });
         archer.Step(.3f);
         Require(archer.Enemy.체력 < 500 && enemy2.체력 < 100 && enemy3.체력 < 100, "Trick Shot two distinct bounces");
-        Require(archer.Enemy.둔화량 == .2f && enemy2.둔화량 == .2f && enemy3.둔화량 == .2f, "Poison at each hit without stacking");
-        archer.Cast(3, king.위치);
-        archer.Attack(6);
-        archer.Step(.48f);
-        Require(Mathf.Abs(archer.Ally.체력 - 60) < .05f, "Healing arrow hits ally");
-        archer.Rules.명령(0, new 전장명령 { 종류 = 명령종류.이동, 위치 = king.위치 });
+        var poison = new Fixture(왕직업.아처);
+        var poisonStart = poison.Enemy.위치;
+        poison.Cast(1, poisonStart);
+        Require(poison.State.지대들.Count(z => z.종류 == 지대종류.투사체 && z.연출기술 == 장착기술.독화살) == 7
+            && poison.State.진영들[0].쿨다운[1] == 8, "Poison fires a seven-arrow fan");
+        poison.Step(.25f);
+        Require(poison.Enemy.둔화량 == .2f && poison.Enemy.위치.x > poisonStart.x, "Poison slows and pushes");
+        float poisonHealth = poison.Enemy.체력;
+        poison.Step(5.05f);
+        Require(Mathf.Abs(poisonHealth - poison.Enemy.체력 - 75) < .05f, "Poison deals five three-percent bleed ticks");
 
-        var bomb = new Fixture(왕직업.아처);
+        var healing = new Fixture(왕직업.아처);
+        healing.Equip(0, 6);
+        healing.State.진영들[0].쿨다운[1] = 3;
+        healing.King.체력 = 400;
+        healing.Ally.위치 = healing.King.위치 + Vector2.right;
+        healing.Cast(3, healing.Enemy.위치);
+        healing.Step(.20f);
+        Require(healing.Ally.체력 == 90 && healing.Enemy.체력 == 400 && healing.King.체력 == 445,
+            "Healing arrow pierces, heals allies and restores actual damage");
+        Require(Mathf.Abs(healing.State.진영들[0].쿨다운[1] - 2.6f) < .01f
+            && Mathf.Abs(healing.State.진영들[0].쿨다운[3] - 11.6f) < .01f, "Frenzy reduces every cooldown per hit");
+
+        var kill = new Fixture(왕직업.아처);
+        kill.Enemy.체력 = 1;
+        kill.Cast(2, kill.King.위치);
+        kill.Cast(3, kill.Enemy.위치);
+        kill.Step(.2f);
+        Require(!kill.Enemy.생존 && kill.Effect(kill.King, "트릭샷남음") > 6.7f, "Kills extend Trick Shot");
+        kill.Equip(1, 5);
+        kill.Cast(1, kill.King.위치);
+        var attackSpeed = typeof(전장규칙).GetMethod("장착공속", Private);
+        Require(Mathf.Approximately((float)attackSpeed.Invoke(kill.Rules, new object[] { kill.King }), 1.3f)
+            && kill.State.진영들[0].쿨다운[1] == 8, "Multishot grants 30 percent attack speed with an eight-second cooldown");
+
+        var rain = new Fixture(왕직업.아처);
+        var center = rain.King.위치 + Vector2.right * 2;
+        var edge = center + Vector2.up * 4;
         int buildingSlot = 전장규칙.왕번호(1) + 4;
-        var building = bomb.Soldier(buildingSlot, 1, bomb.King.위치 + Vector2.right * 2.5f);
+        var building = rain.Soldier(buildingSlot, 1, center);
         building.종류 = 대상종류.훈련소;
-        bomb.Attack(buildingSlot);
-        Require(bomb.King.표적 < 0, "Ordinary archer shot cannot target a building");
-        bomb.Equip(0, 4);
-        bomb.Cast(0, bomb.King.위치);
-        bomb.Attack(buildingSlot);
-        bomb.Step(.5f);
-        Require(building.체력 == 100 && !bomb.King.폭탄화살준비 && bomb.State.지대들.Any(z => z.종류 == 지대종류.폭탄화살), "Bomb attaches and waits");
-        bomb.Step(3.05f);
-        Require(building.체력 < 100 && bomb.Enemy.체력 < 500, "Bomb damages structure and nearby foes");
+        rain.Equip(0, 4);
+        rain.Cast(0, center + Vector2.right * 12);
+        Require(rain.State.진영들[0].쿨다운[0] == 0 && !rain.State.지대들.Any(z => z.종류 == 지대종류.화살비),
+            "Out-of-range Arrow Rain consumes no cooldown");
+        rain.Cast(0, center);
+        var zone = rain.State.지대들.Single(z => z.종류 == 지대종류.화살비);
+        Require(zone.위치 == center && zone.반경 == 2 && rain.State.진영들[0].쿨다운[0] == 18,
+            "Arrow Rain opens at the chosen location");
+        var speed = typeof(전장규칙).GetMethod("직업이속", Private);
+        float MoveSpeed(전장대상 unit) => (float)speed.Invoke(rain.Rules, new object[] { unit });
+        Require(Mathf.Approximately(MoveSpeed(rain.Enemy), .75f) && Mathf.Approximately(MoveSpeed(rain.Ally), 1),
+            "Arrow Rain immediately slows nearby opponents");
+        rain.Step(1);
+        Require(rain.Enemy.체력 == 488 && building.체력 == 100 && rain.Ally.체력 == 50,
+            "Arrow Rain ticks on enemy units only");
+        rain.Enemy.위치 = rain.Enemy.목적지 = edge;
+        Require(Mathf.Approximately(MoveSpeed(rain.Enemy), 1), "Leaving the current radius immediately removes the slow");
+        rain.Step(2);
+        Require(rain.Enemy.체력 == 488 && zone.반경 > 3.7f && zone.반경 < 4,
+            "Arrow Rain expands without touching units outside its current radius");
+        rain.Step(1);
+        Require(rain.Enemy.체력 < 488 && Mathf.Approximately(MoveSpeed(rain.Enemy), .75f),
+            "The expanding edge damages and slows newly reached enemies");
+        rain.Step(1.05f);
+        Require(!rain.State.지대들.Contains(zone) && Mathf.Approximately(MoveSpeed(rain.Enemy), 1),
+            "Arrow Rain expires after five seconds");
+
+        var fullRain = new Fixture(왕직업.아처);
+        fullRain.Equip(0, 4);
+        fullRain.Cast(0, fullRain.Enemy.위치);
+        fullRain.Step(5.05f);
+        Require(fullRain.Enemy.체력 == 440, "Arrow Rain delivers exactly ten ticks to a unit that stays inside");
 
         var sword = new Fixture(왕직업.검사);
         king = sword.King;
         var start = king.위치;
         sword.Cast(0, sword.Enemy.위치);
         sword.Step(.15f);
-        Require(Mathf.Approximately(sword.Enemy.체력, 470), "Spin dash deals a single initial hit");
+        Require(Mathf.Approximately(sword.Enemy.체력, 464), "Spin dash deals a single initial hit");
         float contact = king.위치.x;
         sword.Step(.10f);
-        Require(king.위치.x > contact && king.위치.x - contact < .4f && Mathf.Approximately(sword.Enemy.체력, 470),
+        Require(king.위치.x > contact && king.위치.x - contact < .4f && Mathf.Approximately(sword.Enemy.체력, 464),
             "Contact slows the dash and spaces out the strikes");
         Require(sword.State.지대들.Any(z => z.종류 == 지대종류.돌진궤적 && z.위치 == king.위치 && z.강화),
             "Spin trail follows the dash and indicates contact");
         sword.Step(.20f);
-        Require(Mathf.Approximately(sword.Enemy.체력, 449), "A target staying in reach takes two follow-up strikes");
+        Require(Mathf.Approximately(sword.Enemy.체력, 438.5f), "A target staying in reach takes two follow-up strikes");
         sword.Step(.50f);
-        Require(Mathf.Approximately(sword.Enemy.체력, 449) && king.위치.x > start.x + 3.8f
+        Require(Mathf.Approximately(sword.Enemy.체력, 438.5f) && king.위치.x > start.x + 3.8f
             && king.왕기술동작 != 장착기술.회전베기, "Spin caps each target at three hits and completes the dash");
 
         var evade = new Fixture(왕직업.검사);
@@ -473,14 +557,14 @@ public static class ClassCombatChecks
         evade.Enemy.위치 = evade.Enemy.목적지 = evade.King.위치 + Vector2.up * 5;
         float departed = evade.King.위치.x;
         evade.Step(.15f);
-        Require(Mathf.Approximately(evade.Enemy.체력, 470) && evade.King.위치.x - departed > .8f,
+        Require(Mathf.Approximately(evade.Enemy.체력, 464) && evade.King.위치.x - departed > .8f,
             "A target leaving reach stops taking damage and the dash recovers its speed");
 
         king.위치 = king.목적지 = start;
         sword.Cast(3, start + Vector2.right);
         Require(sword.State.진영들[0].스킬표시시간 <= 0, "Roll does not emit a cast pulse");
         sword.Step(.2f);
-        Require(king.위치.x > start.x + 1 && Mathf.Approximately(sword.Enemy.체력, 449), "Roll moves without damage");
+        Require(king.위치.x > start.x + 1 && Mathf.Approximately(sword.Enemy.체력, 438.5f), "Roll moves without damage");
         sword.Step(.25f);
         Require(sword.State.지대들.Any(z => z.연출기술 == 장착기술.앞구르기 && z.종류 == 지대종류.돌진궤적)
             && !sword.State.지대들.Any(z => z.연출기술 == 장착기술.앞구르기 && z.종류 == 지대종류.스킬충격),
@@ -491,7 +575,7 @@ public static class ClassCombatChecks
         sword.Cast(1, king.위치);
         sword.Attack(전장규칙.왕번호(1));
         sword.Step(.4f);
-        Require(king.위치 == start && Mathf.Abs(king.체력 - 272.4f) < .05f, "Battle Cry restores 70 percent of the damage from a sword hit");
+        Require(king.위치 == start && Mathf.Abs(king.체력 - 276.6f) < .05f, "Battle Cry restores 70 percent of the damage from a sword hit");
         sword.Equip(0, 4);
         sword.Cast(0, king.위치);
         sword.Enemy.체력 = 5;
@@ -531,12 +615,12 @@ public static class ClassCombatChecks
         var fanBack = fan.Soldier(fanEnemy + 36, 1, fanStart - Vector2.right);
         var fanOutside = fan.Soldier(fanEnemy + 37, 1, fanStart + Vector2.right * 3.7f);
         fan.Cast(2, fan.Enemy.위치);
-        Require(fan.State.진영들[0].쿨다운[2] == 5 && fan.Enemy.체력 == 460
-                && fanSide.체력 == 60 && fanBack.체력 == 100 && fanOutside.체력 == 100
+        Require(fan.State.진영들[0].쿨다운[2] == 5 && fan.Enemy.체력 == 452
+                && fanSide.체력 == 52 && fanBack.체력 == 100 && fanOutside.체력 == 100
                 && fan.Enemy.위치.x > fanStart.x + 4 && fan.State.지대들.Any(z =>
                     z.연출기술 == 장착기술.관절빼서공격하기 && z.적중수 == 2 && z.소리 == 전투소리.관절),
             "Joint slash hits its wide cone once, knocks survivors back, and emits impact feedback");
-        Require(Mathf.Approximately(fan.King.체력, 274), "Joint slash heals 30 percent of the total health removed from two targets");
+        Require(Mathf.Approximately(fan.King.체력, 278.8f), "Joint slash heals 30 percent of the total health removed from two targets");
         fan.Equip(0, 4);
         fan.Cast(0, fanStart);
         fan.Equip(2, 2);
@@ -570,14 +654,14 @@ public static class ClassCombatChecks
         archerRate.Step(.05f);
         Require(archerRate.King.공격순번 == 2, "Archer starts a second attack without waiting for the old rate");
 
-        float FocusedHit(float distance, bool moveAfterRelease = false, bool sniper = false)
+        float FocusedHit(float distance, bool moveAfterRelease = false, bool frenzy = false)
         {
             var focus = new Fixture(왕직업.아처);
             var origin = focus.직선검사위치();
             focus.King.위치 = focus.King.목적지 = origin;
             focus.Enemy.위치 = focus.Enemy.목적지 = origin + Vector2.right * distance;
             focus.Equip(0, 7);
-            if (sniper) focus.Equip(1, 6);
+            if (frenzy) focus.Equip(1, 6);
             focus.Attack(전장규칙.왕번호(1));
             focus.Step(.25f);
             focus.King.공격대기 = 999;
@@ -593,22 +677,22 @@ public static class ClassCombatChecks
             "Focused Shot gives larger bonuses at longer distance, capped at 20 percent");
         Require(Mathf.Abs(FocusedHit(6, moveAfterRelease: true) - farFocus) < .01f,
             "Focused Shot measures from the launch position even if the Archer moves");
-        Require(Mathf.Abs(FocusedHit(6, sniper: true) - 40.32f) < .01f,
-            "Focused Shot and Sniper both apply when equipped together");
+        Require(Mathf.Abs(FocusedHit(6, frenzy: true) - farFocus) < .01f,
+            "Frenzy does not change Focused Shot damage");
 
         var volley = new Fixture(왕직업.아처);
         volley.Enemy.위치 = volley.Enemy.목적지 = volley.King.위치 + Vector2.right * 4;
         volley.Equip(0, 5);
         volley.Cast(0, volley.Enemy.위치);
         volley.Attack(전장규칙.왕번호(1));
-        volley.Step(.25f);
+        volley.Step(.20f);
         Require(volley.State.지대들.Count(z => z.종류 == 지대종류.기본투사체 && z.팀 == 0) == 1
                 && volley.State.지대들.Count(z => z.소리 == 전투소리.멀티샷발사) == 1,
             "Multishot releases a single first arrow");
         volley.Step(.1f);
         int 중간발수 = volley.State.지대들.Count(z => z.소리 == 전투소리.멀티샷발사);
         Require(중간발수 > 1 && 중간발수 < 4, "Multishot releases its arrows on separate ticks");
-        volley.Step(.2f);
+        volley.Step(.10f);
         Require(volley.State.지대들.Count(z => z.소리 == 전투소리.멀티샷발사) == 4, "Multishot releases four arrows total");
 
         var blade = new Fixture(왕직업.검사);
@@ -798,27 +882,6 @@ public static class ClassCombatChecks
         void Check(string name, Action run) { run(); results.AppendLine("PASS " + name); }
         try
         {
-            Check("Bomb arrow adds 40 damage to units", () => {
-                var ordinary = new Fixture(왕직업.아처);
-                ordinary.Attack(전장규칙.왕번호(1)); ordinary.Step(.5f);
-                float ordinaryDamage = 500 - ordinary.Enemy.체력;
-                var bomb = new Fixture(왕직업.아처);
-                bomb.Equip(0, 4); bomb.Cast(0, bomb.King.위치);
-                bomb.Attack(전장규칙.왕번호(1)); bomb.Step(.5f);
-                Require(Mathf.Abs(500 - bomb.Enemy.체력 - ordinaryDamage - 40) < .05f, "Bomb unit bonus missing");
-            });
-            Check("Bomb waits three seconds and deals triple structure splash", () => {
-                var f = new Fixture(왕직업.아처);
-                int slot = 전장규칙.왕번호(1) + 4;
-                var building = f.Soldier(slot, 1, f.King.위치 + Vector2.right * 2.5f);
-                building.종류 = 대상종류.훈련소; building.체력 = building.최대체력 = 1000;
-                f.Equip(0, 4); f.Cast(0, f.King.위치); f.Attack(slot); f.Step(.5f);
-                Require(building.체력 == 1000, "Bomb exploded before fuse");
-                f.Rules.명령(0, new 전장명령 { 종류 = 명령종류.이동, 위치 = f.King.위치 });
-                f.Step(3.05f);
-                float unitDamage = 500 - f.Enemy.체력;
-                Require(unitDamage > 40 && Mathf.Abs(1000 - building.체력 - unitDamage * 3) < .1f, "Bomb building multiplier failed");
-            });
             Check("Peaceful king regenerates after five seconds; combat resets delay", () => {
                 var f = new Fixture(왕직업.아처); f.Enemy.체력 = 0;
                 f.Damage(0, 100); f.Step(4.9f);

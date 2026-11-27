@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public enum 소환종류 { 없음, 모래병사, 포탑, 강화포탑, 태양포탑, 데이지 }
-public enum 지대종류 { 침묵, 술통, 화염, 불길, 망령, 수풀, 시야, 씨앗, 벽, 투사체, 기본투사체, 근접타격, 장막, 폭탄화살, 돌진궤적, 스킬충격, 납치당김, 전투소리, 수혈, 납치날림, 납치연장 }
+public enum 지대종류 { 침묵, 술통, 화염, 불길, 망령, 수풀, 시야, 씨앗, 벽, 투사체, 기본투사체, 근접타격, 장막, 화살비, 돌진궤적, 스킬충격, 납치당김, 전투소리, 수혈, 납치날림, 납치연장 }
 
-public enum 전투소리 { 없음, 회전시전, 회전적중, 포효, 포효2, 관절, 구르기, 분노, 급발진, 꿰뚫기시전, 꿰뚫기적중, 수혈, 강타, 은신, 후퇴, 갈고리, 후퇴베기, 화살시전, 화살적중, 출혈, 암살자평타, 연속공격, 멀티샷발사 }
+public enum 전투소리 { 없음, 회전시전, 회전적중, 포효, 포효2, 관절, 구르기, 분노, 급발진, 꿰뚫기시전, 꿰뚫기적중, 수혈, 강타, 은신, 후퇴, 갈고리, 후퇴베기, 화살시전, 화살적중, 출혈, 암살자평타, 연속공격, 멀티샷발사, 아처화살적중, 브루저전직, 아처전직 }
 
 [Serializable]
 public sealed class 스킬지대
@@ -28,7 +28,6 @@ public sealed class 스킬지대
     // Slot identity guards are host-only; clients only render these zones.
     [NonSerialized] public 전장대상 부착대상;
     [NonSerialized] public 전장대상 발사자참조;
-    [NonSerialized] public bool 독화살, 치유화살, 폭탄화살;
     internal bool 반사됨;
     [NonSerialized] public int 남은튕김;
     [NonSerialized] public HashSet<전장대상> 맞은대상 = new();
@@ -282,8 +281,12 @@ public sealed partial class 전장규칙
         지대.소리순번 = ++전투소리순번;
     }
 
-    void 전투소리추가(int 팀, Vector2 위치, 전투소리 소리) =>
-        전투소리지정(지대추가(팀, 지대종류.전투소리, 위치, 0, .65f), 소리);
+    void 전투소리추가(int 팀, Vector2 위치, 전투소리 소리, int 대상 = -1)
+    {
+        var 지대 = 지대추가(팀, 지대종류.전투소리, 위치, 0, .65f);
+        지대.대상 = 대상;
+        전투소리지정(지대, 소리);
+    }
 
     스킬지대 지대추가(int 팀, 지대종류 종류, Vector2 위치, float 반경, float 시간)
     {
@@ -300,7 +303,7 @@ public sealed partial class 전장규칙
             int 장식 = 상태.지대들.FindIndex(x => 시각지대(x.종류));
             if (장식 < 0 && 시각지대(지대.종류)) return;
             if (장식 < 0)
-                장식 = 상태.지대들.FindIndex(x => x.종류 is not (지대종류.장막 or 지대종류.폭탄화살 or 지대종류.납치당김 or 지대종류.납치날림) && !x.폭탄화살 && x.갈고리표적 == null);
+                장식 = 상태.지대들.FindIndex(x => x.종류 is not (지대종류.장막 or 지대종류.화살비 or 지대종류.납치당김 or 지대종류.납치날림) && x.갈고리표적 == null);
             if (장식 < 0) return;
             상태.지대들.RemoveAt(장식);
         }
@@ -352,6 +355,11 @@ public sealed partial class 전장규칙
         지대진행중 = true;
         for (int z = 상태.지대들.Count - 1; z >= 0; z--) {
             var 지대 = 상태.지대들[z]; var 왕 = 상태.대상들[왕번호(지대.팀)];
+            if (지대.종류 == 지대종류.화살비)
+            {
+                if (화살비진행(지대, 초)) 상태.지대들.RemoveAt(z);
+                continue;
+            }
             지대.남은시간 -= 초; 지대.다음틱 -= 초;
             if (지대.갈고리표적 != null && 지대.종류 != 지대종류.투사체)
             {
@@ -408,7 +416,6 @@ public sealed partial class 전장규칙
                 if (지대.종류 == 지대종류.불길) 선공격(지대.팀, 지대.위치 - 지대.방향 * 4, 지대.위치 + 지대.방향 * 4, 지대.반경, 지대.피해량 * .25f, 적 => 둔화(적, .4f, .4f));
             }
             if (지대.남은시간 > 0) continue;
-            if (지대.종류 == 지대종류.폭탄화살) 폭탄화살폭발(지대);
             if (지대.종류 == 지대종류.술통) 술통폭발(지대);
             if (지대.종류 == 지대종류.침묵) 광역(지대.팀, 지대.위치, 지대.반경, 20, 적 => 적.속박 = Mathf.Max(적.속박, 1.5f));
             if (지대.종류 == 지대종류.씨앗) 광역(지대.팀, 지대.위치, 지대.반경, 35, 적 => 둔화(적, .5f, 2));
@@ -446,7 +453,7 @@ public sealed partial class 전장규칙
 
     float 직업이속(전장대상 대상)
     {
-        float 배율 = (1 - 대상.둔화량) * 장착이속(대상);
+        float 배율 = (1 - Mathf.Max(대상.둔화량, 화살비둔화(대상))) * 장착이속(대상);
         if (대상.가속 > 0) 배율 *= 대상.돌격 > 0 ? 1.2f + (4 - 대상.돌격) * .15f : 1.3f;
         if (대상.종류 != 대상종류.왕) return 배율;
         var 직업 = 상태.진영들[대상.팀].직업;
