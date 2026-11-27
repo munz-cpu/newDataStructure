@@ -547,6 +547,7 @@ public sealed partial class 전장규칙
 
     internal static bool 전투대상보임(전장상태 상태, 전장지형 지형, int 팀, 전장대상 대상)
     {
+        if (대상.종류 == 대상종류.지뢰 && 대상.팀 != 팀) return 정찰범위(상태, 팀, 대상.위치);
         if (팀 == 대상.팀 || 대상.건물 || 대상.연습허수아비 || 정찰범위(상태, 팀, 대상.위치)) return true;
         if (대상.장막안 || 지형?.숲인가(대상.위치) == true) return false;
         if (지형?.수풀인가(대상.위치) == true || 기술수풀안(상태, 대상.위치))

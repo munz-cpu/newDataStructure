@@ -67,6 +67,10 @@ static class RelaySmoke
             if (create.interactable || !input.readOnly)
                 throw new InvalidOperationException("Room creation must be disabled while waiting for a guest.");
             Publish(codeFile, input.text);
+            var start = Field<Button>(title, "멀티시작버튼");
+            await Until(() => start != null && start.gameObject.activeInHierarchy && start.interactable,
+                "wait for guest ready to start", title);
+            start.onClick.Invoke();
         }
         else
         {

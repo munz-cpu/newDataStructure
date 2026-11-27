@@ -43,7 +43,7 @@ public sealed class 타이틀화면 : MonoBehaviour
     [SerializeField] Button 이전직업, 다음직업;
     [SerializeField] 스킬선택버튼[] 스킬칸버튼, 스킬후보버튼;
     [SerializeField] TMP_Text 장착설명;
-    [SerializeField] Button 시작버튼, 디버그시작버튼, 방생성버튼, 참가버튼, 취소버튼;
+    [SerializeField] Button 시작버튼, 디버그시작버튼, 방생성버튼, 참가버튼, 취소버튼, 멀티시작버튼;
     [SerializeField] TMP_Text 직업정보, 방상태;
     [SerializeField] 타이틀능력치 직업능력치;
     [SerializeField] TMP_InputField 참가코드;
@@ -65,7 +65,7 @@ public sealed class 타이틀화면 : MonoBehaviour
     int 장착구성, 고른칸;
     static string 장착저장키(왕직업 직업) => $"DivineWar.Loadout.V1.{(int)직업}";
     CancellationTokenSource 연결시도;
-    bool 이동중, 직업보냄;
+    bool 이동중, 직업보냄, 연결안내완료;
     readonly (왕직업 직업, int 장착)?[] 참가준비 = new (왕직업, int)?[2];
     float 시작대기, 재시도시각;
 
@@ -122,6 +122,7 @@ public sealed class 타이틀화면 : MonoBehaviour
             효과음재생(클릭효과음);
             방취소("");
         });
+        if (멀티시작버튼 != null) 멀티시작버튼.onClick.AddListener(멀티전투시작);
     }
 
     void OnEnable()
@@ -163,8 +164,15 @@ public sealed class 타이틀화면 : MonoBehaviour
             서버준비갱신();
             return;
         }
-        if (연결.연결됨 && !직업보냄)
-            직업보냄 = 연결.보내기("J" + 준비부호((고른직업, 장착구성)));
+        if (연결.연결됨)
+        {
+            if (!연결안내완료)
+            {
+                연결안내완료 = true;
+                방상태.text = "방에 입장했습니다. 방장이 시작할 때까지 직업과 스킬을 바꿀 수 있습니다.";
+            }
+            if (!직업보냄) 직업보냄 = 연결.보내기("J" + 준비부호((고른직업, 장착구성)));
+        }
         while (연결.받기(out int 팀, out string 문장))
         {
             var 값 = 문장.Split(',');
@@ -191,17 +199,50 @@ public sealed class 타이틀화면 : MonoBehaviour
 
     void 서버준비갱신()
     {
+        bool 변경 = false;
         while (연결.받기(out int 팀, out string 문장))
         {
             if (팀 is 0 or 1 && 문장.Length >= 2 && 문장[0] == 'J' && 준비읽기(문장.Substring(1), out var 선택직업))
-                참가준비[팀] ??= 선택직업;
+            {
+                참가준비[팀] = 선택직업;
+                변경 = true;
+            }
         }
-        if (!연결.연결됨) return;
+        if (!연결.연결됨)
+        {
+            if (연결.방주인 && 멀티시작버튼 != null) 멀티시작버튼.interactable = false;
+            return;
+        }
+        if (연결.방주인)
+        {
+            참가준비[0] = (고른직업, 장착구성);
+            bool 준비완료 = 참가준비[1].HasValue;
+            if (멀티시작버튼 != null) 멀티시작버튼.interactable = 준비완료;
+            if (준비완료 && (변경 || !연결안내완료))
+            {
+                연결안내완료 = true;
+                방상태.text = $"참가 코드 {연결.코드} · 상대 준비 완료 ({참가준비[1].Value.직업}) · 대전 시작을 누르세요.";
+            }
+            return;
+        }
         if (!참가준비[0].HasValue || !참가준비[1].HasValue)
         {
             if ((시작대기 += Time.unscaledDeltaTime) > 30f) 방취소("플레이어의 전장 준비 시간이 초과됐습니다.");
             return;
         }
+        전장시작전송();
+    }
+
+    void 멀티전투시작()
+    {
+        if (연결 is not { 방주인: true, 연결됨: true } || !참가준비[1].HasValue) return;
+        효과음재생(클릭효과음);
+        참가준비[0] = (고른직업, 장착구성);
+        전장시작전송();
+    }
+
+    void 전장시작전송()
+    {
         var 청록 = 참가준비[0].Value;
         var 적색 = 참가준비[1].Value;
         for (int 팀 = 연결.원격팀시작; 팀 < 참가준비.Length; 팀++)
@@ -265,6 +306,7 @@ public sealed class 타이틀화면 : MonoBehaviour
         var 능력치 = 전장규칙.능력치(대상종류.왕, 직업);
         직업능력치.표시(능력치.체력, 능력치.힘, 능력치.민첩, 차오르기);
         장착갱신();
+        준비갱신전달();
     }
 
     void 아바타외형갱신(왕직업 직업)
@@ -339,6 +381,14 @@ public sealed class 타이틀화면 : MonoBehaviour
         PlayerPrefs.SetInt(장착저장키(고른직업), 장착구성);
         PlayerPrefs.Save();
         장착갱신();
+        준비갱신전달();
+    }
+
+    void 준비갱신전달()
+    {
+        if (연결 == null) return;
+        if (연결.방주인) 참가준비[0] = (고른직업, 장착구성);
+        else if (!연결.서버권한) 직업보냄 = false;
     }
 
     void 효과음재생(AudioClip 소리)
@@ -390,6 +440,7 @@ public sealed class 타이틀화면 : MonoBehaviour
         연결시도 = 시도;
         if (!전장입장.서버빌드)
         {
+            Application.runInBackground = true;
             버튼활성(false);
             취소버튼.gameObject.SetActive(true);
             방상태.text = 방생성 ? "방을 생성하는 중…" : "방에 연결하는 중…";
@@ -414,9 +465,14 @@ public sealed class 타이틀화면 : MonoBehaviour
             {
                 참가준비[0] = (고른직업, 장착구성);
                 참가코드.text = 연결.코드;
+                if (멀티시작버튼 != null)
+                {
+                    멀티시작버튼.gameObject.SetActive(true);
+                    멀티시작버튼.interactable = false;
+                }
                 방상태.text = $"참가 코드 {연결.코드} · 상대를 기다리는 중…";
             }
-            else 방상태.text = "두 플레이어가 모이면 전투가 시작됩니다.";
+            else 방상태.text = "방에 연결되었습니다. 잠시 후 입장합니다…";
         }
         catch (Exception 오류)
         {
@@ -452,6 +508,7 @@ public sealed class 타이틀화면 : MonoBehaviour
         연결정리();
         시작대기 = 0;
         직업보냄 = false;
+        연결안내완료 = false;
         Array.Clear(참가준비, 0, 참가준비.Length);
         if (전장입장.서버빌드)
         {
@@ -461,6 +518,11 @@ public sealed class 타이틀화면 : MonoBehaviour
         }
         방상태.text = 문장;
         취소버튼.gameObject.SetActive(false);
+        if (멀티시작버튼 != null)
+        {
+            멀티시작버튼.gameObject.SetActive(false);
+            멀티시작버튼.interactable = false;
+        }
         버튼활성(true);
     }
 
@@ -479,9 +541,6 @@ public sealed class 타이틀화면 : MonoBehaviour
         방생성버튼.interactable = 켜짐;
         참가버튼.interactable = 켜짐;
         참가코드.readOnly = !켜짐;
-        이전직업.interactable = 다음직업.interactable = 켜짐;
-        foreach (var 버튼 in 스킬칸버튼) 버튼.interactable = 켜짐;
-        foreach (var 버튼 in 스킬후보버튼) 버튼.interactable = 켜짐;
     }
 }
 

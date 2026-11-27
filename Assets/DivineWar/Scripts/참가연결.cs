@@ -20,6 +20,7 @@ public sealed class 참가연결 : IDisposable
     const string 상태채널 = "dw.state";
     const string 확인채널 = "dw.ack";
     const int 최대명령길이 = 2048;
+    const uint 최대미확인전송 = 4;
     static readonly SemaphoreSlim 세션차례 = new(1, 1);
     static readonly UTF8Encoding 인코딩 = new(false, true);
 
@@ -27,8 +28,8 @@ public sealed class 참가연결 : IDisposable
     {
         public ulong 번호;
         public uint 보낸순번, 확인순번;
-        public float 마지막송신;
-        public bool 송신가능 => 보낸순번 == 확인순번;
+        public float 마지막확인;
+        public bool 송신가능 => unchecked(보낸순번 - 확인순번) < 최대미확인전송;
     }
 
     readonly NetworkManager 관리자;
@@ -65,7 +66,7 @@ public sealed class 참가연결 : IDisposable
             foreach (var 참가자 in 팀원)
             {
                 if (참가자 == null) continue;
-                if (!참가자.송신가능 && Time.realtimeSinceStartup - 참가자.마지막송신 > 20f)
+                if (참가자.보낸순번 != 참가자.확인순번 && Time.realtimeSinceStartup - 참가자.마지막확인 > 20f)
                 {
                     오류 = "참가자의 전장 수신 응답이 없습니다.";
                     return false;
@@ -203,7 +204,7 @@ public sealed class 참가연결 : IDisposable
         {
             if (번호 == NetworkManager.ServerClientId || 팀찾기(번호) >= 0) return;
             int 팀 = Array.FindIndex(팀원, 원격팀시작, 참가자 => 참가자 == null);
-            if (팀 >= 0 && 오류 == null) 팀원[팀] = new 참가자 { 번호 = 번호 };
+            if (팀 >= 0 && 오류 == null) 팀원[팀] = new 참가자 { 번호 = 번호, 마지막확인 = Time.realtimeSinceStartup };
             else 관리자.DisconnectClient(번호);
         }
         else if (번호 == 관리자.LocalClientId) 서버접속 = true;
@@ -287,12 +288,12 @@ public sealed class 참가연결 : IDisposable
             foreach (var 참가자 in 팀원)
             {
                 if (참가자 == null || !참가자.송신가능) continue;
+                if (참가자.보낸순번 == 참가자.확인순번) 참가자.마지막확인 = Time.realtimeSinceStartup;
                 using var 버퍼 = new FastBufferWriter(8 + 압축.Length, Allocator.Temp);
                 버퍼.WriteValueSafe(++참가자.보낸순번);
                 버퍼.WriteValueSafe(원본길이);
                 버퍼.WriteBytesSafe(압축);
                 관리자.CustomMessagingManager.SendNamedMessage(상태채널, 참가자.번호, 버퍼, NetworkDelivery.ReliableFragmentedSequenced);
-                참가자.마지막송신 = Time.realtimeSinceStartup;
             }
         }
         catch (InvalidDataException ex) { 오류 = ex.Message; }
@@ -310,7 +311,8 @@ public sealed class 참가연결 : IDisposable
 
         버퍼.ReadValueSafe(out uint 순번);
         버퍼.ReadValueSafe(out int 원본길이);
-        if (순번 != unchecked(받은순번 + 1)) return;
+        uint 차이 = unchecked(순번 - 받은순번);
+        if (차이 == 0 || 차이 > 0x80000000u) return;
         var 바이트 = new byte[길이];
         버퍼.ReadBytesSafe(ref 바이트, 길이);
         try
@@ -334,7 +336,13 @@ public sealed class 참가연결 : IDisposable
         int 팀 = 팀찾기(보낸이);
         if (팀 < 0 || 버퍼.Length - 버퍼.Position != sizeof(uint)) return;
         버퍼.ReadValueSafe(out uint 순번);
-        if (순번 == 팀원[팀].보낸순번) 팀원[팀].확인순번 = 순번;
+        uint 미확인 = unchecked(팀원[팀].보낸순번 - 팀원[팀].확인순번);
+        uint 진행 = unchecked(순번 - 팀원[팀].확인순번);
+        if (진행 > 0 && 진행 <= 미확인)
+        {
+            팀원[팀].확인순번 = 순번;
+            팀원[팀].마지막확인 = Time.realtimeSinceStartup;
+        }
     }
 
     public void Dispose() => _ = 닫기Async();

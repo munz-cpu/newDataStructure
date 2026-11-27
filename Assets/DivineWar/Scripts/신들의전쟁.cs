@@ -153,7 +153,9 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
     int 주민스탯번호 = -1;
     int 카메라추적번호 = -1;
     int? 지도포인터;
-    float 전송시간, 손님대기, 시뮬누적;
+    float 전송시간, 손님대기, 시뮬누적, 마지막상태시각, 최근상태간격 = .05f, 추정전장시간;
+    readonly 보간이동[] 슬롯보간 = new 보간이동[전장규칙.전체칸];
+    readonly 보간이동[] 짐승보간 = new 보간이동[전장짐승.전체칸];
     Vector2 누른위치, 현재마우스, 지도누른위치, 지도누르기전왕기준시점;
     Vector2 보낸이동방향;
     bool 보낸달리기;
@@ -179,6 +181,12 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         public Sprite[] 방향프레임;
     }
 
+    struct 보간이동
+    {
+        public Vector3 시작;
+        public float 경과, 길이;
+    }
+
     struct 왕그림상태
     {
         public bool 표시중, 채집중;
@@ -198,7 +206,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
 
     struct 병사그림상태
     {
-        public int 방향;
+        public int 방향, 이전공격순번;
         public float 대기시간, 걷기거리, 이동여운, 공격여운, 피격여운, 이전공격대기;
     }
 
@@ -222,7 +230,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
 
     void OnEnable()
     {
-        if (!Application.isEditor) Application.runInBackground = true;
+        if (!Application.isEditor || 멀티) Application.runInBackground = true;
         if (전장입장.서버빌드)
         {
             GetComponent<UIDocument>().enabled = false;
@@ -475,6 +483,11 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         주민패널?.닫기();
         Array.Clear(대상이전체력, 0, 대상이전체력.Length);
         Array.Clear(짐승등장번호, 0, 짐승등장번호.Length);
+        Array.Clear(슬롯보간, 0, 슬롯보간.Length);
+        Array.Clear(짐승보간, 0, 짐승보간.Length);
+        마지막상태시각 = 0;
+        최근상태간격 = .05f;
+        추정전장시간 = 0;
         피해숫자들.Clear();
         if (채집그림들 != null)
         {
@@ -650,7 +663,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             규칙.왕이동경로복사(0, 상태.청록왕경로);
             규칙.왕이동경로복사(1, 상태.적색왕경로);
             연결.상태보내기("S" + JsonUtility.ToJson(상태));
-            전송시간 = .083f;
+            전송시간 = .04f;
         }
     }
 
@@ -667,6 +680,8 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
     void 접속갱신(float 초)
     {
         if (연결 == null) return;
+        if (전투중 && 상태 != null)
+            추정전장시간 = Mathf.Min(추정전장시간 + 초, 상태.시간 + .25f);
         string 마지막상태 = null;
         while (연결.받기(out int 팀, out string 문장))
             if (팀 == -1 && 문장.StartsWith("S", StringComparison.Ordinal)) 마지막상태 = 문장;
@@ -686,6 +701,28 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
                         return;
                     }
                     군단구성정리(받은상태);
+                    float 지금 = Time.unscaledTime;
+                    if (마지막상태시각 > 0)
+                        최근상태간격 = Mathf.Lerp(최근상태간격, Mathf.Clamp(지금 - 마지막상태시각, .03f, .2f), .35f);
+                    마지막상태시각 = 지금;
+                    추정전장시간 = 받은상태.시간;
+                    float 보간길이 = 최근상태간격 * 1.12f;
+                    for (int i = 0; i < 슬롯.Length; i++)
+                    {
+                        var 대상 = 받은상태.대상들[i];
+                        보간준비(ref 슬롯보간[i], 슬롯[i], 대상?.위치 ?? default,
+                            대상 is { 생존: true, 훈련남음: <= 0 }, 보간길이);
+                    }
+                    if (짐승슬롯 != null && 받은상태.짐승들 != null)
+                    {
+                        int 수 = Mathf.Min(짐승슬롯.Length, Math.Min(짐승등장번호.Length, 받은상태.짐승들.Length));
+                        for (int i = 0; i < 수; i++)
+                        {
+                            var 짐승 = 받은상태.짐승들[i];
+                            보간준비(ref 짐승보간[i], 짐승슬롯[i], 짐승.위치,
+                                짐승.등장번호 != 0 && !짐승.전리품 && 짐승등장번호[i] == 짐승.등장번호, 보간길이);
+                        }
+                    }
                     상태 = 받은상태;
                     for (int i = 자원들.Length; i < 전장자원들.Length; i++)
                         길찾기.숲나무반영(전장자원들[i].위치, 상태.자원잔량[i] > 0);
@@ -698,6 +735,25 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         if (상태?.승자 >= 0 || 연결종료.Length > 0) return;
         if (연결.오류 != null) 연결끊김표시(연결.오류);
         else if (!전투중 && (손님대기 += 초) > 12) 연결끊김표시("서버의 전장 정보를 받지 못했습니다.");
+    }
+
+    static void 보간준비(ref 보간이동 보간, SpriteRenderer 그림, Vector2 목표, bool 유효, float 길이)
+    {
+        if (유효 && 그림 != null && 그림.enabled && Vector2.Distance(그림.transform.position, 목표) <= 2.5f)
+            보간 = new 보간이동 { 시작 = 그림.transform.position, 경과 = 0, 길이 = 길이 };
+        else 보간 = default;
+    }
+
+    static Vector3 보간위치(ref 보간이동 보간, SpriteRenderer 그림, Vector3 현재, Vector3 목표, bool 즉시, float 초)
+    {
+        if (즉시 || !그림.enabled || Vector3.Distance(현재, 목표) > 2.5f)
+        {
+            보간 = default;
+            return 목표;
+        }
+        if (보간.길이 <= 0) return Vector3.MoveTowards(현재, 목표, 초 * 6);
+        보간.경과 += 초;
+        return Vector3.Lerp(보간.시작, 목표, Mathf.Clamp01(보간.경과 / 보간.길이));
     }
 
     void 연결끊김표시(string 문장)
@@ -1653,9 +1709,11 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             자동추적 = false;
             카메라추적번호 = -1;
         }
-        var 목표 = 자동추적
-            ? 카메라추적번호 >= 0 ? 상태.대상들[카메라추적번호].위치 : 내왕().위치
-            : (Vector2)현재 + 방향.normalized * (11 * 초);
+        int 추적대상 = 카메라추적번호 >= 0 ? 카메라추적번호 : 전장규칙.왕번호(내팀);
+        var 추적위치 = 슬롯[추적대상] != null && 슬롯[추적대상].enabled
+            ? (Vector2)슬롯[추적대상].transform.position
+            : 상태.대상들[추적대상].위치;
+        var 목표 = 자동추적 ? 추적위치 : (Vector2)현재 + 방향.normalized * (11 * 초);
         전장카메라.transform.position = 자동추적
             ? Vector3.Lerp(현재, 카메라한계(목표), 1 - Mathf.Exp(-9 * 초))
             : 카메라한계(목표);
@@ -1812,28 +1870,30 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             }
             Vector3 현재 = 그림.transform.position;
             Vector3 목표 = 대상.위치;
-            그림.transform.position = 규칙 != null || !그림.enabled || Vector3.Distance(현재, 목표) > 2
-                ? 목표 : Vector3.MoveTowards(현재, 목표, 초 * 6);
+            그림.transform.position = 보간위치(ref 슬롯보간[i], 그림, 현재, 목표, 규칙 != null, 초);
+            Vector2 화면이동 = 그림.transform.position - 현재;
             if (대상.연습허수아비)
             {
                 그림.sprite = 허수아비그림;
                 그림.flipX = false;
             }
             else if (대상.종류 == 대상종류.주민 && 주민방향프레임?.Length == 16)
-                주민그림갱신(i, 대상, 그림, 그림.transform.position - 현재, 일시정지 ? 0 : 초);
+                주민그림갱신(i, 대상, 그림, 화면이동, 일시정지 ? 0 : 초);
             else if (대상.종류 == 대상종류.병사)
-                병사그림갱신(i, 대상, 그림, 그림.transform.position - 현재, 피격, 일시정지 ? 0 : 초);
+                병사그림갱신(i, 대상, 그림, 화면이동, 피격, 일시정지 ? 0 : 초);
             else 그림.flipX = !대상.건물 && 대상.왼쪽;
+            float 표시시각 = 규칙 != null ? 상태.시간 : 추정전장시간;
             if (대상.울타리) 그림.sprite = 울타리그림(대상.종류, 대상.세로);
-            if (대상.종류 == 대상종류.깃발) 그림.sprite = 깃발그림[대상.팀 * 8 + (int)(상태.시간 * 4) % 2];
+            if (대상.종류 == 대상종류.깃발) 그림.sprite = 깃발그림[대상.팀 * 8 + (int)(표시시각 * 4) % 2];
             if (전장규칙.시설인가(대상))
             {
                 int 종류 = (int)대상.종류 - (int)대상종류.브루저훈련소;
                 그림.sprite = 시설그림[종류 * 16 + 대상.팀 * 8];
             }
-            if (대상.도약시간 > 0)
+            float 도약남음 = 규칙 != null ? 대상.도약시간 : Mathf.Max(0, 대상.도약시간 - Mathf.Max(0, 추정전장시간 - 상태.시간));
+            if (도약남음 > 0)
             {
-                float 진행 = 1 - 대상.도약시간 / .5f;
+                float 진행 = 1 - 도약남음 / .5f;
                 그림.transform.position = Vector2.Lerp(대상.도약출발, 대상.위치, 진행) + Vector2.up * (Mathf.Sin(진행 * Mathf.PI) * 1.6f);
             }
             if (대상.소환 != 소환종류.없음)
@@ -1845,14 +1905,14 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
                         ? 표적.위치 - 대상.위치 : 대상.시선;
                     var 프레임 = 대상.공격대기 > .4f ? 소환외형.공격 : 대상.이동중 ? 소환외형.이동 : 소환외형.대기;
                     if (프레임?.Length == 120)
-                        그림.sprite = 프레임[스프라이트방향(방향) * 15 + Mathf.Min(14, (int)(상태.시간 % .9f / .9f * 15))];
+                        그림.sprite = 프레임[스프라이트방향(방향) * 15 + Mathf.Min(14, (int)(표시시각 % .9f / .9f * 15))];
                 }
                 그림.flipX = false;
             }
             if (대상.해골병사 || 대상.종류 == 대상종류.시련보스) 시련유닛그림(대상, 그림);
             그림.enabled = true;
             그림.sortingOrder = 전장지형.깊이순서(그림.transform.position.y);
-            if (대상.종류 == 대상종류.왕) 왕그림갱신(대상, 그림, 일시정지 ? 0 : 초);
+            if (대상.종류 == 대상종류.왕) 왕그림갱신(대상, 그림, 화면이동, 일시정지 ? 0 : 초);
             그림.color = 대상.효과시간 > 0 ? new Color(1, .8f, .67f)
                 : 대상.완공대기 > 0 ? new Color(1, 1, 1, .57f)
                 : 대상.종류 == 대상종류.왕 ? Color.Lerp(Color.white, 대상.팀 == 0 ? 청록 : 적색, .18f) : Color.white;
@@ -1921,8 +1981,8 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
                 그림.enabled = false;
                 continue;
             }
-            그림.transform.position = 규칙 != null || !그림.enabled || 짐승등장번호[i] != 짐승.등장번호
-                ? 짐승.위치 : Vector2.MoveTowards(그림.transform.position, 짐승.위치, 초 * 6f);
+            그림.transform.position = 보간위치(ref 짐승보간[i], 그림, 그림.transform.position,
+                짐승.위치, 규칙 != null || 짐승등장번호[i] != 짐승.등장번호, 초);
             짐승등장번호[i] = 짐승.등장번호;
             그림.sprite = 방향프레임[짐승.방향];
             그림.sortingOrder = 전장지형.깊이순서(그림.transform.position.y);
@@ -2010,7 +2070,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
 
         ref var 동작 = ref 병사그림들[슬롯번호];
         if (!그림.enabled)
-            동작 = new 병사그림상태 { 방향 = 병사.왼쪽 ? 4 : 0 };
+            동작 = new 병사그림상태 { 방향 = 병사.왼쪽 ? 4 : 0, 이전공격순번 = 병사.공격순번 };
         else
         {
             동작.공격여운 = Mathf.Max(0, 동작.공격여운 - 초);
@@ -2018,13 +2078,13 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             if (이동.sqrMagnitude > .000001f)
             {
                 if (동작.이동여운 <= 0) 동작.걷기거리 = 0;
-                동작.이동여운 = .12f;
+                동작.이동여운 = 규칙 != null ? .12f : Mathf.Max(.16f, 최근상태간격 * 1.6f);
                 동작.걷기거리 = Mathf.Repeat(동작.걷기거리 + 이동.magnitude, 보폭주기거리);
                 if (동작.공격여운 <= 0) 동작.방향 = 스프라이트방향(이동);
             }
             else 동작.이동여운 = Mathf.Max(0, 동작.이동여운 - 초);
 
-            if (병사.공격대기 > 0 && 병사.공격대기 > 동작.이전공격대기 + .12f)
+            if (병사.공격순번 != 동작.이전공격순번 || 병사.공격대기 > 0 && 병사.공격대기 > 동작.이전공격대기 + .12f)
             {
                 동작.공격여운 = 공격길이;
                 if ((uint)병사.표적 < (uint)상태.대상들.Length && 상태.대상들[병사.표적] is { } 적)
@@ -2035,6 +2095,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             }
         }
         동작.이전공격대기 = 병사.공격대기;
+        동작.이전공격순번 = 병사.공격순번;
         동작.대기시간 = Mathf.Repeat(동작.대기시간 + 초, 대기길이);
 
         int 번호;
@@ -2055,7 +2116,7 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         그림.flipX = false;
     }
 
-    void 왕그림갱신(전장대상 왕, SpriteRenderer 그림, float 초)
+    void 왕그림갱신(전장대상 왕, SpriteRenderer 그림, Vector2 화면이동, float 초)
     {
         var 외형 = 왕외형목록.가져오기()?.표시외형(상태.진영들[왕.팀].직업);
         var 대기프레임 = 외형?.대기 ?? 왕대기프레임;
@@ -2063,7 +2124,8 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         var 공격프레임 = 외형?.공격 ?? 왕공격프레임;
         const int 방향당프레임 = 15;
         const int 전체프레임 = 8 * 방향당프레임;
-        float 공격길이 = 왕.왕공격동작길이 > 0 ? 왕.왕공격동작길이 : .55f;
+        bool 공격취소 = 왕.왕공격동작길이 <= 0;
+        float 공격길이 = !공격취소 ? 왕.왕공격동작길이 : .55f;
         if (대기프레임?.Length != 전체프레임 || 이동프레임?.Length != 전체프레임
             || 공격프레임?.Length != 전체프레임) return;
 
@@ -2080,20 +2142,25 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
         if (동작.표시중)
         {
             var 이동 = 왕.위치 - 동작.위치;
+            if (이동.sqrMagnitude <= .000001f) 이동 = 화면이동;
             동작.이동여운 = Mathf.Max(0, 동작.이동여운 - 초);
             동작.공격여운 = Mathf.Max(0, 동작.공격여운 - 초);
-            if (이동.sqrMagnitude > .000001f)
+            if (이동.sqrMagnitude > .000001f || 왕.이동중)
             {
                 // 시뮬레이션과 네트워크 위치 갱신 사이에도 달리기를 이어간다.
-                동작.이동여운 = .12f;
-                동작.방향 = 스프라이트방향(이동);
+                동작.이동여운 = 규칙 != null ? .12f : Mathf.Max(.16f, 최근상태간격 * 1.6f);
+                if (이동.sqrMagnitude > .000001f) 동작.방향 = 스프라이트방향(이동);
             }
             if (왕.채집터 < 0 && !동작.채집중 && 왕.공격순번 != 동작.이전공격순번)
             {
-                동작.공격여운 = 공격길이;
-                공격시작 = true;
-                if (왕.공격방향.sqrMagnitude > .000001f) 동작.방향 = 스프라이트방향(왕.공격방향);
+                if (!공격취소)
+                {
+                    동작.공격여운 = 공격길이;
+                    공격시작 = true;
+                    if (왕.공격방향.sqrMagnitude > .000001f) 동작.방향 = 스프라이트방향(왕.공격방향);
+                }
             }
+            if (공격취소) 동작.공격여운 = 0;
         }
         else
         {
@@ -2109,9 +2176,10 @@ public sealed partial class 신들의전쟁 : MonoBehaviour
             동작.공격여운 = 0;
             if (채집방향.sqrMagnitude > .000001f) 동작.방향 = 스프라이트방향(채집방향);
         }
-        bool 공격중 = 동작.공격여운 > 0 && 상태.시간 < 왕.공격시각 + 공격길이;
+        bool 공격중 = 동작.공격여운 > 0 && (규칙 == null || 상태.시간 < 왕.공격시각 + 공격길이);
         bool 이동중 = 동작.이동여운 > 0;
-        float 기술초 = 상태.시간 - 왕.왕기술시각;
+        float 표시시각 = 규칙 != null ? 상태.시간 : 추정전장시간;
+        float 기술초 = 표시시각 - 왕.왕기술시각;
         float 기술길이 = 왕직업목록.기술동작길이(왕.왕기술동작);
         bool 회전중 = 왕.왕기술동작 == 장착기술.회전베기;
         var 기술프레임 = 회전중 || 기술초 < 기술길이 ? 왕외형목록.검사기술외형(왕.왕기술동작) : null;
